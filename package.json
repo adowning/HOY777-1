@@ -1,0 +1,17 @@
+{
+  "name": "hoy777-monorepo",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "concurrently --names \"FRONTEND,BACKEND\" --prefix-colors \"blue,magenta\" \"bun --cwd frontend dev\" \"bun --cwd backend dev\"",
+    "dev:backend": "bun --cwd backend dev",
+    "drizzle:studio": "bun --cwd backend drizzle-kit studio"
+  },
+  "devDependencies": {
+    "bun-types": "^1.0.0",
+    "concurrently": "^9.2.0"
+  }
+}
