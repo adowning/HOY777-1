@@ -1,21 +1,13 @@
-import configureOpenAPI from "./lib/configure-open-api";
-import createApp from "./lib/create-app";
-import index from "./modules/index.route";
-import user from "./modules/user/user.router";
+import configureOpenAPI from './lib/configure-open-api'
+import createApp from './lib/create-app'
+import routes from './modules/index.route'
 
-const app = createApp();
+const app = createApp()
 
-configureOpenAPI(app);
+configureOpenAPI(app)
 
-const routes = [
-  index,
-  user,
-] as const;
+app.route('/', routes)
 
-routes.forEach((route) => {
-  app.route("/", route);
-});
+export type AppType = typeof routes
 
-export type AppType = typeof routes[number];
-
-export default app;
+export default app

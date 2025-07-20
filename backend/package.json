@@ -5,7 +5,18 @@
   "private": true,
   "devDependencies": {
     "@types/bun": "latest",
-    "drizzle-kit": "latest"
+    "@typescript-eslint/eslint-plugin": "^8.37.0",
+    "@typescript-eslint/parser": "^8.37.0",
+    "drizzle-kit": "latest",
+    "eslint": "^9.31.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.3",
+    "prettier": "^3.6.2"
+  },
+  "scripts": {
+    "dev": "bun run --watch index.ts --elide-lines 1000",
+    "lint": "eslint .",
+    "format": "prettier --write ."
   },
   "peerDependencies": {
     "typescript": "^5"

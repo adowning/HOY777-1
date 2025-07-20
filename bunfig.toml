@@ -1,0 +1,21 @@
+# bunfig.toml
+
+[install]
+# Explicitly set bun as the package manager for this project.
+# This helps avoid confusion if you have multiple package managers installed.
+pm = "bun"
+
+# Defines the directory where modules are installed.
+modules-dir = "node_modules"
+
+[run]
+# Sets the default shell for `bun run` commands.
+#shell = "bash"
+
+
+[test]
+# You can configure default test runner options here.
+# For example:
+# coverage = true
+# preload = ["./test/setup.ts"]
+# root = "."
