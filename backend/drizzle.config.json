@@ -1,8 +1,0 @@
-{
-  "schema": "./db/schemelibsql.ts",
-  "out": "./drizzle",
-  "dialect": "sqlite",
-  "dbCredentials": {
-    "url": "./dev.db"
-  }
-}

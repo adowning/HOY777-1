@@ -13,9 +13,3 @@ modules-dir = "node_modules"
 #shell = "bash"
 
 
-[test]
-# You can configure default test runner options here.
-# For example:
-# coverage = true
-# preload = ["./test/setup.ts"]
-# root = "."

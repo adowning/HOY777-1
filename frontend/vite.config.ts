@@ -119,7 +119,7 @@ export default (configEnv: ConfigEnv): UserConfigExport => {
       port: 3000,
       proxy: {
         '/api': {
-          target: 'http://dev.api.xxx.com', // 后端接口的域名
+          target: 'http://localhost:9999', // 后端接口的域名
           changeOrigin: true,
           rewrite: path => path.replace(/^\/api/, ''),
         },

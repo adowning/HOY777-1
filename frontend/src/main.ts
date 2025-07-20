@@ -34,7 +34,7 @@ registerPlugins(app)
 setupStore(app);
 
 // Connect to WebSocket
-const socketConnection = 'ws://localhost:8080'; // Replace with your WebSocket server URL
+const socketConnection = 'ws://localhost:9999/ws'; // Replace with your WebSocket server URL
 app.use(WebSocket, socketConnection);
 
 app.use(i18n)
