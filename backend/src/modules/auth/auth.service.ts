@@ -1,4 +1,4 @@
-import db from '../../db'
+import { db } from '#/db'
 import {
   users,
   balances,
@@ -7,51 +7,62 @@ import {
   userRewards,
   inviteStats,
   selectUsersSchema,
-} from '../../db'
+} from '#/db'
 import * as jose from 'jose'
 import { eq } from 'drizzle-orm'
 import { z } from 'zod'
+import { env } from '#/env'
 
-const JWT_SECRET = process.env.JWT_SECRET || 'your-super-secret-key'
 const ACCESS_TOKEN_EXPIRES_IN = '7 days'
 const REFRESH_TOKEN_EXPIRES_IN = '7 days'
 
 // This login function seems incomplete and has unresolved dependencies (`desc`, `transactions`, etc.)
 // I have left it as-is to focus on the requested signup functionality.
-export const login = async (username: string, password: string) => {
+export const login = async (
+  username: string,
+  password: string,
+  uid?: string
+) => {
   console.log('Logging in with:', { username, password })
-
-  const userRecord = await db.query.users.findFirst({
-    where: eq(users.username, username),
-  })
-
+  if (!username) username = uid
+  // const userRecord = await db.query.users.findFirst({
+  //   where: eq(users.username, username),
+  // })
+  const many = await db.select().from(users)
+  console.log(many)
+  const userRecords = await db
+    .select()
+    .from(users)
+    .where(eq(users.username, username))
+  const userRecord = userRecords[0]
   if (!userRecord || !userRecord.passwordHash) {
-    throw new Error('Invalid credentials')
+    throw new Error('Invalid credentials - user does not exist')
   }
-
+  console.log(password)
+  console.log(userRecord.passwordHash)
   const isPasswordValid = await Bun.password.verify(
     password,
     userRecord.passwordHash
   )
 
   if (!isPasswordValid) {
-    throw new Error('Invalid credentials')
+    throw new Error('Invalid credentials - password')
   }
 
-  const jwtKey = jose.base64url.decode(JWT_SECRET)
+  const secret = new TextEncoder().encode(env.ACCESS_TOKEN_SECRET)
 
   // Generate tokens
   const accessToken = await new jose.SignJWT({ userId: userRecord.id })
     .setProtectedHeader({ alg: 'HS256' })
     .setIssuedAt()
     .setExpirationTime(ACCESS_TOKEN_EXPIRES_IN)
-    .sign(jwtKey)
+    .sign(secret)
 
   const refreshToken = await new jose.SignJWT({ userId: userRecord.id })
     .setProtectedHeader({ alg: 'HS256' })
     .setIssuedAt()
     .setExpirationTime(REFRESH_TOKEN_EXPIRES_IN)
-    .sign(jwtKey)
+    .sign(secret)
 
   // The original query had unresolved dependencies (e.g., `activeWallet`, `vipInfo`).
   // Returning the user record directly for now.
@@ -140,18 +151,18 @@ export const signup = async (username: string, password: string) => {
     const { user } = result
 
     // Step 8: Generate JWT tokens
-    const jwtKey = jose.base64url.decode(JWT_SECRET)
+    const secret = new TextEncoder().encode(env.ACCESS_TOKEN_SECRET)
     const accessToken = await new jose.SignJWT({ userId: user.id })
       .setProtectedHeader({ alg: 'HS256' })
       .setIssuedAt()
       .setExpirationTime(ACCESS_TOKEN_EXPIRES_IN)
-      .sign(jwtKey)
+      .sign(secret)
 
     const refreshToken = await new jose.SignJWT({ userId: user.id })
       .setProtectedHeader({ alg: 'HS256' })
       .setIssuedAt()
       .setExpirationTime(REFRESH_TOKEN_EXPIRES_IN)
-      .sign(jwtKey)
+      .sign(secret)
 
     return { accessToken, refreshToken, user }
   } catch (error) {

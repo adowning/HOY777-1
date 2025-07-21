@@ -6,7 +6,7 @@
     "backend"
   ],
   "scripts": {
-    "dev": "concurrently --names \"FRONTEND,BACKEND\" --prefix-colors \"blue,magenta\" \"bun --cwd frontend dev\" \"npm:dev:backend --elide-lines 1000\"",
+    "dev": "concurrently --names \"FRONTEND,BACKEND\" --prefix-colors \"blue,magenta\" \"bun --cwd frontend dev\" \"bun --cwd frontend dev\"",
     "dev:backend": "bun --cwd backend dev | bunx pino-pretty",
     "drizzle:studio": "bun --cwd backend drizzle-kit studio"
   },
@@ -32,6 +32,14 @@
   },
   "trustedDependencies": [
     "@parcel/watcher",
-    "core-js"
+    "core-js",
+    "cwebp-bin",
+    "esbuild",
+    "gifsicle",
+    "jpegtran-bin",
+    "mozjpeg",
+    "optipng-bin",
+    "pngquant-bin",
+    "vue-demi"
   ]
 }

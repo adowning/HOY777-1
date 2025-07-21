@@ -1,5 +1,7 @@
 import { NodePgDatabase } from 'drizzle-orm/node-postgres'
 import * as schema from '../../src/db/schema'
+import { eq } from 'drizzle-orm'
+
 import {
   randNumber,
   randPastDate,
@@ -7,7 +9,6 @@ import {
   randUserName,
   rand,
 } from '@ngneat/falso'
-
 export async function seedUsers(
   db: NodePgDatabase<typeof schema>,
   count: number,
@@ -15,7 +16,9 @@ export async function seedUsers(
 ) {
   console.log(`🌱 Seeding ${count} random users, each with a wallet...`)
 
-  const allVipLevels = await db.query.vipLevels.findMany()
+  // Use the standard query builder
+  const allVipLevels = await db.select().from(schema.vipLevels)
+
   if (allVipLevels.length === 0) {
     throw new Error('VIP levels must be seeded before users.')
   }
@@ -26,9 +29,7 @@ export async function seedUsers(
     const hashedPassword = await Bun.password.hash(password)
     const createdAt = randPastDate({ years: 1 })
 
-    // Use a transaction to ensure user and wallet are created together
     await db.transaction(async (tx) => {
-      // 1. Create the user
       const [newUser] = await tx
         .insert(schema.users)
         .values({
@@ -39,15 +40,13 @@ export async function seedUsers(
         })
         .returning()
 
-      // 2. Create the associated wallet
       await tx.insert(schema.wallets).values({
         id: `wallet_${crypto.randomUUID()}`,
         userId: newUser.id,
-        operatorId: operatorId, // Link to the hardcoded operator
-        balance: 0, // Wallets start empty
+        operatorId: operatorId,
+        balance: 0,
       })
 
-      // 3. Create an initial balance record for compatibility
       const initialBalance = randNumber({ min: 1000, max: 20000 })
       await tx.insert(schema.balances).values({
         userId: newUser.id,
@@ -70,18 +69,19 @@ export async function seedHardcodedUser(
   const username = 'asdf'
   const password = 'asdfasdf'
 
-  const existingUser = await db.query.users.findFirst({
-    where: (users, { eq }) => eq(users.username, username),
-  })
+  // Use the standard query builder `db.select()` to check for the user
+  const [existingUser] = await db
+    .select()
+    .from(schema.users)
+    .where(eq(schema.users.username, username))
+
   if (existingUser) {
     console.log("✅ Hardcoded user 'asdf' already exists.")
     return
   }
 
   const hashedPassword = await Bun.password.hash(password)
-
   await db.transaction(async (tx) => {
-    // 1. Create the user
     const [newUser] = await tx
       .insert(schema.users)
       .values({
@@ -91,7 +91,6 @@ export async function seedHardcodedUser(
       })
       .returning()
 
-    // 2. Create the wallet
     await tx.insert(schema.wallets).values({
       id: `wallet_${crypto.randomUUID()}`,
       userId: newUser.id,
@@ -99,7 +98,6 @@ export async function seedHardcodedUser(
       balance: 50000, // 500 USD
     })
 
-    // 3. Create a balance record
     await tx.insert(schema.balances).values({
       userId: newUser.id,
       amount: 50000,

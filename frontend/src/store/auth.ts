@@ -70,6 +70,7 @@ export const authStore = defineStore('auth', () => {
     try {
       isLoading.value = true;
       setSuccess(false);
+      msg.username = msg.uid
       const response = await post<SignIn.GetSigninResponseData>(apiRoutes.LOGIN.LOGIN, msg);
       setToken(response.token);
       setSuccess(true);

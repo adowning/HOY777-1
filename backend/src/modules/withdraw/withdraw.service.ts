@@ -1,4 +1,4 @@
-import db from '../../db'
+import { db } from '../../db'
 import { withdrawals } from '../../db'
 import { eq } from 'drizzle-orm'
 

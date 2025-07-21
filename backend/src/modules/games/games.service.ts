@@ -1,4 +1,4 @@
-import db from '../../db'
+import { db } from '../../db'
 import { gameCategories, games, gameBigWins } from '../../db'
 import { desc } from 'drizzle-orm'
 

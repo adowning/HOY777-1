@@ -1,4 +1,4 @@
-import db from '../../db'
+import { db } from '../../db'
 import { promos } from '../../db'
 
 export const findManyActivities = async () => {

@@ -1,6 +1,7 @@
-import { OpenAPIHono, createRoute, z } from '@hono/zod-openapi'
+import { createRoute, z } from '@hono/zod-openapi'
 import * as controller from './vipinfo.controller'
 import { selectVipLevelsSchema } from '../../db'
+import { createRouter } from '../../lib/create-app'
 
 const tags = ['VIP']
 
@@ -145,26 +146,25 @@ const vipBetAwardReceive = createRoute({
   responses: { 200: { description: 'Receive VIP bet award' } },
 })
 
-const vipInfoRouter = new OpenAPIHono()
+const router = createRouter()
+  .openapi(vipInfo, controller.getVipInfo)
+  .openapi(vipLevels, controller.getVipLevels)
+  .openapi(vipTasks, controller.getVipTasks)
+  .openapi(vipLevelAward, controller.claimVipLevelAward)
+  .openapi(vipRebateAward, controller.claimVipRebateAward)
+  .openapi(vipRebateHistory, controller.getVipRebateHistory)
+  .openapi(vipLevelAwardHistory, controller.getVipLevelAwardHistory)
+  .openapi(vipTimesHistory, controller.getVipTimesHistory)
+  .openapi(vipSigninRewards, controller.claimVipSigninRewards)
+  .openapi(vipSigninList, controller.getVipSigninList)
+  .openapi(vipSigninReceive, controller.receiveVipSigninAward)
+  .openapi(vipLevelUpList, controller.getVipLevelUpList)
+  .openapi(vipLevelUpReceive, controller.receiveVipLevelUpAward)
+  .openapi(vipCycleAwardList, controller.getVipCycleAwardList)
+  .openapi(vipCycleAwardReceive, controller.receiveVipCycleAward)
+  .openapi(vipLevelAwardList, controller.getVipLevelAwardList)
+  .openapi(vipLevelAwardReceive, controller.receiveVipLevelAward)
+  .openapi(vipBetAwardList, controller.getVipBetAwardList)
+  .openapi(vipBetAwardReceive, controller.receiveVipBetAward)
 
-vipInfoRouter.openapi(vipInfo, controller.getVipInfo)
-vipInfoRouter.openapi(vipLevels, controller.getVipLevels)
-vipInfoRouter.openapi(vipTasks, controller.getVipTasks)
-vipInfoRouter.openapi(vipLevelAward, controller.claimVipLevelAward)
-vipInfoRouter.openapi(vipRebateAward, controller.claimVipRebateAward)
-vipInfoRouter.openapi(vipRebateHistory, controller.getVipRebateHistory)
-vipInfoRouter.openapi(vipLevelAwardHistory, controller.getVipLevelAwardHistory)
-vipInfoRouter.openapi(vipTimesHistory, controller.getVipTimesHistory)
-vipInfoRouter.openapi(vipSigninRewards, controller.claimVipSigninRewards)
-vipInfoRouter.openapi(vipSigninList, controller.getVipSigninList)
-vipInfoRouter.openapi(vipSigninReceive, controller.receiveVipSigninAward)
-vipInfoRouter.openapi(vipLevelUpList, controller.getVipLevelUpList)
-vipInfoRouter.openapi(vipLevelUpReceive, controller.receiveVipLevelUpAward)
-vipInfoRouter.openapi(vipCycleAwardList, controller.getVipCycleAwardList)
-vipInfoRouter.openapi(vipCycleAwardReceive, controller.receiveVipCycleAward)
-vipInfoRouter.openapi(vipLevelAwardList, controller.getVipLevelAwardList)
-vipInfoRouter.openapi(vipLevelAwardReceive, controller.receiveVipLevelAward)
-vipInfoRouter.openapi(vipBetAwardList, controller.getVipBetAwardList)
-vipInfoRouter.openapi(vipBetAwardReceive, controller.receiveVipBetAward)
-
-export default vipInfoRouter
+export default router

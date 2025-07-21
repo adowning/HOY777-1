@@ -6,13 +6,14 @@ import * as rawgames from './json/games2.json'
 
 const CATEGORIES = [
   { name: 'Slots', slug: 'slots', type: 'slot' },
+  { name: 'Lobby', slug: 'lobby', type: 'lobby' },
   { name: 'Live Casino', slug: 'live-casino', type: 'live' },
   { name: 'Table Games', slug: 'table-games', type: 'table' },
 ]
 
 const GAMES = []
-console.log(rawgames)
 for (var game of rawgames.default) {
+  game.category = game.gamebank || game.type
   GAMES.push(game)
 }
 // rawgames.forEach((game) => {

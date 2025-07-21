@@ -1,7 +1,7 @@
 [
   {
     "id": "13505",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "AncientDiscoRTG",
@@ -40,7 +40,7 @@
   },
   {
     "id": "13512",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "BassBossRTG",
@@ -79,7 +79,7 @@
   },
   {
     "id": "13514",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "BlazingClustersRTG",
@@ -118,7 +118,7 @@
   },
   {
     "id": "13503",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "CashOrNothingRTG",
@@ -157,7 +157,7 @@
   },
   {
     "id": "13518",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "BugsysBarRTG",
@@ -196,7 +196,7 @@
   },
   {
     "id": "13517",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "BountyRaid2RTG",
@@ -235,7 +235,7 @@
   },
   {
     "id": "13516",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "BloodSuckersMegaWaysRTG",
@@ -274,7 +274,7 @@
   },
   {
     "id": "13515",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "BlobstersClusterbusterRTG",
@@ -313,7 +313,7 @@
   },
   {
     "id": "13523",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "CirqueDeLaFortuneRTG",
@@ -352,7 +352,7 @@
   },
   {
     "id": "13522",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "ChristmasMultihopsRTG",
@@ -391,7 +391,7 @@
   },
   {
     "id": "13521",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "ChristmasMorningRTG",
@@ -430,7 +430,7 @@
   },
   {
     "id": "13520",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "CashOrNothingRTG",
@@ -469,7 +469,7 @@
   },
   {
     "id": "13527",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "DiceDiceDiceRTG",
@@ -508,7 +508,7 @@
   },
   {
     "id": "13528",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "DivineWaysRTG",
@@ -547,7 +547,7 @@
   },
   {
     "id": "13526",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "DesertLegendsSpinsRTG",
@@ -586,7 +586,7 @@
   },
   {
     "id": "13525",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "6",
     "name": "CloverCrazeRTG",
@@ -625,7 +625,7 @@
   },
   {
     "id": "13531",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "DragonsMirrorRTG",
@@ -664,7 +664,7 @@
   },
   {
     "id": "13532",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "DynamiteRichesRTG",
@@ -703,7 +703,7 @@
   },
   {
     "id": "13533",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "EasyGoldRTG",
@@ -742,7 +742,7 @@
   },
   {
     "id": "13534",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "EmeraldDiamondRTG",
@@ -781,7 +781,7 @@
   },
   {
     "id": "13539",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "GemsInfernoMegaWaysRTG",
@@ -820,7 +820,7 @@
   },
   {
     "id": "13536",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "FaFaBabiesRTG",
@@ -859,7 +859,7 @@
   },
   {
     "id": "13535",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "EuropeanRouletteRTG",
@@ -898,7 +898,7 @@
   },
   {
     "id": "13537",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "FlodderRTG",
@@ -937,7 +937,7 @@
   },
   {
     "id": "13542",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "GodOfWealthRTG",
@@ -976,7 +976,7 @@
   },
   {
     "id": "13544",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "GonzitasQuestRTG",
@@ -1015,7 +1015,7 @@
   },
   {
     "id": "13540",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "GetTheGoldInfinireelsRTG",
@@ -1054,7 +1054,7 @@
   },
   {
     "id": "13543",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "GodsOfTroyRTG",
@@ -1093,7 +1093,7 @@
   },
   {
     "id": "13547",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "LastChanceSaloonRTG",
@@ -1132,7 +1132,7 @@
   },
   {
     "id": "13545",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "HappyApplesRTG",
@@ -1171,7 +1171,7 @@
   },
   {
     "id": "13548",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "LeprechaunsMagicRTG",
@@ -1210,7 +1210,7 @@
   },
   {
     "id": "13546",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "JingleBellsRTG",
@@ -1249,7 +1249,7 @@
   },
   {
     "id": "13554",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "PeggySweetsRTG",
@@ -1288,7 +1288,7 @@
   },
   {
     "id": "13550",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "LuckyEasterRTG",
@@ -1327,7 +1327,7 @@
   },
   {
     "id": "13551",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "MagicGateRTG",
@@ -1366,7 +1366,7 @@
   },
   {
     "id": "13552",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "MonstersUnchainedRTG",
@@ -1405,7 +1405,7 @@
   },
   {
     "id": "13557",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "ReelKingMegaRTG",
@@ -1444,7 +1444,7 @@
   },
   {
     "id": "13555",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "PersianFortuneRTG",
@@ -1483,7 +1483,7 @@
   },
   {
     "id": "13556",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "RedDiamondRTG",
@@ -1522,7 +1522,7 @@
   },
   {
     "id": "13558",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "SantaSpinsRTG",
@@ -1561,7 +1561,7 @@
   },
   {
     "id": "13562",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "SpookyCarnivalRTG",
@@ -1600,7 +1600,7 @@
   },
   {
     "id": "13560",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "SirensRichesRTG",
@@ -1639,7 +1639,7 @@
   },
   {
     "id": "13561",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "SnowWildAndThe7FeaturesRTG",
@@ -1678,7 +1678,7 @@
   },
   {
     "id": "13563",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "Stage888RTG",
@@ -1717,7 +1717,7 @@
   },
   {
     "id": "13567",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "SugarliciousEveryWayRTG",
@@ -1756,7 +1756,7 @@
   },
   {
     "id": "13568",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "SumoSpinsRTG",
@@ -1795,7 +1795,7 @@
   },
   {
     "id": "13565",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "SteamSquadRTG",
@@ -1834,7 +1834,7 @@
   },
   {
     "id": "13566",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "SugarMonsterRTG",
@@ -1873,7 +1873,7 @@
   },
   {
     "id": "13574",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "YearRoundRichesClusterbusterRTG",
@@ -1912,7 +1912,7 @@
   },
   {
     "id": "13573",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "WantedWildzExtremeRTG",
@@ -1951,7 +1951,7 @@
   },
   {
     "id": "13571",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "VaultCrackerMegaWaysRTG",
@@ -1990,7 +1990,7 @@
   },
   {
     "id": "13570",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "TreasureMineRTG",
@@ -2029,7 +2029,7 @@
   },
   {
     "id": "12147",
-    "developer": "kickass",
+    "developer": "kickass", "provider":"kickass",
     "type": "1",
     "vipLevel": "5",
     "name": "SpaceCatKA",
@@ -2068,7 +2068,7 @@
   },
   {
     "id": "13239",
-    "developer": "kickass",
+    "developer": "kickass", "provider":"kickass",
     "type": "1",
     "vipLevel": "5",
     "name": "SpaceCatKA",
@@ -2107,7 +2107,7 @@
   },
   {
     "id": "13238",
-    "developer": "kickass",
+    "developer": "kickass", "provider":"kickass",
     "type": "1",
     "vipLevel": "5",
     "name": "GoldenDragonKA",
@@ -2263,7 +2263,7 @@
   },
   {
     "id": "13589",
-    "developer": "nolimit",
+    "developer": "nolimit", "provider":"nolimit",
     "type": "slots",
     "vipLevel": "0",
     "name": "FireInTheHole2NLC",
@@ -2302,7 +2302,7 @@
   },
   {
     "id": "13591",
-    "developer": "nolimit",
+    "developer": "nolimit", "provider":"nolimit",
     "type": "slots",
     "vipLevel": "0",
     "name": "TheCryptNLC",
@@ -2341,7 +2341,7 @@
   },
   {
     "id": "13590",
-    "developer": "nolimit",
+    "developer": "nolimit", "provider":"nolimit",
     "type": "slots",
     "vipLevel": "0",
     "name": "LandOfTheFreeNLC",
@@ -2380,7 +2380,7 @@
   },
   {
     "id": "11052",
-    "developer": "kickass",
+    "developer": "kickass", "provider":"kickass",
     "type": "1",
     "vipLevel": "5",
     "name": "GoldenDragonKA",
@@ -2419,7 +2419,7 @@
   },
   {
     "id": "13588",
-    "developer": "nolimit",
+    "developer": "nolimit", "provider":"nolimit",
     "type": "slots",
     "vipLevel": "0",
     "name": "SanQuentinNLC",
@@ -2458,7 +2458,7 @@
   },
   {
     "id": "11053",
-    "developer": "kickass",
+    "developer": "kickass", "provider":"kickass",
     "type": "1",
     "vipLevel": "5",
     "name": "SpaceCatKA",
@@ -2497,7 +2497,7 @@
   },
   {
     "id": "12146",
-    "developer": "kickass",
+    "developer": "kickass", "provider":"kickass",
     "type": "1",
     "vipLevel": "5",
     "name": "GoldenDragonKA",
@@ -2536,7 +2536,7 @@
   },
   {
     "id": "13564",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "StarsLuckRTG",
@@ -2575,7 +2575,7 @@
   },
   {
     "id": "13529",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "DoggyRichesMegaWaysRTG",
@@ -2614,7 +2614,7 @@
   },
   {
     "id": "13572",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "ViralSpiralRTG",
@@ -2653,7 +2653,7 @@
   },
   {
     "id": "13569",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "TheWildHatterRTG",
@@ -2692,7 +2692,7 @@
   },
   {
     "id": "13530",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "DragonsFireMegaWaysRTG",
@@ -2731,7 +2731,7 @@
   },
   {
     "id": "13559",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "SeaBoatAdventureRTG",
@@ -2770,7 +2770,7 @@
   },
   {
     "id": "13553",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "NightmareFamilyMegaWaysRTG",
@@ -2809,7 +2809,7 @@
   },
   {
     "id": "13549",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "LondonTubeRTG",
@@ -2848,7 +2848,7 @@
   },
   {
     "id": "13541",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "GigaBlastRTG",
@@ -2887,7 +2887,7 @@
   },
   {
     "id": "13511",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "AtlantisRTG",
@@ -2926,7 +2926,7 @@
   },
   {
     "id": "13538",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "FortuneFestRTG",
@@ -2965,7 +2965,7 @@
   },
   {
     "id": "13524",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "ClashOfTheBeastsRTG",
@@ -3004,7 +3004,7 @@
   },
   {
     "id": "13519",
-    "developer": "redtiger",
+    "developer": "redtiger", "provider":"redtiger",
     "type": "slots",
     "vipLevel": "5",
     "name": "CaseClosedRTG",
@@ -3043,7 +3043,7 @@
   },
   {
     "id": "1070",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "HitInVegasNG",
@@ -3082,7 +3082,7 @@
   },
   {
     "id": "1071",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "FortuneCashNG",
@@ -3121,7 +3121,7 @@
   },
   {
     "id": "1072",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "CleosHeartNG",
@@ -3160,7 +3160,7 @@
   },
   {
     "id": "1073",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "Jungle2NG",
@@ -3199,7 +3199,7 @@
   },
   {
     "id": "1074",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "BananasNG",
@@ -3238,7 +3238,7 @@
   },
   {
     "id": "1075",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "BookOfNileNG",
@@ -3277,7 +3277,7 @@
   },
   {
     "id": "1076",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "ZenZenCashNG",
@@ -3316,7 +3316,7 @@
   },
   {
     "id": "1077",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "WildBuffaloNG",
@@ -3355,7 +3355,7 @@
   },
   {
     "id": "1078",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "CrazyScientistNG",
@@ -3394,7 +3394,7 @@
   },
   {
     "id": "1079",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "FrostyFruitsNG",
@@ -3433,7 +3433,7 @@
   },
   {
     "id": "1080",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "CloverStonesNG",
@@ -3472,7 +3472,7 @@
   },
   {
     "id": "1081",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "MMALegendsNG",
@@ -3511,7 +3511,7 @@
   },
   {
     "id": "1082",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "JackpotSevensNG",
@@ -3550,7 +3550,7 @@
   },
   {
     "id": "1083",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "WolfReelsNG",
@@ -3589,7 +3589,7 @@
   },
   {
     "id": "1084",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "MagicTreeNG",
@@ -3628,7 +3628,7 @@
   },
   {
     "id": "1085",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "SpaceRocksNG",
@@ -3667,7 +3667,7 @@
   },
   {
     "id": "1086",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "Royal40FruitsNG",
@@ -3706,7 +3706,7 @@
   },
   {
     "id": "1087",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "DiscoFruitsNG",
@@ -3745,7 +3745,7 @@
   },
   {
     "id": "1088",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "AfricanKingNG",
@@ -3784,7 +3784,7 @@
   },
   {
     "id": "1089",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "QuickCashFruitsNG",
@@ -3823,7 +3823,7 @@
   },
   {
     "id": "1090",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "BookOfNileRevengeNG",
@@ -3862,7 +3862,7 @@
   },
   {
     "id": "1091",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "BookOfNileLostChapterNG",
@@ -3901,7 +3901,7 @@
   },
   {
     "id": "1092",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "Royal20FruitsNG",
@@ -3940,7 +3940,7 @@
   },
   {
     "id": "1093",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "RedHotChilli7sNG",
@@ -3979,7 +3979,7 @@
   },
   {
     "id": "1094",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "GoldenFruitsNG",
@@ -4018,7 +4018,7 @@
   },
   {
     "id": "2162",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "HitInVegasNG",
@@ -4057,7 +4057,7 @@
   },
   {
     "id": "2163",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "FortuneCashNG",
@@ -4096,7 +4096,7 @@
   },
   {
     "id": "2164",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "CleosHeartNG",
@@ -4135,7 +4135,7 @@
   },
   {
     "id": "2165",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "Jungle2NG",
@@ -4174,7 +4174,7 @@
   },
   {
     "id": "2166",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "BananasNG",
@@ -4213,7 +4213,7 @@
   },
   {
     "id": "2167",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "BookOfNileNG",
@@ -4252,7 +4252,7 @@
   },
   {
     "id": "2168",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "ZenZenCashNG",
@@ -4291,7 +4291,7 @@
   },
   {
     "id": "2169",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "WildBuffaloNG",
@@ -4330,7 +4330,7 @@
   },
   {
     "id": "2170",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "CrazyScientistNG",
@@ -4369,7 +4369,7 @@
   },
   {
     "id": "2171",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "FrostyFruitsNG",
@@ -4408,7 +4408,7 @@
   },
   {
     "id": "2172",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "CloverStonesNG",
@@ -4447,7 +4447,7 @@
   },
   {
     "id": "2173",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "MMALegendsNG",
@@ -4486,7 +4486,7 @@
   },
   {
     "id": "2174",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "JackpotSevensNG",
@@ -4525,7 +4525,7 @@
   },
   {
     "id": "2175",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "WolfReelsNG",
@@ -4564,7 +4564,7 @@
   },
   {
     "id": "2176",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "MagicTreeNG",
@@ -4603,7 +4603,7 @@
   },
   {
     "id": "2177",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "SpaceRocksNG",
@@ -4642,7 +4642,7 @@
   },
   {
     "id": "2178",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "Royal40FruitsNG",
@@ -4681,7 +4681,7 @@
   },
   {
     "id": "2179",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "DiscoFruitsNG",
@@ -4720,7 +4720,7 @@
   },
   {
     "id": "2180",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "AfricanKingNG",
@@ -4759,7 +4759,7 @@
   },
   {
     "id": "2181",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "QuickCashFruitsNG",
@@ -4798,7 +4798,7 @@
   },
   {
     "id": "2182",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "BookOfNileRevengeNG",
@@ -4837,7 +4837,7 @@
   },
   {
     "id": "2183",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "BookOfNileLostChapterNG",
@@ -4876,7 +4876,7 @@
   },
   {
     "id": "2184",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "Royal20FruitsNG",
@@ -4915,7 +4915,7 @@
   },
   {
     "id": "2185",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "RedHotChilli7sNG",
@@ -4954,7 +4954,7 @@
   },
   {
     "id": "2186",
-    "developer": "netgame",
+    "developer": "netgame", "provider":"netgame",
     "type": "",
     "vipLevel": "",
     "name": "GoldenFruitsNG",
@@ -4993,7 +4993,7 @@
   },
   {
     "id": "647",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "SpaceWarsNET",
@@ -5032,7 +5032,7 @@
   },
   {
     "id": "648",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "WildWaterNET",
@@ -5071,7 +5071,7 @@
   },
   {
     "id": "649",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "StarBurstNET",
@@ -5110,7 +5110,7 @@
   },
   {
     "id": "650",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "FlowersNET",
@@ -5149,7 +5149,7 @@
   },
   {
     "id": "651",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "FlowersChristmasNET",
@@ -5188,7 +5188,7 @@
   },
   {
     "id": "652",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "DazzleMeNET",
@@ -5227,7 +5227,7 @@
   },
   {
     "id": "653",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "FruitShopChristmasNET",
@@ -5266,7 +5266,7 @@
   },
   {
     "id": "654",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "FruitShopNET",
@@ -5305,7 +5305,7 @@
   },
   {
     "id": "655",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "GoBananasNET",
@@ -5344,7 +5344,7 @@
   },
   {
     "id": "656",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "LightsNET",
@@ -5383,7 +5383,7 @@
   },
   {
     "id": "876",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "FortuneRangersNET",
@@ -5422,7 +5422,7 @@
   },
   {
     "id": "877",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "CreatureFromTheBlackLagoonNET",
@@ -5461,7 +5461,7 @@
   },
   {
     "id": "878",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "WingsOfRichesNET",
@@ -5500,7 +5500,7 @@
   },
   {
     "id": "879",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "ReelRush2NET",
@@ -5539,7 +5539,7 @@
   },
   {
     "id": "880",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "TheWolfsBaneNET",
@@ -5578,7 +5578,7 @@
   },
   {
     "id": "881",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "GrandSpinnSuperpotNET",
@@ -5617,7 +5617,7 @@
   },
   {
     "id": "882",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "TurnYourFortuneNET",
@@ -5656,7 +5656,7 @@
   },
   {
     "id": "883",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "JumanjiNET",
@@ -5695,7 +5695,7 @@
   },
   {
     "id": "884",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "NarcosNET",
@@ -5734,7 +5734,7 @@
   },
   {
     "id": "885",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "VikingsNET",
@@ -5773,7 +5773,7 @@
   },
   {
     "id": "1006",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "SantaVSRudolphNET",
@@ -5812,7 +5812,7 @@
   },
   {
     "id": "1007",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "GoldenGrimoireNET",
@@ -5851,7 +5851,7 @@
   },
   {
     "id": "1008",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "HalloweenJackNET",
@@ -5890,7 +5890,7 @@
   },
   {
     "id": "1741",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "SpaceWarsNET",
@@ -5929,7 +5929,7 @@
   },
   {
     "id": "1742",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "WildWaterNET",
@@ -5968,7 +5968,7 @@
   },
   {
     "id": "1743",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "StarBurstNET",
@@ -6007,7 +6007,7 @@
   },
   {
     "id": "1744",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "FlowersNET",
@@ -6046,7 +6046,7 @@
   },
   {
     "id": "1745",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "FlowersChristmasNET",
@@ -6085,7 +6085,7 @@
   },
   {
     "id": "1746",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "DazzleMeNET",
@@ -6124,7 +6124,7 @@
   },
   {
     "id": "1747",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "FruitShopChristmasNET",
@@ -6163,7 +6163,7 @@
   },
   {
     "id": "1748",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "FruitShopNET",
@@ -6202,7 +6202,7 @@
   },
   {
     "id": "1749",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "GoBananasNET",
@@ -6241,7 +6241,7 @@
   },
   {
     "id": "1750",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "LightsNET",
@@ -6280,7 +6280,7 @@
   },
   {
     "id": "1970",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "FortuneRangersNET",
@@ -6319,7 +6319,7 @@
   },
   {
     "id": "1971",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "CreatureFromTheBlackLagoonNET",
@@ -6358,7 +6358,7 @@
   },
   {
     "id": "1972",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "WingsOfRichesNET",
@@ -6397,7 +6397,7 @@
   },
   {
     "id": "1973",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "ReelRush2NET",
@@ -6436,7 +6436,7 @@
   },
   {
     "id": "1974",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "TheWolfsBaneNET",
@@ -6475,7 +6475,7 @@
   },
   {
     "id": "1975",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "GrandSpinnSuperpotNET",
@@ -6514,7 +6514,7 @@
   },
   {
     "id": "1976",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "TurnYourFortuneNET",
@@ -6553,7 +6553,7 @@
   },
   {
     "id": "1977",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "JumanjiNET",
@@ -6592,7 +6592,7 @@
   },
   {
     "id": "1978",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "NarcosNET",
@@ -6631,7 +6631,7 @@
   },
   {
     "id": "1979",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "VikingsNET",
@@ -6670,7 +6670,7 @@
   },
   {
     "id": "2100",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "SantaVSRudolphNET",
@@ -6709,7 +6709,7 @@
   },
   {
     "id": "2101",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "GoldenGrimoireNET",
@@ -6748,7 +6748,7 @@
   },
   {
     "id": "2102",
-    "developer": "netent",
+    "developer": "netent", "provider":"netent",
     "type": "",
     "vipLevel": "",
     "name": "HalloweenJackNET",

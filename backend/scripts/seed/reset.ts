@@ -6,22 +6,22 @@ import { sql } from 'drizzle-orm' // <-- 1. Import `sql`
 const tableNames = [
   'wallets',
   'products',
-  'userAchievements',
-  'inviteCommissionHistory',
-  'inviteStats',
-  'userRewards',
-  'vipTimesHistory',
-  'vipLevelRewardHistory',
-  'vipRebateHistory',
-  'vipTasks',
-  'inviteHistory',
-  'gameBigWins',
-  'gameHistory',
-  'chatMessages',
+  'user_achievements',
+  'invite_commission_history',
+  'invite_stats',
+  'user_rewards',
+  'vip_times_history',
+  'vip_level_reward_history',
+  'vip_rebate_history',
+  'vip_tasks',
+  'invite_history',
+  'game_big_wins',
+  'game_history',
+  'chat_messages',
   'statistics',
-  'liveWins',
-  'explainItems',
-  'achievementItems',
+  'live_wins',
+  'explain_items',
+  'achievement_items',
   'promos',
   'invites',
   'achievements',
@@ -30,22 +30,23 @@ const tableNames = [
   'transactions',
   'messages',
   'vips',
-  'promoGroups',
+  'promo_groups',
   'games',
-  'gameCategories',
+  'game_categories',
   'balances',
   'bonuses',
   'rewards',
-  'vipSigninAwards',
-  'vipLevelAwards',
+  'vip_signin_awards',
+  'vip_level_awards',
   'countries',
   'languages',
   'currencies',
   'announcements',
   'banners',
-  'vipLevels',
-  'users', // users depends on operators
-  'operators', // operators is last as many tables depend on it
+  'vip_levels',
+  'users',
+  'operators',
+  'vip_info',
 ]
 
 export async function resetDatabase(db: NodePgDatabase<typeof schema>) {
@@ -56,7 +57,7 @@ export async function resetDatabase(db: NodePgDatabase<typeof schema>) {
 
   try {
     // await db.execute(truncateQuery)
-    await db.run(sql.raw(truncateQuery))
+    await db.execute(sql.raw(truncateQuery))
     console.log('✅ Database reset successfully.')
   } catch (error) {
     console.error('❌ Error resetting database:', error)

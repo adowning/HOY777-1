@@ -1,4 +1,4 @@
-import db from '../../db'
+import { db } from '../../db'
 import { achievementItems } from '../../db'
 
 export const getAchievementList = async () => {

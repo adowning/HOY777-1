@@ -16,7 +16,7 @@ export default [
     rules: {
       ...typescriptPlugin.configs.recommended.rules,
       ...prettierConfig.rules,
-      'prettier/prettier': 'error',
+      'prettier/prettier': 'off',
     },
   },
 ]

@@ -1,5 +1,6 @@
 import { createRoute, z } from '@hono/zod-openapi'
 import { createRouter } from '../../lib/create-app'
+import { authMiddleware } from '#/middlewares/auth.middleware'
 
 import * as controller from './user.controller'
 import * as HttpStatusCodes from 'stoker/http-status-codes'
@@ -345,6 +346,7 @@ const favoriteGameList = createRoute({
 })
 
 const router = createRouter()
+  .use(authMiddleware)
   .openapi(enterGame, controller.enterGame)
   .openapi(userGame, controller.userGame)
   .openapi(favoriteGame, controller.favoriteGame)

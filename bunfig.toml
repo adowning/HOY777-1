@@ -10,6 +10,6 @@ modules-dir = "node_modules"
 
 [run]
 # Sets the default shell for `bun run` commands.
-#shell = "bash"
+shell = "bun"
 
 

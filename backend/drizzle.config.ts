@@ -5,7 +5,7 @@ import { env } from './src/env'
 const extendConfig = env.PGLITE ? { driver: 'pglite' } : {}
 
 export default defineConfig({
-  schema: './src/db/schema.ts',
+  schema: './src/db/schema/*',
   out: './drizzle',
   dialect: 'postgresql',
   casing: dbConfig.casing,

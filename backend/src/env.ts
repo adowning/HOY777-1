@@ -23,6 +23,7 @@ export const env = createEnv({
       z.literal('production'),
       z.literal('staging'),
       z.literal('tunnel'),
+      z.literal('test'),
     ]),
     PORT: z.string().optional(),
     // UNSUBSCRIBE_SECRET: z.string(),
@@ -32,6 +33,7 @@ export const env = createEnv({
 
     // ARGON_SECRET: z.string(),
     // COOKIE_SECRET: z.string(),
+    ACCESS_TOKEN_SECRET: z.string(),
 
     // ELECTRIC_API_SECRET: z.string(),
 

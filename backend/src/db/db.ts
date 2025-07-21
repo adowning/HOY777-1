@@ -10,7 +10,7 @@ import { drizzle as pgliteDrizzle } from 'drizzle-orm/pglite'
 import { env } from '../env'
 
 export const dbConfig: DrizzleConfig = {
-  logger: 'debug', //config.debug,
+  logger: 'info', //config.debug,
   casing: 'snake_case',
 }
 
