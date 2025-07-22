@@ -1,0 +1,22 @@
+{
+  "frames": {
+    "SlotsSubLobby_00/Bg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{1412,768}",
+      "spriteSourceSize": "{1412,768}",
+      "textureRect": "{{1,1},{1412,768}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "SlotsSubLobby_00-hd.png",
+    "size": "{1414,770}",
+    "smartupdate": "$TexturePacker:SmartUpdate:2b30342b390ab20afcc7ca1b18ff3c9c:74c4265e5045c6cf1505b1c89effaf45:4932d85fe7d5c918550fffe5a51d9e93$",
+    "textureFileName": "SlotsSubLobby_00-hd.png",
+    "animations": []
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "frames": {
+    "PurchaseCartPopup_00/Bg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{930,603}",
+      "spriteSourceSize": "{930,603}",
+      "textureRect": "{{1,1},{930,603}}",
+      "textureRotated": false
+    },
+    "PurchaseCartPopup_00/CloseBtn/CloseBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{933,1},{44,44}}",
+      "textureRotated": false
+    },
+    "PurchaseCartPopup_00/CloseBtn/CloseBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{979,1},{44,44}}",
+      "textureRotated": false
+    },
+    "PurchaseCartPopup_00/CloseBtn/CloseBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{933,47},{44,44}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "PurchaseCartPopup_00-hd.png",
+    "size": "{1024,1024}",
+    "smartupdate": "$TexturePacker:SmartUpdate:56732456d2979b4c6a10c183c59555f6:eec96774de7b3aa6b70876479d3a9c20:0d0c192fc39b40d7fb756ceb30925c94$",
+    "textureFileName": "PurchaseCartPopup_00-hd.png",
+    "animations": [
+      "CloseBtn"
+    ]
+  }
+}

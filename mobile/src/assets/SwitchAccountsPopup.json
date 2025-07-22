@@ -1,0 +1,161 @@
+{
+  "frames": {
+    "SwitchAccountsPopup_00/CoinIcon.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{30,30}",
+      "spriteSourceSize": "{30,30}",
+      "textureRect": "{{431,437},{30,30}}",
+      "textureRotated": false
+    },
+    "SwitchAccountsPopup_00/CoinIcon1.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{30,30}",
+      "spriteSourceSize": "{30,30}",
+      "textureRect": "{{431,437},{30,30}}",
+      "textureRotated": false
+    },
+    "SwitchAccountsPopup_00/ContinuePlayingBtn/ContinuePlayingBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{228,51}",
+      "spriteSourceSize": "{228,51}",
+      "textureRect": "{{1,319},{228,51}}",
+      "textureRotated": false
+    },
+    "SwitchAccountsPopup_00/ContinuePlayingBtn/ContinuePlayingBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{228,51}",
+      "spriteSourceSize": "{228,51}",
+      "textureRect": "{{201,437},{228,51}}",
+      "textureRotated": false
+    },
+    "SwitchAccountsPopup_00/ContinuePlayingBtn/ContinuePlayingBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{228,51}",
+      "spriteSourceSize": "{228,51}",
+      "textureRect": "{{316,1},{228,51}}",
+      "textureRotated": true
+    },
+    "SwitchAccountsPopup_00/Frame.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{91,91}",
+      "spriteSourceSize": "{91,91}",
+      "textureRect": "{{369,1},{91,91}}",
+      "textureRotated": false
+    },
+    "SwitchAccountsPopup_00/Frame1.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{91,91}",
+      "spriteSourceSize": "{91,91}",
+      "textureRect": "{{369,1},{91,91}}",
+      "textureRotated": false
+    },
+    "SwitchAccountsPopup_00/MeterBg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{198,34}",
+      "spriteSourceSize": "{198,34}",
+      "textureRect": "{{1,431},{198,34}}",
+      "textureRotated": false
+    },
+    "SwitchAccountsPopup_00/MeterBg1.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{198,34}",
+      "spriteSourceSize": "{198,34}",
+      "textureRect": "{{1,431},{198,34}}",
+      "textureRotated": false
+    },
+    "SwitchAccountsPopup_00/OverviewBg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{313,316}",
+      "spriteSourceSize": "{313,316}",
+      "textureRect": "{{1,1},{313,316}}",
+      "textureRotated": false
+    },
+    "SwitchAccountsPopup_00/OverviewBg1.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{313,316}",
+      "spriteSourceSize": "{313,316}",
+      "textureRect": "{{1,1},{313,316}}",
+      "textureRotated": false
+    },
+    "SwitchAccountsPopup_00/ProfilePic.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{77,77}",
+      "spriteSourceSize": "{77,77}",
+      "textureRect": "{{316,231},{77,77}}",
+      "textureRotated": false
+    },
+    "SwitchAccountsPopup_00/ProfilePic1.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{77,77}",
+      "spriteSourceSize": "{77,77}",
+      "textureRect": "{{316,231},{77,77}}",
+      "textureRotated": false
+    },
+    "SwitchAccountsPopup_00/ProgressMeter.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{194,30}",
+      "spriteSourceSize": "{194,30}",
+      "textureRect": "{{1,467},{194,30}}",
+      "textureRotated": false
+    },
+    "SwitchAccountsPopup_00/ProgressMeter1.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{194,30}",
+      "spriteSourceSize": "{194,30}",
+      "textureRect": "{{1,467},{194,30}}",
+      "textureRotated": false
+    },
+    "SwitchAccountsPopup_00/SwitchAccountBtn/SwitchAccountBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{227,57}",
+      "spriteSourceSize": "{227,57}",
+      "textureRect": "{{231,319},{227,57}}",
+      "textureRotated": false
+    },
+    "SwitchAccountsPopup_00/SwitchAccountBtn/SwitchAccountBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{227,57}",
+      "spriteSourceSize": "{227,57}",
+      "textureRect": "{{1,372},{227,57}}",
+      "textureRotated": false
+    },
+    "SwitchAccountsPopup_00/SwitchAccountBtn/SwitchAccountBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{227,57}",
+      "spriteSourceSize": "{227,57}",
+      "textureRect": "{{230,378},{227,57}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "SwitchAccountsPopup_00-hd.png",
+    "size": "{512,512}",
+    "smartupdate": "$TexturePacker:SmartUpdate:7f470af63c7d86a5401226f94dd7335b:c4d5d277c41b1dbd35e18de3bcae9e35:4adae87ca84368e6578e685b2bed719f$",
+    "textureFileName": "SwitchAccountsPopup_00-hd.png",
+    "animations": [
+      "ContinuePlayingBtn",
+      "SwitchAccountBtn"
+    ]
+  }
+}

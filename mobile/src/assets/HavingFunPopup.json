@@ -1,0 +1,73 @@
+{
+  "frames": {
+    "HavingFunPopup_00/Bg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{545,431}",
+      "spriteSourceSize": "{545,431}",
+      "textureRect": "{{1,281},{545,431}}",
+      "textureRotated": true
+    },
+    "HavingFunPopup_00/NoBtn/NoBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{138,144}",
+      "spriteSourceSize": "{138,144}",
+      "textureRect": "{{1,1},{138,144}}",
+      "textureRotated": true
+    },
+    "HavingFunPopup_00/NoBtn/NoBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{138,147}",
+      "spriteSourceSize": "{138,147}",
+      "textureRect": "{{147,1},{138,147}}",
+      "textureRotated": true
+    },
+    "HavingFunPopup_00/NoBtn/NoBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{138,144}",
+      "spriteSourceSize": "{138,144}",
+      "textureRect": "{{296,1},{138,144}}",
+      "textureRotated": true
+    },
+    "HavingFunPopup_00/YesBtn/YesBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{138,145}",
+      "spriteSourceSize": "{138,145}",
+      "textureRect": "{{1,141},{138,145}}",
+      "textureRotated": true
+    },
+    "HavingFunPopup_00/YesBtn/YesBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{138,148}",
+      "spriteSourceSize": "{138,148}",
+      "textureRect": "{{148,141},{138,148}}",
+      "textureRotated": true
+    },
+    "HavingFunPopup_00/YesBtn/YesBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{138,145}",
+      "spriteSourceSize": "{138,145}",
+      "textureRect": "{{298,141},{138,145}}",
+      "textureRotated": true
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "HavingFunPopup_00-hd.png",
+    "size": "{444,827}",
+    "smartupdate": "$TexturePacker:SmartUpdate:cd7e3be6fb2c0e7a4a889b31efc0d285:405b686470994944f4f00cd5b1912402:84975ac300c28af09fe048688554a70f$",
+    "textureFileName": "HavingFunPopup_00-hd.png",
+    "animations": [
+      "NoBtn",
+      "YesBtn"
+    ]
+  }
+}

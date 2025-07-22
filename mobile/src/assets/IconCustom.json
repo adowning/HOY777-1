@@ -1,0 +1,22 @@
+{
+  "frames": {
+    "IconCustom_00/UnderMaintenance.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{126,47}",
+      "spriteSourceSize": "{126,47}",
+      "textureRect": "{{1,1},{126,47}}",
+      "textureRotated": true
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "IconCustom_00-hd.png",
+    "size": "{64,128}",
+    "smartupdate": "$TexturePacker:SmartUpdate:7dbb21277ba76bc41eeb6a9dada50e7f:95971fe1cb71ebe51b8800ca1448f420:f2cfb1ed0bcff72700a6de532cc96b28$",
+    "textureFileName": "IconCustom_00-hd.png",
+    "animations": []
+  }
+}

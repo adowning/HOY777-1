@@ -1,0 +1,73 @@
+{
+  "frames": {
+    "QuitPopup_00/Heading.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{180,31}",
+      "spriteSourceSize": "{180,31}",
+      "textureRect": "{{1,1},{180,31}}",
+      "textureRotated": false
+    },
+    "QuitPopup_00/Quit/Quit_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{119,65}",
+      "spriteSourceSize": "{119,65}",
+      "textureRect": "{{121,100},{119,65}}",
+      "textureRotated": false
+    },
+    "QuitPopup_00/Quit/Quit_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{119,65}",
+      "spriteSourceSize": "{119,65}",
+      "textureRect": "{{1,167},{119,65}}",
+      "textureRotated": false
+    },
+    "QuitPopup_00/Quit/Quit_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{119,65}",
+      "spriteSourceSize": "{119,65}",
+      "textureRect": "{{122,167},{119,65}}",
+      "textureRotated": false
+    },
+    "QuitPopup_00/Resume/Resume_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,64}",
+      "spriteSourceSize": "{118,64}",
+      "textureRect": "{{1,34},{118,64}}",
+      "textureRotated": false
+    },
+    "QuitPopup_00/Resume/Resume_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,64}",
+      "spriteSourceSize": "{118,64}",
+      "textureRect": "{{121,34},{118,64}}",
+      "textureRotated": false
+    },
+    "QuitPopup_00/Resume/Resume_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,64}",
+      "spriteSourceSize": "{118,64}",
+      "textureRect": "{{1,100},{118,64}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "QuitPopup_00-hd.png",
+    "size": "{242,233}",
+    "smartupdate": "$TexturePacker:SmartUpdate:19d3a9ceff79d94921c29cc684a2d7ae:de74f0abafff7fc77e591ea2cc2a5b79:6e142aa68b1b2bdbf077880ac2998b99$",
+    "textureFileName": "QuitPopup_00-hd.png",
+    "animations": [
+      "Quit",
+      "Resume"
+    ]
+  }
+}

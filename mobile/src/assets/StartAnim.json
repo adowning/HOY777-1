@@ -1,0 +1,54 @@
+{
+  "frames": {
+    "StartAnim_00/Star1.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{120,118}",
+      "spriteSourceSize": "{120,118}",
+      "textureRect": "{{1,1},{120,118}}",
+      "textureRotated": false
+    },
+    "StartAnim_00/Star2.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{90,88}",
+      "spriteSourceSize": "{90,88}",
+      "textureRect": "{{1,121},{90,88}}",
+      "textureRotated": false
+    },
+    "StartAnim_00/Star3.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{45,44}",
+      "spriteSourceSize": "{45,44}",
+      "textureRect": "{{79,211},{45,44}}",
+      "textureRotated": false
+    },
+    "StartAnim_00/Star4.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{76,74}",
+      "spriteSourceSize": "{76,74}",
+      "textureRect": "{{1,211},{76,74}}",
+      "textureRotated": false
+    },
+    "StartAnim_00/Star5.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{34,33}",
+      "spriteSourceSize": "{34,33}",
+      "textureRect": "{{93,121},{34,33}}",
+      "textureRotated": true
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "StartAnim_00-hd.png",
+    "size": "{127,286}",
+    "smartupdate": "$TexturePacker:SmartUpdate:f143f7d7b983a083e620cf141d06a4fa:d023a51cfe6753965c5b40533f7ed618:2b507c82d120581a1de7e9d83aa5c7f4$",
+    "textureFileName": "StartAnim_00-hd.png",
+    "animations": []
+  }
+}

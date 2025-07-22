@@ -1,36 +1,36 @@
 // db/schema/users.ts
+import { transformSchemaForOpenAPI } from '#/lib/schema-transformer'
+import { relations } from 'drizzle-orm'
 import {
-  pgTable,
-  text,
-  integer,
   boolean,
-  timestamp,
+  integer,
   jsonb,
   pgEnum,
+  pgTable,
+  text,
+  timestamp,
   varchar,
 } from 'drizzle-orm/pg-core'
-import { relations } from 'drizzle-orm'
 import { createInsertSchema, createSelectSchema } from 'drizzle-zod'
-import { transformSchemaForOpenAPI } from '#/lib/schema-transformer'
 import { nanoid } from '../../utils/nanoid'
 import { messages } from './misc'
 import {
-  bonuses,
-  balances,
-  transactions,
-  deposits,
-  withdrawals,
-} from './transactions'
-import {
-  invites,
   inviteCommissionHistory,
+  invites,
+  inviteStats,
   userAchievements,
   userRewards,
-  inviteStats,
 } from './rewards'
-import { wallets } from './wallets'
+import {
+  balances,
+  bonuses,
+  deposits,
+  transactions,
+  withdrawals,
+} from './transactions'
 import { vipInfo } from './vipInfo'
-
+import { wallets } from './wallets'
+import { z} from 'zod'
 export const roleEnum = pgEnum('role', ['admin', 'user'])
 
 export const users = pgTable('users', {
@@ -59,6 +59,7 @@ export const users = pgTable('users', {
   address: text('address'),
   postalCode: text('postal_code'),
   language: text('language'),
+  currentGameSession: text('current_game_sesssion').default(null),
   locale: text('locale'),
   initialProfileComplete: boolean('initial_profile_complete').default(false),
   isSuspended: integer('is_suspended'),
@@ -106,3 +107,10 @@ export const insertUsersSchema = transformSchemaForOpenAPI(
 export const patchUsersSchema = transformSchemaForOpenAPI(
   insertUsersSchema.partial()
 )
+export const userDocumentationSchema = z.object({
+    id: z.string(),
+    uid: z.string().nullable(),
+    username: z.string(),
+    email: z.string().email().nullable(),
+    vipLevel: z.number().nullable(),
+}).describe('A simplified User object for documentation.');

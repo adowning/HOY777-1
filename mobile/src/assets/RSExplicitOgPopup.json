@@ -1,0 +1,98 @@
+{
+  "frames": {
+    "RSExplicitOgPopup_00/CloseBtn/CloseBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{888,226},{44,44}}",
+      "textureRotated": false
+    },
+    "RSExplicitOgPopup_00/CloseBtn/CloseBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{888,272},{44,44}}",
+      "textureRotated": false
+    },
+    "RSExplicitOgPopup_00/CloseBtn/CloseBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{888,318},{44,44}}",
+      "textureRotated": false
+    },
+    "RSExplicitOgPopup_00/ContinueBtn/ContinueBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,88}",
+      "spriteSourceSize": "{223,88}",
+      "textureRect": "{{708,1},{223,88}}",
+      "textureRotated": true
+    },
+    "RSExplicitOgPopup_00/ContinueBtn/ContinueBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,88}",
+      "spriteSourceSize": "{223,88}",
+      "textureRect": "{{708,226},{223,88}}",
+      "textureRotated": true
+    },
+    "RSExplicitOgPopup_00/ContinueBtn/ContinueBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,88}",
+      "spriteSourceSize": "{223,88}",
+      "textureRect": "{{708,451},{223,88}}",
+      "textureRotated": false
+    },
+    "RSExplicitOgPopup_00/ShareBtn/ShareBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,88}",
+      "spriteSourceSize": "{223,88}",
+      "textureRect": "{{798,1},{223,88}}",
+      "textureRotated": true
+    },
+    "RSExplicitOgPopup_00/ShareBtn/ShareBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,88}",
+      "spriteSourceSize": "{223,88}",
+      "textureRect": "{{798,226},{223,88}}",
+      "textureRotated": true
+    },
+    "RSExplicitOgPopup_00/ShareBtn/ShareBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,88}",
+      "spriteSourceSize": "{223,88}",
+      "textureRect": "{{888,1},{223,88}}",
+      "textureRotated": true
+    },
+    "RSExplicitOgPopup_00/bg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{705,558}",
+      "spriteSourceSize": "{705,558}",
+      "textureRect": "{{1,1},{705,558}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "RSExplicitOgPopup_00-hd.png",
+    "size": "{977,560}",
+    "smartupdate": "$TexturePacker:SmartUpdate:0eb03bbac75c087b0ea1f75923da350c:91e600daf05c700bbccd88669453f874:8ecea883301c574290abfad21c6726c1$",
+    "textureFileName": "RSExplicitOgPopup_00-hd.png",
+    "animations": [
+      "CloseBtn",
+      "ContinueBtn",
+      "ShareBtn"
+    ]
+  }
+}

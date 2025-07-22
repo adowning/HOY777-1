@@ -1,0 +1,97 @@
+{
+  "frames": {
+    "PurchaseFailurePopup_00/CancelledTitle.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{524,55}",
+      "spriteSourceSize": "{524,55}",
+      "textureRect": "{{503,131},{524,55}}",
+      "textureRotated": false
+    },
+    "PurchaseFailurePopup_00/CloseBtn/CloseBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{965,188},{44,44}}",
+      "textureRotated": false
+    },
+    "PurchaseFailurePopup_00/CloseBtn/CloseBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{1102,1},{44,44}}",
+      "textureRotated": false
+    },
+    "PurchaseFailurePopup_00/CloseBtn/CloseBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{1102,47},{44,44}}",
+      "textureRotated": false
+    },
+    "PurchaseFailurePopup_00/ContactSupport/ContactSupport_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{140,52}",
+      "spriteSourceSize": "{140,52}",
+      "textureRect": "{{1029,131},{140,52}}",
+      "textureRotated": false
+    },
+    "PurchaseFailurePopup_00/ContactSupport/ContactSupport_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{140,52}",
+      "spriteSourceSize": "{140,52}",
+      "textureRect": "{{1029,185},{140,52}}",
+      "textureRotated": false
+    },
+    "PurchaseFailurePopup_00/ErrorTitle.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{416,55}",
+      "spriteSourceSize": "{416,55}",
+      "textureRect": "{{547,188},{416,55}}",
+      "textureRotated": false
+    },
+    "PurchaseFailurePopup_00/FailedMessage.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{500,190}",
+      "spriteSourceSize": "{500,190}",
+      "textureRect": "{{1,1},{500,190}}",
+      "textureRotated": false
+    },
+    "PurchaseFailurePopup_00/Message.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{544,46}",
+      "spriteSourceSize": "{544,46}",
+      "textureRect": "{{1,193},{544,46}}",
+      "textureRotated": false
+    },
+    "PurchaseFailurePopup_00/ValidationFailedMessage.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{597,128}",
+      "spriteSourceSize": "{597,128}",
+      "textureRect": "{{503,1},{597,128}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "PurchaseFailurePopup_00-hd.png",
+    "size": "{1170,244}",
+    "smartupdate": "$TexturePacker:SmartUpdate:5fbce248a9edff4634ae313b2f5ca702:fef16c926d7fdf515a8f0101c9863bdc:e6a03dfc220418fb111f761bbb160ee5$",
+    "textureFileName": "PurchaseFailurePopup_00-hd.png",
+    "animations": [
+      "CloseBtn",
+      "ContactSupport"
+    ]
+  }
+}

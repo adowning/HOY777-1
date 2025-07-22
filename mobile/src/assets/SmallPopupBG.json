@@ -1,0 +1,48 @@
+{
+  "frames": {
+    "SmallPopupBG_00/CloseBtn/CloseBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{548,1},{44,44}}",
+      "textureRotated": false
+    },
+    "SmallPopupBG_00/CloseBtn/CloseBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{548,47},{44,44}}",
+      "textureRotated": false
+    },
+    "SmallPopupBG_00/CloseBtn/CloseBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{548,93},{44,44}}",
+      "textureRotated": false
+    },
+    "SmallPopupBG_00/SmallBg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{545,431}",
+      "spriteSourceSize": "{545,431}",
+      "textureRect": "{{1,1},{545,431}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "SmallPopupBG_00-hd.png",
+    "size": "{593,433}",
+    "smartupdate": "$TexturePacker:SmartUpdate:7661b083c0fffa6b834092979628cad7:47a47ce0175a01de204e8a348260c111:f2379c3b3617a50f1ef0a517fbb1b77a$",
+    "textureFileName": "SmallPopupBG_00-hd.png",
+    "animations": [
+      "CloseBtn"
+    ]
+  }
+}

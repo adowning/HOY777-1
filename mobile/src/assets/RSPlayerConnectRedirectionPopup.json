@@ -1,0 +1,98 @@
+{
+  "frames": {
+    "RSPlayerConnectRedirectionPopup_00/Bg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{748,558}",
+      "spriteSourceSize": "{748,558}",
+      "textureRect": "{{1,1},{748,558}}",
+      "textureRotated": false
+    },
+    "RSPlayerConnectRedirectionPopup_00/CloseBtn/CloseBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{931,1},{44,44}}",
+      "textureRotated": false
+    },
+    "RSPlayerConnectRedirectionPopup_00/CloseBtn/CloseBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{931,47},{44,44}}",
+      "textureRotated": false
+    },
+    "RSPlayerConnectRedirectionPopup_00/CloseBtn/CloseBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{931,93},{44,44}}",
+      "textureRotated": false
+    },
+    "RSPlayerConnectRedirectionPopup_00/ReturnBtn/ReturnBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{270,58}",
+      "spriteSourceSize": "{270,58}",
+      "textureRect": "{{751,1},{270,58}}",
+      "textureRotated": true
+    },
+    "RSPlayerConnectRedirectionPopup_00/ReturnBtn/ReturnBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{270,58}",
+      "spriteSourceSize": "{270,58}",
+      "textureRect": "{{751,273},{270,58}}",
+      "textureRotated": true
+    },
+    "RSPlayerConnectRedirectionPopup_00/ReturnBtn/ReturnBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{270,58}",
+      "spriteSourceSize": "{270,58}",
+      "textureRect": "{{811,1},{270,58}}",
+      "textureRotated": true
+    },
+    "RSPlayerConnectRedirectionPopup_00/TakeMeBtn/TakeMeBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{270,58}",
+      "spriteSourceSize": "{270,58}",
+      "textureRect": "{{811,273},{270,58}}",
+      "textureRotated": true
+    },
+    "RSPlayerConnectRedirectionPopup_00/TakeMeBtn/TakeMeBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{270,58}",
+      "spriteSourceSize": "{270,58}",
+      "textureRect": "{{871,1},{270,58}}",
+      "textureRotated": true
+    },
+    "RSPlayerConnectRedirectionPopup_00/TakeMeBtn/TakeMeBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{270,58}",
+      "spriteSourceSize": "{270,58}",
+      "textureRect": "{{871,273},{270,58}}",
+      "textureRotated": true
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "RSPlayerConnectRedirectionPopup_00-hd.png",
+    "size": "{976,560}",
+    "smartupdate": "$TexturePacker:SmartUpdate:cf445df73f45da645a5d110d1edc7901:012fe3a3edc253970e8dd3ac051514a1:4777c9cb5a1b45350687d95a25f4257b$",
+    "textureFileName": "RSPlayerConnectRedirectionPopup_00-hd.png",
+    "animations": [
+      "CloseBtn",
+      "ReturnBtn",
+      "TakeMeBtn"
+    ]
+  }
+}

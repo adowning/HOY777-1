@@ -1,0 +1,54 @@
+{
+  "frames": {
+    "2StarAnim_00/BlueStar1.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{96,95}",
+      "spriteSourceSize": "{96,95}",
+      "textureRect": "{{101,1},{96,95}}",
+      "textureRotated": false
+    },
+    "2StarAnim_00/BlueStar2.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{72,67}",
+      "spriteSourceSize": "{72,67}",
+      "textureRect": "{{101,98},{72,67}}",
+      "textureRotated": false
+    },
+    "2StarAnim_00/BlueStar3.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{43,43}",
+      "spriteSourceSize": "{43,43}",
+      "textureRect": "{{199,1},{43,43}}",
+      "textureRotated": false
+    },
+    "2StarAnim_00/BlueStar4.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{71,71}",
+      "spriteSourceSize": "{71,71}",
+      "textureRect": "{{175,98},{71,71}}",
+      "textureRotated": false
+    },
+    "2StarAnim_00/BlueStar5.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{98,97}",
+      "spriteSourceSize": "{98,97}",
+      "textureRect": "{{1,1},{98,97}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "2StarAnim_00-hd.png",
+    "size": "{256,256}",
+    "smartupdate": "$TexturePacker:SmartUpdate:374d5e8fe01d303413fb0fda2907d0f7:fdab4f2338a66219c573d7d3d3dc806e:bfd30a23954d48894ba12a9cc880bddf$",
+    "textureFileName": "2StarAnim_00-hd.png",
+    "animations": []
+  }
+}

@@ -1,0 +1,1997 @@
+{
+  "frames": {
+    "Hud_01/Piggy.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{361,1773},{44,44}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyCollectedAnim/PiggyCollectedAnim_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-4}",
+      "spriteSize": "{68,46}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{242,709},{68,46}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyCollectedAnim/PiggyCollectedAnim_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-4}",
+      "spriteSize": "{68,46}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{312,709},{68,46}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyCollectedAnim/PiggyCollectedAnim_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-4}",
+      "spriteSize": "{68,46}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{318,1255},{68,46}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyCollectedAnim/PiggyCollectedAnim_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-4}",
+      "spriteSize": "{68,46}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{388,1255},{68,46}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyCollectedAnim/PiggyCollectedAnim_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-6}",
+      "spriteSize": "{68,42}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{190,329},{68,42}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyCollectedAnim/PiggyCollectedAnim_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{68,48}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{453,1314},{68,48}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyCollectedAnim/PiggyCollectedAnim_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{68,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{312,387},{68,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyCollectedAnim/PiggyCollectedAnim_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{68,52}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{82,907},{68,52}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyCollectedAnim/PiggyCollectedAnim_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-4}",
+      "spriteSize": "{76,68}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{82,587},{76,68}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyCollectedAnim/PiggyCollectedAnim_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-4}",
+      "spriteSize": "{76,68}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{84,1131},{76,68}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyCollectedAnim/PiggyCollectedAnim_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-4}",
+      "spriteSize": "{76,68}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{160,1060},{76,68}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyCollectedAnim/PiggyCollectedAnim_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-4}",
+      "spriteSize": "{76,68}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{162,1210},{76,68}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyCollectedAnim/PiggyCollectedAnim_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-3}",
+      "spriteSize": "{76,68}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{240,1210},{76,68}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyCollectedAnim/PiggyCollectedAnim_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-3}",
+      "spriteSize": "{76,68}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{234,403},{76,68}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyCollectedAnim/PiggyCollectedAnim_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-3}",
+      "spriteSize": "{76,68}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{440,399},{76,68}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyCollectedAnim/PiggyCollectedAnim_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-3}",
+      "spriteSize": "{76,68}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{239,757},{76,68}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyCollectedAnim/PiggyCollectedAnim_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-3}",
+      "spriteSize": "{76,68}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{235,827},{76,68}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyCollectedAnim/PiggyCollectedAnim_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-3}",
+      "spriteSize": "{74,68}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{364,326},{74,68}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyCollectedAnim/PiggyCollectedAnim_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-3}",
+      "spriteSize": "{74,66}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{364,396},{74,66}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyCollectedAnim/PiggyCollectedAnim_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{74,62}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{310,473},{74,62}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyCollectedAnim/PiggyCollectedAnim_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{-4,4}",
+      "spriteSize": "{56,54}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{308,329},{56,54}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyCollectedAnim/PiggyCollectedAnim_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,1}",
+      "spriteSize": "{52,52}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{453,1384},{52,52}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyCollectedAnim/PiggyCollectedAnim_0022.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,1}",
+      "spriteSize": "{52,52}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{268,1710},{52,52}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyCollectedAnim/PiggyCollectedAnim_0023.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,1}",
+      "spriteSize": "{52,52}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{322,1710},{52,52}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyCollectedAnim/PiggyCollectedAnim_0024.png": {
+      "aliases": [],
+      "spriteOffset": "{-6,1}",
+      "spriteSize": "{54,52}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{212,1703},{54,52}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyCollectedAnim/PiggyCollectedAnim_0025.png": {
+      "aliases": [],
+      "spriteOffset": "{-6,1}",
+      "spriteSize": "{54,52}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{212,1703},{54,52}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyCollectedAnim/PiggyCollectedAnim_0026.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyCollectedAnim/PiggyCollectedAnim_0027.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyCollectedAnim/PiggyCollectedAnim_0028.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyCollectedAnim/PiggyCollectedAnim_0029.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyCollectedAnim/PiggyCollectedAnim_0030.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyCollectedAnim/PiggyCollectedAnim_0031.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyCollectedAnim/PiggyCollectedAnim_0032.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyCollectedAnim/PiggyCollectedAnim_0033.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyCollectedAnim/PiggyCollectedAnim_0034.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyCollectedAnim/PiggyCollectedAnim_0035.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyCollectedAnim/PiggyCollectedAnim_0036.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyCollectedAnim/PiggyCollectedAnim_0037.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyCollectedAnim/PiggyCollectedAnim_0038.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyCollectedAnim/PiggyCollectedAnim_0039.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyMaxBetAnim/PiggyMaxBetAnim_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,20}",
+      "spriteSize": "{47,49}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{388,942},{47,49}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyMaxBetAnim/PiggyMaxBetAnim_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,5}",
+      "spriteSize": "{123,81}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{1,1},{123,81}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyMaxBetAnim/PiggyMaxBetAnim_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,6}",
+      "spriteSize": "{123,77}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{376,1},{123,77}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyMaxBetAnim/PiggyMaxBetAnim_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,5}",
+      "spriteSize": "{123,79}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{126,84},{123,79}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyMaxBetAnim/PiggyMaxBetAnim_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,5}",
+      "spriteSize": "{123,79}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{251,1},{123,79}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyMaxBetAnim/PiggyMaxBetAnim_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,5}",
+      "spriteSize": "{123,79}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{1,250},{123,79}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyMaxBetAnim/PiggyMaxBetAnim_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,5}",
+      "spriteSize": "{123,79}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{126,165},{123,79}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyMaxBetAnim/PiggyMaxBetAnim_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,5}",
+      "spriteSize": "{121,79}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{251,165},{121,79}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyMaxBetAnim/PiggyMaxBetAnim_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,6}",
+      "spriteSize": "{121,81}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{251,82},{121,81}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyMaxBetAnim/PiggyMaxBetAnim_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,6}",
+      "spriteSize": "{121,81}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{1,331},{121,81}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyMaxBetAnim/PiggyMaxBetAnim_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,6}",
+      "spriteSize": "{111,83}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{1,414},{111,83}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyMaxBetAnim/PiggyMaxBetAnim_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{3,7}",
+      "spriteSize": "{93,81}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{1,1070},{93,81}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyMaxBetAnim/PiggyMaxBetAnim_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{3,9}",
+      "spriteSize": "{89,77}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{1,1165},{89,77}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyMaxBetAnim/PiggyMaxBetAnim_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{1,10}",
+      "spriteSize": "{85,75}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{82,820},{85,75}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyMaxBetAnim/PiggyMaxBetAnim_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,18}",
+      "spriteSize": "{75,59}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{450,208},{75,59}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyMaxBetAnim/PiggyMaxBetAnim_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{0,20}",
+      "spriteSize": "{69,55}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{142,1749},{69,55}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyMaxBetAnim/PiggyMaxBetAnim_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{0,16}",
+      "spriteSize": "{69,63}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{77,1749},{69,63}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyMaxBetAnim/PiggyMaxBetAnim_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,20}",
+      "spriteSize": "{69,55}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{440,285},{69,55}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyMaxBetAnim/PiggyMaxBetAnim_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{-4,20}",
+      "spriteSize": "{57,55}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{153,1668},{57,55}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyMaxBetAnim/PiggyMaxBetAnim_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,20}",
+      "spriteSize": "{55,55}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{392,1550},{55,55}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyMaxBetAnim/PiggyMaxBetAnim_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{2,20}",
+      "spriteSize": "{55,55}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{391,1607},{55,55}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyMaxBetAnim/PiggyMaxBetAnim_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{4,20}",
+      "spriteSize": "{55,55}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{449,1550},{55,55}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyMaxBetAnim/PiggyMaxBetAnim_0022.png": {
+      "aliases": [],
+      "spriteOffset": "{1,21}",
+      "spriteSize": "{55,53}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{448,1607},{55,53}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyMaxBetAnim/PiggyMaxBetAnim_0023.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,21}",
+      "spriteSize": "{57,53}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{458,1255},{57,53}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyMaxBetAnim/PiggyMaxBetAnim_0024.png": {
+      "aliases": [],
+      "spriteOffset": "{-7,21}",
+      "spriteSize": "{59,53}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{458,875},{59,53}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyMaxBetAnim/PiggyMaxBetAnim_0025.png": {
+      "aliases": [],
+      "spriteOffset": "{-10,21}",
+      "spriteSize": "{59,53}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{458,936},{59,53}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyMaxBetAnim/PiggyMaxBetAnim_0026.png": {
+      "aliases": [],
+      "spriteOffset": "{-7,21}",
+      "spriteSize": "{57,53}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{215,1536},{57,53}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyMaxBetAnim/PiggyMaxBetAnim_0027.png": {
+      "aliases": [],
+      "spriteOffset": "{-5,20}",
+      "spriteSize": "{59,55}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{154,1497},{59,55}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyMaxBetAnim/PiggyMaxBetAnim_0028.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,20}",
+      "spriteSize": "{57,55}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{214,1591},{57,55}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggySmallBetsAnim/PiggySmallBetsAnim_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,21}",
+      "spriteSize": "{47,49}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{388,993},{47,49}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggySmallBetsAnim/PiggySmallBetsAnim_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,5}",
+      "spriteSize": "{123,81}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{1,84},{123,81}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggySmallBetsAnim/PiggySmallBetsAnim_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{-4,7}",
+      "spriteSize": "{115,77}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{1,616},{115,77}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggySmallBetsAnim/PiggySmallBetsAnim_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,6}",
+      "spriteSize": "{123,81}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{126,1},{123,81}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggySmallBetsAnim/PiggySmallBetsAnim_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,6}",
+      "spriteSize": "{123,81}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{1,167},{123,81}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggySmallBetsAnim/PiggySmallBetsAnim_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{-5,6}",
+      "spriteSize": "{113,81}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{249,246},{113,81}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggySmallBetsAnim/PiggySmallBetsAnim_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{-6,6}",
+      "spriteSize": "{111,79}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{1,848},{111,79}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggySmallBetsAnim/PiggySmallBetsAnim_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,6}",
+      "spriteSize": "{121,81}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{126,246},{121,81}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggySmallBetsAnim/PiggySmallBetsAnim_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{-4,5}",
+      "spriteSize": "{115,79}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{1,499},{115,79}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggySmallBetsAnim/PiggySmallBetsAnim_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{-5,5}",
+      "spriteSize": "{113,79}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{1,733},{113,79}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggySmallBetsAnim/PiggySmallBetsAnim_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,6}",
+      "spriteSize": "{107,81}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{1,961},{107,81}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggySmallBetsAnim/PiggySmallBetsAnim_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{6,8}",
+      "spriteSize": "{85,79}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{82,733},{85,79}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggySmallBetsAnim/PiggySmallBetsAnim_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{6,9}",
+      "spriteSize": "{75,77}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{77,1429},{75,77}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggySmallBetsAnim/PiggySmallBetsAnim_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,11}",
+      "spriteSize": "{79,73}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{77,1508},{79,73}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggySmallBetsAnim/PiggySmallBetsAnim_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{0,19}",
+      "spriteSize": "{71,57}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{440,80},{71,57}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggySmallBetsAnim/PiggySmallBetsAnim_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{0,20}",
+      "spriteSize": "{69,55}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{440,342},{69,55}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggySmallBetsAnim/PiggySmallBetsAnim_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{0,17}",
+      "spriteSize": "{67,61}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{450,139},{67,61}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggySmallBetsAnim/PiggySmallBetsAnim_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{-7,20}",
+      "spriteSize": "{59,55}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{153,1554},{59,55}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggySmallBetsAnim/PiggySmallBetsAnim_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{-4,20}",
+      "spriteSize": "{57,55}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{274,1543},{57,55}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggySmallBetsAnim/PiggySmallBetsAnim_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,21}",
+      "spriteSize": "{55,53}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{214,1648},{55,53}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggySmallBetsAnim/PiggySmallBetsAnim_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{2,21}",
+      "spriteSize": "{55,53}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{271,1655},{55,53}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggySmallBetsAnim/PiggySmallBetsAnim_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{4,21}",
+      "spriteSize": "{55,53}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{328,1655},{55,53}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggySmallBetsAnim/PiggySmallBetsAnim_0022.png": {
+      "aliases": [],
+      "spriteOffset": "{1,21}",
+      "spriteSize": "{55,53}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{385,1664},{55,53}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggySmallBetsAnim/PiggySmallBetsAnim_0023.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,21}",
+      "spriteSize": "{57,53}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{273,1600},{57,53}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggySmallBetsAnim/PiggySmallBetsAnim_0024.png": {
+      "aliases": [],
+      "spriteOffset": "{-7,21}",
+      "spriteSize": "{59,53}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{458,997},{59,53}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggySmallBetsAnim/PiggySmallBetsAnim_0025.png": {
+      "aliases": [],
+      "spriteOffset": "{-10,21}",
+      "spriteSize": "{59,53}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{458,1058},{59,53}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggySmallBetsAnim/PiggySmallBetsAnim_0026.png": {
+      "aliases": [],
+      "spriteOffset": "{-7,21}",
+      "spriteSize": "{57,53}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{332,1600},{57,53}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggySmallBetsAnim/PiggySmallBetsAnim_0027.png": {
+      "aliases": [],
+      "spriteOffset": "{-5,20}",
+      "spriteSize": "{59,55}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{153,1611},{59,55}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggySmallBetsAnim/PiggySmallBetsAnim_0028.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,20}",
+      "spriteSize": "{57,55}",
+      "spriteSourceSize": "{123,95}",
+      "textureRect": "{{333,1543},{57,55}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0022.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0023.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0024.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0025.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0026.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0027.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0028.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0029.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0030.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0031.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0032.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0033.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0034.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0035.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0036.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0037.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0038.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0039.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0040.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0041.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0042.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0043.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0044.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0045.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0046.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0047.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0048.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0049.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0050.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0051.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0052.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0053.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0054.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{48,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,892},{48,50}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0055.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-2}",
+      "spriteSize": "{66,64}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{440,557},{66,64}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0056.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-2}",
+      "spriteSize": "{66,64}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{440,557},{66,64}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0057.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-2}",
+      "spriteSize": "{66,64}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{440,557},{66,64}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0058.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-2}",
+      "spriteSize": "{66,64}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{440,557},{66,64}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0059.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-2}",
+      "spriteSize": "{66,64}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{440,557},{66,64}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0060.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-2}",
+      "spriteSize": "{66,64}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{440,557},{66,64}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0061.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-2}",
+      "spriteSize": "{66,64}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{440,557},{66,64}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0062.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-2}",
+      "spriteSize": "{66,64}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{440,557},{66,64}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0063.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-2}",
+      "spriteSize": "{66,64}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{440,557},{66,64}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0064.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-2}",
+      "spriteSize": "{66,64}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{440,557},{66,64}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0065.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-8}",
+      "spriteSize": "{88,74}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{1,1624},{88,74}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0066.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-8}",
+      "spriteSize": "{90,74}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{1,1256},{90,74}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0067.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-8}",
+      "spriteSize": "{90,74}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{1,1348},{90,74}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0068.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-8}",
+      "spriteSize": "{90,74}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{1,1440},{90,74}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0069.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-8}",
+      "spriteSize": "{90,74}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{1,1532},{90,74}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0070.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-8}",
+      "spriteSize": "{88,74}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{1,1714},{88,74}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0071.png": {
+      "aliases": [],
+      "spriteOffset": "{2,-8}",
+      "spriteSize": "{86,74}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{82,499},{86,74}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0072.png": {
+      "aliases": [],
+      "spriteOffset": "{3,-8}",
+      "spriteSize": "{84,74}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{80,657},{84,74}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0073.png": {
+      "aliases": [],
+      "spriteOffset": "{3,-8}",
+      "spriteSize": "{84,74}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{84,961},{84,74}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0074.png": {
+      "aliases": [],
+      "spriteOffset": "{4,-8}",
+      "spriteSize": "{82,74}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{84,1047},{82,74}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0075.png": {
+      "aliases": [],
+      "spriteOffset": "{5,-8}",
+      "spriteSize": "{80,74}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{80,1201},{80,74}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0076.png": {
+      "aliases": [],
+      "spriteOffset": "{5,-8}",
+      "spriteSize": "{80,74}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{77,1277},{80,74}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0077.png": {
+      "aliases": [],
+      "spriteOffset": "{5,-8}",
+      "spriteSize": "{80,74}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{77,1353},{80,74}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0078.png": {
+      "aliases": [],
+      "spriteOffset": "{6,-8}",
+      "spriteSize": "{78,74}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{77,1589},{78,74}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0079.png": {
+      "aliases": [],
+      "spriteOffset": "{6,-8}",
+      "spriteSize": "{78,74}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{77,1669},{78,74}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0080.png": {
+      "aliases": [],
+      "spriteOffset": "{6,-8}",
+      "spriteSize": "{78,74}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{364,246},{78,74}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0081.png": {
+      "aliases": [],
+      "spriteOffset": "{6,-8}",
+      "spriteSize": "{78,74}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{374,162},{78,74}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0082.png": {
+      "aliases": [],
+      "spriteOffset": "{6,-8}",
+      "spriteSize": "{78,74}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{114,414},{78,74}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0083.png": {
+      "aliases": [],
+      "spriteOffset": "{6,-8}",
+      "spriteSize": "{78,74}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{158,494},{78,74}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0084.png": {
+      "aliases": [],
+      "spriteOffset": "{6,-8}",
+      "spriteSize": "{78,74}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{160,574},{78,74}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0085.png": {
+      "aliases": [],
+      "spriteOffset": "{6,-8}",
+      "spriteSize": "{78,74}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{166,654},{78,74}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0086.png": {
+      "aliases": [],
+      "spriteOffset": "{6,-8}",
+      "spriteSize": "{78,74}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{163,734},{78,74}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0087.png": {
+      "aliases": [],
+      "spriteOffset": "{6,-8}",
+      "spriteSize": "{78,74}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{159,820},{78,74}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0088.png": {
+      "aliases": [],
+      "spriteOffset": "{6,-7}",
+      "spriteSize": "{78,74}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{160,900},{78,74}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0089.png": {
+      "aliases": [],
+      "spriteOffset": "{6,-7}",
+      "spriteSize": "{78,74}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{160,980},{78,74}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0090.png": {
+      "aliases": [],
+      "spriteOffset": "{6,-7}",
+      "spriteSize": "{78,72}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{162,1130},{78,72}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0091.png": {
+      "aliases": [],
+      "spriteOffset": "{6,-7}",
+      "spriteSize": "{78,72}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{159,1280},{78,72}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0092.png": {
+      "aliases": [],
+      "spriteOffset": "{6,-6}",
+      "spriteSize": "{78,72}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{159,1354},{78,72}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0093.png": {
+      "aliases": [],
+      "spriteOffset": "{6,-5}",
+      "spriteSize": "{78,70}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{236,1130},{78,70}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0094.png": {
+      "aliases": [],
+      "spriteOffset": "{6,-5}",
+      "spriteSize": "{78,68}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{236,549},{78,68}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0095.png": {
+      "aliases": [],
+      "spriteOffset": "{6,-4}",
+      "spriteSize": "{78,66}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{242,629},{78,66}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0096.png": {
+      "aliases": [],
+      "spriteOffset": "{6,-3}",
+      "spriteSize": "{78,66}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{306,549},{78,66}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0097.png": {
+      "aliases": [],
+      "spriteOffset": "{6,-3}",
+      "spriteSize": "{78,66}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{310,629},{78,66}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0098.png": {
+      "aliases": [],
+      "spriteOffset": "{6,-3}",
+      "spriteSize": "{78,64}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{374,82},{78,64}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0099.png": {
+      "aliases": [],
+      "spriteOffset": "{6,-3}",
+      "spriteSize": "{78,64}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{124,331},{78,64}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0100.png": {
+      "aliases": [],
+      "spriteOffset": "{6,-3}",
+      "spriteSize": "{78,64}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{374,464},{78,64}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0101.png": {
+      "aliases": [],
+      "spriteOffset": "{6,-3}",
+      "spriteSize": "{78,64}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{374,544},{78,64}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0102.png": {
+      "aliases": [],
+      "spriteOffset": "{6,-3}",
+      "spriteSize": "{78,64}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{440,477},{78,64}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0103.png": {
+      "aliases": [],
+      "spriteOffset": "{6,-2}",
+      "spriteSize": "{78,64}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{378,624},{78,64}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0104.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{66,62}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{444,623},{66,62}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0105.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{66,62}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{308,1123},{66,62}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0106.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{66,62}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{387,756},{66,62}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0107.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{66,62}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{389,824},{66,62}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0108.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{66,62}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{318,1187},{66,62}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0109.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{66,62}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{317,1303},{66,62}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0110.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{66,62}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{317,1367},{66,62}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0111.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{66,62}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{376,1123},{66,62}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0112.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{66,62}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{382,1187},{66,62}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0113.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-2}",
+      "spriteSize": "{66,62}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{385,1303},{66,62}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0114.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-2}",
+      "spriteSize": "{66,62}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{385,1367},{66,62}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0115.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-2}",
+      "spriteSize": "{66,62}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{444,1119},{66,62}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0116.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-2}",
+      "spriteSize": "{66,62}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{446,1187},{66,62}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0117.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-2}",
+      "spriteSize": "{66,62}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{154,1429},{66,62}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0118.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-2}",
+      "spriteSize": "{66,62}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{218,1428},{66,62}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0119.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-2}",
+      "spriteSize": "{66,62}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{286,1431},{66,62}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0120.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-2}",
+      "spriteSize": "{66,62}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{354,1431},{66,62}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0121.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-2}",
+      "spriteSize": "{66,62}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{422,1438},{66,62}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0122.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-5}",
+      "spriteSize": "{52,52}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{199,1757},{52,52}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0123.png": {
+      "aliases": [],
+      "spriteOffset": "{-5,-5}",
+      "spriteSize": "{52,52}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{376,1719},{52,52}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0124.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,-5}",
+      "spriteSize": "{52,52}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{253,1764},{52,52}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0125.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-5}",
+      "spriteSize": "{52,52}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{307,1764},{52,52}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0126.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,-5}",
+      "spriteSize": "{52,52}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{430,1719},{52,52}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0127.png": {
+      "aliases": [],
+      "spriteOffset": "{-5,-2}",
+      "spriteSize": "{56,58}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{453,691},{56,58}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0128.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,0}",
+      "spriteSize": "{56,58}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{453,749},{56,58}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0129.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-4}",
+      "spriteSize": "{68,68}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{317,757},{68,68}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0130.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{72,72}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{234,329},{72,72}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0131.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-7}",
+      "spriteSize": "{74,72}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{236,897},{74,72}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0132.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-7}",
+      "spriteSize": "{74,72}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{236,971},{74,72}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0133.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-7}",
+      "spriteSize": "{74,72}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{238,1045},{74,72}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0134.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-7}",
+      "spriteSize": "{74,72}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{313,827},{74,72}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0135.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-7}",
+      "spriteSize": "{76,72}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{239,1280},{76,72}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0136.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-7}",
+      "spriteSize": "{76,72}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{239,1354},{76,72}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0137.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-7}",
+      "spriteSize": "{74,72}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{312,901},{74,72}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0138.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-7}",
+      "spriteSize": "{74,74}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{234,473},{74,74}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0139.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-8}",
+      "spriteSize": "{74,72}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{312,975},{74,72}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0140.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-8}",
+      "spriteSize": "{74,72}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{312,1049},{74,72}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0141.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-7}",
+      "spriteSize": "{66,52}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{453,807},{66,52}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0142.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-8}",
+      "spriteSize": "{66,50}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{382,704},{66,50}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0143.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-12}",
+      "spriteSize": "{66,42}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{190,399},{66,42}}",
+      "textureRotated": true
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0144.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-12}",
+      "spriteSize": "{66,42}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{218,1492},{66,42}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0145.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{66,46}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{286,1495},{66,46}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0146.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{66,46}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{354,1495},{66,46}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0147.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{66,46}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{422,1502},{66,46}}",
+      "textureRotated": false
+    },
+    "Hud_01/PiggyWinAnim/PiggyWinAnim_0148.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{66,46}",
+      "spriteSourceSize": "{90,90}",
+      "textureRect": "{{422,1502},{66,46}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "Hud_01-hd.png",
+    "size": "{512,1819}",
+    "smartupdate": "$TexturePacker:SmartUpdate:7701843b91cf9ee47a53dbd2d3056927:375df6c7dfe96e62559d4de9d493880b:86b0bd0cab3bc6c074766fc52d30ba7b$",
+    "textureFileName": "Hud_01-hd.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "frames": {
+    "DailyChallengeListWidget_00/ScrollBase.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{916,418}",
+      "spriteSourceSize": "{916,418}",
+      "textureRect": "{{1,1},{916,418}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "DailyChallengeListWidget_00-hd.png",
+    "size": "{918,420}",
+    "smartupdate": "$TexturePacker:SmartUpdate:c63db3c1c1e9c4ce71755bf8d7c9b1c0:aba5488a63c199f0e70ce3d4b5386ab9:ee5cdebd3d88f6af60ae8dd6eb32a846$",
+    "textureFileName": "DailyChallengeListWidget_00-hd.png",
+    "animations": []
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "frames": {
+    "ConnectingToServer_00/ConnectingtoServer.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{222,38}",
+      "spriteSourceSize": "{222,38}",
+      "textureRect": "{{461,1},{222,38}}",
+      "textureRotated": true
+    },
+    "ConnectingToServer_00/LoadingAnimation/LoadingAnimation_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{73,73}",
+      "spriteSourceSize": "{73,73}",
+      "textureRect": "{{386,1},{73,73}}",
+      "textureRotated": false
+    },
+    "ConnectingToServer_00/LoadingAnimation/LoadingAnimation_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{73,73}",
+      "spriteSourceSize": "{73,73}",
+      "textureRect": "{{386,1},{73,73}}",
+      "textureRotated": false
+    },
+    "ConnectingToServer_00/LoadingAnimation/LoadingAnimation_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{73,73}",
+      "spriteSourceSize": "{73,73}",
+      "textureRect": "{{386,1},{73,73}}",
+      "textureRotated": false
+    },
+    "ConnectingToServer_00/LoadingAnimation/LoadingAnimation_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{73,73}",
+      "spriteSourceSize": "{73,73}",
+      "textureRect": "{{386,1},{73,73}}",
+      "textureRotated": false
+    },
+    "ConnectingToServer_00/LoadingAnimation/LoadingAnimation_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{73,73}",
+      "spriteSourceSize": "{73,73}",
+      "textureRect": "{{386,76},{73,73}}",
+      "textureRotated": false
+    },
+    "ConnectingToServer_00/LoadingAnimation/LoadingAnimation_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{73,73}",
+      "spriteSourceSize": "{73,73}",
+      "textureRect": "{{386,76},{73,73}}",
+      "textureRotated": false
+    },
+    "ConnectingToServer_00/LoadingAnimation/LoadingAnimation_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{73,73}",
+      "spriteSourceSize": "{73,73}",
+      "textureRect": "{{386,76},{73,73}}",
+      "textureRotated": false
+    },
+    "ConnectingToServer_00/LoadingAnimation/LoadingAnimation_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{73,73}",
+      "spriteSourceSize": "{73,73}",
+      "textureRect": "{{386,76},{73,73}}",
+      "textureRotated": false
+    },
+    "ConnectingToServer_00/LoadingAnimation/LoadingAnimation_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{73,73}",
+      "spriteSourceSize": "{73,73}",
+      "textureRect": "{{386,151},{73,73}}",
+      "textureRotated": false
+    },
+    "ConnectingToServer_00/LoadingAnimation/LoadingAnimation_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{73,73}",
+      "spriteSourceSize": "{73,73}",
+      "textureRect": "{{386,151},{73,73}}",
+      "textureRotated": false
+    },
+    "ConnectingToServer_00/LoadingAnimation/LoadingAnimation_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{73,73}",
+      "spriteSourceSize": "{73,73}",
+      "textureRect": "{{386,151},{73,73}}",
+      "textureRotated": false
+    },
+    "ConnectingToServer_00/LoadingAnimation/LoadingAnimation_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{73,73}",
+      "spriteSourceSize": "{73,73}",
+      "textureRect": "{{386,151},{73,73}}",
+      "textureRotated": false
+    },
+    "ConnectingToServer_00/LoadingAnimation/LoadingAnimation_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{73,73}",
+      "spriteSourceSize": "{73,73}",
+      "textureRect": "{{386,226},{73,73}}",
+      "textureRotated": false
+    },
+    "ConnectingToServer_00/LoadingAnimation/LoadingAnimation_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{73,73}",
+      "spriteSourceSize": "{73,73}",
+      "textureRect": "{{386,226},{73,73}}",
+      "textureRotated": false
+    },
+    "ConnectingToServer_00/LoadingAnimation/LoadingAnimation_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{73,73}",
+      "spriteSourceSize": "{73,73}",
+      "textureRect": "{{386,226},{73,73}}",
+      "textureRotated": false
+    },
+    "ConnectingToServer_00/LoadingAnimation/LoadingAnimation_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{73,73}",
+      "spriteSourceSize": "{73,73}",
+      "textureRect": "{{386,226},{73,73}}",
+      "textureRotated": false
+    },
+    "ConnectingToServer_00/LoadingAnimation/LoadingAnimation_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{73,73}",
+      "spriteSourceSize": "{73,73}",
+      "textureRect": "{{386,226},{73,73}}",
+      "textureRotated": false
+    },
+    "ConnectingToServer_00/Logo.png": {
+      "aliases": [],
+      "spriteOffset": "{0,18}",
+      "spriteSize": "{383,293}",
+      "spriteSourceSize": "{431,343}",
+      "textureRect": "{{1,1},{383,293}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "ConnectingToServer_00-hd.png",
+    "size": "{500,300}",
+    "smartupdate": "$TexturePacker:SmartUpdate:74a64cf7e3c048f9f38110e43e497d45:d7f790095a28715dfa96c034049ca9ee:e3de202aa6bcd7490c3e2d77281fcc02$",
+    "textureFileName": "ConnectingToServer_00-hd.png",
+    "animations": [
+      "LoadingAnimation"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "frames": {
+    "ConnectionLostPopup_00/Heading.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{441,56}",
+      "spriteSourceSize": "{441,56}",
+      "textureRect": "{{1,1},{441,56}}",
+      "textureRotated": false
+    },
+    "ConnectionLostPopup_00/Signal.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{178,147}",
+      "spriteSourceSize": "{178,147}",
+      "textureRect": "{{1,59},{178,147}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "ConnectionLostPopup_00-hd.png",
+    "size": "{443,207}",
+    "smartupdate": "$TexturePacker:SmartUpdate:d1a664462abbf978e461f16a0f766d12:9e100c28e638fe736353a9a492f4341e:ff0bd0197140d691280ee99077f38007$",
+    "textureFileName": "ConnectionLostPopup_00-hd.png",
+    "animations": []
+  }
+}

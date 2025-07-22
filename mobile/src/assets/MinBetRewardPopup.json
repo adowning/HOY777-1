@@ -1,0 +1,72 @@
+{
+  "frames": {
+    "MinBetRewardPopup_00/CoinBg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{383,160}",
+      "spriteSourceSize": "{383,160}",
+      "textureRect": "{{1,1},{383,160}}",
+      "textureRotated": false
+    },
+    "MinBetRewardPopup_00/CoinStackLeft.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{251,160}",
+      "spriteSourceSize": "{251,160}",
+      "textureRect": "{{386,1},{251,160}}",
+      "textureRotated": false
+    },
+    "MinBetRewardPopup_00/CoinStackRight.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{251,160}",
+      "spriteSourceSize": "{251,160}",
+      "textureRect": "{{386,1},{251,160}}",
+      "textureRotated": false
+    },
+    "MinBetRewardPopup_00/Coinbag.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{208,214}",
+      "spriteSourceSize": "{208,214}",
+      "textureRect": "{{676,1},{208,214}}",
+      "textureRotated": false
+    },
+    "MinBetRewardPopup_00/ThanksBtn/ThanksBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,88}",
+      "spriteSourceSize": "{223,88}",
+      "textureRect": "{{1,163},{223,88}}",
+      "textureRotated": false
+    },
+    "MinBetRewardPopup_00/ThanksBtn/ThanksBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,88}",
+      "spriteSourceSize": "{223,88}",
+      "textureRect": "{{226,163},{223,88}}",
+      "textureRotated": false
+    },
+    "MinBetRewardPopup_00/ThanksBtn/ThanksBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,88}",
+      "spriteSourceSize": "{223,88}",
+      "textureRect": "{{451,163},{223,88}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "MinBetRewardPopup_00-hd.png",
+    "size": "{885,252}",
+    "smartupdate": "$TexturePacker:SmartUpdate:230d6cbb9072632345e91917fa086e05:5314bf9456b075e756f4358ff08ee004:baf67ec231ccb39f48866012fb2090a9$",
+    "textureFileName": "MinBetRewardPopup_00-hd.png",
+    "animations": [
+      "ThanksBtn"
+    ]
+  }
+}

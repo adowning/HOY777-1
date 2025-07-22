@@ -1,0 +1,22 @@
+{
+  "frames": {
+    "OnboardingScreen_00/Bg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{1136,640}",
+      "spriteSourceSize": "{1136,640}",
+      "textureRect": "{{1,1},{1136,640}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "OnboardingScreen_00-hd.png",
+    "size": "{1138,642}",
+    "smartupdate": "$TexturePacker:SmartUpdate:515130fe5635866f46ef8045fddaafdc:86d77c136d7bb8f1d208e0d65bdaa4e2:1e1f614150e19fb1f28a33970a3b16d8$",
+    "textureFileName": "OnboardingScreen_00-hd.png",
+    "animations": []
+  }
+}

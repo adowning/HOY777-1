@@ -10,14 +10,12 @@ import { eq } from 'drizzle-orm'
 import { createInsertSchema } from 'drizzle-zod'
 import { z } from '@hono/zod-openapi'
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const createUserSchema = createInsertSchema(users)
 
 export const findManyUser = async () => {
   return await db.select().from(users)
 }
 
-export const createUser = async (data: z.infer<typeof createUserSchema>) => {
+export const createUser = async (data: z.infer<ReturnType<typeof createInsertSchema>>) => {
   return await db.insert(users).values(data).returning()
 }
 
@@ -27,7 +25,7 @@ export const findUserById = async (id: number) => {
 
 export const updateUser = async (
   id: number,
-  data: Partial<z.infer<typeof createUserSchema>>
+  data: Partial<z.infer<typeof patchUsersSchema>>
 ) => {
   return await db.update(users).set(data).where(eq(users.id, id)).returning()
 }
@@ -47,7 +45,7 @@ export const getUserBalance = async (userId: number) => {
   return await db.select().from(balances).where(eq(balances.userId, userId))
 }
 
-export const setUserCurrency = async (userId: number, currencyCode: string) => {
+export const setUserCurrency = async (currencyCode: string) => {
   // This is a simplified example. A real implementation would be more complex.
   const currency = await db
     .select()
@@ -61,9 +59,9 @@ export const setUserCurrency = async (userId: number, currencyCode: string) => {
   return currency[0]
 }
 
-export const sendEmailVerification = async (userId: number) => {
+export const sendEmailVerification = async () => {
   // Placeholder for sending a verification email
-  console.log(`Sending verification email to user ${userId}`)
+  console.log(`Sending verification email to user`)
   return { status: 'ok', time: Date.now() }
 }
 
@@ -138,8 +136,8 @@ export const favoriteGame = async () => {
   return { success: true }
 }
 
-export const gameHistory = async () => {
-  return await db.select().from(gameHistory) //.where(eq(gameHistory.userId, userId))
+export const gameHistory = async (userId: string) => {
+  return await db.select().from(gameHistory).where(eq(gameHistory.userId, userId))
 }
 
 export const spinPage = async () => {

@@ -1,0 +1,48 @@
+{
+  "frames": {
+    "RSCartPopup_00/CloseBtnMediumBg/CloseBtnMediumBg_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{933,1},{44,44}}",
+      "textureRotated": false
+    },
+    "RSCartPopup_00/CloseBtnMediumBg/CloseBtnMediumBg_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{979,1},{44,44}}",
+      "textureRotated": false
+    },
+    "RSCartPopup_00/CloseBtnMediumBg/CloseBtnMediumBg_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{933,47},{44,44}}",
+      "textureRotated": false
+    },
+    "RSCartPopup_00/MediumBg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{930,590}",
+      "spriteSourceSize": "{930,590}",
+      "textureRect": "{{1,1},{930,590}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "RSCartPopup_00-hd.png",
+    "size": "{1024,1024}",
+    "smartupdate": "$TexturePacker:SmartUpdate:425b7f446c93cb7457e204b809a66e99:73c2f627f798c6cf363ac8779cc10d0d:a2f9787f61b4a0c9281b9889a35c96e9$",
+    "textureFileName": "RSCartPopup_00-hd.png",
+    "animations": [
+      "CloseBtnMediumBg"
+    ]
+  }
+}

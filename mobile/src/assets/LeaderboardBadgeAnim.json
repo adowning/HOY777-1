@@ -1,0 +1,753 @@
+{
+  "frames": {
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{-86.5,209}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1,1018},{3,3}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{51,-145}",
+      "spriteSize": "{74,131}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1247,558},{74,131}}",
+      "textureRotated": true
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{51,-145}",
+      "spriteSize": "{74,131}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1380,558},{74,131}}",
+      "textureRotated": true
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{51,-145}",
+      "spriteSize": "{74,131}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1568,631},{74,131}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{51,-145}",
+      "spriteSize": "{74,131}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1568,764},{74,131}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{41,-141}",
+      "spriteSize": "{94,139}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1513,535},{94,139}}",
+      "textureRotated": true
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{31,-136}",
+      "spriteSize": "{114,149}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1522,897},{114,149}}",
+      "textureRotated": true
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{22,-131}",
+      "spriteSize": "{132,159}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1654,530},{132,159}}",
+      "textureRotated": true
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{13,-125}",
+      "spriteSize": "{150,171}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1554,357},{150,171}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{6,-118}",
+      "spriteSize": "{164,185}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{891,829},{164,185}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-111}",
+      "spriteSize": "{176,199}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1247,357},{176,199}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-102}",
+      "spriteSize": "{176,217}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1235,826},{176,217}}",
+      "textureRotated": true
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-94}",
+      "spriteSize": "{176,233}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1577,1},{176,233}}",
+      "textureRotated": true
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-85}",
+      "spriteSize": "{176,251}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{535,735},{176,251}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-76}",
+      "spriteSize": "{176,269}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1,747},{176,269}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-76}",
+      "spriteSize": "{176,269}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{179,741},{176,269}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-66}",
+      "spriteSize": "{176,289}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1069,357},{176,289}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-55}",
+      "spriteSize": "{176,311}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1235,179},{176,311}}",
+      "textureRotated": true
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-44}",
+      "spriteSize": "{176,333}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1242,1},{176,333}}",
+      "textureRotated": true
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-33}",
+      "spriteSize": "{176,355}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{713,366},{176,355}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-29}",
+      "spriteSize": "{176,363}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{713,1},{176,363}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-28}",
+      "spriteSize": "{176,365}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{179,374},{176,365}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0022.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-28}",
+      "spriteSize": "{176,365}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{357,1},{176,365}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0023.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-28}",
+      "spriteSize": "{176,365}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{357,368},{176,365}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0024.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-28}",
+      "spriteSize": "{176,365}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{535,1},{176,365}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0025.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-25}",
+      "spriteSize": "{176,371}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1,1},{176,371}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0026.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-25}",
+      "spriteSize": "{176,371}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1,374},{176,371}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0027.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-25}",
+      "spriteSize": "{176,371}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{179,1},{176,371}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0028.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-21}",
+      "spriteSize": "{176,365}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{535,368},{176,365}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0029.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-14}",
+      "spriteSize": "{176,349}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{891,1},{176,349}}",
+      "textureRotated": true
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0030.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-5}",
+      "spriteSize": "{176,333}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{891,179},{176,333}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0031.png": {
+      "aliases": [],
+      "spriteOffset": "{0,4}",
+      "spriteSize": "{176,313}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{891,514},{176,313}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0032.png": {
+      "aliases": [],
+      "spriteOffset": "{0,15}",
+      "spriteSize": "{176,293}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{713,723},{176,293}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0033.png": {
+      "aliases": [],
+      "spriteOffset": "{0,26}",
+      "spriteSize": "{176,269}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{357,735},{176,269}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0034.png": {
+      "aliases": [],
+      "spriteOffset": "{0,38}",
+      "spriteSize": "{176,247}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1548,179},{176,247}}",
+      "textureRotated": true
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0035.png": {
+      "aliases": [],
+      "spriteOffset": "{0,49}",
+      "spriteSize": "{176,225}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1069,648},{176,225}}",
+      "textureRotated": true
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0036.png": {
+      "aliases": [],
+      "spriteOffset": "{0,71}",
+      "spriteSize": "{176,181}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1057,829},{176,181}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0037.png": {
+      "aliases": [],
+      "spriteOffset": "{0,81}",
+      "spriteSize": "{176,159}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1069,179},{176,159}}",
+      "textureRotated": true
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0038.png": {
+      "aliases": [],
+      "spriteOffset": "{0,90}",
+      "spriteSize": "{176,141}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1296,634},{176,141}}",
+      "textureRotated": true
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0039.png": {
+      "aliases": [],
+      "spriteOffset": "{0,97}",
+      "spriteSize": "{176,127}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1439,634},{176,127}}",
+      "textureRotated": true
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0040.png": {
+      "aliases": [],
+      "spriteOffset": "{0,97}",
+      "spriteSize": "{176,127}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1425,357},{176,127}}",
+      "textureRotated": true
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0041.png": {
+      "aliases": [],
+      "spriteOffset": "{11,97}",
+      "spriteSize": "{154,127}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1644,664},{154,127}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0042.png": {
+      "aliases": [],
+      "spriteOffset": "{23,97}",
+      "spriteSize": "{130,127}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1673,793},{130,127}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0043.png": {
+      "aliases": [],
+      "spriteOffset": "{34,98}",
+      "spriteSize": "{108,127}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1706,357},{108,127}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0044.png": {
+      "aliases": [],
+      "spriteOffset": "{55,102}",
+      "spriteSize": "{66,115}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1454,897},{66,115}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimLeft/BadgeAnimLeft_0045.png": {
+      "aliases": [],
+      "spriteOffset": "{-86.5,209}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1,1018},{3,3}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{-86.5,209}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1,1018},{3,3}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{51,-145}",
+      "spriteSize": "{74,131}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1247,558},{74,131}}",
+      "textureRotated": true
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{51,-145}",
+      "spriteSize": "{74,131}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1380,558},{74,131}}",
+      "textureRotated": true
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{51,-145}",
+      "spriteSize": "{74,131}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1568,631},{74,131}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{51,-145}",
+      "spriteSize": "{74,131}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1568,764},{74,131}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{41,-141}",
+      "spriteSize": "{94,139}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1513,535},{94,139}}",
+      "textureRotated": true
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{31,-136}",
+      "spriteSize": "{114,149}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1522,897},{114,149}}",
+      "textureRotated": true
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{22,-131}",
+      "spriteSize": "{132,159}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1654,530},{132,159}}",
+      "textureRotated": true
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{13,-125}",
+      "spriteSize": "{150,171}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1554,357},{150,171}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{6,-118}",
+      "spriteSize": "{164,185}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{891,829},{164,185}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-111}",
+      "spriteSize": "{176,199}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1247,357},{176,199}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-102}",
+      "spriteSize": "{176,217}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1235,826},{176,217}}",
+      "textureRotated": true
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-94}",
+      "spriteSize": "{176,233}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1577,1},{176,233}}",
+      "textureRotated": true
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-85}",
+      "spriteSize": "{176,251}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{535,735},{176,251}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-76}",
+      "spriteSize": "{176,269}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1,747},{176,269}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-76}",
+      "spriteSize": "{176,269}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{179,741},{176,269}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-66}",
+      "spriteSize": "{176,289}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1069,357},{176,289}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-55}",
+      "spriteSize": "{176,311}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1235,179},{176,311}}",
+      "textureRotated": true
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-44}",
+      "spriteSize": "{176,333}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1242,1},{176,333}}",
+      "textureRotated": true
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-33}",
+      "spriteSize": "{176,355}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{713,366},{176,355}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-29}",
+      "spriteSize": "{176,363}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{713,1},{176,363}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-28}",
+      "spriteSize": "{176,365}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{179,374},{176,365}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0022.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-28}",
+      "spriteSize": "{176,365}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{357,1},{176,365}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0023.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-28}",
+      "spriteSize": "{176,365}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{357,368},{176,365}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0024.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-28}",
+      "spriteSize": "{176,365}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{535,1},{176,365}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0025.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-25}",
+      "spriteSize": "{176,371}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1,1},{176,371}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0026.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-25}",
+      "spriteSize": "{176,371}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1,374},{176,371}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0027.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-25}",
+      "spriteSize": "{176,371}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{179,1},{176,371}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0028.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-21}",
+      "spriteSize": "{176,365}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{535,368},{176,365}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0029.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-14}",
+      "spriteSize": "{176,349}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{891,1},{176,349}}",
+      "textureRotated": true
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0030.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-5}",
+      "spriteSize": "{176,333}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{891,179},{176,333}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0031.png": {
+      "aliases": [],
+      "spriteOffset": "{0,4}",
+      "spriteSize": "{176,313}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{891,514},{176,313}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0032.png": {
+      "aliases": [],
+      "spriteOffset": "{0,15}",
+      "spriteSize": "{176,293}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{713,723},{176,293}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0033.png": {
+      "aliases": [],
+      "spriteOffset": "{0,26}",
+      "spriteSize": "{176,269}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{357,735},{176,269}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0034.png": {
+      "aliases": [],
+      "spriteOffset": "{0,38}",
+      "spriteSize": "{176,247}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1548,179},{176,247}}",
+      "textureRotated": true
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0035.png": {
+      "aliases": [],
+      "spriteOffset": "{0,49}",
+      "spriteSize": "{176,225}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1069,648},{176,225}}",
+      "textureRotated": true
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0036.png": {
+      "aliases": [],
+      "spriteOffset": "{0,71}",
+      "spriteSize": "{176,181}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1057,829},{176,181}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0037.png": {
+      "aliases": [],
+      "spriteOffset": "{0,81}",
+      "spriteSize": "{176,159}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1069,179},{176,159}}",
+      "textureRotated": true
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0038.png": {
+      "aliases": [],
+      "spriteOffset": "{0,90}",
+      "spriteSize": "{176,141}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1296,634},{176,141}}",
+      "textureRotated": true
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0039.png": {
+      "aliases": [],
+      "spriteOffset": "{0,97}",
+      "spriteSize": "{176,127}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1439,634},{176,127}}",
+      "textureRotated": true
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0040.png": {
+      "aliases": [],
+      "spriteOffset": "{0,97}",
+      "spriteSize": "{176,127}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1425,357},{176,127}}",
+      "textureRotated": true
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0041.png": {
+      "aliases": [],
+      "spriteOffset": "{11,97}",
+      "spriteSize": "{154,127}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1644,664},{154,127}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0042.png": {
+      "aliases": [],
+      "spriteOffset": "{23,97}",
+      "spriteSize": "{130,127}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1673,793},{130,127}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0043.png": {
+      "aliases": [],
+      "spriteOffset": "{34,98}",
+      "spriteSize": "{108,127}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1706,357},{108,127}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0044.png": {
+      "aliases": [],
+      "spriteOffset": "{55,102}",
+      "spriteSize": "{66,115}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1454,897},{66,115}}",
+      "textureRotated": false
+    },
+    "LeaderboardBadgeAnim_00/BadgeAnimRight/BadgeAnimRight_0045.png": {
+      "aliases": [],
+      "spriteOffset": "{-86.5,209}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{176,421}",
+      "textureRect": "{{1,1018},{3,3}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "LeaderboardBadgeAnim_00-hd.png",
+    "size": "{1815,1022}",
+    "smartupdate": "$TexturePacker:SmartUpdate:b078b17436f64bb6d50c074147b039a3:2530f20e1a6204050235d0c4f2ad8841:c2c5fa5fa35d5b96d0f7df4b24ba2d22$",
+    "textureFileName": "LeaderboardBadgeAnim_00-hd.png",
+    "animations": [
+      "BadgeAnimLeft",
+      "BadgeAnimRight"
+    ]
+  }
+}

@@ -1,0 +1,493 @@
+{
+  "frames": {
+    "JackpotAvailablePopup_01/FairyAnim1/FairyAnim1_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{-80.5,94.5}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{1195,277},{3,3}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim1/FairyAnim1_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{-8,7}",
+      "spriteSize": "{128,142}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{1,341},{128,142}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim1/FairyAnim1_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{-8,7}",
+      "spriteSize": "{128,142}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{1,341},{128,142}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim1/FairyAnim1_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{-10,-1}",
+      "spriteSize": "{130,144}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{517,337},{130,144}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim1/FairyAnim1_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{-10,-1}",
+      "spriteSize": "{130,144}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{517,337},{130,144}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim1/FairyAnim1_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{-12,-4}",
+      "spriteSize": "{130,148}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{781,333},{130,148}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim1/FairyAnim1_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{-12,-4}",
+      "spriteSize": "{130,148}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{781,333},{130,148}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim1/FairyAnim1_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{-9,-1}",
+      "spriteSize": "{136,158}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{1045,1},{136,158}}",
+      "textureRotated": true
+    },
+    "JackpotAvailablePopup_01/FairyAnim1/FairyAnim1_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{-9,-1}",
+      "spriteSize": "{136,158}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{1045,1},{136,158}}",
+      "textureRotated": true
+    },
+    "JackpotAvailablePopup_01/FairyAnim1/FairyAnim1_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{-9,0}",
+      "spriteSize": "{138,164}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{707,1},{138,164}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim1/FairyAnim1_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{-9,0}",
+      "spriteSize": "{138,164}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{707,1},{138,164}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim1/FairyAnim1_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{-8,0}",
+      "spriteSize": "{140,166}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{427,1},{140,166}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim1/FairyAnim1_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{-8,0}",
+      "spriteSize": "{140,166}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{427,1},{140,166}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim1/FairyAnim1_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{-8,1}",
+      "spriteSize": "{142,168}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{1,1},{142,168}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim1/FairyAnim1_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{-8,1}",
+      "spriteSize": "{142,168}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{1,1},{142,168}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim1/FairyAnim1_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{-7,1}",
+      "spriteSize": "{140,168}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{145,1},{140,168}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim1/FairyAnim1_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{-7,1}",
+      "spriteSize": "{140,168}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{145,1},{140,168}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim1/FairyAnim1_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{-6,2}",
+      "spriteSize": "{138,168}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{287,1},{138,168}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim1/FairyAnim1_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{-6,2}",
+      "spriteSize": "{138,168}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{287,1},{138,168}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim1/FairyAnim1_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{-6,2}",
+      "spriteSize": "{136,166}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{569,1},{136,166}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim1/FairyAnim1_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{-6,2}",
+      "spriteSize": "{136,166}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{569,1},{136,166}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim1/FairyAnim1_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{-6,3}",
+      "spriteSize": "{134,164}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{847,1},{134,164}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim1/FairyAnim1_0022.png": {
+      "aliases": [],
+      "spriteOffset": "{-6,3}",
+      "spriteSize": "{134,164}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{847,1},{134,164}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim1/FairyAnim1_0023.png": {
+      "aliases": [],
+      "spriteOffset": "{-6,6}",
+      "spriteSize": "{130,154}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{1205,1},{130,154}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim1/FairyAnim1_0024.png": {
+      "aliases": [],
+      "spriteOffset": "{-6,6}",
+      "spriteSize": "{130,154}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{1205,1},{130,154}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim1/FairyAnim1_0025.png": {
+      "aliases": [],
+      "spriteOffset": "{-7,9}",
+      "spriteSize": "{130,148}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{913,333},{130,148}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim1/FairyAnim1_0026.png": {
+      "aliases": [],
+      "spriteOffset": "{-7,9}",
+      "spriteSize": "{130,148}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{913,333},{130,148}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim1/FairyAnim1_0027.png": {
+      "aliases": [],
+      "spriteOffset": "{-7,9}",
+      "spriteSize": "{130,148}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{913,333},{130,148}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim1/FairyAnim1_0028.png": {
+      "aliases": [],
+      "spriteOffset": "{-7,7}",
+      "spriteSize": "{126,142}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{261,341},{126,142}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim1/FairyAnim1_0029.png": {
+      "aliases": [],
+      "spriteOffset": "{-80.5,94.5}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{1195,277},{3,3}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim2/FairyAnim2_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{-80.5,94.5}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{1195,277},{3,3}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim2/FairyAnim2_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{8,7}",
+      "spriteSize": "{128,142}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{131,341},{128,142}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim2/FairyAnim2_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{8,7}",
+      "spriteSize": "{128,142}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{131,341},{128,142}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim2/FairyAnim2_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{9,-1}",
+      "spriteSize": "{130,144}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{649,337},{130,144}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim2/FairyAnim2_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{9,-1}",
+      "spriteSize": "{130,144}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{649,337},{130,144}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim2/FairyAnim2_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{11,-4}",
+      "spriteSize": "{130,148}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{1045,277},{130,148}}",
+      "textureRotated": true
+    },
+    "JackpotAvailablePopup_01/FairyAnim2/FairyAnim2_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{11,-4}",
+      "spriteSize": "{130,148}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{1045,277},{130,148}}",
+      "textureRotated": true
+    },
+    "JackpotAvailablePopup_01/FairyAnim2/FairyAnim2_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{9,-1}",
+      "spriteSize": "{136,158}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{1045,139},{136,158}}",
+      "textureRotated": true
+    },
+    "JackpotAvailablePopup_01/FairyAnim2/FairyAnim2_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{9,-1}",
+      "spriteSize": "{136,158}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{1045,139},{136,158}}",
+      "textureRotated": true
+    },
+    "JackpotAvailablePopup_01/FairyAnim2/FairyAnim2_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{8,0}",
+      "spriteSize": "{138,164}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{707,167},{138,164}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim2/FairyAnim2_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{8,0}",
+      "spriteSize": "{138,164}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{707,167},{138,164}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim2/FairyAnim2_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{8,0}",
+      "spriteSize": "{140,166}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{427,169},{140,166}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim2/FairyAnim2_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{8,0}",
+      "spriteSize": "{140,166}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{427,169},{140,166}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim2/FairyAnim2_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{7,1}",
+      "spriteSize": "{142,168}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{1,171},{142,168}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim2/FairyAnim2_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{7,1}",
+      "spriteSize": "{142,168}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{1,171},{142,168}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim2/FairyAnim2_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{7,1}",
+      "spriteSize": "{140,168}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{145,171},{140,168}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim2/FairyAnim2_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{7,1}",
+      "spriteSize": "{140,168}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{145,171},{140,168}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim2/FairyAnim2_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{6,2}",
+      "spriteSize": "{138,168}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{287,171},{138,168}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim2/FairyAnim2_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{6,2}",
+      "spriteSize": "{138,168}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{287,171},{138,168}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim2/FairyAnim2_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{6,2}",
+      "spriteSize": "{136,166}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{569,169},{136,166}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim2/FairyAnim2_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{6,2}",
+      "spriteSize": "{136,166}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{569,169},{136,166}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim2/FairyAnim2_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{5,3}",
+      "spriteSize": "{134,164}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{847,167},{134,164}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim2/FairyAnim2_0022.png": {
+      "aliases": [],
+      "spriteOffset": "{5,3}",
+      "spriteSize": "{134,164}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{847,167},{134,164}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim2/FairyAnim2_0023.png": {
+      "aliases": [],
+      "spriteOffset": "{6,6}",
+      "spriteSize": "{130,154}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{1205,157},{130,154}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim2/FairyAnim2_0024.png": {
+      "aliases": [],
+      "spriteOffset": "{6,6}",
+      "spriteSize": "{130,154}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{1205,157},{130,154}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim2/FairyAnim2_0025.png": {
+      "aliases": [],
+      "spriteOffset": "{7,9}",
+      "spriteSize": "{130,148}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{1195,313},{130,148}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim2/FairyAnim2_0026.png": {
+      "aliases": [],
+      "spriteOffset": "{7,9}",
+      "spriteSize": "{130,148}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{1195,313},{130,148}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim2/FairyAnim2_0027.png": {
+      "aliases": [],
+      "spriteOffset": "{7,9}",
+      "spriteSize": "{130,148}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{1195,313},{130,148}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim2/FairyAnim2_0028.png": {
+      "aliases": [],
+      "spriteOffset": "{6,7}",
+      "spriteSize": "{126,142}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{389,341},{126,142}}",
+      "textureRotated": false
+    },
+    "JackpotAvailablePopup_01/FairyAnim2/FairyAnim2_0029.png": {
+      "aliases": [],
+      "spriteOffset": "{-80.5,94.5}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{164,192}",
+      "textureRect": "{{1195,277},{3,3}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "JackpotAvailablePopup_01-hd.png",
+    "size": "{1336,484}",
+    "smartupdate": "$TexturePacker:SmartUpdate:8748656a3bf62732ecf55f8de195323d:f0cfb0bb3541087ec9dd1d8457f6d8a1:375dffb50f5ea9a8ae5063e6c0a793ac$",
+    "textureFileName": "JackpotAvailablePopup_01-hd.png"
+  }
+}

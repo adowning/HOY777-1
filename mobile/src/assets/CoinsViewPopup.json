@@ -1,0 +1,130 @@
+{
+  "frames": {
+    "CoinsViewPopup_00/Benefits/Benefits_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{158,39}",
+      "spriteSourceSize": "{158,39}",
+      "textureRect": "{{467,26},{158,39}}",
+      "textureRotated": true
+    },
+    "CoinsViewPopup_00/Benefits/Benefits_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{158,39}",
+      "spriteSourceSize": "{158,39}",
+      "textureRect": "{{467,186},{158,39}}",
+      "textureRotated": true
+    },
+    "CoinsViewPopup_00/Benefits/Benefits_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{158,39}",
+      "spriteSourceSize": "{158,39}",
+      "textureRect": "{{467,346},{158,39}}",
+      "textureRotated": true
+    },
+    "CoinsViewPopup_00/GemsBg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{82,98}",
+      "spriteSourceSize": "{82,98}",
+      "textureRect": "{{1,917},{82,98}}",
+      "textureRotated": false
+    },
+    "CoinsViewPopup_00/Status.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{144,23}",
+      "spriteSourceSize": "{144,23}",
+      "textureRect": "{{357,1},{144,23}}",
+      "textureRotated": false
+    },
+    "CoinsViewPopup_00/TierUpAnim/TierUpAnim_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{296,108}",
+      "spriteSourceSize": "{296,108}",
+      "textureRect": "{{357,26},{296,108}}",
+      "textureRotated": true
+    },
+    "CoinsViewPopup_00/TierUpAnim/TierUpAnim_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{296,108}",
+      "spriteSourceSize": "{296,108}",
+      "textureRect": "{{357,324},{296,108}}",
+      "textureRotated": true
+    },
+    "CoinsViewPopup_00/TierUpAnim/TierUpAnim_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{296,108}",
+      "spriteSourceSize": "{296,108}",
+      "textureRect": "{{357,622},{296,108}}",
+      "textureRotated": true
+    },
+    "CoinsViewPopup_00/TierUpAnim/TierUpAnim_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{296,108}",
+      "spriteSourceSize": "{296,108}",
+      "textureRect": "{{101,1},{296,108}}",
+      "textureRotated": true
+    },
+    "CoinsViewPopup_00/TierUpAnim/TierUpAnim_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{296,108}",
+      "spriteSourceSize": "{296,108}",
+      "textureRect": "{{211,1},{296,108}}",
+      "textureRotated": true
+    },
+    "CoinsViewPopup_00/VIPClub.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{270,47}",
+      "spriteSourceSize": "{270,47}",
+      "textureRect": "{{85,917},{270,47}}",
+      "textureRotated": false
+    },
+    "CoinsViewPopup_00/VipIconBg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{914,98}",
+      "spriteSourceSize": "{914,98}",
+      "textureRect": "{{1,1},{914,98}}",
+      "textureRotated": true
+    },
+    "CoinsViewPopup_00/VipInfoText/VipInfoText_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{156,42}",
+      "spriteSourceSize": "{156,42}",
+      "textureRect": "{{85,966},{156,42}}",
+      "textureRotated": false
+    },
+    "CoinsViewPopup_00/VipInfoText/VipInfoText_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{229,41}",
+      "spriteSourceSize": "{229,41}",
+      "textureRect": "{{243,966},{229,41}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "CoinsViewPopup_00-hd.png",
+    "size": "{512,1024}",
+    "smartupdate": "$TexturePacker:SmartUpdate:1de65fe282d3cacce08a92aa76f32b45:2df56ae163fa50c2fa7a493e05a993ad:3673ed87616f64d55829b493e41620e2$",
+    "textureFileName": "CoinsViewPopup_00-hd.png",
+    "animations": [
+      "Benefits",
+      "TierUpAnim",
+      "VipInfoText"
+    ]
+  }
+}

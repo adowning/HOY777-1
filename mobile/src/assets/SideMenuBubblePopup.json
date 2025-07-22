@@ -1,0 +1,22 @@
+{
+  "frames": {
+    "SideMenuBubblePopup_00/Bubble.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{275,157}",
+      "spriteSourceSize": "{275,157}",
+      "textureRect": "{{1,1},{275,157}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "SideMenuBubblePopup_00-hd.png",
+    "size": "{277,159}",
+    "smartupdate": "$TexturePacker:SmartUpdate:d98c406d9095a35c3eaa61f4ed2f956e:1f2cf7879960d482211531554a9f140a:6b41d4e7e8c5f0450db60652d8ef0da6$",
+    "textureFileName": "SideMenuBubblePopup_00-hd.png",
+    "animations": []
+  }
+}

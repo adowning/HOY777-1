@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Active Users</title>
+  <style>
+    body { font-family: sans-serif; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { border: 1px solid #ddd; padding: 8px; }
+    th { background-color: #f2f2f2; }
+  </style>
+</head>
+<body>
+  <h1>Active Users</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>User ID</th>
+        <th>Username</th>
+        <th>Last Seen</th>
+        <th>IP Address</th>
+        <th>User Agent</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each sessions}}
+      <tr>
+        <td>{{this.user.id}}</td>
+        <td>{{this.user.username}}</td>
+        <td>{{this.lastSeen}}</td>
+        <td>{{this.ipAddress}}</td>
+        <td>{{this.userAgent}}</td>
+      </tr>
+      {{/each}}
+    </tbody>
+  </table>
+</body>
+</html>

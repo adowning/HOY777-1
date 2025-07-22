@@ -1,0 +1,708 @@
+{
+  "frames": {
+    "CarousalWidget_00/ClaimedTick.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{246,374}",
+      "spriteSourceSize": "{246,374}",
+      "textureRect": "{{1,755},{246,374}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/EmailConnectBo.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{205,172}",
+      "spriteSourceSize": "{205,172}",
+      "textureRect": "{{497,377},{205,172}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/EmailConnectBtn/EmailConnectBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{246,375}",
+      "spriteSourceSize": "{246,375}",
+      "textureRect": "{{1,1},{246,375}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/EmailConnectBtn/EmailConnectBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{246,375}",
+      "spriteSourceSize": "{246,375}",
+      "textureRect": "{{1,378},{246,375}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/EmailConnectBtn/EmailConnectBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{246,375}",
+      "spriteSourceSize": "{246,375}",
+      "textureRect": "{{249,1},{246,375}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/FBConnectBo.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{205,172}",
+      "spriteSourceSize": "{205,172}",
+      "textureRect": "{{745,1},{205,172}}",
+      "textureRotated": true
+    },
+    "CarousalWidget_00/FBConnectBtn/FBConnectBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{246,374}",
+      "spriteSourceSize": "{246,374}",
+      "textureRect": "{{249,378},{246,374}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/FBConnectBtn/FBConnectBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{246,374}",
+      "spriteSourceSize": "{246,374}",
+      "textureRect": "{{497,1},{246,374}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/FBConnectBtn/FBConnectBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{246,374}",
+      "spriteSourceSize": "{246,374}",
+      "textureRect": "{{249,754},{246,374}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/FBConnectGlowAnim/FBConnectGlowAnim_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{-23,22}",
+      "spriteSize": "{164,9}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{919,1},{164,9}}",
+      "textureRotated": true
+    },
+    "CarousalWidget_00/FBConnectGlowAnim/FBConnectGlowAnim_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,32}",
+      "spriteSize": "{210,37}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{708,1336},{210,37}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/FBConnectGlowAnim/FBConnectGlowAnim_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,34}",
+      "spriteSize": "{216,45}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{661,1144},{216,45}}",
+      "textureRotated": true
+    },
+    "CarousalWidget_00/FBConnectGlowAnim/FBConnectGlowAnim_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,36}",
+      "spriteSize": "{220,47}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{886,208},{220,47}}",
+      "textureRotated": true
+    },
+    "CarousalWidget_00/FBConnectGlowAnim/FBConnectGlowAnim_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{1,32}",
+      "spriteSize": "{224,69}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{864,779},{224,69}}",
+      "textureRotated": true
+    },
+    "CarousalWidget_00/FBConnectGlowAnim/FBConnectGlowAnim_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,36}",
+      "spriteSize": "{226,85}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{650,551},{226,85}}",
+      "textureRotated": true
+    },
+    "CarousalWidget_00/FBConnectGlowAnim/FBConnectGlowAnim_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,36}",
+      "spriteSize": "{226,89}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{229,1131},{226,89}}",
+      "textureRotated": true
+    },
+    "CarousalWidget_00/FBConnectGlowAnim/FBConnectGlowAnim_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{0,39}",
+      "spriteSize": "{226,93}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{1,1290},{226,93}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/FBConnectGlowAnim/FBConnectGlowAnim_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{0,39}",
+      "spriteSize": "{226,99}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{644,779},{226,99}}",
+      "textureRotated": true
+    },
+    "CarousalWidget_00/FBConnectGlowAnim/FBConnectGlowAnim_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{0,37}",
+      "spriteSize": "{226,113}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{704,436},{226,113}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/FBConnectGlowAnim/FBConnectGlowAnim_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{0,40}",
+      "spriteSize": "{226,117}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{745,779},{226,117}}",
+      "textureRotated": true
+    },
+    "CarousalWidget_00/FBConnectGlowAnim/FBConnectGlowAnim_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{0,18}",
+      "spriteSize": "{226,79}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{858,551},{226,79}}",
+      "textureRotated": true
+    },
+    "CarousalWidget_00/FBConnectGlowAnim/FBConnectGlowAnim_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{0,14}",
+      "spriteSize": "{226,91}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{844,1007},{226,91}}",
+      "textureRotated": true
+    },
+    "CarousalWidget_00/FBConnectGlowAnim/FBConnectGlowAnim_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{0,11}",
+      "spriteSize": "{226,101}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{433,1251},{226,101}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/FBConnectGlowAnim/FBConnectGlowAnim_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{0,17}",
+      "spriteSize": "{226,99}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{708,1235},{226,99}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/FBConnectGlowAnim/FBConnectGlowAnim_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{0,19}",
+      "spriteSize": "{226,105}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{433,1144},{226,105}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/FBConnectGlowAnim/FBConnectGlowAnim_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{0,19}",
+      "spriteSize": "{226,111}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{320,1130},{226,111}}",
+      "textureRotated": true
+    },
+    "CarousalWidget_00/FBConnectGlowAnim/FBConnectGlowAnim_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{0,21}",
+      "spriteSize": "{226,119}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{737,551},{226,119}}",
+      "textureRotated": true
+    },
+    "CarousalWidget_00/FBConnectGlowAnim/FBConnectGlowAnim_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{0,27}",
+      "spriteSize": "{226,135}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{497,1007},{226,135}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/FBConnectGlowAnim/FBConnectGlowAnim_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{0,27}",
+      "spriteSize": "{226,139}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{745,208},{226,139}}",
+      "textureRotated": true
+    },
+    "CarousalWidget_00/FBConnectGlowAnim/FBConnectGlowAnim_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{0,28}",
+      "spriteSize": "{226,145}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{497,779},{226,145}}",
+      "textureRotated": true
+    },
+    "CarousalWidget_00/FBConnectGlowAnim/FBConnectGlowAnim_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{0,29}",
+      "spriteSize": "{226,151}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{497,551},{226,151}}",
+      "textureRotated": true
+    },
+    "CarousalWidget_00/FBConnectGlowAnim/FBConnectGlowAnim_0022.png": {
+      "aliases": [],
+      "spriteOffset": "{0,30}",
+      "spriteSize": "{226,157}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{1,1131},{226,157}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/FBConnectGlowAnim/FBConnectGlowAnim_0023.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,54}",
+      "spriteSize": "{220,117}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{725,1007},{220,117}}",
+      "textureRotated": true
+    },
+    "CarousalWidget_00/FBConnectGlowAnim/FBConnectGlowAnim_0024.png": {
+      "aliases": [],
+      "spriteOffset": "{-111.5,121}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{704,377},{3,3}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/FBConnectGlowAnim/FBConnectGlowAnim_0025.png": {
+      "aliases": [],
+      "spriteOffset": "{-111.5,121}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{704,377},{3,3}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/FBConnectGlowAnim/FBConnectGlowAnim_0026.png": {
+      "aliases": [],
+      "spriteOffset": "{-111.5,121}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{704,377},{3,3}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/FBConnectGlowAnim/FBConnectGlowAnim_0027.png": {
+      "aliases": [],
+      "spriteOffset": "{-111.5,121}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{704,377},{3,3}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/FBConnectGlowAnim/FBConnectGlowAnim_0028.png": {
+      "aliases": [],
+      "spriteOffset": "{-111.5,121}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{704,377},{3,3}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/FBConnectGlowAnim/FBConnectGlowAnim_0029.png": {
+      "aliases": [],
+      "spriteOffset": "{-111.5,121}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{704,377},{3,3}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/FBConnectGlowAnim/FBConnectGlowAnim_0030.png": {
+      "aliases": [],
+      "spriteOffset": "{-111.5,121}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{704,377},{3,3}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/FBConnectGlowAnim/FBConnectGlowAnim_0031.png": {
+      "aliases": [],
+      "spriteOffset": "{-111.5,121}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{704,377},{3,3}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/FBConnectGlowAnim/FBConnectGlowAnim_0032.png": {
+      "aliases": [],
+      "spriteOffset": "{-111.5,121}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{704,377},{3,3}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/FBConnectGlowAnim/FBConnectGlowAnim_0033.png": {
+      "aliases": [],
+      "spriteOffset": "{-111.5,121}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{704,377},{3,3}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/FBConnectGlowAnim/FBConnectGlowAnim_0034.png": {
+      "aliases": [],
+      "spriteOffset": "{-111.5,121}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{704,377},{3,3}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/FBConnectGlowAnim/FBConnectGlowAnim_0035.png": {
+      "aliases": [],
+      "spriteOffset": "{-111.5,121}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{704,377},{3,3}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/FBConnectGlowAnim/FBConnectGlowAnim_0036.png": {
+      "aliases": [],
+      "spriteOffset": "{-111.5,121}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{704,377},{3,3}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/PlayerConnectBtn/PlayerConnectBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{246,375}",
+      "spriteSourceSize": "{246,375}",
+      "textureRect": "{{1,1},{246,375}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/PlayerConnectBtn/PlayerConnectBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{246,375}",
+      "spriteSourceSize": "{246,375}",
+      "textureRect": "{{1,378},{246,375}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/PlayerConnectBtn/PlayerConnectBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{246,375}",
+      "spriteSourceSize": "{246,375}",
+      "textureRect": "{{249,1},{246,375}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/SocialLoginConnectGlowAnim/SocialLoginConnectGlowAnim_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{-23,22}",
+      "spriteSize": "{164,9}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{919,1},{164,9}}",
+      "textureRotated": true
+    },
+    "CarousalWidget_00/SocialLoginConnectGlowAnim/SocialLoginConnectGlowAnim_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,32}",
+      "spriteSize": "{210,37}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{708,1336},{210,37}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/SocialLoginConnectGlowAnim/SocialLoginConnectGlowAnim_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,34}",
+      "spriteSize": "{216,45}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{661,1144},{216,45}}",
+      "textureRotated": true
+    },
+    "CarousalWidget_00/SocialLoginConnectGlowAnim/SocialLoginConnectGlowAnim_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,36}",
+      "spriteSize": "{220,47}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{886,208},{220,47}}",
+      "textureRotated": true
+    },
+    "CarousalWidget_00/SocialLoginConnectGlowAnim/SocialLoginConnectGlowAnim_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{1,32}",
+      "spriteSize": "{224,69}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{864,779},{224,69}}",
+      "textureRotated": true
+    },
+    "CarousalWidget_00/SocialLoginConnectGlowAnim/SocialLoginConnectGlowAnim_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,36}",
+      "spriteSize": "{226,85}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{650,551},{226,85}}",
+      "textureRotated": true
+    },
+    "CarousalWidget_00/SocialLoginConnectGlowAnim/SocialLoginConnectGlowAnim_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,36}",
+      "spriteSize": "{226,89}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{229,1131},{226,89}}",
+      "textureRotated": true
+    },
+    "CarousalWidget_00/SocialLoginConnectGlowAnim/SocialLoginConnectGlowAnim_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{0,39}",
+      "spriteSize": "{226,93}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{1,1290},{226,93}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/SocialLoginConnectGlowAnim/SocialLoginConnectGlowAnim_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{0,39}",
+      "spriteSize": "{226,99}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{644,779},{226,99}}",
+      "textureRotated": true
+    },
+    "CarousalWidget_00/SocialLoginConnectGlowAnim/SocialLoginConnectGlowAnim_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{0,37}",
+      "spriteSize": "{226,113}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{704,436},{226,113}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/SocialLoginConnectGlowAnim/SocialLoginConnectGlowAnim_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{0,40}",
+      "spriteSize": "{226,117}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{745,779},{226,117}}",
+      "textureRotated": true
+    },
+    "CarousalWidget_00/SocialLoginConnectGlowAnim/SocialLoginConnectGlowAnim_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{0,18}",
+      "spriteSize": "{226,79}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{858,551},{226,79}}",
+      "textureRotated": true
+    },
+    "CarousalWidget_00/SocialLoginConnectGlowAnim/SocialLoginConnectGlowAnim_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{0,14}",
+      "spriteSize": "{226,91}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{844,1007},{226,91}}",
+      "textureRotated": true
+    },
+    "CarousalWidget_00/SocialLoginConnectGlowAnim/SocialLoginConnectGlowAnim_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{0,11}",
+      "spriteSize": "{226,101}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{433,1251},{226,101}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/SocialLoginConnectGlowAnim/SocialLoginConnectGlowAnim_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{0,17}",
+      "spriteSize": "{226,99}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{708,1235},{226,99}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/SocialLoginConnectGlowAnim/SocialLoginConnectGlowAnim_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{0,19}",
+      "spriteSize": "{226,105}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{433,1144},{226,105}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/SocialLoginConnectGlowAnim/SocialLoginConnectGlowAnim_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{0,19}",
+      "spriteSize": "{226,111}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{320,1130},{226,111}}",
+      "textureRotated": true
+    },
+    "CarousalWidget_00/SocialLoginConnectGlowAnim/SocialLoginConnectGlowAnim_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{0,21}",
+      "spriteSize": "{226,119}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{737,551},{226,119}}",
+      "textureRotated": true
+    },
+    "CarousalWidget_00/SocialLoginConnectGlowAnim/SocialLoginConnectGlowAnim_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{0,27}",
+      "spriteSize": "{226,135}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{497,1007},{226,135}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/SocialLoginConnectGlowAnim/SocialLoginConnectGlowAnim_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{0,27}",
+      "spriteSize": "{226,139}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{745,208},{226,139}}",
+      "textureRotated": true
+    },
+    "CarousalWidget_00/SocialLoginConnectGlowAnim/SocialLoginConnectGlowAnim_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{0,28}",
+      "spriteSize": "{226,145}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{497,779},{226,145}}",
+      "textureRotated": true
+    },
+    "CarousalWidget_00/SocialLoginConnectGlowAnim/SocialLoginConnectGlowAnim_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{0,29}",
+      "spriteSize": "{226,151}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{497,551},{226,151}}",
+      "textureRotated": true
+    },
+    "CarousalWidget_00/SocialLoginConnectGlowAnim/SocialLoginConnectGlowAnim_0022.png": {
+      "aliases": [],
+      "spriteOffset": "{0,30}",
+      "spriteSize": "{226,157}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{1,1131},{226,157}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/SocialLoginConnectGlowAnim/SocialLoginConnectGlowAnim_0023.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,54}",
+      "spriteSize": "{220,117}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{725,1007},{220,117}}",
+      "textureRotated": true
+    },
+    "CarousalWidget_00/SocialLoginConnectGlowAnim/SocialLoginConnectGlowAnim_0024.png": {
+      "aliases": [],
+      "spriteOffset": "{-111.5,121}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{704,377},{3,3}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/SocialLoginConnectGlowAnim/SocialLoginConnectGlowAnim_0025.png": {
+      "aliases": [],
+      "spriteOffset": "{-111.5,121}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{704,377},{3,3}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/SocialLoginConnectGlowAnim/SocialLoginConnectGlowAnim_0026.png": {
+      "aliases": [],
+      "spriteOffset": "{-111.5,121}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{704,377},{3,3}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/SocialLoginConnectGlowAnim/SocialLoginConnectGlowAnim_0027.png": {
+      "aliases": [],
+      "spriteOffset": "{-111.5,121}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{704,377},{3,3}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/SocialLoginConnectGlowAnim/SocialLoginConnectGlowAnim_0028.png": {
+      "aliases": [],
+      "spriteOffset": "{-111.5,121}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{704,377},{3,3}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/SocialLoginConnectGlowAnim/SocialLoginConnectGlowAnim_0029.png": {
+      "aliases": [],
+      "spriteOffset": "{-111.5,121}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{704,377},{3,3}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/SocialLoginConnectGlowAnim/SocialLoginConnectGlowAnim_0030.png": {
+      "aliases": [],
+      "spriteOffset": "{-111.5,121}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{704,377},{3,3}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/SocialLoginConnectGlowAnim/SocialLoginConnectGlowAnim_0031.png": {
+      "aliases": [],
+      "spriteOffset": "{-111.5,121}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{704,377},{3,3}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/SocialLoginConnectGlowAnim/SocialLoginConnectGlowAnim_0032.png": {
+      "aliases": [],
+      "spriteOffset": "{-111.5,121}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{704,377},{3,3}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/SocialLoginConnectGlowAnim/SocialLoginConnectGlowAnim_0033.png": {
+      "aliases": [],
+      "spriteOffset": "{-111.5,121}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{704,377},{3,3}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/SocialLoginConnectGlowAnim/SocialLoginConnectGlowAnim_0034.png": {
+      "aliases": [],
+      "spriteOffset": "{-111.5,121}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{704,377},{3,3}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/SocialLoginConnectGlowAnim/SocialLoginConnectGlowAnim_0035.png": {
+      "aliases": [],
+      "spriteOffset": "{-111.5,121}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{704,377},{3,3}}",
+      "textureRotated": false
+    },
+    "CarousalWidget_00/SocialLoginConnectGlowAnim/SocialLoginConnectGlowAnim_0036.png": {
+      "aliases": [],
+      "spriteOffset": "{-111.5,121}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{226,245}",
+      "textureRect": "{{704,377},{3,3}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "CarousalWidget_00-hd.png",
+    "size": "{938,1384}",
+    "smartupdate": "$TexturePacker:SmartUpdate:9f56004afa4084b77c630530937b6483:acab7a19ebddab66b8e989a1b2930360:280901a7ece0af58fc8f94d1414fc614$",
+    "textureFileName": "CarousalWidget_00-hd.png",
+    "animations": [
+      "EmailConnectBtn",
+      "FBConnectBtn",
+      "FBConnectGlowAnim",
+      "PlayerConnectBtn",
+      "SocialLoginConnectGlowAnim"
+    ]
+  }
+}

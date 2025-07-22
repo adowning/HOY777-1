@@ -1,0 +1,22 @@
+{
+  "frames": {
+    "VIPMultiplierBadge_00/Base.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{167,233}",
+      "spriteSourceSize": "{167,233}",
+      "textureRect": "{{1,1},{167,233}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "VIPMultiplierBadge_00-hd.png",
+    "size": "{169,235}",
+    "smartupdate": "$TexturePacker:SmartUpdate:66b32c409291d8fe070647d0feb3939f:bea057b6a2f4e426cd7a5053f3d8bbc8:be66cfc98cfd0c636594f817ba9cb7ba$",
+    "textureFileName": "VIPMultiplierBadge_00-hd.png",
+    "animations": []
+  }
+}

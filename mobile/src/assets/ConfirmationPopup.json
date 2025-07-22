@@ -1,0 +1,40 @@
+{
+  "frames": {
+    "ConfirmationPopup_00/Swap/Swap_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{182,88}",
+      "spriteSourceSize": "{182,88}",
+      "textureRect": "{{1,1},{182,88}}",
+      "textureRotated": false
+    },
+    "ConfirmationPopup_00/Swap/Swap_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{182,88}",
+      "spriteSourceSize": "{182,88}",
+      "textureRect": "{{185,1},{182,88}}",
+      "textureRotated": false
+    },
+    "ConfirmationPopup_00/Swap/Swap_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{182,88}",
+      "spriteSourceSize": "{182,88}",
+      "textureRect": "{{369,1},{182,88}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "ConfirmationPopup_00-hd.png",
+    "size": "{552,90}",
+    "smartupdate": "$TexturePacker:SmartUpdate:9a05bb30220adada616696cded696b4d:93c09d5da542ac993775248991271d6d:bd1cbe82aa614d6dde736a37e6d282c6$",
+    "textureFileName": "ConfirmationPopup_00-hd.png",
+    "animations": [
+      "Swap"
+    ]
+  }
+}

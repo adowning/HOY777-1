@@ -1,0 +1,608 @@
+{
+  "frames": {
+    "SlotsBottomHUD_00/AutoSpinAnim/AutoSpinAnim_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{186,186}",
+      "spriteSourceSize": "{380,330}",
+      "textureRect": "{{1545,490},{186,186}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/AutoSpinAnim/AutoSpinAnim_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{226,224}",
+      "spriteSourceSize": "{380,330}",
+      "textureRect": "{{1733,490},{226,224}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/AutoSpinAnim/AutoSpinAnim_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{238,236}",
+      "spriteSourceSize": "{380,330}",
+      "textureRect": "{{1,647},{238,236}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/AutoSpinAnim/AutoSpinAnim_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{252,250}",
+      "spriteSourceSize": "{380,330}",
+      "textureRect": "{{241,648},{252,250}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/AutoSpinAnim/AutoSpinAnim_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{266,266}",
+      "spriteSourceSize": "{380,330}",
+      "textureRect": "{{1313,678},{266,266}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/AutoSpinAnim/AutoSpinAnim_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{280,278}",
+      "spriteSourceSize": "{380,330}",
+      "textureRect": "{{293,906},{280,278}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/AutoSpinAnim/AutoSpinAnim_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{294,292}",
+      "spriteSourceSize": "{380,330}",
+      "textureRect": "{{871,923},{294,292}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/AutoSpinAnim/AutoSpinAnim_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{306,306}",
+      "spriteSourceSize": "{380,330}",
+      "textureRect": "{{1167,946},{306,306}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/AutoSpinAnim/AutoSpinAnim_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{314,314}",
+      "spriteSourceSize": "{380,330}",
+      "textureRect": "{{315,1200},{314,314}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/AutoSpinAnim/AutoSpinAnim_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{318,316}",
+      "spriteSourceSize": "{380,330}",
+      "textureRect": "{{631,1217},{318,316}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/AutoSpinAnim/AutoSpinAnim_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{318,318}",
+      "spriteSourceSize": "{380,330}",
+      "textureRect": "{{951,1254},{318,318}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/AutoSpinAnim/AutoSpinAnim_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-1}",
+      "spriteSize": "{320,318}",
+      "spriteSourceSize": "{380,330}",
+      "textureRect": "{{1271,1292},{320,318}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/AutoSpinAnim/AutoSpinAnim_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{318,318}",
+      "spriteSourceSize": "{380,330}",
+      "textureRect": "{{1593,1292},{318,318}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/AutoSpinAnim/AutoSpinAnim_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{312,312}",
+      "spriteSourceSize": "{380,330}",
+      "textureRect": "{{1,1186},{312,312}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/AutoSpinAnim/AutoSpinAnim_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{306,306}",
+      "spriteSourceSize": "{380,330}",
+      "textureRect": "{{1475,984},{306,306}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/AutoSpinAnim/AutoSpinAnim_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{0,3}",
+      "spriteSize": "{286,294}",
+      "spriteSourceSize": "{380,330}",
+      "textureRect": "{{575,912},{286,294}}",
+      "textureRotated": true
+    },
+    "SlotsBottomHUD_00/AutoSpinAnim/AutoSpinAnim_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{5,11}",
+      "spriteSize": "{270,290}",
+      "spriteSourceSize": "{380,330}",
+      "textureRect": "{{1,900},{270,290}}",
+      "textureRotated": true
+    },
+    "SlotsBottomHUD_00/AutoSpinAnim/AutoSpinAnim_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{15,-6}",
+      "spriteSize": "{262,264}",
+      "spriteSourceSize": "{380,330}",
+      "textureRect": "{{1047,659},{262,264}}",
+      "textureRotated": true
+    },
+    "SlotsBottomHUD_00/AutoSpinAnim/AutoSpinAnim_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{15,0}",
+      "spriteSize": "{270,260}",
+      "spriteSourceSize": "{380,330}",
+      "textureRect": "{{775,650},{270,260}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/AutoSpinAnim/AutoSpinAnim_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{22,0}",
+      "spriteSize": "{266,272}",
+      "spriteSourceSize": "{380,330}",
+      "textureRect": "{{1581,716},{266,272}}",
+      "textureRotated": true
+    },
+    "SlotsBottomHUD_00/AutoSpinAnim/AutoSpinAnim_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{13,-1}",
+      "spriteSize": "{256,278}",
+      "spriteSourceSize": "{380,330}",
+      "textureRect": "{{495,648},{256,278}}",
+      "textureRotated": true
+    },
+    "SlotsBottomHUD_00/AutoSpinAnim/AutoSpinAnim_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,0}",
+      "spriteSize": "{184,184}",
+      "spriteSourceSize": "{380,330}",
+      "textureRect": "{{1359,490},{184,184}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/AutoSpinAnim/AutoSpinAnim_0022.png": {
+      "aliases": [],
+      "spriteOffset": "{-188.5,163.5}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{380,330}",
+      "textureRect": "{{1,1},{3,3}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/AutoSpinAnim/AutoSpinAnim_0023.png": {
+      "aliases": [],
+      "spriteOffset": "{-188.5,163.5}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{380,330}",
+      "textureRect": "{{1,1},{3,3}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/AutoSpinBtn/AutoSpinBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{157,156}",
+      "spriteSourceSize": "{157,156}",
+      "textureRect": "{{1,154},{157,156}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/AutoSpinBtn/AutoSpinBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{157,156}",
+      "spriteSourceSize": "{157,156}",
+      "textureRect": "{{160,154},{157,156}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/AutoSpinBtn/AutoSpinBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{157,156}",
+      "spriteSourceSize": "{157,156}",
+      "textureRect": "{{319,154},{157,156}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/BetBox.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{340,62}",
+      "spriteSourceSize": "{340,62}",
+      "textureRect": "{{354,1},{340,62}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/BetDownBtn/BetDownBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{49,56}",
+      "spriteSourceSize": "{49,56}",
+      "textureRect": "{{6,1},{49,56}}",
+      "textureRotated": true
+    },
+    "SlotsBottomHUD_00/BetDownBtn/BetDownBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{49,56}",
+      "spriteSourceSize": "{49,56}",
+      "textureRect": "{{64,1},{49,56}}",
+      "textureRotated": true
+    },
+    "SlotsBottomHUD_00/BetDownBtn/BetDownBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{49,56}",
+      "spriteSourceSize": "{49,56}",
+      "textureRect": "{{122,1},{49,56}}",
+      "textureRotated": true
+    },
+    "SlotsBottomHUD_00/BetUpBtn/BetUpBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{50,56}",
+      "spriteSourceSize": "{50,56}",
+      "textureRect": "{{180,1},{50,56}}",
+      "textureRotated": true
+    },
+    "SlotsBottomHUD_00/BetUpBtn/BetUpBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{50,56}",
+      "spriteSourceSize": "{50,56}",
+      "textureRect": "{{238,1},{50,56}}",
+      "textureRotated": true
+    },
+    "SlotsBottomHUD_00/BetUpBtn/BetUpBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{50,56}",
+      "spriteSourceSize": "{50,56}",
+      "textureRect": "{{296,1},{50,56}}",
+      "textureRotated": true
+    },
+    "SlotsBottomHUD_00/FreeSpinBox.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{340,62}",
+      "spriteSourceSize": "{340,62}",
+      "textureRect": "{{354,1},{340,62}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/HudBg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{1136,86}",
+      "spriteSourceSize": "{1136,86}",
+      "textureRect": "{{1,66},{1136,86}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/HudBgPortrait.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{768,153}",
+      "spriteSourceSize": "{768,153}",
+      "textureRect": "{{1146,1},{768,153}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/MaxBetBtn/MaxBetBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{83,62}",
+      "spriteSourceSize": "{83,62}",
+      "textureRect": "{{696,1},{83,62}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/MaxBetBtn/MaxBetBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{83,62}",
+      "spriteSourceSize": "{83,62}",
+      "textureRect": "{{781,1},{83,62}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/MaxBetBtn/MaxBetBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{83,62}",
+      "spriteSourceSize": "{83,62}",
+      "textureRect": "{{866,1},{83,62}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/PayTableBtn/PayTableBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{63,63}",
+      "spriteSourceSize": "{63,63}",
+      "textureRect": "{{951,1},{63,63}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/PayTableBtn/PayTableBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{63,63}",
+      "spriteSourceSize": "{63,63}",
+      "textureRect": "{{1016,1},{63,63}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/PayTableBtn/PayTableBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{63,63}",
+      "spriteSourceSize": "{63,63}",
+      "textureRect": "{{1081,1},{63,63}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/SpinBtn/SpinBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{157,156}",
+      "spriteSourceSize": "{157,156}",
+      "textureRect": "{{478,154},{157,156}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/SpinBtn/SpinBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{157,156}",
+      "spriteSourceSize": "{157,156}",
+      "textureRect": "{{637,154},{157,156}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/SpinBtn/SpinBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{157,156}",
+      "spriteSourceSize": "{157,156}",
+      "textureRect": "{{796,154},{157,156}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/SpinBtnAnim/SpinBtnAnim_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{166,167}",
+      "spriteSourceSize": "{240,209}",
+      "textureRect": "{{1017,313},{166,167}}",
+      "textureRotated": true
+    },
+    "SlotsBottomHUD_00/SpinBtnAnim/SpinBtnAnim_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{166,167}",
+      "spriteSourceSize": "{240,209}",
+      "textureRect": "{{1186,313},{166,167}}",
+      "textureRotated": true
+    },
+    "SlotsBottomHUD_00/SpinBtnAnim/SpinBtnAnim_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{168,167}",
+      "spriteSourceSize": "{240,209}",
+      "textureRect": "{{339,479},{168,167}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/SpinBtnAnim/SpinBtnAnim_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{168,167}",
+      "spriteSourceSize": "{240,209}",
+      "textureRect": "{{509,479},{168,167}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/SpinBtnAnim/SpinBtnAnim_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{168,167}",
+      "spriteSourceSize": "{240,209}",
+      "textureRect": "{{679,479},{168,167}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/SpinBtnAnim/SpinBtnAnim_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{168,167}",
+      "spriteSourceSize": "{240,209}",
+      "textureRect": "{{849,481},{168,167}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/SpinBtnAnim/SpinBtnAnim_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{168,165}",
+      "spriteSourceSize": "{240,209}",
+      "textureRect": "{{1432,155},{168,165}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/SpinBtnAnim/SpinBtnAnim_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{168,165}",
+      "spriteSourceSize": "{240,209}",
+      "textureRect": "{{1602,155},{168,165}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/SpinBtnAnim/SpinBtnAnim_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{168,165}",
+      "spriteSourceSize": "{240,209}",
+      "textureRect": "{{1772,155},{168,165}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/SpinBtnAnim/SpinBtnAnim_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{168,165}",
+      "spriteSourceSize": "{240,209}",
+      "textureRect": "{{1,312},{168,165}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/SpinBtnAnim/SpinBtnAnim_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{168,165}",
+      "spriteSourceSize": "{240,209}",
+      "textureRect": "{{171,312},{168,165}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/SpinBtnAnim/SpinBtnAnim_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{168,165}",
+      "spriteSourceSize": "{240,209}",
+      "textureRect": "{{341,312},{168,165}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/SpinBtnAnim/SpinBtnAnim_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{168,165}",
+      "spriteSourceSize": "{240,209}",
+      "textureRect": "{{511,312},{168,165}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/SpinBtnAnim/SpinBtnAnim_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-1}",
+      "spriteSize": "{166,165}",
+      "spriteSourceSize": "{240,209}",
+      "textureRect": "{{681,312},{166,165}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/SpinBtnAnim/SpinBtnAnim_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{168,167}",
+      "spriteSourceSize": "{240,209}",
+      "textureRect": "{{1019,481},{168,167}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/SpinBtnAnim/SpinBtnAnim_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{168,167}",
+      "spriteSourceSize": "{240,209}",
+      "textureRect": "{{1189,490},{168,167}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/SpinBtnAnim/SpinBtnAnim_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{166,165}",
+      "spriteSourceSize": "{240,209}",
+      "textureRect": "{{849,312},{166,165}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/SpinBtnAnim/SpinBtnAnim_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{166,167}",
+      "spriteSourceSize": "{240,209}",
+      "textureRect": "{{1355,322},{166,167}}",
+      "textureRotated": true
+    },
+    "SlotsBottomHUD_00/SpinBtnAnim/SpinBtnAnim_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{166,167}",
+      "spriteSourceSize": "{240,209}",
+      "textureRect": "{{1524,322},{166,167}}",
+      "textureRotated": true
+    },
+    "SlotsBottomHUD_00/SpinBtnAnim/SpinBtnAnim_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{166,167}",
+      "spriteSourceSize": "{240,209}",
+      "textureRect": "{{1693,322},{166,167}}",
+      "textureRotated": true
+    },
+    "SlotsBottomHUD_00/SpinBtnAnim/SpinBtnAnim_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{166,167}",
+      "spriteSourceSize": "{240,209}",
+      "textureRect": "{{1862,322},{166,167}}",
+      "textureRotated": true
+    },
+    "SlotsBottomHUD_00/SpinBtnAnim/SpinBtnAnim_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{166,167}",
+      "spriteSourceSize": "{240,209}",
+      "textureRect": "{{1,479},{166,167}}",
+      "textureRotated": true
+    },
+    "SlotsBottomHUD_00/SpinBtnAnim/SpinBtnAnim_0022.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{166,167}",
+      "spriteSourceSize": "{240,209}",
+      "textureRect": "{{170,479},{166,167}}",
+      "textureRotated": true
+    },
+    "SlotsBottomHUD_00/StopBtn/StopBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{157,156}",
+      "spriteSourceSize": "{157,156}",
+      "textureRect": "{{955,154},{157,156}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/StopBtn/StopBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{157,156}",
+      "spriteSourceSize": "{157,156}",
+      "textureRect": "{{1114,155},{157,156}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/StopBtn/StopBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{157,156}",
+      "spriteSourceSize": "{157,156}",
+      "textureRect": "{{1273,155},{157,156}}",
+      "textureRotated": false
+    },
+    "SlotsBottomHUD_00/WinBox.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{340,62}",
+      "spriteSourceSize": "{340,62}",
+      "textureRect": "{{354,1},{340,62}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "SlotsBottomHUD_00-hd.png",
+    "size": "{2030,1611}",
+    "smartupdate": "$TexturePacker:SmartUpdate:f17d61b1a85a7736b9b971bf8de42da6:69885e31b2698de14695bb9380025d76:46816a9892c6d1722aa516da3af1eff8$",
+    "textureFileName": "SlotsBottomHUD_00-hd.png",
+    "animations": [
+      "AutoSpinAnim",
+      "AutoSpinBtn",
+      "BetDownBtn",
+      "BetUpBtn",
+      "MaxBetBtn",
+      "PayTableBtn",
+      "SpinBtn",
+      "SpinBtnAnim",
+      "StopBtn"
+    ]
+  }
+}

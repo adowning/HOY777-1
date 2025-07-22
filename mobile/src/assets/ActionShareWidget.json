@@ -1,0 +1,48 @@
+{
+  "frames": {
+    "ActionShareWidget_00/ShareButton/ShareButton_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{88,25}",
+      "spriteSourceSize": "{88,25}",
+      "textureRect": "{{1,1},{88,25}}",
+      "textureRotated": false
+    },
+    "ActionShareWidget_00/ShareButton/ShareButton_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{88,25}",
+      "spriteSourceSize": "{88,25}",
+      "textureRect": "{{1,1},{88,25}}",
+      "textureRotated": false
+    },
+    "ActionShareWidget_00/ShareButton/ShareButton_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{88,25}",
+      "spriteSourceSize": "{88,25}",
+      "textureRect": "{{91,1},{88,25}}",
+      "textureRotated": false
+    },
+    "ActionShareWidget_00/Tick.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{20,18}",
+      "spriteSourceSize": "{20,18}",
+      "textureRect": "{{181,1},{20,18}}",
+      "textureRotated": true
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "ActionShareWidget_00-hd.png",
+    "size": "{200,27}",
+    "smartupdate": "$TexturePacker:SmartUpdate:b76e713b918d0409bb5d69aa581f0f75:efff3305f1e6fcef1ef39b8daa619110:4d1f234a65d1991a5538927273d8ba95$",
+    "textureFileName": "ActionShareWidget_00-hd.png",
+    "animations": [
+      "ShareButton"
+    ]
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "frames": {
+    "RSSettingsPopup_00/CloseBtn/CloseBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{1,578},{44,44}}",
+      "textureRotated": false
+    },
+    "RSSettingsPopup_00/CloseBtn/CloseBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{47,578},{44,44}}",
+      "textureRotated": false
+    },
+    "RSSettingsPopup_00/CloseBtn/CloseBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{1,949},{44,44}}",
+      "textureRotated": false
+    },
+    "RSSettingsPopup_00/PopupBg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{901,575}",
+      "spriteSourceSize": "{901,575}",
+      "textureRect": "{{1,1},{901,575}}",
+      "textureRotated": false
+    },
+    "RSSettingsPopup_00/btnFullScreen/btnFullScreen_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{83,35}",
+      "spriteSourceSize": "{83,35}",
+      "textureRect": "{{47,949},{83,35}}",
+      "textureRotated": false
+    },
+    "RSSettingsPopup_00/btnFullScreen/btnFullScreen_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{83,35}",
+      "spriteSourceSize": "{83,35}",
+      "textureRect": "{{47,986},{83,35}}",
+      "textureRotated": false
+    },
+    "RSSettingsPopup_00/btnManageAccount/btnManageAccount_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{314,88}",
+      "spriteSourceSize": "{314,88}",
+      "textureRect": "{{904,1},{314,88}}",
+      "textureRotated": true
+    },
+    "RSSettingsPopup_00/btnManageAccount/btnManageAccount_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{314,88}",
+      "spriteSourceSize": "{314,88}",
+      "textureRect": "{{904,317},{314,88}}",
+      "textureRotated": true
+    },
+    "RSSettingsPopup_00/btnManageAccount/btnManageAccount_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{314,88}",
+      "spriteSourceSize": "{314,88}",
+      "textureRect": "{{1,633},{314,88}}",
+      "textureRotated": true
+    },
+    "RSSettingsPopup_00/btnMusic/btnMusic_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{83,35}",
+      "spriteSourceSize": "{83,35}",
+      "textureRect": "{{47,949},{83,35}}",
+      "textureRotated": false
+    },
+    "RSSettingsPopup_00/btnMusic/btnMusic_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{83,35}",
+      "spriteSourceSize": "{83,35}",
+      "textureRect": "{{47,986},{83,35}}",
+      "textureRotated": false
+    },
+    "RSSettingsPopup_00/btnPlayerSupport/btnPlayerSupport_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{199,88}",
+      "spriteSourceSize": "{199,88}",
+      "textureRect": "{{857,633},{199,88}}",
+      "textureRotated": true
+    },
+    "RSSettingsPopup_00/btnPlayerSupport/btnPlayerSupport_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{199,88}",
+      "spriteSourceSize": "{199,88}",
+      "textureRect": "{{541,834},{199,88}}",
+      "textureRotated": false
+    },
+    "RSSettingsPopup_00/btnPlayerSupport/btnPlayerSupport_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{199,88}",
+      "spriteSourceSize": "{199,88}",
+      "textureRect": "{{541,924},{199,88}}",
+      "textureRotated": false
+    },
+    "RSSettingsPopup_00/btnPrivacy/btnPrivacy_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{314,88}",
+      "spriteSourceSize": "{314,88}",
+      "textureRect": "{{91,633},{314,88}}",
+      "textureRotated": true
+    },
+    "RSSettingsPopup_00/btnPrivacy/btnPrivacy_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{314,88}",
+      "spriteSourceSize": "{314,88}",
+      "textureRect": "{{181,633},{314,88}}",
+      "textureRotated": true
+    },
+    "RSSettingsPopup_00/btnPrivacy/btnPrivacy_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{314,88}",
+      "spriteSourceSize": "{314,88}",
+      "textureRect": "{{271,633},{314,88}}",
+      "textureRotated": true
+    },
+    "RSSettingsPopup_00/btnSound/btnSound_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{83,35}",
+      "spriteSourceSize": "{83,35}",
+      "textureRect": "{{47,949},{83,35}}",
+      "textureRotated": false
+    },
+    "RSSettingsPopup_00/btnSound/btnSound_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{83,35}",
+      "spriteSourceSize": "{83,35}",
+      "textureRect": "{{47,986},{83,35}}",
+      "textureRotated": false
+    },
+    "RSSettingsPopup_00/btnTerms/btnTerms_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{314,88}",
+      "spriteSourceSize": "{314,88}",
+      "textureRect": "{{361,633},{314,88}}",
+      "textureRotated": true
+    },
+    "RSSettingsPopup_00/btnTerms/btnTerms_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{314,88}",
+      "spriteSourceSize": "{314,88}",
+      "textureRect": "{{451,633},{314,88}}",
+      "textureRotated": true
+    },
+    "RSSettingsPopup_00/btnTerms/btnTerms_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{314,88}",
+      "spriteSourceSize": "{314,88}",
+      "textureRect": "{{541,578},{314,88}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "RSSettingsPopup_00-hd.png",
+    "size": "{1024,1024}",
+    "smartupdate": "$TexturePacker:SmartUpdate:21d2b604e4ca3cfa4e4872263bfd91c9:b23973f3a2cf51042c493a74cecf9fc0:3d289705dd4cd946b49f8bfb76d5861c$",
+    "textureFileName": "RSSettingsPopup_00-hd.png",
+    "animations": [
+      "CloseBtn",
+      "btnFullScreen",
+      "btnManageAccount",
+      "btnMusic",
+      "btnPlayerSupport",
+      "btnPrivacy",
+      "btnSound",
+      "btnTerms"
+    ]
+  }
+}

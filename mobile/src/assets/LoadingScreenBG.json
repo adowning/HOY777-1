@@ -1,0 +1,22 @@
+{
+  "frames": {
+    "LoadingScreenBG_00/BG.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{1136,768}",
+      "spriteSourceSize": "{1136,768}",
+      "textureRect": "{{1,1},{1136,768}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "LoadingScreenBG_00-hd.png",
+    "size": "{1138,770}",
+    "smartupdate": "$TexturePacker:SmartUpdate:e28773f3de1017896eab3ff0929221c2:1f7e5c96ddbbc1e428870fe9ead2c5bd:04e0cbdeae20e37901a089e0f8b9efd0$",
+    "textureFileName": "LoadingScreenBG_00-hd.png",
+    "animations": []
+  }
+}

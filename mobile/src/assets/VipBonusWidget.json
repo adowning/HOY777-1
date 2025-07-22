@@ -1,0 +1,46 @@
+{
+  "frames": {
+    "VipBonusWidget_00/Bg.png": {
+      "aliases": [],
+      "spriteOffset": "{9,-27}",
+      "spriteSize": "{231,209}",
+      "spriteSourceSize": "{249,263}",
+      "textureRect": "{{1,1},{231,209}}",
+      "textureRotated": false
+    },
+    "VipBonusWidget_00/Currency_0.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{28,28}",
+      "spriteSourceSize": "{28,28}",
+      "textureRect": "{{75,212},{28,28}}",
+      "textureRotated": false
+    },
+    "VipBonusWidget_00/Currency_1.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{35,35}",
+      "spriteSourceSize": "{35,35}",
+      "textureRect": "{{1,212},{35,35}}",
+      "textureRotated": false
+    },
+    "VipBonusWidget_00/Currency_2.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{35,35}",
+      "spriteSourceSize": "{35,35}",
+      "textureRect": "{{38,212},{35,35}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "VipBonusWidget_00-hd.png",
+    "size": "{256,256}",
+    "smartupdate": "$TexturePacker:SmartUpdate:dbc17577cef9f95d4ee155b08d02fe01:23879b13ce98cf4b62024e4841d9ad9d:364038acea16d7bdbcf3d47e621f4397$",
+    "textureFileName": "VipBonusWidget_00-hd.png",
+    "animations": []
+  }
+}

@@ -1,0 +1,1107 @@
+{
+  "frames": {
+    "JackpotLoungeButton_00/ClickObject.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{110,103}",
+      "spriteSourceSize": "{110,103}",
+      "textureRect": "{{157,295},{110,103}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardIntroAnim/JLCardIntroAnim_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{-75.5,75.5}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{293,205},{3,3}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardIntroAnim/JLCardIntroAnim_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-45}",
+      "spriteSize": "{6,6}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{321,454},{6,6}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardIntroAnim/JLCardIntroAnim_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{4,-40}",
+      "spriteSize": "{18,16}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{431,1486},{18,16}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardIntroAnim/JLCardIntroAnim_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{5,-36}",
+      "spriteSize": "{24,24}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{269,374},{24,24}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardIntroAnim/JLCardIntroAnim_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{4,-24}",
+      "spriteSize": "{44,48}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{453,1430},{44,48}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardIntroAnim/JLCardIntroAnim_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{4,-19}",
+      "spriteSize": "{54,62}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{61,1713},{54,62}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardIntroAnim/JLCardIntroAnim_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{10,-11}",
+      "spriteSize": "{82,86}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{425,214},{82,86}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardIntroAnim/JLCardIntroAnim_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{6,-9}",
+      "spriteSize": "{98,84}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{401,1234},{98,84}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardIntroAnim/JLCardIntroAnim_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,-10}",
+      "spriteSize": "{112,86}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{139,497},{112,86}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardIntroAnim/JLCardIntroAnim_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-11}",
+      "spriteSize": "{112,90}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{213,1571},{112,90}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardIntroAnim/JLCardIntroAnim_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{3,-11}",
+      "spriteSize": "{116,88}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{213,1453},{116,88}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardIntroAnim/JLCardIntroAnim_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{134,88}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{157,205},{134,88}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardIntroAnim/JLCardIntroAnim_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-9}",
+      "spriteSize": "{136,86}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{309,97},{136,86}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardIntroAnim/JLCardIntroAnim_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{132,80}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{1,585},{132,80}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardIntroAnim/JLCardIntroAnim_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{1,913},{130,78}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardIntroAnim/JLCardIntroAnim_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{1,993},{130,78}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardIntroAnim/JLCardIntroAnim_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{1,1073},{130,78}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardIntroAnim/JLCardIntroAnim_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{1,1153},{130,78}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardIntroAnim/JLCardIntroAnim_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,80}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{1,667},{130,80}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardIntroAnim/JLCardIntroAnim_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{1,1233},{130,78}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardIntroAnim/JLCardIntroAnim_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{1,1313},{130,78}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardIntroAnim/JLCardIntroAnim_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,80}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{1,749},{130,80}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardIntroAnim/JLCardIntroAnim_0022.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{1,1393},{130,78}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardIntroAnim/JLCardIntroAnim_0023.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{1,1473},{130,78}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{1,1553},{130,78}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{1,1553},{130,78}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{1,1633},{130,78}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{1,1633},{130,78}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{293,214},{130,78}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{293,214},{130,78}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{293,294},{130,78}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{293,294},{130,78}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{133,667},{130,78}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{133,667},{130,78}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{124,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{133,1591},{124,78}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{124,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{133,1591},{124,78}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{114,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{425,422},{114,78}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{114,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{425,422},{114,78}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{102,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{321,374},{102,78}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{102,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{321,374},{102,78}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,-6}",
+      "spriteSize": "{90,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{305,1538},{90,78}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,-6}",
+      "spriteSize": "{90,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{305,1538},{90,78}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,-5}",
+      "spriteSize": "{78,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{373,1326},{78,78}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,-5}",
+      "spriteSize": "{78,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{373,1326},{78,78}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-5}",
+      "spriteSize": "{66,80}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{263,582},{66,80}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-5}",
+      "spriteSize": "{66,80}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{263,582},{66,80}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0022.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-5}",
+      "spriteSize": "{64,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{385,1538},{64,78}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0023.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-5}",
+      "spriteSize": "{64,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{385,1538},{64,78}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0024.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,-3}",
+      "spriteSize": "{50,68}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{457,1},{50,68}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0025.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,-3}",
+      "spriteSize": "{50,68}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{457,1},{50,68}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0026.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,-3}",
+      "spriteSize": "{50,66}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{427,606},{50,66}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0027.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,-3}",
+      "spriteSize": "{50,66}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{427,606},{50,66}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0028.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,-3}",
+      "spriteSize": "{50,66}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{305,1630},{50,66}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0029.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,-3}",
+      "spriteSize": "{50,66}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{305,1630},{50,66}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0030.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,-3}",
+      "spriteSize": "{50,68}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{457,71},{50,68}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0031.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,-3}",
+      "spriteSize": "{50,68}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{457,71},{50,68}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0032.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-5}",
+      "spriteSize": "{64,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{401,1618},{64,78}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0033.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-5}",
+      "spriteSize": "{64,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{401,1618},{64,78}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0034.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-5}",
+      "spriteSize": "{66,80}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{427,538},{66,80}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0035.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-5}",
+      "spriteSize": "{66,80}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{427,538},{66,80}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0036.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,-5}",
+      "spriteSize": "{78,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{373,1406},{78,78}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0037.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,-5}",
+      "spriteSize": "{78,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{373,1406},{78,78}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0038.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,-6}",
+      "spriteSize": "{90,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{321,1682},{90,78}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0039.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,-6}",
+      "spriteSize": "{90,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{321,1682},{90,78}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0040.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{102,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{217,400},{102,78}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0041.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{102,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{217,400},{102,78}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0042.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{114,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{293,1326},{114,78}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0043.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{114,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{293,1326},{114,78}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0044.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{124,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{213,1327},{124,78}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0045.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{124,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{213,1327},{124,78}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0046.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,80}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{1,831},{130,80}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0047.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,80}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{1,831},{130,80}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0048.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{133,799},{130,78}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0049.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{133,799},{130,78}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0050.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{133,931},{130,78}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0051.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{133,931},{130,78}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0052.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{133,1063},{130,78}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0053.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{133,1063},{130,78}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0054.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{133,1195},{130,78}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0055.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{133,1195},{130,78}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0056.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{133,1327},{130,78}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0057.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{133,1327},{130,78}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0058.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{133,1459},{130,78}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0059.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{133,1459},{130,78}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0060.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{213,667},{130,78}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0061.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{213,667},{130,78}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0062.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{213,799},{130,78}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0063.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{213,799},{130,78}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0064.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{213,931},{130,78}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0065.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{213,931},{130,78}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0066.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{213,1063},{130,78}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0067.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{213,1063},{130,78}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0068.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{213,1195},{130,78}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLCardShuffleAnim/JLCardShuffleAnim_0069.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-6}",
+      "spriteSize": "{130,78}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{213,1195},{130,78}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLIcon.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{154,27}",
+      "spriteSourceSize": "{154,27}",
+      "textureRect": "{{309,185},{154,27}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLIconBase.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{154,154}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{1,1},{154,154}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLIconBaseAnim/JLIconBaseAnim_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{106,90}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{213,1685},{106,90}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLIconBaseAnim/JLIconBaseAnim_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{106,90}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{293,958},{106,90}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLIconBaseAnim/JLIconBaseAnim_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{106,90}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{401,958},{106,90}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLIconBaseAnim/JLIconBaseAnim_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{106,90}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{293,1050},{106,90}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLIconBaseAnim/JLIconBaseAnim_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{106,90}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{401,1050},{106,90}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLIconBaseAnim/JLIconBaseAnim_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{106,90}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{293,1142},{106,90}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLIconBaseAnim/JLIconBaseAnim_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{106,90}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{401,1142},{106,90}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLIconBaseAnim/JLIconBaseAnim_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{106,90}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{293,1234},{106,90}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLIconBaseAnim/JLIconBaseAnim_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-4}",
+      "spriteSize": "{106,94}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{329,454},{106,94}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLIconBaseAnim/JLIconBaseAnim_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-4}",
+      "spriteSize": "{106,94}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{331,562},{106,94}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/JLIconBaseAnim/JLIconBaseAnim_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-4}",
+      "spriteSize": "{106,94}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{293,670},{106,94}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLIconBaseAnim/JLIconBaseAnim_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-4}",
+      "spriteSize": "{106,94}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{401,670},{106,94}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLIconBaseAnim/JLIconBaseAnim_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-4}",
+      "spriteSize": "{106,94}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{293,766},{106,94}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLIconBaseAnim/JLIconBaseAnim_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-4}",
+      "spriteSize": "{106,94}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{401,766},{106,94}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLIconBaseAnim/JLIconBaseAnim_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-4}",
+      "spriteSize": "{106,94}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{293,862},{106,94}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/JLIconBaseAnim/JLIconBaseAnim_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-4}",
+      "spriteSize": "{106,94}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{401,862},{106,94}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/LevelTag.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{154,154}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{1,157},{154,154}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/Lock.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{43,50}",
+      "spriteSourceSize": "{43,50}",
+      "textureRect": "{{453,1378},{43,50}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/Mega.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,21}",
+      "spriteSourceSize": "{62,21}",
+      "textureRect": "{{269,295},{62,21}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/ParticleAnim/ParticleAnim_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{-75.5,75.5}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{293,205},{3,3}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/ParticleAnim/ParticleAnim_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{50,56}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{373,1486},{50,56}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/ParticleAnim/ParticleAnim_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{52,56}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{453,1320},{52,56}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/ParticleAnim/ParticleAnim_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{62,58}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{1,1713},{62,58}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/ParticleAnim/ParticleAnim_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{78,64}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{401,1698},{78,64}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/ParticleAnim/ParticleAnim_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{86,68}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{147,409},{86,68}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/ParticleAnim/ParticleAnim_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{94,68}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{303,1442},{94,68}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/ParticleAnim/ParticleAnim_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{100,74}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{253,480},{100,74}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/ParticleAnim/ParticleAnim_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{0,2}",
+      "spriteSize": "{118,80}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{425,302},{118,80}}",
+      "textureRotated": true
+    },
+    "JackpotLoungeButton_00/ParticleAnim/ParticleAnim_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{0,1}",
+      "spriteSize": "{126,80}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{135,585},{126,80}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/ParticleAnim/ParticleAnim_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{0,4}",
+      "spriteSize": "{136,86}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{1,497},{136,86}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/ParticleAnim/ParticleAnim_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,3}",
+      "spriteSize": "{144,86}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{1,409},{144,86}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/ParticleAnim/ParticleAnim_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{0,5}",
+      "spriteSize": "{154,94}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{1,313},{154,94}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/ParticleAnim/ParticleAnim_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{0,6}",
+      "spriteSize": "{150,98}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{157,105},{150,98}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/ParticleAnim/ParticleAnim_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{0,7}",
+      "spriteSize": "{150,102}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{157,1},{150,102}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/ParticleAnim/ParticleAnim_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{0,3}",
+      "spriteSize": "{146,94}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{309,1},{146,94}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/ParticleAnim/ParticleAnim_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{-75.5,75.5}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{293,205},{3,3}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/ParticleAnim/ParticleAnim_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{-75.5,75.5}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{293,205},{3,3}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/ParticleAnim/ParticleAnim_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{-75.5,75.5}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{293,205},{3,3}}",
+      "textureRotated": false
+    },
+    "JackpotLoungeButton_00/ParticleAnim/ParticleAnim_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{-75.5,75.5}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{154,154}",
+      "textureRect": "{{293,205},{3,3}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "JackpotLoungeButton_00-hd.png",
+    "size": "{508,1776}",
+    "smartupdate": "$TexturePacker:SmartUpdate:8e558913643022411940760e369afe31:2968b90ecfc7b278a88b0762ca16ce41:e47275ad76c4361ee98d1f78101523db$",
+    "textureFileName": "JackpotLoungeButton_00-hd.png",
+    "animations": [
+      "JLCardIntroAnim",
+      "JLCardShuffleAnim",
+      "JLIconBaseAnim",
+      "ParticleAnim"
+    ]
+  }
+}

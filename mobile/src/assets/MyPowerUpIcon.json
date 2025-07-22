@@ -1,0 +1,110 @@
+{
+  "frames": {
+    "MyPowerUpIcon_00/Badge.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{35,33}",
+      "spriteSourceSize": "{35,33}",
+      "textureRect": "{{388,1},{35,33}}",
+      "textureRotated": false
+    },
+    "MyPowerUpIcon_00/DisablingShade.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,51}",
+      "spriteSourceSize": "{51,51}",
+      "textureRect": "{{234,1},{51,51}}",
+      "textureRotated": false
+    },
+    "MyPowerUpIcon_00/ItemBubbleBG.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{231,167}",
+      "spriteSourceSize": "{231,167}",
+      "textureRect": "{{1,1},{231,167}}",
+      "textureRotated": false
+    },
+    "MyPowerUpIcon_00/powerItem1.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{48,48}",
+      "spriteSourceSize": "{48,48}",
+      "textureRect": "{{285,103},{48,48}}",
+      "textureRotated": false
+    },
+    "MyPowerUpIcon_00/powerItem2.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{48,48}",
+      "spriteSourceSize": "{48,48}",
+      "textureRect": "{{234,105},{48,48}}",
+      "textureRotated": false
+    },
+    "MyPowerUpIcon_00/powerItem3.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{48,48}",
+      "spriteSourceSize": "{48,48}",
+      "textureRect": "{{335,103},{48,48}}",
+      "textureRotated": false
+    },
+    "MyPowerUpIcon_00/powerItem4.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{48,48}",
+      "spriteSourceSize": "{48,48}",
+      "textureRect": "{{338,1},{48,48}}",
+      "textureRotated": false
+    },
+    "MyPowerUpIcon_00/powerItem5.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{48,48}",
+      "spriteSourceSize": "{48,48}",
+      "textureRect": "{{338,51},{48,48}}",
+      "textureRotated": false
+    },
+    "MyPowerUpIcon_00/powerItem6.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{48,48}",
+      "spriteSourceSize": "{48,48}",
+      "textureRect": "{{385,101},{48,48}}",
+      "textureRotated": false
+    },
+    "MyPowerUpIcon_00/powerItem7.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{49,49}",
+      "spriteSourceSize": "{49,49}",
+      "textureRect": "{{287,1},{49,49}}",
+      "textureRotated": false
+    },
+    "MyPowerUpIcon_00/powerItem8.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{49,49}",
+      "spriteSourceSize": "{49,49}",
+      "textureRect": "{{287,52},{49,49}}",
+      "textureRotated": false
+    },
+    "MyPowerUpIcon_00/powerItem9.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{49,49}",
+      "spriteSourceSize": "{49,49}",
+      "textureRect": "{{234,54},{49,49}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "MyPowerUpIcon_00-hd.png",
+    "size": "{434,169}",
+    "smartupdate": "$TexturePacker:SmartUpdate:a7bb376c422d2d9ca436307e9df3b014:1ce0f9f58cae2a4d4da8edd6b288fae4:84581809f656ffa9bd11a7445584e14d$",
+    "textureFileName": "MyPowerUpIcon_00-hd.png",
+    "animations": []
+  }
+}

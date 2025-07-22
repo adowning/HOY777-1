@@ -1,0 +1,22 @@
+{
+  "frames": {
+    "RSLeaderboardInfoPopup_00/LeaderboardInfo.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,48}",
+      "spriteSize": "{833,396}",
+      "spriteSourceSize": "{849,524}",
+      "textureRect": "{{1,1},{833,396}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "RSLeaderboardInfoPopup_00-hd.png",
+    "size": "{835,398}",
+    "smartupdate": "$TexturePacker:SmartUpdate:c9d40b7aac274ddcacf8111199eb4806:f63ef492510b1d3a93bc796094e688c1:1cca261b8167251dff35a784dc4f4ebf$",
+    "textureFileName": "RSLeaderboardInfoPopup_00-hd.png",
+    "animations": []
+  }
+}

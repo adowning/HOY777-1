@@ -1,0 +1,56 @@
+{
+  "frames": {
+    "XPGiftingPopup_00/Bg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{661,474}",
+      "spriteSourceSize": "{661,474}",
+      "textureRect": "{{1,1},{661,474}}",
+      "textureRotated": true
+    },
+    "XPGiftingPopup_00/XpAnimation/XpAnimation_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,4}",
+      "spriteSize": "{248,177}",
+      "spriteSourceSize": "{390,211}",
+      "textureRect": "{{1,843},{248,177}}",
+      "textureRotated": false
+    },
+    "XPGiftingPopup_00/XpAnimation/XpAnimation_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,3}",
+      "spriteSize": "{246,177}",
+      "spriteSourceSize": "{390,211}",
+      "textureRect": "{{261,664},{246,177}}",
+      "textureRotated": false
+    },
+    "XPGiftingPopup_00/XpAnimation/XpAnimation_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,4}",
+      "spriteSize": "{258,177}",
+      "spriteSourceSize": "{390,211}",
+      "textureRect": "{{1,664},{258,177}}",
+      "textureRotated": false
+    },
+    "XPGiftingPopup_00/XpAnimation/XpAnimation_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,3}",
+      "spriteSize": "{248,177}",
+      "spriteSourceSize": "{390,211}",
+      "textureRect": "{{251,843},{248,177}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "XPGiftingPopup_00-hd.png",
+    "size": "{508,1021}",
+    "smartupdate": "$TexturePacker:SmartUpdate:483c92eb72a5f925f6a354854551a36d:c785cb5584ca8d15aa189eb11bcee77c:e7a351d2b5bc8d25081a262a4ed2319b$",
+    "textureFileName": "XPGiftingPopup_00-hd.png",
+    "animations": [
+      "XpAnimation"
+    ]
+  }
+}

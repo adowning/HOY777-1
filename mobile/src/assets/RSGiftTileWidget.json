@@ -1,0 +1,244 @@
+{
+  "frames": {
+    "RSGiftTileWidget_00/ClaimBtn/ClaimBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{114,47}",
+      "spriteSourceSize": "{114,47}",
+      "textureRect": "{{131,933},{114,47}}",
+      "textureRotated": false
+    },
+    "RSGiftTileWidget_00/ClaimBtn/ClaimBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{114,47}",
+      "spriteSourceSize": "{114,47}",
+      "textureRect": "{{74,129},{114,47}}",
+      "textureRotated": true
+    },
+    "RSGiftTileWidget_00/ClaimBtn/ClaimBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{114,47}",
+      "spriteSourceSize": "{114,47}",
+      "textureRect": "{{74,245},{114,47}}",
+      "textureRotated": true
+    },
+    "RSGiftTileWidget_00/ClaimedTag.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{144,36}",
+      "spriteSourceSize": "{144,36}",
+      "textureRect": "{{1,895},{144,36}}",
+      "textureRotated": false
+    },
+    "RSGiftTileWidget_00/ConnectBtn/ConnectBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{126,47}",
+      "spriteSourceSize": "{126,47}",
+      "textureRect": "{{1,846},{126,47}}",
+      "textureRotated": false
+    },
+    "RSGiftTileWidget_00/ConnectBtn/ConnectBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{126,47}",
+      "spriteSourceSize": "{126,47}",
+      "textureRect": "{{1,970},{126,47}}",
+      "textureRotated": false
+    },
+    "RSGiftTileWidget_00/ConnectBtn/ConnectBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{126,47}",
+      "spriteSourceSize": "{126,47}",
+      "textureRect": "{{74,1},{126,47}}",
+      "textureRotated": true
+    },
+    "RSGiftTileWidget_00/DefaultProfile.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{72,72}",
+      "spriteSourceSize": "{72,72}",
+      "textureRect": "{{129,765},{72,72}}",
+      "textureRotated": false
+    },
+    "RSGiftTileWidget_00/EmailConnect.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{66,67}",
+      "spriteSourceSize": "{66,67}",
+      "textureRect": "{{172,74},{66,67}}",
+      "textureRotated": false
+    },
+    "RSGiftTileWidget_00/EnterBtn/EnterBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{114,47}",
+      "spriteSourceSize": "{114,47}",
+      "textureRect": "{{74,361},{114,47}}",
+      "textureRotated": true
+    },
+    "RSGiftTileWidget_00/EnterBtn/EnterBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{114,47}",
+      "spriteSourceSize": "{114,47}",
+      "textureRect": "{{74,477},{114,47}}",
+      "textureRotated": true
+    },
+    "RSGiftTileWidget_00/EnterBtn/EnterBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{114,47}",
+      "spriteSourceSize": "{114,47}",
+      "textureRect": "{{74,667},{114,47}}",
+      "textureRotated": false
+    },
+    "RSGiftTileWidget_00/FBConnect.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{70,71}",
+      "spriteSourceSize": "{70,71}",
+      "textureRect": "{{172,1},{70,71}}",
+      "textureRotated": false
+    },
+    "RSGiftTileWidget_00/HostIcon.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{74,72}",
+      "spriteSourceSize": "{74,72}",
+      "textureRect": "{{74,593},{74,72}}",
+      "textureRotated": false
+    },
+    "RSGiftTileWidget_00/InviteFriend.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{72,72}",
+      "spriteSourceSize": "{72,72}",
+      "textureRect": "{{129,765},{72,72}}",
+      "textureRotated": false
+    },
+    "RSGiftTileWidget_00/MClub.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{73,66}",
+      "spriteSourceSize": "{73,66}",
+      "textureRect": "{{150,539},{73,66}}",
+      "textureRotated": true
+    },
+    "RSGiftTileWidget_00/ProfileBoader.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{72,72}",
+      "spriteSourceSize": "{72,72}",
+      "textureRect": "{{123,465},{72,72}}",
+      "textureRotated": false
+    },
+    "RSGiftTileWidget_00/RewardBorder.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{128,35}",
+      "spriteSourceSize": "{128,35}",
+      "textureRect": "{{1,933},{128,35}}",
+      "textureRotated": false
+    },
+    "RSGiftTileWidget_00/SendBtn/SendBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{114,47}",
+      "spriteSourceSize": "{114,47}",
+      "textureRect": "{{74,716},{114,47}}",
+      "textureRotated": false
+    },
+    "RSGiftTileWidget_00/SendBtn/SendBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{114,47}",
+      "spriteSourceSize": "{114,47}",
+      "textureRect": "{{129,839},{114,47}}",
+      "textureRotated": false
+    },
+    "RSGiftTileWidget_00/SendBtn/SendBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{114,47}",
+      "spriteSourceSize": "{114,47}",
+      "textureRect": "{{123,1},{114,47}}",
+      "textureRotated": true
+    },
+    "RSGiftTileWidget_00/SentTag.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{101,35}",
+      "spriteSourceSize": "{101,35}",
+      "textureRect": "{{129,982},{101,35}}",
+      "textureRotated": false
+    },
+    "RSGiftTileWidget_00/TakeSurvey.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{78,70}",
+      "spriteSourceSize": "{78,70}",
+      "textureRect": "{{1,774},{78,70}}",
+      "textureRotated": false
+    },
+    "RSGiftTileWidget_00/TileBg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{771,71}",
+      "spriteSourceSize": "{771,71}",
+      "textureRect": "{{1,1},{771,71}}",
+      "textureRotated": true
+    },
+    "RSGiftTileWidget_00/VerifyBtn/VerifyBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{114,47}",
+      "spriteSourceSize": "{114,47}",
+      "textureRect": "{{123,117},{114,47}}",
+      "textureRotated": true
+    },
+    "RSGiftTileWidget_00/VerifyBtn/VerifyBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{114,47}",
+      "spriteSourceSize": "{114,47}",
+      "textureRect": "{{123,233},{114,47}}",
+      "textureRotated": true
+    },
+    "RSGiftTileWidget_00/VerifyBtn/VerifyBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{114,47}",
+      "spriteSourceSize": "{114,47}",
+      "textureRect": "{{123,349},{114,47}}",
+      "textureRotated": true
+    },
+    "RSGiftTileWidget_00/WatchAd.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{67,66}",
+      "spriteSourceSize": "{67,66}",
+      "textureRect": "{{172,143},{67,66}}",
+      "textureRotated": true
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "RSGiftTileWidget_00-hd.png",
+    "size": "{256,1024}",
+    "smartupdate": "$TexturePacker:SmartUpdate:36a4634dd3df5bb537720f7bc6125fc3:f5d012502bdc2774fee768163e602ab1:efa8a0beef8a6453667e38c15380edd8$",
+    "textureFileName": "RSGiftTileWidget_00-hd.png",
+    "animations": [
+      "ClaimBtn",
+      "ConnectBtn",
+      "EnterBtn",
+      "SendBtn",
+      "VerifyBtn"
+    ]
+  }
+}

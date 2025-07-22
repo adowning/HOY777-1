@@ -1,0 +1,89 @@
+{
+  "frames": {
+    "LoungeExitPopup_00/OkBtn/OkBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{203,81}",
+      "spriteSourceSize": "{203,81}",
+      "textureRect": "{{54,1},{203,81}}",
+      "textureRotated": true
+    },
+    "LoungeExitPopup_00/OkBtn/OkBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{203,81}",
+      "spriteSourceSize": "{203,81}",
+      "textureRect": "{{54,206},{203,81}}",
+      "textureRotated": true
+    },
+    "LoungeExitPopup_00/OkBtn/OkBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{203,81}",
+      "spriteSourceSize": "{203,81}",
+      "textureRect": "{{137,1},{203,81}}",
+      "textureRotated": true
+    },
+    "LoungeExitPopup_00/Reconnect/Reconnect_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{203,81}",
+      "spriteSourceSize": "{203,81}",
+      "textureRect": "{{54,411},{203,81}}",
+      "textureRotated": true
+    },
+    "LoungeExitPopup_00/Reconnect/Reconnect_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{203,81}",
+      "spriteSourceSize": "{203,81}",
+      "textureRect": "{{137,206},{203,81}}",
+      "textureRotated": true
+    },
+    "LoungeExitPopup_00/Reconnect/Reconnect_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{203,81}",
+      "spriteSourceSize": "{203,81}",
+      "textureRect": "{{137,411},{203,81}}",
+      "textureRotated": true
+    },
+    "LoungeExitPopup_00/SignalPic.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{119,97}",
+      "spriteSourceSize": "{119,97}",
+      "textureRect": "{{54,616},{119,97}}",
+      "textureRotated": false
+    },
+    "LoungeExitPopup_00/Title.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{306,51}",
+      "spriteSourceSize": "{306,51}",
+      "textureRect": "{{1,414},{306,51}}",
+      "textureRotated": true
+    },
+    "LoungeExitPopup_00/Title1.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{411,51}",
+      "spriteSourceSize": "{411,51}",
+      "textureRect": "{{1,1},{411,51}}",
+      "textureRotated": true
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "LoungeExitPopup_00-hd.png",
+    "size": "{219,721}",
+    "smartupdate": "$TexturePacker:SmartUpdate:75f20d46ed6080c762d067ee5ef1c93b:c39f262dd1f2ff83450c4a7476ae3d69:31de03698f5f42a34d66c7e9e8ee493e$",
+    "textureFileName": "LoungeExitPopup_00-hd.png",
+    "animations": [
+      "OkBtn",
+      "Reconnect"
+    ]
+  }
+}

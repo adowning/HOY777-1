@@ -1,0 +1,22 @@
+{
+  "frames": {
+    "JackpotLoungeMessageBubble_00/MessageBg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,4}",
+      "spriteSize": "{270,160}",
+      "spriteSourceSize": "{272,170}",
+      "textureRect": "{{1,1},{270,160}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "JackpotLoungeMessageBubble_00-hd.png",
+    "size": "{272,162}",
+    "smartupdate": "$TexturePacker:SmartUpdate:ee2cd217bcd070d9ab8019b48cd7e387:bf4f0d3c556ea250c282b6d7a67d91e3:46893ab7137761aa52667c55e28bf815$",
+    "textureFileName": "JackpotLoungeMessageBubble_00-hd.png",
+    "animations": []
+  }
+}

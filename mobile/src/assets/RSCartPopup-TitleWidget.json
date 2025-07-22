@@ -1,0 +1,22 @@
+{
+  "frames": {
+    "RSCartPopup_TitleWidget_00/NormalTitle.png": {
+      "aliases": [],
+      "spriteOffset": "{-6,-2}",
+      "spriteSize": "{694,149}",
+      "spriteSourceSize": "{900,177}",
+      "textureRect": "{{1,1},{694,149}}",
+      "textureRotated": true
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "RSCartPopup_TitleWidget_00-hd.png",
+    "size": "{256,1024}",
+    "smartupdate": "$TexturePacker:SmartUpdate:5dfd6c88e2e3167882b477850ba67bba:87b81ff5223e0250a48df35babc907d4:32b18069be7aaedfa08d7de1976b741e$",
+    "textureFileName": "RSCartPopup_TitleWidget_00-hd.png",
+    "animations": []
+  }
+}

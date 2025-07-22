@@ -11,6 +11,7 @@ export default function configureOpenAPI(app: AppOpenAPI) {
       version: packageJSON.version,
       title: 'Tasks API',
     },
+
   })
 
   app.get(

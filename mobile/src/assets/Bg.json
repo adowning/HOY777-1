@@ -1,0 +1,22 @@
+{
+  "frames": {
+    "Bg_00/Bg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{568,384}",
+      "spriteSourceSize": "{568,384}",
+      "textureRect": "{{1,1},{568,384}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "Bg_00-hd.png",
+    "size": "{570,386}",
+    "smartupdate": "$TexturePacker:SmartUpdate:0f5dbe20b3779a6c0ad7bb0f4adbce17:4fa6e05a2284e9c1eb2d898cc550fcb0:879c09a49bb37fb87521265039e4ed28$",
+    "textureFileName": "Bg_00-hd.png",
+    "animations": []
+  }
+}

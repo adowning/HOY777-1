@@ -1,0 +1,72 @@
+{
+  "frames": {
+    "VIPMiniOverlay_00/VIPFrame.png": {
+      "aliases": [],
+      "spriteOffset": "{62,-50}",
+      "spriteSize": "{116,116}",
+      "spriteSourceSize": "{244,234}",
+      "textureRect": "{{1,293},{116,116}}",
+      "textureRotated": false
+    },
+    "VIPMiniOverlay_00/VIPLockedInfo.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{215,122}",
+      "spriteSourceSize": "{215,122}",
+      "textureRect": "{{1,1},{215,122}}",
+      "textureRotated": false
+    },
+    "VIPMiniOverlay_00/VIPUnlockedTagAnim/VIPUnlockedTagAnim_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-90}",
+      "spriteSize": "{142,40}",
+      "spriteSourceSize": "{244,234}",
+      "textureRect": "{{1,251},{142,40}}",
+      "textureRotated": false
+    },
+    "VIPMiniOverlay_00/VIPUnlockedTagAnim/VIPUnlockedTagAnim_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-90}",
+      "spriteSize": "{168,40}",
+      "spriteSourceSize": "{244,234}",
+      "textureRect": "{{1,167},{168,40}}",
+      "textureRotated": false
+    },
+    "VIPMiniOverlay_00/VIPUnlockedTagAnim/VIPUnlockedTagAnim_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-90}",
+      "spriteSize": "{148,40}",
+      "spriteSourceSize": "{244,234}",
+      "textureRect": "{{1,209},{148,40}}",
+      "textureRotated": false
+    },
+    "VIPMiniOverlay_00/VIPUnlockedTagAnim/VIPUnlockedTagAnim_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-90}",
+      "spriteSize": "{188,40}",
+      "spriteSourceSize": "{244,234}",
+      "textureRect": "{{1,125},{188,40}}",
+      "textureRotated": false
+    },
+    "VIPMiniOverlay_00/VIPUnlockedTagAnim/VIPUnlockedTagAnim_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{-4,-90}",
+      "spriteSize": "{162,54}",
+      "spriteSourceSize": "{244,234}",
+      "textureRect": "{{191,125},{162,54}}",
+      "textureRotated": true
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "VIPMiniOverlay_00-hd.png",
+    "size": "{256,512}",
+    "smartupdate": "$TexturePacker:SmartUpdate:95800d7cc45693f4befea8bae5dd5059:bd97e5b66054a4ed48559d69be711691:4e44cf3619a3bb40a2424a5e8375be2d$",
+    "textureFileName": "VIPMiniOverlay_00-hd.png",
+    "animations": [
+      "VIPUnlockedTagAnim"
+    ]
+  }
+}

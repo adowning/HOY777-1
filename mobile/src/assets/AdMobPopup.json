@@ -1,0 +1,30 @@
+{
+  "frames": {
+    "AdMobPopup_00/CoinPanel.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{595,232}",
+      "spriteSourceSize": "{595,232}",
+      "textureRect": "{{1,1},{595,232}}",
+      "textureRotated": false
+    },
+    "AdMobPopup_00/CoinStack.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{212,172}",
+      "spriteSourceSize": "{212,172}",
+      "textureRect": "{{598,1},{212,172}}",
+      "textureRotated": true
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "AdMobPopup_00-hd.png",
+    "size": "{771,234}",
+    "smartupdate": "$TexturePacker:SmartUpdate:5489dd1392a8941b059ee581c0b5000f:ef43a6b4bbbff8591fd2f44661346ce5:1cae453865a56248e25a84d26082cb91$",
+    "textureFileName": "AdMobPopup_00-hd.png",
+    "animations": []
+  }
+}

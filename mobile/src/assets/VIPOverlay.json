@@ -1,0 +1,80 @@
+{
+  "frames": {
+    "VIPOverlay_00/VIPLockedInfo.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{215,122}",
+      "spriteSourceSize": "{215,122}",
+      "textureRect": "{{306,203},{215,122}}",
+      "textureRotated": true
+    },
+    "VIPOverlay_00/VIPUnlockTag.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-118}",
+      "spriteSize": "{303,225}",
+      "spriteSourceSize": "{303,461}",
+      "textureRect": "{{1,1},{303,225}}",
+      "textureRotated": false
+    },
+    "VIPOverlay_00/VIPUnlockedTag.png": {
+      "aliases": [],
+      "spriteOffset": "{-120.5,229}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{244,461}",
+      "textureRect": "{{472,1},{3,3}}",
+      "textureRotated": false
+    },
+    "VIPOverlay_00/VIPUnlockedTagAnim/VIPUnlockedTagAnim_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{22,-168}",
+      "spriteSize": "{158,45}",
+      "spriteSourceSize": "{244,461}",
+      "textureRect": "{{306,62},{158,45}}",
+      "textureRotated": false
+    },
+    "VIPOverlay_00/VIPUnlockedTagAnim/VIPUnlockedTagAnim_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{22,-168}",
+      "spriteSize": "{158,45}",
+      "spriteSourceSize": "{244,461}",
+      "textureRect": "{{466,62},{158,45}}",
+      "textureRotated": true
+    },
+    "VIPOverlay_00/VIPUnlockedTagAnim/VIPUnlockedTagAnim_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{22,-168}",
+      "spriteSize": "{158,45}",
+      "spriteSourceSize": "{244,461}",
+      "textureRect": "{{306,109},{158,45}}",
+      "textureRotated": false
+    },
+    "VIPOverlay_00/VIPUnlockedTagAnim/VIPUnlockedTagAnim_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{22,-168}",
+      "spriteSize": "{158,45}",
+      "spriteSourceSize": "{244,461}",
+      "textureRect": "{{306,156},{158,45}}",
+      "textureRotated": false
+    },
+    "VIPOverlay_00/VIPUnlockedTagAnim/VIPUnlockedTagAnim_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{26,-168}",
+      "spriteSize": "{164,59}",
+      "spriteSourceSize": "{244,461}",
+      "textureRect": "{{306,1},{164,59}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "VIPOverlay_00-hd.png",
+    "size": "{512,512}",
+    "smartupdate": "$TexturePacker:SmartUpdate:790e4f1c9ba8f246a11415791906a175:ca5accf816b559dce4b9dc7ebb09b101:40f382ae51b1da9171eb7f2ace051474$",
+    "textureFileName": "VIPOverlay_00-hd.png",
+    "animations": [
+      "VIPUnlockedTagAnim"
+    ]
+  }
+}

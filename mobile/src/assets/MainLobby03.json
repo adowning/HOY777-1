@@ -1,0 +1,1165 @@
+{
+  "frames": {
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{194,92}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{1840,289},{194,92}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{194,92}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{1840,289},{194,92}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{194,92}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{1813,383},{194,92}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{194,92}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{1813,383},{194,92}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{194,92}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{1813,477},{194,92}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{194,92}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{1813,477},{194,92}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{194,92}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{1811,571},{194,92}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{194,92}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{1811,571},{194,92}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{194,92}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{1811,665},{194,92}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{194,92}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{1811,665},{194,92}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-9}",
+      "spriteSize": "{194,94}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{1848,1},{194,94}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-9}",
+      "spriteSize": "{194,94}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{1848,1},{194,94}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-9}",
+      "spriteSize": "{194,94}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{1848,97},{194,94}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-9}",
+      "spriteSize": "{194,94}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{1848,97},{194,94}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-9}",
+      "spriteSize": "{194,94}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{1840,193},{194,94}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-9}",
+      "spriteSize": "{194,94}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{1840,193},{194,94}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{194,92}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{511,884},{194,92}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{194,92}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{511,884},{194,92}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{194,92}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{1776,759},{194,92}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{194,92}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{1776,759},{194,92}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{194,92}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{1776,853},{194,92}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{194,92}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{1776,853},{194,92}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0022.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{194,92}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{1529,890},{194,92}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0023.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{194,92}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{1529,890},{194,92}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0024.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{194,92}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{1725,947},{194,92}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0025.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{194,92}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{1725,947},{194,92}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0026.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{194,92}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{1529,984},{194,92}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0027.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{194,92}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{1529,984},{194,92}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0028.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{194,92}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{1921,947},{194,92}}",
+      "textureRotated": true
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0029.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{194,92}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{1921,947},{194,92}}",
+      "textureRotated": true
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0030.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{194,92}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{1725,1041},{194,92}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0031.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{194,92}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{1725,1041},{194,92}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0032.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{194,92}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{1,904},{194,92}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0033.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{194,92}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{1,904},{194,92}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0034.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{194,92}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{197,904},{194,92}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0035.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{194,92}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{197,904},{194,92}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0036.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{194,92}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{393,904},{194,92}}",
+      "textureRotated": true
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0037.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{194,92}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{393,904},{194,92}}",
+      "textureRotated": true
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0038.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{194,92}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{487,978},{194,92}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0039.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{194,92}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{487,978},{194,92}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0040.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{194,92}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{1,998},{194,92}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0041.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{194,92}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{1,998},{194,92}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0042.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{194,92}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{197,998},{194,92}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0043.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{194,92}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{197,998},{194,92}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0044.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{194,92}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{1,1092},{194,92}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0045.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{194,92}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{1,1092},{194,92}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0046.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{194,92}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{197,1092},{194,92}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/ComingSoonTag/ComingSoonTag_0047.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-10}",
+      "spriteSize": "{194,92}",
+      "spriteSourceSize": "{246,142}",
+      "textureRect": "{{197,1092},{194,92}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{256,181}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{259,542},{256,181}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{256,181}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{259,542},{256,181}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{250,177}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{259,725},{250,177}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{250,177}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{259,725},{250,177}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{250,175}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{1,727},{250,175}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{250,175}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{1,727},{250,175}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{252,177}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{785,540},{252,177}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{252,177}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{785,540},{252,177}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{250,175}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{1561,365},{250,175}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{250,175}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{1561,365},{250,175}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-3}",
+      "spriteSize": "{246,173}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{1039,703},{246,173}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-3}",
+      "spriteSize": "{246,173}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{1039,703},{246,173}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{240,167}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{1287,874},{240,167}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{240,167}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{1287,874},{240,167}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{238,163}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{1015,878},{238,163}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{238,163}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{1015,878},{238,163}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{-138.5,106}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{2044,1},{3,3}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{-138.5,106}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{2044,1},{3,3}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{-138.5,106}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{2044,1},{3,3}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{-138.5,106}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{2044,1},{3,3}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{238,163}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{770,882},{238,163}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{238,163}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{770,882},{238,163}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0022.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{242,169}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{1532,719},{242,169}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0023.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{242,169}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{1532,719},{242,169}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0024.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{248,175}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{1561,542},{248,175}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0025.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{248,175}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{1561,542},{248,175}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0026.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{254,179}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{1305,365},{254,179}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0027.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{254,179}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{1305,365},{254,179}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0028.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{256,183}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{1,542},{256,183}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0029.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{256,183}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{1,542},{256,183}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0030.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{260,185}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{1316,178},{260,185}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0031.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{260,185}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{1316,178},{260,185}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0032.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{260,185}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{1578,178},{260,185}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0033.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{260,185}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{1578,178},{260,185}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0034.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{260,185}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{1578,178},{260,185}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0035.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{260,185}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{1578,178},{260,185}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0036.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{260,185}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{1,355},{260,185}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0037.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{260,185}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{1,355},{260,185}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0038.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{258,183}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{786,355},{258,183}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0039.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{258,183}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{786,355},{258,183}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0040.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{258,183}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{525,530},{258,183}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0041.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{258,183}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{525,530},{258,183}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0042.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{260,185}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{263,355},{260,185}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0043.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{260,185}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{263,355},{260,185}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0044.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{260,185}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{1578,178},{260,185}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0045.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{260,185}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{1578,178},{260,185}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0046.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{260,185}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{1578,178},{260,185}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Scratchers/Scratchers_0047.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{260,185}",
+      "spriteSourceSize": "{280,215}",
+      "textureRect": "{{1578,178},{260,185}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{-136,86}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{2044,1},{3,3}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{-136,86}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{2044,1},{3,3}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{1,3}",
+      "spriteSize": "{243,161}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{770,719},{243,161}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{1,3}",
+      "spriteSize": "{243,161}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{770,719},{243,161}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{247,163}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{1301,546},{247,163}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{247,163}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{1301,546},{247,163}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{253,171}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{1046,530},{253,171}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{253,171}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{1046,530},{253,171}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{1,1}",
+      "spriteSize": "{259,173}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{525,355},{259,173}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{1,1}",
+      "spriteSize": "{259,173}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{525,355},{259,173}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{1,0}",
+      "spriteSize": "{261,175}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{796,1},{261,175}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{1,0}",
+      "spriteSize": "{261,175}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{796,1},{261,175}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{1,0}",
+      "spriteSize": "{263,175}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{1,1},{263,175}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{1,0}",
+      "spriteSize": "{263,175}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{1,1},{263,175}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{1,0}",
+      "spriteSize": "{263,175}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{266,1},{263,175}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{1,0}",
+      "spriteSize": "{263,175}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{266,1},{263,175}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{1,0}",
+      "spriteSize": "{263,175}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{266,1},{263,175}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{1,0}",
+      "spriteSize": "{263,175}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{266,1},{263,175}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{1,0}",
+      "spriteSize": "{261,175}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{1059,1},{261,175}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{1,0}",
+      "spriteSize": "{261,175}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{1059,1},{261,175}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{1,0}",
+      "spriteSize": "{261,175}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{1322,1},{261,175}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{1,0}",
+      "spriteSize": "{261,175}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{1322,1},{261,175}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0022.png": {
+      "aliases": [],
+      "spriteOffset": "{1,0}",
+      "spriteSize": "{261,175}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{1585,1},{261,175}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0023.png": {
+      "aliases": [],
+      "spriteOffset": "{1,0}",
+      "spriteSize": "{261,175}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{1585,1},{261,175}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0024.png": {
+      "aliases": [],
+      "spriteOffset": "{1,0}",
+      "spriteSize": "{261,175}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{1,178},{261,175}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0025.png": {
+      "aliases": [],
+      "spriteOffset": "{1,0}",
+      "spriteSize": "{261,175}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{1,178},{261,175}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0026.png": {
+      "aliases": [],
+      "spriteOffset": "{1,0}",
+      "spriteSize": "{263,175}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{266,1},{263,175}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0027.png": {
+      "aliases": [],
+      "spriteOffset": "{1,0}",
+      "spriteSize": "{263,175}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{266,1},{263,175}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0028.png": {
+      "aliases": [],
+      "spriteOffset": "{1,0}",
+      "spriteSize": "{263,175}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{266,1},{263,175}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0029.png": {
+      "aliases": [],
+      "spriteOffset": "{1,0}",
+      "spriteSize": "{263,175}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{266,1},{263,175}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0030.png": {
+      "aliases": [],
+      "spriteOffset": "{1,0}",
+      "spriteSize": "{261,175}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{264,178},{261,175}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0031.png": {
+      "aliases": [],
+      "spriteOffset": "{1,0}",
+      "spriteSize": "{261,175}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{264,178},{261,175}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0032.png": {
+      "aliases": [],
+      "spriteOffset": "{1,0}",
+      "spriteSize": "{261,175}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{527,178},{261,175}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0033.png": {
+      "aliases": [],
+      "spriteOffset": "{1,0}",
+      "spriteSize": "{261,175}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{527,178},{261,175}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0034.png": {
+      "aliases": [],
+      "spriteOffset": "{1,0}",
+      "spriteSize": "{261,175}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{790,178},{261,175}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0035.png": {
+      "aliases": [],
+      "spriteOffset": "{1,0}",
+      "spriteSize": "{261,175}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{790,178},{261,175}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0036.png": {
+      "aliases": [],
+      "spriteOffset": "{1,0}",
+      "spriteSize": "{263,175}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{531,1},{263,175}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0037.png": {
+      "aliases": [],
+      "spriteOffset": "{1,0}",
+      "spriteSize": "{263,175}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{531,1},{263,175}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0038.png": {
+      "aliases": [],
+      "spriteOffset": "{1,0}",
+      "spriteSize": "{261,175}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{1053,178},{261,175}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0039.png": {
+      "aliases": [],
+      "spriteOffset": "{1,0}",
+      "spriteSize": "{261,175}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{1053,178},{261,175}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0040.png": {
+      "aliases": [],
+      "spriteOffset": "{1,1}",
+      "spriteSize": "{257,173}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{1046,355},{257,173}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0041.png": {
+      "aliases": [],
+      "spriteOffset": "{1,1}",
+      "spriteSize": "{257,173}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{1046,355},{257,173}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0042.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{251,167}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{517,715},{251,167}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0043.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{251,167}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{517,715},{251,167}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0044.png": {
+      "aliases": [],
+      "spriteOffset": "{1,3}",
+      "spriteSize": "{243,161}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{1287,711},{243,161}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0045.png": {
+      "aliases": [],
+      "spriteOffset": "{1,3}",
+      "spriteSize": "{243,161}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{1287,711},{243,161}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0046.png": {
+      "aliases": [],
+      "spriteOffset": "{-136,86}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{2044,1},{3,3}}",
+      "textureRotated": false
+    },
+    "MainLobby_03/Slots/Slots_0047.png": {
+      "aliases": [],
+      "spriteOffset": "{-136,86}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{275,175}",
+      "textureRect": "{{2044,1},{3,3}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "MainLobby_03-hd.png",
+    "size": "{2048,2048}",
+    "smartupdate": "$TexturePacker:SmartUpdate:964b1a021615f3c48f7ad7d761fdeeb7:b45c2a97e996f412e8ade9768cdd3b58:a0813f57d44a826b1db830afb4783ab6$",
+    "textureFileName": "MainLobby_03-hd.png"
+  }
+}

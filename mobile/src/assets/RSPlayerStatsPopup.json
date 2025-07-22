@@ -1,0 +1,319 @@
+{
+  "frames": {
+    "RSPlayerStatsPopup_00/Bg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{901,575}",
+      "spriteSourceSize": "{901,575}",
+      "textureRect": "{{1,1},{901,575}}",
+      "textureRotated": false
+    },
+    "RSPlayerStatsPopup_00/BgFrame.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{837,513}",
+      "spriteSourceSize": "{837,513}",
+      "textureRect": "{{1,578},{837,513}}",
+      "textureRotated": false
+    },
+    "RSPlayerStatsPopup_00/CloseBtn/CloseBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{840,772},{44,44}}",
+      "textureRotated": false
+    },
+    "RSPlayerStatsPopup_00/CloseBtn/CloseBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{764,1275},{44,44}}",
+      "textureRotated": false
+    },
+    "RSPlayerStatsPopup_00/CloseBtn/CloseBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{810,1275},{44,44}}",
+      "textureRotated": false
+    },
+    "RSPlayerStatsPopup_00/CoinIcon.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{36,36}",
+      "spriteSourceSize": "{36,36}",
+      "textureRect": "{{840,818},{36,36}}",
+      "textureRotated": false
+    },
+    "RSPlayerStatsPopup_00/FBProfile.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{77,76}",
+      "spriteSourceSize": "{77,76}",
+      "textureRect": "{{525,1335},{77,76}}",
+      "textureRotated": false
+    },
+    "RSPlayerStatsPopup_00/Frame.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{89,89}",
+      "spriteSourceSize": "{89,89}",
+      "textureRect": "{{673,1275},{89,89}}",
+      "textureRotated": false
+    },
+    "RSPlayerStatsPopup_00/IconAnimation/IconAnimation_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{33,-3}",
+      "spriteSize": "{220,69}",
+      "spriteSourceSize": "{306,75}",
+      "textureRect": "{{1,1434},{220,69}}",
+      "textureRotated": false
+    },
+    "RSPlayerStatsPopup_00/IconAnimation/IconAnimation_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{10,-4}",
+      "spriteSize": "{274,67}",
+      "spriteSourceSize": "{308,75}",
+      "textureRect": "{{339,1189},{274,67}}",
+      "textureRotated": false
+    },
+    "RSPlayerStatsPopup_00/IconAnimation/IconAnimation_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{268,75}",
+      "spriteSourceSize": "{306,75}",
+      "textureRect": "{{339,1258},{268,75}}",
+      "textureRotated": false
+    },
+    "RSPlayerStatsPopup_00/IconAnimation/IconAnimation_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{8,-3}",
+      "spriteSize": "{256,70}",
+      "spriteSourceSize": "{306,76}",
+      "textureRect": "{{267,1285},{256,70}}",
+      "textureRotated": true
+    },
+    "RSPlayerStatsPopup_00/IconAnimation/IconAnimation_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{4,-1}",
+      "spriteSize": "{264,73}",
+      "spriteSourceSize": "{306,75}",
+      "textureRect": "{{1,1285},{264,73}}",
+      "textureRotated": false
+    },
+    "RSPlayerStatsPopup_00/KenoBingoBtn/KenoBingoBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-7}",
+      "spriteSize": "{192,56}",
+      "spriteSourceSize": "{192,74}",
+      "textureRect": "{{840,578},{192,56}}",
+      "textureRotated": true
+    },
+    "RSPlayerStatsPopup_00/KenoBingoBtn/KenoBingoBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-7}",
+      "spriteSize": "{192,56}",
+      "spriteSourceSize": "{192,74}",
+      "textureRect": "{{615,1189},{192,56}}",
+      "textureRotated": true
+    },
+    "RSPlayerStatsPopup_00/KenoBingoBtn/KenoBingoBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{192,68}",
+      "spriteSourceSize": "{192,74}",
+      "textureRect": "{{1,1505},{192,68}}",
+      "textureRotated": false
+    },
+    "RSPlayerStatsPopup_00/MeterBg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{229,35}",
+      "spriteSourceSize": "{229,35}",
+      "textureRect": "{{1,1360},{229,35}}",
+      "textureRotated": false
+    },
+    "RSPlayerStatsPopup_00/Meterborder.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{229,35}",
+      "spriteSourceSize": "{229,35}",
+      "textureRect": "{{1,1397},{229,35}}",
+      "textureRotated": false
+    },
+    "RSPlayerStatsPopup_00/ProgressMeter.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{225,33}",
+      "spriteSourceSize": "{225,33}",
+      "textureRect": "{{232,1360},{225,33}}",
+      "textureRotated": true
+    },
+    "RSPlayerStatsPopup_00/ScratchersBtn/ScratchersBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{172,56}",
+      "spriteSourceSize": "{172,74}",
+      "textureRect": "{{673,1217},{172,56}}",
+      "textureRotated": false
+    },
+    "RSPlayerStatsPopup_00/ScratchersBtn/ScratchersBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{172,56}",
+      "spriteSourceSize": "{172,74}",
+      "textureRect": "{{847,1217},{172,56}}",
+      "textureRotated": false
+    },
+    "RSPlayerStatsPopup_00/ScratchersBtn/ScratchersBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,3}",
+      "spriteSize": "{172,68}",
+      "spriteSourceSize": "{172,74}",
+      "textureRect": "{{840,1051},{172,68}}",
+      "textureRotated": false
+    },
+    "RSPlayerStatsPopup_00/SlotsBtn/SlotsBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-6}",
+      "spriteSize": "{98,56}",
+      "spriteSourceSize": "{98,68}",
+      "textureRect": "{{904,71},{98,56}}",
+      "textureRotated": false
+    },
+    "RSPlayerStatsPopup_00/SlotsBtn/SlotsBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-6}",
+      "spriteSize": "{98,56}",
+      "spriteSourceSize": "{98,68}",
+      "textureRect": "{{904,129},{98,56}}",
+      "textureRotated": false
+    },
+    "RSPlayerStatsPopup_00/SlotsBtn/SlotsBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{98,68}",
+      "spriteSourceSize": "{98,68}",
+      "textureRect": "{{904,1},{98,68}}",
+      "textureRotated": false
+    },
+    "RSPlayerStatsPopup_00/TableGamesBtn/TableGamesBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-9}",
+      "spriteSize": "{184,56}",
+      "spriteSourceSize": "{184,74}",
+      "textureRect": "{{339,1335},{184,56}}",
+      "textureRotated": false
+    },
+    "RSPlayerStatsPopup_00/TableGamesBtn/TableGamesBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-9}",
+      "spriteSize": "{184,56}",
+      "spriteSourceSize": "{184,74}",
+      "textureRect": "{{339,1393},{184,56}}",
+      "textureRotated": false
+    },
+    "RSPlayerStatsPopup_00/TableGamesBtn/TableGamesBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-3}",
+      "spriteSize": "{184,68}",
+      "spriteSourceSize": "{184,74}",
+      "textureRect": "{{1,1575},{184,68}}",
+      "textureRotated": false
+    },
+    "RSPlayerStatsPopup_00/VideopokerBtn/VideopokerBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-6}",
+      "spriteSize": "{178,56}",
+      "spriteSourceSize": "{178,74}",
+      "textureRect": "{{840,935},{178,56}}",
+      "textureRotated": false
+    },
+    "RSPlayerStatsPopup_00/VideopokerBtn/VideopokerBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-6}",
+      "spriteSize": "{178,56}",
+      "spriteSourceSize": "{178,74}",
+      "textureRect": "{{840,993},{178,56}}",
+      "textureRotated": false
+    },
+    "RSPlayerStatsPopup_00/VideopokerBtn/VideopokerBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,1}",
+      "spriteSize": "{178,70}",
+      "spriteSourceSize": "{178,74}",
+      "textureRect": "{{840,863},{178,70}}",
+      "textureRotated": false
+    },
+    "RSPlayerStatsPopup_00/VipStatus/VipStatus_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{336,94}",
+      "spriteSourceSize": "{336,94}",
+      "textureRect": "{{904,187},{336,94}}",
+      "textureRotated": true
+    },
+    "RSPlayerStatsPopup_00/VipStatus/VipStatus_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{336,94}",
+      "spriteSourceSize": "{336,94}",
+      "textureRect": "{{904,525},{336,94}}",
+      "textureRotated": true
+    },
+    "RSPlayerStatsPopup_00/VipStatus/VipStatus_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{336,94}",
+      "spriteSourceSize": "{336,94}",
+      "textureRect": "{{1,1093},{336,94}}",
+      "textureRotated": false
+    },
+    "RSPlayerStatsPopup_00/VipStatus/VipStatus_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{336,94}",
+      "spriteSourceSize": "{336,94}",
+      "textureRect": "{{339,1093},{336,94}}",
+      "textureRotated": false
+    },
+    "RSPlayerStatsPopup_00/VipStatus/VipStatus_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{336,94}",
+      "spriteSourceSize": "{336,94}",
+      "textureRect": "{{677,1121},{336,94}}",
+      "textureRotated": false
+    },
+    "RSPlayerStatsPopup_00/VipStatus/VipStatus_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{336,94}",
+      "spriteSourceSize": "{336,94}",
+      "textureRect": "{{1,1189},{336,94}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "RSPlayerStatsPopup_00-hd.png",
+    "size": "{1024,2048}",
+    "smartupdate": "$TexturePacker:SmartUpdate:20e7a6ab15de1d75804d1122648803e6:53ca0abc4f050bab935b9d2f9cd68a8b:32e009320209c4b3bef8845f4773a365$",
+    "textureFileName": "RSPlayerStatsPopup_00-hd.png",
+    "animations": [
+      "CloseBtn",
+      "IconAnimation",
+      "KenoBingoBtn",
+      "ScratchersBtn",
+      "SlotsBtn",
+      "TableGamesBtn",
+      "VideopokerBtn",
+      "VipStatus"
+    ]
+  }
+}

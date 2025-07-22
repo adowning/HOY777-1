@@ -1,0 +1,81 @@
+{
+  "frames": {
+    "LOCOOCNotificationPopup_00/Coinbag.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{310,320}",
+      "spriteSourceSize": "{310,320}",
+      "textureRect": "{{517,1},{310,320}}",
+      "textureRotated": false
+    },
+    "LOCOOCNotificationPopup_00/LobbyBtn/LobbyBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,88}",
+      "spriteSourceSize": "{223,88}",
+      "textureRect": "{{1,330},{223,88}}",
+      "textureRotated": false
+    },
+    "LOCOOCNotificationPopup_00/LobbyBtn/LobbyBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,88}",
+      "spriteSourceSize": "{223,88}",
+      "textureRect": "{{1,420},{223,88}}",
+      "textureRotated": false
+    },
+    "LOCOOCNotificationPopup_00/LobbyBtn/LobbyBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,88}",
+      "spriteSourceSize": "{223,88}",
+      "textureRect": "{{226,330},{223,88}}",
+      "textureRotated": false
+    },
+    "LOCOOCNotificationPopup_00/ShopBtn/ShopBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,88}",
+      "spriteSourceSize": "{223,88}",
+      "textureRect": "{{226,420},{223,88}}",
+      "textureRotated": false
+    },
+    "LOCOOCNotificationPopup_00/ShopBtn/ShopBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,88}",
+      "spriteSourceSize": "{223,88}",
+      "textureRect": "{{451,330},{223,88}}",
+      "textureRotated": false
+    },
+    "LOCOOCNotificationPopup_00/ShopBtn/ShopBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,88}",
+      "spriteSourceSize": "{223,88}",
+      "textureRect": "{{451,420},{223,88}}",
+      "textureRotated": false
+    },
+    "LOCOOCNotificationPopup_00/SubtBg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{514,327}",
+      "spriteSourceSize": "{514,327}",
+      "textureRect": "{{1,1},{514,327}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "LOCOOCNotificationPopup_00-hd.png",
+    "size": "{828,509}",
+    "smartupdate": "$TexturePacker:SmartUpdate:6aebd51a66ca735798ac10263dba4683:a215e314bbcc1dde9034e9f2afadecf7:201290a47c4fd5a32b7e6ead40fb4260$",
+    "textureFileName": "LOCOOCNotificationPopup_00-hd.png",
+    "animations": [
+      "LobbyBtn",
+      "ShopBtn"
+    ]
+  }
+}

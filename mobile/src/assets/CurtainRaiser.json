@@ -1,0 +1,70 @@
+{
+  "frames": {
+    "CurtainRaiser_00/Bg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{1412,768}",
+      "spriteSourceSize": "{1412,768}",
+      "textureRect": "{{1,1},{1412,768}}",
+      "textureRotated": false
+    },
+    "CurtainRaiser_00/CurtainRaiserBgLeft.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{706,673}",
+      "spriteSourceSize": "{706,673}",
+      "textureRect": "{{771,771},{706,673}}",
+      "textureRotated": false
+    },
+    "CurtainRaiser_00/CurtainRaiserBgRightFlip.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{706,673}",
+      "spriteSourceSize": "{706,673}",
+      "textureRect": "{{771,771},{706,673}}",
+      "textureRotated": false
+    },
+    "CurtainRaiser_00/CurtainRaiserPartLeft.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{139,768}",
+      "spriteSourceSize": "{139,768}",
+      "textureRect": "{{1,771},{139,768}}",
+      "textureRotated": true
+    },
+    "CurtainRaiser_00/CurtainRaiserPartRightFlip.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{139,768}",
+      "spriteSourceSize": "{139,768}",
+      "textureRect": "{{1,771},{139,768}}",
+      "textureRotated": true
+    },
+    "CurtainRaiser_00/CurtainRaiserTopLeft.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{706,174}",
+      "spriteSourceSize": "{706,174}",
+      "textureRect": "{{1,912},{706,174}}",
+      "textureRotated": false
+    },
+    "CurtainRaiser_00/CurtainRaiserTopRightFlip.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{706,174}",
+      "spriteSourceSize": "{706,174}",
+      "textureRect": "{{1,912},{706,174}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "CurtainRaiser_00-hd.png",
+    "size": "{1478,1445}",
+    "smartupdate": "$TexturePacker:SmartUpdate:bde09cb50e4fc1efc1f4ecd29db1213a:7573686931ea70bc4185166f81b074f1:bae74218dd8f36ad8f2cf16ab842efba$",
+    "textureFileName": "CurtainRaiser_00-hd.png",
+    "animations": []
+  }
+}

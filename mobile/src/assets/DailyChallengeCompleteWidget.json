@@ -1,0 +1,22 @@
+{
+  "frames": {
+    "DailyChallengeCompleteWidget_00/CompleteText.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{838,297}",
+      "spriteSourceSize": "{838,297}",
+      "textureRect": "{{1,1},{838,297}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "DailyChallengeCompleteWidget_00-hd.png",
+    "size": "{840,299}",
+    "smartupdate": "$TexturePacker:SmartUpdate:afe69d468cb9d99e759747d7e0f81a7c:13e36f8b268ae04033ad8436d88f990e:94e17d235894f4b3d6f825ba48387fe1$",
+    "textureFileName": "DailyChallengeCompleteWidget_00-hd.png",
+    "animations": []
+  }
+}

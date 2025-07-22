@@ -1,0 +1,529 @@
+{
+  "frames": {
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{133,1},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{245,1},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{357,1},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{469,1},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{581,1},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{693,1},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{805,1},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{1,25},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{113,91},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{225,91},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{337,91},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{449,91},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{561,91},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{673,91},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{785,91},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{897,111},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{1,115},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{113,181},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{225,181},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{337,181},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{449,181},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{561,181},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0022.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{673,181},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0023.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{785,181},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0024.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{897,201},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0025.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{1,205},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0026.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{113,271},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0027.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{225,271},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0028.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{337,271},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0029.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{449,271},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0030.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{561,271},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0031.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{673,271},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0032.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{785,271},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0033.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{897,291},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0034.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{1,295},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0035.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{113,361},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0036.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{225,361},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0037.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{337,361},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0038.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{449,361},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0039.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{561,361},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0040.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{673,361},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0041.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{785,361},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0042.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{897,381},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0043.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{1,385},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0044.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{113,451},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0045.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{225,451},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0046.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{337,451},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0047.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{449,451},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0048.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{561,451},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0049.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{673,451},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0050.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{785,451},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0051.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{897,471},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0052.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{1,475},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0053.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{113,541},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0054.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{225,541},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0055.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{337,541},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0056.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{449,541},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0057.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{561,541},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0058.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{673,541},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMAnimation/LMAnimation_0059.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,110}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{785,541},{88,110}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LMText.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-62}",
+      "spriteSize": "{130,22}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{1,1},{130,22}}",
+      "textureRotated": false
+    },
+    "PlayerConnectWidget_00/LoyaltyMallBtn/LoyaltyMallBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,108}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{917,1},{88,108}}",
+      "textureRotated": false
+    },
+    "PlayerConnectWidget_00/LoyaltyMallBtn/LoyaltyMallBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,108}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{897,561},{88,108}}",
+      "textureRotated": true
+    },
+    "PlayerConnectWidget_00/LoyaltyMallBtn/LoyaltyMallBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{88,108}",
+      "spriteSourceSize": "{176,164}",
+      "textureRect": "{{1,565},{88,108}}",
+      "textureRotated": true
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "PlayerConnectWidget_00-hd.png",
+    "size": "{1008,654}",
+    "smartupdate": "$TexturePacker:SmartUpdate:c51c5ec19a63cdb1c5e2f00de80788fe:4f1e40f5925128f2da4925d152a11286:de3f4bf4d1bc56a79e503a28224d80ca$",
+    "textureFileName": "PlayerConnectWidget_00-hd.png",
+    "animations": [
+      "LMAnimation",
+      "LoyaltyMallBtn"
+    ]
+  }
+}

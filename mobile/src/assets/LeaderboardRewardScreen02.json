@@ -1,0 +1,941 @@
+{
+  "frames": {
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{-210.5,187.5}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{327,1125},{3,3}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{-210.5,187.5}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{327,1125},{3,3}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{-4,54}",
+      "spriteSize": "{26,24}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1031,739},{26,24}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{-4,54}",
+      "spriteSize": "{26,24}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1031,739},{26,24}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{-5,54}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1329,1069},{44,44}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{-5,54}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1329,1069},{44,44}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{-4,54}",
+      "spriteSize": "{74,74}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1371,299},{74,74}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{-4,54}",
+      "spriteSize": "{74,74}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1371,299},{74,74}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{-4,55}",
+      "spriteSize": "{90,96}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1635,283},{90,96}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{-4,55}",
+      "spriteSize": "{90,96}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1635,283},{90,96}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{-4,53}",
+      "spriteSize": "{110,114}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1891,145},{110,114}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{-4,53}",
+      "spriteSize": "{110,114}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1891,145},{110,114}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,49}",
+      "spriteSize": "{138,142}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1891,1},{138,142}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,49}",
+      "spriteSize": "{138,142}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1891,1},{138,142}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{0,49}",
+      "spriteSize": "{158,158}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1619,973},{158,158}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{0,49}",
+      "spriteSize": "{158,158}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1619,973},{158,158}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{1,45}",
+      "spriteSize": "{186,180}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1829,947},{186,180}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{1,45}",
+      "spriteSize": "{186,180}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1829,947},{186,180}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{1,42}",
+      "spriteSize": "{202,192}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1829,753},{202,192}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{1,42}",
+      "spriteSize": "{202,192}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1829,753},{202,192}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{3,40}",
+      "spriteSize": "{218,208}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1619,753},{218,208}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{3,40}",
+      "spriteSize": "{218,208}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1619,753},{218,208}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0022.png": {
+      "aliases": [],
+      "spriteOffset": "{5,34}",
+      "spriteSize": "{240,228}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1637,523},{240,228}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0023.png": {
+      "aliases": [],
+      "spriteOffset": "{5,34}",
+      "spriteSize": "{240,228}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1637,523},{240,228}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0024.png": {
+      "aliases": [],
+      "spriteOffset": "{4,32}",
+      "spriteSize": "{256,238}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1733,283},{256,238}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0025.png": {
+      "aliases": [],
+      "spriteOffset": "{4,32}",
+      "spriteSize": "{256,238}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1733,283},{256,238}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0026.png": {
+      "aliases": [],
+      "spriteOffset": "{4,29}",
+      "spriteSize": "{280,254}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1635,1},{280,254}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0027.png": {
+      "aliases": [],
+      "spriteOffset": "{4,29}",
+      "spriteSize": "{280,254}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1635,1},{280,254}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0028.png": {
+      "aliases": [],
+      "spriteOffset": "{5,27}",
+      "spriteSize": "{296,262}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1371,1},{296,262}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0029.png": {
+      "aliases": [],
+      "spriteOffset": "{5,27}",
+      "spriteSize": "{296,262}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1371,1},{296,262}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0030.png": {
+      "aliases": [],
+      "spriteOffset": "{5,21}",
+      "spriteSize": "{310,274}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1361,377},{310,274}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0031.png": {
+      "aliases": [],
+      "spriteOffset": "{5,21}",
+      "spriteSize": "{310,274}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1361,377},{310,274}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0032.png": {
+      "aliases": [],
+      "spriteOffset": "{4,14}",
+      "spriteSize": "{328,288}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1329,739},{328,288}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0033.png": {
+      "aliases": [],
+      "spriteOffset": "{4,14}",
+      "spriteSize": "{328,288}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1329,739},{328,288}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0034.png": {
+      "aliases": [],
+      "spriteOffset": "{1,11}",
+      "spriteSize": "{332,298}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1029,777},{332,298}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0035.png": {
+      "aliases": [],
+      "spriteOffset": "{1,11}",
+      "spriteSize": "{332,298}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1029,777},{332,298}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0036.png": {
+      "aliases": [],
+      "spriteOffset": "{-4,2}",
+      "spriteSize": "{342,312}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{715,777},{342,312}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0037.png": {
+      "aliases": [],
+      "spriteOffset": "{-4,2}",
+      "spriteSize": "{342,312}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{715,777},{342,312}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0038.png": {
+      "aliases": [],
+      "spriteOffset": "{-7,-3}",
+      "spriteSize": "{350,324}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1,781},{350,324}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0039.png": {
+      "aliases": [],
+      "spriteOffset": "{-7,-3}",
+      "spriteSize": "{350,324}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1,781},{350,324}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0040.png": {
+      "aliases": [],
+      "spriteOffset": "{-10,-6}",
+      "spriteSize": "{360,328}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1031,377},{360,328}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0041.png": {
+      "aliases": [],
+      "spriteOffset": "{-10,-6}",
+      "spriteSize": "{360,328}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1031,377},{360,328}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0042.png": {
+      "aliases": [],
+      "spriteOffset": "{-10,-14}",
+      "spriteSize": "{374,342}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1027,1},{374,342}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0043.png": {
+      "aliases": [],
+      "spriteOffset": "{-10,-14}",
+      "spriteSize": "{374,342}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1027,1},{374,342}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0044.png": {
+      "aliases": [],
+      "spriteOffset": "{-12,-14}",
+      "spriteSize": "{386,342}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{327,781},{386,342}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0045.png": {
+      "aliases": [],
+      "spriteOffset": "{-12,-14}",
+      "spriteSize": "{386,342}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{327,781},{386,342}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0046.png": {
+      "aliases": [],
+      "spriteOffset": "{-11,-14}",
+      "spriteSize": "{386,342}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{343,391},{386,342}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0047.png": {
+      "aliases": [],
+      "spriteOffset": "{-11,-14}",
+      "spriteSize": "{386,342}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{343,391},{386,342}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0048.png": {
+      "aliases": [],
+      "spriteOffset": "{-11,-15}",
+      "spriteSize": "{386,342}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{683,1},{386,342}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0049.png": {
+      "aliases": [],
+      "spriteOffset": "{-11,-15}",
+      "spriteSize": "{386,342}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{683,1},{386,342}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0050.png": {
+      "aliases": [],
+      "spriteOffset": "{-11,-16}",
+      "spriteSize": "{386,342}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{687,389},{386,342}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0051.png": {
+      "aliases": [],
+      "spriteOffset": "{-11,-16}",
+      "spriteSize": "{386,342}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{687,389},{386,342}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0052.png": {
+      "aliases": [],
+      "spriteOffset": "{-11,-17}",
+      "spriteSize": "{388,340}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1,1},{388,340}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0053.png": {
+      "aliases": [],
+      "spriteOffset": "{-11,-17}",
+      "spriteSize": "{388,340}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1,1},{388,340}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0054.png": {
+      "aliases": [],
+      "spriteOffset": "{-10,-18}",
+      "spriteSize": "{388,340}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1,391},{388,340}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0055.png": {
+      "aliases": [],
+      "spriteOffset": "{-10,-18}",
+      "spriteSize": "{388,340}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1,391},{388,340}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0056.png": {
+      "aliases": [],
+      "spriteOffset": "{-10,-20}",
+      "spriteSize": "{388,338}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{343,1},{388,338}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimLeft/FireworksAnimLeft_0057.png": {
+      "aliases": [],
+      "spriteOffset": "{-10,-20}",
+      "spriteSize": "{388,338}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{343,1},{388,338}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{-210.5,187.5}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{327,1125},{3,3}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{-210.5,187.5}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{327,1125},{3,3}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{-4,54}",
+      "spriteSize": "{26,24}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1031,739},{26,24}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{-4,54}",
+      "spriteSize": "{26,24}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1031,739},{26,24}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{-5,54}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1329,1069},{44,44}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{-5,54}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1329,1069},{44,44}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{-4,54}",
+      "spriteSize": "{74,74}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1371,299},{74,74}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{-4,54}",
+      "spriteSize": "{74,74}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1371,299},{74,74}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{-4,55}",
+      "spriteSize": "{90,96}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1635,283},{90,96}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{-4,55}",
+      "spriteSize": "{90,96}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1635,283},{90,96}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{-4,53}",
+      "spriteSize": "{110,114}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1891,145},{110,114}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{-4,53}",
+      "spriteSize": "{110,114}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1891,145},{110,114}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,49}",
+      "spriteSize": "{138,142}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1891,1},{138,142}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,49}",
+      "spriteSize": "{138,142}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1891,1},{138,142}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{0,49}",
+      "spriteSize": "{158,158}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1619,973},{158,158}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{0,49}",
+      "spriteSize": "{158,158}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1619,973},{158,158}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{1,45}",
+      "spriteSize": "{186,180}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1829,947},{186,180}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{1,45}",
+      "spriteSize": "{186,180}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1829,947},{186,180}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{1,42}",
+      "spriteSize": "{202,192}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1829,753},{202,192}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{1,42}",
+      "spriteSize": "{202,192}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1829,753},{202,192}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{3,40}",
+      "spriteSize": "{218,208}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1619,753},{218,208}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{3,40}",
+      "spriteSize": "{218,208}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1619,753},{218,208}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0022.png": {
+      "aliases": [],
+      "spriteOffset": "{5,34}",
+      "spriteSize": "{240,228}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1637,523},{240,228}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0023.png": {
+      "aliases": [],
+      "spriteOffset": "{5,34}",
+      "spriteSize": "{240,228}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1637,523},{240,228}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0024.png": {
+      "aliases": [],
+      "spriteOffset": "{4,32}",
+      "spriteSize": "{256,238}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1733,283},{256,238}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0025.png": {
+      "aliases": [],
+      "spriteOffset": "{4,32}",
+      "spriteSize": "{256,238}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1733,283},{256,238}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0026.png": {
+      "aliases": [],
+      "spriteOffset": "{4,29}",
+      "spriteSize": "{280,254}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1635,1},{280,254}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0027.png": {
+      "aliases": [],
+      "spriteOffset": "{4,29}",
+      "spriteSize": "{280,254}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1635,1},{280,254}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0028.png": {
+      "aliases": [],
+      "spriteOffset": "{5,27}",
+      "spriteSize": "{296,262}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1371,1},{296,262}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0029.png": {
+      "aliases": [],
+      "spriteOffset": "{5,27}",
+      "spriteSize": "{296,262}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1371,1},{296,262}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0030.png": {
+      "aliases": [],
+      "spriteOffset": "{5,21}",
+      "spriteSize": "{310,274}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1361,377},{310,274}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0031.png": {
+      "aliases": [],
+      "spriteOffset": "{5,21}",
+      "spriteSize": "{310,274}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1361,377},{310,274}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0032.png": {
+      "aliases": [],
+      "spriteOffset": "{4,14}",
+      "spriteSize": "{328,288}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1329,739},{328,288}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0033.png": {
+      "aliases": [],
+      "spriteOffset": "{4,14}",
+      "spriteSize": "{328,288}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1329,739},{328,288}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0034.png": {
+      "aliases": [],
+      "spriteOffset": "{1,11}",
+      "spriteSize": "{332,298}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1029,777},{332,298}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0035.png": {
+      "aliases": [],
+      "spriteOffset": "{1,11}",
+      "spriteSize": "{332,298}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1029,777},{332,298}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0036.png": {
+      "aliases": [],
+      "spriteOffset": "{-4,2}",
+      "spriteSize": "{342,312}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{715,777},{342,312}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0037.png": {
+      "aliases": [],
+      "spriteOffset": "{-4,2}",
+      "spriteSize": "{342,312}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{715,777},{342,312}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0038.png": {
+      "aliases": [],
+      "spriteOffset": "{-7,-3}",
+      "spriteSize": "{350,324}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1,781},{350,324}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0039.png": {
+      "aliases": [],
+      "spriteOffset": "{-7,-3}",
+      "spriteSize": "{350,324}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1,781},{350,324}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0040.png": {
+      "aliases": [],
+      "spriteOffset": "{-10,-6}",
+      "spriteSize": "{360,328}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1031,377},{360,328}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0041.png": {
+      "aliases": [],
+      "spriteOffset": "{-10,-6}",
+      "spriteSize": "{360,328}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1031,377},{360,328}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0042.png": {
+      "aliases": [],
+      "spriteOffset": "{-10,-14}",
+      "spriteSize": "{374,342}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1027,1},{374,342}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0043.png": {
+      "aliases": [],
+      "spriteOffset": "{-10,-14}",
+      "spriteSize": "{374,342}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1027,1},{374,342}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0044.png": {
+      "aliases": [],
+      "spriteOffset": "{-12,-14}",
+      "spriteSize": "{386,342}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{327,781},{386,342}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0045.png": {
+      "aliases": [],
+      "spriteOffset": "{-12,-14}",
+      "spriteSize": "{386,342}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{327,781},{386,342}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0046.png": {
+      "aliases": [],
+      "spriteOffset": "{-11,-14}",
+      "spriteSize": "{386,342}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{343,391},{386,342}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0047.png": {
+      "aliases": [],
+      "spriteOffset": "{-11,-14}",
+      "spriteSize": "{386,342}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{343,391},{386,342}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0048.png": {
+      "aliases": [],
+      "spriteOffset": "{-11,-15}",
+      "spriteSize": "{386,342}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{683,1},{386,342}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0049.png": {
+      "aliases": [],
+      "spriteOffset": "{-11,-15}",
+      "spriteSize": "{386,342}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{683,1},{386,342}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0050.png": {
+      "aliases": [],
+      "spriteOffset": "{-11,-16}",
+      "spriteSize": "{386,342}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{687,389},{386,342}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0051.png": {
+      "aliases": [],
+      "spriteOffset": "{-11,-16}",
+      "spriteSize": "{386,342}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{687,389},{386,342}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0052.png": {
+      "aliases": [],
+      "spriteOffset": "{-11,-17}",
+      "spriteSize": "{388,340}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1,1},{388,340}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0053.png": {
+      "aliases": [],
+      "spriteOffset": "{-11,-17}",
+      "spriteSize": "{388,340}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1,1},{388,340}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0054.png": {
+      "aliases": [],
+      "spriteOffset": "{-10,-18}",
+      "spriteSize": "{388,340}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1,391},{388,340}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0055.png": {
+      "aliases": [],
+      "spriteOffset": "{-10,-18}",
+      "spriteSize": "{388,340}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{1,391},{388,340}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0056.png": {
+      "aliases": [],
+      "spriteOffset": "{-10,-20}",
+      "spriteSize": "{388,338}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{343,1},{388,338}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_02/FireworksAnimRight/FireworksAnimRight_0057.png": {
+      "aliases": [],
+      "spriteOffset": "{-10,-20}",
+      "spriteSize": "{388,338}",
+      "spriteSourceSize": "{424,378}",
+      "textureRect": "{{343,1},{388,338}}",
+      "textureRotated": true
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "LeaderboardRewardScreen_02-hd.png",
+    "size": "{2032,1132}",
+    "smartupdate": "$TexturePacker:SmartUpdate:01c280b8978ecf1011f5d14d1bb19d7c:545d3b9b30aa4bf4401c45947bb8da0f:24e8f6d11f84d585375b51446b0f480a$",
+    "textureFileName": "LeaderboardRewardScreen_02-hd.png"
+  }
+}

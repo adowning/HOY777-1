@@ -1,0 +1,73 @@
+{
+  "frames": {
+    "QuestWelcomePoup_00/Bg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{727,532}",
+      "spriteSourceSize": "{727,532}",
+      "textureRect": "{{1,1},{727,532}}",
+      "textureRotated": false
+    },
+    "QuestWelcomePoup_00/CloseButton/CloseButton_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{76,76}",
+      "spriteSourceSize": "{76,76}",
+      "textureRect": "{{730,451},{76,76}}",
+      "textureRotated": false
+    },
+    "QuestWelcomePoup_00/CloseButton/CloseButton_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{76,76}",
+      "spriteSourceSize": "{76,76}",
+      "textureRect": "{{808,451},{76,76}}",
+      "textureRotated": false
+    },
+    "QuestWelcomePoup_00/CloseButton/CloseButton_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{76,76}",
+      "spriteSourceSize": "{76,76}",
+      "textureRect": "{{820,226},{76,76}}",
+      "textureRotated": false
+    },
+    "QuestWelcomePoup_00/LetsGo/LetsGo_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,88}",
+      "spriteSourceSize": "{223,88}",
+      "textureRect": "{{730,1},{223,88}}",
+      "textureRotated": true
+    },
+    "QuestWelcomePoup_00/LetsGo/LetsGo_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,88}",
+      "spriteSourceSize": "{223,88}",
+      "textureRect": "{{820,1},{223,88}}",
+      "textureRotated": true
+    },
+    "QuestWelcomePoup_00/LetsGo/LetsGo_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,88}",
+      "spriteSourceSize": "{223,88}",
+      "textureRect": "{{730,226},{223,88}}",
+      "textureRotated": true
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "QuestWelcomePoup_00-hd.png",
+    "size": "{909,534}",
+    "smartupdate": "$TexturePacker:SmartUpdate:8332e3eb12f1256cbae7062950346fa6:8adf1759046941ae4aac92fe99525c1d:8c4fbba42eba6bab07067bc2e2fbd99b$",
+    "textureFileName": "QuestWelcomePoup_00-hd.png",
+    "animations": [
+      "CloseButton",
+      "LetsGo"
+    ]
+  }
+}

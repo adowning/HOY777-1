@@ -6,6 +6,8 @@ import { seedGames } from './seed/games'
 import { seedOperator } from './seed/operator'
 import { seedProducts } from './seed/products'
 import { seedUsers, seedHardcodedUser } from './seed/users'
+import { seedGameSpins } from './seed/gameSpins' // 1. Import the new seeder
+
 import chalk from 'chalk'
 
 // --- Script Configuration ---
@@ -35,6 +37,11 @@ async function main() {
     await seedHardcodedUser(db as any, operator.id)
     // 4. Ensure all users have VIP info (run this after users are created)
     await seedVipLevels(db as any)
+
+        // 4. Seed transactional data that depends on users and games
+    await seedGameSpins(db as any) // 2. Call the new seeder function
+
+
   } catch (error) {
     console.error('❌ An error occurred during the seeding process:')
     console.error(error)

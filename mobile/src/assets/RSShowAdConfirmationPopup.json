@@ -1,0 +1,62 @@
+{
+  "frames": {
+    "RSShowAdConfirmationPopup_00/CombinationRewardBgBg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{497,247}",
+      "spriteSourceSize": "{497,247}",
+      "textureRect": "{{1,1},{497,247}}",
+      "textureRotated": false
+    },
+    "RSShowAdConfirmationPopup_00/RewardIcon1.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,68}",
+      "spriteSourceSize": "{62,68}",
+      "textureRect": "{{1,406},{62,68}}",
+      "textureRotated": true
+    },
+    "RSShowAdConfirmationPopup_00/RewardIcon2.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{64,64}",
+      "spriteSourceSize": "{64,64}",
+      "textureRect": "{{71,406},{64,64}}",
+      "textureRotated": false
+    },
+    "RSShowAdConfirmationPopup_00/RewardIcon3.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,68}",
+      "spriteSourceSize": "{62,68}",
+      "textureRect": "{{1,406},{62,68}}",
+      "textureRotated": true
+    },
+    "RSShowAdConfirmationPopup_00/RewardIcon4.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{64,64}",
+      "spriteSourceSize": "{64,64}",
+      "textureRect": "{{71,406},{64,64}}",
+      "textureRotated": false
+    },
+    "RSShowAdConfirmationPopup_00/SingleRewardBg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{497,154}",
+      "spriteSourceSize": "{497,154}",
+      "textureRect": "{{1,250},{497,154}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "RSShowAdConfirmationPopup_00-hd.png",
+    "size": "{499,471}",
+    "smartupdate": "$TexturePacker:SmartUpdate:7d55d6b4d5ab911d7c5f26fc2cd6f9b3:6a9b39815298dfefda3ebd46af1798e4:9d556da478706a3bd86856051ebfb2f2$",
+    "textureFileName": "RSShowAdConfirmationPopup_00-hd.png",
+    "animations": []
+  }
+}

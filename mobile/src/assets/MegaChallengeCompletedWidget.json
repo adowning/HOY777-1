@@ -1,0 +1,46 @@
+{
+  "frames": {
+    "MegaChallengeCompletedWidget_00/Congratulations!.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{436,41}",
+      "spriteSourceSize": "{436,41}",
+      "textureRect": "{{1,383},{436,41}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_00/RewardText.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{517,81}",
+      "spriteSourceSize": "{517,81}",
+      "textureRect": "{{1,300},{517,81}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_00/SpinWheel.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{554,297}",
+      "spriteSourceSize": "{554,297}",
+      "textureRect": "{{1,1},{554,297}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_00/SpinWheelText.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{334,39}",
+      "spriteSourceSize": "{334,39}",
+      "textureRect": "{{557,1},{334,39}}",
+      "textureRotated": true
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "MegaChallengeCompletedWidget_00-hd.png",
+    "size": "{597,425}",
+    "smartupdate": "$TexturePacker:SmartUpdate:29d88e3922b48a6dc4e98ce5d989fc67:607660b68e14a267827621d14a8acac2:4180860c2ae4869d7e4b79ca80dd7880$",
+    "textureFileName": "MegaChallengeCompletedWidget_00-hd.png",
+    "animations": []
+  }
+}

@@ -1,0 +1,397 @@
+{
+  "frames": {
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-22}",
+      "spriteSize": "{288,124}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{1,1},{288,124}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-2}",
+      "spriteSize": "{288,168}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{1675,167},{288,168}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{288,172}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{1673,679},{288,172}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,0}",
+      "spriteSize": "{272,174}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{1,809},{272,174}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,0}",
+      "spriteSize": "{272,174}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{845,845},{272,174}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,2}",
+      "spriteSize": "{274,170}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{1393,335},{274,170}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,2}",
+      "spriteSize": "{274,170}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{1,463},{274,170}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,1}",
+      "spriteSize": "{278,172}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{1393,677},{278,172}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,1}",
+      "spriteSize": "{278,172}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{275,843},{278,172}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,3}",
+      "spriteSize": "{282,168}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{1,293},{282,168}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,3}",
+      "spriteSize": "{282,168}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{555,331},{282,168}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,2}",
+      "spriteSize": "{286,170}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{1681,507},{286,170}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,2}",
+      "spriteSize": "{286,170}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{275,671},{286,170}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{0,1}",
+      "spriteSize": "{288,172}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{555,845},{288,172}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{0,1}",
+      "spriteSize": "{288,172}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{1119,851},{288,172}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{0,7}",
+      "spriteSize": "{288,160}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{291,1},{288,160}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{0,7}",
+      "spriteSize": "{288,160}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{581,1},{288,160}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{0,6}",
+      "spriteSize": "{288,162}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{871,1},{288,162}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{0,6}",
+      "spriteSize": "{288,162}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{1161,1},{288,162}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{0,5}",
+      "spriteSize": "{288,164}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{1451,1},{288,164}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{0,5}",
+      "spriteSize": "{288,164}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{1,127},{288,164}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{1,3}",
+      "spriteSize": "{268,168}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{285,329},{268,168}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0022.png": {
+      "aliases": [],
+      "spriteOffset": "{1,3}",
+      "spriteSize": "{268,168}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{839,333},{268,168}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0023.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{270,170}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{277,499},{270,170}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0024.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{270,170}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{1121,503},{270,170}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0025.png": {
+      "aliases": [],
+      "spriteOffset": "{2,1}",
+      "spriteSize": "{272,172}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{1,635},{272,172}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0026.png": {
+      "aliases": [],
+      "spriteOffset": "{2,1}",
+      "spriteSize": "{272,172}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{1119,675},{272,172}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0027.png": {
+      "aliases": [],
+      "spriteOffset": "{2,2}",
+      "spriteSize": "{276,170}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{563,673},{276,170}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0028.png": {
+      "aliases": [],
+      "spriteOffset": "{2,2}",
+      "spriteSize": "{276,170}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{841,673},{276,170}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0029.png": {
+      "aliases": [],
+      "spriteOffset": "{2,1}",
+      "spriteSize": "{280,172}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{1409,853},{280,172}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0030.png": {
+      "aliases": [],
+      "spriteOffset": "{2,1}",
+      "spriteSize": "{280,172}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{1691,853},{280,172}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0031.png": {
+      "aliases": [],
+      "spriteOffset": "{2,1}",
+      "spriteSize": "{282,172}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{271,1017},{282,172}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0032.png": {
+      "aliases": [],
+      "spriteOffset": "{2,1}",
+      "spriteSize": "{282,172}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{555,1019},{282,172}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0033.png": {
+      "aliases": [],
+      "spriteOffset": "{2,0}",
+      "spriteSize": "{284,174}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{1109,1025},{284,174}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0034.png": {
+      "aliases": [],
+      "spriteOffset": "{2,0}",
+      "spriteSize": "{284,174}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{1395,1027},{284,174}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0035.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,0}",
+      "spriteSize": "{268,174}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{1,985},{268,174}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0036.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,0}",
+      "spriteSize": "{268,174}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{839,1021},{268,174}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0037.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,5}",
+      "spriteSize": "{270,164}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{1741,1},{270,164}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0038.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,5}",
+      "spriteSize": "{270,164}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{291,163},{270,164}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0039.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,4}",
+      "spriteSize": "{274,166}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{563,163},{274,166}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0040.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,4}",
+      "spriteSize": "{274,166}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{839,165},{274,166}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0041.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,4}",
+      "spriteSize": "{278,166}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{1115,165},{278,166}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0042.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,4}",
+      "spriteSize": "{278,166}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{1395,167},{278,166}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0043.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,3}",
+      "spriteSize": "{282,168}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{1109,333},{282,168}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0044.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,3}",
+      "spriteSize": "{282,168}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{1669,337},{282,168}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0045.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,2}",
+      "spriteSize": "{284,168}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{549,501},{284,168}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0046.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,2}",
+      "spriteSize": "{284,168}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{835,503},{284,168}}",
+      "textureRotated": false
+    },
+    "MegaChallengeCompletedWidget_01/Sparkle/Sparkle_0047.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,0}",
+      "spriteSize": "{286,168}",
+      "spriteSourceSize": "{288,174}",
+      "textureRect": "{{1393,507},{286,168}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "MegaChallengeCompletedWidget_01-hd.png",
+    "size": "{2012,1202}",
+    "smartupdate": "$TexturePacker:SmartUpdate:d6e2f418447879be38c79751a00a35e1:1b1f9a1d02ca86c5f5063e609875ed8a:88516de11f8cca43f23471624f82e0a5$",
+    "textureFileName": "MegaChallengeCompletedWidget_01-hd.png"
+  }
+}

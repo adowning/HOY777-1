@@ -2,20 +2,20 @@ import { Context } from 'hono'
 import * as service from './invite.service'
 
 export const getInviteInfo = async (c: Context) => {
-  const userId = 1 // Placeholder
-  const data = await service.getInviteInfo(userId)
+  const user = c.get('user')
+  const data = await service.getInviteInfo(user.id)
   return c.json({ code: 0, data, message: 'Success' })
 }
 
 export const claimInviteAward = async (c: Context) => {
-  const userId = 1 // Placeholder
-  const data = await service.claimInviteAward(userId)
+  const user = c.get('user')
+  const data = await service.claimInviteAward(user.id)
   return c.json({ code: 0, data, message: 'Success' })
 }
 
 export const getInviteSelfInfo = async (c: Context) => {
-  const userId = 1 // Placeholder
-  const data = await service.getInviteSelfInfo(userId)
+  const user = c.get('user')
+  const data = await service.getInviteSelfInfo(user.id)
   return c.json({ code: 0, data, message: 'Success' })
 }
 
@@ -25,13 +25,13 @@ export const getInviteHistoryConfig = async (c: Context) => {
 }
 
 export const getInviteHistory = async (c: Context) => {
-  const userId = 1 // Placeholder
-  const data = await service.getInviteHistory(userId)
+  const user = c.get('user')
+  const data = await service.getInviteHistory(user.id)
   return c.json({ code: 0, data, message: 'Success' })
 }
 
 export const getStatisticsList = async (c: Context) => {
-  const userId = 1 // Placeholder
-  const data = await service.getStatisticsList(userId)
+  const user = c.get('user')
+  const data = await service.getStatisticsList(user.id)
   return c.json({ code: 0, data, message: 'Success' })
 }

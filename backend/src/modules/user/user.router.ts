@@ -346,6 +346,9 @@ const favoriteGameList = createRoute({
 })
 
 const router = createRouter()
+  .openapi(createUser, controller.createUser)
+  .openapi(listUser, controller.listUser)
+
   .use(authMiddleware)
   .openapi(enterGame, controller.enterGame)
   .openapi(userGame, controller.userGame)
@@ -356,8 +359,6 @@ const router = createRouter()
   .openapi(favoriteGameList, controller.favoriteGameList)
 
   // Basic CRUD
-  .openapi(listUser, controller.listUser)
-  .openapi(createUser, controller.createUser)
   .openapi(getOneUser, controller.getUserById)
   .openapi(updateUser, controller.updateUser)
   .openapi(removeUser, controller.deleteUser)

@@ -1,0 +1,21 @@
+{
+  "frames": {
+    "GDPRPopup_01/Bg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{1136,640}",
+      "spriteSourceSize": "{1136,640}",
+      "textureRect": "{{1,1},{1136,640}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "GDPRPopup_01-hd.png",
+    "size": "{1138,642}",
+    "smartupdate": "$TexturePacker:SmartUpdate:9f4b3d79528a5a22f50a029b640f615d:ba05857c9746d965b2e295f9b7830052:398eebe977afdebf39e5b8083ba45766$",
+    "textureFileName": "GDPRPopup_01-hd.png"
+  }
+}

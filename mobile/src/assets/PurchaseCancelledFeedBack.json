@@ -1,0 +1,175 @@
+{
+  "frames": {
+    "PurchaseCancelledFeedBack_00/Bg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{705,558}",
+      "spriteSourceSize": "{705,558}",
+      "textureRect": "{{1,1},{705,558}}",
+      "textureRotated": false
+    },
+    "PurchaseCancelledFeedBack_00/CloseBtn/CloseBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{800,181},{44,44}}",
+      "textureRotated": false
+    },
+    "PurchaseCancelledFeedBack_00/CloseBtn/CloseBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{846,181},{44,44}}",
+      "textureRotated": false
+    },
+    "PurchaseCancelledFeedBack_00/CloseBtn/CloseBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{892,226},{44,44}}",
+      "textureRotated": false
+    },
+    "PurchaseCancelledFeedBack_00/RadioButton1/RadioButton1_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{516,44}",
+      "spriteSourceSize": "{516,44}",
+      "textureRect": "{{708,181},{516,44}}",
+      "textureRotated": true
+    },
+    "PurchaseCancelledFeedBack_00/RadioButton1/RadioButton1_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{516,44}",
+      "spriteSourceSize": "{516,44}",
+      "textureRect": "{{754,181},{516,44}}",
+      "textureRotated": true
+    },
+    "PurchaseCancelledFeedBack_00/RadioButton2/RadioButton2_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{516,44}",
+      "spriteSourceSize": "{516,44}",
+      "textureRect": "{{708,181},{516,44}}",
+      "textureRotated": true
+    },
+    "PurchaseCancelledFeedBack_00/RadioButton2/RadioButton2_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{516,44}",
+      "spriteSourceSize": "{516,44}",
+      "textureRect": "{{754,181},{516,44}}",
+      "textureRotated": true
+    },
+    "PurchaseCancelledFeedBack_00/RadioButton3/RadioButton3_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{516,44}",
+      "spriteSourceSize": "{516,44}",
+      "textureRect": "{{708,181},{516,44}}",
+      "textureRotated": true
+    },
+    "PurchaseCancelledFeedBack_00/RadioButton3/RadioButton3_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{516,44}",
+      "spriteSourceSize": "{516,44}",
+      "textureRect": "{{754,181},{516,44}}",
+      "textureRotated": true
+    },
+    "PurchaseCancelledFeedBack_00/RadioButton4/RadioButton4_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{516,44}",
+      "spriteSourceSize": "{516,44}",
+      "textureRect": "{{708,181},{516,44}}",
+      "textureRotated": true
+    },
+    "PurchaseCancelledFeedBack_00/RadioButton4/RadioButton4_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{516,44}",
+      "spriteSourceSize": "{516,44}",
+      "textureRect": "{{754,181},{516,44}}",
+      "textureRotated": true
+    },
+    "PurchaseCancelledFeedBack_00/RadioButton5/RadioButton5_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{516,44}",
+      "spriteSourceSize": "{516,44}",
+      "textureRect": "{{708,181},{516,44}}",
+      "textureRotated": true
+    },
+    "PurchaseCancelledFeedBack_00/RadioButton5/RadioButton5_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{516,44}",
+      "spriteSourceSize": "{516,44}",
+      "textureRect": "{{754,181},{516,44}}",
+      "textureRotated": true
+    },
+    "PurchaseCancelledFeedBack_00/RadioButton6/RadioButton6_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{516,44}",
+      "spriteSourceSize": "{516,44}",
+      "textureRect": "{{708,181},{516,44}}",
+      "textureRotated": true
+    },
+    "PurchaseCancelledFeedBack_00/RadioButton6/RadioButton6_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{516,44}",
+      "spriteSourceSize": "{516,44}",
+      "textureRect": "{{754,181},{516,44}}",
+      "textureRotated": true
+    },
+    "PurchaseCancelledFeedBack_00/SubmitBtn/SubmitBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,88}",
+      "spriteSourceSize": "{223,88}",
+      "textureRect": "{{708,1},{223,88}}",
+      "textureRotated": false
+    },
+    "PurchaseCancelledFeedBack_00/SubmitBtn/SubmitBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,88}",
+      "spriteSourceSize": "{223,88}",
+      "textureRect": "{{933,1},{223,88}}",
+      "textureRotated": true
+    },
+    "PurchaseCancelledFeedBack_00/SubmitBtn/SubmitBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,88}",
+      "spriteSourceSize": "{223,88}",
+      "textureRect": "{{708,91},{223,88}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "PurchaseCancelledFeedBack_00-hd.png",
+    "size": "{1024,1024}",
+    "smartupdate": "$TexturePacker:SmartUpdate:0e187e7e7fd1c6fa982cef53401b8aef:24ec9458022bd90d72af85665730d116:93b636b70e5c84bcbf8c56585007f917$",
+    "textureFileName": "PurchaseCancelledFeedBack_00-hd.png",
+    "animations": [
+      "CloseBtn",
+      "RadioButton1",
+      "RadioButton2",
+      "RadioButton3",
+      "RadioButton4",
+      "RadioButton5",
+      "RadioButton6",
+      "SubmitBtn"
+    ]
+  }
+}

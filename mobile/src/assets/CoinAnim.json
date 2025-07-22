@@ -1,0 +1,78 @@
+{
+  "frames": {
+    "CoinAnim_00/CoinAnim_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{35,35}",
+      "spriteSourceSize": "{35,35}",
+      "textureRect": "{{1,1},{35,35}}",
+      "textureRotated": false
+    },
+    "CoinAnim_00/CoinAnim_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{33,35}",
+      "spriteSourceSize": "{35,35}",
+      "textureRect": "{{1,112},{33,35}}",
+      "textureRotated": true
+    },
+    "CoinAnim_00/CoinAnim_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{23,35}",
+      "spriteSourceSize": "{35,35}",
+      "textureRect": "{{1,178},{23,35}}",
+      "textureRotated": true
+    },
+    "CoinAnim_00/CoinAnim_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{7,35}",
+      "spriteSourceSize": "{35,35}",
+      "textureRect": "{{1,228},{7,35}}",
+      "textureRotated": true
+    },
+    "CoinAnim_00/CoinAnim_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{23,35}",
+      "spriteSourceSize": "{35,35}",
+      "textureRect": "{{1,203},{23,35}}",
+      "textureRotated": true
+    },
+    "CoinAnim_00/CoinAnim_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{29,35}",
+      "spriteSourceSize": "{35,35}",
+      "textureRect": "{{1,147},{29,35}}",
+      "textureRotated": true
+    },
+    "CoinAnim_00/CoinAnim_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{35,35}",
+      "spriteSourceSize": "{35,35}",
+      "textureRect": "{{1,38},{35,35}}",
+      "textureRotated": false
+    },
+    "CoinAnim_00/CoinAnim_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{35,35}",
+      "spriteSourceSize": "{35,35}",
+      "textureRect": "{{1,75},{35,35}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "CoinAnim_00-hd.png",
+    "size": "{37,236}",
+    "smartupdate": "$TexturePacker:SmartUpdate:f17b90bdb57de162822388de62e9ae72:d0d4adc6d94b8ef8e0ccdcf1fbf0d80b:8e751ee3e28d13dca30f411b0932e3c5$",
+    "textureFileName": "CoinAnim_00-hd.png",
+    "animations": []
+  }
+}

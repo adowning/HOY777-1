@@ -1,0 +1,46 @@
+{
+  "frames": {
+    "RetentionBonusWidget_00/Bg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{228,206}",
+      "spriteSourceSize": "{228,206}",
+      "textureRect": "{{1,1},{228,206}}",
+      "textureRotated": false
+    },
+    "RetentionBonusWidget_00/Currency_0.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{28,28}",
+      "spriteSourceSize": "{28,28}",
+      "textureRect": "{{75,209},{28,28}}",
+      "textureRotated": false
+    },
+    "RetentionBonusWidget_00/Currency_1.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{35,35}",
+      "spriteSourceSize": "{35,35}",
+      "textureRect": "{{1,209},{35,35}}",
+      "textureRotated": false
+    },
+    "RetentionBonusWidget_00/Currency_2.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{35,35}",
+      "spriteSourceSize": "{35,35}",
+      "textureRect": "{{38,209},{35,35}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "RetentionBonusWidget_00-hd.png",
+    "size": "{230,245}",
+    "smartupdate": "$TexturePacker:SmartUpdate:8826734db88e8d2aaf10885c4b539957:42113a2dd2455ae657da9b5badc8267e:182aaebf40761d53d2df8ca01f063531$",
+    "textureFileName": "RetentionBonusWidget_00-hd.png",
+    "animations": []
+  }
+}

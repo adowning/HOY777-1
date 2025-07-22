@@ -1,0 +1,22 @@
+{
+  "frames": {
+    "LeaderboardPaytable_00/PostitionPrizes.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{408,222}",
+      "spriteSourceSize": "{408,222}",
+      "textureRect": "{{1,1},{408,222}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "LeaderboardPaytable_00-hd.png",
+    "size": "{410,224}",
+    "smartupdate": "$TexturePacker:SmartUpdate:f5eac4cdf4e590babc4238571859bd65:526e74aea3b00c1ad8c47341ea909adf:cff85a17a39ed22224121d90dc2f988e$",
+    "textureFileName": "LeaderboardPaytable_00-hd.png",
+    "animations": []
+  }
+}

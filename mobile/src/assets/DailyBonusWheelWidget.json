@@ -1,0 +1,2623 @@
+{
+  "frames": {
+    "DailyBonusWheelWidget_00/2XBadge.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{151,274}",
+      "spriteSourceSize": "{151,274}",
+      "textureRect": "{{502,1588},{151,274}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{4,32}",
+      "spriteSize": "{75,26}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{793,111},{75,26}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{4,31}",
+      "spriteSize": "{75,28}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{716,111},{75,28}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{5,28}",
+      "spriteSize": "{77,36}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{261,2007},{77,36}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{13,6}",
+      "spriteSize": "{93,78}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{900,835},{93,78}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{13,5}",
+      "spriteSize": "{93,82}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{814,693},{93,82}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{13,4}",
+      "spriteSize": "{93,84}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{922,109},{93,84}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{13,1}",
+      "spriteSize": "{93,88}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{837,299},{93,88}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{13,-5}",
+      "spriteSize": "{93,100}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{521,448},{93,100}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{13,-6}",
+      "spriteSize": "{93,104}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{963,1943},{93,104}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{13,-7}",
+      "spriteSize": "{93,104}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{1058,1943},{93,104}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{13,-8}",
+      "spriteSize": "{93,106}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{920,1},{93,106}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{13,-8}",
+      "spriteSize": "{93,106}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{721,838},{93,106}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{13,-8}",
+      "spriteSize": "{93,108}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{635,1},{93,108}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{13,-8}",
+      "spriteSize": "{93,108}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{719,696},{93,108}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{13,-8}",
+      "spriteSize": "{93,108}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{647,143},{93,108}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{13,-9}",
+      "spriteSize": "{93,108}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{730,1},{93,108}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{8,-9}",
+      "spriteSize": "{83,108}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{752,299},{83,108}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{9,-9}",
+      "spriteSize": "{81,108}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{678,1794},{81,108}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{9,-19}",
+      "spriteSize": "{81,86}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{988,204},{81,86}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{8,-24}",
+      "spriteSize": "{81,76}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{940,612},{81,76}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{8,-32}",
+      "spriteSize": "{81,58}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{1015,1},{81,58}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{8,-39}",
+      "spriteSize": "{81,44}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{647,253},{81,44}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0022.png": {
+      "aliases": [],
+      "spriteOffset": "{8,-43}",
+      "spriteSize": "{79,34}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{340,2007},{79,34}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0023.png": {
+      "aliases": [],
+      "spriteOffset": "{42,-53}",
+      "spriteSize": "{3,4}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{340,2043},{3,4}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0024.png": {
+      "aliases": [],
+      "spriteOffset": "{-58,62.5}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{345,2043},{3,3}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0025.png": {
+      "aliases": [],
+      "spriteOffset": "{-58,62.5}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{345,2043},{3,3}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0026.png": {
+      "aliases": [],
+      "spriteOffset": "{-58,62.5}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{345,2043},{3,3}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0027.png": {
+      "aliases": [],
+      "spriteOffset": "{-58,62.5}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{345,2043},{3,3}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0028.png": {
+      "aliases": [],
+      "spriteOffset": "{-58,62.5}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{345,2043},{3,3}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0029.png": {
+      "aliases": [],
+      "spriteOffset": "{-58,62.5}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{345,2043},{3,3}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0030.png": {
+      "aliases": [],
+      "spriteOffset": "{-58,62.5}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{345,2043},{3,3}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0031.png": {
+      "aliases": [],
+      "spriteOffset": "{-58,62.5}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{345,2043},{3,3}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0032.png": {
+      "aliases": [],
+      "spriteOffset": "{-58,62.5}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{345,2043},{3,3}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0033.png": {
+      "aliases": [],
+      "spriteOffset": "{41,-51}",
+      "spriteSize": "{5,8}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{421,2041},{5,8}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0034.png": {
+      "aliases": [],
+      "spriteOffset": "{8,-45}",
+      "spriteSize": "{79,30}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{635,111},{79,30}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0035.png": {
+      "aliases": [],
+      "spriteOffset": "{8,-41}",
+      "spriteSize": "{81,40}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{1,2007},{81,40}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0036.png": {
+      "aliases": [],
+      "spriteOffset": "{8,-30}",
+      "spriteSize": "{81,64}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{795,627},{81,64}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0037.png": {
+      "aliases": [],
+      "spriteOffset": "{9,-21}",
+      "spriteSize": "{81,82}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{1008,109},{81,82}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0038.png": {
+      "aliases": [],
+      "spriteOffset": "{9,-12}",
+      "spriteSize": "{81,100}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{788,1794},{81,100}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0039.png": {
+      "aliases": [],
+      "spriteOffset": "{8,-9}",
+      "spriteSize": "{83,108}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{837,139},{83,108}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0040.png": {
+      "aliases": [],
+      "spriteOffset": "{13,-8}",
+      "spriteSize": "{93,108}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{657,299},{93,108}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0041.png": {
+      "aliases": [],
+      "spriteOffset": "{13,-8}",
+      "spriteSize": "{93,108}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{742,141},{93,108}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0042.png": {
+      "aliases": [],
+      "spriteOffset": "{13,-8}",
+      "spriteSize": "{93,108}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{825,1},{93,108}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0043.png": {
+      "aliases": [],
+      "spriteOffset": "{13,-8}",
+      "spriteSize": "{93,108}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{711,409},{93,108}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0044.png": {
+      "aliases": [],
+      "spriteOffset": "{13,-8}",
+      "spriteSize": "{93,106}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{795,519},{93,106}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0045.png": {
+      "aliases": [],
+      "spriteOffset": "{13,-7}",
+      "spriteSize": "{93,106}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{806,409},{93,106}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0046.png": {
+      "aliases": [],
+      "spriteOffset": "{13,-6}",
+      "spriteSize": "{93,104}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{1153,1943},{93,104}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0047.png": {
+      "aliases": [],
+      "spriteOffset": "{13,-5}",
+      "spriteSize": "{93,100}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{616,448},{93,100}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0048.png": {
+      "aliases": [],
+      "spriteOffset": "{13,4}",
+      "spriteSize": "{93,82}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{890,517},{93,82}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0049.png": {
+      "aliases": [],
+      "spriteOffset": "{13,4}",
+      "spriteSize": "{93,82}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{816,835},{93,82}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0050.png": {
+      "aliases": [],
+      "spriteOffset": "{13,6}",
+      "spriteSize": "{93,80}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{898,691},{93,80}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0051.png": {
+      "aliases": [],
+      "spriteOffset": "{13,7}",
+      "spriteSize": "{93,78}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{901,394},{93,78}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0052.png": {
+      "aliases": [],
+      "spriteOffset": "{13,8}",
+      "spriteSize": "{93,74}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{927,297},{93,74}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0053.png": {
+      "aliases": [],
+      "spriteOffset": "{4,32}",
+      "spriteSize": "{75,26}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{793,111},{75,26}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XGlow/2XGlow_0054.png": {
+      "aliases": [],
+      "spriteOffset": "{4,32}",
+      "spriteSize": "{75,26}",
+      "spriteSourceSize": "{119,128}",
+      "textureRect": "{{793,111},{75,26}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/2XWedge.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{144,143}",
+      "spriteSourceSize": "{144,143}",
+      "textureRect": "{{650,550},{144,143}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight1/BlinkLight1_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{655,1794},{20,20}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/BlinkLight1/BlinkLight1_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{655,1794},{20,20}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/BlinkLight1/BlinkLight1_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{878,627},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight1/BlinkLight1_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{823,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight1/BlinkLight1_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{881,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight1/BlinkLight1_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{885,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight1/BlinkLight1_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{943,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight1/BlinkLight1_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{947,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight1/BlinkLight1_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{1005,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight10/BlinkLight10_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{1005,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight10/BlinkLight10_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{947,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight10/BlinkLight10_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{943,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight10/BlinkLight10_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{885,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight10/BlinkLight10_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{881,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight10/BlinkLight10_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{823,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight10/BlinkLight10_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{878,627},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight10/BlinkLight10_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{655,1794},{20,20}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/BlinkLight10/BlinkLight10_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{655,1794},{20,20}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/BlinkLight11/BlinkLight11_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{655,1794},{20,20}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/BlinkLight11/BlinkLight11_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{655,1794},{20,20}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/BlinkLight11/BlinkLight11_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{878,627},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight11/BlinkLight11_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{823,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight11/BlinkLight11_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{881,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight11/BlinkLight11_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{885,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight11/BlinkLight11_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{943,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight11/BlinkLight11_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{947,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight11/BlinkLight11_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{1005,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight12/BlinkLight12_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{1005,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight12/BlinkLight12_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{947,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight12/BlinkLight12_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{943,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight12/BlinkLight12_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{885,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight12/BlinkLight12_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{881,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight12/BlinkLight12_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{823,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight12/BlinkLight12_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{878,627},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight12/BlinkLight12_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{655,1794},{20,20}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/BlinkLight12/BlinkLight12_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{655,1794},{20,20}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/BlinkLight13/BlinkLight13_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{655,1794},{20,20}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/BlinkLight13/BlinkLight13_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{655,1794},{20,20}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/BlinkLight13/BlinkLight13_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{878,627},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight13/BlinkLight13_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{823,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight13/BlinkLight13_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{881,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight13/BlinkLight13_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{885,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight13/BlinkLight13_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{943,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight13/BlinkLight13_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{947,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight13/BlinkLight13_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{1005,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight14/BlinkLight14_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{1005,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight14/BlinkLight14_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{947,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight14/BlinkLight14_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{943,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight14/BlinkLight14_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{885,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight14/BlinkLight14_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{881,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight14/BlinkLight14_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{823,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight14/BlinkLight14_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{878,627},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight14/BlinkLight14_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{655,1794},{20,20}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/BlinkLight14/BlinkLight14_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{655,1794},{20,20}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/BlinkLight15/BlinkLight15_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{655,1794},{20,20}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/BlinkLight15/BlinkLight15_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{655,1794},{20,20}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/BlinkLight15/BlinkLight15_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{878,627},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight15/BlinkLight15_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{823,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight15/BlinkLight15_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{881,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight15/BlinkLight15_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{885,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight15/BlinkLight15_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{943,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight15/BlinkLight15_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{947,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight15/BlinkLight15_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{1005,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight16/BlinkLight16_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{1005,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight16/BlinkLight16_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{947,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight16/BlinkLight16_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{943,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight16/BlinkLight16_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{885,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight16/BlinkLight16_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{881,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight16/BlinkLight16_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{823,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight16/BlinkLight16_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{878,627},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight16/BlinkLight16_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{655,1794},{20,20}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/BlinkLight16/BlinkLight16_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{655,1794},{20,20}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/BlinkLight17/BlinkLight17_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{655,1794},{20,20}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/BlinkLight17/BlinkLight17_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{655,1794},{20,20}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/BlinkLight17/BlinkLight17_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{878,627},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight17/BlinkLight17_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{823,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight17/BlinkLight17_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{881,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight17/BlinkLight17_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{885,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight17/BlinkLight17_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{943,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight17/BlinkLight17_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{947,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight17/BlinkLight17_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{1005,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight18/BlinkLight18_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{1005,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight18/BlinkLight18_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{947,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight18/BlinkLight18_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{943,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight18/BlinkLight18_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{885,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight18/BlinkLight18_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{881,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight18/BlinkLight18_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{823,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight18/BlinkLight18_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{878,627},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight18/BlinkLight18_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{655,1794},{20,20}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/BlinkLight18/BlinkLight18_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{655,1794},{20,20}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/BlinkLight19/BlinkLight19_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{655,1794},{20,20}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/BlinkLight19/BlinkLight19_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{655,1794},{20,20}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/BlinkLight19/BlinkLight19_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{878,627},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight19/BlinkLight19_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{823,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight19/BlinkLight19_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{881,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight19/BlinkLight19_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{885,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight19/BlinkLight19_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{943,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight19/BlinkLight19_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{947,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight19/BlinkLight19_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{1005,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight2/BlinkLight2_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{1005,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight2/BlinkLight2_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{947,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight2/BlinkLight2_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{943,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight2/BlinkLight2_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{885,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight2/BlinkLight2_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{881,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight2/BlinkLight2_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{823,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight2/BlinkLight2_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{878,627},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight2/BlinkLight2_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{655,1794},{20,20}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/BlinkLight2/BlinkLight2_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{655,1794},{20,20}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/BlinkLight20/BlinkLight20_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{1005,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight20/BlinkLight20_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{947,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight20/BlinkLight20_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{943,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight20/BlinkLight20_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{885,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight20/BlinkLight20_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{881,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight20/BlinkLight20_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{823,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight20/BlinkLight20_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{878,627},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight20/BlinkLight20_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{655,1794},{20,20}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/BlinkLight20/BlinkLight20_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{655,1794},{20,20}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/BlinkLight21/BlinkLight21_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{655,1794},{20,20}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/BlinkLight21/BlinkLight21_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{655,1794},{20,20}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/BlinkLight21/BlinkLight21_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{878,627},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight21/BlinkLight21_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{823,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight21/BlinkLight21_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{881,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight21/BlinkLight21_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{885,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight21/BlinkLight21_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{943,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight21/BlinkLight21_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{947,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight21/BlinkLight21_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{1005,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight3/BlinkLight3_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{655,1794},{20,20}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/BlinkLight3/BlinkLight3_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{655,1794},{20,20}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/BlinkLight3/BlinkLight3_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{878,627},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight3/BlinkLight3_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{823,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight3/BlinkLight3_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{881,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight3/BlinkLight3_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{885,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight3/BlinkLight3_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{943,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight3/BlinkLight3_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{947,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight3/BlinkLight3_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{1005,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight4/BlinkLight4_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{1005,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight4/BlinkLight4_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{947,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight4/BlinkLight4_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{943,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight4/BlinkLight4_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{885,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight4/BlinkLight4_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{881,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight4/BlinkLight4_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{823,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight4/BlinkLight4_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{878,627},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight4/BlinkLight4_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{655,1794},{20,20}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/BlinkLight4/BlinkLight4_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{655,1794},{20,20}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/BlinkLight5/BlinkLight5_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{655,1794},{20,20}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/BlinkLight5/BlinkLight5_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{655,1794},{20,20}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/BlinkLight5/BlinkLight5_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{878,627},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight5/BlinkLight5_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{823,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight5/BlinkLight5_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{881,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight5/BlinkLight5_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{885,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight5/BlinkLight5_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{943,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight5/BlinkLight5_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{947,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight5/BlinkLight5_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{1005,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight6/BlinkLight6_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{1005,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight6/BlinkLight6_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{947,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight6/BlinkLight6_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{943,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight6/BlinkLight6_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{885,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight6/BlinkLight6_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{881,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight6/BlinkLight6_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{823,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight6/BlinkLight6_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{878,627},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight6/BlinkLight6_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{655,1794},{20,20}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/BlinkLight6/BlinkLight6_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{655,1794},{20,20}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/BlinkLight7/BlinkLight7_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{655,1794},{20,20}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/BlinkLight7/BlinkLight7_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{655,1794},{20,20}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/BlinkLight7/BlinkLight7_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{878,627},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight7/BlinkLight7_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{823,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight7/BlinkLight7_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{881,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight7/BlinkLight7_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{885,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight7/BlinkLight7_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{943,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight7/BlinkLight7_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{947,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight7/BlinkLight7_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{1005,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight8/BlinkLight8_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{1005,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight8/BlinkLight8_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{947,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight8/BlinkLight8_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{943,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight8/BlinkLight8_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{885,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight8/BlinkLight8_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{881,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight8/BlinkLight8_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{823,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight8/BlinkLight8_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{878,627},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight8/BlinkLight8_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{655,1794},{20,20}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/BlinkLight8/BlinkLight8_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{655,1794},{20,20}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/BlinkLight9/BlinkLight9_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{655,1794},{20,20}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/BlinkLight9/BlinkLight9_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{1,2}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{655,1794},{20,20}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/BlinkLight9/BlinkLight9_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{878,627},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight9/BlinkLight9_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{823,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight9/BlinkLight9_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{881,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight9/BlinkLight9_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{885,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight9/BlinkLight9_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{943,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight9/BlinkLight9_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{947,930},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/BlinkLight9/BlinkLight9_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,60}",
+      "spriteSourceSize": "{62,62}",
+      "textureRect": "{{1005,994},{62,60}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/CloseBtn/CloseBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{45,45}",
+      "spriteSourceSize": "{45,45}",
+      "textureRect": "{{814,788},{45,45}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/CloseBtn/CloseBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{45,45}",
+      "spriteSourceSize": "{45,45}",
+      "textureRect": "{{861,788},{45,45}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/CloseBtn/CloseBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{45,45}",
+      "spriteSourceSize": "{45,45}",
+      "textureRect": "{{908,786},{45,45}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/CoinGlow/CoinGlow_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{-86,83}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{175,169}",
+      "textureRect": "{{345,2043},{3,3}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/CoinGlow/CoinGlow_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{-86,83}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{175,169}",
+      "textureRect": "{{345,2043},{3,3}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/CoinGlow/CoinGlow_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{-86,83}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{175,169}",
+      "textureRect": "{{345,2043},{3,3}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/CoinGlow/CoinGlow_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{9,-68}",
+      "spriteSize": "{121,11}",
+      "spriteSourceSize": "{175,169}",
+      "textureRect": "{{502,1864},{121,11}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/CoinGlow/CoinGlow_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-63}",
+      "spriteSize": "{141,21}",
+      "spriteSourceSize": "{175,169}",
+      "textureRect": "{{612,1},{141,21}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/CoinGlow/CoinGlow_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-57}",
+      "spriteSize": "{141,33}",
+      "spriteSourceSize": "{175,169}",
+      "textureRect": "{{421,2006},{141,33}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/CoinGlow/CoinGlow_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-52}",
+      "spriteSize": "{141,43}",
+      "spriteSourceSize": "{175,169}",
+      "textureRect": "{{602,150},{141,43}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/CoinGlow/CoinGlow_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,-46}",
+      "spriteSize": "{147,55}",
+      "spriteSourceSize": "{175,169}",
+      "textureRect": "{{814,1992},{147,55}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/CoinGlow/CoinGlow_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,-40}",
+      "spriteSize": "{147,67}",
+      "spriteSourceSize": "{175,169}",
+      "textureRect": "{{515,997},{147,67}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/CoinGlow/CoinGlow_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,-35}",
+      "spriteSize": "{147,77}",
+      "spriteSourceSize": "{175,169}",
+      "textureRect": "{{521,299},{147,77}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/CoinGlow/CoinGlow_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,-29}",
+      "spriteSize": "{147,89}",
+      "spriteSourceSize": "{175,169}",
+      "textureRect": "{{628,699},{147,89}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/CoinGlow/CoinGlow_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,-23}",
+      "spriteSize": "{147,101}",
+      "spriteSourceSize": "{175,169}",
+      "textureRect": "{{515,848},{147,101}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/CoinGlow/CoinGlow_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,-18}",
+      "spriteSize": "{147,111}",
+      "spriteSourceSize": "{175,169}",
+      "textureRect": "{{515,699},{147,111}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/CoinGlow/CoinGlow_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,-12}",
+      "spriteSize": "{147,123}",
+      "spriteSourceSize": "{175,169}",
+      "textureRect": "{{420,1881},{147,123}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/CoinGlow/CoinGlow_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,-7}",
+      "spriteSize": "{147,133}",
+      "spriteSourceSize": "{175,169}",
+      "textureRect": "{{515,550},{147,133}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/CoinGlow/CoinGlow_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,-2}",
+      "spriteSize": "{147,141}",
+      "spriteSourceSize": "{175,169}",
+      "textureRect": "{{890,1794},{147,141}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/CoinGlow/CoinGlow_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,5}",
+      "spriteSize": "{147,135}",
+      "spriteSourceSize": "{175,169}",
+      "textureRect": "{{1033,1794},{147,135}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/CoinGlow/CoinGlow_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,10}",
+      "spriteSize": "{147,123}",
+      "spriteSourceSize": "{175,169}",
+      "textureRect": "{{569,1877},{147,123}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/CoinGlow/CoinGlow_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,16}",
+      "spriteSize": "{147,113}",
+      "spriteSourceSize": "{175,169}",
+      "textureRect": "{{718,1877},{147,113}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/CoinGlow/CoinGlow_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,21}",
+      "spriteSize": "{147,101}",
+      "spriteSourceSize": "{175,169}",
+      "textureRect": "{{618,848},{147,101}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/CoinGlow/CoinGlow_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,27}",
+      "spriteSize": "{147,89}",
+      "spriteSourceSize": "{175,169}",
+      "textureRect": "{{521,1},{147,89}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/CoinGlow/CoinGlow_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,33}",
+      "spriteSize": "{147,79}",
+      "spriteSourceSize": "{175,169}",
+      "textureRect": "{{521,150},{147,79}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/CoinGlow/CoinGlow_0022.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,38}",
+      "spriteSize": "{147,67}",
+      "spriteSourceSize": "{175,169}",
+      "textureRect": "{{664,997},{147,67}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/CoinGlow/CoinGlow_0023.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,44}",
+      "spriteSize": "{147,55}",
+      "spriteSourceSize": "{175,169}",
+      "textureRect": "{{600,299},{147,55}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/CoinGlow/CoinGlow_0024.png": {
+      "aliases": [],
+      "spriteOffset": "{0,49}",
+      "spriteSize": "{131,45}",
+      "spriteSourceSize": "{175,169}",
+      "textureRect": "{{681,2002},{131,45}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/CoinGlow/CoinGlow_0025.png": {
+      "aliases": [],
+      "spriteOffset": "{3,56}",
+      "spriteSize": "{115,33}",
+      "spriteSourceSize": "{175,169}",
+      "textureRect": "{{564,2006},{115,33}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/CoinGlow/CoinGlow_0026.png": {
+      "aliases": [],
+      "spriteOffset": "{2,61}",
+      "spriteSize": "{113,21}",
+      "spriteSourceSize": "{175,169}",
+      "textureRect": "{{867,1877},{113,21}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/CoinGlow/CoinGlow_0027.png": {
+      "aliases": [],
+      "spriteOffset": "{-27,67}",
+      "spriteSize": "{51,11}",
+      "spriteSourceSize": "{175,169}",
+      "textureRect": "{{625,1864},{51,11}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/Currency_0.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{22,22}",
+      "spriteSourceSize": "{22,22}",
+      "textureRect": "{{657,409},{22,22}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/Letter2/Letter2_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{46,50}",
+      "spriteSourceSize": "{46,50}",
+      "textureRect": "{{783,251},{46,50}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/Letter2/Letter2_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{46,50}",
+      "spriteSourceSize": "{46,50}",
+      "textureRect": "{{783,251},{46,50}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/LetterA/LetterA_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,51}",
+      "spriteSourceSize": "{44,51}",
+      "textureRect": "{{730,253},{44,51}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/LetterA/LetterA_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,51}",
+      "spriteSourceSize": "{44,51}",
+      "textureRect": "{{730,253},{44,51}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/LetterB/LetterB_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{40,47}",
+      "spriteSourceSize": "{40,47}",
+      "textureRect": "{{163,2007},{40,47}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/LetterB/LetterB_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{40,47}",
+      "spriteSourceSize": "{40,47}",
+      "textureRect": "{{163,2007},{40,47}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/LetterD/LetterD_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{47,51}",
+      "spriteSourceSize": "{47,51}",
+      "textureRect": "{{890,1943},{47,51}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/LetterD/LetterD_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{47,51}",
+      "spriteSourceSize": "{47,51}",
+      "textureRect": "{{890,1943},{47,51}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/LetterI/LetterI_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{30,48}",
+      "spriteSourceSize": "{30,48}",
+      "textureRect": "{{719,806},{30,48}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/LetterI/LetterI_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{30,48}",
+      "spriteSourceSize": "{30,48}",
+      "textureRect": "{{719,806},{30,48}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/LetterL/LetterL_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{38,47}",
+      "spriteSourceSize": "{38,47}",
+      "textureRect": "{{212,2007},{38,47}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/LetterL/LetterL_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{38,47}",
+      "spriteSourceSize": "{38,47}",
+      "textureRect": "{{212,2007},{38,47}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/LetterN/LetterN_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{50,55}",
+      "spriteSourceSize": "{50,55}",
+      "textureRect": "{{974,489},{50,55}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/LetterN/LetterN_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{50,55}",
+      "spriteSourceSize": "{50,55}",
+      "textureRect": "{{974,489},{50,55}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/LetterO/LetterO_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{46,49}",
+      "spriteSourceSize": "{46,49}",
+      "textureRect": "{{835,251},{46,49}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/LetterO/LetterO_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{46,49}",
+      "spriteSourceSize": "{46,49}",
+      "textureRect": "{{835,251},{46,49}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/LetterS/LetterS_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{46,47}",
+      "spriteSourceSize": "{46,47}",
+      "textureRect": "{{775,946},{46,47}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/LetterS/LetterS_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{46,47}",
+      "spriteSourceSize": "{46,47}",
+      "textureRect": "{{775,946},{46,47}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/LetterU/LetterU_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{48,52}",
+      "spriteSourceSize": "{48,52}",
+      "textureRect": "{{721,946},{48,52}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/LetterU/LetterU_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{48,52}",
+      "spriteSourceSize": "{48,52}",
+      "textureRect": "{{721,946},{48,52}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/LetterX/LetterX_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{52,55}",
+      "spriteSourceSize": "{52,55}",
+      "textureRect": "{{1075,1},{52,55}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/LetterX/LetterX_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{52,55}",
+      "spriteSourceSize": "{52,55}",
+      "textureRect": "{{1075,1},{52,55}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/LetterY/LetterY_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{42,46}",
+      "spriteSourceSize": "{42,46}",
+      "textureRect": "{{886,249},{42,46}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/LetterY/LetterY_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{42,46}",
+      "spriteSourceSize": "{42,46}",
+      "textureRect": "{{886,249},{42,46}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/Point/Point_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{56,91}",
+      "spriteSourceSize": "{56,91}",
+      "textureRect": "{{930,204},{56,91}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/Point/Point_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{40,77}",
+      "spriteSourceSize": "{56,91}",
+      "textureRect": "{{84,2007},{40,77}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/Ring.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{509,517}",
+      "spriteSourceSize": "{509,517}",
+      "textureRect": "{{1,1069},{509,517}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/Spin.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{66,66}",
+      "spriteSourceSize": "{66,66}",
+      "textureRect": "{{813,995},{66,66}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/Title/Title_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{291,80}",
+      "spriteSourceSize": "{291,80}",
+      "textureRect": "{{420,1588},{291,80}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/Wheel.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{417,417}",
+      "spriteSourceSize": "{417,417}",
+      "textureRect": "{{1,1588},{417,417}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/WheelBg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{509,508}",
+      "spriteSourceSize": "{509,508}",
+      "textureRect": "{{512,1069},{509,508}}",
+      "textureRotated": true
+    },
+    "DailyBonusWheelWidget_00/WheelFrame/WheelFrame_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-15}",
+      "spriteSize": "{512,517}",
+      "spriteSourceSize": "{518,547}",
+      "textureRect": "{{1,550},{512,517}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/WheelFrame/WheelFrame_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{518,547}",
+      "spriteSourceSize": "{518,547}",
+      "textureRect": "{{1,1},{518,547}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/WinGlow/WinGlow_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{-46.5,107.5}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{96,218}",
+      "textureRect": "{{345,2043},{3,3}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/WinGlow/WinGlow_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{96,212}",
+      "spriteSourceSize": "{96,218}",
+      "textureRect": "{{655,1580},{96,212}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/WinGlow/WinGlow_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{96,212}",
+      "spriteSourceSize": "{96,218}",
+      "textureRect": "{{753,1580},{96,212}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/WinGlow/WinGlow_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{96,212}",
+      "spriteSourceSize": "{96,218}",
+      "textureRect": "{{753,1580},{96,212}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/WinGlow/WinGlow_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{96,212}",
+      "spriteSourceSize": "{96,218}",
+      "textureRect": "{{753,1580},{96,212}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/WinGlow/WinGlow_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{96,212}",
+      "spriteSourceSize": "{96,218}",
+      "textureRect": "{{753,1580},{96,212}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/WinGlow/WinGlow_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{96,212}",
+      "spriteSourceSize": "{96,218}",
+      "textureRect": "{{753,1580},{96,212}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/WinGlow/WinGlow_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{96,212}",
+      "spriteSourceSize": "{96,218}",
+      "textureRect": "{{753,1580},{96,212}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/WinGlow/WinGlow_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{96,212}",
+      "spriteSourceSize": "{96,218}",
+      "textureRect": "{{851,1580},{96,212}}",
+      "textureRotated": false
+    },
+    "DailyBonusWheelWidget_00/WinGlow/WinGlow_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{96,212}",
+      "spriteSourceSize": "{96,218}",
+      "textureRect": "{{949,1580},{96,212}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "DailyBonusWheelWidget_00-hd.png",
+    "size": "{2048,2048}",
+    "smartupdate": "$TexturePacker:SmartUpdate:db0cef253925b7292d227d6fb65be024:3e998be1f7f6f1d5e8bbb58d619afe54:c088d6761b6599d7ad453efe051c884c$",
+    "textureFileName": "DailyBonusWheelWidget_00-hd.png",
+    "animations": [
+      "2XGlow",
+      "BlinkLight1",
+      "BlinkLight10",
+      "BlinkLight11",
+      "BlinkLight12",
+      "BlinkLight13",
+      "BlinkLight14",
+      "BlinkLight15",
+      "BlinkLight16",
+      "BlinkLight17",
+      "BlinkLight18",
+      "BlinkLight19",
+      "BlinkLight2",
+      "BlinkLight20",
+      "BlinkLight21",
+      "BlinkLight3",
+      "BlinkLight4",
+      "BlinkLight5",
+      "BlinkLight6",
+      "BlinkLight7",
+      "BlinkLight8",
+      "BlinkLight9",
+      "CloseBtn",
+      "CoinGlow",
+      "Letter2",
+      "LetterA",
+      "LetterB",
+      "LetterD",
+      "LetterI",
+      "LetterL",
+      "LetterN",
+      "LetterO",
+      "LetterS",
+      "LetterU",
+      "LetterX",
+      "LetterY",
+      "Point",
+      "Title",
+      "WheelFrame",
+      "WinGlow"
+    ]
+  }
+}

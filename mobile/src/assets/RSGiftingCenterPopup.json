@@ -1,0 +1,48 @@
+{
+  "frames": {
+    "RSGiftingCenterPopup_00/Bg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{901,575}",
+      "spriteSourceSize": "{901,575}",
+      "textureRect": "{{1,1},{901,575}}",
+      "textureRotated": false
+    },
+    "RSGiftingCenterPopup_00/CloseBtn/CloseBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{904,1},{44,44}}",
+      "textureRotated": false
+    },
+    "RSGiftingCenterPopup_00/CloseBtn/CloseBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{904,47},{44,44}}",
+      "textureRotated": false
+    },
+    "RSGiftingCenterPopup_00/CloseBtn/CloseBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{904,93},{44,44}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "RSGiftingCenterPopup_00-hd.png",
+    "size": "{949,577}",
+    "smartupdate": "$TexturePacker:SmartUpdate:22a7bf66ce43a6f7e977c5cd394df884:a06f54efc9a8d7ea9ad2025857b8cc3b:836cae01b6e2d00322af5e5eee72eb08$",
+    "textureFileName": "RSGiftingCenterPopup_00-hd.png",
+    "animations": [
+      "CloseBtn"
+    ]
+  }
+}

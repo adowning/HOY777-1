@@ -1,0 +1,94 @@
+{
+  "frames": {
+    "JackpotIcon_00/ClassicLounge.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{227,86}",
+      "spriteSourceSize": "{227,86}",
+      "textureRect": "{{254,653},{227,86}}",
+      "textureRotated": false
+    },
+    "JackpotIcon_00/DragonLounge.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{278,174}",
+      "spriteSourceSize": "{278,174}",
+      "textureRect": "{{289,741},{278,174}}",
+      "textureRotated": true
+    },
+    "JackpotIcon_00/LegendsLounge.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{286,144}",
+      "spriteSourceSize": "{286,144}",
+      "textureRect": "{{1,741},{286,144}}",
+      "textureRotated": false
+    },
+    "JackpotIcon_00/MajorMeter.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{282,121}",
+      "spriteSourceSize": "{282,121}",
+      "textureRect": "{{1,887},{282,121}}",
+      "textureRotated": false
+    },
+    "JackpotIcon_00/MinorMeter.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{243,115}",
+      "spriteSourceSize": "{243,115}",
+      "textureRect": "{{258,1},{243,115}}",
+      "textureRotated": true
+    },
+    "JackpotIcon_00/PlayerIcon.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{20,24}",
+      "spriteSourceSize": "{20,24}",
+      "textureRect": "{{375,1},{20,24}}",
+      "textureRotated": false
+    },
+    "JackpotIcon_00/UnderMaintenance.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{192,108}",
+      "spriteSourceSize": "{192,108}",
+      "textureRect": "{{258,246},{192,108}}",
+      "textureRotated": false
+    },
+    "JackpotIcon_00/VIPIconGlowAnim1.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{251,368}",
+      "spriteSourceSize": "{255,368}",
+      "textureRect": "{{1,371},{251,368}}",
+      "textureRotated": false
+    },
+    "JackpotIcon_00/VIPIconGlowAnim2.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{255,368}",
+      "spriteSourceSize": "{255,368}",
+      "textureRect": "{{1,1},{255,368}}",
+      "textureRotated": false
+    },
+    "JackpotIcon_00/VIPLounge.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{280,176}",
+      "spriteSourceSize": "{280,176}",
+      "textureRect": "{{254,371},{280,176}}",
+      "textureRotated": true
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "JackpotIcon_00-hd.png",
+    "size": "{482,1020}",
+    "smartupdate": "$TexturePacker:SmartUpdate:3e39c88bf53e866f8d728b0e7647d17c:3517c9a4a1bb4fe3226eb7a27eafe409:6ff56656f6b3dca445c22c33454de4cb$",
+    "textureFileName": "JackpotIcon_00-hd.png",
+    "animations": []
+  }
+}

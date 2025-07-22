@@ -1,0 +1,20 @@
+{
+  "frames": {
+    "GemsWildTilesBonusResult_00/PopupBg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{900,640}",
+      "spriteSourceSize": "{900,640}",
+      "textureRect": "{{1,1},{900,640}}",
+      "textureRotated": true
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "realTextureFileName": "GemsWildTilesBonusResult_00-hd.png",
+    "size": "{642,902}",
+    "smartupdate": "$TexturePacker:SmartUpdate:c6eb1ae8720751f2bd925ee791e6b56e:5a15c9e6944c31d3546c1414651bcc8d:183af056fe443f5de1e6331042738dc7$",
+    "textureFileName": "GemsWildTilesBonusResult_00-hd.png",
+    "animations": []
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "frames": {
+    "SubLobbyToggleBtn_00/BtnLeft/BtnLeft_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{19,20}",
+      "spriteSourceSize": "{19,20}",
+      "textureRect": "{{1,23},{19,20}}",
+      "textureRotated": false
+    },
+    "SubLobbyToggleBtn_00/BtnLeft/BtnLeft_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{19,20}",
+      "spriteSourceSize": "{19,20}",
+      "textureRect": "{{22,23},{19,20}}",
+      "textureRotated": false
+    },
+    "SubLobbyToggleBtn_00/BtnLeft/BtnLeft_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{19,20}",
+      "spriteSourceSize": "{19,20}",
+      "textureRect": "{{23,1},{19,20}}",
+      "textureRotated": false
+    },
+    "SubLobbyToggleBtn_00/BtnRight/BtnRight_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{19,20}",
+      "spriteSourceSize": "{19,20}",
+      "textureRect": "{{43,23},{19,20}}",
+      "textureRotated": true
+    },
+    "SubLobbyToggleBtn_00/BtnRight/BtnRight_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{19,20}",
+      "spriteSourceSize": "{19,20}",
+      "textureRect": "{{43,44},{19,20}}",
+      "textureRotated": true
+    },
+    "SubLobbyToggleBtn_00/BtnRight/BtnRight_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{19,20}",
+      "spriteSourceSize": "{19,20}",
+      "textureRect": "{{44,1},{19,20}}",
+      "textureRotated": false
+    },
+    "SubLobbyToggleBtn_00/ToggleBtn/ToggleBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{15,15}",
+      "spriteSourceSize": "{15,15}",
+      "textureRect": "{{1,45},{15,15}}",
+      "textureRotated": false
+    },
+    "SubLobbyToggleBtn_00/ToggleBtn/ToggleBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{15,15}",
+      "spriteSourceSize": "{15,15}",
+      "textureRect": "{{18,45},{15,15}}",
+      "textureRotated": false
+    },
+    "SubLobbyToggleBtn_00/ToggleBtn/ToggleBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{20,20}",
+      "spriteSourceSize": "{20,20}",
+      "textureRect": "{{1,1},{20,20}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "SubLobbyToggleBtn_00-hd.png",
+    "size": "{64,64}",
+    "smartupdate": "$TexturePacker:SmartUpdate:597f9802576ad55ef95fd20f67a6d907:9d97d54e146210756231327217c53c3e:54dc0159cb1352c9cecb121b8d868faa$",
+    "textureFileName": "SubLobbyToggleBtn_00-hd.png",
+    "animations": [
+      "BtnLeft",
+      "BtnRight",
+      "ToggleBtn"
+    ]
+  }
+}

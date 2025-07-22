@@ -1,0 +1,74 @@
+{
+  "frames": {
+    "MachineUnlockIcon_00/IconFrame/IconFrame_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{188,247}",
+      "spriteSourceSize": "{188,247}",
+      "textureRect": "{{1,1},{188,247}}",
+      "textureRotated": false
+    },
+    "MachineUnlockIcon_00/IconFrame/IconFrame_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{188,247}",
+      "spriteSourceSize": "{188,247}",
+      "textureRect": "{{191,1},{188,247}}",
+      "textureRotated": false
+    },
+    "MachineUnlockIcon_00/PlayNow/PlayNow_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{180,217}",
+      "spriteSourceSize": "{180,217}",
+      "textureRect": "{{381,1},{180,217}}",
+      "textureRotated": false
+    },
+    "MachineUnlockIcon_00/PlayNow/PlayNow_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{180,217}",
+      "spriteSourceSize": "{180,217}",
+      "textureRect": "{{563,1},{180,217}}",
+      "textureRotated": false
+    },
+    "MachineUnlockIcon_00/PlayNow/PlayNow_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{180,217}",
+      "spriteSourceSize": "{180,217}",
+      "textureRect": "{{745,1},{180,217}}",
+      "textureRotated": false
+    },
+    "MachineUnlockIcon_00/UnlockText/UnlockText_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{176,25}",
+      "spriteSourceSize": "{176,25}",
+      "textureRect": "{{381,220},{176,25}}",
+      "textureRotated": false
+    },
+    "MachineUnlockIcon_00/UnlockText/UnlockText_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{1,0}",
+      "spriteSize": "{156,25}",
+      "spriteSourceSize": "{176,25}",
+      "textureRect": "{{559,220},{156,25}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "MachineUnlockIcon_00-hd.png",
+    "size": "{926,249}",
+    "smartupdate": "$TexturePacker:SmartUpdate:1b722eaf7f9d76d222757620fd355273:a6680c8ad68d0a27727a3eec0c73e155:b3382e231965622cdf1ce33e9fe02560$",
+    "textureFileName": "MachineUnlockIcon_00-hd.png",
+    "animations": [
+      "IconFrame",
+      "PlayNow",
+      "UnlockText"
+    ]
+  }
+}

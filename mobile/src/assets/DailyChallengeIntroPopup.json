@@ -1,0 +1,539 @@
+{
+  "frames": {
+    "DailyChallengeIntroPopup_00/2xWheel.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{300,238}",
+      "spriteSourceSize": "{300,238}",
+      "textureRect": "{{1070,146},{300,238}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/Arrow.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{350,373}",
+      "spriteSourceSize": "{350,373}",
+      "textureRect": "{{643,476},{350,373}}",
+      "textureRotated": true
+    },
+    "DailyChallengeIntroPopup_00/Bg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{942,519}",
+      "spriteSourceSize": "{942,519}",
+      "textureRect": "{{1,923},{942,519}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/CloseButton/CloseButton_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{76,76}",
+      "spriteSourceSize": "{76,76}",
+      "textureRect": "{{350,1907},{76,76}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/CloseButton/CloseButton_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{76,76}",
+      "spriteSourceSize": "{76,76}",
+      "textureRect": "{{428,1907},{76,76}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/CloseButton/CloseButton_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{76,76}",
+      "spriteSourceSize": "{76,76}",
+      "textureRect": "{{506,1907},{76,76}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/DailyQuestUnlockBase.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{920,640}",
+      "spriteSourceSize": "{920,640}",
+      "textureRect": "{{1,1},{920,640}}",
+      "textureRotated": true
+    },
+    "DailyChallengeIntroPopup_00/Icon1.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{79,74}",
+      "spriteSourceSize": "{79,74}",
+      "textureRect": "{{269,1907},{79,74}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/IconBase.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{425,424}",
+      "spriteSourceSize": "{425,424}",
+      "textureRect": "{{643,1},{425,424}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/Info1.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{559,46}",
+      "spriteSourceSize": "{559,46}",
+      "textureRect": "{{1070,50},{559,46}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/Info2.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{694,47}",
+      "spriteSourceSize": "{694,47}",
+      "textureRect": "{{1070,1},{694,47}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/Info3.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{708,47}",
+      "spriteSourceSize": "{708,47}",
+      "textureRect": "{{643,427},{708,47}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/Info4.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{397,46}",
+      "spriteSourceSize": "{397,46}",
+      "textureRect": "{{1070,98},{397,46}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/LetsGo/LetsGo_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{298,84}",
+      "spriteSourceSize": "{298,84}",
+      "textureRect": "{{945,828},{298,84}}",
+      "textureRotated": true
+    },
+    "DailyChallengeIntroPopup_00/LetsGo/LetsGo_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{298,84}",
+      "spriteSourceSize": "{298,84}",
+      "textureRect": "{{643,828},{298,84}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/LetsGo/LetsGo_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{298,84}",
+      "spriteSourceSize": "{298,84}",
+      "textureRect": "{{1018,476},{298,84}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/Lock/Lock_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{35,1}",
+      "spriteSize": "{143,136}",
+      "spriteSourceSize": "{243,216}",
+      "textureRect": "{{1753,561},{143,136}}",
+      "textureRotated": true
+    },
+    "DailyChallengeIntroPopup_00/Lock/Lock_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{35,1}",
+      "spriteSize": "{143,136}",
+      "spriteSourceSize": "{243,216}",
+      "textureRect": "{{1753,561},{143,136}}",
+      "textureRotated": true
+    },
+    "DailyChallengeIntroPopup_00/Lock/Lock_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{35,1}",
+      "spriteSize": "{143,136}",
+      "spriteSourceSize": "{243,216}",
+      "textureRect": "{{1753,561},{143,136}}",
+      "textureRotated": true
+    },
+    "DailyChallengeIntroPopup_00/Lock/Lock_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,6}",
+      "spriteSize": "{217,204}",
+      "spriteSourceSize": "{243,216}",
+      "textureRect": "{{1687,50},{217,204}}",
+      "textureRotated": true
+    },
+    "DailyChallengeIntroPopup_00/Lock/Lock_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{243,216}",
+      "spriteSourceSize": "{243,216}",
+      "textureRect": "{{1018,562},{243,216}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/Lock/Lock_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{243,216}",
+      "spriteSourceSize": "{243,216}",
+      "textureRect": "{{945,1128},{243,216}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/Lock/Lock_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{243,216}",
+      "spriteSourceSize": "{243,216}",
+      "textureRect": "{{1031,780},{243,216}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/Lock/Lock_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{243,216}",
+      "spriteSourceSize": "{243,216}",
+      "textureRect": "{{1263,562},{243,216}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/Lock/Lock_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{243,216}",
+      "spriteSourceSize": "{243,216}",
+      "textureRect": "{{1469,98},{243,216}}",
+      "textureRotated": true
+    },
+    "DailyChallengeIntroPopup_00/Lock/Lock_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{243,216}",
+      "spriteSourceSize": "{243,216}",
+      "textureRect": "{{1372,343},{243,216}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/Lock/Lock_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{243,216}",
+      "spriteSourceSize": "{243,216}",
+      "textureRect": "{{945,1346},{243,216}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/Lock/Lock_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{243,216}",
+      "spriteSourceSize": "{243,216}",
+      "textureRect": "{{1,1444},{243,216}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/Lock/Lock_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{243,216}",
+      "spriteSourceSize": "{243,216}",
+      "textureRect": "{{246,1444},{243,216}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/Lock/Lock_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{243,216}",
+      "spriteSourceSize": "{243,216}",
+      "textureRect": "{{491,1444},{243,216}}",
+      "textureRotated": true
+    },
+    "DailyChallengeIntroPopup_00/Lock/Lock_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{243,216}",
+      "spriteSourceSize": "{243,216}",
+      "textureRect": "{{1,1662},{243,216}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/Lock/Lock_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{243,216}",
+      "spriteSourceSize": "{243,216}",
+      "textureRect": "{{246,1662},{243,216}}",
+      "textureRotated": true
+    },
+    "DailyChallengeIntroPopup_00/Lock/Lock_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{243,216}",
+      "spriteSourceSize": "{243,216}",
+      "textureRect": "{{709,1444},{243,216}}",
+      "textureRotated": true
+    },
+    "DailyChallengeIntroPopup_00/Lock/Lock_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{243,216}",
+      "spriteSourceSize": "{243,216}",
+      "textureRect": "{{927,1564},{243,216}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/Lock/Lock_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{243,216}",
+      "spriteSourceSize": "{243,216}",
+      "textureRect": "{{464,1689},{243,216}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/Lock/Lock_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{243,216}",
+      "spriteSourceSize": "{243,216}",
+      "textureRect": "{{709,1689},{243,216}}",
+      "textureRotated": true
+    },
+    "DailyChallengeIntroPopup_00/Lock/Lock_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{243,216}",
+      "spriteSourceSize": "{243,216}",
+      "textureRect": "{{1172,1564},{243,216}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/Lock/Lock_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{243,216}",
+      "spriteSourceSize": "{243,216}",
+      "textureRect": "{{1190,998},{243,216}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/Lock/Lock_0022.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{243,216}",
+      "spriteSourceSize": "{243,216}",
+      "textureRect": "{{1276,780},{243,216}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/Lock/Lock_0023.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{243,216}",
+      "spriteSourceSize": "{243,216}",
+      "textureRect": "{{1508,561},{243,216}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/Lock/Lock_0024.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{243,216}",
+      "spriteSourceSize": "{243,216}",
+      "textureRect": "{{1617,343},{243,216}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/Lock/Lock_0025.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{243,216}",
+      "spriteSourceSize": "{243,216}",
+      "textureRect": "{{1190,1216},{243,216}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/Lock/Lock_0026.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{243,216}",
+      "spriteSourceSize": "{243,216}",
+      "textureRect": "{{1417,1434},{243,216}}",
+      "textureRotated": true
+    },
+    "DailyChallengeIntroPopup_00/Lock/Lock_0027.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{243,216}",
+      "spriteSourceSize": "{243,216}",
+      "textureRect": "{{1435,998},{243,216}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/Lock/Lock_0028.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{243,216}",
+      "spriteSourceSize": "{243,216}",
+      "textureRect": "{{1521,779},{243,216}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/Lock/Lock_0029.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{243,216}",
+      "spriteSourceSize": "{243,216}",
+      "textureRect": "{{1435,1216},{243,216}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/Lock/Lock_0030.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{243,216}",
+      "spriteSourceSize": "{243,216}",
+      "textureRect": "{{1417,1679},{243,216}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/Lock/Lock_0031.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{243,216}",
+      "spriteSourceSize": "{243,216}",
+      "textureRect": "{{1635,1434},{243,216}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/Lock/Lock_0032.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{243,216}",
+      "spriteSourceSize": "{243,216}",
+      "textureRect": "{{1662,1652},{243,216}}",
+      "textureRotated": true
+    },
+    "DailyChallengeIntroPopup_00/Lock/Lock_0033.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{243,216}",
+      "spriteSourceSize": "{243,216}",
+      "textureRect": "{{1680,997},{243,216}}",
+      "textureRotated": true
+    },
+    "DailyChallengeIntroPopup_00/Lock/Lock_0034.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{243,216}",
+      "spriteSourceSize": "{243,216}",
+      "textureRect": "{{927,1782},{243,216}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/Lock/Lock_0035.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{243,216}",
+      "spriteSourceSize": "{243,216}",
+      "textureRect": "{{1172,1782},{243,216}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/Target/Target_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,4}",
+      "spriteSize": "{68,68}",
+      "spriteSourceSize": "{142,94}",
+      "textureRect": "{{1105,998},{68,68}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/Target/Target_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,4}",
+      "spriteSize": "{72,72}",
+      "spriteSourceSize": "{142,94}",
+      "textureRect": "{{1031,998},{72,72}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/Target/Target_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,4}",
+      "spriteSize": "{76,76}",
+      "spriteSourceSize": "{142,94}",
+      "textureRect": "{{584,1907},{76,76}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/Target/Target_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,4}",
+      "spriteSize": "{80,80}",
+      "spriteSourceSize": "{142,94}",
+      "textureRect": "{{187,1907},{80,80}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/Target/Target_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{16,6}",
+      "spriteSize": "{110,82}",
+      "spriteSourceSize": "{142,94}",
+      "textureRect": "{{1372,146},{110,82}}",
+      "textureRotated": true
+    },
+    "DailyChallengeIntroPopup_00/Target/Target_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{13,7}",
+      "spriteSize": "{98,80}",
+      "spriteSourceSize": "{142,94}",
+      "textureRect": "{{1,1880},{98,80}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/Target/Target_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{8,8}",
+      "spriteSize": "{84,78}",
+      "spriteSourceSize": "{142,94}",
+      "textureRect": "{{101,1880},{84,78}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/Target/Target_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{9,8}",
+      "spriteSize": "{86,76}",
+      "spriteSourceSize": "{142,94}",
+      "textureRect": "{{1372,258},{86,76}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/Target/Target_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{8,8}",
+      "spriteSize": "{84,78}",
+      "spriteSourceSize": "{142,94}",
+      "textureRect": "{{101,1880},{84,78}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/Target/Target_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{8,8}",
+      "spriteSize": "{84,78}",
+      "spriteSourceSize": "{142,94}",
+      "textureRect": "{{101,1880},{84,78}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/Target/Target_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{8,8}",
+      "spriteSize": "{84,78}",
+      "spriteSourceSize": "{142,94}",
+      "textureRect": "{{101,1880},{84,78}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/Target/Target_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{8,8}",
+      "spriteSize": "{84,78}",
+      "spriteSourceSize": "{142,94}",
+      "textureRect": "{{101,1880},{84,78}}",
+      "textureRotated": false
+    },
+    "DailyChallengeIntroPopup_00/Target/Target_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{8,8}",
+      "spriteSize": "{84,78}",
+      "spriteSourceSize": "{142,94}",
+      "textureRect": "{{101,1880},{84,78}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "DailyChallengeIntroPopup_00-hd.png",
+    "size": "{1897,1999}",
+    "smartupdate": "$TexturePacker:SmartUpdate:2e72c1fb0aacc81f827e8771fdbe66f4:9d202979ee511f9563e7d2bd4e55bdde:af66d4fc51784fe50fd88b3925cb09c7$",
+    "textureFileName": "DailyChallengeIntroPopup_00-hd.png",
+    "animations": [
+      "CloseButton",
+      "LetsGo",
+      "Lock",
+      "Target"
+    ]
+  }
+}

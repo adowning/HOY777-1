@@ -9,9 +9,11 @@ import {
   text,
 } from 'drizzle-orm/pg-core'
 import { relations } from 'drizzle-orm'
+import { createInsertSchema, createSelectSchema } from 'drizzle-zod'
 import { nanoid } from '../../utils/nanoid'
 import { users } from './users'
 import { operators, paymentMethodEnum } from './operators'
+import { transformSchemaForOpenAPI } from '#/lib/schema-transformer'
 
 export const wallets = pgTable(
   'wallets',
@@ -57,3 +59,15 @@ export const walletsRelations = relations(wallets, ({ one }) => ({
     references: [operators.id],
   }),
 }))
+
+export const selectWalletsSchema = transformSchemaForOpenAPI(
+  createSelectSchema(wallets)
+)
+
+export const insertWalletsSchema = transformSchemaForOpenAPI(
+  createInsertSchema(wallets).omit({
+    id: true,
+    createdAt: true,
+    updatedAt: true,
+  })
+)

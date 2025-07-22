@@ -1,0 +1,30 @@
+{
+  "frames": {
+    "UserBanPopup_00/Description.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{423,133}",
+      "spriteSourceSize": "{423,133}",
+      "textureRect": "{{1,60},{423,133}}",
+      "textureRotated": false
+    },
+    "UserBanPopup_00/Title.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{191,57}",
+      "spriteSourceSize": "{191,57}",
+      "textureRect": "{{1,1},{191,57}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "UserBanPopup_00-hd.png",
+    "size": "{425,194}",
+    "smartupdate": "$TexturePacker:SmartUpdate:4e9f236b04386026030d775feca64e57:f67a974c4693d8af5f695ba35d65bbf5:d4e07c6683087fddfa886a60ade1ddbf$",
+    "textureFileName": "UserBanPopup_00-hd.png",
+    "animations": []
+  }
+}

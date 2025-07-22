@@ -1,0 +1,105 @@
+{
+  "frames": {
+    "VipBottomWidget_00/Benefits/Benefits_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{169,39}",
+      "spriteSourceSize": "{169,39}",
+      "textureRect": "{{155,175},{169,39}}",
+      "textureRotated": true
+    },
+    "VipBottomWidget_00/Benefits/Benefits_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{169,39}",
+      "spriteSourceSize": "{169,39}",
+      "textureRect": "{{165,1},{169,39}}",
+      "textureRotated": true
+    },
+    "VipBottomWidget_00/Benefits/Benefits_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{169,39}",
+      "spriteSourceSize": "{169,39}",
+      "textureRect": "{{196,172},{169,39}}",
+      "textureRotated": true
+    },
+    "VipBottomWidget_00/TierUpAnim/TierUpAnim_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{172,42}",
+      "spriteSourceSize": "{172,42}",
+      "textureRect": "{{67,180},{172,42}}",
+      "textureRotated": true
+    },
+    "VipBottomWidget_00/TierUpAnim/TierUpAnim_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{172,42}",
+      "spriteSourceSize": "{172,42}",
+      "textureRect": "{{67,354},{172,42}}",
+      "textureRotated": false
+    },
+    "VipBottomWidget_00/TierUpAnim/TierUpAnim_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{172,42}",
+      "spriteSourceSize": "{172,42}",
+      "textureRect": "{{67,398},{172,42}}",
+      "textureRotated": false
+    },
+    "VipBottomWidget_00/TierUpAnim/TierUpAnim_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{172,42}",
+      "spriteSourceSize": "{172,42}",
+      "textureRect": "{{111,180},{172,42}}",
+      "textureRotated": true
+    },
+    "VipBottomWidget_00/TierUpAnim/TierUpAnim_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{172,42}",
+      "spriteSourceSize": "{172,42}",
+      "textureRect": "{{121,1},{172,42}}",
+      "textureRotated": true
+    },
+    "VipBottomWidget_00/VipLockedText.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{177,52}",
+      "spriteSourceSize": "{177,52}",
+      "textureRect": "{{67,1},{177,52}}",
+      "textureRotated": true
+    },
+    "VipBottomWidget_00/VipPanel.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{439,64}",
+      "spriteSourceSize": "{439,64}",
+      "textureRect": "{{1,1},{439,64}}",
+      "textureRotated": true
+    },
+    "VipBottomWidget_00/YourStatus.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{114,33}",
+      "spriteSourceSize": "{114,33}",
+      "textureRect": "{{206,1},{114,33}}",
+      "textureRotated": true
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "VipBottomWidget_00-hd.png",
+    "size": "{240,441}",
+    "smartupdate": "$TexturePacker:SmartUpdate:92fe8762166e835ea95c6bdd969211ea:4e73ccf85517847bc319a49b0d9abea3:420c64ab29726504357e3e6f6f2963d6$",
+    "textureFileName": "VipBottomWidget_00-hd.png",
+    "animations": [
+      "Benefits",
+      "TierUpAnim"
+    ]
+  }
+}

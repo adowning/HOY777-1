@@ -1,0 +1,64 @@
+{
+  "frames": {
+    "RSBetUnlockPopup_00/Coin.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{52,52}",
+      "spriteSourceSize": "{52,52}",
+      "textureRect": "{{949,142},{52,52}}",
+      "textureRotated": false
+    },
+    "RSBetUnlockPopup_00/CoinStack.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{655,139}",
+      "spriteSourceSize": "{655,139}",
+      "textureRect": "{{478,1},{655,139}}",
+      "textureRotated": false
+    },
+    "RSBetUnlockPopup_00/CoinsBg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{475,149}",
+      "spriteSourceSize": "{475,149}",
+      "textureRect": "{{1,1},{475,149}}",
+      "textureRotated": false
+    },
+    "RSBetUnlockPopup_00/PlayBtn/PlayBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{314,88}",
+      "spriteSourceSize": "{314,88}",
+      "textureRect": "{{1,152},{314,88}}",
+      "textureRotated": false
+    },
+    "RSBetUnlockPopup_00/PlayBtn/PlayBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{314,88}",
+      "spriteSourceSize": "{314,88}",
+      "textureRect": "{{317,152},{314,88}}",
+      "textureRotated": false
+    },
+    "RSBetUnlockPopup_00/PlayBtn/PlayBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{314,88}",
+      "spriteSourceSize": "{314,88}",
+      "textureRect": "{{633,142},{314,88}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "RSBetUnlockPopup_00-hd.png",
+    "size": "{1134,241}",
+    "smartupdate": "$TexturePacker:SmartUpdate:7d5267d009fc845f44e8ecda29d4ee2c:b3070e87fc8f71c6e62f83cc58683727:5c71731e5d1487c45f2b4ac8be5ecc04$",
+    "textureFileName": "RSBetUnlockPopup_00-hd.png",
+    "animations": [
+      "PlayBtn"
+    ]
+  }
+}

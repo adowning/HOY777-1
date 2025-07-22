@@ -1,0 +1,22 @@
+{
+  "frames": {
+    "TournamaniaInfoPopup_00/TournamaniaInfo.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,89}",
+      "spriteSize": "{807,314}",
+      "spriteSourceSize": "{849,524}",
+      "textureRect": "{{1,1},{807,314}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "TournamaniaInfoPopup_00-hd.png",
+    "size": "{809,316}",
+    "smartupdate": "$TexturePacker:SmartUpdate:0ca29f893b0dd989fb13d20282d4e28b:dda08d7026ac83f71d7e987c649d3256:9059bafe82580a7dfae5d1a554d57ee7$",
+    "textureFileName": "TournamaniaInfoPopup_00-hd.png",
+    "animations": []
+  }
+}

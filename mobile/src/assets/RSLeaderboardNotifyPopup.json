@@ -1,0 +1,38 @@
+{
+  "frames": {
+    "RSLeaderboardNotifyPopup_00/BgPart.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{833,444}",
+      "spriteSourceSize": "{833,444}",
+      "textureRect": "{{1,1},{833,444}}",
+      "textureRotated": false
+    },
+    "RSLeaderboardNotifyPopup_00/CoinLeft.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{299,229}",
+      "spriteSourceSize": "{299,229}",
+      "textureRect": "{{1,447},{299,229}}",
+      "textureRotated": false
+    },
+    "RSLeaderboardNotifyPopup_00/CoinRight.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{298,228}",
+      "spriteSourceSize": "{298,228}",
+      "textureRect": "{{302,447},{298,228}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "RSLeaderboardNotifyPopup_00-hd.png",
+    "size": "{835,677}",
+    "smartupdate": "$TexturePacker:SmartUpdate:ae1bdcddd2822e2ec02c0f8ef5327343:dbdc08fe6166114315c6e569d0e2854f:9b8661b6f172bf3fc72b990bfe60e2ed$",
+    "textureFileName": "RSLeaderboardNotifyPopup_00-hd.png",
+    "animations": []
+  }
+}

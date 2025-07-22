@@ -1,0 +1,110 @@
+{
+  "frames": {
+    "LeaderboardCrownWidget_00/Coin1.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{35,35}",
+      "spriteSourceSize": "{35,35}",
+      "textureRect": "{{252,406},{35,35}}",
+      "textureRotated": false
+    },
+    "LeaderboardCrownWidget_00/Coin2.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{35,35}",
+      "spriteSourceSize": "{35,35}",
+      "textureRect": "{{252,406},{35,35}}",
+      "textureRotated": false
+    },
+    "LeaderboardCrownWidget_00/Coin3.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{35,35}",
+      "spriteSourceSize": "{35,35}",
+      "textureRect": "{{252,406},{35,35}}",
+      "textureRotated": false
+    },
+    "LeaderboardCrownWidget_00/RankBase1.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{249,76}",
+      "spriteSourceSize": "{249,76}",
+      "textureRect": "{{1,406},{249,76}}",
+      "textureRotated": false
+    },
+    "LeaderboardCrownWidget_00/RankBase2.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{243,70}",
+      "spriteSourceSize": "{243,70}",
+      "textureRect": "{{754,1},{243,70}}",
+      "textureRotated": true
+    },
+    "LeaderboardCrownWidget_00/RankBase3.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{243,70}",
+      "spriteSourceSize": "{243,70}",
+      "textureRect": "{{562,252},{243,70}}",
+      "textureRotated": false
+    },
+    "LeaderboardCrownWidget_00/RankMask1.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{152,183}",
+      "spriteSourceSize": "{152,183}",
+      "textureRect": "{{338,286},{152,183}}",
+      "textureRotated": true
+    },
+    "LeaderboardCrownWidget_00/RankMask2.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{131,159}",
+      "spriteSourceSize": "{131,159}",
+      "textureRect": "{{523,324},{131,159}}",
+      "textureRotated": true
+    },
+    "LeaderboardCrownWidget_00/RankMask3.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{127,153}",
+      "spriteSourceSize": "{127,153}",
+      "textureRect": "{{684,324},{127,153}}",
+      "textureRotated": false
+    },
+    "LeaderboardCrownWidget_00/RankPosition1.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{335,403}",
+      "spriteSourceSize": "{335,403}",
+      "textureRect": "{{1,1},{335,403}}",
+      "textureRotated": false
+    },
+    "LeaderboardCrownWidget_00/RankPosition2.png": {
+      "aliases": [],
+      "spriteOffset": "{0,1}",
+      "spriteSize": "{190,249}",
+      "spriteSourceSize": "{288,345}",
+      "textureRect": "{{562,1},{190,249}}",
+      "textureRotated": false
+    },
+    "LeaderboardCrownWidget_00/RankPosition3.png": {
+      "aliases": [],
+      "spriteOffset": "{20,-22}",
+      "spriteSize": "{222,283}",
+      "spriteSourceSize": "{274,327}",
+      "textureRect": "{{338,1},{222,283}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "LeaderboardCrownWidget_00-hd.png",
+    "size": "{825,483}",
+    "smartupdate": "$TexturePacker:SmartUpdate:69564ab146119a38b9c92572ac9de15e:7695d632441edcf9eaf489770cced1f8:671770b80c80ab61e130560b47f8a01d$",
+    "textureFileName": "LeaderboardCrownWidget_00-hd.png",
+    "animations": []
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "frames": {
+    "LoginSuccessPopup_00/Bg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{369,261}",
+      "spriteSourceSize": "{369,261}",
+      "textureRect": "{{1,1},{369,261}}",
+      "textureRotated": false
+    },
+    "LoginSuccessPopup_00/Collect/Collect_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,88}",
+      "spriteSourceSize": "{223,88}",
+      "textureRect": "{{1,264},{223,88}}",
+      "textureRotated": true
+    },
+    "LoginSuccessPopup_00/Collect/Collect_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,88}",
+      "spriteSourceSize": "{223,88}",
+      "textureRect": "{{91,264},{223,88}}",
+      "textureRotated": true
+    },
+    "LoginSuccessPopup_00/Collect/Collect_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,88}",
+      "spriteSourceSize": "{223,88}",
+      "textureRect": "{{181,264},{223,88}}",
+      "textureRotated": true
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "LoginSuccessPopup_00-hd.png",
+    "size": "{512,512}",
+    "smartupdate": "$TexturePacker:SmartUpdate:0b020946d651708fe636f9e1f48aab43:0cc0efab40645e33a8b6ae7e162ee9e6:4727ef2513264e01a413e914a5a24044$",
+    "textureFileName": "LoginSuccessPopup_00-hd.png",
+    "animations": [
+      "Collect"
+    ]
+  }
+}

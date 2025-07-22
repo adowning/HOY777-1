@@ -1,0 +1,97 @@
+{
+  "frames": {
+    "BingoPurchaseCartPopup_00/Bg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{1020,562}",
+      "spriteSourceSize": "{1020,562}",
+      "textureRect": "{{1,1},{1020,562}}",
+      "textureRotated": false
+    },
+    "BingoPurchaseCartPopup_00/BoostsBtnBO.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{452,95}",
+      "spriteSourceSize": "{452,95}",
+      "textureRect": "{{1,1658},{452,95}}",
+      "textureRotated": false
+    },
+    "BingoPurchaseCartPopup_00/CloseBtn/CloseBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{909,1658},{44,44}}",
+      "textureRotated": false
+    },
+    "BingoPurchaseCartPopup_00/CloseBtn/CloseBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{955,1658},{44,44}}",
+      "textureRotated": false
+    },
+    "BingoPurchaseCartPopup_00/CloseBtn/CloseBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{909,1704},{44,44}}",
+      "textureRotated": false
+    },
+    "BingoPurchaseCartPopup_00/Panel.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{1016,566}",
+      "spriteSourceSize": "{1016,566}",
+      "textureRect": "{{1,1090},{1016,566}}",
+      "textureRotated": false
+    },
+    "BingoPurchaseCartPopup_00/PowerupBase.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{1020,523}",
+      "spriteSourceSize": "{1020,523}",
+      "textureRect": "{{1,565},{1020,523}}",
+      "textureRotated": false
+    },
+    "BingoPurchaseCartPopup_00/PowerupsBtn/PowerupsBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{452,95}",
+      "spriteSourceSize": "{452,95}",
+      "textureRect": "{{1,1658},{452,95}}",
+      "textureRotated": false
+    },
+    "BingoPurchaseCartPopup_00/PowerupsBtn/PowerupsBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{452,95}",
+      "spriteSourceSize": "{452,95}",
+      "textureRect": "{{455,1658},{452,95}}",
+      "textureRotated": false
+    },
+    "BingoPurchaseCartPopup_00/PowerupsBtn/PowerupsBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{452,95}",
+      "spriteSourceSize": "{452,95}",
+      "textureRect": "{{1,1755},{452,95}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "BingoPurchaseCartPopup_00-hd.png",
+    "size": "{1024,2048}",
+    "smartupdate": "$TexturePacker:SmartUpdate:540c3b88e94a1d07392875381e88c7fe:616f9567e047782d0eebb552e10d4bac:062a469e1d1a0ffeaec50e09a895f766$",
+    "textureFileName": "BingoPurchaseCartPopup_00-hd.png",
+    "animations": [
+      "CloseBtn",
+      "PowerupsBtn"
+    ]
+  }
+}

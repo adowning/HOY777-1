@@ -1,0 +1,190 @@
+{
+  "frames": {
+    "GWT_DiamondAnim/GWT_DiamondAnim_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,1},{118,91}}",
+      "textureRotated": false
+    },
+    "GWT_DiamondAnim/GWT_DiamondAnim_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,94},{118,91}}",
+      "textureRotated": false
+    },
+    "GWT_DiamondAnim/GWT_DiamondAnim_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,187},{118,91}}",
+      "textureRotated": false
+    },
+    "GWT_DiamondAnim/GWT_DiamondAnim_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,280},{118,91}}",
+      "textureRotated": false
+    },
+    "GWT_DiamondAnim/GWT_DiamondAnim_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,373},{118,91}}",
+      "textureRotated": false
+    },
+    "GWT_DiamondAnim/GWT_DiamondAnim_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,466},{118,91}}",
+      "textureRotated": false
+    },
+    "GWT_DiamondAnim/GWT_DiamondAnim_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,559},{118,91}}",
+      "textureRotated": false
+    },
+    "GWT_DiamondAnim/GWT_DiamondAnim_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,652},{118,91}}",
+      "textureRotated": false
+    },
+    "GWT_DiamondAnim/GWT_DiamondAnim_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,745},{118,91}}",
+      "textureRotated": false
+    },
+    "GWT_DiamondAnim/GWT_DiamondAnim_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,838},{118,91}}",
+      "textureRotated": false
+    },
+    "GWT_DiamondAnim/GWT_DiamondAnim_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,931},{118,91}}",
+      "textureRotated": false
+    },
+    "GWT_DiamondAnim/GWT_DiamondAnim_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,1024},{118,91}}",
+      "textureRotated": false
+    },
+    "GWT_DiamondAnim/GWT_DiamondAnim_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,1117},{118,91}}",
+      "textureRotated": false
+    },
+    "GWT_DiamondAnim/GWT_DiamondAnim_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,1210},{118,91}}",
+      "textureRotated": false
+    },
+    "GWT_DiamondAnim/GWT_DiamondAnim_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,1303},{118,91}}",
+      "textureRotated": false
+    },
+    "GWT_DiamondAnim/GWT_DiamondAnim_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,1396},{118,91}}",
+      "textureRotated": false
+    },
+    "GWT_DiamondAnim/GWT_DiamondAnim_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,1489},{118,91}}",
+      "textureRotated": false
+    },
+    "GWT_DiamondAnim/GWT_DiamondAnim_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,1582},{118,91}}",
+      "textureRotated": false
+    },
+    "GWT_DiamondAnim/GWT_DiamondAnim_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,1675},{118,91}}",
+      "textureRotated": false
+    },
+    "GWT_DiamondAnim/GWT_DiamondAnim_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,1768},{118,91}}",
+      "textureRotated": false
+    },
+    "GWT_DiamondAnim/GWT_DiamondAnim_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,1861},{118,91}}",
+      "textureRotated": false
+    },
+    "GWT_DiamondAnim/GWT_DiamondAnim_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,1},{118,91}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGB888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "GWT_DiamondAnim-hd.jpg",
+    "size": "{120,1953}",
+    "smartupdate": "$TexturePacker:SmartUpdate:51bf0369030e48240513c952e6708acf:00e39faba7800a7f27b7a82d5e6ef5e5:1547c2ed7efb8efb1bf68c0fb16d94f0$",
+    "textureFileName": "GWT_DiamondAnim-hd.jpg",
+    "animations": []
+  }
+}

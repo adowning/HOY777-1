@@ -1,0 +1,120 @@
+{
+  "frames": {
+    "BetSelectPopup_00/Close/Close_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{43,43}",
+      "spriteSourceSize": "{43,43}",
+      "textureRect": "{{739,58},{43,43}}",
+      "textureRotated": false
+    },
+    "BetSelectPopup_00/Close/Close_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{43,43}",
+      "spriteSourceSize": "{43,43}",
+      "textureRect": "{{739,103},{43,43}}",
+      "textureRotated": false
+    },
+    "BetSelectPopup_00/Close/Close_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{43,43}",
+      "spriteSourceSize": "{43,43}",
+      "textureRect": "{{739,148},{43,43}}",
+      "textureRotated": false
+    },
+    "BetSelectPopup_00/Machine.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{206,378}",
+      "spriteSourceSize": "{206,378}",
+      "textureRect": "{{791,1},{206,378}}",
+      "textureRotated": true
+    },
+    "BetSelectPopup_00/MajorBet.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{110,71}",
+      "spriteSourceSize": "{110,71}",
+      "textureRect": "{{554,141},{110,71}}",
+      "textureRotated": false
+    },
+    "BetSelectPopup_00/MajorTitle.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{260,97}",
+      "spriteSourceSize": "{260,97}",
+      "textureRect": "{{1,148},{260,97}}",
+      "textureRotated": false
+    },
+    "BetSelectPopup_00/MegaBet.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{123,81}",
+      "spriteSourceSize": "{123,81}",
+      "textureRect": "{{554,58},{123,81}}",
+      "textureRotated": false
+    },
+    "BetSelectPopup_00/MegaTitle.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{288,88}",
+      "spriteSourceSize": "{288,88}",
+      "textureRect": "{{1,58},{288,88}}",
+      "textureRotated": false
+    },
+    "BetSelectPopup_00/MinorBet.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{96,63}",
+      "spriteSourceSize": "{96,63}",
+      "textureRect": "{{263,174},{96,63}}",
+      "textureRotated": false
+    },
+    "BetSelectPopup_00/MinorTitle.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{261,114}",
+      "spriteSourceSize": "{261,114}",
+      "textureRect": "{{291,58},{261,114}}",
+      "textureRotated": false
+    },
+    "BetSelectPopup_00/StandardBet.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{86,55}",
+      "spriteSourceSize": "{86,55}",
+      "textureRect": "{{361,174},{86,55}}",
+      "textureRotated": false
+    },
+    "BetSelectPopup_00/StandardTitle.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{170,58}",
+      "spriteSourceSize": "{170,58}",
+      "textureRect": "{{679,58},{170,58}}",
+      "textureRotated": true
+    },
+    "BetSelectPopup_00/Title.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{788,55}",
+      "spriteSourceSize": "{788,55}",
+      "textureRect": "{{1,1},{788,55}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "BetSelectPopup_00-hd.png",
+    "size": "{1170,246}",
+    "smartupdate": "$TexturePacker:SmartUpdate:adece9478c207138b45f2fc4e8f8dde2:097339547e97f07bffe21f36e8cd51a8:0c5593e8d08ba9ce13c59b3163a23f1d$",
+    "textureFileName": "BetSelectPopup_00-hd.png",
+    "animations": [
+      "Close"
+    ]
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "frames": {
+    "SlotsLobbyWidget_00/AllSlots/AllSlots_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{127,115}",
+      "spriteSourceSize": "{127,115}",
+      "textureRect": "{{394,574},{127,115}}",
+      "textureRotated": true
+    },
+    "SlotsLobbyWidget_00/AllSlots/AllSlots_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{127,115}",
+      "spriteSourceSize": "{127,115}",
+      "textureRect": "{{511,652},{127,115}}",
+      "textureRotated": false
+    },
+    "SlotsLobbyWidget_00/AllSlots/AllSlots_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{127,115}",
+      "spriteSourceSize": "{127,115}",
+      "textureRect": "{{640,652},{127,115}}",
+      "textureRotated": false
+    },
+    "SlotsLobbyWidget_00/BgPanel.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{939,529}",
+      "spriteSourceSize": "{939,529}",
+      "textureRect": "{{1,1},{939,529}}",
+      "textureRotated": false
+    },
+    "SlotsLobbyWidget_00/Favorites/Favorites_00.png": {
+      "aliases": [],
+      "spriteOffset": "{-5,5}",
+      "spriteSize": "{117,109}",
+      "spriteSourceSize": "{127,119}",
+      "textureRect": "{{901,532},{117,109}}",
+      "textureRotated": true
+    },
+    "SlotsLobbyWidget_00/Favorites/Favorites_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{127,119}",
+      "spriteSourceSize": "{127,119}",
+      "textureRect": "{{265,574},{127,119}}",
+      "textureRotated": false
+    },
+    "SlotsLobbyWidget_00/Favorites/Favorites_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{127,117}",
+      "spriteSourceSize": "{127,119}",
+      "textureRect": "{{769,652},{127,117}}",
+      "textureRotated": false
+    },
+    "SlotsLobbyWidget_00/FavoritesNewBadge/FavoritesNewBadge_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{84,73}",
+      "spriteSourceSize": "{84,73}",
+      "textureRect": "{{1,824},{84,73}}",
+      "textureRotated": false
+    },
+    "SlotsLobbyWidget_00/FavoritesNewBadge/FavoritesNewBadge_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{84,73}",
+      "spriteSourceSize": "{84,73}",
+      "textureRect": "{{87,824},{84,73}}",
+      "textureRotated": false
+    },
+    "SlotsLobbyWidget_00/FavoritesNewBadge/FavoritesNewBadge_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{84,73}",
+      "spriteSourceSize": "{84,73}",
+      "textureRect": "{{134,695},{84,73}}",
+      "textureRotated": false
+    },
+    "SlotsLobbyWidget_00/FavoritesNewBadge/FavoritesNewBadge_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{84,73}",
+      "spriteSourceSize": "{84,73}",
+      "textureRect": "{{220,695},{84,73}}",
+      "textureRotated": false
+    },
+    "SlotsLobbyWidget_00/FavoritesNewBadge/FavoritesNewBadge_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{84,73}",
+      "spriteSourceSize": "{84,73}",
+      "textureRect": "{{306,695},{84,73}}",
+      "textureRotated": false
+    },
+    "SlotsLobbyWidget_00/FavoritesNewBadge/FavoritesNewBadge_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{84,73}",
+      "spriteSourceSize": "{84,73}",
+      "textureRect": "{{392,703},{84,73}}",
+      "textureRotated": false
+    },
+    "SlotsLobbyWidget_00/FavoritesNewBadge/FavoritesNewBadge_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{84,73}",
+      "spriteSourceSize": "{84,73}",
+      "textureRect": "{{173,770},{84,73}}",
+      "textureRotated": false
+    },
+    "SlotsLobbyWidget_00/FavoritesNewBadge/FavoritesNewBadge_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{84,73}",
+      "spriteSourceSize": "{84,73}",
+      "textureRect": "{{259,770},{84,73}}",
+      "textureRotated": false
+    },
+    "SlotsLobbyWidget_00/FavoritesNewBadge/FavoritesNewBadge_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{84,73}",
+      "spriteSourceSize": "{84,73}",
+      "textureRect": "{{173,845},{84,73}}",
+      "textureRotated": false
+    },
+    "SlotsLobbyWidget_00/FavoritesNewBadge/FavoritesNewBadge_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{84,73}",
+      "spriteSourceSize": "{84,73}",
+      "textureRect": "{{259,845},{84,73}}",
+      "textureRotated": false
+    },
+    "SlotsLobbyWidget_00/FavoritesNewBadge/FavoritesNewBadge_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{84,73}",
+      "spriteSourceSize": "{84,73}",
+      "textureRect": "{{345,778},{84,73}}",
+      "textureRotated": false
+    },
+    "SlotsLobbyWidget_00/FavoritesNewBadge/FavoritesNewBadge_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{84,73}",
+      "spriteSourceSize": "{84,73}",
+      "textureRect": "{{431,778},{84,73}}",
+      "textureRotated": false
+    },
+    "SlotsLobbyWidget_00/FavoritesNewBadge/FavoritesNewBadge_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{84,73}",
+      "spriteSourceSize": "{84,73}",
+      "textureRect": "{{517,769},{84,73}}",
+      "textureRotated": false
+    },
+    "SlotsLobbyWidget_00/FavoritesNewBadge/FavoritesNewBadge_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{84,73}",
+      "spriteSourceSize": "{84,73}",
+      "textureRect": "{{603,769},{84,73}}",
+      "textureRotated": false
+    },
+    "SlotsLobbyWidget_00/FavoritesNewBadge/FavoritesNewBadge_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{84,73}",
+      "spriteSourceSize": "{84,73}",
+      "textureRect": "{{689,769},{84,73}}",
+      "textureRotated": true
+    },
+    "SlotsLobbyWidget_00/FavoritesNewBadge/FavoritesNewBadge_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{84,73}",
+      "spriteSourceSize": "{84,73}",
+      "textureRect": "{{764,771},{84,73}}",
+      "textureRotated": false
+    },
+    "SlotsLobbyWidget_00/FavoritesNewBadge/FavoritesNewBadge_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{84,73}",
+      "spriteSourceSize": "{84,73}",
+      "textureRect": "{{850,771},{84,73}}",
+      "textureRotated": false
+    },
+    "SlotsLobbyWidget_00/FavoritesNewBadge/FavoritesNewBadge_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{84,73}",
+      "spriteSourceSize": "{84,73}",
+      "textureRect": "{{517,844},{84,73}}",
+      "textureRotated": false
+    },
+    "SlotsLobbyWidget_00/FavoritesNewBadge/FavoritesNewBadge_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{84,73}",
+      "spriteSourceSize": "{84,73}",
+      "textureRect": "{{603,844},{84,73}}",
+      "textureRotated": false
+    },
+    "SlotsLobbyWidget_00/FavoritesNewBadge/FavoritesNewBadge_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{84,73}",
+      "spriteSourceSize": "{84,73}",
+      "textureRect": "{{764,846},{84,73}}",
+      "textureRotated": false
+    },
+    "SlotsLobbyWidget_00/FavoritesNewBadge/FavoritesNewBadge_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{84,73}",
+      "spriteSourceSize": "{84,73}",
+      "textureRect": "{{850,846},{84,73}}",
+      "textureRotated": false
+    },
+    "SlotsLobbyWidget_00/FavoritesNewBadge/FavoritesNewBadge_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{84,73}",
+      "spriteSourceSize": "{84,73}",
+      "textureRect": "{{898,652},{84,73}}",
+      "textureRotated": true
+    },
+    "SlotsLobbyWidget_00/FavoritesNewBadge/FavoritesNewBadge_0022.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{84,73}",
+      "spriteSourceSize": "{84,73}",
+      "textureRect": "{{936,738},{84,73}}",
+      "textureRotated": true
+    },
+    "SlotsLobbyWidget_00/FavoritesNewBadge/FavoritesNewBadge_0023.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{84,73}",
+      "spriteSourceSize": "{84,73}",
+      "textureRect": "{{936,824},{84,73}}",
+      "textureRotated": true
+    },
+    "SlotsLobbyWidget_00/Featured/Featured_00.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,0}",
+      "spriteSize": "{129,119}",
+      "spriteSourceSize": "{135,133}",
+      "textureRect": "{{1,703},{129,119}}",
+      "textureRotated": false
+    },
+    "SlotsLobbyWidget_00/Featured/Featured_01.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,0}",
+      "spriteSize": "{129,119}",
+      "spriteSourceSize": "{135,133}",
+      "textureRect": "{{134,574},{129,119}}",
+      "textureRotated": false
+    },
+    "SlotsLobbyWidget_00/Featured/Featured_02.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{131,127}",
+      "spriteSourceSize": "{135,133}",
+      "textureRect": "{{1,574},{131,127}}",
+      "textureRotated": false
+    },
+    "SlotsLobbyWidget_00/ShadeLeft.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{40,500}",
+      "spriteSourceSize": "{40,500}",
+      "textureRect": "{{1,532},{40,500}}",
+      "textureRotated": true
+    },
+    "SlotsLobbyWidget_00/ShadeRight.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{40,500}",
+      "spriteSourceSize": "{40,500}",
+      "textureRect": "{{942,1},{40,500}}",
+      "textureRotated": false
+    },
+    "SlotsLobbyWidget_00/Vip/Vip_00.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,2}",
+      "spriteSize": "{128,118}",
+      "spriteSourceSize": "{130,134}",
+      "textureRect": "{{511,532},{128,118}}",
+      "textureRotated": false
+    },
+    "SlotsLobbyWidget_00/Vip/Vip_01.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,2}",
+      "spriteSize": "{128,118}",
+      "spriteSourceSize": "{130,134}",
+      "textureRect": "{{641,532},{128,118}}",
+      "textureRotated": false
+    },
+    "SlotsLobbyWidget_00/Vip/Vip_02.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,2}",
+      "spriteSize": "{128,118}",
+      "spriteSourceSize": "{130,134}",
+      "textureRect": "{{771,532},{128,118}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "SlotsLobbyWidget_00-hd.png",
+    "size": "{1011,920}",
+    "smartupdate": "$TexturePacker:SmartUpdate:b6f97837e0a1d3ea2f257230faad4e69:5a1657f2b90800ee8b52d40f4b4bac70:3f57e9add1f1c36f3b93d4fe827e6860$",
+    "textureFileName": "SlotsLobbyWidget_00-hd.png",
+    "animations": [
+      "AllSlots",
+      "Favorites",
+      "FavoritesNewBadge",
+      "Featured",
+      "Vip"
+    ]
+  }
+}

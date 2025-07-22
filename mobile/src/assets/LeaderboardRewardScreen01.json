@@ -1,0 +1,477 @@
+{
+  "frames": {
+    "LeaderboardRewardScreen_01/Badge/Badge_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{351,421}",
+      "spriteSourceSize": "{351,421}",
+      "textureRect": "{{453,597},{351,421}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/Badge/Badge_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,1}",
+      "spriteSize": "{231,303}",
+      "spriteSourceSize": "{351,421}",
+      "textureRect": "{{443,1246},{231,303}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_01/Badge/Badge_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,1}",
+      "spriteSize": "{231,303}",
+      "spriteSourceSize": "{351,421}",
+      "textureRect": "{{443,1479},{231,303}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimBottomLeft/ExplositionAnimBottomLeft_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{-223.5,146.5}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{806,597},{3,3}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimBottomLeft/ExplositionAnimBottomLeft_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{183,-113}",
+      "spriteSize": "{84,70}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{1,1773},{84,70}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimBottomLeft/ExplositionAnimBottomLeft_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{183,-112}",
+      "spriteSize": "{84,72}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{613,1712},{84,72}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimBottomLeft/ExplositionAnimBottomLeft_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{138,-89}",
+      "spriteSize": "{174,118}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{437,1712},{174,118}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimBottomLeft/ExplositionAnimBottomLeft_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{66,-36}",
+      "spriteSize": "{318,224}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{453,1020},{318,224}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimBottomLeft/ExplositionAnimBottomLeft_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{23,0}",
+      "spriteSize": "{404,296}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{453,1},{404,296}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimBottomLeft/ExplositionAnimBottomLeft_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{23,0}",
+      "spriteSize": "{404,296}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{453,299},{404,296}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimBottomLeft/ExplositionAnimBottomLeft_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{450,296}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{1,1},{450,296}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimBottomLeft/ExplositionAnimBottomLeft_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{450,296}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{1,299},{450,296}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimBottomLeft/ExplositionAnimBottomLeft_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{450,296}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{1,597},{450,296}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimBottomLeft/ExplositionAnimBottomLeft_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{450,296}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{1,895},{450,296}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimBottomLeft/ExplositionAnimBottomLeft_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{-5,-1}",
+      "spriteSize": "{440,294}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{1,1193},{440,294}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimBottomLeft/ExplositionAnimBottomLeft_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{-8,-7}",
+      "spriteSize": "{434,282}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{1,1489},{434,282}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimBottomRight/ExplositionAnimBottomRight_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{-223.5,146.5}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{806,597},{3,3}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimBottomRight/ExplositionAnimBottomRight_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{183,-113}",
+      "spriteSize": "{84,70}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{1,1773},{84,70}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimBottomRight/ExplositionAnimBottomRight_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{183,-112}",
+      "spriteSize": "{84,72}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{613,1712},{84,72}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimBottomRight/ExplositionAnimBottomRight_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{138,-89}",
+      "spriteSize": "{174,118}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{437,1712},{174,118}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimBottomRight/ExplositionAnimBottomRight_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{66,-36}",
+      "spriteSize": "{318,224}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{453,1020},{318,224}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimBottomRight/ExplositionAnimBottomRight_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{23,0}",
+      "spriteSize": "{404,296}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{453,1},{404,296}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimBottomRight/ExplositionAnimBottomRight_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{23,0}",
+      "spriteSize": "{404,296}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{453,299},{404,296}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimBottomRight/ExplositionAnimBottomRight_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{450,296}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{1,1},{450,296}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimBottomRight/ExplositionAnimBottomRight_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{450,296}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{1,299},{450,296}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimBottomRight/ExplositionAnimBottomRight_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{450,296}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{1,597},{450,296}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimBottomRight/ExplositionAnimBottomRight_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{450,296}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{1,895},{450,296}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimBottomRight/ExplositionAnimBottomRight_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{-5,-1}",
+      "spriteSize": "{440,294}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{1,1193},{440,294}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimBottomRight/ExplositionAnimBottomRight_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{-8,-7}",
+      "spriteSize": "{434,282}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{1,1489},{434,282}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimTopLeft/ExplositionAnimTopLeft_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{-223.5,146.5}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{806,597},{3,3}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimTopLeft/ExplositionAnimTopLeft_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{183,-113}",
+      "spriteSize": "{84,70}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{1,1773},{84,70}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimTopLeft/ExplositionAnimTopLeft_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{183,-112}",
+      "spriteSize": "{84,72}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{613,1712},{84,72}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimTopLeft/ExplositionAnimTopLeft_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{138,-89}",
+      "spriteSize": "{174,118}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{437,1712},{174,118}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimTopLeft/ExplositionAnimTopLeft_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{66,-36}",
+      "spriteSize": "{318,224}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{453,1020},{318,224}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimTopLeft/ExplositionAnimTopLeft_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{23,0}",
+      "spriteSize": "{404,296}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{453,1},{404,296}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimTopLeft/ExplositionAnimTopLeft_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{23,0}",
+      "spriteSize": "{404,296}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{453,299},{404,296}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimTopLeft/ExplositionAnimTopLeft_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{450,296}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{1,1},{450,296}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimTopLeft/ExplositionAnimTopLeft_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{450,296}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{1,299},{450,296}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimTopLeft/ExplositionAnimTopLeft_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{450,296}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{1,597},{450,296}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimTopLeft/ExplositionAnimTopLeft_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{450,296}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{1,895},{450,296}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimTopLeft/ExplositionAnimTopLeft_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{-5,-1}",
+      "spriteSize": "{440,294}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{1,1193},{440,294}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimTopLeft/ExplositionAnimTopLeft_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{-8,-7}",
+      "spriteSize": "{434,282}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{1,1489},{434,282}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimTopRight/ExplositionAnimTopRight_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{-223.5,146.5}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{806,597},{3,3}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimTopRight/ExplositionAnimTopRight_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{183,-113}",
+      "spriteSize": "{84,70}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{1,1773},{84,70}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimTopRight/ExplositionAnimTopRight_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{183,-112}",
+      "spriteSize": "{84,72}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{613,1712},{84,72}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimTopRight/ExplositionAnimTopRight_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{138,-89}",
+      "spriteSize": "{174,118}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{437,1712},{174,118}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimTopRight/ExplositionAnimTopRight_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{66,-36}",
+      "spriteSize": "{318,224}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{453,1020},{318,224}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimTopRight/ExplositionAnimTopRight_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{23,0}",
+      "spriteSize": "{404,296}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{453,1},{404,296}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimTopRight/ExplositionAnimTopRight_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{23,0}",
+      "spriteSize": "{404,296}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{453,299},{404,296}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimTopRight/ExplositionAnimTopRight_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{450,296}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{1,1},{450,296}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimTopRight/ExplositionAnimTopRight_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{450,296}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{1,299},{450,296}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimTopRight/ExplositionAnimTopRight_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{450,296}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{1,597},{450,296}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimTopRight/ExplositionAnimTopRight_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{450,296}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{1,895},{450,296}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimTopRight/ExplositionAnimTopRight_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{-5,-1}",
+      "spriteSize": "{440,294}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{1,1193},{440,294}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/ExplositionAnimTopRight/ExplositionAnimTopRight_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{-8,-7}",
+      "spriteSize": "{434,282}",
+      "spriteSourceSize": "{450,296}",
+      "textureRect": "{{1,1489},{434,282}}",
+      "textureRotated": false
+    },
+    "LeaderboardRewardScreen_01/NameBase/NameBase_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{274,94}",
+      "spriteSourceSize": "{274,94}",
+      "textureRect": "{{748,1288},{274,94}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_01/NameBase/NameBase_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{266,86}",
+      "spriteSourceSize": "{266,86}",
+      "textureRect": "{{748,1564},{266,86}}",
+      "textureRotated": true
+    },
+    "LeaderboardRewardScreen_01/NameBase/NameBase_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{266,85}",
+      "spriteSourceSize": "{266,85}",
+      "textureRect": "{{773,1020},{266,85}}",
+      "textureRotated": true
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "LeaderboardRewardScreen_01-hd.png",
+    "size": "{859,1844}",
+    "smartupdate": "$TexturePacker:SmartUpdate:7de021a612317d0d4faa117777c4d7eb:81ca774cd35dd8a3f35701bf75155cc0:71f6fe8feeadaa8e6efa3cd35575cb10$",
+    "textureFileName": "LeaderboardRewardScreen_01-hd.png"
+  }
+}

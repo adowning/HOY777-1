@@ -1,9 +1,8 @@
 // db/schema/vips.ts
-import { pgTable, text, integer, jsonb, varchar } from 'drizzle-orm/pg-core'
+import { integer, jsonb, pgTable, text, varchar } from 'drizzle-orm/pg-core'
 import { createSelectSchema } from 'drizzle-zod'
 import { nanoid } from '../../utils/nanoid'
 import { users } from './users'
-import { relations } from 'drizzle-orm'
 
 export const vips = pgTable('vips', {
   id: varchar('id').primaryKey().$defaultFn(nanoid),
@@ -42,30 +41,7 @@ export const vips = pgTable('vips', {
   historyCashBack: integer('history_cash_back'),
 })
 
-export const vipInfo = pgTable('vip_info', {
-  userId: text('user_id')
-    .primaryKey()
-    .references(() => users.id),
-  level: integer('level').default(0),
-  depositExp: integer('deposit_exp').default(0),
-  betExp: integer('bet_exp').default(0),
-  rankBetExp: integer('rank_bet_exp').default(0),
-  rankDepositExp: integer('rank_deposit_exp').default(0),
-  freeSpinTimes: integer('free_spin_times').default(0),
-  weekGift: integer('week_gift').default(0),
-  monthGift: integer('month_gift').default(0),
-  upgradeGift: integer('upgrade_gift').default(0),
-  nowCashBack: integer('now_cash_back').default(0),
-  yesterdayCashBack: integer('yesterday_cash_back').default(0),
-  historyCashBack: integer('history_cash_back').default(0),
-})
 
-export const vipInfoRelations = relations(vipInfo, ({ one }) => ({
-  user: one(users, {
-    fields: [vipInfo.userId],
-    references: [users.id],
-  }),
-}))
 
 export const vipLevels = pgTable('vip_levels', {
   id: varchar('id').primaryKey().$defaultFn(nanoid),
@@ -110,6 +86,7 @@ export const vipSigninAwards = pgTable('vip_signin_awards', {
 
 export const vipTasks = pgTable('vip_tasks', {
   id: varchar('id').primaryKey().$defaultFn(nanoid),
+  userId: varchar('user_id').references(() => users.id),
   index: integer('index'),
   taskId: integer('task_id'),
   taskType: integer('task_type'),
@@ -120,6 +97,7 @@ export const vipTasks = pgTable('vip_tasks', {
 
 export const vipRebateHistory = pgTable('vip_rebate_history', {
   id: varchar('id').primaryKey().$defaultFn(nanoid),
+  userId: varchar('user_id').references(() => users.id),
   notesId: text('notes_id'),
   createdAt: text('created_at'),
   amount: text('amount'),
@@ -131,6 +109,7 @@ export const vipRebateHistory = pgTable('vip_rebate_history', {
 
 export const vipLevelRewardHistory = pgTable('vip_level_reward_history', {
   id: varchar('id').primaryKey().$defaultFn(nanoid),
+  userId: varchar('user_id').references(() => users.id),
   notesId: text('notes_id'),
   createdAt: text('created_at'),
   amount: text('amount'),
@@ -140,6 +119,7 @@ export const vipLevelRewardHistory = pgTable('vip_level_reward_history', {
 
 export const vipTimesHistory = pgTable('vip_times_history', {
   id: varchar('id').primaryKey().$defaultFn(nanoid),
+  userId: varchar('user_id').references(() => users.id),
   notesId: text('notes_id'),
   createdAt: text('created_at'),
   amount: text('amount'),

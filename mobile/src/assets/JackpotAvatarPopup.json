@@ -1,0 +1,195 @@
+{
+  "frames": {
+    "JackpotAvatarPopup_00/BlackMask.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{653,107}",
+      "spriteSourceSize": "{653,107}",
+      "textureRect": "{{1,1},{653,107}}",
+      "textureRotated": true
+    },
+    "JackpotAvatarPopup_00/ConfirmBtn/ConfirmBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{193,78}",
+      "spriteSourceSize": "{193,78}",
+      "textureRect": "{{1,1210},{193,78}}",
+      "textureRotated": false
+    },
+    "JackpotAvatarPopup_00/ConfirmBtn/ConfirmBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{193,78}",
+      "spriteSourceSize": "{193,78}",
+      "textureRect": "{{100,656},{193,78}}",
+      "textureRotated": true
+    },
+    "JackpotAvatarPopup_00/ConfirmBtn/ConfirmBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{193,78}",
+      "spriteSourceSize": "{193,78}",
+      "textureRect": "{{110,1},{193,78}}",
+      "textureRotated": true
+    },
+    "JackpotAvatarPopup_00/ConnectFB/ConnectFB_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{112,44}",
+      "spriteSourceSize": "{112,44}",
+      "textureRect": "{{55,1144},{112,44}}",
+      "textureRotated": false
+    },
+    "JackpotAvatarPopup_00/ConnectFB/ConnectFB_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{112,44}",
+      "spriteSourceSize": "{112,44}",
+      "textureRect": "{{100,967},{112,44}}",
+      "textureRotated": false
+    },
+    "JackpotAvatarPopup_00/ConnectFB/ConnectFB_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{112,44}",
+      "spriteSourceSize": "{112,44}",
+      "textureRect": "{{172,1013},{112,44}}",
+      "textureRotated": true
+    },
+    "JackpotAvatarPopup_00/ConnectFBBase.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{111,111}",
+      "spriteSourceSize": "{111,111}",
+      "textureRect": "{{110,196},{111,111}}",
+      "textureRotated": false
+    },
+    "JackpotAvatarPopup_00/DownArrow/DownArrow_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{9,8}",
+      "spriteSourceSize": "{9,8}",
+      "textureRect": "{{169,1159},{9,8}}",
+      "textureRotated": false
+    },
+    "JackpotAvatarPopup_00/DownArrow/DownArrow_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{9,8}",
+      "spriteSourceSize": "{9,8}",
+      "textureRect": "{{169,1159},{9,8}}",
+      "textureRotated": false
+    },
+    "JackpotAvatarPopup_00/DownArrow/DownArrow_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{9,8}",
+      "spriteSourceSize": "{9,8}",
+      "textureRect": "{{169,1159},{9,8}}",
+      "textureRotated": false
+    },
+    "JackpotAvatarPopup_00/FrameBg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{114,114}",
+      "spriteSourceSize": "{114,114}",
+      "textureRect": "{{100,851},{114,114}}",
+      "textureRotated": false
+    },
+    "JackpotAvatarPopup_00/FrameTick.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{116,115}",
+      "spriteSourceSize": "{116,115}",
+      "textureRect": "{{55,1026},{116,115}}",
+      "textureRotated": true
+    },
+    "JackpotAvatarPopup_00/MiddleArrow.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{28,101}",
+      "spriteSourceSize": "{28,101}",
+      "textureRect": "{{190,1},{28,101}}",
+      "textureRotated": false
+    },
+    "JackpotAvatarPopup_00/ProfilePicBase.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{111,111}",
+      "spriteSourceSize": "{111,111}",
+      "textureRect": "{{110,309},{111,111}}",
+      "textureRotated": false
+    },
+    "JackpotAvatarPopup_00/ProfilePicBaseFrame.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{111,111}",
+      "spriteSourceSize": "{111,111}",
+      "textureRect": "{{110,422},{111,111}}",
+      "textureRotated": false
+    },
+    "JackpotAvatarPopup_00/ProfilePicBaseFrame2.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{111,111}",
+      "spriteSourceSize": "{111,111}",
+      "textureRect": "{{110,535},{111,111}}",
+      "textureRotated": false
+    },
+    "JackpotAvatarPopup_00/ScrollBase.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{43,368}",
+      "spriteSourceSize": "{43,368}",
+      "textureRect": "{{55,656},{43,368}}",
+      "textureRotated": false
+    },
+    "JackpotAvatarPopup_00/Title.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{552,52}",
+      "spriteSourceSize": "{552,52}",
+      "textureRect": "{{1,656},{552,52}}",
+      "textureRotated": true
+    },
+    "JackpotAvatarPopup_00/UpArrow/UpArrow_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{13,9}",
+      "spriteSourceSize": "{13,9}",
+      "textureRect": "{{169,1144},{13,9}}",
+      "textureRotated": true
+    },
+    "JackpotAvatarPopup_00/UpArrow/UpArrow_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{13,9}",
+      "spriteSourceSize": "{13,9}",
+      "textureRect": "{{169,1144},{13,9}}",
+      "textureRotated": true
+    },
+    "JackpotAvatarPopup_00/UpArrow/UpArrow_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{13,9}",
+      "spriteSourceSize": "{13,9}",
+      "textureRect": "{{169,1144},{13,9}}",
+      "textureRotated": true
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "JackpotAvatarPopup_00-hd.png",
+    "size": "{222,1289}",
+    "smartupdate": "$TexturePacker:SmartUpdate:ee1960ccca4edf12b749122e055b0a6a:0c266f571e209b45d72b0901f1c42772:db08ef8068f7d70b3399a67a6fe87878$",
+    "textureFileName": "JackpotAvatarPopup_00-hd.png",
+    "animations": [
+      "ConfirmBtn",
+      "ConnectFB",
+      "DownArrow",
+      "UpArrow"
+    ]
+  }
+}

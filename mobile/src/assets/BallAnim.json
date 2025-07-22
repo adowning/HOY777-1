@@ -1,0 +1,54 @@
+{
+  "frames": {
+    "BallAnim_00/Ball1.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{88,65}",
+      "spriteSourceSize": "{88,65}",
+      "textureRect": "{{1,1},{88,65}}",
+      "textureRotated": false
+    },
+    "BallAnim_00/Ball2.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{77,57}",
+      "spriteSourceSize": "{77,57}",
+      "textureRect": "{{1,68},{77,57}}",
+      "textureRotated": false
+    },
+    "BallAnim_00/Ball3.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{67,49}",
+      "spriteSourceSize": "{67,49}",
+      "textureRect": "{{1,127},{67,49}}",
+      "textureRotated": false
+    },
+    "BallAnim_00/Ball4.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{59,44}",
+      "spriteSourceSize": "{59,44}",
+      "textureRect": "{{80,68},{59,44}}",
+      "textureRotated": true
+    },
+    "BallAnim_00/Ball5.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{50,38}",
+      "spriteSourceSize": "{50,38}",
+      "textureRect": "{{70,129},{50,38}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "BallAnim_00-hd.png",
+    "size": "{125,177}",
+    "smartupdate": "$TexturePacker:SmartUpdate:6953a470327345be79a8fb8850acf30b:7acf091d61439d48a27afd119134b5d2:f1b5a82c178a52e958d4fe6bc9280182$",
+    "textureFileName": "BallAnim_00-hd.png",
+    "animations": []
+  }
+}

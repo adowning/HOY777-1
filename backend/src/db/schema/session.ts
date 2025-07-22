@@ -10,8 +10,11 @@ import {
 import { relations } from 'drizzle-orm'
 import { createInsertSchema, createSelectSchema } from 'drizzle-zod'
 import { z } from 'zod'
-import { users, selectUsersSchema } from './users' // Assuming you have a user schema file
-import { games, selectGamesSchema } from './games' // Assuming you have a game schema file
+import { users, selectUsersSchema } from './users'
+import { games } from './games'
+import { selectWalletsSchema } from './wallets'
+import { selectOperatorsSchema } from './operators'
+import { selectVipInfoSchema } from './vipInfo'
 import { transformSchemaForOpenAPI } from '#/lib/schema-transformer'
 
 // 1. Define the Enum for SessionStatus (equivalent to Prisma's enum)
@@ -105,20 +108,18 @@ export const selectSessionSchema = transformSchemaForOpenAPI(
 // export const UserWithRelations = selectUserSchema.extend({ ...relations... });
 // For this example, we'll just use the base user schema.
 
-export const sessionWithRelations = selectSessionSchema.extend({
-  user: selectUsersSchema.nullable(),
-  game: selectGamesSchema.nullable(),
-})
-
 // This is the final schema you requested.
 export const sessionResponseSchema = transformSchemaForOpenAPI(
   z.object({
-    session: selectUsersSchema.nullable(),
-    user: selectGamesSchema.nullable(),
+    session: selectSessionSchema.nullable(),
+    user: selectUsersSchema.nullable(),
+    wallet: selectWalletsSchema.nullable(),
+    operator: selectOperatorsSchema.nullable(),
+    vipInfo: selectVipInfoSchema.nullable(),
   })
 )
 
 // You can infer the TypeScript types directly from the Zod schemas
 export type InsertSession = z.infer<typeof insertSessionSchema>
 export type SelectSession = z.infer<typeof selectSessionSchema>
-export type SessionResponse = z.infer<typeof SessionResponseSchema>
+export type Session = z.infer<typeof sessions>

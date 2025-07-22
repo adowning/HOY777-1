@@ -1,0 +1,30 @@
+{
+  "frames": {
+    "VIPExtraReward_00/Message.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{76,13}",
+      "spriteSourceSize": "{76,13}",
+      "textureRect": "{{1,236},{76,13}}",
+      "textureRotated": false
+    },
+    "VIPExtraReward_00/VipBonusBg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{167,233}",
+      "spriteSourceSize": "{167,233}",
+      "textureRect": "{{1,1},{167,233}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "VIPExtraReward_00-hd.png",
+    "size": "{169,250}",
+    "smartupdate": "$TexturePacker:SmartUpdate:f8c9205a595f196c11c89b0ae93e0f9c:9f9c23abfe621c9233c4348f2db78adf:68cf3ef0354f78845a5a866965bef404$",
+    "textureFileName": "VIPExtraReward_00-hd.png",
+    "animations": []
+  }
+}

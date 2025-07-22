@@ -1,0 +1,110 @@
+{
+  "frames": {
+    "CoinRotation/CoinAnim_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{66,67}",
+      "spriteSourceSize": "{122,89}",
+      "textureRect": "{{1,70},{66,67}}",
+      "textureRotated": false
+    },
+    "CoinRotation/CoinAnim_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{68,67}",
+      "spriteSourceSize": "{122,89}",
+      "textureRect": "{{1,1},{68,67}}",
+      "textureRotated": false
+    },
+    "CoinRotation/CoinAnim_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,0}",
+      "spriteSize": "{66,67}",
+      "spriteSourceSize": "{122,89}",
+      "textureRect": "{{1,139},{66,67}}",
+      "textureRotated": false
+    },
+    "CoinRotation/CoinAnim_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{-4,0}",
+      "spriteSize": "{60,67}",
+      "spriteSourceSize": "{122,89}",
+      "textureRect": "{{1,208},{60,67}}",
+      "textureRotated": false
+    },
+    "CoinRotation/CoinAnim_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{-5,0}",
+      "spriteSize": "{50,67}",
+      "spriteSourceSize": "{122,89}",
+      "textureRect": "{{69,70},{50,67}}",
+      "textureRotated": false
+    },
+    "CoinRotation/CoinAnim_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{-6,0}",
+      "spriteSize": "{42,67}",
+      "spriteSourceSize": "{122,89}",
+      "textureRect": "{{69,139},{42,67}}",
+      "textureRotated": false
+    },
+    "CoinRotation/CoinAnim_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{-5,0}",
+      "spriteSize": "{24,67}",
+      "spriteSourceSize": "{122,89}",
+      "textureRect": "{{63,277},{24,67}}",
+      "textureRotated": false
+    },
+    "CoinRotation/CoinAnim_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{20,67}",
+      "spriteSourceSize": "{122,89}",
+      "textureRect": "{{97,208},{20,67}}",
+      "textureRotated": false
+    },
+    "CoinRotation/CoinAnim_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{5,0}",
+      "spriteSize": "{24,67}",
+      "spriteSourceSize": "{122,89}",
+      "textureRect": "{{89,277},{24,67}}",
+      "textureRotated": false
+    },
+    "CoinRotation/CoinAnim_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{3,0}",
+      "spriteSize": "{32,67}",
+      "spriteSourceSize": "{122,89}",
+      "textureRect": "{{63,208},{32,67}}",
+      "textureRotated": false
+    },
+    "CoinRotation/CoinAnim_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{3,0}",
+      "spriteSize": "{44,67}",
+      "spriteSourceSize": "{122,89}",
+      "textureRect": "{{71,1},{44,67}}",
+      "textureRotated": false
+    },
+    "CoinRotation/CoinAnim_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{2,0}",
+      "spriteSize": "{60,67}",
+      "spriteSourceSize": "{122,89}",
+      "textureRect": "{{1,277},{60,67}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "CoinRotation-hd.png",
+    "size": "{120,345}",
+    "smartupdate": "$TexturePacker:SmartUpdate:b1f7e9e11890ecacf1ddb955557222ce:6e61350504ec2ed22d4ceed8814dbe81:06141669a5b429eb5cf719f683116e13$",
+    "textureFileName": "CoinRotation-hd.png",
+    "animations": []
+  }
+}

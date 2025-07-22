@@ -1,0 +1,22 @@
+{
+  "frames": {
+    "ItemBubble_00/ItemBubbleBG.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{231,167}",
+      "spriteSourceSize": "{231,167}",
+      "textureRect": "{{1,1},{231,167}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "ItemBubble_00-hd.png",
+    "size": "{233,169}",
+    "smartupdate": "$TexturePacker:SmartUpdate:1db7a5250473711f99c5c62cc1cda78d:e4ca0b67e9448d72789061d881ace361:159481c2837b6778cb8ff1e6ba363c99$",
+    "textureFileName": "ItemBubble_00-hd.png",
+    "animations": []
+  }
+}

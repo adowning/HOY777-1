@@ -1,0 +1,96 @@
+{
+  "frames": {
+    "FirstOOCRewardPopup_00/BgPart.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{4,4}",
+      "spriteSourceSize": "{4,4}",
+      "textureRect": "{{773,1},{4,4}}",
+      "textureRotated": false
+    },
+    "FirstOOCRewardPopup_00/CoinLeft.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{237,182}",
+      "spriteSourceSize": "{237,182}",
+      "textureRect": "{{338,225},{237,182}}",
+      "textureRotated": true
+    },
+    "FirstOOCRewardPopup_00/CoinRight.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{237,182}",
+      "spriteSourceSize": "{237,182}",
+      "textureRect": "{{338,225},{237,182}}",
+      "textureRotated": true
+    },
+    "FirstOOCRewardPopup_00/CoinTextBg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{565,161}",
+      "spriteSourceSize": "{565,161}",
+      "textureRect": "{{1,62},{565,161}}",
+      "textureRotated": false
+    },
+    "FirstOOCRewardPopup_00/CollectBtn/CollectBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,88}",
+      "spriteSourceSize": "{223,88}",
+      "textureRect": "{{838,1},{223,88}}",
+      "textureRotated": true
+    },
+    "FirstOOCRewardPopup_00/CollectBtn/CollectBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,88}",
+      "spriteSourceSize": "{223,88}",
+      "textureRect": "{{838,226},{223,88}}",
+      "textureRotated": true
+    },
+    "FirstOOCRewardPopup_00/CollectBtn/CollectBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,88}",
+      "spriteSourceSize": "{223,88}",
+      "textureRect": "{{522,399},{223,88}}",
+      "textureRotated": false
+    },
+    "FirstOOCRewardPopup_00/Heading.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{770,59}",
+      "spriteSourceSize": "{770,59}",
+      "textureRect": "{{1,1},{770,59}}",
+      "textureRotated": false
+    },
+    "FirstOOCRewardPopup_00/StarLeft.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{268,335}",
+      "spriteSourceSize": "{268,335}",
+      "textureRect": "{{568,62},{268,335}}",
+      "textureRotated": false
+    },
+    "FirstOOCRewardPopup_00/StarRight.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{267,335}",
+      "spriteSourceSize": "{267,335}",
+      "textureRect": "{{1,225},{267,335}}",
+      "textureRotated": true
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "FirstOOCRewardPopup_00-hd.png",
+    "size": "{927,493}",
+    "smartupdate": "$TexturePacker:SmartUpdate:fa63e313a76e8774efc428df9f3356b2:5892a516918ef1153e3db033949aa104:1caa33023dc9ead7df94b20f8b90c62b$",
+    "textureFileName": "FirstOOCRewardPopup_00-hd.png",
+    "animations": [
+      "CollectBtn"
+    ]
+  }
+}

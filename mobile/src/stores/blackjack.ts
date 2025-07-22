@@ -1,0 +1,156 @@
+import { defineStore } from 'pinia';
+import { ref } from 'vue';
+import { useSocketStore } from './socket';
+import { useAuthStore } from './auth.store';
+import { useNotificationStore } from './notifications';
+
+export const useBlackjackStore = defineStore('blackjack', () => {
+    const recent = ref<any[] | null>(null);
+    const tables = ref<any[]>([]);
+
+    const socketStore = useSocketStore();
+    const authStore = useAuthStore();
+    const notificationsStore = useNotificationStore();
+
+    function setRecent(bets: any[]) {
+        recent.value = bets;
+    }
+
+    function setTables(newTables: any[]) {
+        tables.value = newTables;
+    }
+
+    function updateTable(table: any) {
+        const index = tables.value.findIndex((t) => t.table === table.table);
+        if (index !== -1) {
+            tables.value.splice(index, 1, table);
+        }
+    }
+
+    function socketInit(data: { tables: any[] }) {
+        setTables(data.tables);
+    }
+
+    function socketTable(data: { table: any }) {
+        if (data.table.game.state === 'completed' && authStore.currentUser) {
+            setRecent(
+                data.table.players
+                    .filter((player: any) => player.user.id === authStore.currentUser!.id)
+                    .map((player: any) => ({ seat: player.bet.seat, amount: player.bet.amount }))
+            );
+        }
+        updateTable(data.table);
+    }
+
+    function sendJoin(data: any) {
+        if (!socketStore.blackjack || socketStore.sendLoading) return;
+        socketStore.setSendLoading('BlackjackJoin');
+        socketStore.blackjack.emit('sendJoin', data, (res: any) => {
+            if (!res.success) {
+                notificationsStore.show(res.error);
+            }
+            socketStore.setSendLoading(null);
+        });
+    }
+
+    function sendBet(data: any) {
+        if (!socketStore.blackjack || socketStore.sendLoading) return;
+        socketStore.setSendLoading('BlackjackBet');
+        socketStore.blackjack.emit('sendBet', data, (res: any) => {
+            if (res.success) {
+                authStore.setUser(res.user);
+            } else {
+                notificationsStore.show(res.error);
+            }
+            socketStore.setSendLoading(null);
+        });
+    }
+
+    function sendClear(data: any) {
+        if (!socketStore.blackjack || socketStore.sendLoading) return;
+        socketStore.setSendLoading('BlackjackClear');
+        socketStore.blackjack.emit('sendClear', data, (res: any) => {
+            if (res.success) {
+                authStore.setUser(res.user);
+            } else {
+                notificationsStore.show(res.error);
+            }
+            socketStore.setSendLoading(null);
+        });
+    }
+
+    function sendInsurance(data: any) {
+        if (!socketStore.blackjack || socketStore.sendLoading) return;
+        socketStore.setSendLoading('BlackjackInsurance');
+        socketStore.blackjack.emit('sendInsurance', data, (res: any) => {
+            if (!res.success) {
+                notificationsStore.show(res.error);
+            }
+            socketStore.setSendLoading(null);
+        });
+    }
+
+    function sendHit(data: any) {
+        if (!socketStore.blackjack || socketStore.sendLoading) return;
+        socketStore.setSendLoading('BlackjackHit');
+        socketStore.blackjack.emit('sendHit', data, (res: any) => {
+            if (!res.success) {
+                notificationsStore.show(res.error);
+            }
+            socketStore.setSendLoading(null);
+        });
+    }
+
+    function sendStand(data: any) {
+        if (!socketStore.blackjack || socketStore.sendLoading) return;
+        socketStore.setSendLoading('BlackjackStand');
+        socketStore.blackjack.emit('sendStand', data, (res: any) => {
+            if (!res.success) {
+                notificationsStore.show(res.error);
+            }
+            socketStore.setSendLoading(null);
+        });
+    }
+
+    function sendSplit(data: any) {
+        if (!socketStore.blackjack || socketStore.sendLoading) return;
+        socketStore.setSendLoading('BlackjackSplit');
+        socketStore.blackjack.emit('sendSplit', data, (res: any) => {
+            if (!res.success) {
+                notificationsStore.show(res.error);
+            }
+            socketStore.setSendLoading(null);
+        });
+    }
+
+    function sendDouble(data: any) {
+        if (!socketStore.blackjack || socketStore.sendLoading) return;
+        socketStore.setSendLoading('BlackjackDouble');
+        socketStore.blackjack.emit('sendDouble', data, (res: any) => {
+            if (!res.success) {
+                notificationsStore.show(res.error);
+            }
+            socketStore.setSendLoading(null);
+        });
+    }
+
+    return {
+        recent,
+        tables,
+        setRecent,
+        setTables,
+        updateTable,
+        socketInit,
+        socketTable,
+        sendJoin,
+        sendBet,
+        sendClear,
+        sendInsurance,
+        sendHit,
+        sendStand,
+        sendSplit,
+        sendDouble
+    };
+}, {
+    persist: true
+});

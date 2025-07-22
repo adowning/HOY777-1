@@ -1,0 +1,129 @@
+{
+  "frames": {
+    "DailyMillionaireInfoPopup_00/7thDay.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{309,462}",
+      "spriteSourceSize": "{309,462}",
+      "textureRect": "{{646,1},{309,462}}",
+      "textureRotated": false
+    },
+    "DailyMillionaireInfoPopup_00/AvailableTxt.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{253,14}",
+      "spriteSourceSize": "{253,14}",
+      "textureRect": "{{1004,1},{253,14}}",
+      "textureRotated": true
+    },
+    "DailyMillionaireInfoPopup_00/Bg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{1026,631}",
+      "spriteSourceSize": "{1026,631}",
+      "textureRect": "{{1,159},{1026,631}}",
+      "textureRotated": true
+    },
+    "DailyMillionaireInfoPopup_00/CloseBtn/CloseBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{45,45}",
+      "spriteSourceSize": "{45,45}",
+      "textureRect": "{{957,1},{45,45}}",
+      "textureRotated": false
+    },
+    "DailyMillionaireInfoPopup_00/CloseBtn/CloseBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{45,45}",
+      "spriteSourceSize": "{45,45}",
+      "textureRect": "{{957,48},{45,45}}",
+      "textureRotated": false
+    },
+    "DailyMillionaireInfoPopup_00/CloseBtn/CloseBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{45,45}",
+      "spriteSourceSize": "{45,45}",
+      "textureRect": "{{957,95},{45,45}}",
+      "textureRotated": false
+    },
+    "DailyMillionaireInfoPopup_00/CollectBtn/CollectBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{291,94}",
+      "spriteSourceSize": "{291,94}",
+      "textureRect": "{{634,465},{291,94}}",
+      "textureRotated": false
+    },
+    "DailyMillionaireInfoPopup_00/CollectBtn/CollectBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{291,94}",
+      "spriteSourceSize": "{291,94}",
+      "textureRect": "{{927,465},{291,94}}",
+      "textureRotated": true
+    },
+    "DailyMillionaireInfoPopup_00/CollectBtn/CollectBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{291,94}",
+      "spriteSourceSize": "{291,94}",
+      "textureRect": "{{634,561},{291,94}}",
+      "textureRotated": false
+    },
+    "DailyMillionaireInfoPopup_00/Panel.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{643,156}",
+      "spriteSourceSize": "{643,156}",
+      "textureRect": "{{1,1},{643,156}}",
+      "textureRotated": false
+    },
+    "DailyMillionaireInfoPopup_00/ShadeLeft.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{104,137}",
+      "spriteSourceSize": "{104,137}",
+      "textureRect": "{{634,657},{104,137}}",
+      "textureRotated": true
+    },
+    "DailyMillionaireInfoPopup_00/ShadeRight.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{104,137}",
+      "spriteSourceSize": "{104,137}",
+      "textureRect": "{{634,657},{104,137}}",
+      "textureRotated": true
+    },
+    "DailyMillionaireInfoPopup_00/TickLeft.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{104,137}",
+      "spriteSourceSize": "{104,137}",
+      "textureRect": "{{773,657},{104,137}}",
+      "textureRotated": true
+    },
+    "DailyMillionaireInfoPopup_00/UnTickLeft.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{104,137}",
+      "spriteSourceSize": "{104,137}",
+      "textureRect": "{{912,758},{104,137}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "DailyMillionaireInfoPopup_00-hd.png",
+    "size": "{1024,2048}",
+    "smartupdate": "$TexturePacker:SmartUpdate:c19162e9d636db50f6bf52085ef5aa89:c716ccb8e65396f65748d6db86fe8f68:c9a625327be623313560ca9ddef2da15$",
+    "textureFileName": "DailyMillionaireInfoPopup_00-hd.png",
+    "animations": [
+      "CloseBtn",
+      "CollectBtn"
+    ]
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "frames": {
+    "Hud_Aristrocrat_00/BackButton/BackButton_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{59,59}",
+      "spriteSourceSize": "{59,59}",
+      "textureRect": "{{1,128},{59,59}}",
+      "textureRotated": false
+    },
+    "Hud_Aristrocrat_00/BackButton/BackButton_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{59,59}",
+      "spriteSourceSize": "{59,59}",
+      "textureRect": "{{62,128},{59,59}}",
+      "textureRotated": false
+    },
+    "Hud_Aristrocrat_00/BackButton/BackButton_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{59,59}",
+      "spriteSourceSize": "{59,59}",
+      "textureRect": "{{123,128},{59,59}}",
+      "textureRotated": false
+    },
+    "Hud_Aristrocrat_00/BgShade.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{1136,125}",
+      "spriteSourceSize": "{1136,125}",
+      "textureRect": "{{1,1},{1136,125}}",
+      "textureRotated": false
+    },
+    "Hud_Aristrocrat_00/BuyBtn/BuyBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{111,44}",
+      "spriteSourceSize": "{111,44}",
+      "textureRect": "{{115,189},{111,44}}",
+      "textureRotated": false
+    },
+    "Hud_Aristrocrat_00/BuyBtn/BuyBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{111,44}",
+      "spriteSourceSize": "{111,44}",
+      "textureRect": "{{228,189},{111,44}}",
+      "textureRotated": false
+    },
+    "Hud_Aristrocrat_00/BuyBtn/BuyBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{111,44}",
+      "spriteSourceSize": "{111,44}",
+      "textureRect": "{{341,189},{111,44}}",
+      "textureRotated": false
+    },
+    "Hud_Aristrocrat_00/CoinPos.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{242,52}",
+      "spriteSourceSize": "{242,52}",
+      "textureRect": "{{550,128},{242,52}}",
+      "textureRotated": false
+    },
+    "Hud_Aristrocrat_00/MsgButton/MsgButton_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{59,59}",
+      "spriteSourceSize": "{59,59}",
+      "textureRect": "{{184,128},{59,59}}",
+      "textureRotated": false
+    },
+    "Hud_Aristrocrat_00/MsgButton/MsgButton_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{59,59}",
+      "spriteSourceSize": "{59,59}",
+      "textureRect": "{{245,128},{59,59}}",
+      "textureRotated": false
+    },
+    "Hud_Aristrocrat_00/MsgButton/MsgButton_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{59,59}",
+      "spriteSourceSize": "{59,59}",
+      "textureRect": "{{306,128},{59,59}}",
+      "textureRotated": false
+    },
+    "Hud_Aristrocrat_00/NewsFeedBubble.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{26,27}",
+      "spriteSourceSize": "{26,27}",
+      "textureRect": "{{1061,173},{26,27}}",
+      "textureRotated": false
+    },
+    "Hud_Aristrocrat_00/PurchaseCart/PurchaseCart_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{245,51}",
+      "spriteSourceSize": "{245,51}",
+      "textureRect": "{{567,182},{245,51}}",
+      "textureRotated": false
+    },
+    "Hud_Aristrocrat_00/PurchaseCart/PurchaseCart_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{245,51}",
+      "spriteSourceSize": "{245,51}",
+      "textureRect": "{{794,128},{245,51}}",
+      "textureRotated": false
+    },
+    "Hud_Aristrocrat_00/PurchaseCart/PurchaseCart_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{245,51}",
+      "spriteSourceSize": "{245,51}",
+      "textureRect": "{{814,181},{245,51}}",
+      "textureRotated": false
+    },
+    "Hud_Aristrocrat_00/SaleBtn/SaleBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{111,43}",
+      "spriteSourceSize": "{111,43}",
+      "textureRect": "{{454,189},{111,43}}",
+      "textureRotated": false
+    },
+    "Hud_Aristrocrat_00/SaleBtn/SaleBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{112,44}",
+      "spriteSourceSize": "{112,44}",
+      "textureRect": "{{1,189},{112,44}}",
+      "textureRotated": false
+    },
+    "Hud_Aristrocrat_00/SaleBtn/SaleBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{111,43}",
+      "spriteSourceSize": "{111,43}",
+      "textureRect": "{{1041,128},{111,43}}",
+      "textureRotated": false
+    },
+    "Hud_Aristrocrat_00/SettingsButton/SettingsButton_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{59,59}",
+      "spriteSourceSize": "{59,59}",
+      "textureRect": "{{367,128},{59,59}}",
+      "textureRotated": false
+    },
+    "Hud_Aristrocrat_00/SettingsButton/SettingsButton_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{59,59}",
+      "spriteSourceSize": "{59,59}",
+      "textureRect": "{{428,128},{59,59}}",
+      "textureRotated": false
+    },
+    "Hud_Aristrocrat_00/SettingsButton/SettingsButton_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{59,59}",
+      "spriteSourceSize": "{59,59}",
+      "textureRect": "{{489,128},{59,59}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "Hud_Aristrocrat_00-hd.png",
+    "size": "{1153,234}",
+    "smartupdate": "$TexturePacker:SmartUpdate:64cc63fdcc531e7b60e0d966232331c1:cb6942407e7cd77c3ca88f452fe44f72:e8785d21590401d021bacf4c98ca739a$",
+    "textureFileName": "Hud_Aristrocrat_00-hd.png",
+    "animations": [
+      "BackButton",
+      "BuyBtn",
+      "MsgButton",
+      "PurchaseCart",
+      "SaleBtn",
+      "SettingsButton"
+    ]
+  }
+}

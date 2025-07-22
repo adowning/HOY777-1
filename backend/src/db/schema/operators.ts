@@ -9,8 +9,10 @@ import {
   varchar,
 } from 'drizzle-orm/pg-core'
 import { relations } from 'drizzle-orm'
+import { createInsertSchema, createSelectSchema } from 'drizzle-zod'
 import { nanoid } from '../../utils/nanoid'
 import { wallets } from './wallets'
+import { transformSchemaForOpenAPI } from '#/lib/schema-transformer'
 
 export const paymentMethodEnum = pgEnum('payment_method', [
   'INSTORE_CASH',
@@ -70,3 +72,29 @@ export const productsRelations = relations(products, ({ one }) => ({
     references: [operators.id],
   }),
 }))
+
+// Operator schemas
+export const selectOperatorsSchema = transformSchemaForOpenAPI(
+  createSelectSchema(operators)
+)
+
+export const insertOperatorsSchema = transformSchemaForOpenAPI(
+  createInsertSchema(operators).omit({
+    id: true,
+    createdAt: true,
+    updatedAt: true,
+  })
+)
+
+// Product schemas
+export const selectProductsSchema = transformSchemaForOpenAPI(
+  createSelectSchema(products)
+)
+
+export const insertProductsSchema = transformSchemaForOpenAPI(
+  createInsertSchema(products).omit({
+    id: true,
+    createdAt: true,
+    updatedAt: true,
+  })
+)

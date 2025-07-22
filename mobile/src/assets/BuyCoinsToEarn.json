@@ -1,0 +1,22 @@
+{
+  "frames": {
+    "BuyCoinsToEarn_00/Bg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{958,601}",
+      "spriteSourceSize": "{958,601}",
+      "textureRect": "{{1,1},{958,601}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "BuyCoinsToEarn_00-hd.png",
+    "size": "{960,603}",
+    "smartupdate": "$TexturePacker:SmartUpdate:6613897e0d43612883a461879edffa56:e44a5f5dd53ae2c71386277869c3137c:e25a07edae461cfa87b7a790a8bfd941$",
+    "textureFileName": "BuyCoinsToEarn_00-hd.png",
+    "animations": []
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "frames": {
+    "JackpotLoadingScreen_00/CardCombine/CardCombine_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{365,202}",
+      "spriteSourceSize": "{417,202}",
+      "textureRect": "{{465,1},{365,202}}",
+      "textureRotated": false
+    },
+    "JackpotLoadingScreen_00/GameLoading.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{403,39}",
+      "spriteSourceSize": "{403,39}",
+      "textureRect": "{{1,196},{403,39}}",
+      "textureRotated": false
+    },
+    "JackpotLoadingScreen_00/LoadingBar.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{380,17}",
+      "spriteSourceSize": "{380,17}",
+      "textureRect": "{{406,205},{380,17}}",
+      "textureRotated": false
+    },
+    "JackpotLoadingScreen_00/TitleLoading/TitleLoading_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{-229.5,95}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{462,193}",
+      "textureRect": "{{406,196},{3,3}}",
+      "textureRotated": false
+    },
+    "JackpotLoadingScreen_00/TitleLoading/TitleLoading_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{462,193}",
+      "spriteSourceSize": "{462,193}",
+      "textureRect": "{{1,1},{462,193}}",
+      "textureRotated": false
+    },
+    "JackpotLoadingScreen_00/TitleLoading/TitleLoading_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{462,193}",
+      "spriteSourceSize": "{462,193}",
+      "textureRect": "{{1,1},{462,193}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "JackpotLoadingScreen_00-hd.png",
+    "size": "{831,236}",
+    "smartupdate": "$TexturePacker:SmartUpdate:da7d9f5bbbee17c4506765010d7b9607:b9333e54ff8f2468117cd0dd8bb1d888:a360836f5c2df89d43c36dcded8f64a6$",
+    "textureFileName": "JackpotLoadingScreen_00-hd.png",
+    "animations": [
+      "CardCombine",
+      "TitleLoading"
+    ]
+  }
+}

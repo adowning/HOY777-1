@@ -1,0 +1,241 @@
+{
+  "frames": {
+    "PermissionScreen_00/DnLogo.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{186,63}",
+      "spriteSourceSize": "{186,63}",
+      "textureRect": "{{1,1},{186,63}}",
+      "textureRotated": false
+    },
+    "PermissionScreen_00/LogoAnimation/LogoAnimation_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{305,234}",
+      "spriteSourceSize": "{401,404}",
+      "textureRect": "{{1,91},{305,234}}",
+      "textureRotated": false
+    },
+    "PermissionScreen_00/LogoAnimation/LogoAnimation_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{305,234}",
+      "spriteSourceSize": "{401,404}",
+      "textureRect": "{{308,91},{305,234}}",
+      "textureRotated": false
+    },
+    "PermissionScreen_00/LogoAnimation/LogoAnimation_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{305,234}",
+      "spriteSourceSize": "{401,404}",
+      "textureRect": "{{615,91},{305,234}}",
+      "textureRotated": false
+    },
+    "PermissionScreen_00/LogoAnimation/LogoAnimation_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{305,234}",
+      "spriteSourceSize": "{401,404}",
+      "textureRect": "{{1,327},{305,234}}",
+      "textureRotated": false
+    },
+    "PermissionScreen_00/LogoAnimation/LogoAnimation_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{305,234}",
+      "spriteSourceSize": "{401,404}",
+      "textureRect": "{{308,327},{305,234}}",
+      "textureRotated": false
+    },
+    "PermissionScreen_00/LogoAnimation/LogoAnimation_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{305,234}",
+      "spriteSourceSize": "{401,404}",
+      "textureRect": "{{615,327},{305,234}}",
+      "textureRotated": false
+    },
+    "PermissionScreen_00/LogoAnimation/LogoAnimation_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{305,234}",
+      "spriteSourceSize": "{401,404}",
+      "textureRect": "{{1,563},{305,234}}",
+      "textureRotated": false
+    },
+    "PermissionScreen_00/LogoAnimation/LogoAnimation_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{305,234}",
+      "spriteSourceSize": "{401,404}",
+      "textureRect": "{{308,563},{305,234}}",
+      "textureRotated": false
+    },
+    "PermissionScreen_00/LogoAnimation/LogoAnimation_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{305,234}",
+      "spriteSourceSize": "{401,404}",
+      "textureRect": "{{615,563},{305,234}}",
+      "textureRotated": false
+    },
+    "PermissionScreen_00/LogoAnimation/LogoAnimation_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{305,234}",
+      "spriteSourceSize": "{401,404}",
+      "textureRect": "{{1,799},{305,234}}",
+      "textureRotated": false
+    },
+    "PermissionScreen_00/LogoAnimation/LogoAnimation_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{305,234}",
+      "spriteSourceSize": "{401,404}",
+      "textureRect": "{{308,799},{305,234}}",
+      "textureRotated": false
+    },
+    "PermissionScreen_00/LogoAnimation/LogoAnimation_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{305,234}",
+      "spriteSourceSize": "{401,404}",
+      "textureRect": "{{615,799},{305,234}}",
+      "textureRotated": false
+    },
+    "PermissionScreen_00/LogoAnimation/LogoAnimation_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{305,234}",
+      "spriteSourceSize": "{401,404}",
+      "textureRect": "{{1,1035},{305,234}}",
+      "textureRotated": false
+    },
+    "PermissionScreen_00/LogoAnimation/LogoAnimation_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{305,234}",
+      "spriteSourceSize": "{401,404}",
+      "textureRect": "{{308,1035},{305,234}}",
+      "textureRotated": false
+    },
+    "PermissionScreen_00/LogoAnimation/LogoAnimation_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{305,234}",
+      "spriteSourceSize": "{401,404}",
+      "textureRect": "{{615,1035},{305,234}}",
+      "textureRotated": false
+    },
+    "PermissionScreen_00/LogoAnimation/LogoAnimation_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{305,234}",
+      "spriteSourceSize": "{401,404}",
+      "textureRect": "{{1,1271},{305,234}}",
+      "textureRotated": false
+    },
+    "PermissionScreen_00/LogoAnimation/LogoAnimation_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{305,234}",
+      "spriteSourceSize": "{401,404}",
+      "textureRect": "{{308,1271},{305,234}}",
+      "textureRotated": false
+    },
+    "PermissionScreen_00/LogoAnimation/LogoAnimation_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{305,234}",
+      "spriteSourceSize": "{401,404}",
+      "textureRect": "{{615,1271},{305,234}}",
+      "textureRotated": false
+    },
+    "PermissionScreen_00/LogoAnimation/LogoAnimation_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{305,234}",
+      "spriteSourceSize": "{401,404}",
+      "textureRect": "{{1,1507},{305,234}}",
+      "textureRotated": false
+    },
+    "PermissionScreen_00/LogoAnimation/LogoAnimation_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{305,234}",
+      "spriteSourceSize": "{401,404}",
+      "textureRect": "{{308,1507},{305,234}}",
+      "textureRotated": false
+    },
+    "PermissionScreen_00/LogoAnimation/LogoAnimation_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{305,234}",
+      "spriteSourceSize": "{401,404}",
+      "textureRect": "{{615,1507},{305,234}}",
+      "textureRotated": false
+    },
+    "PermissionScreen_00/LogoAnimation/LogoAnimation_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{305,234}",
+      "spriteSourceSize": "{401,404}",
+      "textureRect": "{{1,1743},{305,234}}",
+      "textureRotated": false
+    },
+    "PermissionScreen_00/LogoAnimation/LogoAnimation_0022.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{305,234}",
+      "spriteSourceSize": "{401,404}",
+      "textureRect": "{{308,1743},{305,234}}",
+      "textureRotated": false
+    },
+    "PermissionScreen_00/LogoAnimation/LogoAnimation_0023.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{305,234}",
+      "spriteSourceSize": "{401,404}",
+      "textureRect": "{{615,1743},{305,234}}",
+      "textureRotated": false
+    },
+    "PermissionScreen_00/PlayNowBtn/PlayNowBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,88}",
+      "spriteSourceSize": "{223,88}",
+      "textureRect": "{{189,1},{223,88}}",
+      "textureRotated": false
+    },
+    "PermissionScreen_00/PlayNowBtn/PlayNowBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,88}",
+      "spriteSourceSize": "{223,88}",
+      "textureRect": "{{414,1},{223,88}}",
+      "textureRotated": false
+    },
+    "PermissionScreen_00/PlayNowBtn/PlayNowBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,88}",
+      "spriteSourceSize": "{223,88}",
+      "textureRect": "{{639,1},{223,88}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "PermissionScreen_00-hd.png",
+    "size": "{921,1978}",
+    "smartupdate": "$TexturePacker:SmartUpdate:6d3d502059aa12435334e2f722d053a0:59778451b7a899963aa5e00443fe1dd9:89a441841bc411e7b152afcf8688d3dc$",
+    "textureFileName": "PermissionScreen_00-hd.png",
+    "animations": [
+      "LogoAnimation",
+      "PlayNowBtn"
+    ]
+  }
+}

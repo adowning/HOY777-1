@@ -1,0 +1,46 @@
+{
+  "frames": {
+    "StarEmitter_00/StarEmitter_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{100,100}",
+      "spriteSourceSize": "{100,100}",
+      "textureRect": "{{1,1},{100,100}}",
+      "textureRotated": false
+    },
+    "StarEmitter_00/StarEmitter_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{100,100}",
+      "spriteSourceSize": "{100,100}",
+      "textureRect": "{{1,103},{100,100}}",
+      "textureRotated": false
+    },
+    "StarEmitter_00/StarEmitter_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{100,100}",
+      "spriteSourceSize": "{100,100}",
+      "textureRect": "{{103,1},{100,100}}",
+      "textureRotated": false
+    },
+    "StarEmitter_00/StarEmitter_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{100,100}",
+      "spriteSourceSize": "{100,100}",
+      "textureRect": "{{103,103},{100,100}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "StarEmitter_00-hd.png",
+    "size": "{256,256}",
+    "smartupdate": "$TexturePacker:SmartUpdate:01d5e122cb4fd64482798a4b6efa12e8:cfa86707aaf1c59c69e671213e18f069:4382adc5dc7de27c365829068a2b079b$",
+    "textureFileName": "StarEmitter_00-hd.png",
+    "animations": []
+  }
+}

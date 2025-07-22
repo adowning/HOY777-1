@@ -1,0 +1,344 @@
+{
+  "frames": {
+    "LeaderboardRankUpScreen_00/Arrow.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,51}",
+      "spriteSourceSize": "{62,51}",
+      "textureRect": "{{249,252},{62,51}}",
+      "textureRotated": true
+    },
+    "LeaderboardRankUpScreen_00/Badge.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{256,285}",
+      "spriteSourceSize": "{256,285}",
+      "textureRect": "{{305,1},{256,285}}",
+      "textureRotated": true
+    },
+    "LeaderboardRankUpScreen_00/ParticleGlow1.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{30,30}",
+      "spriteSourceSize": "{30,30}",
+      "textureRect": "{{544,325},{30,30}}",
+      "textureRotated": false
+    },
+    "LeaderboardRankUpScreen_00/ParticleGlow2.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{30,30}",
+      "spriteSourceSize": "{30,30}",
+      "textureRect": "{{544,357},{30,30}}",
+      "textureRotated": false
+    },
+    "LeaderboardRankUpScreen_00/ParticleStar.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{76,76}",
+      "spriteSourceSize": "{76,76}",
+      "textureRect": "{{445,1035},{76,76}}",
+      "textureRotated": false
+    },
+    "LeaderboardRankUpScreen_00/RankUp.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{302,203}",
+      "spriteSourceSize": "{302,203}",
+      "textureRect": "{{1,1},{302,203}}",
+      "textureRotated": false
+    },
+    "LeaderboardRankUpScreen_00/RankUpAnim/RankUpAnim_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{-145,4}",
+      "spriteSize": "{28,36}",
+      "spriteSourceSize": "{350,232}",
+      "textureRect": "{{544,295},{28,36}}",
+      "textureRotated": true
+    },
+    "LeaderboardRankUpScreen_00/RankUpAnim/RankUpAnim_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{-103,-32}",
+      "spriteSize": "{112,148}",
+      "spriteSourceSize": "{350,232}",
+      "textureRect": "{{838,159},{112,148}}",
+      "textureRotated": false
+    },
+    "LeaderboardRankUpScreen_00/RankUpAnim/RankUpAnim_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{-96,-23}",
+      "spriteSize": "{126,168}",
+      "spriteSourceSize": "{350,232}",
+      "textureRect": "{{411,1227},{126,168}}",
+      "textureRotated": false
+    },
+    "LeaderboardRankUpScreen_00/RankUpAnim/RankUpAnim_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{-91,-13}",
+      "spriteSize": "{138,188}",
+      "spriteSourceSize": "{350,232}",
+      "textureRect": "{{549,1035},{138,188}}",
+      "textureRotated": false
+    },
+    "LeaderboardRankUpScreen_00/RankUpAnim/RankUpAnim_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{-82,-6}",
+      "spriteSize": "{156,202}",
+      "spriteSourceSize": "{350,232}",
+      "textureRect": "{{686,867},{156,202}}",
+      "textureRotated": true
+    },
+    "LeaderboardRankUpScreen_00/RankUpAnim/RankUpAnim_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{-75,-4}",
+      "spriteSize": "{170,206}",
+      "spriteSourceSize": "{350,232}",
+      "textureRect": "{{780,453},{170,206}}",
+      "textureRotated": false
+    },
+    "LeaderboardRankUpScreen_00/RankUpAnim/RankUpAnim_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{-72,-4}",
+      "spriteSize": "{176,206}",
+      "spriteSourceSize": "{350,232}",
+      "textureRect": "{{1,1228},{176,206}}",
+      "textureRotated": true
+    },
+    "LeaderboardRankUpScreen_00/RankUpAnim/RankUpAnim_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{-69,-4}",
+      "spriteSize": "{180,206}",
+      "spriteSourceSize": "{350,232}",
+      "textureRect": "{{671,1225},{180,206}}",
+      "textureRotated": true
+    },
+    "LeaderboardRankUpScreen_00/RankUpAnim/RankUpAnim_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{-52,-4}",
+      "spriteSize": "{214,206}",
+      "spriteSourceSize": "{350,232}",
+      "textureRect": "{{229,905},{214,206}}",
+      "textureRotated": false
+    },
+    "LeaderboardRankUpScreen_00/RankUpAnim/RankUpAnim_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{-46,-4}",
+      "spriteSize": "{226,206}",
+      "spriteSourceSize": "{350,232}",
+      "textureRect": "{{1,830},{226,206}}",
+      "textureRotated": false
+    },
+    "LeaderboardRankUpScreen_00/RankUpAnim/RankUpAnim_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{-43,-4}",
+      "spriteSize": "{232,206}",
+      "spriteSourceSize": "{350,232}",
+      "textureRect": "{{473,625},{232,206}}",
+      "textureRotated": false
+    },
+    "LeaderboardRankUpScreen_00/RankUpAnim/RankUpAnim_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{-43,-4}",
+      "spriteSize": "{234,206}",
+      "spriteSourceSize": "{350,232}",
+      "textureRect": "{{544,417},{234,206}}",
+      "textureRotated": false
+    },
+    "LeaderboardRankUpScreen_00/RankUpAnim/RankUpAnim_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{-43,-4}",
+      "spriteSize": "{234,206}",
+      "spriteSourceSize": "{350,232}",
+      "textureRect": "{{1,414},{234,206}}",
+      "textureRotated": false
+    },
+    "LeaderboardRankUpScreen_00/RankUpAnim/RankUpAnim_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{-43,-4}",
+      "spriteSize": "{234,206}",
+      "spriteSourceSize": "{350,232}",
+      "textureRect": "{{237,467},{234,206}}",
+      "textureRotated": false
+    },
+    "LeaderboardRankUpScreen_00/RankUpAnim/RankUpAnim_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{-43,-4}",
+      "spriteSize": "{234,206}",
+      "spriteSourceSize": "{350,232}",
+      "textureRect": "{{1,622},{234,206}}",
+      "textureRotated": false
+    },
+    "LeaderboardRankUpScreen_00/RankUpAnim/RankUpAnim_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{-34,-4}",
+      "spriteSize": "{242,206}",
+      "spriteSourceSize": "{350,232}",
+      "textureRect": "{{592,209},{242,206}}",
+      "textureRotated": false
+    },
+    "LeaderboardRankUpScreen_00/RankUpAnim/RankUpAnim_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{-22,-4}",
+      "spriteSize": "{240,206}",
+      "spriteSourceSize": "{350,232}",
+      "textureRect": "{{302,259},{240,206}}",
+      "textureRotated": false
+    },
+    "LeaderboardRankUpScreen_00/RankUpAnim/RankUpAnim_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{-6,-4}",
+      "spriteSize": "{246,206}",
+      "spriteSourceSize": "{350,232}",
+      "textureRect": "{{1,206},{246,206}}",
+      "textureRotated": false
+    },
+    "LeaderboardRankUpScreen_00/RankUpAnim/RankUpAnim_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{9,-4}",
+      "spriteSize": "{244,206}",
+      "spriteSourceSize": "{350,232}",
+      "textureRect": "{{592,1},{244,206}}",
+      "textureRotated": false
+    },
+    "LeaderboardRankUpScreen_00/RankUpAnim/RankUpAnim_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{33,-4}",
+      "spriteSize": "{218,204}",
+      "spriteSourceSize": "{350,232}",
+      "textureRect": "{{707,661},{218,204}}",
+      "textureRotated": false
+    },
+    "LeaderboardRankUpScreen_00/RankUpAnim/RankUpAnim_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{37,-1}",
+      "spriteSize": "{216,200}",
+      "spriteSourceSize": "{350,232}",
+      "textureRect": "{{468,833},{216,200}}",
+      "textureRotated": false
+    },
+    "LeaderboardRankUpScreen_00/RankUpAnim/RankUpAnim_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{39,4}",
+      "spriteSize": "{212,188}",
+      "spriteSourceSize": "{350,232}",
+      "textureRect": "{{1,1038},{212,188}}",
+      "textureRotated": false
+    },
+    "LeaderboardRankUpScreen_00/RankUpAnim/RankUpAnim_0022.png": {
+      "aliases": [],
+      "spriteOffset": "{45,15}",
+      "spriteSize": "{200,168}",
+      "spriteSourceSize": "{350,232}",
+      "textureRect": "{{209,1228},{200,168}}",
+      "textureRotated": false
+    },
+    "LeaderboardRankUpScreen_00/RankUpAnim/RankUpAnim_0023.png": {
+      "aliases": [],
+      "spriteOffset": "{53,24}",
+      "spriteSize": "{184,148}",
+      "spriteSourceSize": "{350,232}",
+      "textureRect": "{{689,1025},{184,148}}",
+      "textureRotated": true
+    },
+    "LeaderboardRankUpScreen_00/RankUpAnim/RankUpAnim_0024.png": {
+      "aliases": [],
+      "spriteOffset": "{64,34}",
+      "spriteSize": "{162,130}",
+      "spriteSourceSize": "{350,232}",
+      "textureRect": "{{539,1227},{162,130}}",
+      "textureRotated": true
+    },
+    "LeaderboardRankUpScreen_00/RankUpAnim/RankUpAnim_0025.png": {
+      "aliases": [],
+      "spriteOffset": "{67,42}",
+      "spriteSize": "{156,112}",
+      "spriteSourceSize": "{350,232}",
+      "textureRect": "{{838,1},{156,112}}",
+      "textureRotated": true
+    },
+    "LeaderboardRankUpScreen_00/RankUpAnim/RankUpAnim_0026.png": {
+      "aliases": [],
+      "spriteOffset": "{74,42}",
+      "spriteSize": "{142,112}",
+      "spriteSourceSize": "{350,232}",
+      "textureRect": "{{836,309},{142,112}}",
+      "textureRotated": true
+    },
+    "LeaderboardRankUpScreen_00/RankUpAnim/RankUpAnim_0027.png": {
+      "aliases": [],
+      "spriteOffset": "{86,42}",
+      "spriteSize": "{118,112}",
+      "spriteSourceSize": "{350,232}",
+      "textureRect": "{{215,1113},{118,112}}",
+      "textureRotated": false
+    },
+    "LeaderboardRankUpScreen_00/RankUpAnim/RankUpAnim_0028.png": {
+      "aliases": [],
+      "spriteOffset": "{89,42}",
+      "spriteSize": "{112,112}",
+      "spriteSourceSize": "{350,232}",
+      "textureRect": "{{335,1113},{112,112}}",
+      "textureRotated": false
+    },
+    "LeaderboardRankUpScreen_00/RankUpAnim/RankUpAnim_0029.png": {
+      "aliases": [],
+      "spriteOffset": "{96,43}",
+      "spriteSize": "{98,112}",
+      "spriteSourceSize": "{350,232}",
+      "textureRect": "{{449,1113},{98,112}}",
+      "textureRotated": false
+    },
+    "LeaderboardRankUpScreen_00/RankUpAnim/RankUpAnim_0030.png": {
+      "aliases": [],
+      "spriteOffset": "{104,45}",
+      "spriteSize": "{82,106}",
+      "spriteSourceSize": "{350,232}",
+      "textureRect": "{{839,1025},{82,106}}",
+      "textureRotated": true
+    },
+    "LeaderboardRankUpScreen_00/RankUpAnim/RankUpAnim_0031.png": {
+      "aliases": [],
+      "spriteOffset": "{110,64}",
+      "spriteSize": "{68,70}",
+      "spriteSourceSize": "{350,232}",
+      "textureRect": "{{473,467},{68,70}}",
+      "textureRotated": false
+    },
+    "LeaderboardRankUpScreen_00/RankUpAnim/RankUpAnim_0032.png": {
+      "aliases": [],
+      "spriteOffset": "{118,76}",
+      "spriteSize": "{52,44}",
+      "spriteSourceSize": "{350,232}",
+      "textureRect": "{{249,206},{52,44}}",
+      "textureRotated": false
+    },
+    "LeaderboardRankUpScreen_00/RankUpAnim/RankUpAnim_0033.png": {
+      "aliases": [],
+      "spriteOffset": "{125,81}",
+      "spriteSize": "{38,34}",
+      "spriteSourceSize": "{350,232}",
+      "textureRect": "{{544,259},{38,34}}",
+      "textureRotated": false
+    },
+    "LeaderboardRankUpScreen_00/RankUpStar.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{229,228}",
+      "spriteSourceSize": "{229,228}",
+      "textureRect": "{{237,675},{229,228}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "LeaderboardRankUpScreen_00-hd.png",
+    "size": "{951,1406}",
+    "smartupdate": "$TexturePacker:SmartUpdate:52f49410ed8e162eebaf8a64511b2fc6:46753cbc172fae3838ffb0e7264637b1:5da8a1e9cd4a3d354a271284b737b414$",
+    "textureFileName": "LeaderboardRankUpScreen_00-hd.png",
+    "animations": [
+      "RankUpAnim"
+    ]
+  }
+}

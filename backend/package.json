@@ -9,10 +9,10 @@
     "@playwright/test": "^1.54.1",
     "@t3-oss/env-core": "^0.13.8",
     "@types/bun": "latest",
+    "@types/pg": "^8.15.4",
     "@typescript-eslint/eslint-plugin": "^8.37.0",
     "@typescript-eslint/parser": "^8.37.0",
     "bun": "^1.2.19",
-    "bun-types": "^1.2.19",
     "dotenv": "^17.2.0",
     "dotenv-expand": "^12.0.2",
     "drizzle-kit": "latest",
@@ -29,7 +29,7 @@
     "db:reset": "tsx scripts/reset-db.ts",
     "db:clear": "tsx scripts/clear-db.ts",
     "generate:pg": "drizzle-kit generate --config drizzle.config.ts",
-    "generate": "pnpm generate:pg",
+    "generate": "bun run generate:pg",
     "push": "drizzle-kit push",
     "studio": "drizzle-kit studio --config drizzle.config.ts"
   },
@@ -37,7 +37,11 @@
     "typescript": "^5"
   },
   "dependencies": {
+    "@bnk/kv-store": "^1.0.1",
     "@electric-sql/pglite": "^0.3.5",
-    "pg": "^8.16.3"
+    "@hono/node-server": "^1.17.1",
+    "eventemitter2": "^6.4.9",
+    "pg": "^8.16.3",
+    "rclone.js": "^0.6.6"
   }
 }

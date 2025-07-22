@@ -1,0 +1,46 @@
+{
+  "frames": {
+    "LeaderboardResponseFailPopup_00/Bg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{459,364}",
+      "spriteSourceSize": "{459,364}",
+      "textureRect": "{{1,96},{459,364}}",
+      "textureRotated": false
+    },
+    "LeaderboardResponseFailPopup_00/LeaderboardResponseFailTitle.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{153,37}",
+      "spriteSourceSize": "{153,37}",
+      "textureRect": "{{197,1},{153,37}}",
+      "textureRotated": false
+    },
+    "LeaderboardResponseFailPopup_00/PleaseTryLater.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{194,33}",
+      "spriteSourceSize": "{194,33}",
+      "textureRect": "{{1,1},{194,33}}",
+      "textureRotated": false
+    },
+    "LeaderboardResponseFailPopup_00/SadFace.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{94,93}",
+      "spriteSourceSize": "{94,93}",
+      "textureRect": "{{352,1},{94,93}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "LeaderboardResponseFailPopup_00-hd.png",
+    "size": "{461,461}",
+    "smartupdate": "$TexturePacker:SmartUpdate:2b99f5f8fd6883f09040716eb254593e:41e4e4032f7f47ebf92e13e675d627af:8e13165221c2ae29765eae571b897687$",
+    "textureFileName": "LeaderboardResponseFailPopup_00-hd.png",
+    "animations": []
+  }
+}

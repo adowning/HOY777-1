@@ -1,0 +1,250 @@
+{
+  "frames": {
+    "MainLobbyPreviewWidget_00/Base.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{225,359}",
+      "spriteSourceSize": "{225,359}",
+      "textureRect": "{{1,1},{225,359}}",
+      "textureRotated": false
+    },
+    "MainLobbyPreviewWidget_00/FeaturedHeading/FeaturedHeading_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{184,45}",
+      "spriteSourceSize": "{184,45}",
+      "textureRect": "{{234,961},{184,45}}",
+      "textureRotated": false
+    },
+    "MainLobbyPreviewWidget_00/FeaturedHeading/FeaturedHeading_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{184,45}",
+      "spriteSourceSize": "{184,45}",
+      "textureRect": "{{234,961},{184,45}}",
+      "textureRotated": false
+    },
+    "MainLobbyPreviewWidget_00/PreviewHeading/PreviewHeading_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{184,45}",
+      "spriteSourceSize": "{184,45}",
+      "textureRect": "{{420,961},{184,45}}",
+      "textureRotated": false
+    },
+    "MainLobbyPreviewWidget_00/PreviewHeading/PreviewHeading_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{184,45}",
+      "spriteSourceSize": "{184,45}",
+      "textureRect": "{{420,961},{184,45}}",
+      "textureRotated": false
+    },
+    "MainLobbyPreviewWidget_00/PreviewWidgetAnim/PreviewWidgetAnim_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{231,318}",
+      "spriteSourceSize": "{231,318}",
+      "textureRect": "{{1,362},{231,318}}",
+      "textureRotated": false
+    },
+    "MainLobbyPreviewWidget_00/PreviewWidgetAnim/PreviewWidgetAnim_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{231,318}",
+      "spriteSourceSize": "{231,318}",
+      "textureRect": "{{1,682},{231,318}}",
+      "textureRotated": false
+    },
+    "MainLobbyPreviewWidget_00/PreviewWidgetAnim/PreviewWidgetAnim_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{231,318}",
+      "spriteSourceSize": "{231,318}",
+      "textureRect": "{{228,1},{231,318}}",
+      "textureRotated": false
+    },
+    "MainLobbyPreviewWidget_00/PreviewWidgetAnim/PreviewWidgetAnim_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{231,318}",
+      "spriteSourceSize": "{231,318}",
+      "textureRect": "{{234,321},{231,318}}",
+      "textureRotated": false
+    },
+    "MainLobbyPreviewWidget_00/PreviewWidgetAnim/PreviewWidgetAnim_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{231,318}",
+      "spriteSourceSize": "{231,318}",
+      "textureRect": "{{461,1},{231,318}}",
+      "textureRotated": false
+    },
+    "MainLobbyPreviewWidget_00/PreviewWidgetAnim/PreviewWidgetAnim_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{231,318}",
+      "spriteSourceSize": "{231,318}",
+      "textureRect": "{{234,641},{231,318}}",
+      "textureRotated": false
+    },
+    "MainLobbyPreviewWidget_00/PreviewWidgetAnim/PreviewWidgetAnim_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{231,318}",
+      "spriteSourceSize": "{231,318}",
+      "textureRect": "{{467,321},{231,318}}",
+      "textureRotated": false
+    },
+    "MainLobbyPreviewWidget_00/PreviewWidgetAnim/PreviewWidgetAnim_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{231,318}",
+      "spriteSourceSize": "{231,318}",
+      "textureRect": "{{694,1},{231,318}}",
+      "textureRotated": false
+    },
+    "MainLobbyPreviewWidget_00/PreviewWidgetAnim/PreviewWidgetAnim_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{231,318}",
+      "spriteSourceSize": "{231,318}",
+      "textureRect": "{{467,641},{231,318}}",
+      "textureRotated": false
+    },
+    "MainLobbyPreviewWidget_00/PreviewWidgetAnim/PreviewWidgetAnim_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{231,318}",
+      "spriteSourceSize": "{231,318}",
+      "textureRect": "{{700,321},{231,318}}",
+      "textureRotated": false
+    },
+    "MainLobbyPreviewWidget_00/PreviewWidgetAnim/PreviewWidgetAnim_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{231,318}",
+      "spriteSourceSize": "{231,318}",
+      "textureRect": "{{927,1},{231,318}}",
+      "textureRotated": false
+    },
+    "MainLobbyPreviewWidget_00/PreviewWidgetAnim/PreviewWidgetAnim_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{231,318}",
+      "spriteSourceSize": "{231,318}",
+      "textureRect": "{{700,641},{231,318}}",
+      "textureRotated": false
+    },
+    "MainLobbyPreviewWidget_00/PreviewWidgetAnim/PreviewWidgetAnim_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{231,318}",
+      "spriteSourceSize": "{231,318}",
+      "textureRect": "{{933,321},{231,318}}",
+      "textureRotated": false
+    },
+    "MainLobbyPreviewWidget_00/PreviewWidgetAnim/PreviewWidgetAnim_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{231,318}",
+      "spriteSourceSize": "{231,318}",
+      "textureRect": "{{1160,1},{231,318}}",
+      "textureRotated": false
+    },
+    "MainLobbyPreviewWidget_00/PreviewWidgetAnim/PreviewWidgetAnim_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{231,318}",
+      "spriteSourceSize": "{231,318}",
+      "textureRect": "{{933,641},{231,318}}",
+      "textureRotated": false
+    },
+    "MainLobbyPreviewWidget_00/PreviewWidgetAnim/PreviewWidgetAnim_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{231,318}",
+      "spriteSourceSize": "{231,318}",
+      "textureRect": "{{1393,1},{231,318}}",
+      "textureRotated": true
+    },
+    "MainLobbyPreviewWidget_00/PreviewWidgetAnim/PreviewWidgetAnim_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{231,318}",
+      "spriteSourceSize": "{231,318}",
+      "textureRect": "{{1713,1},{231,318}}",
+      "textureRotated": true
+    },
+    "MainLobbyPreviewWidget_00/PreviewWidgetAnim/PreviewWidgetAnim_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{231,318}",
+      "spriteSourceSize": "{231,318}",
+      "textureRect": "{{1393,234},{231,318}}",
+      "textureRotated": true
+    },
+    "MainLobbyPreviewWidget_00/PreviewWidgetAnim/PreviewWidgetAnim_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{231,318}",
+      "spriteSourceSize": "{231,318}",
+      "textureRect": "{{1713,234},{231,318}}",
+      "textureRotated": true
+    },
+    "MainLobbyPreviewWidget_00/PreviewWidgetAnim/PreviewWidgetAnim_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{231,318}",
+      "spriteSourceSize": "{231,318}",
+      "textureRect": "{{1166,467},{231,318}}",
+      "textureRotated": false
+    },
+    "MainLobbyPreviewWidget_00/PreviewWidgetAnim/PreviewWidgetAnim_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{231,318}",
+      "spriteSourceSize": "{231,318}",
+      "textureRect": "{{1166,787},{231,318}}",
+      "textureRotated": true
+    },
+    "MainLobbyPreviewWidget_00/PreviewWidgetAnim/PreviewWidgetAnim_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{231,318}",
+      "spriteSourceSize": "{231,318}",
+      "textureRect": "{{1399,467},{231,318}}",
+      "textureRotated": false
+    },
+    "MainLobbyPreviewWidget_00/PreviewWidgetAnim/PreviewWidgetAnim_0022.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{231,318}",
+      "spriteSourceSize": "{231,318}",
+      "textureRect": "{{1486,787},{231,318}}",
+      "textureRotated": true
+    },
+    "MainLobbyPreviewWidget_00/PreviewWidgetAnim/PreviewWidgetAnim_0023.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{231,318}",
+      "spriteSourceSize": "{231,318}",
+      "textureRect": "{{1632,467},{231,318}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "MainLobbyPreviewWidget_00-hd.png",
+    "size": "{2032,1019}",
+    "smartupdate": "$TexturePacker:SmartUpdate:4f89c53a3bb387a5a422d04074b3a5c4:49d2eba2ddd0118d424257456a03595a:90d9ff719f51fbd919dab61d07329d91$",
+    "textureFileName": "MainLobbyPreviewWidget_00-hd.png",
+    "animations": [
+      "FeaturedHeading",
+      "PreviewHeading",
+      "PreviewWidgetAnim"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "frames": {
+    "FNFWelcomePopup_00/CoinsHeap.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{486,134}",
+      "spriteSourceSize": "{486,134}",
+      "textureRect": "{{1,1},{486,134}}",
+      "textureRotated": false
+    },
+    "FNFWelcomePopup_00/Logo.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{229,77}",
+      "spriteSourceSize": "{229,77}",
+      "textureRect": "{{1,137},{229,77}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "FNFWelcomePopup_00-hd.png",
+    "size": "{488,215}",
+    "smartupdate": "$TexturePacker:SmartUpdate:fc199d5620ac4d17bb3aa744bd63df8a:675a351c320c0ef50c14e228cca75125:7226b48e066540f84178dba4d13c6339$",
+    "textureFileName": "FNFWelcomePopup_00-hd.png",
+    "animations": []
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "frames": {
+    "IconBigWithNoBet_00/NewBadgeBig/NewBadgeBig_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{98,83}",
+      "spriteSourceSize": "{98,83}",
+      "textureRect": "{{190,1},{98,83}}",
+      "textureRotated": false
+    },
+    "IconBigWithNoBet_00/NewBadgeBig/NewBadgeBig_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{98,83}",
+      "spriteSourceSize": "{98,83}",
+      "textureRect": "{{190,1},{98,83}}",
+      "textureRotated": false
+    },
+    "IconBigWithNoBet_00/NewBadgeBig/NewBadgeBig_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{98,83}",
+      "spriteSourceSize": "{98,83}",
+      "textureRect": "{{290,1},{98,83}}",
+      "textureRotated": false
+    },
+    "IconBigWithNoBet_00/NewBadgeBig/NewBadgeBig_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{98,83}",
+      "spriteSourceSize": "{98,83}",
+      "textureRect": "{{290,1},{98,83}}",
+      "textureRotated": false
+    },
+    "IconBigWithNoBet_00/NewBadgeBig/NewBadgeBig_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{98,83}",
+      "spriteSourceSize": "{98,83}",
+      "textureRect": "{{390,1},{98,83}}",
+      "textureRotated": true
+    },
+    "IconBigWithNoBet_00/NewBadgeBig/NewBadgeBig_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{98,83}",
+      "spriteSourceSize": "{98,83}",
+      "textureRect": "{{390,1},{98,83}}",
+      "textureRotated": true
+    },
+    "IconBigWithNoBet_00/NewBadgeBig/NewBadgeBig_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{98,83}",
+      "spriteSourceSize": "{98,83}",
+      "textureRect": "{{1,67},{98,83}}",
+      "textureRotated": false
+    },
+    "IconBigWithNoBet_00/NewBadgeBig/NewBadgeBig_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{98,83}",
+      "spriteSourceSize": "{98,83}",
+      "textureRect": "{{1,67},{98,83}}",
+      "textureRotated": false
+    },
+    "IconBigWithNoBet_00/NewBadgeBig/NewBadgeBig_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{98,83}",
+      "spriteSourceSize": "{98,83}",
+      "textureRect": "{{101,67},{98,83}}",
+      "textureRotated": true
+    },
+    "IconBigWithNoBet_00/NewBadgeBig/NewBadgeBig_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{98,83}",
+      "spriteSourceSize": "{98,83}",
+      "textureRect": "{{101,67},{98,83}}",
+      "textureRotated": true
+    },
+    "IconBigWithNoBet_00/NewBadgeBig/NewBadgeBig_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{98,83}",
+      "spriteSourceSize": "{98,83}",
+      "textureRect": "{{186,86},{98,83}}",
+      "textureRotated": false
+    },
+    "IconBigWithNoBet_00/NewBadgeBig/NewBadgeBig_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{98,83}",
+      "spriteSourceSize": "{98,83}",
+      "textureRect": "{{186,86},{98,83}}",
+      "textureRotated": false
+    },
+    "IconBigWithNoBet_00/NewBadgeBig/NewBadgeBig_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{98,83}",
+      "spriteSourceSize": "{98,83}",
+      "textureRect": "{{286,86},{98,83}}",
+      "textureRotated": false
+    },
+    "IconBigWithNoBet_00/NewBadgeBig/NewBadgeBig_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{98,83}",
+      "spriteSourceSize": "{98,83}",
+      "textureRect": "{{286,86},{98,83}}",
+      "textureRotated": false
+    },
+    "IconBigWithNoBet_00/NewBadgeBig/NewBadgeBig_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{98,83}",
+      "spriteSourceSize": "{98,83}",
+      "textureRect": "{{386,101},{98,83}}",
+      "textureRotated": true
+    },
+    "IconBigWithNoBet_00/NewBadgeBig/NewBadgeBig_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{98,83}",
+      "spriteSourceSize": "{98,83}",
+      "textureRect": "{{386,101},{98,83}}",
+      "textureRotated": true
+    },
+    "IconBigWithNoBet_00/NewBadgeBig/NewBadgeBig_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{98,83}",
+      "spriteSourceSize": "{98,83}",
+      "textureRect": "{{1,152},{98,83}}",
+      "textureRotated": false
+    },
+    "IconBigWithNoBet_00/NewBadgeBig/NewBadgeBig_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{98,83}",
+      "spriteSourceSize": "{98,83}",
+      "textureRect": "{{1,152},{98,83}}",
+      "textureRotated": false
+    },
+    "IconBigWithNoBet_00/NewBadgeBig/NewBadgeBig_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{98,83}",
+      "spriteSourceSize": "{98,83}",
+      "textureRect": "{{101,171},{98,83}}",
+      "textureRotated": false
+    },
+    "IconBigWithNoBet_00/NewBadgeBig/NewBadgeBig_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{98,83}",
+      "spriteSourceSize": "{98,83}",
+      "textureRect": "{{101,171},{98,83}}",
+      "textureRotated": false
+    },
+    "IconBigWithNoBet_00/NewBadgeBig/NewBadgeBig_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{98,83}",
+      "spriteSourceSize": "{98,83}",
+      "textureRect": "{{201,171},{98,83}}",
+      "textureRotated": false
+    },
+    "IconBigWithNoBet_00/NewBadgeBig/NewBadgeBig_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{98,83}",
+      "spriteSourceSize": "{98,83}",
+      "textureRect": "{{201,171},{98,83}}",
+      "textureRotated": false
+    },
+    "IconBigWithNoBet_00/NewBadgeBig/NewBadgeBig_0022.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{98,83}",
+      "spriteSourceSize": "{98,83}",
+      "textureRect": "{{190,1},{98,83}}",
+      "textureRotated": false
+    },
+    "IconBigWithNoBet_00/NewBadgeBig/NewBadgeBig_0023.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{98,83}",
+      "spriteSourceSize": "{98,83}",
+      "textureRect": "{{190,1},{98,83}}",
+      "textureRotated": false
+    },
+    "IconBigWithNoBet_00/NewBadgeBig/NewBadgeBig_0024.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{98,83}",
+      "spriteSourceSize": "{98,83}",
+      "textureRect": "{{190,1},{98,83}}",
+      "textureRotated": false
+    },
+    "IconBigWithNoBet_00/UnderMaintenance.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{187,64}",
+      "spriteSourceSize": "{187,64}",
+      "textureRect": "{{1,1},{187,64}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "IconBigWithNoBet_00-hd.png",
+    "size": "{474,255}",
+    "smartupdate": "$TexturePacker:SmartUpdate:8f81381022950b5cf471d91d3c313ce4:cdfc05a11676174fea5bfe4adea8db69:8610dcbd70935539790403437667a6d2$",
+    "textureFileName": "IconBigWithNoBet_00-hd.png",
+    "animations": [
+      "NewBadgeBig"
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "frames": {
+    "SkipTutorialPopup_00/DontSkipBtn/DontSkipBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{256,75}",
+      "spriteSourceSize": "{256,75}",
+      "textureRect": "{{1,145},{256,75}}",
+      "textureRotated": false
+    },
+    "SkipTutorialPopup_00/DontSkipBtn/DontSkipBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{256,75}",
+      "spriteSourceSize": "{256,75}",
+      "textureRect": "{{259,145},{256,75}}",
+      "textureRotated": false
+    },
+    "SkipTutorialPopup_00/DontSkipBtn/DontSkipBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{256,75}",
+      "spriteSourceSize": "{256,75}",
+      "textureRect": "{{457,1},{256,75}}",
+      "textureRotated": false
+    },
+    "SkipTutorialPopup_00/Heading.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{454,142}",
+      "spriteSourceSize": "{454,142}",
+      "textureRect": "{{1,1},{454,142}}",
+      "textureRotated": false
+    },
+    "SkipTutorialPopup_00/SkipBtn/SkipBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{144,70}",
+      "spriteSourceSize": "{144,70}",
+      "textureRect": "{{517,78},{144,70}}",
+      "textureRotated": true
+    },
+    "SkipTutorialPopup_00/SkipBtn/SkipBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{144,70}",
+      "spriteSourceSize": "{144,70}",
+      "textureRect": "{{589,78},{144,70}}",
+      "textureRotated": true
+    },
+    "SkipTutorialPopup_00/SkipBtn/SkipBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{144,70}",
+      "spriteSourceSize": "{144,70}",
+      "textureRect": "{{661,78},{144,70}}",
+      "textureRotated": true
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "SkipTutorialPopup_00-hd.png",
+    "size": "{732,223}",
+    "smartupdate": "$TexturePacker:SmartUpdate:440cb641093e4769de079d8d41029689:662602260c526a6319bf75efd91774bd:2e7c5dc20a3a7d8d2f77d5be599e1902$",
+    "textureFileName": "SkipTutorialPopup_00-hd.png",
+    "animations": [
+      "DontSkipBtn",
+      "SkipBtn"
+    ]
+  }
+}

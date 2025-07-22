@@ -1,0 +1,185 @@
+{
+  "frames": {
+    "PlayerConnectRedeemPopup_00/CP_Bg_L.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{901,575}",
+      "spriteSourceSize": "{901,575}",
+      "textureRect": "{{1,1},{901,575}}",
+      "textureRotated": true
+    },
+    "PlayerConnectRedeemPopup_00/Coin.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{42,42}",
+      "spriteSourceSize": "{42,42}",
+      "textureRect": "{{1073,525},{42,42}}",
+      "textureRotated": false
+    },
+    "PlayerConnectRedeemPopup_00/Coin1.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{42,42}",
+      "spriteSourceSize": "{42,42}",
+      "textureRect": "{{1073,525},{42,42}}",
+      "textureRotated": false
+    },
+    "PlayerConnectRedeemPopup_00/CoinStack.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{312,234}",
+      "spriteSourceSize": "{312,234}",
+      "textureRect": "{{1208,775},{312,234}}",
+      "textureRotated": false
+    },
+    "PlayerConnectRedeemPopup_00/CoinStack1.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{306,237}",
+      "spriteSourceSize": "{306,237}",
+      "textureRect": "{{1522,688},{306,237}}",
+      "textureRotated": true
+    },
+    "PlayerConnectRedeemPopup_00/CoinsBgLarge.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{497,247}",
+      "spriteSourceSize": "{497,247}",
+      "textureRect": "{{942,1},{497,247}}",
+      "textureRotated": false
+    },
+    "PlayerConnectRedeemPopup_00/CoinsBgSmall.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{497,154}",
+      "spriteSourceSize": "{497,154}",
+      "textureRect": "{{942,250},{497,154}}",
+      "textureRotated": false
+    },
+    "PlayerConnectRedeemPopup_00/Energy.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,71}",
+      "spriteSourceSize": "{62,71}",
+      "textureRect": "{{1073,452},{62,71}}",
+      "textureRotated": false
+    },
+    "PlayerConnectRedeemPopup_00/Energy1.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,71}",
+      "spriteSourceSize": "{62,71}",
+      "textureRect": "{{1073,452},{62,71}}",
+      "textureRotated": false
+    },
+    "PlayerConnectRedeemPopup_00/LargeBtn/LargeBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{314,88}",
+      "spriteSourceSize": "{314,88}",
+      "textureRect": "{{1,904},{314,88}}",
+      "textureRotated": false
+    },
+    "PlayerConnectRedeemPopup_00/LargeBtn/LargeBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{314,88}",
+      "spriteSourceSize": "{314,88}",
+      "textureRect": "{{317,904},{314,88}}",
+      "textureRotated": false
+    },
+    "PlayerConnectRedeemPopup_00/LargeBtn/LargeBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{314,88}",
+      "spriteSourceSize": "{314,88}",
+      "textureRect": "{{633,896},{314,88}}",
+      "textureRotated": false
+    },
+    "PlayerConnectRedeemPopup_00/Layer 1.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{193,44}",
+      "spriteSourceSize": "{193,44}",
+      "textureRect": "{{942,406},{193,44}}",
+      "textureRotated": false
+    },
+    "PlayerConnectRedeemPopup_00/MediumBtn/MediumBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,88}",
+      "spriteSourceSize": "{223,88}",
+      "textureRect": "{{949,896},{223,88}}",
+      "textureRotated": false
+    },
+    "PlayerConnectRedeemPopup_00/MediumBtn/MediumBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,88}",
+      "spriteSourceSize": "{223,88}",
+      "textureRect": "{{983,452},{223,88}}",
+      "textureRotated": true
+    },
+    "PlayerConnectRedeemPopup_00/MediumBtn/MediumBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,88}",
+      "spriteSourceSize": "{223,88}",
+      "textureRect": "{{983,775},{223,88}}",
+      "textureRotated": false
+    },
+    "PlayerConnectRedeemPopup_00/Particle_Bottum.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{342,264}",
+      "spriteSourceSize": "{342,264}",
+      "textureRect": "{{1468,344},{342,264}}",
+      "textureRotated": true
+    },
+    "PlayerConnectRedeemPopup_00/Particle_Left.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{321,341}",
+      "spriteSourceSize": "{321,341}",
+      "textureRect": "{{1441,1},{321,341}}",
+      "textureRotated": false
+    },
+    "PlayerConnectRedeemPopup_00/Particle_Right.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{367,329}",
+      "spriteSourceSize": "{367,329}",
+      "textureRect": "{{1137,406},{367,329}}",
+      "textureRotated": true
+    },
+    "PlayerConnectRedeemPopup_00/RayClockwise.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{403,405}",
+      "spriteSourceSize": "{403,405}",
+      "textureRect": "{{578,489},{403,405}}",
+      "textureRotated": false
+    },
+    "PlayerConnectRedeemPopup_00/SunBurstAnim_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{486,362}",
+      "spriteSourceSize": "{486,362}",
+      "textureRect": "{{578,1},{486,362}}",
+      "textureRotated": true
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "PlayerConnectRedeemPopup_00-hd.png",
+    "size": "{1763,1010}",
+    "smartupdate": "$TexturePacker:SmartUpdate:19063ff796b892af43a3e2b3eac0137b:4d94406852e6eefed938d69a349787f6:024e261382d315c31279930e30957e81$",
+    "textureFileName": "PlayerConnectRedeemPopup_00-hd.png",
+    "animations": [
+      "LargeBtn",
+      "MediumBtn"
+    ]
+  }
+}

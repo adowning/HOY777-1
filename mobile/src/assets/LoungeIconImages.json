@@ -1,0 +1,54 @@
+{
+  "frames": {
+    "LoungeIconImages_00/ClassicLounge.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,-63}",
+      "spriteSize": "{210,348}",
+      "spriteSourceSize": "{290,510}",
+      "textureRect": "{{265,353},{210,348}}",
+      "textureRotated": false
+    },
+    "LoungeIconImages_00/DragonLounge.png": {
+      "aliases": [],
+      "spriteOffset": "{-12,-55}",
+      "spriteSize": "{262,364}",
+      "spriteSourceSize": "{290,510}",
+      "textureRect": "{{1,391},{262,364}}",
+      "textureRotated": false
+    },
+    "LoungeIconImages_00/LegendsLounge.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,-63}",
+      "spriteSize": "{220,348}",
+      "spriteSourceSize": "{290,510}",
+      "textureRect": "{{1,757},{220,348}}",
+      "textureRotated": true
+    },
+    "LoungeIconImages_00/VIPLounge.png": {
+      "aliases": [],
+      "spriteOffset": "{2,-63}",
+      "spriteSize": "{224,350}",
+      "spriteSourceSize": "{290,510}",
+      "textureRect": "{{253,1},{224,350}}",
+      "textureRotated": false
+    },
+    "LoungeIconImages_00/VikingsLounge.png": {
+      "aliases": [],
+      "spriteOffset": "{-4,-43}",
+      "spriteSize": "{250,388}",
+      "spriteSourceSize": "{290,510}",
+      "textureRect": "{{1,1},{250,388}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "LoungeIconImages_00-hd.png",
+    "size": "{478,978}",
+    "smartupdate": "$TexturePacker:SmartUpdate:664d5a1ffbd2284a20ab5a3c07aa185f:d5c02d4a082e3bde1a1fd179d00b1c5a:983c97055bf9a1788c71c0f3c9b609b3$",
+    "textureFileName": "LoungeIconImages_00-hd.png",
+    "animations": []
+  }
+}

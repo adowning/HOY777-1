@@ -1,0 +1,22 @@
+{
+  "frames": {
+    "LNCFSToaster_00/Bg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{232,131}",
+      "spriteSourceSize": "{232,131}",
+      "textureRect": "{{1,1},{232,131}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "LNCFSToaster_00-hd.png",
+    "size": "{234,133}",
+    "smartupdate": "$TexturePacker:SmartUpdate:b8f02eb89aa1ee23a31e9c6f2d075e82:7f29b4ec914ebc4d9d485ecf27673231:10818c1244f3b455f82c407a4486995f$",
+    "textureFileName": "LNCFSToaster_00-hd.png",
+    "animations": []
+  }
+}

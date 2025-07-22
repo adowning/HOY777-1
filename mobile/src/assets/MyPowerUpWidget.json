@@ -1,0 +1,22 @@
+{
+  "frames": {
+    "MyPowerUpWidget_00/Bg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{862,61}",
+      "spriteSourceSize": "{862,61}",
+      "textureRect": "{{1,1},{862,61}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "MyPowerUpWidget_00-hd.png",
+    "size": "{864,63}",
+    "smartupdate": "$TexturePacker:SmartUpdate:8491ac4815cd8f68722eb0910fc8d928:9c967baea9d403014e1532ac3ee37807:a248dae44caaa2a3ad9090c58ab6dae7$",
+    "textureFileName": "MyPowerUpWidget_00-hd.png",
+    "animations": []
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "frames": {
+    "RSGiftTabWidget_00/ClaimAllBtn/ClaimAllBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{270,91}",
+      "spriteSourceSize": "{270,91}",
+      "textureRect": "{{443,797},{270,91}}",
+      "textureRotated": true
+    },
+    "RSGiftTabWidget_00/ClaimAllBtn/ClaimAllBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{270,91}",
+      "spriteSourceSize": "{270,91}",
+      "textureRect": "{{536,980},{270,91}}",
+      "textureRotated": false
+    },
+    "RSGiftTabWidget_00/ClaimAllBtn/ClaimAllBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{270,91}",
+      "spriteSourceSize": "{270,91}",
+      "textureRect": "{{443,1073},{270,91}}",
+      "textureRotated": false
+    },
+    "RSGiftTabWidget_00/ClaimBtn/ClaimBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{440,123}",
+      "spriteSourceSize": "{440,123}",
+      "textureRect": "{{1,797},{440,123}}",
+      "textureRotated": false
+    },
+    "RSGiftTabWidget_00/ClaimBtn/ClaimBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{440,123}",
+      "spriteSourceSize": "{440,123}",
+      "textureRect": "{{1,922},{440,123}}",
+      "textureRotated": false
+    },
+    "RSGiftTabWidget_00/ClaimBtn/ClaimBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{440,123}",
+      "spriteSourceSize": "{440,123}",
+      "textureRect": "{{1,1047},{440,123}}",
+      "textureRotated": false
+    },
+    "RSGiftTabWidget_00/ClaimBtnBo.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{440,123}",
+      "spriteSourceSize": "{440,123}",
+      "textureRect": "{{449,422},{440,123}}",
+      "textureRotated": false
+    },
+    "RSGiftTabWidget_00/ClaimCount.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{40,41}",
+      "spriteSourceSize": "{40,41}",
+      "textureRect": "{{717,795},{40,41}}",
+      "textureRotated": false
+    },
+    "RSGiftTabWidget_00/DownArrow/DownArrow_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{31,25}",
+      "spriteSourceSize": "{31,25}",
+      "textureRect": "{{715,1073},{31,25}}",
+      "textureRotated": false
+    },
+    "RSGiftTabWidget_00/DownArrow/DownArrow_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{31,25}",
+      "spriteSourceSize": "{31,25}",
+      "textureRect": "{{893,776},{31,25}}",
+      "textureRotated": false
+    },
+    "RSGiftTabWidget_00/DownArrow/DownArrow_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{31,25}",
+      "spriteSourceSize": "{31,25}",
+      "textureRect": "{{717,838},{31,25}}",
+      "textureRotated": false
+    },
+    "RSGiftTabWidget_00/GiftBox.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{179,183}",
+      "spriteSourceSize": "{179,183}",
+      "textureRect": "{{536,795},{179,183}}",
+      "textureRotated": false
+    },
+    "RSGiftTabWidget_00/InviteBtn/InviteBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{156,70}",
+      "spriteSourceSize": "{156,70}",
+      "textureRect": "{{808,960},{156,70}}",
+      "textureRotated": false
+    },
+    "RSGiftTabWidget_00/InviteBtn/InviteBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{156,70}",
+      "spriteSourceSize": "{156,70}",
+      "textureRect": "{{808,1032},{156,70}}",
+      "textureRotated": false
+    },
+    "RSGiftTabWidget_00/InviteBtn/InviteBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{156,70}",
+      "spriteSourceSize": "{156,70}",
+      "textureRect": "{{891,346},{156,70}}",
+      "textureRotated": true
+    },
+    "RSGiftTabWidget_00/InviteFriendsBtn/InviteFriendsBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{318,122}",
+      "spriteSourceSize": "{318,122}",
+      "textureRect": "{{449,547},{318,122}}",
+      "textureRotated": false
+    },
+    "RSGiftTabWidget_00/InviteFriendsBtn/InviteFriendsBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{318,122}",
+      "spriteSourceSize": "{318,122}",
+      "textureRect": "{{449,671},{318,122}}",
+      "textureRotated": false
+    },
+    "RSGiftTabWidget_00/InviteFriendsBtn/InviteFriendsBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{318,122}",
+      "spriteSourceSize": "{318,122}",
+      "textureRect": "{{769,547},{318,122}}",
+      "textureRotated": true
+    },
+    "RSGiftTabWidget_00/ScrollBar.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{15,81}",
+      "spriteSourceSize": "{15,81}",
+      "textureRect": "{{717,960},{15,81}}",
+      "textureRotated": true
+    },
+    "RSGiftTabWidget_00/ScrollBarDisable.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{15,81}",
+      "spriteSourceSize": "{15,81}",
+      "textureRect": "{{262,1172},{15,81}}",
+      "textureRotated": true
+    },
+    "RSGiftTabWidget_00/ScrollBg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{33,259}",
+      "spriteSourceSize": "{33,259}",
+      "textureRect": "{{1,1172},{33,259}}",
+      "textureRotated": true
+    },
+    "RSGiftTabWidget_00/SelectAllBtn/RadioButton_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{162,36}",
+      "spriteSourceSize": "{162,36}",
+      "textureRect": "{{942,1},{162,36}}",
+      "textureRotated": true
+    },
+    "RSGiftTabWidget_00/SelectAllBtn/RadioButton_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{162,35}",
+      "spriteSourceSize": "{162,35}",
+      "textureRect": "{{942,165},{162,35}}",
+      "textureRotated": true
+    },
+    "RSGiftTabWidget_00/SendAllBtn/SendAllBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{270,91}",
+      "spriteSourceSize": "{270,91}",
+      "textureRect": "{{717,867},{270,91}}",
+      "textureRotated": false
+    },
+    "RSGiftTabWidget_00/SendAllBtn/SendAllBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{270,91}",
+      "spriteSourceSize": "{270,91}",
+      "textureRect": "{{715,1104},{270,91}}",
+      "textureRotated": false
+    },
+    "RSGiftTabWidget_00/SendAllBtn/SendAllBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{270,91}",
+      "spriteSourceSize": "{270,91}",
+      "textureRect": "{{893,504},{270,91}}",
+      "textureRotated": true
+    },
+    "RSGiftTabWidget_00/SendBtn/SendBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{446,123}",
+      "spriteSourceSize": "{446,123}",
+      "textureRect": "{{1,422},{446,123}}",
+      "textureRotated": false
+    },
+    "RSGiftTabWidget_00/SendBtn/SendBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{446,123}",
+      "spriteSourceSize": "{446,123}",
+      "textureRect": "{{1,547},{446,123}}",
+      "textureRotated": false
+    },
+    "RSGiftTabWidget_00/SendBtn/SendBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{446,123}",
+      "spriteSourceSize": "{446,123}",
+      "textureRect": "{{1,672},{446,123}}",
+      "textureRotated": false
+    },
+    "RSGiftTabWidget_00/SendBtnBo.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{446,123}",
+      "spriteSourceSize": "{446,123}",
+      "textureRect": "{{1,547},{446,123}}",
+      "textureRotated": false
+    },
+    "RSGiftTabWidget_00/SendCount.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{40,41}",
+      "spriteSourceSize": "{40,41}",
+      "textureRect": "{{717,795},{40,41}}",
+      "textureRotated": false
+    },
+    "RSGiftTabWidget_00/SubBg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{874,419}",
+      "spriteSourceSize": "{874,419}",
+      "textureRect": "{{1,1},{874,419}}",
+      "textureRotated": false
+    },
+    "RSGiftTabWidget_00/Title.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{343,63}",
+      "spriteSourceSize": "{343,63}",
+      "textureRect": "{{877,1},{343,63}}",
+      "textureRotated": true
+    },
+    "RSGiftTabWidget_00/UpArrow/UpArrow_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{31,25}",
+      "spriteSourceSize": "{31,25}",
+      "textureRect": "{{748,1073},{31,25}}",
+      "textureRotated": false
+    },
+    "RSGiftTabWidget_00/UpArrow/UpArrow_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{31,25}",
+      "spriteSourceSize": "{31,25}",
+      "textureRect": "{{893,803},{31,25}}",
+      "textureRotated": false
+    },
+    "RSGiftTabWidget_00/UpArrow/UpArrow_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{31,25}",
+      "spriteSourceSize": "{31,25}",
+      "textureRect": "{{926,776},{31,25}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "RSGiftTabWidget_00-hd.png",
+    "size": "{988,1206}",
+    "smartupdate": "$TexturePacker:SmartUpdate:56f77153209aa278cef7ac93bac1fd6e:3670ac76c07ed3163d0f58ba74c04637:5292ae9ff0483955ef1a09c281794b84$",
+    "textureFileName": "RSGiftTabWidget_00-hd.png",
+    "animations": [
+      "ClaimAllBtn",
+      "ClaimBtn",
+      "DownArrow",
+      "InviteBtn",
+      "InviteFriendsBtn",
+      "SelectAllBtn",
+      "SendAllBtn",
+      "SendBtn",
+      "UpArrow"
+    ]
+  }
+}

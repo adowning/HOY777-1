@@ -1,0 +1,1394 @@
+{
+  "frames": {
+    "MainLobby_00/AllUnlocked.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{185,73}",
+      "spriteSourceSize": "{185,75}",
+      "textureRect": "{{905,1},{185,73}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/BingoTag/BingoTag_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{978,363},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/BingoTag/BingoTag_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{978,363},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/BingoTag/BingoTag_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,619},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/BingoTag/BingoTag_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,619},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/BingoTag/BingoTag_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,672},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/BingoTag/BingoTag_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,672},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/BingoTag/BingoTag_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,725},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/BingoTag/BingoTag_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,725},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/BingoTag/BingoTag_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,778},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/BingoTag/BingoTag_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,778},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/BingoTag/BingoTag_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{481,831},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/BingoTag/BingoTag_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{481,831},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/BingoTag/BingoTag_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{527,869},{51,44}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/BingoTag/BingoTag_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{527,869},{51,44}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/BingoTag/BingoTag_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{481,884},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/BingoTag/BingoTag_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{481,884},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/BingoTag/BingoTag_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{527,915},{51,44}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/BingoTag/BingoTag_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{527,915},{51,44}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/BingoTag/BingoTag_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{481,937},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/BingoTag/BingoTag_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{481,937},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/BingoTag/BingoTag_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{527,961},{51,44}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/BingoTag/BingoTag_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{527,961},{51,44}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/BingoTag/BingoTag_0022.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{978,363},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/BingoTag/BingoTag_0023.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{978,363},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/BlackJackTag/BlackJackTag_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{978,363},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/BlackJackTag/BlackJackTag_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{978,363},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/BlackJackTag/BlackJackTag_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,619},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/BlackJackTag/BlackJackTag_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,619},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/BlackJackTag/BlackJackTag_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,672},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/BlackJackTag/BlackJackTag_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,672},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/BlackJackTag/BlackJackTag_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,725},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/BlackJackTag/BlackJackTag_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,725},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/BlackJackTag/BlackJackTag_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,778},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/BlackJackTag/BlackJackTag_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,778},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/BlackJackTag/BlackJackTag_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{481,831},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/BlackJackTag/BlackJackTag_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{481,831},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/BlackJackTag/BlackJackTag_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{527,869},{51,44}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/BlackJackTag/BlackJackTag_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{527,869},{51,44}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/BlackJackTag/BlackJackTag_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{481,884},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/BlackJackTag/BlackJackTag_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{481,884},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/BlackJackTag/BlackJackTag_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{527,915},{51,44}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/BlackJackTag/BlackJackTag_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{527,915},{51,44}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/BlackJackTag/BlackJackTag_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{481,937},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/BlackJackTag/BlackJackTag_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{481,937},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/BlackJackTag/BlackJackTag_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{527,961},{51,44}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/BlackJackTag/BlackJackTag_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{527,961},{51,44}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/BlackJackTag/BlackJackTag_0022.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{978,363},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/BlackJackTag/BlackJackTag_0023.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{978,363},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/KenoBingo.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{167,43}",
+      "spriteSourceSize": "{167,43}",
+      "textureRect": "{{980,1},{167,43}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/KenoBingoButton/KenoBingoButton_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{185,125}",
+      "spriteSourceSize": "{185,125}",
+      "textureRect": "{{481,1035},{185,125}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/KenoBingoButton/KenoBingoButton_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{185,125}",
+      "spriteSourceSize": "{185,125}",
+      "textureRect": "{{668,1035},{185,125}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/KenoBingoButton/KenoBingoButton_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{185,125}",
+      "spriteSourceSize": "{185,125}",
+      "textureRect": "{{795,1135},{185,125}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/KenoBingoSection.png": {
+      "aliases": [],
+      "spriteOffset": "{-291,154}",
+      "spriteSize": "{188,210}",
+      "spriteSourceSize": "{1412,768}",
+      "textureRect": "{{1,945},{188,210}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/KenoTag/KenoTag_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{978,363},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/KenoTag/KenoTag_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{978,363},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/KenoTag/KenoTag_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,619},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/KenoTag/KenoTag_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,619},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/KenoTag/KenoTag_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,672},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/KenoTag/KenoTag_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,672},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/KenoTag/KenoTag_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,725},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/KenoTag/KenoTag_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,725},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/KenoTag/KenoTag_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,778},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/KenoTag/KenoTag_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,778},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/KenoTag/KenoTag_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{481,831},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/KenoTag/KenoTag_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{481,831},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/KenoTag/KenoTag_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{527,869},{51,44}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/KenoTag/KenoTag_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{527,869},{51,44}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/KenoTag/KenoTag_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{481,884},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/KenoTag/KenoTag_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{481,884},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/KenoTag/KenoTag_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{527,915},{51,44}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/KenoTag/KenoTag_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{527,915},{51,44}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/KenoTag/KenoTag_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{481,937},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/KenoTag/KenoTag_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{481,937},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/KenoTag/KenoTag_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{527,961},{51,44}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/KenoTag/KenoTag_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{527,961},{51,44}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/KenoTag/KenoTag_0022.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{978,363},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/KenoTag/KenoTag_0023.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{978,363},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/PokerSection.png": {
+      "aliases": [],
+      "spriteOffset": "{282,155}",
+      "spriteSize": "{188,212}",
+      "spriteSourceSize": "{1412,768}",
+      "textureRect": "{{819,921},{188,212}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/Roulette.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{239,161}",
+      "spriteSourceSize": "{239,161}",
+      "textureRect": "{{1,619},{239,161}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/ScratcherTag/ScratcherTag_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{978,363},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/ScratcherTag/ScratcherTag_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{978,363},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/ScratcherTag/ScratcherTag_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,619},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/ScratcherTag/ScratcherTag_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,619},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/ScratcherTag/ScratcherTag_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,672},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/ScratcherTag/ScratcherTag_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,672},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/ScratcherTag/ScratcherTag_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,725},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/ScratcherTag/ScratcherTag_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,725},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/ScratcherTag/ScratcherTag_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,778},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/ScratcherTag/ScratcherTag_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,778},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/ScratcherTag/ScratcherTag_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{481,831},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/ScratcherTag/ScratcherTag_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{481,831},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/ScratcherTag/ScratcherTag_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{527,869},{51,44}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/ScratcherTag/ScratcherTag_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{527,869},{51,44}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/ScratcherTag/ScratcherTag_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{481,884},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/ScratcherTag/ScratcherTag_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{481,884},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/ScratcherTag/ScratcherTag_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{527,915},{51,44}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/ScratcherTag/ScratcherTag_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{527,915},{51,44}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/ScratcherTag/ScratcherTag_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{481,937},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/ScratcherTag/ScratcherTag_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{481,937},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/ScratcherTag/ScratcherTag_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{527,961},{51,44}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/ScratcherTag/ScratcherTag_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{527,961},{51,44}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/ScratcherTag/ScratcherTag_0022.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{978,363},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/ScratcherTag/ScratcherTag_0023.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{978,363},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/ScratchersButton/ScratchersButton_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{239,161}",
+      "spriteSourceSize": "{239,161}",
+      "textureRect": "{{242,619},{239,161}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/ScratchersButton/ScratchersButton_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{239,161}",
+      "spriteSourceSize": "{239,161}",
+      "textureRect": "{{595,711},{239,161}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/ScratchersButton/ScratchersButton_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{239,161}",
+      "spriteSourceSize": "{239,161}",
+      "textureRect": "{{1,782},{239,161}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/ScratchersSection.png": {
+      "aliases": [],
+      "spriteOffset": "{357,0}",
+      "spriteSize": "{258,282}",
+      "spriteSourceSize": "{1412,768}",
+      "textureRect": "{{621,1},{258,282}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/ScratchersTitle.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{213,67}",
+      "spriteSourceSize": "{213,67}",
+      "textureRect": "{{531,437},{213,67}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/SlotsButton/SlotsButton_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{263,180}",
+      "spriteSourceSize": "{263,180}",
+      "textureRect": "{{1,437},{263,180}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/SlotsButton/SlotsButton_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{263,180}",
+      "spriteSourceSize": "{263,180}",
+      "textureRect": "{{266,437},{263,180}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/SlotsButton/SlotsButton_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{263,180}",
+      "spriteSourceSize": "{263,180}",
+      "textureRect": "{{600,529},{263,180}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/SlotsSection.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,-127}",
+      "spriteSize": "{618,434}",
+      "spriteSourceSize": "{1412,768}",
+      "textureRect": "{{1,1},{618,434}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/SlotsTag/SlotsTag_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{978,363},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/SlotsTag/SlotsTag_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{978,363},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/SlotsTag/SlotsTag_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,619},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/SlotsTag/SlotsTag_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,619},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/SlotsTag/SlotsTag_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,672},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/SlotsTag/SlotsTag_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,672},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/SlotsTag/SlotsTag_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,725},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/SlotsTag/SlotsTag_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,725},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/SlotsTag/SlotsTag_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,778},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/SlotsTag/SlotsTag_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,778},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/SlotsTag/SlotsTag_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{481,831},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/SlotsTag/SlotsTag_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{481,831},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/SlotsTag/SlotsTag_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{527,869},{51,44}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/SlotsTag/SlotsTag_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{527,869},{51,44}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/SlotsTag/SlotsTag_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{481,884},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/SlotsTag/SlotsTag_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{481,884},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/SlotsTag/SlotsTag_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{527,915},{51,44}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/SlotsTag/SlotsTag_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{527,915},{51,44}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/SlotsTag/SlotsTag_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{481,937},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/SlotsTag/SlotsTag_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{481,937},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/SlotsTag/SlotsTag_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{527,961},{51,44}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/SlotsTag/SlotsTag_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{527,961},{51,44}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/SlotsTag/SlotsTag_0022.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{978,363},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/SlotsTag/SlotsTag_0023.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{978,363},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/SlotsTitle.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{192,71}",
+      "spriteSourceSize": "{192,71}",
+      "textureRect": "{{905,188},{192,71}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/TableGamesButton/TableGamesButton_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{237,159}",
+      "spriteSourceSize": "{237,159}",
+      "textureRect": "{{242,782},{237,159}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/TableGamesButton/TableGamesButton_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{237,159}",
+      "spriteSourceSize": "{237,159}",
+      "textureRect": "{{580,874},{237,159}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/TableGamesButton/TableGamesButton_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{237,159}",
+      "spriteSourceSize": "{237,159}",
+      "textureRect": "{{242,943},{237,159}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/TableGamesSection.png": {
+      "aliases": [],
+      "spriteOffset": "{-361,3}",
+      "spriteSize": "{266,274}",
+      "spriteSourceSize": "{1412,768}",
+      "textureRect": "{{621,261},{266,274}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/TableGamesTitle.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{215,64}",
+      "spriteSourceSize": "{215,64}",
+      "textureRect": "{{529,652},{215,64}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/VideoPokerButton/VideoPokerButton_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{187,125}",
+      "spriteSourceSize": "{187,125}",
+      "textureRect": "{{897,416},{187,125}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/VideoPokerButton/VideoPokerButton_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{187,125}",
+      "spriteSourceSize": "{187,125}",
+      "textureRect": "{{865,605},{187,125}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/VideoPokerButton/VideoPokerButton_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{187,125}",
+      "spriteSourceSize": "{187,125}",
+      "textureRect": "{{836,794},{187,125}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/VideoPokerTag/VideoPokerTag_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{978,363},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/VideoPokerTag/VideoPokerTag_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{978,363},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/VideoPokerTag/VideoPokerTag_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,619},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/VideoPokerTag/VideoPokerTag_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,619},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/VideoPokerTag/VideoPokerTag_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,672},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/VideoPokerTag/VideoPokerTag_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,672},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/VideoPokerTag/VideoPokerTag_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,725},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/VideoPokerTag/VideoPokerTag_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,725},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/VideoPokerTag/VideoPokerTag_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,778},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/VideoPokerTag/VideoPokerTag_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{483,778},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/VideoPokerTag/VideoPokerTag_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{481,831},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/VideoPokerTag/VideoPokerTag_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{481,831},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/VideoPokerTag/VideoPokerTag_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{527,869},{51,44}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/VideoPokerTag/VideoPokerTag_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{527,869},{51,44}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/VideoPokerTag/VideoPokerTag_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{481,884},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/VideoPokerTag/VideoPokerTag_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{481,884},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/VideoPokerTag/VideoPokerTag_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{527,915},{51,44}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/VideoPokerTag/VideoPokerTag_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{527,915},{51,44}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/VideoPokerTag/VideoPokerTag_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{481,937},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/VideoPokerTag/VideoPokerTag_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{481,937},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/VideoPokerTag/VideoPokerTag_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{527,961},{51,44}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/VideoPokerTag/VideoPokerTag_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{527,961},{51,44}}",
+      "textureRotated": false
+    },
+    "MainLobby_00/VideoPokerTag/VideoPokerTag_0022.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{978,363},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/VideoPokerTag/VideoPokerTag_0023.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{51,44}",
+      "spriteSourceSize": "{51,44}",
+      "textureRect": "{{978,363},{51,44}}",
+      "textureRotated": true
+    },
+    "MainLobby_00/VideoPokerTitle.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{173,45}",
+      "spriteSourceSize": "{173,45}",
+      "textureRect": "{{978,188},{173,45}}",
+      "textureRotated": true
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "MainLobby_00-hd.png",
+    "size": "{1024,2048}",
+    "smartupdate": "$TexturePacker:SmartUpdate:b215131bf41148d5e069c55bd35d0aa6:9fd1678cd7f415cda5bfc430c2d5038b:da866e55f19ef8b5d2e01a4f93b10671$",
+    "textureFileName": "MainLobby_00-hd.png",
+    "animations": [
+      "BingoTag",
+      "BlackJackTag",
+      "KenoBingoButton",
+      "KenoTag",
+      "ScratcherTag",
+      "ScratchersButton",
+      "SlotsButton",
+      "SlotsTag",
+      "TableGamesButton",
+      "VideoPokerButton",
+      "VideoPokerTag"
+    ]
+  }
+}

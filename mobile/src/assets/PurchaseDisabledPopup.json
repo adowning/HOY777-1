@@ -1,0 +1,30 @@
+{
+  "frames": {
+    "PurchaseDisabledPopup_00/SubHeading.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{455,164}",
+      "spriteSourceSize": "{455,164}",
+      "textureRect": "{{779,1},{455,164}}",
+      "textureRotated": false
+    },
+    "PurchaseDisabledPopup_00/coin.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{776,175}",
+      "spriteSourceSize": "{776,175}",
+      "textureRect": "{{1,1},{776,175}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "PurchaseDisabledPopup_00-hd.png",
+    "size": "{1235,177}",
+    "smartupdate": "$TexturePacker:SmartUpdate:95c4ff4db32599c23cf4e17ddfe446b5:5d4a7760461ab73933dcf2ad70b3267a:1d77317558de34413995f207a1243b2c$",
+    "textureFileName": "PurchaseDisabledPopup_00-hd.png",
+    "animations": []
+  }
+}

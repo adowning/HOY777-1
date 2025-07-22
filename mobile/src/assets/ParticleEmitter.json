@@ -1,0 +1,86 @@
+{
+  "frames": {
+    "ParticleEmitter_00/ParticleEmitter0.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{35,34}",
+      "spriteSourceSize": "{35,34}",
+      "textureRect": "{{1,110},{35,34}}",
+      "textureRotated": false
+    },
+    "ParticleEmitter_00/ParticleEmitter1.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{33,35}",
+      "spriteSourceSize": "{33,35}",
+      "textureRect": "{{1,146},{33,35}}",
+      "textureRotated": true
+    },
+    "ParticleEmitter_00/ParticleEmitter2.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{17,25}",
+      "spriteSourceSize": "{17,25}",
+      "textureRect": "{{44,39},{17,25}}",
+      "textureRotated": false
+    },
+    "ParticleEmitter_00/ParticleEmitter3.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{24,25}",
+      "spriteSourceSize": "{24,25}",
+      "textureRect": "{{38,142},{24,25}}",
+      "textureRotated": true
+    },
+    "ParticleEmitter_00/ParticleEmitter4.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{35,35}",
+      "spriteSourceSize": "{35,35}",
+      "textureRect": "{{1,73},{35,35}}",
+      "textureRotated": false
+    },
+    "ParticleEmitter_00/ParticleEmitter5.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{24,26}",
+      "spriteSourceSize": "{24,26}",
+      "textureRect": "{{38,114},{24,26}}",
+      "textureRotated": false
+    },
+    "ParticleEmitter_00/ParticleEmitter6.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{41,32}",
+      "spriteSourceSize": "{41,32}",
+      "textureRect": "{{1,39},{41,32}}",
+      "textureRotated": false
+    },
+    "ParticleEmitter_00/ParticleEmitter7.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{45,36}",
+      "spriteSourceSize": "{45,36}",
+      "textureRect": "{{1,1},{45,36}}",
+      "textureRotated": false
+    },
+    "ParticleEmitter_00/ParticleEmitter8.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{39,25}",
+      "spriteSourceSize": "{39,25}",
+      "textureRect": "{{38,73},{39,25}}",
+      "textureRotated": true
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "ParticleEmitter_00-hd.png",
+    "size": "{64,180}",
+    "smartupdate": "$TexturePacker:SmartUpdate:5b65949a51882c0fbcafd4ecd766542d:61675f45f390459ab121fdae3b88748a:13e3f153237c8de1554e2c0b4dab1b4c$",
+    "textureFileName": "ParticleEmitter_00-hd.png",
+    "animations": []
+  }
+}

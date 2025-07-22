@@ -1,0 +1,30 @@
+{
+  "frames": {
+    "G2PMachineGiftingPopup_00/Icons.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{636,422}",
+      "spriteSourceSize": "{636,422}",
+      "textureRect": "{{1,1},{636,422}}",
+      "textureRotated": false
+    },
+    "G2PMachineGiftingPopup_00/TimerBg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{506,63}",
+      "spriteSourceSize": "{506,63}",
+      "textureRect": "{{1,425},{506,63}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "G2PMachineGiftingPopup_00-hd.png",
+    "size": "{638,489}",
+    "smartupdate": "$TexturePacker:SmartUpdate:d90775ef61a2196463964adcb815fbf4:c1847d0c215c0b2d58c804b4319c13f0:688efad258b44c951f8b6c32d43a73d8$",
+    "textureFileName": "G2PMachineGiftingPopup_00-hd.png",
+    "animations": []
+  }
+}

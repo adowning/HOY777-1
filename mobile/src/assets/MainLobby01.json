@@ -1,0 +1,21 @@
+{
+  "frames": {
+    "MainLobby_01/Bg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{1412,768}",
+      "spriteSourceSize": "{1412,768}",
+      "textureRect": "{{1,1},{1412,768}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "MainLobby_01-hd.png",
+    "size": "{1414,770}",
+    "smartupdate": "$TexturePacker:SmartUpdate:0a029edab80e86c66d302650d4d9566e:136f8df74a322f122461ca02b4930e1b:5d01cd9ff86ba3bd985c4e4d4e224570$",
+    "textureFileName": "MainLobby_01-hd.png"
+  }
+}

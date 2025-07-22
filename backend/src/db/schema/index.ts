@@ -10,3 +10,8 @@ export * from './wallets'
 export * from './promos'
 export * from './misc'
 export * from './session'
+export * from './gameSpin'
+export * from './vipInfo'
+export * from './redtiger'
+export * from './jackpots'
+export { jackpotTypeEnum } from './jackpots';

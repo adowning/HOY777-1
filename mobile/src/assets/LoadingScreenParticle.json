@@ -1,0 +1,38 @@
+{
+  "frames": {
+    "LoadingScreenParticle_00/LoadingScreenParticle0.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{54,54}",
+      "spriteSourceSize": "{54,54}",
+      "textureRect": "{{1,1},{54,54}}",
+      "textureRotated": false
+    },
+    "LoadingScreenParticle_00/LoadingScreenParticle1.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{54,54}",
+      "spriteSourceSize": "{54,54}",
+      "textureRect": "{{57,1},{54,54}}",
+      "textureRotated": false
+    },
+    "LoadingScreenParticle_00/LoadingScreenParticle2.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{54,54}",
+      "spriteSourceSize": "{54,54}",
+      "textureRect": "{{113,1},{54,54}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "LoadingScreenParticle_00-hd.png",
+    "size": "{168,56}",
+    "smartupdate": "$TexturePacker:SmartUpdate:3564d2c11dfd969db9cab89ba73faa45:26e4de45cdb62407b8d89a8aeeae7a94:03e09f665a769e8562af54884d6f87a5$",
+    "textureFileName": "LoadingScreenParticle_00-hd.png",
+    "animations": []
+  }
+}

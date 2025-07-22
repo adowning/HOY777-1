@@ -1,0 +1,147 @@
+{
+  "frames": {
+    "PCInGamePurchase_00/Buy_1/Buy_1_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{151,38}",
+      "spriteSourceSize": "{151,38}",
+      "textureRect": "{{1,1},{151,38}}",
+      "textureRotated": false
+    },
+    "PCInGamePurchase_00/Buy_1/Buy_1_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{151,38}",
+      "spriteSourceSize": "{151,38}",
+      "textureRect": "{{1,41},{151,38}}",
+      "textureRotated": false
+    },
+    "PCInGamePurchase_00/Buy_1/Buy_1_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{151,38}",
+      "spriteSourceSize": "{151,38}",
+      "textureRect": "{{1,81},{151,38}}",
+      "textureRotated": false
+    },
+    "PCInGamePurchase_00/Buy_2/Buy_2_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{151,38}",
+      "spriteSourceSize": "{151,38}",
+      "textureRect": "{{1,1},{151,38}}",
+      "textureRotated": false
+    },
+    "PCInGamePurchase_00/Buy_2/Buy_2_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{151,38}",
+      "spriteSourceSize": "{151,38}",
+      "textureRect": "{{1,41},{151,38}}",
+      "textureRotated": false
+    },
+    "PCInGamePurchase_00/Buy_2/Buy_2_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{151,38}",
+      "spriteSourceSize": "{151,38}",
+      "textureRect": "{{1,81},{151,38}}",
+      "textureRotated": false
+    },
+    "PCInGamePurchase_00/Buy_3/Buy_3_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{151,38}",
+      "spriteSourceSize": "{151,38}",
+      "textureRect": "{{1,1},{151,38}}",
+      "textureRotated": false
+    },
+    "PCInGamePurchase_00/Buy_3/Buy_3_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{151,38}",
+      "spriteSourceSize": "{151,38}",
+      "textureRect": "{{1,41},{151,38}}",
+      "textureRotated": false
+    },
+    "PCInGamePurchase_00/Buy_3/Buy_3_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{151,38}",
+      "spriteSourceSize": "{151,38}",
+      "textureRect": "{{1,81},{151,38}}",
+      "textureRotated": false
+    },
+    "PCInGamePurchase_00/Buy_4/Buy_4_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{151,38}",
+      "spriteSourceSize": "{151,38}",
+      "textureRect": "{{1,1},{151,38}}",
+      "textureRotated": false
+    },
+    "PCInGamePurchase_00/Buy_4/Buy_4_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{151,38}",
+      "spriteSourceSize": "{151,38}",
+      "textureRect": "{{1,41},{151,38}}",
+      "textureRotated": false
+    },
+    "PCInGamePurchase_00/Buy_4/Buy_4_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{151,38}",
+      "spriteSourceSize": "{151,38}",
+      "textureRect": "{{1,81},{151,38}}",
+      "textureRotated": false
+    },
+    "PCInGamePurchase_00/bg_CartBundle1.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{163,146}",
+      "spriteSourceSize": "{163,146}",
+      "textureRect": "{{1,121},{163,146}}",
+      "textureRotated": false
+    },
+    "PCInGamePurchase_00/bg_CartBundle2.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{163,146}",
+      "spriteSourceSize": "{163,146}",
+      "textureRect": "{{1,269},{163,146}}",
+      "textureRotated": false
+    },
+    "PCInGamePurchase_00/bg_CartBundle3.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{163,146}",
+      "spriteSourceSize": "{163,146}",
+      "textureRect": "{{1,417},{163,146}}",
+      "textureRotated": false
+    },
+    "PCInGamePurchase_00/bg_CartBundle4.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{163,146}",
+      "spriteSourceSize": "{163,146}",
+      "textureRect": "{{1,565},{163,146}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "PCInGamePurchase_00-hd.png",
+    "size": "{165,712}",
+    "smartupdate": "$TexturePacker:SmartUpdate:f6348b4dcb7c34e15099cf9704a3c3a0:17c8e1ebf0607995576aafe414286556:501651d669efdab0d89307cf6d2737fa$",
+    "textureFileName": "PCInGamePurchase_00-hd.png",
+    "animations": [
+      "Buy_1",
+      "Buy_2",
+      "Buy_3",
+      "Buy_4"
+    ]
+  }
+}

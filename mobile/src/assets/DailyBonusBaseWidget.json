@@ -1,0 +1,48 @@
+{
+  "frames": {
+    "DailyBonusBaseWidget_00/CollectBtn/CollectBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,88}",
+      "spriteSourceSize": "{223,88}",
+      "textureRect": "{{1,597},{223,88}}",
+      "textureRotated": true
+    },
+    "DailyBonusBaseWidget_00/CollectBtn/CollectBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,88}",
+      "spriteSourceSize": "{223,88}",
+      "textureRect": "{{1,822},{223,88}}",
+      "textureRotated": false
+    },
+    "DailyBonusBaseWidget_00/CollectBtn/CollectBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,88}",
+      "spriteSourceSize": "{223,88}",
+      "textureRect": "{{91,597},{223,88}}",
+      "textureRotated": true
+    },
+    "DailyBonusBaseWidget_00/TotalBase.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{996,594}",
+      "spriteSourceSize": "{996,594}",
+      "textureRect": "{{1,1},{996,594}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "DailyBonusBaseWidget_00-hd.png",
+    "size": "{1024,1024}",
+    "smartupdate": "$TexturePacker:SmartUpdate:99a06c983bc68f26694be6aad475b590:24d07dfd62c0d2269c7ad0e7c1e630cc:f4c1e9e7d110ce319e45916b771471c1$",
+    "textureFileName": "DailyBonusBaseWidget_00-hd.png",
+    "animations": [
+      "CollectBtn"
+    ]
+  }
+}

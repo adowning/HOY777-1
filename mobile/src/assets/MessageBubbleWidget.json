@@ -1,0 +1,70 @@
+{
+  "frames": {
+    "MessageBubbleWidget_00/Arrow_Bottom_Center.png": {
+      "aliases": [],
+      "spriteOffset": "{0,17}",
+      "spriteSize": "{32,40}",
+      "spriteSourceSize": "{32,74}",
+      "textureRect": "{{231,1},{32,40}}",
+      "textureRotated": false
+    },
+    "MessageBubbleWidget_00/Arrow_Bottom_Left.png": {
+      "aliases": [],
+      "spriteOffset": "{0,17}",
+      "spriteSize": "{32,40}",
+      "spriteSourceSize": "{32,74}",
+      "textureRect": "{{231,1},{32,40}}",
+      "textureRotated": false
+    },
+    "MessageBubbleWidget_00/Arrow_Bottom_Right.png": {
+      "aliases": [],
+      "spriteOffset": "{0,17}",
+      "spriteSize": "{32,40}",
+      "spriteSourceSize": "{32,74}",
+      "textureRect": "{{231,1},{32,40}}",
+      "textureRotated": false
+    },
+    "MessageBubbleWidget_00/Arrow_Top_Center.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-17}",
+      "spriteSize": "{32,40}",
+      "spriteSourceSize": "{32,74}",
+      "textureRect": "{{231,43},{32,40}}",
+      "textureRotated": false
+    },
+    "MessageBubbleWidget_00/Arrow_Top_Left.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-17}",
+      "spriteSize": "{32,40}",
+      "spriteSourceSize": "{32,74}",
+      "textureRect": "{{231,43},{32,40}}",
+      "textureRotated": false
+    },
+    "MessageBubbleWidget_00/Arrow_Top_Right.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-17}",
+      "spriteSize": "{32,40}",
+      "spriteSourceSize": "{32,74}",
+      "textureRect": "{{231,43},{32,40}}",
+      "textureRotated": false
+    },
+    "MessageBubbleWidget_00/Bg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{228,125}",
+      "spriteSourceSize": "{228,125}",
+      "textureRect": "{{1,1},{228,125}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "MessageBubbleWidget_00-hd.png",
+    "size": "{264,127}",
+    "smartupdate": "$TexturePacker:SmartUpdate:02228bb79e5c504b3e2b1d4941a9a153:e65b73ec413b9b3ea793a1c931dd002a:6f07ad653a0256f95d4521dfd64c7c0f$",
+    "textureFileName": "MessageBubbleWidget_00-hd.png",
+    "animations": []
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "frames": {
+    "UnLockedLoyaltyMall_00/Bg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{947,540}",
+      "spriteSourceSize": "{947,540}",
+      "textureRect": "{{1,1},{947,540}}",
+      "textureRotated": false
+    },
+    "UnLockedLoyaltyMall_00/Glare/Glare_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{-23,113}",
+      "spriteSize": "{13,9}",
+      "spriteSourceSize": "{469,469}",
+      "textureRect": "{{471,1452},{13,9}}",
+      "textureRotated": false
+    },
+    "UnLockedLoyaltyMall_00/Glare/Glare_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{-38,96}",
+      "spriteSize": "{77,49}",
+      "spriteSourceSize": "{469,469}",
+      "textureRect": "{{948,719},{77,49}}",
+      "textureRotated": true
+    },
+    "UnLockedLoyaltyMall_00/Glare/Glare_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{-32,91}",
+      "spriteSize": "{93,59}",
+      "spriteSourceSize": "{469,469}",
+      "textureRect": "{{948,624},{93,59}}",
+      "textureRotated": true
+    },
+    "UnLockedLoyaltyMall_00/Glare/Glare_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{-24,81}",
+      "spriteSize": "{109,79}",
+      "spriteSourceSize": "{469,469}",
+      "textureRect": "{{686,1644},{109,79}}",
+      "textureRotated": false
+    },
+    "UnLockedLoyaltyMall_00/Glare/Glare_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{-20,71}",
+      "spriteSize": "{117,97}",
+      "spriteSourceSize": "{469,469}",
+      "textureRect": "{{800,1532},{117,97}}",
+      "textureRotated": false
+    },
+    "UnLockedLoyaltyMall_00/Glare/Glare_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{-17,62}",
+      "spriteSize": "{123,117}",
+      "spriteSourceSize": "{469,469}",
+      "textureRect": "{{610,1311},{123,117}}",
+      "textureRotated": false
+    },
+    "UnLockedLoyaltyMall_00/Glare/Glare_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{-5,52}",
+      "spriteSize": "{145,137}",
+      "spriteSourceSize": "{469,469}",
+      "textureRect": "{{471,1280},{145,137}}",
+      "textureRotated": true
+    },
+    "UnLockedLoyaltyMall_00/Glare/Glare_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{-44,17}",
+      "spriteSize": "{235,205}",
+      "spriteSourceSize": "{469,469}",
+      "textureRect": "{{795,933},{235,205}}",
+      "textureRotated": true
+    },
+    "UnLockedLoyaltyMall_00/Glare/Glare_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{-45,7}",
+      "spriteSize": "{237,225}",
+      "spriteSourceSize": "{469,469}",
+      "textureRect": "{{232,1515},{237,225}}",
+      "textureRotated": true
+    },
+    "UnLockedLoyaltyMall_00/Glare/Glare_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{-45,-5}",
+      "spriteSize": "{237,229}",
+      "spriteSourceSize": "{469,469}",
+      "textureRect": "{{1,1515},{237,229}}",
+      "textureRotated": true
+    },
+    "UnLockedLoyaltyMall_00/Glare/Glare_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{-45,-14}",
+      "spriteSize": "{237,225}",
+      "spriteSourceSize": "{469,469}",
+      "textureRect": "{{459,1515},{237,225}}",
+      "textureRotated": true
+    },
+    "UnLockedLoyaltyMall_00/Glare/Glare_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{-45,-27}",
+      "spriteSize": "{237,211}",
+      "spriteSourceSize": "{469,469}",
+      "textureRect": "{{548,543},{237,211}}",
+      "textureRotated": false
+    },
+    "UnLockedLoyaltyMall_00/Glare/Glare_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{-45,-30}",
+      "spriteSize": "{237,211}",
+      "spriteSourceSize": "{469,469}",
+      "textureRect": "{{548,756},{237,211}}",
+      "textureRotated": false
+    },
+    "UnLockedLoyaltyMall_00/Glare/Glare_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{-45,-39}",
+      "spriteSize": "{237,199}",
+      "spriteSourceSize": "{469,469}",
+      "textureRect": "{{795,1170},{237,199}}",
+      "textureRotated": true
+    },
+    "UnLockedLoyaltyMall_00/Glare/Glare_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{-33,-49}",
+      "spriteSize": "{261,179}",
+      "spriteSourceSize": "{469,469}",
+      "textureRect": "{{614,969},{261,179}}",
+      "textureRotated": true
+    },
+    "UnLockedLoyaltyMall_00/Glare/Glare_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{-12,-59}",
+      "spriteSize": "{285,159}",
+      "spriteSourceSize": "{469,469}",
+      "textureRect": "{{787,543},{285,159}}",
+      "textureRotated": true
+    },
+    "UnLockedLoyaltyMall_00/Glare/Glare_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{7,-68}",
+      "spriteSize": "{285,141}",
+      "spriteSourceSize": "{469,469}",
+      "textureRect": "{{471,993},{285,141}}",
+      "textureRotated": true
+    },
+    "UnLockedLoyaltyMall_00/Glare/Glare_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{27,-78}",
+      "spriteSize": "{259,121}",
+      "spriteSourceSize": "{469,469}",
+      "textureRect": "{{735,1409},{259,121}}",
+      "textureRotated": false
+    },
+    "UnLockedLoyaltyMall_00/Glare/Glare_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{43,-87}",
+      "spriteSize": "{227,101}",
+      "spriteSourceSize": "{469,469}",
+      "textureRect": "{{787,830},{227,101}}",
+      "textureRotated": false
+    },
+    "UnLockedLoyaltyMall_00/Glare/Glare_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{59,-97}",
+      "spriteSize": "{195,83}",
+      "spriteSourceSize": "{469,469}",
+      "textureRect": "{{514,1430},{195,83}}",
+      "textureRotated": false
+    },
+    "UnLockedLoyaltyMall_00/Glare/Glare_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{75,-100}",
+      "spriteSize": "{163,77}",
+      "spriteSourceSize": "{469,469}",
+      "textureRect": "{{614,1232},{163,77}}",
+      "textureRotated": false
+    },
+    "UnLockedLoyaltyMall_00/Glare/Glare_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{91,-102}",
+      "spriteSize": "{131,75}",
+      "spriteSourceSize": "{469,469}",
+      "textureRect": "{{919,1532},{131,75}}",
+      "textureRotated": true
+    },
+    "UnLockedLoyaltyMall_00/Glare/Glare_0022.png": {
+      "aliases": [],
+      "spriteOffset": "{107,-105}",
+      "spriteSize": "{99,69}",
+      "spriteSourceSize": "{469,469}",
+      "textureRect": "{{800,1631},{99,69}}",
+      "textureRotated": false
+    },
+    "UnLockedLoyaltyMall_00/Glare/Glare_0023.png": {
+      "aliases": [],
+      "spriteOffset": "{123,-111}",
+      "spriteSize": "{67,51}",
+      "spriteSourceSize": "{469,469}",
+      "textureRect": "{{735,1311},{67,51}}",
+      "textureRotated": true
+    },
+    "UnLockedLoyaltyMall_00/Glare/Glare_0024.png": {
+      "aliases": [],
+      "spriteOffset": "{138,-115}",
+      "spriteSize": "{35,23}",
+      "spriteSourceSize": "{469,469}",
+      "textureRect": "{{471,1427},{35,23}}",
+      "textureRotated": false
+    },
+    "UnLockedLoyaltyMall_00/Glare/Glare_0025.png": {
+      "aliases": [],
+      "spriteOffset": "{-233,233}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{469,469}",
+      "textureRect": "{{548,969},{3,3}}",
+      "textureRotated": false
+    },
+    "UnLockedLoyaltyMall_00/GlowAntiClockwise.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{545,448}",
+      "spriteSourceSize": "{545,448}",
+      "textureRect": "{{1,543},{545,448}}",
+      "textureRotated": false
+    },
+    "UnLockedLoyaltyMall_00/GlowClockwise.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{545,448}",
+      "spriteSourceSize": "{545,448}",
+      "textureRect": "{{1,543},{545,448}}",
+      "textureRotated": false
+    },
+    "UnLockedLoyaltyMall_00/GoldStar.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{112,110}",
+      "spriteSourceSize": "{112,110}",
+      "textureRect": "{{686,1532},{112,110}}",
+      "textureRotated": false
+    },
+    "UnLockedLoyaltyMall_00/Logo.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{468,468}",
+      "spriteSourceSize": "{468,468}",
+      "textureRect": "{{1,993},{468,468}}",
+      "textureRotated": false
+    },
+    "UnLockedLoyaltyMall_00/Title/Title_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{511,50}",
+      "spriteSourceSize": "{511,50}",
+      "textureRect": "{{1,1463},{511,50}}",
+      "textureRotated": false
+    },
+    "UnLockedLoyaltyMall_00/Title/Title_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{621,50}",
+      "spriteSourceSize": "{621,50}",
+      "textureRect": "{{950,1},{621,50}}",
+      "textureRotated": true
+    },
+    "UnLockedLoyaltyMall_00/WhiteStar.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{65,59}",
+      "spriteSourceSize": "{65,59}",
+      "textureRect": "{{901,1665},{65,59}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "UnLockedLoyaltyMall_00-hd.png",
+    "size": "{1015,1753}",
+    "smartupdate": "$TexturePacker:SmartUpdate:3a5fc99f47d88beea838e0a0c6f97719:5784a6a83ea1d076b89417bdb26b6572:69b1533bbe13efdca8975a9110b1cab6$",
+    "textureFileName": "UnLockedLoyaltyMall_00-hd.png",
+    "animations": [
+      "Glare",
+      "Title"
+    ]
+  }
+}

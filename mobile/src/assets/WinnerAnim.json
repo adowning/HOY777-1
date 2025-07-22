@@ -1,0 +1,176 @@
+{
+  "frames": {
+    "WinnerAnim_00/WinnerAnim/WinnerAnim_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{2,0}",
+      "spriteSize": "{232,44}",
+      "spriteSourceSize": "{260,70}",
+      "textureRect": "{{433,257},{232,44}}",
+      "textureRotated": true
+    },
+    "WinnerAnim_00/WinnerAnim/WinnerAnim_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{236,50}",
+      "spriteSourceSize": "{260,70}",
+      "textureRect": "{{245,139},{236,50}}",
+      "textureRotated": false
+    },
+    "WinnerAnim_00/WinnerAnim/WinnerAnim_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,0}",
+      "spriteSize": "{242,58}",
+      "spriteSourceSize": "{260,70}",
+      "textureRect": "{{1,133},{242,58}}",
+      "textureRotated": false
+    },
+    "WinnerAnim_00/WinnerAnim/WinnerAnim_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{-5,0}",
+      "spriteSize": "{246,64}",
+      "spriteSourceSize": "{260,70}",
+      "textureRect": "{{1,1},{246,64}}",
+      "textureRotated": false
+    },
+    "WinnerAnim_00/WinnerAnim/WinnerAnim_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,0}",
+      "spriteSize": "{242,58}",
+      "spriteSourceSize": "{260,70}",
+      "textureRect": "{{1,193},{242,58}}",
+      "textureRotated": false
+    },
+    "WinnerAnim_00/WinnerAnim/WinnerAnim_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{236,64}",
+      "spriteSourceSize": "{260,70}",
+      "textureRect": "{{245,73},{236,64}}",
+      "textureRotated": false
+    },
+    "WinnerAnim_00/WinnerAnim/WinnerAnim_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{2,0}",
+      "spriteSize": "{232,62}",
+      "spriteSourceSize": "{260,70}",
+      "textureRect": "{{243,257},{232,62}}",
+      "textureRotated": true
+    },
+    "WinnerAnim_00/WinnerAnim/WinnerAnim_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{2,0}",
+      "spriteSize": "{232,70}",
+      "spriteSourceSize": "{260,70}",
+      "textureRect": "{{249,1},{232,70}}",
+      "textureRotated": false
+    },
+    "WinnerAnim_00/WinnerAnim/WinnerAnim_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{2,0}",
+      "spriteSize": "{232,62}",
+      "spriteSourceSize": "{260,70}",
+      "textureRect": "{{307,257},{232,62}}",
+      "textureRotated": true
+    },
+    "WinnerAnim_00/WinnerAnim/WinnerAnim_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{2,0}",
+      "spriteSize": "{232,68}",
+      "spriteSourceSize": "{260,70}",
+      "textureRect": "{{173,253},{232,68}}",
+      "textureRotated": true
+    },
+    "WinnerAnim_00/WinnerAnim/WinnerAnim_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{2,0}",
+      "spriteSize": "{232,60}",
+      "spriteSourceSize": "{260,70}",
+      "textureRect": "{{371,257},{232,60}}",
+      "textureRotated": true
+    },
+    "WinnerAnim_00/WinnerAnim/WinnerAnim_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{4,0}",
+      "spriteSize": "{234,64}",
+      "spriteSourceSize": "{260,70}",
+      "textureRect": "{{245,191},{234,64}}",
+      "textureRotated": false
+    },
+    "WinnerAnim_00/WinnerAnim/WinnerAnim_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{5,0}",
+      "spriteSize": "{238,58}",
+      "spriteSourceSize": "{260,70}",
+      "textureRect": "{{1,253},{238,58}}",
+      "textureRotated": true
+    },
+    "WinnerAnim_00/WinnerAnim/WinnerAnim_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{7,0}",
+      "spriteSize": "{242,64}",
+      "spriteSourceSize": "{260,70}",
+      "textureRect": "{{1,67},{242,64}}",
+      "textureRotated": false
+    },
+    "WinnerAnim_00/WinnerAnim/WinnerAnim_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{5,0}",
+      "spriteSize": "{238,58}",
+      "spriteSourceSize": "{260,70}",
+      "textureRect": "{{61,253},{238,58}}",
+      "textureRotated": true
+    },
+    "WinnerAnim_00/WinnerAnim/WinnerAnim_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{4,0}",
+      "spriteSize": "{234,50}",
+      "spriteSourceSize": "{260,70}",
+      "textureRect": "{{121,257},{234,50}}",
+      "textureRotated": true
+    },
+    "WinnerAnim_00/WinnerAnim/WinnerAnim_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{2,0}",
+      "spriteSize": "{232,44}",
+      "spriteSourceSize": "{260,70}",
+      "textureRect": "{{433,257},{232,44}}",
+      "textureRotated": true
+    },
+    "WinnerAnim_00/WinnerAnim/WinnerAnim_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{2,0}",
+      "spriteSize": "{232,44}",
+      "spriteSourceSize": "{260,70}",
+      "textureRect": "{{433,257},{232,44}}",
+      "textureRotated": true
+    },
+    "WinnerAnim_00/WinnerAnim/WinnerAnim_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{2,0}",
+      "spriteSize": "{232,44}",
+      "spriteSourceSize": "{260,70}",
+      "textureRect": "{{433,257},{232,44}}",
+      "textureRotated": true
+    },
+    "WinnerAnim_00/WinnerAnim/WinnerAnim_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{2,0}",
+      "spriteSize": "{232,44}",
+      "spriteSourceSize": "{260,70}",
+      "textureRect": "{{433,257},{232,44}}",
+      "textureRotated": true
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "WinnerAnim_00-hd.png",
+    "size": "{482,492}",
+    "smartupdate": "$TexturePacker:SmartUpdate:4ed5136381662b693170d84b841fe999:7a8e68c08e76133a5c00b8d73e37b5ad:ee8e1de7b20399458abe50d7d7833381$",
+    "textureFileName": "WinnerAnim_00-hd.png",
+    "animations": [
+      "WinnerAnim"
+    ]
+  }
+}

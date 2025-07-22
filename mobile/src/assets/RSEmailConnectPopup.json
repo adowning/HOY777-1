@@ -1,0 +1,46 @@
+{
+  "frames": {
+    "RSEmailConnectPopup_00/Bg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{901,575}",
+      "spriteSourceSize": "{901,575}",
+      "textureRect": "{{1,24},{901,575}}",
+      "textureRotated": false
+    },
+    "RSEmailConnectPopup_00/InvalidEmail.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{120,17}",
+      "spriteSourceSize": "{120,17}",
+      "textureRect": "{{1,1},{120,17}}",
+      "textureRotated": false
+    },
+    "RSEmailConnectPopup_00/InvalidEmail1.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{194,17}",
+      "spriteSourceSize": "{194,17}",
+      "textureRect": "{{123,1},{194,17}}",
+      "textureRotated": false
+    },
+    "RSEmailConnectPopup_00/MandatoryField.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{168,21}",
+      "spriteSourceSize": "{168,21}",
+      "textureRect": "{{319,1},{168,21}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "RSEmailConnectPopup_00-hd.png",
+    "size": "{903,600}",
+    "smartupdate": "$TexturePacker:SmartUpdate:2d29cc8465db45567ab07e94bf62c05a:b6644dc9fadc370d434365ce8f00415b:eebf09a68ab192c019656bdbadd49d21$",
+    "textureFileName": "RSEmailConnectPopup_00-hd.png",
+    "animations": []
+  }
+}

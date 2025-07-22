@@ -1,0 +1,40 @@
+{
+  "frames": {
+    "PowerupsViewPopup_00/MyPowerupBtn/MyPowerupBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{216,49}",
+      "spriteSourceSize": "{216,49}",
+      "textureRect": "{{1,1},{216,49}}",
+      "textureRotated": false
+    },
+    "PowerupsViewPopup_00/MyPowerupBtn/MyPowerupBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{216,49}",
+      "spriteSourceSize": "{216,49}",
+      "textureRect": "{{219,1},{216,49}}",
+      "textureRotated": false
+    },
+    "PowerupsViewPopup_00/MyPowerupBtn/MyPowerupBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{216,49}",
+      "spriteSourceSize": "{216,49}",
+      "textureRect": "{{437,1},{216,49}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "PowerupsViewPopup_00-hd.png",
+    "size": "{654,51}",
+    "smartupdate": "$TexturePacker:SmartUpdate:3b4ddc7521cb9fb0ede7c49f7bb1c2e8:654e6e801bc4dcaed91cd0e3e6623d67:77417601a75c551424bb6df953344991$",
+    "textureFileName": "PowerupsViewPopup_00-hd.png",
+    "animations": [
+      "MyPowerupBtn"
+    ]
+  }
+}

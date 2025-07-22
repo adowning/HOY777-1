@@ -1,0 +1,89 @@
+{
+  "frames": {
+    "GoToJackpotLoungeScreen_00/Bg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{924,604}",
+      "spriteSourceSize": "{924,604}",
+      "textureRect": "{{1,1},{924,604}}",
+      "textureRotated": false
+    },
+    "GoToJackpotLoungeScreen_00/CloseBtn/CloseBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{513,711},{44,44}}",
+      "textureRotated": false
+    },
+    "GoToJackpotLoungeScreen_00/CloseBtn/CloseBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{513,757},{44,44}}",
+      "textureRotated": false
+    },
+    "GoToJackpotLoungeScreen_00/CloseBtn/CloseBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{559,711},{44,44}}",
+      "textureRotated": false
+    },
+    "GoToJackpotLoungeScreen_00/CoinLeft.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{194,203}",
+      "spriteSourceSize": "{194,203}",
+      "textureRect": "{{1,607},{194,203}}",
+      "textureRotated": false
+    },
+    "GoToJackpotLoungeScreen_00/CoinRight.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{194,203}",
+      "spriteSourceSize": "{194,203}",
+      "textureRect": "{{1,607},{194,203}}",
+      "textureRotated": false
+    },
+    "GoToJackpotLoungeScreen_00/TakeMeBtn/TakeMeBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{314,102}",
+      "spriteSourceSize": "{314,102}",
+      "textureRect": "{{197,607},{314,102}}",
+      "textureRotated": false
+    },
+    "GoToJackpotLoungeScreen_00/TakeMeBtn/TakeMeBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{314,102}",
+      "spriteSourceSize": "{314,102}",
+      "textureRect": "{{197,711},{314,102}}",
+      "textureRotated": false
+    },
+    "GoToJackpotLoungeScreen_00/TakeMeBtn/TakeMeBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{314,102}",
+      "spriteSourceSize": "{314,102}",
+      "textureRect": "{{513,607},{314,102}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "GoToJackpotLoungeScreen_00-hd.png",
+    "size": "{926,814}",
+    "smartupdate": "$TexturePacker:SmartUpdate:2518883d64f4b6d730026dc3c2ef72d7:15e2a9b6c0880eb58d4e0e17e70e6e52:054ffebaf127612a9fa8ae5124c11815$",
+    "textureFileName": "GoToJackpotLoungeScreen_00-hd.png",
+    "animations": [
+      "CloseBtn",
+      "TakeMeBtn"
+    ]
+  }
+}

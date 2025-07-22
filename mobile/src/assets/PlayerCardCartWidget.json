@@ -1,0 +1,30 @@
+{
+  "frames": {
+    "PlayerCardCartWidget_00/VipInfoBanner.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{214,408}",
+      "spriteSourceSize": "{214,408}",
+      "textureRect": "{{1,1},{214,408}}",
+      "textureRotated": false
+    },
+    "PlayerCardCartWidget_00/info.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-1}",
+      "spriteSize": "{214,406}",
+      "spriteSourceSize": "{214,408}",
+      "textureRect": "{{1,411},{214,406}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "PlayerCardCartWidget_00-hd.png",
+    "size": "{216,818}",
+    "smartupdate": "$TexturePacker:SmartUpdate:843e68cf406c1fba063ddbeb40a7e0dc:cafb0fac870eb9fc11ec6e539699688b:cc35af43ca8b0480d0840886823ead06$",
+    "textureFileName": "PlayerCardCartWidget_00-hd.png",
+    "animations": []
+  }
+}

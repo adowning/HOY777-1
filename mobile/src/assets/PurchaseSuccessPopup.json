@@ -1,0 +1,250 @@
+{
+  "frames": {
+    "PurchaseSuccessPopup_00/Bg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{901,575}",
+      "spriteSourceSize": "{901,575}",
+      "textureRect": "{{1,1},{901,575}}",
+      "textureRotated": false
+    },
+    "PurchaseSuccessPopup_00/CloseBtn/CloseBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{853,939},{44,44}}",
+      "textureRotated": false
+    },
+    "PurchaseSuccessPopup_00/CloseBtn/CloseBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{853,985},{44,44}}",
+      "textureRotated": false
+    },
+    "PurchaseSuccessPopup_00/CloseBtn/CloseBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{758,1258},{44,44}}",
+      "textureRotated": false
+    },
+    "PurchaseSuccessPopup_00/Coin.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,68}",
+      "spriteSourceSize": "{62,68}",
+      "textureRect": "{{584,1110},{62,68}}",
+      "textureRotated": true
+    },
+    "PurchaseSuccessPopup_00/CoinStacksLeft.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{309,182}",
+      "spriteSourceSize": "{309,182}",
+      "textureRect": "{{1,999},{309,182}}",
+      "textureRotated": false
+    },
+    "PurchaseSuccessPopup_00/CoinStacksRight.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{314,209}",
+      "spriteSourceSize": "{314,209}",
+      "textureRect": "{{1,788},{314,209}}",
+      "textureRotated": false
+    },
+    "PurchaseSuccessPopup_00/CoinsAdded.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{168,39}",
+      "spriteSourceSize": "{168,39}",
+      "textureRect": "{{588,1258},{168,39}}",
+      "textureRotated": false
+    },
+    "PurchaseSuccessPopup_00/Continue/Continue_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{314,88}",
+      "spriteSourceSize": "{314,88}",
+      "textureRect": "{{1,1183},{314,88}}",
+      "textureRotated": false
+    },
+    "PurchaseSuccessPopup_00/Continue/Continue_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{314,88}",
+      "spriteSourceSize": "{314,88}",
+      "textureRect": "{{673,717},{314,88}}",
+      "textureRotated": true
+    },
+    "PurchaseSuccessPopup_00/Continue/Continue_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{314,88}",
+      "spriteSourceSize": "{314,88}",
+      "textureRect": "{{763,717},{314,88}}",
+      "textureRotated": true
+    },
+    "PurchaseSuccessPopup_00/ItemBase1.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{354,159}",
+      "spriteSourceSize": "{354,159}",
+      "textureRect": "{{317,788},{354,159}}",
+      "textureRotated": false
+    },
+    "PurchaseSuccessPopup_00/ItemBase2.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{354,159}",
+      "spriteSourceSize": "{354,159}",
+      "textureRect": "{{317,949},{354,159}}",
+      "textureRotated": false
+    },
+    "PurchaseSuccessPopup_00/NoVIP.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{904,100}",
+      "spriteSourceSize": "{904,100}",
+      "textureRect": "{{1,578},{904,100}}",
+      "textureRotated": false
+    },
+    "PurchaseSuccessPopup_00/PowerupsAdded.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{220,43}",
+      "spriteSourceSize": "{220,43}",
+      "textureRect": "{{853,717},{220,43}}",
+      "textureRotated": true
+    },
+    "PurchaseSuccessPopup_00/PowerupsIcon.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{64,72}",
+      "spriteSourceSize": "{64,72}",
+      "textureRect": "{{575,717},{64,72}}",
+      "textureRotated": true
+    },
+    "PurchaseSuccessPopup_00/Rewards.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{119,120}",
+      "spriteSourceSize": "{119,120}",
+      "textureRect": "{{851,1183},{119,120}}",
+      "textureRotated": false
+    },
+    "PurchaseSuccessPopup_00/RewardsAdded.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{269,44}",
+      "spriteSourceSize": "{269,44}",
+      "textureRect": "{{317,1234},{269,44}}",
+      "textureRotated": false
+    },
+    "PurchaseSuccessPopup_00/Shine.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{864,35}",
+      "spriteSourceSize": "{864,35}",
+      "textureRect": "{{1,680},{864,35}}",
+      "textureRotated": false
+    },
+    "PurchaseSuccessPopup_00/TitleText.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{572,69}",
+      "spriteSourceSize": "{572,69}",
+      "textureRect": "{{1,717},{572,69}}",
+      "textureRotated": false
+    },
+    "PurchaseSuccessPopup_00/VIPBg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{904,100}",
+      "spriteSourceSize": "{904,100}",
+      "textureRect": "{{907,1},{904,100}}",
+      "textureRotated": true
+    },
+    "PurchaseSuccessPopup_00/VIPText.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{291,38}",
+      "spriteSourceSize": "{291,38}",
+      "textureRect": "{{1,1273},{291,38}}",
+      "textureRotated": false
+    },
+    "PurchaseSuccessPopup_00/VipStage.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{270,47}",
+      "spriteSourceSize": "{270,47}",
+      "textureRect": "{{312,1110},{270,47}}",
+      "textureRotated": false
+    },
+    "PurchaseSuccessPopup_00/VipStatus/VipStatus_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{4,0}",
+      "spriteSize": "{247,73}",
+      "spriteSourceSize": "{281,73}",
+      "textureRect": "{{673,1033},{247,73}}",
+      "textureRotated": false
+    },
+    "PurchaseSuccessPopup_00/VipStatus/VipStatus_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{-4,0}",
+      "spriteSize": "{263,73}",
+      "spriteSourceSize": "{281,73}",
+      "textureRect": "{{317,1159},{263,73}}",
+      "textureRotated": false
+    },
+    "PurchaseSuccessPopup_00/VipStatus/VipStatus_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{3,0}",
+      "spriteSize": "{249,73}",
+      "spriteSourceSize": "{281,73}",
+      "textureRect": "{{673,1108},{249,73}}",
+      "textureRotated": false
+    },
+    "PurchaseSuccessPopup_00/VipStatus/VipStatus_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,0}",
+      "spriteSize": "{261,73}",
+      "spriteSourceSize": "{281,73}",
+      "textureRect": "{{588,1183},{261,73}}",
+      "textureRotated": false
+    },
+    "PurchaseSuccessPopup_00/VipStatus/VipStatus_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{255,73}",
+      "spriteSourceSize": "{281,73}",
+      "textureRect": "{{924,907},{255,73}}",
+      "textureRotated": true
+    },
+    "PurchaseSuccessPopup_00/YourStatus.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{144,23}",
+      "spriteSourceSize": "{144,23}",
+      "textureRect": "{{294,1280},{144,23}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "PurchaseSuccessPopup_00-hd.png",
+    "size": "{1008,1312}",
+    "smartupdate": "$TexturePacker:SmartUpdate:85fbf1b6275b948465e945239d9c9365:5bc229b615d87239536ca7f9aa895118:9680ff5260b1440bba3e12905dcf74dd$",
+    "textureFileName": "PurchaseSuccessPopup_00-hd.png",
+    "animations": [
+      "CloseBtn",
+      "Continue",
+      "VipStatus"
+    ]
+  }
+}

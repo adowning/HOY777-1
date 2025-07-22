@@ -1,0 +1,72 @@
+{
+  "frames": {
+    "EditEmailPopup_00/EmailAddressBase.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{475,99}",
+      "spriteSourceSize": "{475,99}",
+      "textureRect": "{{1,1},{475,99}}",
+      "textureRotated": false
+    },
+    "EditEmailPopup_00/EmailExistText.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{257,40}",
+      "spriteSourceSize": "{257,40}",
+      "textureRect": "{{57,140},{257,40}}",
+      "textureRotated": true
+    },
+    "EditEmailPopup_00/EmailInvalidText.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{284,36}",
+      "spriteSourceSize": "{284,36}",
+      "textureRect": "{{226,102},{284,36}}",
+      "textureRotated": false
+    },
+    "EditEmailPopup_00/NextBtn/NextBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,88}",
+      "spriteSourceSize": "{223,88}",
+      "textureRect": "{{1,410},{223,88}}",
+      "textureRotated": false
+    },
+    "EditEmailPopup_00/NextBtn/NextBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,88}",
+      "spriteSourceSize": "{223,88}",
+      "textureRect": "{{99,102},{223,88}}",
+      "textureRotated": true
+    },
+    "EditEmailPopup_00/NextBtn/NextBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,88}",
+      "spriteSourceSize": "{223,88}",
+      "textureRect": "{{189,140},{223,88}}",
+      "textureRotated": true
+    },
+    "EditEmailPopup_00/Title.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{306,54}",
+      "spriteSourceSize": "{306,54}",
+      "textureRect": "{{1,102},{306,54}}",
+      "textureRotated": true
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "EditEmailPopup_00-hd.png",
+    "size": "{512,512}",
+    "smartupdate": "$TexturePacker:SmartUpdate:869a8f79f5f346c72760725648f3fbb0:e9726940e47996d266dff8c1238a3191:523701d5e9192eb3ededd6688cf708e3$",
+    "textureFileName": "EditEmailPopup_00-hd.png",
+    "animations": [
+      "NextBtn"
+    ]
+  }
+}

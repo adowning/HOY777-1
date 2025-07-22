@@ -1,0 +1,56 @@
+{
+  "frames": {
+    "CustomMessagePopup_00/OkBtn/OkBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{182,88}",
+      "spriteSourceSize": "{182,88}",
+      "textureRect": "{{1,45},{182,88}}",
+      "textureRotated": false
+    },
+    "CustomMessagePopup_00/OkBtn/OkBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{182,88}",
+      "spriteSourceSize": "{182,88}",
+      "textureRect": "{{1,135},{182,88}}",
+      "textureRotated": false
+    },
+    "CustomMessagePopup_00/OkBtn/OkBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{182,88}",
+      "spriteSourceSize": "{182,88}",
+      "textureRect": "{{185,45},{182,88}}",
+      "textureRotated": false
+    },
+    "CustomMessagePopup_00/SubTitle.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{403,42}",
+      "spriteSourceSize": "{403,42}",
+      "textureRect": "{{1,1},{403,42}}",
+      "textureRotated": false
+    },
+    "CustomMessagePopup_00/Title.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{172,55}",
+      "spriteSourceSize": "{172,55}",
+      "textureRect": "{{185,135},{172,55}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "CustomMessagePopup_00-hd.png",
+    "size": "{405,224}",
+    "smartupdate": "$TexturePacker:SmartUpdate:c4332e2f4d76fbd10dc17b24032d303e:3d438921ab204627d2608bfb94851c80:c33b3f929f4ce7bbae0cbce0cddfe4dc$",
+    "textureFileName": "CustomMessagePopup_00-hd.png",
+    "animations": [
+      "OkBtn"
+    ]
+  }
+}

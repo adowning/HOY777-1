@@ -1,0 +1,62 @@
+{
+  "frames": {
+    "CustomUnlockedJL_00/Bg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{922,639}",
+      "spriteSourceSize": "{922,639}",
+      "textureRect": "{{1,1},{922,639}}",
+      "textureRotated": false
+    },
+    "CustomUnlockedJL_00/Bg1.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{817,495}",
+      "spriteSourceSize": "{817,495}",
+      "textureRect": "{{157,642},{817,495}}",
+      "textureRotated": true
+    },
+    "CustomUnlockedJL_00/CoinLeft.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{240,202}",
+      "spriteSourceSize": "{240,202}",
+      "textureRect": "{{654,846},{240,202}}",
+      "textureRotated": false
+    },
+    "CustomUnlockedJL_00/CoinRight.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{241,202}",
+      "spriteSourceSize": "{241,202}",
+      "textureRect": "{{654,642},{241,202}}",
+      "textureRotated": false
+    },
+    "CustomUnlockedJL_00/Title.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{861,154}",
+      "spriteSourceSize": "{861,154}",
+      "textureRect": "{{1,642},{861,154}}",
+      "textureRotated": true
+    },
+    "CustomUnlockedJL_00/Title1.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{314,210}",
+      "spriteSourceSize": "{314,210}",
+      "textureRect": "{{654,1050},{314,210}}",
+      "textureRotated": true
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "CustomUnlockedJL_00-hd.png",
+    "size": "{924,1504}",
+    "smartupdate": "$TexturePacker:SmartUpdate:44a6d58bd8e52bbaf3672425ec14ba9b:8a3dff7e08fe05fbc3e56030dae5ef8f:b735a82435ae5bac479b0a9bde3794dc$",
+    "textureFileName": "CustomUnlockedJL_00-hd.png",
+    "animations": []
+  }
+}

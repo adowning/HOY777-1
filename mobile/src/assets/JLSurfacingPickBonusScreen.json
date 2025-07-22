@@ -1,0 +1,38 @@
+{
+  "frames": {
+    "JLSurfacingPickBonusScreen_00/Bg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{924,608}",
+      "spriteSourceSize": "{924,608}",
+      "textureRect": "{{1,1},{924,608}}",
+      "textureRotated": false
+    },
+    "JLSurfacingPickBonusScreen_00/CoinLeft.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{194,203}",
+      "spriteSourceSize": "{194,203}",
+      "textureRect": "{{1,611},{194,203}}",
+      "textureRotated": true
+    },
+    "JLSurfacingPickBonusScreen_00/CoinRight.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{194,203}",
+      "spriteSourceSize": "{194,203}",
+      "textureRect": "{{1,611},{194,203}}",
+      "textureRotated": true
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "JLSurfacingPickBonusScreen_00-hd.png",
+    "size": "{926,806}",
+    "smartupdate": "$TexturePacker:SmartUpdate:d0124a770322be8646e7b1638156ab09:7becbaaa674a59c27f240f5c27028b38:932c514cb8d209fedf2a72281a0eef67$",
+    "textureFileName": "JLSurfacingPickBonusScreen_00-hd.png",
+    "animations": []
+  }
+}

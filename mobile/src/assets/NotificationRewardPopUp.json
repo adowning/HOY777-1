@@ -1,0 +1,62 @@
+{
+  "frames": {
+    "NotificationRewardPopUp_00/CombinationRewardBgBg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{497,247}",
+      "spriteSourceSize": "{497,247}",
+      "textureRect": "{{1,1},{497,247}}",
+      "textureRotated": false
+    },
+    "NotificationRewardPopUp_00/RewardIcon1.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,68}",
+      "spriteSourceSize": "{62,68}",
+      "textureRect": "{{1,406},{62,68}}",
+      "textureRotated": true
+    },
+    "NotificationRewardPopUp_00/RewardIcon2.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{49,56}",
+      "spriteSourceSize": "{49,56}",
+      "textureRect": "{{71,406},{49,56}}",
+      "textureRotated": false
+    },
+    "NotificationRewardPopUp_00/RewardIcon3.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,68}",
+      "spriteSourceSize": "{62,68}",
+      "textureRect": "{{1,406},{62,68}}",
+      "textureRotated": true
+    },
+    "NotificationRewardPopUp_00/RewardIcon4.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{49,56}",
+      "spriteSourceSize": "{49,56}",
+      "textureRect": "{{71,406},{49,56}}",
+      "textureRotated": false
+    },
+    "NotificationRewardPopUp_00/SingleRewardBg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{497,154}",
+      "spriteSourceSize": "{497,154}",
+      "textureRect": "{{1,250},{497,154}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "NotificationRewardPopUp_00-hd.png",
+    "size": "{499,469}",
+    "smartupdate": "$TexturePacker:SmartUpdate:b28340e722ab78bc42f67810bf1650ca:52616aa16eed1400ca09fb88bd29da37:68f53da835a237701bd79099477c6936$",
+    "textureFileName": "NotificationRewardPopUp_00-hd.png",
+    "animations": []
+  }
+}

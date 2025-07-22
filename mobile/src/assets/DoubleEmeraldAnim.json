@@ -1,0 +1,188 @@
+{
+  "frames": {
+    "DoubleEmeraldAnim/DoubleEmeraldAnim_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,1},{118,91}}",
+      "textureRotated": false
+    },
+    "DoubleEmeraldAnim/DoubleEmeraldAnim_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,94},{118,91}}",
+      "textureRotated": false
+    },
+    "DoubleEmeraldAnim/DoubleEmeraldAnim_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,187},{118,91}}",
+      "textureRotated": false
+    },
+    "DoubleEmeraldAnim/DoubleEmeraldAnim_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,280},{118,91}}",
+      "textureRotated": false
+    },
+    "DoubleEmeraldAnim/DoubleEmeraldAnim_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,373},{118,91}}",
+      "textureRotated": false
+    },
+    "DoubleEmeraldAnim/DoubleEmeraldAnim_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,466},{118,91}}",
+      "textureRotated": false
+    },
+    "DoubleEmeraldAnim/DoubleEmeraldAnim_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,559},{118,91}}",
+      "textureRotated": false
+    },
+    "DoubleEmeraldAnim/DoubleEmeraldAnim_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,652},{118,91}}",
+      "textureRotated": false
+    },
+    "DoubleEmeraldAnim/DoubleEmeraldAnim_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,745},{118,91}}",
+      "textureRotated": false
+    },
+    "DoubleEmeraldAnim/DoubleEmeraldAnim_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,838},{118,91}}",
+      "textureRotated": false
+    },
+    "DoubleEmeraldAnim/DoubleEmeraldAnim_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,931},{118,91}}",
+      "textureRotated": false
+    },
+    "DoubleEmeraldAnim/DoubleEmeraldAnim_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,1024},{118,91}}",
+      "textureRotated": false
+    },
+    "DoubleEmeraldAnim/DoubleEmeraldAnim_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,1117},{118,91}}",
+      "textureRotated": false
+    },
+    "DoubleEmeraldAnim/DoubleEmeraldAnim_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,1210},{118,91}}",
+      "textureRotated": false
+    },
+    "DoubleEmeraldAnim/DoubleEmeraldAnim_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,1303},{118,91}}",
+      "textureRotated": false
+    },
+    "DoubleEmeraldAnim/DoubleEmeraldAnim_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,1396},{118,91}}",
+      "textureRotated": false
+    },
+    "DoubleEmeraldAnim/DoubleEmeraldAnim_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,1489},{118,91}}",
+      "textureRotated": false
+    },
+    "DoubleEmeraldAnim/DoubleEmeraldAnim_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,1582},{118,91}}",
+      "textureRotated": false
+    },
+    "DoubleEmeraldAnim/DoubleEmeraldAnim_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,1675},{118,91}}",
+      "textureRotated": false
+    },
+    "DoubleEmeraldAnim/DoubleEmeraldAnim_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,1768},{118,91}}",
+      "textureRotated": false
+    },
+    "DoubleEmeraldAnim/DoubleEmeraldAnim_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,1861},{118,91}}",
+      "textureRotated": false
+    },
+    "DoubleEmeraldAnim/DoubleEmeraldAnim_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{118,91}",
+      "spriteSourceSize": "{118,91}",
+      "textureRect": "{{1,1},{118,91}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "realTextureFileName": "DoubleEmeraldAnim-hd.png",
+    "size": "{120,1953}",
+    "smartupdate": "$TexturePacker:SmartUpdate:ec540a11078ac90c671306774248e502:8b0b50d4716f4a359602f50666a2d48e:c734a697ec6372d65ba9c07cbeefaf04$",
+    "textureFileName": "DoubleEmeraldAnim-hd.png",
+    "animations": []
+  }
+}

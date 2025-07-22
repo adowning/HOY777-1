@@ -1,0 +1,48 @@
+{
+  "frames": {
+    "JackpotCommonPopup_00/CloseBtn/CloseBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{1,561},{44,44}}",
+      "textureRotated": false
+    },
+    "JackpotCommonPopup_00/CloseBtn/CloseBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{47,561},{44,44}}",
+      "textureRotated": false
+    },
+    "JackpotCommonPopup_00/CloseBtn/CloseBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{93,561},{44,44}}",
+      "textureRotated": false
+    },
+    "JackpotCommonPopup_00/PopupBgLeft.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{352,558}",
+      "spriteSourceSize": "{352,558}",
+      "textureRect": "{{1,1},{352,558}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "JackpotCommonPopup_00-hd.png",
+    "size": "{354,606}",
+    "smartupdate": "$TexturePacker:SmartUpdate:32bb918b227c4ff40ed05a5d1f971170:ec88c330a0938410e8773558fb901551:b062a1dbfc36b655b977de24f316cf51$",
+    "textureFileName": "JackpotCommonPopup_00-hd.png",
+    "animations": [
+      "CloseBtn"
+    ]
+  }
+}

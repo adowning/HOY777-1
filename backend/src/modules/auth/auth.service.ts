@@ -23,23 +23,35 @@ export const login = async (
   password: string,
   uid?: string
 ) => {
-  console.log('Logging in with:', { username, password })
-  if (!username) username = uid
-  // const userRecord = await db.query.users.findFirst({
-  //   where: eq(users.username, username),
-  // })
-  const many = await db.select().from(users)
-  console.log(many)
-  const userRecords = await db
-    .select()
-    .from(users)
-    .where(eq(users.username, username))
-  const userRecord = userRecords[0]
+  if (!username && !uid) {
+    throw new Error('Username or UID is required')
+  }
+  
+  // Try to find user by username or UID
+  let userRecord
+  try {
+    if (username) {
+      const result = await db
+        .select()
+        .from(users)
+        .where(eq(users.username, username))
+        .limit(1)
+      userRecord = result[0]
+    } else if (uid) {
+      const result = await db
+        .select()
+        .from(users)
+        .where(eq(users.id, uid))
+        .limit(1)
+      userRecord = result[0]
+    }
+  } catch (error) {
+    console.error('Error querying user:', error)
+    throw new Error('Failed to query user')
+  }
   if (!userRecord || !userRecord.passwordHash) {
     throw new Error('Invalid credentials - user does not exist')
   }
-  console.log(password)
-  console.log(userRecord.passwordHash)
   const isPasswordValid = await Bun.password.verify(
     password,
     userRecord.passwordHash
@@ -50,7 +62,6 @@ export const login = async (
   }
 
   const secret = new TextEncoder().encode(env.ACCESS_TOKEN_SECRET)
-
   // Generate tokens
   const accessToken = await new jose.SignJWT({ userId: userRecord.id })
     .setProtectedHeader({ alg: 'HS256' })

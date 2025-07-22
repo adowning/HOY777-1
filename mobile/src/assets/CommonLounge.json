@@ -1,0 +1,225 @@
+{
+  "frames": {
+    "CommonLounge_00/LogoBase/LogoBase_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,16}",
+      "spriteSize": "{271,68}",
+      "spriteSourceSize": "{293,106}",
+      "textureRect": "{{1,123},{271,68}}",
+      "textureRotated": false
+    },
+    "CommonLounge_00/LogoBase/LogoBase_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{-12,5}",
+      "spriteSize": "{253,90}",
+      "spriteSourceSize": "{293,106}",
+      "textureRect": "{{1,447},{253,90}}",
+      "textureRotated": false
+    },
+    "CommonLounge_00/LogoBase/LogoBase_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{-26,1}",
+      "spriteSize": "{227,98}",
+      "spriteSourceSize": "{293,106}",
+      "textureRect": "{{278,101},{227,98}}",
+      "textureRotated": false
+    },
+    "CommonLounge_00/LogoBase/LogoBase_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{-39,1}",
+      "spriteSize": "{199,100}",
+      "spriteSourceSize": "{293,106}",
+      "textureRect": "{{1,641},{199,100}}",
+      "textureRotated": false
+    },
+    "CommonLounge_00/LogoBase/LogoBase_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{-53,0}",
+      "spriteSize": "{173,100}",
+      "spriteSourceSize": "{293,106}",
+      "textureRect": "{{103,847},{173,100}}",
+      "textureRotated": true
+    },
+    "CommonLounge_00/LogoBase/LogoBase_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{-67,0}",
+      "spriteSize": "{147,102}",
+      "spriteSourceSize": "{293,106}",
+      "textureRect": "{{103,743},{147,102}}",
+      "textureRotated": false
+    },
+    "CommonLounge_00/LogoBase/LogoBase_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{-60,-1}",
+      "spriteSize": "{161,100}",
+      "spriteSourceSize": "{293,106}",
+      "textureRect": "{{205,847},{161,100}}",
+      "textureRotated": true
+    },
+    "CommonLounge_00/LogoBase/LogoBase_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{-45,-1}",
+      "spriteSize": "{189,100}",
+      "spriteSourceSize": "{293,106}",
+      "textureRect": "{{255,599},{189,100}}",
+      "textureRotated": false
+    },
+    "CommonLounge_00/LogoBase/LogoBase_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{-31,-1}",
+      "spriteSize": "{217,100}",
+      "spriteSourceSize": "{293,106}",
+      "textureRect": "{{270,201},{217,100}}",
+      "textureRotated": false
+    },
+    "CommonLounge_00/LogoBase/LogoBase_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{-17,-4}",
+      "spriteSize": "{245,94}",
+      "spriteSourceSize": "{293,106}",
+      "textureRect": "{{262,405},{245,94}}",
+      "textureRotated": false
+    },
+    "CommonLounge_00/LogoBase/LogoBase_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{-5,-13}",
+      "spriteSize": "{267,78}",
+      "spriteSourceSize": "{293,106}",
+      "textureRect": "{{1,277},{267,78}}",
+      "textureRotated": false
+    },
+    "CommonLounge_00/LogoBase/LogoBase_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{0,-25}",
+      "spriteSize": "{275,54}",
+      "spriteSourceSize": "{293,106}",
+      "textureRect": "{{1,67},{275,54}}",
+      "textureRotated": false
+    },
+    "CommonLounge_00/LogoBase/LogoBase_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{5,-11}",
+      "spriteSize": "{267,82}",
+      "spriteSourceSize": "{293,106}",
+      "textureRect": "{{1,193},{267,82}}",
+      "textureRotated": false
+    },
+    "CommonLounge_00/LogoBase/LogoBase_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{17,-4}",
+      "spriteSize": "{243,96}",
+      "spriteSourceSize": "{293,106}",
+      "textureRect": "{{256,501},{243,96}}",
+      "textureRotated": false
+    },
+    "CommonLounge_00/LogoBase/LogoBase_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{32,-2}",
+      "spriteSize": "{215,100}",
+      "spriteSourceSize": "{293,106}",
+      "textureRect": "{{270,303},{215,100}}",
+      "textureRotated": false
+    },
+    "CommonLounge_00/LogoBase/LogoBase_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{46,-1}",
+      "spriteSize": "{187,102}",
+      "spriteSourceSize": "{293,106}",
+      "textureRect": "{{255,701},{187,102}}",
+      "textureRotated": false
+    },
+    "CommonLounge_00/LogoBase/LogoBase_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{60,-1}",
+      "spriteSize": "{161,100}",
+      "spriteSourceSize": "{293,106}",
+      "textureRect": "{{307,805},{161,100}}",
+      "textureRotated": false
+    },
+    "CommonLounge_00/LogoBase/LogoBase_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{64,0}",
+      "spriteSize": "{153,102}",
+      "spriteSourceSize": "{293,106}",
+      "textureRect": "{{307,907},{153,102}}",
+      "textureRotated": false
+    },
+    "CommonLounge_00/LogoBase/LogoBase_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{51,0}",
+      "spriteSize": "{179,100}",
+      "spriteSourceSize": "{293,106}",
+      "textureRect": "{{1,805},{179,100}}",
+      "textureRotated": true
+    },
+    "CommonLounge_00/LogoBase/LogoBase_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{37,1}",
+      "spriteSize": "{207,100}",
+      "spriteSourceSize": "{293,106}",
+      "textureRect": "{{1,539},{207,100}}",
+      "textureRotated": false
+    },
+    "CommonLounge_00/LogoBase/LogoBase_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{23,2}",
+      "spriteSize": "{233,98}",
+      "spriteSourceSize": "{293,106}",
+      "textureRect": "{{278,1},{233,98}}",
+      "textureRotated": false
+    },
+    "CommonLounge_00/LogoBase/LogoBase_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{9,6}",
+      "spriteSize": "{259,88}",
+      "spriteSourceSize": "{293,106}",
+      "textureRect": "{{1,357},{259,88}}",
+      "textureRotated": false
+    },
+    "CommonLounge_00/LogoBase/LogoBase_0022.png": {
+      "aliases": [],
+      "spriteOffset": "{0,18}",
+      "spriteSize": "{275,64}",
+      "spriteSourceSize": "{293,106}",
+      "textureRect": "{{1,1},{275,64}}",
+      "textureRotated": false
+    },
+    "CommonLounge_00/LogoBase/LogoBase_0023.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,16}",
+      "spriteSize": "{271,68}",
+      "spriteSourceSize": "{293,106}",
+      "textureRect": "{{1,123},{271,68}}",
+      "textureRotated": false
+    },
+    "CommonLounge_00/LogoLounge/LogoLounge_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,0}",
+      "spriteSize": "{184,43}",
+      "spriteSourceSize": "{282,129}",
+      "textureRect": "{{210,539},{184,43}}",
+      "textureRotated": true
+    },
+    "CommonLounge_00/LogoLounge/LogoLounge_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,0}",
+      "spriteSize": "{184,43}",
+      "spriteSourceSize": "{282,129}",
+      "textureRect": "{{210,539},{184,43}}",
+      "textureRotated": true
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "CommonLounge_00-hd.png",
+    "size": "{512,1024}",
+    "smartupdate": "$TexturePacker:SmartUpdate:bccaa64f302c8ba995852205366c0241:118a0c10f1b9c9d5885b34426d6cf62e:9c453f5c944301234e2f86454307190e$",
+    "textureFileName": "CommonLounge_00-hd.png",
+    "animations": [
+      "LogoBase",
+      "LogoLounge"
+    ]
+  }
+}

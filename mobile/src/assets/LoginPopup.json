@@ -1,0 +1,106 @@
+{
+  "frames": {
+    "LoginPopup_00/Bg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{705,558}",
+      "spriteSourceSize": "{705,558}",
+      "textureRect": "{{1,1},{705,558}}",
+      "textureRotated": false
+    },
+    "LoginPopup_00/CloseBtn/CloseBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{41,913},{44,44}}",
+      "textureRotated": false
+    },
+    "LoginPopup_00/CloseBtn/CloseBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{41,959},{44,44}}",
+      "textureRotated": false
+    },
+    "LoginPopup_00/CloseBtn/CloseBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{81,867},{44,44}}",
+      "textureRotated": false
+    },
+    "LoginPopup_00/Title/Title_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{594,36}",
+      "spriteSourceSize": "{594,36}",
+      "textureRect": "{{708,271},{594,36}}",
+      "textureRotated": true
+    },
+    "LoginPopup_00/Title/Title_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{508,38}",
+      "spriteSourceSize": "{508,38}",
+      "textureRect": "{{127,561},{508,38}}",
+      "textureRotated": false
+    },
+    "LoginPopup_00/Title/Title_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{451,38}",
+      "spriteSourceSize": "{451,38}",
+      "textureRect": "{{1,561},{451,38}}",
+      "textureRotated": true
+    },
+    "LoginPopup_00/Title/Title_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{350,38}",
+      "spriteSourceSize": "{350,38}",
+      "textureRect": "{{41,561},{350,38}}",
+      "textureRotated": true
+    },
+    "LoginPopup_00/WebSignIn/WebSignIn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{314,88}",
+      "spriteSourceSize": "{314,88}",
+      "textureRect": "{{708,1},{314,88}}",
+      "textureRotated": false
+    },
+    "LoginPopup_00/WebSignIn/WebSignIn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{314,88}",
+      "spriteSourceSize": "{314,88}",
+      "textureRect": "{{708,91},{314,88}}",
+      "textureRotated": false
+    },
+    "LoginPopup_00/WebSignIn/WebSignIn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{314,88}",
+      "spriteSourceSize": "{314,88}",
+      "textureRect": "{{708,181},{314,88}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "LoginPopup_00-hd.png",
+    "size": "{1024,1024}",
+    "smartupdate": "$TexturePacker:SmartUpdate:2734e7453a71263b6801b1e1df18a6ec:736fd1ac3d2bcb86a31dee846b7a30f6:19b36fa93ccf3ff7356d0711af4986d3$",
+    "textureFileName": "LoginPopup_00-hd.png",
+    "animations": [
+      "CloseBtn",
+      "Title",
+      "WebSignIn"
+    ]
+  }
+}

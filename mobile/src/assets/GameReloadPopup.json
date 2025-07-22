@@ -1,0 +1,96 @@
+{
+  "frames": {
+    "GameReloadPopup_00/Bg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{641,358}",
+      "spriteSourceSize": "{641,358}",
+      "textureRect": "{{1,99},{641,358}}",
+      "textureRotated": true
+    },
+    "GameReloadPopup_00/GameLoading.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{269,25}",
+      "spriteSourceSize": "{269,25}",
+      "textureRect": "{{1,742},{269,25}}",
+      "textureRotated": true
+    },
+    "GameReloadPopup_00/LoadingBar.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{255,11}",
+      "spriteSourceSize": "{255,11}",
+      "textureRect": "{{433,50},{255,11}}",
+      "textureRotated": true
+    },
+    "GameReloadPopup_00/LoadingCircle.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{119,118}",
+      "spriteSourceSize": "{119,118}",
+      "textureRect": "{{361,491},{119,118}}",
+      "textureRotated": false
+    },
+    "GameReloadPopup_00/ProfileFrame.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{89,89}",
+      "spriteSourceSize": "{89,89}",
+      "textureRect": "{{361,611},{89,89}}",
+      "textureRotated": false
+    },
+    "GameReloadPopup_00/Title/Title_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,6}",
+      "spriteSize": "{453,47}",
+      "spriteSourceSize": "{511,61}",
+      "textureRect": "{{1,1},{453,47}}",
+      "textureRotated": false
+    },
+    "GameReloadPopup_00/Title/Title_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,6}",
+      "spriteSize": "{379,47}",
+      "spriteSourceSize": "{511,61}",
+      "textureRect": "{{384,50},{379,47}}",
+      "textureRotated": true
+    },
+    "GameReloadPopup_00/Title/Title_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,6}",
+      "spriteSize": "{413,47}",
+      "spriteSourceSize": "{511,61}",
+      "textureRect": "{{456,1},{413,47}}",
+      "textureRotated": true
+    },
+    "GameReloadPopup_00/Title/Title_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,6}",
+      "spriteSize": "{381,47}",
+      "spriteSourceSize": "{511,61}",
+      "textureRect": "{{1,50},{381,47}}",
+      "textureRotated": false
+    },
+    "GameReloadPopup_00/UsersImage.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{73,75}",
+      "spriteSourceSize": "{73,75}",
+      "textureRect": "{{433,416},{73,75}}",
+      "textureRotated": true
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "GameReloadPopup_00-hd.png",
+    "size": "{512,1024}",
+    "smartupdate": "$TexturePacker:SmartUpdate:19333f843c5c5a345358c8a5e07f2a35:83ec1459066479835405401fec7b5a25:4ba0b7ba1bf430ae0920682b31dfda75$",
+    "textureFileName": "GameReloadPopup_00-hd.png",
+    "animations": [
+      "Title"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "frames": {
+    "BetSelectPopup_01/Bg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{1025,611}",
+      "spriteSourceSize": "{1025,611}",
+      "textureRect": "{{1,1},{1025,611}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGB888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "BetSelectPopup_01-hd.png",
+    "size": "{1027,613}",
+    "smartupdate": "$TexturePacker:SmartUpdate:17e5d5d64f6f34e979063efa76f7ef84:00019dd1f52671d42241903300c78302:54157496d4695a04703710f7356dafc0$",
+    "textureFileName": "BetSelectPopup_01-hd.png"
+  }
+}

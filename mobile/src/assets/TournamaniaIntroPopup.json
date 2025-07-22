@@ -1,0 +1,958 @@
+{
+  "frames": {
+    "TournamaniaIntroPopup_00/Bg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{901,575}",
+      "spriteSourceSize": "{901,575}",
+      "textureRect": "{{1,1},{901,575}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/CloseBtn/CloseBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{535,777},{44,44}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/CloseBtn/CloseBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{467,988},{44,44}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/CloseBtn/CloseBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{467,1034},{44,44}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/Flag1.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{38,34}",
+      "spriteSourceSize": "{38,34}",
+      "textureRect": "{{866,727},{38,34}}",
+      "textureRotated": true
+    },
+    "TournamaniaIntroPopup_00/Flag2.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{38,34}",
+      "spriteSourceSize": "{38,34}",
+      "textureRect": "{{866,767},{38,34}}",
+      "textureRotated": true
+    },
+    "TournamaniaIntroPopup_00/Flag3.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{38,34}",
+      "spriteSourceSize": "{38,34}",
+      "textureRect": "{{855,1089},{38,34}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/Flag4.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{38,34}",
+      "spriteSourceSize": "{38,34}",
+      "textureRect": "{{459,1120},{38,34}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/Flag5.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{38,34}",
+      "spriteSourceSize": "{38,34}",
+      "textureRect": "{{459,1120},{38,34}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/FlagAnimLeft/FlagAnimLeft_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{8,4}",
+      "spriteSize": "{111,106}",
+      "spriteSourceSize": "{127,114}",
+      "textureRect": "{{233,1053},{111,106}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/FlagAnimLeft/FlagAnimLeft_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{8,4}",
+      "spriteSize": "{111,106}",
+      "spriteSourceSize": "{127,114}",
+      "textureRect": "{{233,1053},{111,106}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/FlagAnimLeft/FlagAnimLeft_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{7,4}",
+      "spriteSize": "{113,106}",
+      "spriteSourceSize": "{127,114}",
+      "textureRect": "{{786,949},{113,106}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/FlagAnimLeft/FlagAnimLeft_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{7,4}",
+      "spriteSize": "{113,106}",
+      "spriteSourceSize": "{127,114}",
+      "textureRect": "{{786,949},{113,106}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/FlagAnimLeft/FlagAnimLeft_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{7,3}",
+      "spriteSize": "{113,108}",
+      "spriteSourceSize": "{127,114}",
+      "textureRect": "{{786,839},{113,108}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/FlagAnimLeft/FlagAnimLeft_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{7,3}",
+      "spriteSize": "{113,108}",
+      "spriteSourceSize": "{127,114}",
+      "textureRect": "{{786,839},{113,108}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/FlagAnimLeft/FlagAnimLeft_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{6,3}",
+      "spriteSize": "{115,108}",
+      "spriteSourceSize": "{127,114}",
+      "textureRect": "{{901,1037},{115,108}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/FlagAnimLeft/FlagAnimLeft_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{6,3}",
+      "spriteSize": "{115,108}",
+      "spriteSourceSize": "{127,114}",
+      "textureRect": "{{901,1037},{115,108}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/FlagAnimLeft/FlagAnimLeft_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{6,2}",
+      "spriteSize": "{115,110}",
+      "spriteSourceSize": "{127,114}",
+      "textureRect": "{{901,925},{115,110}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/FlagAnimLeft/FlagAnimLeft_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{6,2}",
+      "spriteSize": "{115,110}",
+      "spriteSourceSize": "{127,114}",
+      "textureRect": "{{901,925},{115,110}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/FlagAnimLeft/FlagAnimLeft_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{5,2}",
+      "spriteSize": "{117,110}",
+      "spriteSourceSize": "{127,114}",
+      "textureRect": "{{904,449},{117,110}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/FlagAnimLeft/FlagAnimLeft_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{5,2}",
+      "spriteSize": "{117,110}",
+      "spriteSourceSize": "{127,114}",
+      "textureRect": "{{904,449},{117,110}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/FlagAnimLeft/FlagAnimLeft_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{4,1}",
+      "spriteSize": "{119,112}",
+      "spriteSourceSize": "{127,114}",
+      "textureRect": "{{904,1},{119,112}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/FlagAnimLeft/FlagAnimLeft_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{4,1}",
+      "spriteSize": "{119,112}",
+      "spriteSourceSize": "{127,114}",
+      "textureRect": "{{904,1},{119,112}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/FlagAnimLeft/FlagAnimLeft_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{4,1}",
+      "spriteSize": "{119,112}",
+      "spriteSourceSize": "{127,114}",
+      "textureRect": "{{904,115},{119,112}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/FlagAnimLeft/FlagAnimLeft_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{4,1}",
+      "spriteSize": "{119,112}",
+      "spriteSourceSize": "{127,114}",
+      "textureRect": "{{904,115},{119,112}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/FlagAnimLeft/FlagAnimLeft_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{3,1}",
+      "spriteSize": "{121,112}",
+      "spriteSourceSize": "{127,114}",
+      "textureRect": "{{902,665},{121,112}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/FlagAnimLeft/FlagAnimLeft_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{3,1}",
+      "spriteSize": "{121,112}",
+      "spriteSourceSize": "{127,114}",
+      "textureRect": "{{902,665},{121,112}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/FlagAnimLeft/FlagAnimLeft_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{3,1}",
+      "spriteSize": "{121,112}",
+      "spriteSourceSize": "{127,114}",
+      "textureRect": "{{902,779},{121,112}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/FlagAnimLeft/FlagAnimLeft_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{3,1}",
+      "spriteSize": "{121,112}",
+      "spriteSourceSize": "{127,114}",
+      "textureRect": "{{902,779},{121,112}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/FlagAnimLeft/FlagAnimLeft_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{4,2}",
+      "spriteSize": "{119,110}",
+      "spriteSourceSize": "{127,114}",
+      "textureRect": "{{904,229},{119,110}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/FlagAnimLeft/FlagAnimLeft_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{4,2}",
+      "spriteSize": "{119,110}",
+      "spriteSourceSize": "{127,114}",
+      "textureRect": "{{904,229},{119,110}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/FlagAnimLeft/FlagAnimLeft_0022.png": {
+      "aliases": [],
+      "spriteOffset": "{4,4}",
+      "spriteSize": "{119,106}",
+      "spriteSourceSize": "{127,114}",
+      "textureRect": "{{904,341},{119,106}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/FlagAnimLeft/FlagAnimLeft_0023.png": {
+      "aliases": [],
+      "spriteOffset": "{4,4}",
+      "spriteSize": "{119,106}",
+      "spriteSourceSize": "{127,114}",
+      "textureRect": "{{904,341},{119,106}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/FlagAnimLeft/FlagAnimLeft_0024.png": {
+      "aliases": [],
+      "spriteOffset": "{5,6}",
+      "spriteSize": "{117,102}",
+      "spriteSourceSize": "{127,114}",
+      "textureRect": "{{904,561},{117,102}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/FlagAnimLeft/FlagAnimLeft_0025.png": {
+      "aliases": [],
+      "spriteOffset": "{5,6}",
+      "spriteSize": "{117,102}",
+      "spriteSourceSize": "{127,114}",
+      "textureRect": "{{904,561},{117,102}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/FlagAnimLeft/FlagAnimLeft_0026.png": {
+      "aliases": [],
+      "spriteOffset": "{6,6}",
+      "spriteSize": "{115,102}",
+      "spriteSourceSize": "{127,114}",
+      "textureRect": "{{1,957},{115,102}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/FlagAnimLeft/FlagAnimLeft_0027.png": {
+      "aliases": [],
+      "spriteOffset": "{6,6}",
+      "spriteSize": "{115,102}",
+      "spriteSourceSize": "{127,114}",
+      "textureRect": "{{1,957},{115,102}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/FlagAnimLeft/FlagAnimLeft_0028.png": {
+      "aliases": [],
+      "spriteOffset": "{7,5}",
+      "spriteSize": "{113,104}",
+      "spriteSourceSize": "{127,114}",
+      "textureRect": "{{352,988},{113,104}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/FlagAnimLeft/FlagAnimLeft_0029.png": {
+      "aliases": [],
+      "spriteOffset": "{7,5}",
+      "spriteSize": "{113,104}",
+      "spriteSourceSize": "{127,114}",
+      "textureRect": "{{352,988},{113,104}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/FlagAnimLeft/FlagAnimLeft_0030.png": {
+      "aliases": [],
+      "spriteOffset": "{7,5}",
+      "spriteSize": "{113,104}",
+      "spriteSourceSize": "{127,114}",
+      "textureRect": "{{118,989},{113,104}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/FlagAnimLeft/FlagAnimLeft_0031.png": {
+      "aliases": [],
+      "spriteOffset": "{7,5}",
+      "spriteSize": "{113,104}",
+      "spriteSourceSize": "{127,114}",
+      "textureRect": "{{118,989},{113,104}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/FlagAnimLeft/FlagAnimLeft_0032.png": {
+      "aliases": [],
+      "spriteOffset": "{8,4}",
+      "spriteSize": "{111,106}",
+      "spriteSourceSize": "{127,114}",
+      "textureRect": "{{116,1095},{111,106}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/FlagAnimLeft/FlagAnimLeft_0033.png": {
+      "aliases": [],
+      "spriteOffset": "{8,4}",
+      "spriteSize": "{111,106}",
+      "spriteSourceSize": "{127,114}",
+      "textureRect": "{{116,1095},{111,106}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/FlagAnimLeft/FlagAnimLeft_0034.png": {
+      "aliases": [],
+      "spriteOffset": "{8,4}",
+      "spriteSize": "{111,106}",
+      "spriteSourceSize": "{127,114}",
+      "textureRect": "{{1,1125},{111,106}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/FlagAnimLeft/FlagAnimLeft_0035.png": {
+      "aliases": [],
+      "spriteOffset": "{8,4}",
+      "spriteSize": "{111,106}",
+      "spriteSourceSize": "{127,114}",
+      "textureRect": "{{1,1125},{111,106}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/Lets'GoBtn/Lets'GoBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{249,79}",
+      "spriteSourceSize": "{249,79}",
+      "textureRect": "{{596,742},{249,79}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/Lets'GoBtn/Lets'GoBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{249,79}",
+      "spriteSourceSize": "{249,79}",
+      "textureRect": "{{535,823},{249,79}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/Lets'GoBtn/Lets'GoBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{249,79}",
+      "spriteSourceSize": "{249,79}",
+      "textureRect": "{{535,904},{249,79}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/Live.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{79,34}",
+      "spriteSourceSize": "{79,34}",
+      "textureRect": "{{866,646},{79,34}}",
+      "textureRotated": true
+    },
+    "TournamaniaIntroPopup_00/LiveSignal/LiveSignal_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{-10,0}",
+      "spriteSize": "{20,18}",
+      "spriteSourceSize": "{48,50}",
+      "textureRect": "{{620,1113},{20,18}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/LiveSignal/LiveSignal_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{-10,0}",
+      "spriteSize": "{20,18}",
+      "spriteSourceSize": "{48,50}",
+      "textureRect": "{{620,1113},{20,18}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/LiveSignal/LiveSignal_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{-10,0}",
+      "spriteSize": "{20,18}",
+      "spriteSourceSize": "{48,50}",
+      "textureRect": "{{620,1113},{20,18}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/LiveSignal/LiveSignal_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{-10,0}",
+      "spriteSize": "{20,18}",
+      "spriteSourceSize": "{48,50}",
+      "textureRect": "{{620,1113},{20,18}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/LiveSignal/LiveSignal_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{-6,1}",
+      "spriteSize": "{26,30}",
+      "spriteSourceSize": "{48,50}",
+      "textureRect": "{{873,1057},{26,30}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/LiveSignal/LiveSignal_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{-6,1}",
+      "spriteSize": "{26,30}",
+      "spriteSourceSize": "{48,50}",
+      "textureRect": "{{873,1057},{26,30}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/LiveSignal/LiveSignal_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{-6,1}",
+      "spriteSize": "{26,30}",
+      "spriteSourceSize": "{48,50}",
+      "textureRect": "{{873,1057},{26,30}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/LiveSignal/LiveSignal_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{-6,1}",
+      "spriteSize": "{26,30}",
+      "spriteSourceSize": "{48,50}",
+      "textureRect": "{{873,1057},{26,30}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/LiveSignal/LiveSignal_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,0}",
+      "spriteSize": "{34,36}",
+      "spriteSourceSize": "{48,50}",
+      "textureRect": "{{866,578},{34,36}}",
+      "textureRotated": true
+    },
+    "TournamaniaIntroPopup_00/LiveSignal/LiveSignal_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,0}",
+      "spriteSize": "{34,36}",
+      "spriteSourceSize": "{48,50}",
+      "textureRect": "{{866,578},{34,36}}",
+      "textureRotated": true
+    },
+    "TournamaniaIntroPopup_00/LiveSignal/LiveSignal_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,0}",
+      "spriteSize": "{34,36}",
+      "spriteSourceSize": "{48,50}",
+      "textureRect": "{{866,578},{34,36}}",
+      "textureRotated": true
+    },
+    "TournamaniaIntroPopup_00/LiveSignal/LiveSignal_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,0}",
+      "spriteSize": "{34,36}",
+      "spriteSourceSize": "{48,50}",
+      "textureRect": "{{866,578},{34,36}}",
+      "textureRotated": true
+    },
+    "TournamaniaIntroPopup_00/LiveSignal/LiveSignal_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{38,42}",
+      "spriteSourceSize": "{48,50}",
+      "textureRect": "{{467,1080},{38,42}}",
+      "textureRotated": true
+    },
+    "TournamaniaIntroPopup_00/LiveSignal/LiveSignal_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{38,42}",
+      "spriteSourceSize": "{48,50}",
+      "textureRect": "{{467,1080},{38,42}}",
+      "textureRotated": true
+    },
+    "TournamaniaIntroPopup_00/LiveSignal/LiveSignal_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{38,42}",
+      "spriteSourceSize": "{48,50}",
+      "textureRect": "{{467,1080},{38,42}}",
+      "textureRotated": true
+    },
+    "TournamaniaIntroPopup_00/LiveSignal/LiveSignal_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{38,42}",
+      "spriteSourceSize": "{48,50}",
+      "textureRect": "{{467,1080},{38,42}}",
+      "textureRotated": true
+    },
+    "TournamaniaIntroPopup_00/OKBtn/OKBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{164,79}",
+      "spriteSourceSize": "{164,79}",
+      "textureRect": "{{369,713},{164,79}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/OKBtn/OKBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{164,79}",
+      "spriteSourceSize": "{164,79}",
+      "textureRect": "{{369,794},{164,79}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/OKBtn/OKBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{164,79}",
+      "spriteSourceSize": "{164,79}",
+      "textureRect": "{{369,875},{164,79}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/PreviousWinnersBtn/PreviousWinnersBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{366,79}",
+      "spriteSourceSize": "{366,79}",
+      "textureRect": "{{1,795},{366,79}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/PreviousWinnersBtn/PreviousWinnersBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{366,79}",
+      "spriteSourceSize": "{366,79}",
+      "textureRect": "{{1,876},{366,79}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/PreviousWinnersBtn/PreviousWinnersBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{366,80}",
+      "spriteSourceSize": "{366,80}",
+      "textureRect": "{{1,713},{366,80}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/StartsIn.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{117,30}",
+      "spriteSourceSize": "{117,30}",
+      "textureRect": "{{901,893},{117,30}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/TimerBGPurple.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{151,30}",
+      "spriteSourceSize": "{151,30}",
+      "textureRect": "{{369,956},{151,30}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/TimerBGRed.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{151,30}",
+      "spriteSourceSize": "{151,30}",
+      "textureRect": "{{522,985},{151,30}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/TimerBase.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{268,162}",
+      "spriteSourceSize": "{268,162}",
+      "textureRect": "{{596,578},{268,162}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/Title.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{593,133}",
+      "spriteSourceSize": "{593,133}",
+      "textureRect": "{{1,578},{593,133}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/TitleAnim/TitleAnim_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{-113,22.5}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{229,48}",
+      "textureRect": "{{857,800},{3,3}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/TitleAnim/TitleAnim_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{-113,22.5}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{229,48}",
+      "textureRect": "{{857,800},{3,3}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/TitleAnim/TitleAnim_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{-113,22.5}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{229,48}",
+      "textureRect": "{{857,800},{3,3}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/TitleAnim/TitleAnim_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{-113,22.5}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{229,48}",
+      "textureRect": "{{857,800},{3,3}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/TitleAnim/TitleAnim_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{-113,22.5}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{229,48}",
+      "textureRect": "{{857,800},{3,3}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/TitleAnim/TitleAnim_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{-113,22.5}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{229,48}",
+      "textureRect": "{{857,800},{3,3}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/TitleAnim/TitleAnim_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{-102,-1}",
+      "spriteSize": "{15,26}",
+      "spriteSourceSize": "{229,48}",
+      "textureRect": "{{847,772},{15,26}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/TitleAnim/TitleAnim_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{-98,-2}",
+      "spriteSize": "{23,30}",
+      "spriteSourceSize": "{229,48}",
+      "textureRect": "{{588,1113},{23,30}}",
+      "textureRotated": true
+    },
+    "TournamaniaIntroPopup_00/TitleAnim/TitleAnim_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{-93,-2}",
+      "spriteSize": "{33,30}",
+      "spriteSourceSize": "{229,48}",
+      "textureRect": "{{415,1126},{33,30}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/TitleAnim/TitleAnim_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{-90,-2}",
+      "spriteSize": "{41,30}",
+      "spriteSourceSize": "{229,48}",
+      "textureRect": "{{729,1049},{41,30}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/TitleAnim/TitleAnim_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{-81,-2}",
+      "spriteSize": "{57,30}",
+      "spriteSourceSize": "{229,48}",
+      "textureRect": "{{535,745},{57,30}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/TitleAnim/TitleAnim_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{-76,-2}",
+      "spriteSize": "{67,30}",
+      "spriteSourceSize": "{229,48}",
+      "textureRect": "{{346,1126},{67,30}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/TitleAnim/TitleAnim_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{-73,-2}",
+      "spriteSize": "{75,30}",
+      "spriteSourceSize": "{229,48}",
+      "textureRect": "{{511,1113},{75,30}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/TitleAnim/TitleAnim_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{-68,-3}",
+      "spriteSize": "{81,30}",
+      "spriteSourceSize": "{229,48}",
+      "textureRect": "{{772,1089},{81,30}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/TitleAnim/TitleAnim_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{-59,-3}",
+      "spriteSize": "{99,30}",
+      "spriteSourceSize": "{229,48}",
+      "textureRect": "{{772,1057},{99,30}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/TitleAnim/TitleAnim_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{-55,-3}",
+      "spriteSize": "{107,30}",
+      "spriteSourceSize": "{229,48}",
+      "textureRect": "{{675,985},{107,30}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/TitleAnim/TitleAnim_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{-49,-3}",
+      "spriteSize": "{111,30}",
+      "spriteSourceSize": "{229,48}",
+      "textureRect": "{{513,1017},{111,30}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/TitleAnim/TitleAnim_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{-40,-2}",
+      "spriteSize": "{111,30}",
+      "spriteSourceSize": "{229,48}",
+      "textureRect": "{{626,1017},{111,30}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/TitleAnim/TitleAnim_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{-24,-2}",
+      "spriteSize": "{113,30}",
+      "spriteSourceSize": "{229,48}",
+      "textureRect": "{{1,1061},{113,30}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/TitleAnim/TitleAnim_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{-15,-2}",
+      "spriteSize": "{111,30}",
+      "spriteSourceSize": "{229,48}",
+      "textureRect": "{{513,1049},{111,30}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/TitleAnim/TitleAnim_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{-7,-2}",
+      "spriteSize": "{115,30}",
+      "spriteSourceSize": "{229,48}",
+      "textureRect": "{{118,957},{115,30}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/TitleAnim/TitleAnim_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-2}",
+      "spriteSize": "{113,30}",
+      "spriteSourceSize": "{229,48}",
+      "textureRect": "{{1,1093},{113,30}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/TitleAnim/TitleAnim_0022.png": {
+      "aliases": [],
+      "spriteOffset": "{19,-2}",
+      "spriteSize": "{111,30}",
+      "spriteSourceSize": "{229,48}",
+      "textureRect": "{{346,1094},{111,30}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/TitleAnim/TitleAnim_0023.png": {
+      "aliases": [],
+      "spriteOffset": "{27,-2}",
+      "spriteSize": "{115,30}",
+      "spriteSourceSize": "{229,48}",
+      "textureRect": "{{235,957},{115,30}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/TitleAnim/TitleAnim_0024.png": {
+      "aliases": [],
+      "spriteOffset": "{36,-2}",
+      "spriteSize": "{113,30}",
+      "spriteSourceSize": "{229,48}",
+      "textureRect": "{{233,989},{113,30}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/TitleAnim/TitleAnim_0025.png": {
+      "aliases": [],
+      "spriteOffset": "{44,-2}",
+      "spriteSize": "{113,30}",
+      "spriteSourceSize": "{229,48}",
+      "textureRect": "{{233,1021},{113,30}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/TitleAnim/TitleAnim_0026.png": {
+      "aliases": [],
+      "spriteOffset": "{56,-2}",
+      "spriteSize": "{101,30}",
+      "spriteSourceSize": "{229,48}",
+      "textureRect": "{{626,1049},{101,30}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/TitleAnim/TitleAnim_0027.png": {
+      "aliases": [],
+      "spriteOffset": "{60,-2}",
+      "spriteSize": "{93,30}",
+      "spriteSourceSize": "{229,48}",
+      "textureRect": "{{511,1081},{93,30}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/TitleAnim/TitleAnim_0028.png": {
+      "aliases": [],
+      "spriteOffset": "{65,-2}",
+      "spriteSize": "{85,30}",
+      "spriteSourceSize": "{229,48}",
+      "textureRect": "{{606,1081},{85,30}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/TitleAnim/TitleAnim_0029.png": {
+      "aliases": [],
+      "spriteOffset": "{69,-2}",
+      "spriteSize": "{77,30}",
+      "spriteSourceSize": "{229,48}",
+      "textureRect": "{{693,1081},{77,30}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/TitleAnim/TitleAnim_0030.png": {
+      "aliases": [],
+      "spriteOffset": "{77,-2}",
+      "spriteSize": "{59,30}",
+      "spriteSourceSize": "{229,48}",
+      "textureRect": "{{535,713},{59,30}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/TitleAnim/TitleAnim_0031.png": {
+      "aliases": [],
+      "spriteOffset": "{82,-2}",
+      "spriteSize": "{51,30}",
+      "spriteSourceSize": "{229,48}",
+      "textureRect": "{{847,807},{51,30}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/TitleAnim/TitleAnim_0032.png": {
+      "aliases": [],
+      "spriteOffset": "{86,-2}",
+      "spriteSize": "{43,30}",
+      "spriteSourceSize": "{229,48}",
+      "textureRect": "{{739,1017},{43,30}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/TitleAnim/TitleAnim_0033.png": {
+      "aliases": [],
+      "spriteOffset": "{90,-2}",
+      "spriteSize": "{35,30}",
+      "spriteSourceSize": "{229,48}",
+      "textureRect": "{{866,614},{35,30}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/TitleAnim/TitleAnim_0034.png": {
+      "aliases": [],
+      "spriteOffset": "{99,-3}",
+      "spriteSize": "{17,28}",
+      "spriteSourceSize": "{229,48}",
+      "textureRect": "{{847,742},{17,28}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/TitleAnim/TitleAnim_0035.png": {
+      "aliases": [],
+      "spriteOffset": "{102,-10}",
+      "spriteSize": "{5,8}",
+      "spriteSourceSize": "{229,48}",
+      "textureRect": "{{847,800},{5,8}}",
+      "textureRotated": true
+    },
+    "TournamaniaIntroPopup_00/TitleAnim/TitleAnim_0036.png": {
+      "aliases": [],
+      "spriteOffset": "{-113,22.5}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{229,48}",
+      "textureRect": "{{857,800},{3,3}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/TitleAnim/TitleAnim_0037.png": {
+      "aliases": [],
+      "spriteOffset": "{-113,22.5}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{229,48}",
+      "textureRect": "{{857,800},{3,3}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/TitleAnim/TitleAnim_0038.png": {
+      "aliases": [],
+      "spriteOffset": "{-113,22.5}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{229,48}",
+      "textureRect": "{{857,800},{3,3}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/TitleAnim/TitleAnim_0039.png": {
+      "aliases": [],
+      "spriteOffset": "{-113,22.5}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{229,48}",
+      "textureRect": "{{857,800},{3,3}}",
+      "textureRotated": false
+    },
+    "TournamaniaIntroPopup_00/TitleAnim/TitleAnim_0040.png": {
+      "aliases": [],
+      "spriteOffset": "{-113,22.5}",
+      "spriteSize": "{3,3}",
+      "spriteSourceSize": "{229,48}",
+      "textureRect": "{{857,800},{3,3}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "TournamaniaIntroPopup_00-hd.png",
+    "size": "{1024,2048}",
+    "smartupdate": "$TexturePacker:SmartUpdate:d0710d14e6e447a1da77538bb7a6fccd:a756591432ac8dbf14e9995ba7921cd8:3e2d8a2de387d738a077d9c34412242c$",
+    "textureFileName": "TournamaniaIntroPopup_00-hd.png",
+    "animations": [
+      "CloseBtn",
+      "FlagAnimLeft",
+      "Lets'GoBtn",
+      "LiveSignal",
+      "OKBtn",
+      "PreviousWinnersBtn",
+      "TitleAnim"
+    ]
+  }
+}

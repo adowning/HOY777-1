@@ -1,0 +1,37 @@
+{
+    "files.exclude": {
+        "android": true,
+        "node_modules": true,
+        ".eslintrc-auto-import.json": true,
+        "capacitor.config.ts": true,
+        "openapi-ts.config.ts": true,
+        "postcss.config.js": true
+    },
+    "eslint.format.enable": true,
+    "editor.formatOnSave": true,
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "editor.quickSuggestions": {
+        "strings": "on"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "liveServer.settings.port": 5501,
+    "eslint.validate": [
+        "javascript",
+        "typescript",
+        // {
+        //     "language": "typescript",
+        //     "autoFix": "true"
+        // }
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "always"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    }
+}

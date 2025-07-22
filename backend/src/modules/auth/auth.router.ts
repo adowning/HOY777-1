@@ -3,7 +3,7 @@ import * as controller from './auth.controller'
 import * as HttpStatusCodes from 'stoker/http-status-codes'
 import { jsonContent, jsonContentRequired } from 'stoker/openapi/helpers'
 import { createRouter } from '#/lib/create-app'
-import { sessionResponseSchema } from '#/db'
+import { sessionResponseSchema,  } from '#/db'
 import { authMiddleware } from '#/middlewares/auth.middleware'
 import { sessionMiddleware } from '#/middlewares/session.middleware'
 
@@ -63,9 +63,26 @@ const sessionRoute = createRoute({
   middleware: [authMiddleware, sessionMiddleware],
   summary: 'Get current user session',
   responses: {
+
     [HttpStatusCodes.OK]: jsonContent(
+
       sessionResponseSchema,
-      'The created user'
+      'The current user session'
+    ),
+  },
+})
+
+const logoutRoute = createRoute({
+  method: 'post',
+  path: '/logout',
+  tags: ['Auth'],
+  summary: 'Logout current user',
+  responses: {
+    [HttpStatusCodes.OK]: jsonContent(
+      z.object({
+        message: z.string(),
+      }),
+      'Logout successful'
     ),
   },
 })
@@ -74,6 +91,7 @@ const sessionRoute = createRoute({
 const publicRouter = createRouter()
   .openapi(loginRoute, controller.login)
   .openapi(signupRoute, controller.signup)
+  .openapi(logoutRoute, controller.logout)
 
 // Protected routes (require authentication)
 const protectedRouter = createRouter()

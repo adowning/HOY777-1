@@ -1,0 +1,48 @@
+{
+  "frames": {
+    "RewardReminderPopup_00/CloseBtn/CloseBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{1033,1},{44,44}}",
+      "textureRotated": false
+    },
+    "RewardReminderPopup_00/CloseBtn/CloseBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{1033,47},{44,44}}",
+      "textureRotated": false
+    },
+    "RewardReminderPopup_00/CloseBtn/CloseBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{1033,93},{44,44}}",
+      "textureRotated": false
+    },
+    "RewardReminderPopup_00/SubBg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{1030,546}",
+      "spriteSourceSize": "{1030,546}",
+      "textureRect": "{{1,1},{1030,546}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "RewardReminderPopup_00-hd.png",
+    "size": "{1078,548}",
+    "smartupdate": "$TexturePacker:SmartUpdate:4d60b2d8535470bc745f7100a7bf7fbc:28f0dd928e29b64866954f5cba01c705:54cdad4ba939e5f0a14da5f642b5247e$",
+    "textureFileName": "RewardReminderPopup_00-hd.png",
+    "animations": [
+      "CloseBtn"
+    ]
+  }
+}

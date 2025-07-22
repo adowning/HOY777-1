@@ -1,0 +1,114 @@
+{
+  "frames": {
+    "EmailVerificationPopup_00/BottomLine1.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{471,44}",
+      "spriteSourceSize": "{471,44}",
+      "textureRect": "{{1,210},{471,44}}",
+      "textureRotated": true
+    },
+    "EmailVerificationPopup_00/BottomLine2.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{611,43}",
+      "spriteSourceSize": "{611,43}",
+      "textureRect": "{{47,351},{611,43}}",
+      "textureRotated": true
+    },
+    "EmailVerificationPopup_00/EditHereBtn/EditHereBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{140,51}",
+      "spriteSourceSize": "{140,51}",
+      "textureRect": "{{55,209},{140,51}}",
+      "textureRotated": true
+    },
+    "EmailVerificationPopup_00/EditHereBtn/EditHereBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{140,51}",
+      "spriteSourceSize": "{140,51}",
+      "textureRect": "{{55,209},{140,51}}",
+      "textureRotated": true
+    },
+    "EmailVerificationPopup_00/EditHereBtn/EditHereBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{140,51}",
+      "spriteSourceSize": "{140,51}",
+      "textureRect": "{{55,209},{140,51}}",
+      "textureRotated": true
+    },
+    "EmailVerificationPopup_00/IncorrectEmail.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{225,38}",
+      "spriteSourceSize": "{225,38}",
+      "textureRect": "{{1,683},{225,38}}",
+      "textureRotated": true
+    },
+    "EmailVerificationPopup_00/SendLinkAgain1Btn/SendLinkAgain1Btn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{207,52}",
+      "spriteSourceSize": "{207,52}",
+      "textureRect": "{{1,1},{207,52}}",
+      "textureRotated": true
+    },
+    "EmailVerificationPopup_00/SendLinkAgain1Btn/SendLinkAgain1Btn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{207,52}",
+      "spriteSourceSize": "{207,52}",
+      "textureRect": "{{1,1},{207,52}}",
+      "textureRotated": true
+    },
+    "EmailVerificationPopup_00/SendLinkAgain1Btn/SendLinkAgain1Btn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{207,52}",
+      "spriteSourceSize": "{207,52}",
+      "textureRect": "{{1,1},{207,52}}",
+      "textureRotated": true
+    },
+    "EmailVerificationPopup_00/SendLinkAgain2Btn/SendLinkAgain2Btn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{206,52}",
+      "spriteSourceSize": "{206,52}",
+      "textureRect": "{{55,1},{206,52}}",
+      "textureRotated": true
+    },
+    "EmailVerificationPopup_00/SendLinkAgain2Btn/SendLinkAgain2Btn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{206,52}",
+      "spriteSourceSize": "{206,52}",
+      "textureRect": "{{55,1},{206,52}}",
+      "textureRotated": true
+    },
+    "EmailVerificationPopup_00/SendLinkAgain2Btn/SendLinkAgain2Btn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{206,52}",
+      "spriteSourceSize": "{206,52}",
+      "textureRect": "{{55,1},{206,52}}",
+      "textureRotated": true
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "EmailVerificationPopup_00-hd.png",
+    "size": "{128,1024}",
+    "smartupdate": "$TexturePacker:SmartUpdate:457c73079c937ce4a25bf2cc62473c76:4ebd199178891586193666432ae82114:fa1c7a11791c7bafac949930f3136c66$",
+    "textureFileName": "EmailVerificationPopup_00-hd.png",
+    "animations": [
+      "EditHereBtn",
+      "SendLinkAgain1Btn",
+      "SendLinkAgain2Btn"
+    ]
+  }
+}

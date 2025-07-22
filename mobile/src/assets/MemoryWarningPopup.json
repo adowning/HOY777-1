@@ -1,0 +1,40 @@
+{
+  "frames": {
+    "MemoryWarningPopup_00/ContinueBtn/ContinueBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,102}",
+      "spriteSourceSize": "{223,102}",
+      "textureRect": "{{1,1},{223,102}}",
+      "textureRotated": false
+    },
+    "MemoryWarningPopup_00/ContinueBtn/ContinueBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,102}",
+      "spriteSourceSize": "{223,102}",
+      "textureRect": "{{226,1},{223,102}}",
+      "textureRotated": false
+    },
+    "MemoryWarningPopup_00/ContinueBtn/ContinueBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,102}",
+      "spriteSourceSize": "{223,102}",
+      "textureRect": "{{451,1},{223,102}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "MemoryWarningPopup_00-hd.png",
+    "size": "{675,104}",
+    "smartupdate": "$TexturePacker:SmartUpdate:235cb8f0b13c30894652e385aaa1a172:2dedcb7d1fdbeb82578766dfe246a743:0ce56d1230aefb37d7bb91a205c2aca4$",
+    "textureFileName": "MemoryWarningPopup_00-hd.png",
+    "animations": [
+      "ContinueBtn"
+    ]
+  }
+}

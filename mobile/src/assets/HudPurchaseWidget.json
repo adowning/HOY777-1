@@ -1,0 +1,90 @@
+{
+  "frames": {
+    "HudPurchaseWidget_00/BuyBtn/BuyBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{109,44}",
+      "spriteSourceSize": "{109,44}",
+      "textureRect": "{{114,205},{109,44}}",
+      "textureRotated": false
+    },
+    "HudPurchaseWidget_00/BuyBtn/BuyBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{109,44}",
+      "spriteSourceSize": "{109,44}",
+      "textureRect": "{{1,250},{109,44}}",
+      "textureRotated": false
+    },
+    "HudPurchaseWidget_00/BuyBtn/BuyBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{109,44}",
+      "spriteSourceSize": "{109,44}",
+      "textureRect": "{{112,251},{109,44}}",
+      "textureRotated": false
+    },
+    "HudPurchaseWidget_00/PurchaseCart/PurchaseCart_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{245,51}",
+      "spriteSourceSize": "{245,51}",
+      "textureRect": "{{1,1},{245,51}}",
+      "textureRotated": false
+    },
+    "HudPurchaseWidget_00/PurchaseCart/PurchaseCart_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{245,51}",
+      "spriteSourceSize": "{245,51}",
+      "textureRect": "{{1,54},{245,51}}",
+      "textureRotated": false
+    },
+    "HudPurchaseWidget_00/PurchaseCart/PurchaseCart_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{245,51}",
+      "spriteSourceSize": "{245,51}",
+      "textureRect": "{{1,107},{245,51}}",
+      "textureRotated": false
+    },
+    "HudPurchaseWidget_00/SaleBtn/SaleBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{111,43}",
+      "spriteSourceSize": "{111,43}",
+      "textureRect": "{{1,160},{111,43}}",
+      "textureRotated": false
+    },
+    "HudPurchaseWidget_00/SaleBtn/SaleBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{111,43}",
+      "spriteSourceSize": "{111,43}",
+      "textureRect": "{{114,160},{111,43}}",
+      "textureRotated": false
+    },
+    "HudPurchaseWidget_00/SaleBtn/SaleBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{111,43}",
+      "spriteSourceSize": "{111,43}",
+      "textureRect": "{{1,205},{111,43}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "HudPurchaseWidget_00-hd.png",
+    "size": "{247,296}",
+    "smartupdate": "$TexturePacker:SmartUpdate:beea701fbb0f9f129a1215f3ca7b507f:a55846f6514793504aea2254836ca879:c04a4c03ee7676698ef80fe70c85f66c$",
+    "textureFileName": "HudPurchaseWidget_00-hd.png",
+    "animations": [
+      "BuyBtn",
+      "PurchaseCart",
+      "SaleBtn"
+    ]
+  }
+}

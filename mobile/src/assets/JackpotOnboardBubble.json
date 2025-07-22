@@ -1,0 +1,80 @@
+{
+  "frames": {
+    "JackpotOnboardBubble_00/Arrow.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{95,111}",
+      "spriteSourceSize": "{95,111}",
+      "textureRect": "{{338,119},{95,111}}",
+      "textureRotated": true
+    },
+    "JackpotOnboardBubble_00/BtnNext.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{53,53}",
+      "spriteSourceSize": "{53,53}",
+      "textureRect": "{{1,1},{53,53}}",
+      "textureRotated": false
+    },
+    "JackpotOnboardBubble_00/BubbleBase.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{443,225}",
+      "spriteSourceSize": "{443,225}",
+      "textureRect": "{{1,216},{443,225}}",
+      "textureRotated": false
+    },
+    "JackpotOnboardBubble_00/Skip/Skip_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{190,55}",
+      "spriteSourceSize": "{190,55}",
+      "textureRect": "{{56,1},{190,55}}",
+      "textureRotated": false
+    },
+    "JackpotOnboardBubble_00/Skip/Skip_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{190,55}",
+      "spriteSourceSize": "{190,55}",
+      "textureRect": "{{248,1},{190,55}}",
+      "textureRotated": false
+    },
+    "JackpotOnboardBubble_00/Skip/Skip_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{190,55}",
+      "spriteSourceSize": "{190,55}",
+      "textureRect": "{{1,58},{190,55}}",
+      "textureRotated": false
+    },
+    "JackpotOnboardBubble_00/TextBack.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{335,58}",
+      "spriteSourceSize": "{335,58}",
+      "textureRect": "{{1,119},{335,58}}",
+      "textureRotated": false
+    },
+    "JackpotOnboardBubble_00/TextChat.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{266,59}",
+      "spriteSourceSize": "{266,59}",
+      "textureRect": "{{193,58},{266,59}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "JackpotOnboardBubble_00-hd.png",
+    "size": "{460,442}",
+    "smartupdate": "$TexturePacker:SmartUpdate:59340f05636d30bd08412db8b4457a96:0ef7746e4a1cb1ca8b4f43a44dc9f112:a01666a47ab88d6e35435e29a9743cb7$",
+    "textureFileName": "JackpotOnboardBubble_00-hd.png",
+    "animations": [
+      "Skip"
+    ]
+  }
+}

@@ -28,6 +28,8 @@ export async function seedUsers(
     const password = randPassword()
     const hashedPassword = await Bun.password.hash(password)
     const createdAt = randPastDate({ years: 1 })
+      const avatarN = randNumber({ min: 1, max: 9 })
+  const playerAvatar = `avatar-0${avatarN}.webp`
 
     await db.transaction(async (tx) => {
       const [newUser] = await tx
@@ -36,18 +38,20 @@ export async function seedUsers(
           username,
           passwordHash: hashedPassword,
           createdAt,
+          avatar: playerAvatar,
           vipLevel: rand(allVipLevels).level,
         })
         .returning()
+      const initialBalance = randNumber({ min: 1000, max: 20000 })
 
       await tx.insert(schema.wallets).values({
         id: `wallet_${crypto.randomUUID()}`,
         userId: newUser.id,
+        balance: initialBalance,
         operatorId: operatorId,
         balance: 0,
       })
 
-      const initialBalance = randNumber({ min: 1000, max: 20000 })
       await tx.insert(schema.balances).values({
         userId: newUser.id,
         amount: initialBalance,
@@ -86,6 +90,7 @@ export async function seedHardcodedUser(
       .insert(schema.users)
       .values({
         username,
+        avatar: `avatar-01.webp`,
         passwordHash: hashedPassword,
         vipLevel: 1,
       })

@@ -1,0 +1,115 @@
+{
+  "frames": {
+    "CCPAPopup_00/AcceptBtn/AcceptBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{255,73}",
+      "spriteSourceSize": "{255,73}",
+      "textureRect": "{{99,1},{255,73}}",
+      "textureRotated": false
+    },
+    "CCPAPopup_00/AcceptBtn/AcceptBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{255,73}",
+      "spriteSourceSize": "{255,73}",
+      "textureRect": "{{356,1},{255,73}}",
+      "textureRotated": false
+    },
+    "CCPAPopup_00/AcceptBtn/AcceptBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{255,73}",
+      "spriteSourceSize": "{255,73}",
+      "textureRect": "{{613,1},{255,73}}",
+      "textureRotated": false
+    },
+    "CCPAPopup_00/Bg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{901,575}",
+      "spriteSourceSize": "{901,575}",
+      "textureRect": "{{1,248},{901,575}}",
+      "textureRotated": false
+    },
+    "CCPAPopup_00/PrivacyBtn/PrivacyBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{297,84}",
+      "spriteSourceSize": "{297,84}",
+      "textureRect": "{{1,76},{297,84}}",
+      "textureRotated": false
+    },
+    "CCPAPopup_00/PrivacyBtn/PrivacyBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{297,84}",
+      "spriteSourceSize": "{297,84}",
+      "textureRect": "{{300,76},{297,84}}",
+      "textureRotated": false
+    },
+    "CCPAPopup_00/PrivacyBtn/PrivacyBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{297,84}",
+      "spriteSourceSize": "{297,84}",
+      "textureRect": "{{599,76},{297,84}}",
+      "textureRotated": false
+    },
+    "CCPAPopup_00/RadioButton1/RadioButton1_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{48,45}",
+      "spriteSourceSize": "{48,45}",
+      "textureRect": "{{1,1},{48,45}}",
+      "textureRotated": false
+    },
+    "CCPAPopup_00/RadioButton1/RadioButton1_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,0}",
+      "spriteSize": "{46,45}",
+      "spriteSourceSize": "{48,45}",
+      "textureRect": "{{51,1},{46,45}}",
+      "textureRotated": false
+    },
+    "CCPAPopup_00/TOSBtn/TOSBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{297,84}",
+      "spriteSourceSize": "{297,84}",
+      "textureRect": "{{1,162},{297,84}}",
+      "textureRotated": false
+    },
+    "CCPAPopup_00/TOSBtn/TOSBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{297,84}",
+      "spriteSourceSize": "{297,84}",
+      "textureRect": "{{300,162},{297,84}}",
+      "textureRotated": false
+    },
+    "CCPAPopup_00/TOSBtn/TOSBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{297,84}",
+      "spriteSourceSize": "{297,84}",
+      "textureRect": "{{599,162},{297,84}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "CCPAPopup_00-hd.png",
+    "size": "{903,824}",
+    "smartupdate": "$TexturePacker:SmartUpdate:50b8168817337399a6dd6c19f7d4990e:5cb20cb27693ae8f707b1579eb5bc030:c891c91e7de7a7802e7e8ddd90d39c6b$",
+    "textureFileName": "CCPAPopup_00-hd.png",
+    "animations": [
+      "AcceptBtn",
+      "PrivacyBtn",
+      "RadioButton1",
+      "TOSBtn"
+    ]
+  }
+}

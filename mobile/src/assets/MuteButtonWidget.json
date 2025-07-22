@@ -1,0 +1,32 @@
+{
+  "frames": {
+    "MuteButtonWidget_00/MuteBtn/MuteBtn_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{57,57}",
+      "spriteSourceSize": "{57,57}",
+      "textureRect": "{{1,1},{57,57}}",
+      "textureRotated": false
+    },
+    "MuteButtonWidget_00/MuteBtn/MuteBtn_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{57,57}",
+      "spriteSourceSize": "{57,57}",
+      "textureRect": "{{60,1},{57,57}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "MuteButtonWidget_00-hd.png",
+    "size": "{118,59}",
+    "smartupdate": "$TexturePacker:SmartUpdate:0bd80b27a1b0e847932254616d65b372:65ea1de6a244de6b0254d9d9ce82e9b9:feb83249e7dfafba03582657f8754772$",
+    "textureFileName": "MuteButtonWidget_00-hd.png",
+    "animations": [
+      "MuteBtn"
+    ]
+  }
+}

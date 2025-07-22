@@ -1,0 +1,54 @@
+{
+  "frames": {
+    "FriendBonusWidget_00/Bg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{229,206}",
+      "spriteSourceSize": "{229,206}",
+      "textureRect": "{{1,1},{229,206}}",
+      "textureRotated": false
+    },
+    "FriendBonusWidget_00/Currency_0.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{28,28}",
+      "spriteSourceSize": "{28,28}",
+      "textureRect": "{{212,283},{28,28}}",
+      "textureRotated": false
+    },
+    "FriendBonusWidget_00/Currency_1.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{35,35}",
+      "spriteSourceSize": "{35,35}",
+      "textureRect": "{{212,209},{35,35}}",
+      "textureRotated": false
+    },
+    "FriendBonusWidget_00/Currency_2.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{35,35}",
+      "spriteSourceSize": "{35,35}",
+      "textureRect": "{{212,246},{35,35}}",
+      "textureRotated": false
+    },
+    "FriendBonusWidget_00/Disabled.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{209,187}",
+      "spriteSourceSize": "{209,187}",
+      "textureRect": "{{1,209},{209,187}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "FriendBonusWidget_00-hd.png",
+    "size": "{256,512}",
+    "smartupdate": "$TexturePacker:SmartUpdate:9b72239661728f593258e979f1476534:e3e0ba37d9aace81423071e95db2d703:215e41c2a703c6618e463ea5c4bc1c77$",
+    "textureFileName": "FriendBonusWidget_00-hd.png",
+    "animations": []
+  }
+}

@@ -1,9 +1,10 @@
-import { integer, text } from 'drizzle-orm/sqlite-core';
-import { sqliteTable } from 'drizzle-orm/sqlite-core';
+import { integer, pgTable, text } from 'drizzle-orm/pg-core'
 import { users } from './users';
 import { relations } from 'drizzle-orm';
+import { createInsertSchema, createSelectSchema } from 'drizzle-zod';
+import { transformSchemaForOpenAPI } from '#/lib/schema-transformer';
 
-export const vipInfo = sqliteTable('vip_info', {
+export const vipInfo = pgTable('vip_info', {
     userId: text('user_id').primaryKey().references(() => users.id),
     level: integer('level').default(0),
     depositExp: integer('deposit_exp').default(0),
@@ -25,3 +26,13 @@ export const vipInfoRelations = relations(vipInfo, ({ one }) => ({
         references: [users.id],
     }),
 }));
+
+export const selectVipInfoSchema = transformSchemaForOpenAPI(
+  createSelectSchema(vipInfo)
+);
+
+export const insertVipInfoSchema = transformSchemaForOpenAPI(
+  createInsertSchema(vipInfo).omit({
+    userId: true,
+  })
+);

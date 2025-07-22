@@ -1,0 +1,81 @@
+{
+  "frames": {
+    "LogOutPopup_00/Bg.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{545,431}",
+      "spriteSourceSize": "{545,431}",
+      "textureRect": "{{1,1},{545,431}}",
+      "textureRotated": true
+    },
+    "LogOutPopup_00/Heading.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{212,55}",
+      "spriteSourceSize": "{212,55}",
+      "textureRect": "{{434,1},{212,55}}",
+      "textureRotated": true
+    },
+    "LogOutPopup_00/LogOut/LogOut_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{180,88}",
+      "spriteSourceSize": "{180,88}",
+      "textureRect": "{{185,548},{180,88}}",
+      "textureRotated": false
+    },
+    "LogOutPopup_00/LogOut/LogOut_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{180,88}",
+      "spriteSourceSize": "{180,88}",
+      "textureRect": "{{91,548},{180,88}}",
+      "textureRotated": true
+    },
+    "LogOutPopup_00/LogOut/LogOut_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{180,88}",
+      "spriteSourceSize": "{180,88}",
+      "textureRect": "{{91,730},{180,88}}",
+      "textureRotated": true
+    },
+    "LogOutPopup_00/Stay/Stay_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{182,88}",
+      "spriteSourceSize": "{182,88}",
+      "textureRect": "{{1,548},{182,88}}",
+      "textureRotated": true
+    },
+    "LogOutPopup_00/Stay/Stay_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{182,88}",
+      "spriteSourceSize": "{182,88}",
+      "textureRect": "{{1,732},{182,88}}",
+      "textureRotated": true
+    },
+    "LogOutPopup_00/Stay/Stay_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{182,88}",
+      "spriteSourceSize": "{182,88}",
+      "textureRect": "{{1,916},{182,88}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "LogOutPopup_00-hd.png",
+    "size": "{512,1024}",
+    "smartupdate": "$TexturePacker:SmartUpdate:bf1fbea6535d2c8f0009e965dd77ac7a:6517f9a44a67eca639449dd0ec6d2db5:ada4e7e2eee19abe88801c4e34bb04ef$",
+    "textureFileName": "LogOutPopup_00-hd.png",
+    "animations": [
+      "LogOut",
+      "Stay"
+    ]
+  }
+}

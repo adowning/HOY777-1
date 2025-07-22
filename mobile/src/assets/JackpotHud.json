@@ -1,0 +1,163 @@
+{
+  "frames": {
+    "JackpotHud_00/BackButton/BackButton_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{50,50}",
+      "spriteSourceSize": "{50,50}",
+      "textureRect": "{{596,151},{50,50}}",
+      "textureRotated": false
+    },
+    "JackpotHud_00/BackButton/BackButton_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{50,50}",
+      "spriteSourceSize": "{50,50}",
+      "textureRect": "{{648,151},{50,50}}",
+      "textureRotated": false
+    },
+    "JackpotHud_00/BackButton/BackButton_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{50,50}",
+      "spriteSourceSize": "{50,50}",
+      "textureRect": "{{700,151},{50,50}}",
+      "textureRotated": false
+    },
+    "JackpotHud_00/BgShadeIpad.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{1024,73}",
+      "spriteSourceSize": "{1024,73}",
+      "textureRect": "{{1,76},{1024,73}}",
+      "textureRotated": false
+    },
+    "JackpotHud_00/BgShadeIphone5.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{1136,73}",
+      "spriteSourceSize": "{1136,73}",
+      "textureRect": "{{1,1},{1136,73}}",
+      "textureRotated": false
+    },
+    "JackpotHud_00/GemsButtonBase.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{59,59}",
+      "spriteSourceSize": "{59,59}",
+      "textureRect": "{{1027,137},{59,59}}",
+      "textureRotated": false
+    },
+    "JackpotHud_00/InfoButton/InfoButton_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{52,52}",
+      "spriteSourceSize": "{52,52}",
+      "textureRect": "{{434,151},{52,52}}",
+      "textureRotated": false
+    },
+    "JackpotHud_00/InfoButton/InfoButton_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{52,52}",
+      "spriteSourceSize": "{52,52}",
+      "textureRect": "{{488,151},{52,52}}",
+      "textureRotated": false
+    },
+    "JackpotHud_00/InfoButton/InfoButton_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{52,52}",
+      "spriteSourceSize": "{52,52}",
+      "textureRect": "{{542,151},{52,52}}",
+      "textureRotated": false
+    },
+    "JackpotHud_00/PrimaryCurrencyFrame.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{238,48}",
+      "spriteSourceSize": "{238,48}",
+      "textureRect": "{{1,151},{238,48}}",
+      "textureRotated": false
+    },
+    "JackpotHud_00/ProfilePicFrameIpad.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{72,59}",
+      "spriteSourceSize": "{72,59}",
+      "textureRect": "{{1027,76},{72,59}}",
+      "textureRotated": false
+    },
+    "JackpotHud_00/ProfilePicFrameIphone5.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{72,59}",
+      "spriteSourceSize": "{72,59}",
+      "textureRect": "{{1027,76},{72,59}}",
+      "textureRotated": false
+    },
+    "JackpotHud_00/ProfilePicMask.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{35,35}",
+      "spriteSourceSize": "{35,35}",
+      "textureRect": "{{1101,76},{35,35}}",
+      "textureRotated": false
+    },
+    "JackpotHud_00/PurchaseCart/PurchaseCart_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{66,48}",
+      "spriteSourceSize": "{66,48}",
+      "textureRect": "{{366,151},{66,48}}",
+      "textureRotated": false
+    },
+    "JackpotHud_00/SettingsButton/SettingsButton_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{50,50}",
+      "spriteSourceSize": "{50,50}",
+      "textureRect": "{{752,151},{50,50}}",
+      "textureRotated": false
+    },
+    "JackpotHud_00/SettingsButton/SettingsButton_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{50,50}",
+      "spriteSourceSize": "{50,50}",
+      "textureRect": "{{804,151},{50,50}}",
+      "textureRotated": false
+    },
+    "JackpotHud_00/SettingsButton/SettingsButton_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{50,50}",
+      "spriteSourceSize": "{50,50}",
+      "textureRect": "{{856,151},{50,50}}",
+      "textureRotated": false
+    },
+    "JackpotHud_00/ToolTip.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{123,52}",
+      "spriteSourceSize": "{123,52}",
+      "textureRect": "{{241,151},{123,52}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "JackpotHud_00-hd.png",
+    "size": "{1138,204}",
+    "smartupdate": "$TexturePacker:SmartUpdate:9e15284cdf5d0f9ae4aa595f338f2823:c7b6941e78924f47e45d83979d7a15c1:bd91e76ba5046ef930184a761ebc7d53$",
+    "textureFileName": "JackpotHud_00-hd.png",
+    "animations": [
+      "BackButton",
+      "InfoButton",
+      "PurchaseCart",
+      "SettingsButton"
+    ]
+  }
+}

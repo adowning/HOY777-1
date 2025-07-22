@@ -1,0 +1,89 @@
+{
+  "frames": {
+    "RSLeaderboardCongratulationsPopup_00/BgPart.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{898,542}",
+      "spriteSourceSize": "{898,542}",
+      "textureRect": "{{1,1},{898,542}}",
+      "textureRotated": false
+    },
+    "RSLeaderboardCongratulationsPopup_00/Close/Close_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{464,615},{44,44}}",
+      "textureRotated": false
+    },
+    "RSLeaderboardCongratulationsPopup_00/Close/Close_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{510,615},{44,44}}",
+      "textureRotated": false
+    },
+    "RSLeaderboardCongratulationsPopup_00/Close/Close_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{44,44}",
+      "spriteSourceSize": "{44,44}",
+      "textureRect": "{{528,545},{44,44}}",
+      "textureRotated": false
+    },
+    "RSLeaderboardCongratulationsPopup_00/Coin.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{62,68}",
+      "spriteSourceSize": "{62,68}",
+      "textureRect": "{{464,545},{62,68}}",
+      "textureRotated": false
+    },
+    "RSLeaderboardCongratulationsPopup_00/CoinBase.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{461,116}",
+      "spriteSourceSize": "{461,116}",
+      "textureRect": "{{1,545},{461,116}}",
+      "textureRotated": false
+    },
+    "RSLeaderboardCongratulationsPopup_00/CollectBtn/CollectBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,88}",
+      "spriteSourceSize": "{223,88}",
+      "textureRect": "{{1,663},{223,88}}",
+      "textureRotated": false
+    },
+    "RSLeaderboardCongratulationsPopup_00/CollectBtn/CollectBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,88}",
+      "spriteSourceSize": "{223,88}",
+      "textureRect": "{{226,663},{223,88}}",
+      "textureRotated": false
+    },
+    "RSLeaderboardCongratulationsPopup_00/CollectBtn/CollectBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{223,88}",
+      "spriteSourceSize": "{223,88}",
+      "textureRect": "{{451,663},{223,88}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "RSLeaderboardCongratulationsPopup_00-hd.png",
+    "size": "{900,752}",
+    "smartupdate": "$TexturePacker:SmartUpdate:e2f064e2a96429973816f620e931b31a:f99275aecea4c10f658b495d28e32582:26a7f8e58226bf6ad4249a44bfe5e843$",
+    "textureFileName": "RSLeaderboardCongratulationsPopup_00-hd.png",
+    "animations": [
+      "Close",
+      "CollectBtn"
+    ]
+  }
+}

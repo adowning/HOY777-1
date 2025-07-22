@@ -1,0 +1,1691 @@
+{
+  "frames": {
+    "VikingsUnlockScreen_00/Bg.png": {
+      "aliases": [],
+      "spriteOffset": "{-7,11}",
+      "spriteSize": "{924,488}",
+      "spriteSourceSize": "{1024,640}",
+      "textureRect": "{{1017,1},{924,488}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/CloseBtn/CloseBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,1}",
+      "spriteSize": "{39,39}",
+      "spriteSourceSize": "{63,63}",
+      "textureRect": "{{920,557},{39,39}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/CloseBtn/CloseBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,1}",
+      "spriteSize": "{39,39}",
+      "spriteSourceSize": "{63,63}",
+      "textureRect": "{{961,557},{39,39}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/CloseBtn/CloseBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,1}",
+      "spriteSize": "{39,39}",
+      "spriteSourceSize": "{63,63}",
+      "textureRect": "{{920,598},{39,39}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{14,18}",
+      "spriteSize": "{258,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{629,557},{258,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{14,18}",
+      "spriteSize": "{258,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{629,557},{258,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{14,18}",
+      "spriteSize": "{258,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{629,557},{258,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{14,18}",
+      "spriteSize": "{258,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{629,557},{258,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{15,18}",
+      "spriteSize": "{258,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{920,705},{258,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{15,18}",
+      "spriteSize": "{258,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{920,705},{258,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{15,18}",
+      "spriteSize": "{258,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{920,705},{258,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{15,18}",
+      "spriteSize": "{258,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{920,705},{258,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{14,10}",
+      "spriteSize": "{258,305}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{322,557},{258,305}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{14,10}",
+      "spriteSize": "{258,305}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{322,557},{258,305}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{14,10}",
+      "spriteSize": "{258,305}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{322,557},{258,305}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{14,10}",
+      "spriteSize": "{258,305}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{322,557},{258,305}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{13,3}",
+      "spriteSize": "{256,319}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1,557},{256,319}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{13,3}",
+      "spriteSize": "{256,319}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1,557},{256,319}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{13,3}",
+      "spriteSize": "{256,319}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1,557},{256,319}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{13,3}",
+      "spriteSize": "{256,319}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1,557},{256,319}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{13,-11}",
+      "spriteSize": "{254,293}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1,815},{254,293}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{13,-11}",
+      "spriteSize": "{254,293}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1,815},{254,293}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{13,-11}",
+      "spriteSize": "{254,293}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1,815},{254,293}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{13,-11}",
+      "spriteSize": "{254,293}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1,815},{254,293}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{11,-21}",
+      "spriteSize": "{252,283}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{585,1233},{252,283}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{11,-21}",
+      "spriteSize": "{252,283}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{585,1233},{252,283}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0022.png": {
+      "aliases": [],
+      "spriteOffset": "{11,-21}",
+      "spriteSize": "{252,283}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{585,1233},{252,283}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0023.png": {
+      "aliases": [],
+      "spriteOffset": "{11,-21}",
+      "spriteSize": "{252,283}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{585,1233},{252,283}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0024.png": {
+      "aliases": [],
+      "spriteOffset": "{10,-21}",
+      "spriteSize": "{250,283}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{286,1293},{250,283}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0025.png": {
+      "aliases": [],
+      "spriteOffset": "{10,-21}",
+      "spriteSize": "{250,283}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{286,1293},{250,283}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0026.png": {
+      "aliases": [],
+      "spriteOffset": "{10,-21}",
+      "spriteSize": "{250,283}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{286,1293},{250,283}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0027.png": {
+      "aliases": [],
+      "spriteOffset": "{10,-21}",
+      "spriteSize": "{250,283}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{286,1293},{250,283}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0028.png": {
+      "aliases": [],
+      "spriteOffset": "{8,-21}",
+      "spriteSize": "{246,283}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1,1337},{246,283}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0029.png": {
+      "aliases": [],
+      "spriteOffset": "{8,-21}",
+      "spriteSize": "{246,283}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1,1337},{246,283}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0030.png": {
+      "aliases": [],
+      "spriteOffset": "{8,-21}",
+      "spriteSize": "{246,283}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1,1337},{246,283}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0031.png": {
+      "aliases": [],
+      "spriteOffset": "{8,-21}",
+      "spriteSize": "{246,283}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1,1337},{246,283}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0032.png": {
+      "aliases": [],
+      "spriteOffset": "{-5,-21}",
+      "spriteSize": "{258,283}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{878,1171},{258,283}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0033.png": {
+      "aliases": [],
+      "spriteOffset": "{-5,-21}",
+      "spriteSize": "{258,283}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{878,1171},{258,283}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0034.png": {
+      "aliases": [],
+      "spriteOffset": "{-5,-21}",
+      "spriteSize": "{258,283}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{878,1171},{258,283}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0035.png": {
+      "aliases": [],
+      "spriteOffset": "{-5,-21}",
+      "spriteSize": "{258,283}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{878,1171},{258,283}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0036.png": {
+      "aliases": [],
+      "spriteOffset": "{-18,-21}",
+      "spriteSize": "{264,283}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1,1071},{264,283}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0037.png": {
+      "aliases": [],
+      "spriteOffset": "{-18,-21}",
+      "spriteSize": "{264,283}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1,1071},{264,283}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0038.png": {
+      "aliases": [],
+      "spriteOffset": "{-18,-21}",
+      "spriteSize": "{264,283}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1,1071},{264,283}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0039.png": {
+      "aliases": [],
+      "spriteOffset": "{-18,-21}",
+      "spriteSize": "{264,283}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1,1071},{264,283}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0040.png": {
+      "aliases": [],
+      "spriteOffset": "{-31,-21}",
+      "spriteSize": "{238,283}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1288,1223},{238,283}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0041.png": {
+      "aliases": [],
+      "spriteOffset": "{-31,-21}",
+      "spriteSize": "{238,283}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1288,1223},{238,283}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0042.png": {
+      "aliases": [],
+      "spriteOffset": "{-31,-21}",
+      "spriteSize": "{238,283}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1288,1223},{238,283}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0043.png": {
+      "aliases": [],
+      "spriteOffset": "{-31,-21}",
+      "spriteSize": "{238,283}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1288,1223},{238,283}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0044.png": {
+      "aliases": [],
+      "spriteOffset": "{-32,-21}",
+      "spriteSize": "{236,283}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{870,1431},{236,283}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0045.png": {
+      "aliases": [],
+      "spriteOffset": "{-32,-21}",
+      "spriteSize": "{236,283}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{870,1431},{236,283}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0046.png": {
+      "aliases": [],
+      "spriteOffset": "{-32,-21}",
+      "spriteSize": "{236,283}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{870,1431},{236,283}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0047.png": {
+      "aliases": [],
+      "spriteOffset": "{-32,-21}",
+      "spriteSize": "{236,283}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{870,1431},{236,283}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0048.png": {
+      "aliases": [],
+      "spriteOffset": "{-32,-21}",
+      "spriteSize": "{236,283}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{571,1487},{236,283}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0049.png": {
+      "aliases": [],
+      "spriteOffset": "{-32,-21}",
+      "spriteSize": "{236,283}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{571,1487},{236,283}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0050.png": {
+      "aliases": [],
+      "spriteOffset": "{-32,-21}",
+      "spriteSize": "{236,283}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{571,1487},{236,283}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0051.png": {
+      "aliases": [],
+      "spriteOffset": "{-32,-21}",
+      "spriteSize": "{236,283}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{571,1487},{236,283}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0052.png": {
+      "aliases": [],
+      "spriteOffset": "{-32,-19}",
+      "spriteSize": "{236,287}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{296,1055},{236,287}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0053.png": {
+      "aliases": [],
+      "spriteOffset": "{-32,-19}",
+      "spriteSize": "{236,287}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{296,1055},{236,287}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0054.png": {
+      "aliases": [],
+      "spriteOffset": "{-32,-19}",
+      "spriteSize": "{236,287}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{296,1055},{236,287}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0055.png": {
+      "aliases": [],
+      "spriteOffset": "{-32,-19}",
+      "spriteSize": "{236,287}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{296,1055},{236,287}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0056.png": {
+      "aliases": [],
+      "spriteOffset": "{-32,0}",
+      "spriteSize": "{236,325}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1379,491},{236,325}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0057.png": {
+      "aliases": [],
+      "spriteOffset": "{-32,0}",
+      "spriteSize": "{236,325}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1379,491},{236,325}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0058.png": {
+      "aliases": [],
+      "spriteOffset": "{-32,0}",
+      "spriteSize": "{236,325}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1379,491},{236,325}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0059.png": {
+      "aliases": [],
+      "spriteOffset": "{-32,0}",
+      "spriteSize": "{236,325}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1379,491},{236,325}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0060.png": {
+      "aliases": [],
+      "spriteOffset": "{-32,18}",
+      "spriteSize": "{236,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1330,985},{236,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0061.png": {
+      "aliases": [],
+      "spriteOffset": "{-32,18}",
+      "spriteSize": "{236,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1330,985},{236,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0062.png": {
+      "aliases": [],
+      "spriteOffset": "{-32,18}",
+      "spriteSize": "{236,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1330,985},{236,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0063.png": {
+      "aliases": [],
+      "spriteOffset": "{-32,18}",
+      "spriteSize": "{236,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1330,985},{236,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0064.png": {
+      "aliases": [],
+      "spriteOffset": "{-32,18}",
+      "spriteSize": "{236,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1621,1038},{236,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0065.png": {
+      "aliases": [],
+      "spriteOffset": "{-32,18}",
+      "spriteSize": "{236,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1621,1038},{236,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0066.png": {
+      "aliases": [],
+      "spriteOffset": "{-32,18}",
+      "spriteSize": "{236,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1621,1038},{236,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0067.png": {
+      "aliases": [],
+      "spriteOffset": "{-32,18}",
+      "spriteSize": "{236,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1621,1038},{236,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0068.png": {
+      "aliases": [],
+      "spriteOffset": "{-32,18}",
+      "spriteSize": "{236,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{296,817},{236,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0069.png": {
+      "aliases": [],
+      "spriteOffset": "{-32,18}",
+      "spriteSize": "{236,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{296,817},{236,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0070.png": {
+      "aliases": [],
+      "spriteOffset": "{-32,18}",
+      "spriteSize": "{236,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{296,817},{236,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0071.png": {
+      "aliases": [],
+      "spriteOffset": "{-32,18}",
+      "spriteSize": "{236,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{296,817},{236,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0072.png": {
+      "aliases": [],
+      "spriteOffset": "{-30,18}",
+      "spriteSize": "{232,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1706,491},{232,289}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0073.png": {
+      "aliases": [],
+      "spriteOffset": "{-30,18}",
+      "spriteSize": "{232,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1706,491},{232,289}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0074.png": {
+      "aliases": [],
+      "spriteOffset": "{-30,18}",
+      "spriteSize": "{232,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1706,491},{232,289}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0075.png": {
+      "aliases": [],
+      "spriteOffset": "{-30,18}",
+      "spriteSize": "{232,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1706,491},{232,289}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0076.png": {
+      "aliases": [],
+      "spriteOffset": "{-16,18}",
+      "spriteSize": "{204,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{878,965},{204,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0077.png": {
+      "aliases": [],
+      "spriteOffset": "{-16,18}",
+      "spriteSize": "{204,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{878,965},{204,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0078.png": {
+      "aliases": [],
+      "spriteOffset": "{-16,18}",
+      "spriteSize": "{204,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{878,965},{204,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0079.png": {
+      "aliases": [],
+      "spriteOffset": "{-16,18}",
+      "spriteSize": "{204,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{878,965},{204,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0080.png": {
+      "aliases": [],
+      "spriteOffset": "{-14,18}",
+      "spriteSize": "{200,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{587,1031},{200,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0081.png": {
+      "aliases": [],
+      "spriteOffset": "{-14,18}",
+      "spriteSize": "{200,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{587,1031},{200,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0082.png": {
+      "aliases": [],
+      "spriteOffset": "{-14,18}",
+      "spriteSize": "{200,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{587,1031},{200,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0083.png": {
+      "aliases": [],
+      "spriteOffset": "{-14,18}",
+      "spriteSize": "{200,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{587,1031},{200,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0084.png": {
+      "aliases": [],
+      "spriteOffset": "{-8,18}",
+      "spriteSize": "{212,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{587,817},{212,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0085.png": {
+      "aliases": [],
+      "spriteOffset": "{-8,18}",
+      "spriteSize": "{212,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{587,817},{212,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0086.png": {
+      "aliases": [],
+      "spriteOffset": "{-8,18}",
+      "spriteSize": "{212,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{587,817},{212,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0087.png": {
+      "aliases": [],
+      "spriteOffset": "{-8,18}",
+      "spriteSize": "{212,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{587,817},{212,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0088.png": {
+      "aliases": [],
+      "spriteOffset": "{12,18}",
+      "spriteSize": "{254,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1330,729},{254,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0089.png": {
+      "aliases": [],
+      "spriteOffset": "{12,18}",
+      "spriteSize": "{254,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1330,729},{254,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0090.png": {
+      "aliases": [],
+      "spriteOffset": "{12,18}",
+      "spriteSize": "{254,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1330,729},{254,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0091.png": {
+      "aliases": [],
+      "spriteOffset": "{12,18}",
+      "spriteSize": "{254,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1330,729},{254,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0092.png": {
+      "aliases": [],
+      "spriteOffset": "{12,18}",
+      "spriteSize": "{254,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1621,782},{254,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0093.png": {
+      "aliases": [],
+      "spriteOffset": "{12,18}",
+      "spriteSize": "{254,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1621,782},{254,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0094.png": {
+      "aliases": [],
+      "spriteOffset": "{12,18}",
+      "spriteSize": "{254,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1621,782},{254,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0095.png": {
+      "aliases": [],
+      "spriteOffset": "{12,18}",
+      "spriteSize": "{254,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{1621,782},{254,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0096.png": {
+      "aliases": [],
+      "spriteOffset": "{14,18}",
+      "spriteSize": "{258,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{629,557},{258,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0097.png": {
+      "aliases": [],
+      "spriteOffset": "{14,18}",
+      "spriteSize": "{258,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{629,557},{258,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0098.png": {
+      "aliases": [],
+      "spriteOffset": "{14,18}",
+      "spriteSize": "{258,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{629,557},{258,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/LogoAnim/LogoAnim_0099.png": {
+      "aliases": [],
+      "spriteOffset": "{14,18}",
+      "spriteSize": "{258,289}",
+      "spriteSourceSize": "{300,325}",
+      "textureRect": "{{629,557},{258,289}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/SubBg.png": {
+      "aliases": [],
+      "spriteOffset": "{1,-33}",
+      "spriteSize": "{1014,554}",
+      "spriteSourceSize": "{1024,640}",
+      "textureRect": "{{1,1},{1014,554}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/TakeMeBtn/TakeMeBtn_00.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{259,69}",
+      "spriteSourceSize": "{259,69}",
+      "textureRect": "{{1943,1},{259,69}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TakeMeBtn/TakeMeBtn_01.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{259,69}",
+      "spriteSourceSize": "{259,69}",
+      "textureRect": "{{1943,262},{259,69}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TakeMeBtn/TakeMeBtn_02.png": {
+      "aliases": [],
+      "spriteOffset": "{0,0}",
+      "spriteSize": "{259,69}",
+      "spriteSourceSize": "{259,69}",
+      "textureRect": "{{1940,523},{259,69}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0000.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{205,1929},{202,115}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0001.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{205,1929},{202,115}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0002.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{205,1929},{202,115}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0003.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{205,1929},{202,115}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0004.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{239,1725},{202,115}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0005.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{239,1725},{202,115}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0006.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{239,1725},{202,115}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0007.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{239,1725},{202,115}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0008.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{356,1725},{202,115}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0009.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{356,1725},{202,115}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0010.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{356,1725},{202,115}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0011.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{356,1725},{202,115}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0012.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{409,1929},{202,115}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0013.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{409,1929},{202,115}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0014.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{409,1929},{202,115}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0015.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{409,1929},{202,115}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0016.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{473,1725},{202,115}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0017.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{473,1725},{202,115}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0018.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{473,1725},{202,115}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0019.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{473,1725},{202,115}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0020.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{590,1725},{202,115}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0021.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{590,1725},{202,115}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0022.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{590,1725},{202,115}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0023.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{590,1725},{202,115}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0024.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{613,1929},{202,115}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0025.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{613,1929},{202,115}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0026.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{613,1929},{202,115}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0027.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{613,1929},{202,115}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0028.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1912,1196},{202,117}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0029.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1912,1196},{202,117}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0030.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1912,1196},{202,117}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0031.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1912,1196},{202,117}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0032.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1169,1117},{202,117}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0033.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1169,1117},{202,117}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0034.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1169,1117},{202,117}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0035.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1169,1117},{202,117}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0036.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1163,1321},{202,117}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0037.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1163,1321},{202,117}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0038.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1163,1321},{202,117}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0039.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1163,1321},{202,117}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0040.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,0}",
+      "spriteSize": "{204,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1211,705},{204,117}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0041.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,0}",
+      "spriteSize": "{204,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1211,705},{204,117}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0042.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,0}",
+      "spriteSize": "{204,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1211,705},{204,117}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0043.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,0}",
+      "spriteSize": "{204,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1211,705},{204,117}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0044.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,0}",
+      "spriteSize": "{204,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1211,911},{204,117}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0045.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,0}",
+      "spriteSize": "{204,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1211,911},{204,117}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0046.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,0}",
+      "spriteSize": "{204,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1211,911},{204,117}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0047.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,0}",
+      "spriteSize": "{204,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1211,911},{204,117}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0048.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,0}",
+      "spriteSize": "{202,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{286,1545},{202,117}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0049.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,0}",
+      "spriteSize": "{202,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{286,1545},{202,117}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0050.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,0}",
+      "spriteSize": "{202,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{286,1545},{202,117}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0051.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,0}",
+      "spriteSize": "{202,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{286,1545},{202,117}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0052.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,0}",
+      "spriteSize": "{204,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1912,784},{204,117}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0053.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,0}",
+      "spriteSize": "{204,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1912,784},{204,117}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0054.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,0}",
+      "spriteSize": "{204,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1912,784},{204,117}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0055.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,0}",
+      "spriteSize": "{204,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1912,784},{204,117}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0056.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,0}",
+      "spriteSize": "{204,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1912,990},{204,117}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0057.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,0}",
+      "spriteSize": "{204,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1912,990},{204,117}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0058.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,0}",
+      "spriteSize": "{204,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1912,990},{204,117}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0059.png": {
+      "aliases": [],
+      "spriteOffset": "{-3,0}",
+      "spriteSize": "{204,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1912,990},{204,117}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0060.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1,1585},{202,117}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0061.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1,1585},{202,117}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0062.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1,1585},{202,117}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0063.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1,1585},{202,117}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0064.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1,1725},{202,117}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0065.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1,1725},{202,117}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0066.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1,1725},{202,117}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0067.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1,1725},{202,117}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0068.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1,1929},{202,117}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0069.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1,1929},{202,117}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0070.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1,1929},{202,117}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0071.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1,1929},{202,117}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0072.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{120,1725},{202,117}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0073.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{120,1725},{202,117}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0074.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{120,1725},{202,117}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0075.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,117}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{120,1725},{202,117}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0076.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{707,1725},{202,115}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0077.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{707,1725},{202,115}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0078.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{707,1725},{202,115}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0079.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{707,1725},{202,115}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0080.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{817,1929},{202,115}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0081.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{817,1929},{202,115}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0082.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{817,1929},{202,115}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0083.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{817,1929},{202,115}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0084.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{824,1725},{202,115}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0085.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{824,1725},{202,115}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0086.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{824,1725},{202,115}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0087.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{824,1725},{202,115}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0088.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{941,1669},{202,115}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0089.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{941,1669},{202,115}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0090.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{941,1669},{202,115}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0091.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{941,1669},{202,115}}",
+      "textureRotated": true
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0092.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1021,1873},{202,115}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0093.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1021,1873},{202,115}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0094.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1021,1873},{202,115}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0095.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{1021,1873},{202,115}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0096.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{205,1929},{202,115}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0097.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{205,1929},{202,115}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0098.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{205,1929},{202,115}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/TitleAniim/TitleAniim_0099.png": {
+      "aliases": [],
+      "spriteOffset": "{-2,0}",
+      "spriteSize": "{202,115}",
+      "spriteSourceSize": "{220,125}",
+      "textureRect": "{{205,1929},{202,115}}",
+      "textureRotated": false
+    },
+    "VikingsUnlockScreen_00/TitleBg.png": {
+      "aliases": [],
+      "spriteOffset": "{-1,123}",
+      "spriteSize": "{360,212}",
+      "spriteSourceSize": "{406,460}",
+      "textureRect": "{{1017,491},{360,212}}",
+      "textureRotated": false
+    }
+  },
+  "metadata": {
+    "format": 3,
+    "pixelFormat": "RGBA8888",
+    "premultiplyAlpha": false,
+    "realTextureFileName": "VikingsUnlockScreen_00-hd.png",
+    "size": "{2048,2048}",
+    "smartupdate": "$TexturePacker:SmartUpdate:5a3d8fd192d418c0c9296cdb1d3cf230:cdad471764d46dd4e4fd51477f3432ff:ab7972ed1a0f51d3692a76f9a55adc67$",
+    "textureFileName": "VikingsUnlockScreen_00-hd.png",
+    "animations": [
+      "CloseBtn",
+      "LogoAnim",
+      "TakeMeBtn",
+      "TitleAniim"
+    ]
+  }
+}
