@@ -161,23 +161,27 @@ onMounted(async () => {
         </div>
       </div>
       <div class="m-my-referral-report-btn" @click="goReportTab"></div>
-      <v-row class="m-referral-reward-card mx-4" style="margin-top: -18px">
-        <v-col cols="6">
+      <div class="m-referral-reward-card mx-4 flex" style="margin-top: -18px">
+        <div class="w-6/12">
           <div class="text-400-12 text-white">{{ t("agent.text_7") }}</div>
-        </v-col>
-        <v-col cols="6" class="text-right">
-          <v-btn width="112" height="32" :loading="loading" @click="inviteAward">
+        </div>
+        <div class="w-6/12 text-right">
+          <button
+            class="w-[112px] h-[32px]"
+            :disabled="loading"
+            @click="inviteAward"
+          >
             {{ t("agent.text_8") }}
-          </v-btn>
-        </v-col>
-      </v-row>
+          </button>
+        </div>
+      </div>
       <div class="m-referral-reward-card-1 mx-7 text-700-18 text-white">
         R$ {{ inviteItem.available_bonus }}
       </div>
     </div>
-    <v-card class="mx-2 m-agent-referral-partner-card">
+    <div class="mx-2 m-agent-referral-partner-card">
       <div class="text-700-14 text-white text-center mt-3">{{ t("agent.text_9") }}</div>
-      <div class="ma-4 d-flex">
+      <div class="ma-4 flex">
         <div class="m-agent-referral-qr-code">
           <div class="m-agent-referral-qrcode">
             <QrcodeVue
@@ -193,21 +197,18 @@ onMounted(async () => {
             {{ t("agent.text_10") }}
           </div>
         </div>
-        <v-card class="m-agent-referral-invitation-code ml-2">
+        <div class="m-agent-referral-invitation-code ml-2">
           <div class="ma-2 text-gray text-400-10">{{ t("agent.text_11") }}</div>
           <div class="ma-2 text-400-12 text-white">{{ inviteItem.invite_code }}</div>
-          <v-btn
-            icon=""
+          <button
             @click="inviteUrlCopy(inviteItem.invite_code)"
-            class="m-invite-url-copy-btn"
-            width="24"
-            height="24"
+            class="m-invite-url-copy-btn w-[24px] h-[24px]"
           >
             <img src="@/assets/public/svg/icon_public_71.svg" width="16" />
-          </v-btn>
-        </v-card>
+          </button>
+        </div>
       </div>
-      <div class="mt-4 mx-4 d-flex justify-between">
+      <div class="mt-4 mx-4 flex justify-between">
         <div class="text-center" @click="sendFacebookAppInvite">
           <img src="@/assets/agent/svg/img_agent_9.svg" />
           <div class="text-700-10 text-white">{{ t("agent.text_12") }}</div>
@@ -229,7 +230,7 @@ onMounted(async () => {
           <div class="text-700-10 text-white">{{ t("agent.text_16") }}</div>
         </div>
       </div>
-    </v-card>
+    </div>
     <MStatistics :inviteItem="inviteItem" />
     <MInviteFooter />
   </div>

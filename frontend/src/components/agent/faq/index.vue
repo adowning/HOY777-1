@@ -8,9 +8,9 @@ const { t } = useI18n();
 </script>
 
 <template>
-  <v-card class="mx-2 m-agent-faq-card">
+  <div class="mx-2 m-agent-faq-card">
     <div class="mt-4 text-center text-700-14 text-gray">{{ t("agent.text_20") }}</div>
-    <v-card class="m-agent-faq-card-1 mt-4 mx-2">
+    <div class="m-agent-faq-card-1 mt-4 mx-2">
       <div class="mx-2">
         <img src="@/assets/agent/image/img_agent_13.png" style="width: 100%" />
       </div>
@@ -18,10 +18,10 @@ const { t } = useI18n();
         <div class="text-400-10 text-gray">{{ t("agent.text_21") }}</div>
         <div class="text-400-10 text-gray">{{ t("agent.text_22") }}</div>
       </div>
-    </v-card>
-    <v-card class="m-agent-faq-card-2 mx-2 mt-2">
-      <v-row class="align-center">
-        <v-col :cols="4" class="text-center">
+    </div>
+    <div class="m-agent-faq-card-2 mx-2 mt-2">
+      <div class="flex items-center">
+        <div class="w-4/12 text-center">
           <div class="relative">
             <img src="@/assets/public/image/ua_public_06.png" width="60" />
             <div class="m-agent-ua-user">
@@ -32,8 +32,8 @@ const { t } = useI18n();
           </div>
           <div class="text-400-12 text-gray">{{ t("agent.text_17") }}</div>
           <div class="text-700-16 text-white">2555</div>
-        </v-col>
-        <v-col :cols="8" class="my-4">
+        </div>
+        <div class="w-8/12 my-4">
           <div class="text-400-12 text-gray">
             {{ t("agent.text_18") }}B1{{ t("agent.text_19") }}
             <span class="text-700-12 text-white">360</span>
@@ -66,11 +66,11 @@ const { t } = useI18n();
             {{ t("agent.text_18") }}D4{{ t("agent.text_19") }}
             <span class="text-700-12 text-white">1500</span>
           </div>
-        </v-col>
-      </v-row>
-    </v-card>
+        </div>
+      </div>
+    </div>
     <Center />
-  </v-card>
+  </div>
   <Footer />
 </template>
 
