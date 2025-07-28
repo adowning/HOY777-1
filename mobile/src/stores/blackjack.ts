@@ -4,6 +4,53 @@ import { useSocketStore } from './socket';
 import { useAuthStore } from './auth.store';
 import { useNotificationStore } from './notifications';
 
+export interface Card {
+    rank: CardRank;
+    suit: CardSuit;
+}
+
+export interface Bet {
+    amount: {
+        main: number;
+        sideLeft: number;
+        sideRight: number;
+    };
+    actions: string[];
+    cards: Card[];
+    cardsLeft: Card[];
+    cardsRight: Card[];
+}
+
+export interface Player {
+    seat: number;
+    user: {
+        _id: string;
+        username: string;
+        avatar: string;
+    };
+    bet: Bet | null;
+}
+
+export interface Game {
+    _id: string;
+    type: 'standard' | 'whale';
+    state: 'created' | 'countdown' | 'running' | 'completed';
+    updatedAt: string;
+    dealerCards: Card[];
+}
+
+export interface BlackjackTable {
+    table: number; // The table index/ID
+    game: Game;
+    players: Player[];
+    playersPos: number | 'all' | null; // The seat index of the current player
+}
+
+export interface RecentBet {
+    seat: number;
+    amount: number;
+}
+
 export const useBlackjackStore = defineStore('blackjack', () => {
     const recent = ref<any[] | null>(null);
     const tables = ref<any[]>([]);
@@ -12,31 +59,31 @@ export const useBlackjackStore = defineStore('blackjack', () => {
     const authStore = useAuthStore();
     const notificationsStore = useNotificationStore();
 
-    function setRecent(bets: any[]) {
+    function setRecent(bets: Bet[]) {
         recent.value = bets;
     }
 
-    function setTables(newTables: any[]) {
+    function setTables(newTables: BlackjackTable[]) {
         tables.value = newTables;
     }
 
-    function updateTable(table: any) {
+    function updateTable(table: BlackjackTable) {
         const index = tables.value.findIndex((t) => t.table === table.table);
         if (index !== -1) {
             tables.value.splice(index, 1, table);
         }
     }
 
-    function socketInit(data: { tables: any[] }) {
+    function socketInit(data: { tables: BlackjackTable[] }) {
         setTables(data.tables);
     }
 
-    function socketTable(data: { table: any }) {
+    function socketTable(data: { table: BlackjackTable }) {
         if (data.table.game.state === 'completed' && authStore.currentUser) {
             setRecent(
                 data.table.players
-                    .filter((player: any) => player.user.id === authStore.currentUser!.id)
-                    .map((player: any) => ({ seat: player.bet.seat, amount: player.bet.amount }))
+                    .filter((player: Player) => player.user.id === authStore.currentUser!.id)
+                    .map((player: Player) => ({ seat: player.bet.seat, amount: player.bet.amount }))
             );
         }
         updateTable(data.table);

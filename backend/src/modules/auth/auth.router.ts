@@ -1,11 +1,11 @@
-import { createRoute, z } from '@hono/zod-openapi'
-import * as controller from './auth.controller'
-import * as HttpStatusCodes from 'stoker/http-status-codes'
-import { jsonContent, jsonContentRequired } from 'stoker/openapi/helpers'
+import { sessionResponseSchema, } from '#/db'
 import { createRouter } from '#/lib/create-app'
-import { sessionResponseSchema,  } from '#/db'
 import { authMiddleware } from '#/middlewares/auth.middleware'
 import { sessionMiddleware } from '#/middlewares/session.middleware'
+import { createRoute, z } from '@hono/zod-openapi'
+import * as HttpStatusCodes from 'stoker/http-status-codes'
+import { jsonContent, jsonContentRequired } from 'stoker/openapi/helpers'
+import * as controller from './auth.controller'
 
 const tags = ['Auth']
 
@@ -26,7 +26,8 @@ const loginRoute = createRoute({
   responses: {
     [HttpStatusCodes.OK]: jsonContent(
       z.object({
-        token: z.string(),
+        accessToken: z.string(),
+        user: z.any()
       }),
       'The login token'
     ),

@@ -45,7 +45,7 @@ export const userRewards = pgTable(
     levelUpBonuses: integer('level_up_bonuses').notNull().default(0),
   },
   (table) => ({
-    pk: primaryKey({ columns: [table.userId] }),
+    // pk: primaryKey({ columns: [table.userId] }),
   })
 )
 
@@ -67,7 +67,7 @@ export const inviteStats = pgTable(
     availableBonus: text('available_bonus').default('0'),
   },
   (table) => ({
-    pk: primaryKey({ columns: [table.userId] }),
+    // pk: primaryKey({ columns: [table.userId] }),
   })
 )
 

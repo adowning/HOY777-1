@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scraper Monitoring</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <div class="container mx-auto p-4">
+        <h1 class="text-2xl font-bold mb-4">Scraper Status</h1>
+        <div id="log-container" class="bg-white p-4 rounded shadow">
+            <pre id="log-content" class="whitespace-pre-wrap"></pre>
+        </div>
+    </div>
+    <script>
+        async function fetchLog() {
+            try {
+                const response = await fetch('/api-scraper.log.json');
+                const text = await response.text();
+                // The log file is a series of JSON objects, not a valid JSON array.
+                // We'll wrap it in brackets to make it a valid JSON array.
+                const validJson = '[' + text.trim().slice(0, -1) + ']';
+                const logs = JSON.parse(validJson);
+                const logContent = document.getElementById('log-content');
+                logContent.textContent = JSON.stringify(logs, null, 2);
+            } catch (error) {
+                console.error('Error fetching log:', error);
+                const logContent = document.getElementById('log-content');
+                logContent.textContent = 'Error loading log file.';
+            }
+        }
+        fetchLog();
+        setInterval(fetchLog, 5000); // Refresh every 5 seconds
+    </script>
+</body>
+</html>

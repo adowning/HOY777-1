@@ -9,7 +9,6 @@ import { authStore } from "@/store/auth";
 import { mailStore } from "@/store/mail";
 import { vipStore } from "@/store/vip";
 import { storeToRefs } from "pinia";
-import { useDisplay } from 'vuetify';
 import { useRouter } from "vue-router";
 import Notification from "@/components/global/notification/index.vue";
 import { ElNotification } from 'element-plus'
@@ -51,7 +50,24 @@ const { dispatchVipLevelAward } = vipStore();
 const { setRewardNavShow } = menuStore();
 
 // mobile version name
-const { name, width } = useDisplay()
+const mobileWidth = ref(window.innerWidth);
+const name = computed(() => {
+  if (mobileWidth.value < 600) {
+    return 'sm';
+  } else if (mobileWidth.value < 960) {
+    return 'md';
+  } else if (mobileWidth.value < 1264) {
+    return 'lg';
+  } else {
+    return 'xl';
+  }
+});
+const width = computed(() => mobileWidth.value);
+
+window.addEventListener('resize', () => {
+  mobileWidth.value = window.innerWidth;
+});
+
 const { t } = useI18n();
 const router = useRouter();
 
@@ -397,28 +413,24 @@ onMounted(async () => {
 </script>
 
 <template>
-  <v-navigation-drawer
-    temporary
+  <div
     class="user-nav-background pt-14"
-    location="right"
-    width="269"
     style="padding-bottom: 58px !important"
-    v-model="drawer"
-    :touchless="true"
-    :on-scroll="handleScroll"
+    v-if="drawer"
+    @scroll="handleScroll"
   >
     <template v-slot:prepend>
       <div :class="refferalAppBarShow ? 'user-navbar-position' : ''"></div>
     </template>
-    <div ref="navScroll" class="v-navigation-drawer__content" @scroll="handleScroll">
-      <v-list class="mobile-nav" density="compact" nav>
-        <v-list-item class="m-user-item">
+    <div ref="navScroll" class="navigation-drawer__content" @scroll="handleScroll">
+      <div class="mobile-nav" density="compact" nav>
+        <div class="m-user-item">
           <template v-slot:prepend>
             <img src="@/assets/public/svg/icon_public_58.svg" width="18" />
           </template>
-          <v-list-item-title class="ml-2 text-600-10">
+          <div class="ml-2 text-600-10">
             {{ t("appBar.id") }}: {{ userInfo.id }}
-          </v-list-item-title>
+          </div>
           <template v-slot:append>
             <div
               style="width: 22px; height: 22px; border-radius: 4px; background: #23262f"
@@ -437,8 +449,8 @@ onMounted(async () => {
               />
             </div>
           </template>
-        </v-list-item>
-        <v-list-item class="m-user-item" @click="goVIPPage">
+        </div>
+        <div class="m-user-item" @click="goVIPPage">
           <template v-slot:prepend>
             <div>
               <div style="height: 30px; justify-content: center; display: flex">
@@ -539,7 +551,7 @@ onMounted(async () => {
               <div class="text-400-8 white text-center">Level {{ vipInfo.level }}</div>
             </div>
           </template>
-          <v-list-item-title class="ml-2">
+          <div class="ml-2">
             <div class="deposit-progress-bg mb-1">
               <div class="d-flex mx-1">
                 <div class="white text-500-8">{{ t("appBar.deposit") }}</div>
@@ -549,12 +561,12 @@ onMounted(async () => {
                 </div>
               </div>
               <div style="margin-top: 2px">
-                <v-progress-linear
+                <div
                   v-model="depositRateVal"
                   height="8"
                   class="deposit-progress"
                 >
-                </v-progress-linear>
+                </div>
               </div>
             </div>
             <div class="deposit-progress-bg">
@@ -566,65 +578,47 @@ onMounted(async () => {
                 </div>
               </div>
               <div style="margin-top: 2px">
-                <v-progress-linear v-model="betRateVal" height="8" class="wager-progress">
-                </v-progress-linear>
+                <div v-model="betRateVal" height="8" class="wager-progress">
+                </div>
               </div>
             </div>
-          </v-list-item-title>
-          <!-- <template v-slot:prepend>
-                    <img src="@/assets/app_bar/images/img_vip_02.png" style="margin-left: -6px;" />
-                </template>
-                <v-list-item-title class="ml-2">
-                    <div class="grade-color d-flex">
-                        <div>{{ user.grade_level }}</div>
-                        <div class="grade-text-position">{{ user.grade }}</div>
-                    </div>
-                    <div>
-                        <v-progress-linear v-model="depositRate" height="18" class="deposit-progress">
-                        </v-progress-linear>
-                    </div>
-                </v-list-item-title>
-                <template v-slot:append>
-                    <img src="@/assets/public/image/img_public_05.svg" v-ripple.center class="ml-6" />
-                    <img src="@/assets/public/image/img_public_05.svg" v-ripple.center class="ml-1" />
-                    <img src="@/assets/public/image/img_public_05.svg" v-ripple.center class="ml-1" />
-                </template> -->
-        </v-list-item>
-        <v-list-item class="m-user-item" value="account" @click="goAccountPage">
+          </div>
+        </div>
+        <div class="m-user-item" value="account" @click="goAccountPage">
           <template v-slot:prepend>
             <img src="@/assets/public/svg/icon_public_59.svg" width="18" />
           </template>
-          <v-list-item-title class="ml-2">{{ t("appBar.account") }}</v-list-item-title>
-        </v-list-item>
-        <v-list-item class="m-user-item" value="deposit" @click="depositDialogShow">
+          <div class="ml-2">{{ t("appBar.account") }}</div>
+        </div>
+        <div class="m-user-item" value="deposit" @click="depositDialogShow">
           <template v-slot:prepend>
             <img src="@/assets/public/svg/icon_public_60.svg" width="18" />
           </template>
-          <v-list-item-title class="ml-2">{{ t("appBar.deposit") }}</v-list-item-title>
-        </v-list-item>
-        <v-list-item class="m-user-item" value="bonuses" @click="goBonusPage">
+          <div class="ml-2">{{ t("appBar.deposit") }}</div>
+        </div>
+        <div class="m-user-item" value="bonuses" @click="goBonusPage">
           <template v-slot:prepend>
             <img src="@/assets/public/svg/icon_public_61.svg" width="18" />
           </template>
-          <v-list-item-title class="ml-2">{{ t("appBar.bonuses") }}</v-list-item-title>
-        </v-list-item>
-        <v-list-item class="m-user-item" value="game_history" @click="goGameHistoryPage">
+          <div class="ml-2">{{ t("appBar.bonuses") }}</div>
+        </div>
+        <div class="m-user-item" value="game_history" @click="goGameHistoryPage">
           <template v-slot:prepend>
             <img src="@/assets/public/svg/icon_public_62.svg" width="18" />
           </template>
-          <v-list-item-title class="ml-2">{{
+          <div class="ml-2">{{
             t("appBar.game_history")
-          }}</v-list-item-title>
-        </v-list-item>
-        <v-list-item class="m-user-item" value="transactions" @click="goTransactionPage">
+          }}</div>
+        </div>
+        <div class="m-user-item" value="transactions" @click="goTransactionPage">
           <template v-slot:prepend>
             <img src="@/assets/public/svg/icon_public_63.svg" width="18" />
           </template>
-          <v-list-item-title class="ml-2">{{
+          <div class="ml-2">{{
             t("appBar.transactions")
-          }}</v-list-item-title>
-        </v-list-item>
-        <v-list-item
+          }}</div>
+        </div>
+        <div
           class="m-user-item refer-friend-background"
           height="36"
           value="refer_friend"
@@ -633,9 +627,9 @@ onMounted(async () => {
           <template v-slot:prepend>
             <img src="@/assets/public/svg/icon_public_64.svg" width="18" />
           </template>
-          <v-list-item-title class="ml-2">
+          <div class="ml-2">
             {{ t("appBar.refer_friend") }}
-          </v-list-item-title>
+          </div>
           <template v-slot:append>
             <img
               src="@/assets/public/image/img_public_09.png"
@@ -645,18 +639,18 @@ onMounted(async () => {
             />
             <p class="m-refer-friend-text-position">{{ t("appBar.earn_money") }}</p>
           </template>
-        </v-list-item>
-        <v-list-item class="m-user-item" value="withdraw" @click="withdrawDialogShow">
+        </div>
+        <div class="m-user-item" value="withdraw" @click="withdrawDialogShow">
           <template v-slot:prepend>
             <img src="@/assets/public/svg/icon_public_65.svg" width="18" />
           </template>
-          <v-list-item-title class="ml-2">{{ t("appBar.withdraw") }}</v-list-item-title>
-        </v-list-item>
-        <v-list-item class="m-user-item app-background" value="app" height="36">
+          <div class="ml-2">{{ t("appBar.withdraw") }}</div>
+        </div>
+        <div class="m-user-item app-background" value="app" height="36">
           <template v-slot:prepend>
             <img src="@/assets/public/svg/icon_public_66.svg" width="18" />
           </template>
-          <v-list-item-title class="ml-2">{{ t("appBar.app") }}</v-list-item-title>
+          <div class="ml-2">{{ t("appBar.app") }}</div>
           <template v-slot:append>
             <img
               src="@/assets/public/image/img_public_04.png"
@@ -666,33 +660,33 @@ onMounted(async () => {
             />
             <p class="m-app-text-position">{{ t("appBar.install") }}</p>
           </template>
-        </v-list-item>
-        <v-list-item class="m-user-item" value="fairness">
+        </div>
+        <div class="m-user-item" value="fairness">
           <template v-slot:prepend>
             <img src="@/assets/public/svg/icon_public_72.svg" width="18" />
           </template>
-          <v-list-item-title class="ml-2">{{ t("appBar.fairness") }}</v-list-item-title>
-        </v-list-item>
-        <v-list-item class="m-user-item" value="rewards" @click="goReward">
+          <div class="ml-2">{{ t("appBar.fairness") }}</div>
+        </div>
+        <div class="m-user-item" value="rewards" @click="goReward">
           <template v-slot:prepend>
             <img src="@/assets/public/svg/icon_public_67.svg" width="18" />
           </template>
-          <v-list-item-title class="ml-2">{{ t("appBar.rewards") }}</v-list-item-title>
-        </v-list-item>
-        <v-list-item class="m-user-item" value="preferences">
+          <div class="ml-2">{{ t("appBar.rewards") }}</div>
+        </div>
+        <div class="m-user-item" value="preferences">
           <template v-slot:prepend>
             <img src="@/assets/public/svg/icon_public_68.svg" width="18" />
           </template>
-          <v-list-item-title class="ml-2">{{
+          <div class="ml-2">{{
             t("appBar.preferences")
-          }}</v-list-item-title>
-        </v-list-item>
-        <v-list-item class="m-user-item" value="statistics">
+          }}</div>
+        </div>
+        <div class="m-user-item" value="statistics">
           <template v-slot:prepend>
             <img src="@/assets/public/svg/icon_public_69.svg" width="18" />
           </template>
-          <v-list-item-title class="ml-2">{{ t("appBar.statistics") }}</v-list-item-title>
-        </v-list-item>
+          <div class="ml-2">{{ t("appBar.statistics") }}</div>
+        </div>
         <div
           class="d-flex justify-center align-center m-sign-out-btn text-400-12 white"
           v-ripple.center
@@ -701,9 +695,9 @@ onMounted(async () => {
           <img src="@/assets/public/svg/icon_public_70.svg" class="mr-4" width="20" />
           {{ t("appBar.sign_out") }}
         </div>
-      </v-list>
+      </div>
     </div>
-  </v-navigation-drawer>
+  </div>
   <Notification
     :notificationShow="notificationShow"
     :notificationText="notificationText"
@@ -730,12 +724,6 @@ onMounted(async () => {
   top: 0px !important;
   height: 100% !important;
   will-change: auto !important;
-}
-
-@media (max-width: 600px) {
-  .v-list-item--density-compact.v-list-item--one-line {
-    min-height: 36px;
-  }
 }
 
 .m-sign-out-btn {
@@ -780,7 +768,7 @@ onMounted(async () => {
   }
 }
 
-.v-navigation-drawer__content {
+.navigation-drawer__content {
   height: 100vh;
   overflow-y: auto;
   overflow-x: hidden !important;
@@ -803,12 +791,6 @@ onMounted(async () => {
 .m-user-item {
   padding: 10px 10px !important;
   border-radius: 8px !important;
-
-  .v-list-item-title {
-    font-weight: 600;
-    font-size: 12px !important;
-    color: #7782aa;
-  }
 }
 
 .m-refer-friend-text-position {
@@ -836,29 +818,15 @@ onMounted(async () => {
 }
 
 .deposit-progress-bg {
-  .v-progress-linear {
-    background: #15161c !important;
-    box-shadow: inset 2px 0px 4px 1px rgba(0, 0, 0, 0.12) !important;
-    border-radius: 20px !important;
-  }
 }
 
 .mobile-nav {
   overflow-y: auto !important;
-
-  .v-list-item__overlay {
-    opacity: 0 !important;
-  }
 }
 
 .m-user-item1 {
   padding-top: 9px !important;
   padding-bottom: 9px !important;
   border-radius: 8px !important;
-
-  .v-list-item-title {
-    font-weight: 600;
-    font-size: 12px !important;
-  }
 }
 </style>

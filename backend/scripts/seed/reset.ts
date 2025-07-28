@@ -1,8 +1,7 @@
 import { NodePgDatabase } from 'drizzle-orm/node-postgres'
 import * as schema from '../../src/db/schema'
-import { sql } from 'drizzle-orm' // <-- 1. Import `sql`
+import { sql } from 'drizzle-orm'
 
-// IMPORTANT: List tables in order of dependency (children first, then parents)
 const tableNames = [
   'wallets',
   'products',
@@ -31,6 +30,8 @@ const tableNames = [
   'messages',
   'vips',
   'promo_groups',
+  'game_sessions',
+  'auth_sessions',
   'games',
   'game_categories',
   'balances',
@@ -52,11 +53,9 @@ const tableNames = [
 export async function resetDatabase(db: NodePgDatabase<typeof schema>) {
   console.log('🗑️  Resetting database...')
 
-  // Using TRUNCATE with RESTART IDENTITY and CASCADE to handle foreign keys
   const truncateQuery = `TRUNCATE TABLE ${tableNames.map((name) => `"${name}"`).join(', ')} RESTART IDENTITY CASCADE;`
 
   try {
-    // await db.execute(truncateQuery)
     await db.execute(sql.raw(truncateQuery))
     console.log('✅ Database reset successfully.')
   } catch (error) {

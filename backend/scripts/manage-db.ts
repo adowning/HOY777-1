@@ -1,9 +1,9 @@
 // import { config } from 'config'
-import { db } from '#/db/db'
-import { usersTable } from '#/db/schema/users'
-import { dataSeed } from './seeds/data/seed'
-import { organizationsSeed } from './seeds/organizations/seed'
-import { userSeed } from './seeds/user/seed'
+import { db } from '#/db'
+import { usersTable } from '#/db'
+// import { dataSeed } from './seeds/data/seed'
+// import { organizationsSeed } from './seeds/organizations/seed'
+// import { userSeed } from './seed/user/seed'
 
 /**
  * Deletes all tables and resets it with seed data.
@@ -19,9 +19,9 @@ export const resetDb = async () => {
   await deleteTables()
 
   // Reset the database with seeds
-  await userSeed()
-  await organizationsSeed()
-  await dataSeed()
+  // await userSeed()
+  // await organizationsSeed()
+  // await dataSeed()
 
   console.info('Database reset complete.')
 }
@@ -39,8 +39,8 @@ export const clearDb = async () => {
 }
 
 const deleteTables = async () => {
-  await db.delete(organizationsTable)
-  await db.delete(usersTable)
+  // await db.delete(organizationsTable)
+  // await db.delete(usersTable)
 
   console.info('Deleted all organizations and users.')
 }

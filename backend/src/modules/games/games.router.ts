@@ -1,9 +1,11 @@
-import { createRouter } from '#/lib/create-app';
-import * as controller from './games.controller';
-import { createRoute, z } from '@hono/zod-openapi';
-import { authMiddleware } from '#/middlewares/auth.middleware';
 import { selectGameCategoriesSchema, selectGamesSchema } from '#/db/schema/games';
-import { HttpStatusCodes, jsonContent, notFoundSchema } from '#/lib/configure-open-api';
+import { notFoundSchema } from '#/lib/constants';
+import { createRouter } from '#/lib/create-app';
+import { authMiddleware } from '#/middlewares/auth.middleware';
+import { createRoute, z } from '@hono/zod-openapi';
+import * as HttpStatusCodes from 'stoker/http-status-codes';
+import { jsonContent, } from 'stoker/openapi/helpers';
+import * as controller from './games.controller';
 
 const tags = ['Games']
 
@@ -160,7 +162,8 @@ const enterGame = createRoute({
           cdn: z.string(),
           baseCdn: z.string(),
         })
-      })
+      }),
+      "GameSession"
     ),
     [HttpStatusCodes.NOT_FOUND]: jsonContent(
       notFoundSchema,

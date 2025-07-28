@@ -1122,3 +1122,46 @@ export const atlantis_spin = {
         "bonusChance": null
     }
 }
+
+export const atlantis_settings_request = {
+  "token": null,
+  "sessionId": "0",
+  "playMode": "demo",
+  "gameId": "Atlantis",
+  "userData": {
+    "userId": "demo-user",
+    "hash": "",
+    "affiliate": "",
+    "lang": "en",
+    "channel": "I",
+    "userType": "U",
+    "fingerprint": "18d24995-0f1d-49f7-a7e6-c5346f013207"
+  },
+  "custom": {
+    "siteId": "",
+    "extras": ""
+  }
+}
+
+export const atlantis_spin_request = {
+  "token": "9d272c7d01ffed9780188d50c901411151fa67b7ca266ea13c2228e589065063cc50f5ab5cde57835d8fd89ac0663b5642cae5d6e15f8089a86df001c6f7db4a",
+  "sessionId": "0",
+  "playMode": "demo",
+  "gameId": "Atlantis",
+  "userData": {
+    "userId": 8596331,
+    "affiliate": "",
+    "lang": "en",
+    "channel": "I",
+    "userType": "U",
+    "fingerprint": "18d24995-0f1d-49f7-a7e6-c5346f013207"
+  },
+  "custom": {
+    "siteId": "",
+    "extras": ""
+  },
+  "stake": 2,
+  "bonusId": null,
+  "extras": null,
+  "gameMode": 0
+}

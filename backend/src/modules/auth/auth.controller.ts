@@ -1,6 +1,6 @@
-import { Context } from 'hono'
-import * as service from './auth.service'
+import type { Context } from 'hono'
 import { setCookie } from 'hono/cookie'
+import * as service from './auth.service'
 
 export const login = async (c: Context) => {
   const { username, password, uid } = await c.req.json()
@@ -28,19 +28,19 @@ export const signup = async (c: Context) => {
 
 export const session = async (c: Context) => {
   const user = c.get('user')
-  const session = c.get('session')
+  const authSession = c.get('authSession')
+  const gameSession = c.get('gameSession')
   const wallet = c.get('wallet')
   const vipInfo = c.get('vipInfo')
   const operator = c.get('operator')
   
-  // For now, just return the basic user and session data
-  // We'll add wallet and VIP info back once login is working
   return c.json({
     user: {
       ...user,
       passwordHash: undefined,
     },
-    session,
+    authSession,
+    gameSession,
     wallet,
     vipInfo,
     operator
@@ -48,22 +48,18 @@ export const session = async (c: Context) => {
 }
 
 export const logout = async (c: Context) => {
-  // Clear the access token cookie
+  const authSession = c.get('authSession');
+  if (authSession) {
+    await service.logout(authSession.id);
+  }
+
   setCookie(c, 'access_token', '', {
     path: '/',
     httpOnly: true,
     secure: process.env.NODE_ENV === 'production',
     sameSite: 'Lax',
-    expires: new Date(0), // Set to past date to expire the cookie
+    expires: new Date(0),
   })
-
-  // If you have a session in the database, you would invalidate it here
-  // For example:
-  // if (c.get('session')?.id) {
-  //   await db.update(sessions)
-  //     .set({ status: 'INACTIVE', endedAt: new Date() })
-  //     .where(eq(sessions.id, c.get('session').id))
-  // }
 
   return c.json({ message: 'Successfully logged out' }, 200)
 }

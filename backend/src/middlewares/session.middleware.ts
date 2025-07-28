@@ -1,54 +1,44 @@
 import { Context, Next } from 'hono'
-import { db } from '#/db'
-import { sessions } from '#/db/schema/session'
-import { and, eq, gte } from 'drizzle-orm'
+import { getGameSessionFromCache, saveGameSessionToCache } from '#/lib/cache'
+import { endAndPersistGameSession } from '../modules/session/session.service'
 
-const SESSION_DURATION = 5 * 60 * 1000 // 5 minutes
+const IDLE_TIMEOUT = 10 * 60 * 1000 // 10 minutes
 
 export const sessionMiddleware = async (c: Context, next: Next) => {
-  const user = c.get('user')
+  const authSession = c.get('authSession')
 
-  if (!user) {
-    // This should not happen if authMiddleware is run before this
+  if (!authSession) {
     return c.json({ error: 'User not authenticated' }, 401)
   }
 
-  const now = new Date()
-  const fiveMinutesAgo = new Date(now.getTime() - SESSION_DURATION)
+  const gameSession = getGameSessionFromCache(authSession.id);
 
-  const [existingSession] = await db
-    .select()
-    .from(sessions)
-    .where(
-      and(eq(sessions.userId, user.id), gte(sessions.lastSeen, fiveMinutesAgo))
-    )
-    .limit(1)
+  if (gameSession) {
+    // Due to cache corruption, the gameSession.id may not be a string.
+    // We fall back to the authSession.id which is reliable.
+    if (typeof gameSession.id !== 'string') {
+      gameSession.id = authSession.id;
+    }
 
-  let session
+    const now = new Date();
+    // `lastSeen` is a cache-only property not in the DB schema for GameSession.
+    // It's manually added to the session object stored in the cache.
+    const lastSeenValue = (gameSession as any).lastSeen;
+    const lastSeen = lastSeenValue ? new Date(lastSeenValue) : now;
+    const timeDiff = now.getTime() - lastSeen.getTime();
 
-  if (existingSession) {
-    // Update last seen time
-    const [updatedSession] = await db
-      .update(sessions)
-      .set({ lastSeen: now })
-      .where(eq(sessions.id, existingSession.id))
-      .returning()
-    session = updatedSession
-  } else {
-    // Create a new session
-    const [newSession] = await db
-      .insert(sessions)
-      .values({
-        userId: user.id,
-        status: 'ACTIVE',
-        ipAddress: c.req.header('x-forwarded-for') || c.req.header('remote-addr'),
-        userAgent: c.req.header('user-agent'),
-        lastSeen: now,
-      })
-      .returning()
-    session = newSession
+    if (timeDiff > IDLE_TIMEOUT) {
+      // Session has expired, end it and remove from cache.
+      // Ensure gameSession.id is a string before passing to endAndPersistGameSession
+      const sessionId = typeof gameSession.id === 'string' ? gameSession.id : authSession.id;
+      await endAndPersistGameSession(sessionId);
+      c.set('gameSession', null);
+    } else {
+      // Session is active, update the lastSeen timestamp and save back to cache.
+      (gameSession as any).lastSeen = now;
+      await saveGameSessionToCache(gameSession, c);
+    }
   }
 
-  c.set('session', session)
   await next()
 }

@@ -1,19 +1,14 @@
 <script lang="ts" setup>
-import { ref, computed, toRefs } from "vue";
-import router from "@/router";
-import { useI18n } from "vue-i18n";
-import { useDisplay } from "vuetify";
-import { authStore } from "@/store/auth";
-import { storeToRefs } from "pinia";
 import Notification from "@/components/global/notification/index.vue";
-import { ElNotification } from "element-plus";
-import { useToast } from "vue-toastification";
 import SuccessIcon from "@/components/global/notification/SuccessIcon.vue";
 import WarningIcon from "@/components/global/notification/WarningIcon.vue";
-const { t } = useI18n();
-const { width } = useDisplay();
-const emit = defineEmits<{ (e: "suspendDialogHide"): void }>();
-const props = defineProps<{ suspendDate: number }>();
+import router from "@/router";
+import { authStore } from "@/store/auth";
+import { ElNotification } from "element-plus";
+import { storeToRefs } from "pinia";
+import { computed, ref, toRefs } from "vue";
+import { useI18n } from "vue-i18n";
+import { useToast, useToast } from "vue-toastification";
 const { suspendDate } = toRefs(props);
 const { dispatchSuspendUser } = authStore();
 const { dispatchSignout } = authStore();
@@ -73,88 +68,51 @@ const submitSuspend = async () => {
 </script>
 
 <template>
-  <div class="suspend-dialog-container">
-    <v-row class="mx-10 mt-6 text-700-16 text-gray">
+  <div class="bg-gray-900 rounded-xl p-6 w-full max-w-md">
+    <div class="text-gray-400 font-semibold text-base mb-6">
       {{ t("account.suspend_account.dialog.title_text") }}
-    </v-row>
-    <v-row class="mx-10 mt-10 text-700-16 text-gray">
+    </div>
+    <div class="text-gray-400 font-semibold text-base mb-6">
       <p>
         {{ t("account.suspend_account.dialog.content_text_1") }}
-        <font color="#FFFFFF">
+        <span class="text-white">
           {{ suspendDate }}
           {{ t("account.suspend_account.dialog.content_text_2") }}
-        </font>
+        </span>
       </p>
-    </v-row>
-    <v-row class="mx-10 mt-10 text-700-14 justify-end">
-      <div class="suspend-confirm-btn">
-        <v-btn
-          class="button-bright text-none"
-          width="-webkit-fill-available"
-          height="40px"
-          @click="submitSuspend"
-          :loading="loading"
-        >
+    </div>
+    <div class="flex justify-end space-x-2 mt-6">
+      <button
+        @click="submitSuspend"
+        :disabled="loading"
+        class="px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white font-semibold rounded-full text-sm transition-colors duration-200 w-full max-w-[120px] h-10 flex items-center justify-center"
+      >
+        <span v-if="!loading">
           {{ t("account.suspend_account.dialog.determine_btn_text") }}
-        </v-btn>
-      </div>
-      <div class="suspend-cancel-btn ml-2">
-        <v-btn
-          class="button-bright text-none"
-          width="-webkit-fill-available"
-          height="40px"
-          @click="emit('suspendDialogHide')"
-        >
-          {{ t("account.suspend_account.dialog.cancel_btn_text") }}
-        </v-btn>
-      </div>
-    </v-row>
-    <!-- <Notification :notificationShow="notificationShow" :notificationText="notificationText" :checkIcon="checkIcon" /> -->
+        </span>
+        <svg v-else class="animate-spin h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+          <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+          <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+        </svg>
+      </button>
+      <button
+        @click="emit('suspendDialogHide')"
+        class="px-4 py-2 bg-gray-800 hover:bg-gray-700 text-white font-semibold rounded-full text-sm shadow-sm transition-colors duration-200 w-full max-w-[120px] h-10"
+      >
+        {{ t("account.suspend_account.dialog.cancel_btn_text") }}
+      </button>
+    </div>
   </div>
 </template>
 
-<style lang="scss">
-// account dialog container
-.suspend-dialog-container {
-  background-color: #15161C;
-  border-radius: 16px !important;
-  height: 220px;
-}
-
-.suspend-confirm-btn {
-  // button
-  button {
-    border-radius: 26px !important;
-
-    .v-btn__content {
-      font-weight: 700;
-      font-size: 14px;
-    }
-  }
-}
-
-.suspend-cancel-btn {
-  // button
-  button {
-    background: #23262F !important;
-    box-shadow: 0px 3px 4px 1px rgba(0, 0, 0, 0.21);
-    border-radius: 26px;
-
-    .v-btn__content {
-      font-weight: 700;
-      font-size: 14px;
-      color: #ffffff;
-    }
-  }
-}
-
+<style scoped>
+/* Keep toast styles since they're needed for vue-toastification */
 .Vue-Toastification__container {
   right: 0 !important;
   left: unset !important;
   width: 290px !important;
   margin-right: 37px;
   height: 60px !important;
-  //flex-direction: unset!important;
 }
 .Vue-Toastification__toast {
   align-items: center !important;

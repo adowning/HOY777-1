@@ -17,7 +17,7 @@ export const env = createEnv({
       .string()
       .optional()
       .transform((v) => v === 'true'),
-    DATABASE_URL: z.url(),
+    DATABASE_URL: z.string(),
     NODE_ENV: z.union([
       z.literal('development'),
       z.literal('production'),
@@ -27,6 +27,8 @@ export const env = createEnv({
     ]),
     PORT: z.string().optional(),
     ACCESS_TOKEN_SECRET: z.string(),
+    LOG_LEVEL: z.string().optional(),
+
   },
   runtimeEnv: process.env,
   emptyStringAsUndefined: true,

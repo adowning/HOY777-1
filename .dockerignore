@@ -1,0 +1,27 @@
+     # Ignore all node_modules directories in the entire project
+     **/node_modules
+     
+     # Ignore the git history
+     .git
+     
+     # Ignore local development files and logs
+     .env
+     *.log
+    *.log.json
+    dev.db
+    error-*.png
+    
+    # Ignore Fly.io and Docker specific files that aren't needed in the context
+    fly.toml
+    Dockerfile
+    
+    # Ignore IDE and OS files
+    .vscode
+    .idea
+    .DS_Store
+    
+    # --- IMPORTANT EXCEPTIONS ---
+    # We MUST include the lockfile for the build to work.
+    # The '!' negates a previous rule.
+    !bun.lockb;
+    !bun.lock;

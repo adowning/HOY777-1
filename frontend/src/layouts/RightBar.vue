@@ -4,13 +4,29 @@ import { useI18n } from "vue-i18n";
 import { type ChatRequestData } from "@/interface/chat";
 import { appBarStore } from "@/store/appBar";
 import { storeToRefs } from "pinia";
-import { useDisplay } from 'vuetify'
 
 const { setRightBarToggle } = appBarStore();
 const { setNavBarToggle } = appBarStore();
 
 // mobile version name
-const { name, width } = useDisplay()
+const mobileWidth = ref(window.innerWidth);
+const name = computed(() => {
+  if (mobileWidth.value < 600) {
+    return 'sm';
+  } else if (mobileWidth.value < 960) {
+    return 'md';
+  } else if (mobileWidth.value < 1264) {
+    return 'lg';
+  } else {
+    return 'xl';
+  }
+});
+const width = computed(() => mobileWidth.value);
+
+window.addEventListener('resize', () => {
+  mobileWidth.value = window.innerWidth;
+});
+
 const { t } = useI18n();
 // sport items
 const sportItems = ref<Array<string>>([
@@ -251,37 +267,37 @@ onMounted(() => {
 
 <template>
   <!-------------        :temporary="mobileWidth < 1280"                   ------------>
-  <v-navigation-drawer class="right-nav-background" location="right" width="340"
-    v-model="drawer" :fullWidth="mobileVersion == 'sm'" :class="[mobileWidth < 600 ? 'pb-14' : '']">
+  <div class="right-nav-background" location="right" width="340"
+    v-if="drawer" :class="[mobileWidth < 600 ? 'pb-14' : '']">
     <template v-slot:prepend>
-      <v-card color="#1D2027" theme="dark" class="right-bar-card-border">
-        <v-row class="ma-2 mt-3 align-center">
-          <v-btn class="right-btn" icon="true" @click.stop="setRightBarToggle(false)">
+      <div color="#1D2027" theme="dark" class="right-bar-card-border">
+        <div class="ma-2 mt-3 align-center">
+          <button class="right-btn" icon="true" @click.stop="setRightBarToggle(false)">
             <v-icon icon="mdi-close" class="card-close-icon" />
-          </v-btn>
+          </button>
           <img src="@/assets/chat/svg/info.svg" class="ml-auto" width="20" />
           <img src="@/assets/chat/svg/img_nav_87.svg" class="ml-2" width="20" />
-          <v-menu offset="20" class="sport-menu">
+          <div offset="20" class="sport-menu">
             <template v-slot:activator="{ props }">
-              <v-card color="#29263C" theme="dark" class="ml-auto">
-                <v-list-item class="sport-item" v-bind="props" :title="selectedItem" append-icon="mdi-chevron-down"
+              <div color="#29263C" theme="dark" class="ml-auto">
+                <div class="sport-item" v-bind="props" :title="selectedItem" append-icon="mdi-chevron-down"
                   value="sport">
-                </v-list-item>
-              </v-card>
+                </div>
+              </div>
             </template>
-            <v-list theme="dark" bg-color="#1D2027">
-              <v-list-item v-for="(item, i) in sportItems" :key="i" :value="item" class="sport-item"
+            <div theme="dark" bg-color="#1D2027">
+              <div v-for="(item, i) in sportItems" :key="i" :value="item" class="sport-item"
                 @click="handleDropdown(item)">
-                <v-list-item-title>{{ item }}</v-list-item-title>
-              </v-list-item>
-            </v-list>
-          </v-menu>
-        </v-row>
-      </v-card>
+                <div>{{ item }}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </template>
-    <v-list density="compact" nav>
+    <div density="compact" nav>
       <template v-for="(messageItem, j) in messages" :key="j">
-        <v-list-item v-if="messageItem.type == 'receiver'">
+        <div v-if="messageItem.type == 'receiver'">
           <div class="chat-item">
             <div class="chat-avatar">
               <img src="@/assets/chat/image/ellipse.png" />
@@ -298,14 +314,14 @@ onMounted(() => {
             </div>
             <div class="chat-content">
               <div class="chat-name mt-3">{{ messageItem.sender }}</div>
-              <v-card color="#23262F" theme="dark" class="pa-2 chat-content-border">
+              <div color="#23262F" theme="dark" class="pa-2 chat-content-border">
                 <span class="receiver-color">@{{ messageItem.receiver }}</span>
                 <span>{{ messageItem.message }}</span>
-              </v-card>
+              </div>
             </div>
           </div>
-        </v-list-item>
-        <v-list-item v-else>
+        </div>
+        <div v-else>
           <div class="chat-item">
             <div class="chat-avatar">
               <img src="@/assets/chat/image/ellipse.png" class="sender-ellipse" />
@@ -322,27 +338,26 @@ onMounted(() => {
             </div>
             <div class="sender-content">
               <div class="sender-name mt-3">{{ messageItem.sender }}</div>
-              <v-card color="#12FF76" theme="dark" class="pa-2 sender-content-border">
+              <div color="#12FF76" theme="dark" class="pa-2 sender-content-border">
                 <span class="receiver-color">@{{ messageItem.receiver }}</span>
                 <span>{{ messageItem.message }}</span>
-              </v-card>
+              </div>
             </div>
           </div>
-        </v-list-item>
+        </div>
       </template>
-    </v-list>
+    </div>
 
     <template v-slot:append>
       <div class="pa-1 d-flex align-center">
-        <v-text-field :placeholder="t('rightBar.bottom.yourMessage')" class="form-textfield dark-textfield" variant="solo"
-          density="comfortable" />
+        <input type="text" :placeholder="t('rightBar.bottom.yourMessage')" class="form-textfield dark-textfield" />
         <img src="@/assets/public/svg/icon_public_51.svg" class="emoticon-icon" />
-        <v-btn class="right-btn" icon="true" theme="dark" color="#009B3A">
-          <v-icon icon="mdi-arrow-up" color="#000000" />
-        </v-btn>
+        <button class="right-btn" icon="true" theme="dark" color="#009B3A">
+          <img src="@/assets/public/svg/icon_public_arrow_up.svg" />
+        </button>
       </div>
     </template>
-  </v-navigation-drawer>
+  </div>
 </template>
 
 <style lang="scss">

@@ -1,0 +1,185 @@
+{
+    "success": true,
+    "result": {
+        "transactions": {
+            "roundId": 225110691
+        },
+        "user": {
+            "balance": {
+                "cash": {
+                    "atStart": "100.00",
+                    "afterBet": "98.00",
+                    "atEnd": "98.00"
+                },
+                "freeBets": {
+                    "atStart": "0.00",
+                    "afterBet": "0.00",
+                    "atEnd": "0.00"
+                },
+                "bonus": {
+                    "atStart": "0.00",
+                    "afterBet": "0.00",
+                    "atEnd": "0.00"
+                },
+                "sessionCash": {
+                    "atStart": "0.00",
+                    "afterBet": "0.00",
+                    "atEnd": "0.00"
+                },
+                "sessionFreeBets": {
+                    "atStart": "0.00",
+                    "afterBet": "0.00",
+                    "atEnd": "0.00"
+                }
+            },
+            "canGamble": false,
+            "userId": 8597904,
+            "sessionId": "0",
+            "sessionNetPosition": "-2.00",
+            "token": "4d5cc6e12f3a0ac6ec85bdb1d88a0f97c9ecae162e65c83421e38b683878d79be0a7ca62e6cafd4a9a1032177da62a2ce1e1be6304a4952909b607c9df722c61",
+            "bonuses": [],
+            "tournaments": [],
+            "vouchers": [],
+            "messages": [],
+            "limits": {
+                "betThresholdTime": 936
+            },
+            "serverTime": "2025-07-22 17: 08: 53"
+        },
+        "game": {
+            "win": {
+                "lines": "0.00",
+                "total": "0.00"
+            },
+            "winsMultipliers": {
+                "lines": "0.00",
+                "total": "0.00"
+            },
+            "stake": "2.00",
+            "multiplier": 1,
+            "winLines": [],
+            "spinMode": "Normal",
+            "fatTiles": [
+                {
+                    "tileId": 10,
+                    "reel": 3,
+                    "index": -2,
+                    "width": 1,
+                    "height": 4
+                }
+            ],
+            "lockedTiles": [],
+            "movingTiles": [],
+            "progress": {
+                "current": 1
+            },
+            "reelsBuffer": [
+                [
+                    [
+                        5,
+                        7,
+                        2,
+                        7
+                    ],
+                    [
+                        5,
+                        4,
+                        1,
+                        2
+                    ],
+                    [
+                        7,
+                        2,
+                        4,
+                        2
+                    ]
+                ],
+                [
+                    [
+                        2,
+                        2,
+                        2,
+                        6
+                    ],
+                    [
+                        3,
+                        6,
+                        8,
+                        6
+                    ],
+                    [
+                        2,
+                        4,
+                        3,
+                        3
+                    ]
+                ],
+                [
+                    [
+                        6,
+                        5,
+                        1,
+                        9
+                    ],
+                    [
+                        6,
+                        3,
+                        1,
+                        3
+                    ],
+                    [
+                        1,
+                        3,
+                        6,
+                        1
+                    ]
+                ],
+                [
+                    [
+                        9,
+                        5,
+                        10,
+                        10
+                    ],
+                    [
+                        10,
+                        10,
+                        5,
+                        4
+                    ],
+                    [
+                        4,
+                        3,
+                        4,
+                        6
+                    ]
+                ],
+                [
+                    [
+                        6,
+                        3,
+                        12,
+                        12
+                    ],
+                    [
+                        4,
+                        5,
+                        1,
+                        1
+                    ],
+                    [
+                        8,
+                        3,
+                        7,
+                        8
+                    ]
+                ]
+            ],
+            "features": [],
+            "gameMode": 0,
+            "hasState": true
+        },
+        "jackpots": null,
+        "bonusChance": null
+    }
+}

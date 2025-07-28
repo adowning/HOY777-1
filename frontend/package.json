@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@mdi/font": "7.0.96",
+    "@tailwindcss/vite": "^4.1.11",
     "@types/nprogress": "^0.2.3",
     "animejs": "^3.2.1",
     "axios": "^1.4.0",
@@ -26,6 +27,7 @@
     "roboto-fontface": "*",
     "socket.io-client": "^4.6.1",
     "swiper": "^10.2.0",
+    "tailwindcss": "^4.1.11",
     "vue": "^3.2.0",
     "vue-3-socket.io": "^1.0.5",
     "vue-i18n": "^9.2.2",
@@ -36,7 +38,6 @@
     "vue-toastification": "^2.0.0-rc.5",
     "vue3-carousel": "^0.3.1",
     "vue3-lazyload": "^0.3.8",
-    "vuetify": "^3.0.0",
     "webfontloader": "^1.0.0"
   },
   "devDependencies": {
@@ -60,7 +61,6 @@
     "vite-plugin-cache-resource": "^0.0.1",
     "vite-plugin-cdn": "^1.0.0-beta.3",
     "vite-plugin-imagemin": "^0.6.1",
-    "vite-plugin-vuetify": "^1.0.0",
     "vue-tsc": "^1.2.0"
   }
 }

@@ -1,0 +1,13 @@
+{
+  "name": "vuetify-to-tailwind-converter",
+  "version": "1.0.0",
+  "description": "A script to automate the conversion of Vuetify components to Tailwind CSS.",
+  "main": "convert.js",
+  "type": "module",
+  "scripts": {
+    "start": "node convert.js"
+  },
+  "dependencies": {
+    "glob": "^8.0.0"
+  }
+}

@@ -31,7 +31,7 @@ export const jackpotContributions = pgTable('jackpot_contributions', {
     createdAt: timestamp('created_at').defaultNow().notNull(),
 }, (table) => {
     return {
-        unique: sql`unique(${table.jackpotId}, ${table.gameSpinId})`
+        // unique: sql`unique(${table.jackpotId}, ${table.gameSpinId})`
     }
 });
 

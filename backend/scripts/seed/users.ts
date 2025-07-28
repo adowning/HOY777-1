@@ -16,7 +16,6 @@ export async function seedUsers(
 ) {
   console.log(`🌱 Seeding ${count} random users, each with a wallet...`)
 
-  // Use the standard query builder
   const allVipLevels = await db.select().from(schema.vipLevels)
 
   if (allVipLevels.length === 0) {
@@ -49,7 +48,6 @@ export async function seedUsers(
         userId: newUser.id,
         balance: initialBalance,
         operatorId: operatorId,
-        balance: 0,
       })
 
       await tx.insert(schema.balances).values({
@@ -58,8 +56,13 @@ export async function seedUsers(
         availableBalance: initialBalance,
       })
 
+      await tx.insert(schema.authSessions).values({
+        userId: newUser.id,
+        status: 'ACTIVE',
+      })
+
       console.log(
-        `👤 Created user '${username}' (Password: ${password}) with an associated wallet.`
+        `👤 Created user '${username}' (Password: ${password}) with an associated wallet and auth session.`
       )
     })
   }
@@ -73,7 +76,6 @@ export async function seedHardcodedUser(
   const username = 'asdf'
   const password = 'asdfasdf'
 
-  // Use the standard query builder `db.select()` to check for the user
   const [existingUser] = await db
     .select()
     .from(schema.users)
@@ -100,13 +102,18 @@ export async function seedHardcodedUser(
       id: `wallet_${crypto.randomUUID()}`,
       userId: newUser.id,
       operatorId: operatorId,
-      balance: 50000, // 500 USD
+      balance: 50000,
     })
 
     await tx.insert(schema.balances).values({
       userId: newUser.id,
       amount: 50000,
       availableBalance: 50000,
+    })
+
+    await tx.insert(schema.authSessions).values({
+      userId: newUser.id,
+      status: 'ACTIVE',
     })
   })
 

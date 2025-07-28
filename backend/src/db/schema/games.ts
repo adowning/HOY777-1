@@ -1,7 +1,8 @@
 // db/schema/games.ts
-import { pgTable, text, integer, varchar, timestamp , primaryKey} from 'drizzle-orm/pg-core'
+import { pgTable, text, integer, varchar, primaryKey} from 'drizzle-orm/pg-core'
 import { relations } from 'drizzle-orm'
 import { createSelectSchema } from 'drizzle-zod'
+import { z } from 'zod'
 import { nanoid } from '../../utils/nanoid'
 import { transformSchemaForOpenAPI } from '#/lib/schema-transformer'
 import { users } from './users'
@@ -67,30 +68,33 @@ export const gameCategoriesRelations = relations(
 )
 
 export const selectGameCategoriesSchema = createSelectSchema(gameCategories)
-// export const selectGamesSchema = createSelectSchema(games)
 export const selectGameBigWinsSchema = createSelectSchema(gameBigWins)
 export const selectGamesSchema = transformSchemaForOpenAPI(
-  createSelectSchema(games)
+  createSelectSchema(games, {
+	  name: z.string().nullable(),
+	  provider: z.string().nullable(),
+	  categoryId: z.string().nullable(),
+  })
 )
 
 
 // In a schema file, e.g., db/schema/games.ts
 
 // A join table for the many-to-many relationship between users and their favorite games
-export const favoriteGames = pgTable('favorite_games', {
-    userId: varchar('user_id').references(() => users.id, { onDelete: 'cascade' }).notNull(),
-    gameId: varchar('game_id').references(() => games.id, { onDelete: 'cascade' }).notNull(),
-}, (table) => ({
-    // This composite primary key ensures a user can only favorite a game once
-    pk: primaryKey(table.userId, table.gameId),
-}));
+// export const favoriteGames = pgTable('favorite_games', {
+//     userId: varchar('user_id').references(() => users.id, { onDelete: 'cascade' }).notNull(),
+//     gameId: varchar('game_id').references(() => games.id, { onDelete: 'cascade' }).notNull(),
+// }, (table) => ({
+//     // This composite primary key ensures a user can only favorite a game once
+//     pk: primaryKey(table.userId, table.gameId),
+// }));
 
 // The game session table
-export const gameSessions = pgTable('game_sessions', {
-    id: varchar('id').primaryKey().$defaultFn(nanoid),
-    userId: varchar('user_id').references(() => users.id),
-    gameId: varchar('game_id').references(() => games.id),
-    status: varchar('status', { enum: ['active', 'ended'] }),
-    createdAt: timestamp('created_at').defaultNow(),
-    endedAt: timestamp('ended_at'),
-});
+// export const gameSessions = pgTable('game_sessions', {
+//     id: varchar('id').primaryKey().$defaultFn(nanoid),
+//     userId: varchar('user_id').references(() => users.id),
+//     gameId: varchar('game_id').references(() => games.id),
+//     status: varchar('status', { enum: ['active', 'ended'] }),
+//     createdAt: timestamp('created_at').defaultNow(),
+//     endedAt: timestamp('ended_at'),
+// });

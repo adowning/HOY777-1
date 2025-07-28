@@ -4,7 +4,6 @@ import { useRouter } from "vue-router";
 import { useI18n } from 'vue-i18n';
 import { type GetGameOriginalData } from "@/interface/navBar";
 import { setLang } from "@/locale/index";
-import { useDisplay } from 'vuetify'
 import { appBarStore } from "@/store/appBar";
 import { loginBonusStore } from "@/store/loginBonus";
 import { refferalStore } from "@/store/refferal";
@@ -37,16 +36,27 @@ const onCheckboxColor = ref<string>("#ffffff");
 const offCheckboxColor = ref<string>("#7782AA");
 
 // mobile version name
-const { name, width } = useDisplay()
+const mobileWidth = ref(window.innerWidth);
+const name = computed(() => {
+  if (mobileWidth.value < 600) {
+    return 'sm';
+  } else if (mobileWidth.value < 960) {
+    return 'md';
+  } else if (mobileWidth.value < 1264) {
+    return 'lg';
+  } else {
+    return 'xl';
+  }
+});
+window.addEventListener('resize', () => {
+  mobileWidth.value = window.innerWidth;
+});
+
 const router = useRouter();
 
 const mobileVersion = computed(() => {
   return name.value
 });
-
-const mobileWidth = computed(() => {
-  return width.value
-})
 
 const refferalAppBarShow = computed(() => {
   const { getRefferalAppBarShow } = storeToRefs(refferalStore());
@@ -225,16 +235,12 @@ onMounted(() => {
 </script>
 
 <template>
-  <v-navigation-drawer
-    :temporary="mobileWidth < 1280"
-    expand-on-hover
-    :scrim-opacity="0.6"
+  <div
     class="nav-background"
-    :width="280"
-    v-model="drawer"
+    v-if="drawer"
   >
     <template v-slot:prepend>
-      <v-list-item class="casino-toggle" :class="refferalAppBarShow ? 'mt-10' : ''">
+      <div class="casino-toggle" :class="refferalAppBarShow ? 'mt-10' : ''">
         <input type="checkbox" id="casino-toggle" v-model="casinoCheckBox" />
         <label for="casino-toggle">
           <div class="casino">
@@ -258,25 +264,25 @@ onMounted(() => {
             <p class="text-700-14 ml-1">{{ t("navBar.sport") }}</p>
           </div>
         </label>
-      </v-list-item>
+      </div>
     </template>
-    <v-list density="compact" nav class="mt-1">
-      <!-- <v-card color="#1D2027" theme="dark" class="mx-1"> -->
-      <v-row class="ma-4 align-center p-space-between">
+    <div density="compact" nav class="mt-1">
+      <!-- <div color="#1D2027" theme="dark" class="mx-1"> -->
+      <div class="ma-4 align-center p-space-between">
         <div>
           <img src="@/assets/public/svg/icon_public_1001.svg" width="24" />
           <span class="card-title">{{ t("navBar.rewards_center") }}</span>
         </div>
 
         <!-- <span class="ml-16 more-font">{{ t("navBar.more") }}</span> -->
-        <!-- <v-btn class="right-btn" icon="true"> -->
+        <!-- <button class="right-btn" icon="true"> -->
         <div>
           <img src="@/assets/public/svg/icon_public_501.svg" width="24" />
         </div>
-        <!-- </v-btn> -->
-      </v-row>
-      <v-row class="mx-2 ma-1">
-        <v-list-item>
+        <!-- </button> -->
+      </div>
+      <div class="mx-2 ma-1">
+        <div>
           <div class="p-vip-login-bonus mt-6" @click="openLoginBonusDialog">
             <img
               src="@/assets/public/image/img_public_1.png"
@@ -303,10 +309,10 @@ onMounted(() => {
               </p>
             </div>
           </div>
-        </v-list-item>
+        </div>
 
         <!-- <v-col cols="6" class="pa-1 relative">
-            <v-list-item
+            <div
               value="casino"
               class="ma-0 pa-0"
               height="48px"
@@ -320,10 +326,10 @@ onMounted(() => {
               </p>
             </div>
             <img src="@/assets/public/image/img_ci_7.png" class="m-vip-login-bonus-img-1" />
-            </v-list-item>
+            </div>
           </v-col>
           <v-col cols="6" class="pa-1">
-            <v-list-item
+            <div
               value="sport"
               class="ma-0 pa-0"
               height="48px"
@@ -336,13 +342,13 @@ onMounted(() => {
                   {{ t("navBar.unlock_text") }}
                 </p>
               </div>
-            </v-list-item>
+            </div>
           </v-col> -->
-      </v-row>
-      <!-- </v-card> -->
-    </v-list>
-    <v-list density="compact" nav class="p-m-list">
-      <v-list-item value="earn free" class="ma-0 pa-0" @click="openRefferalDialogShow">
+      </div>
+      <!-- </div> -->
+    </div>
+    <div density="compact" nav class="p-m-list">
+      <div value="earn free" class="ma-0 pa-0" @click="openRefferalDialogShow">
         <img src="@/assets/public/svg/img_public_20.svg" class="earn-free-img" />
         <img
           src="@/assets/public/image/img_public_6.png"
@@ -351,12 +357,12 @@ onMounted(() => {
         <p class="text-900-14 white navbar-free-money-text-position">
           {{ t("navBar.refer_earn_text") }}
         </p>
-      </v-list-item>
-    </v-list>
-    <v-list v-model:opened="open">
-      <v-list-group value="Casino">
+      </div>
+    </div>
+    <div v-model:opened="open">
+      <div value="Casino">
         <template v-slot:activator="{ props }">
-          <v-list-item
+          <div
             class="avatar-img"
             v-bind="props"
             prepend-avatar="@/assets/public/svg/icon_public_34.svg"
@@ -364,40 +370,40 @@ onMounted(() => {
             link
             value="casino"
           >
-          </v-list-item>
+          </div>
         </template>
-        <v-card color="#1D2027" theme="dark" class="ma-2">
-          <v-list>
-            <v-list-item
+        <div color="#1D2027" theme="dark" class="ma-2">
+          <div>
+            <div
               class="casino-sub-img"
               prepend-avatar="@/assets/public/svg/icon_public_35.svg"
               :title="t('navBar.casino_sub_menu.recently_played')"
               value="recently played"
-            ></v-list-item>
-            <v-list-item
+            ></div>
+            <div
               class="casino-sub-img"
               prepend-avatar="@/assets/public/svg/icon_public_36.svg"
               :title="t('navBar.casino_sub_menu.favorites')"
               value="favorites"
-            ></v-list-item>
-            <v-menu
+            ></div>
+            <div
               location="end"
               offset="20"
               class="original-dropdown"
               v-model:model-value="originalMenu"
             >
               <template v-slot:activator="{ props }">
-                <v-list-item
+                <div
                   v-bind="props"
                   class="casino-sub-img"
                   prepend-avatar="@/assets/public/svg/icon_public_37.svg"
                   :append-icon="originalMenu ? 'mdi-chevron-left' : 'mdi-chevron-right'"
                   :title="t('navBar.casino_sub_menu.game_originals')"
                   value="game originals"
-                ></v-list-item>
+                ></div>
               </template>
-              <v-list theme="dark" bg-color="#1D2027">
-                <v-list-item
+              <div theme="dark" bg-color="#1D2027">
+                <div
                   v-for="(item, i) in gameOriginalItems"
                   :key="i"
                   :value="item.name"
@@ -405,79 +411,79 @@ onMounted(() => {
                   :prepend-avatar="item.icon"
                   :title="item.name"
                 >
-                </v-list-item>
-              </v-list>
-            </v-menu>
-            <v-list-item
+                </div>
+              </div>
+            </div>
+            <div
               class="casino-sub-img"
               prepend-avatar="@/assets/public/svg/icon_public_38.svg"
               :title="t('navBar.casino_sub_menu.slots')"
               value="slots"
-            ></v-list-item>
-            <v-list-item
+            ></div>
+            <div
               class="casino-sub-img"
               prepend-avatar="@/assets/public/svg/icon_public_39.svg"
               :title="t('navBar.casino_sub_menu.live_casino')"
               value="live casino"
-            ></v-list-item>
-          </v-list>
-        </v-card>
-      </v-list-group>
-    </v-list>
-    <v-list>
-      <v-list-item
+            ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
         class="avatar-img"
         prepend-avatar="@/assets/public/svg/icon_public_40.svg"
         :title="t('navBar.sport')"
         value="sport"
         @click="goGameBetBy"
-      ></v-list-item>
-    </v-list>
-    <v-divider class="divider"></v-divider>
-    <v-list>
-      <v-list-item
+      ></div>
+    </div>
+    <hr class="divider" />
+    <div>
+      <div
         class="avatar-img"
         prepend-avatar="@/assets/public/svg/icon_public_41.svg"
         :title="t('navBar.menu_item_1.promotions')"
         value="promotions"
-      ></v-list-item>
-      <v-list-item
+      ></div>
+      <div
         class="vip-club"
         prepend-avatar="@/assets/public/svg/icon_public_42.svg"
         :title="t('navBar.menu_item_1.vip_club')"
         value="vip club"
         router
         :to="{ name: 'VIP' }"
-      ></v-list-item>
-      <v-list-item
+      ></div>
+      <div
         class="avatar-img"
         prepend-avatar="@/assets/public/svg/icon_public_43.svg"
         :title="t('navBar.menu_item_1.affiliate')"
         value="affiliate"
         router
         :to="{ name: 'Affiliate' }"
-      ></v-list-item>
-      <v-list-item
+      ></div>
+      <div
         class="avatar-img"
         prepend-avatar="@/assets/public/svg/icon_public_44.svg"
         :title="t('navBar.menu_item_1.blog')"
         value="blog"
-      ></v-list-item>
-    </v-list>
-    <v-divider class="divider"></v-divider>
-    <v-list>
-      <v-list-item
+      ></div>
+    </div>
+    <hr class="divider" />
+    <div>
+      <div
         class="avatar-img"
         prepend-avatar="@/assets/public/svg/icon_public_45.svg"
         :title="t('navBar.live_support')"
         value="live support"
-      ></v-list-item>
-    </v-list>
-    <v-list>
-      <v-menu location="end" offset="16" v-model:model-value="languageMenu">
+      ></div>
+    </div>
+    <div>
+      <div location="end" offset="16" v-model:model-value="languageMenu">
         <template v-slot:activator="{ props }">
-          <v-card color="#1D2027" theme="dark" class="mx-2 language-item">
-            <v-list-item
+          <div color="#1D2027" theme="dark" class="mx-2 language-item">
+            <div
               v-bind="props"
               class="casino-sub-img"
               prepend-avatar="@/assets/public/svg/icon_public_57.svg"
@@ -485,16 +491,16 @@ onMounted(() => {
               value="english"
               :append-icon="languageMenu ? 'mdi-chevron-left' : 'mdi-chevron-right'"
             >
-            </v-list-item>
-          </v-card>
+            </div>
+          </div>
         </template>
-        <v-list theme="dark" bg-color="#1D2027" width="220" class="text-center">
-          <v-list-item
+        <div theme="dark" bg-color="#1D2027" width="220" class="text-center">
+          <div
             :title="t('navBar.language.title')"
             class="avatar-img"
-          ></v-list-item>
-          <v-divider></v-divider>
-          <v-list-item
+          ></div>
+          <hr />
+          <div
             v-for="(item, i) in langItems"
             :key="i"
             :value="item"
@@ -502,12 +508,12 @@ onMounted(() => {
             @click="handleLanguageDropdown(item)"
             :class="language == item.value ? 'nav-lang-selected-item' : ''"
           >
-            <v-list-item-title>{{ item.value }}</v-list-item-title>
-          </v-list-item>
-        </v-list>
-      </v-menu>
-    </v-list>
-    <v-list-item class="theme-toggle">
+            <div>{{ item.value }}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="theme-toggle">
       <input type="checkbox" id="theme-toggle" v-model="soundCheckBox" />
       <label for="theme-toggle">
         <div class="dark">
@@ -529,8 +535,8 @@ onMounted(() => {
           <p class="text-700-14 ml-1">{{ t("navBar.sound_mode.off") }}</p>
         </div>
       </label>
-    </v-list-item>
-  </v-navigation-drawer>
+    </div>
+  </div>
 </template>
 
 <style lang="scss" scoped>
@@ -553,21 +559,6 @@ onMounted(() => {
       font-size: 16px;
       font-weight: 700;
     }
-  }
-}
-
-::deep(.v-navigation-drawer__content) {
-  height: 100vh;
-  overflow-y: auto;
-  overflow-x: hidden !important;
-
-  &::-webkit-scrollbar {
-    width: 0px;
-  }
-
-  &::-webkit-scrollbar-thumb {
-    background: transparent;
-    border-radius: 20px;
   }
 }
 
@@ -692,17 +683,6 @@ onMounted(() => {
 }
 
 .avatar-img {
-  :deep(.v-avatar--density-default) {
-    height: 24px;
-    width: 22px;
-    border-radius: 0px;
-  }
-
-  :deep(.v-list-item-title) {
-    font-weight: 700;
-    font-size: 14px;
-    color: #7782aa;
-  }
 }
 
 .p-m-list {
@@ -760,31 +740,9 @@ onMounted(() => {
 }
 
 .vip-club {
-  :deep(.v-avatar--density-default) {
-    height: 24px;
-    width: 20px;
-    border-radius: 0px;
-  }
-
-  :deep(.v-list-item-title) {
-    font-weight: 700;
-    font-size: 14px;
-    color: #f9bc01;
-  }
 }
 
 .casino-sub-img {
-  :deep(.v-avatar--density-default) {
-    height: 22px;
-    width: 22px;
-    border-radius: 0px;
-  }
-
-  :deep(.v-list-item-title) {
-    font-weight: 500;
-    font-size: 14px;
-    color: #7782aa;
-  }
 }
 
 .divider {
@@ -793,16 +751,6 @@ onMounted(() => {
 }
 
 .casino-sub-img {
-  :deep(.v-list-item__content) {
-    align-self: center;
-    grid-area: content;
-    overflow: hidden;
-    // width: 105px;
-  }
-
-  :deep(.v-list-item__append > .v-icon) {
-    margin-inline-start: 18px;
-  }
 }
 
 .language-item {
@@ -811,17 +759,6 @@ onMounted(() => {
 
   /* Text Box */
   box-shadow: 2px 0px 4px 1px rgba(0, 0, 0, 0.12) inset;
-
-  :deep(.v-list-item__content) {
-    align-self: center;
-    grid-area: content;
-    overflow: hidden;
-    width: 105px;
-  }
-
-  :deep(.v-list-item__append > .v-icon) {
-    margin-inline-start: 18px;
-  }
 }
 
 // dark and light toggle switch
@@ -910,9 +847,6 @@ onMounted(() => {
 }
 
 .original-dropdown {
-  ::deep(.v-overlay__content) {
-    display: none !important;
-  }
 }
 
 .navbar-free-money-img-position {

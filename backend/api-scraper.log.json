@@ -1,0 +1,1338 @@
+{
+  "timestamp": "2025-07-22T20:03:24.403Z",
+  "level": "info",
+  "gameName": "PeggySweets",
+  "event": "GET_SETTINGS_SUCCESS"
+},
+{
+  "timestamp": "2025-07-22T20:03:24.430Z",
+  "level": "info",
+  "gameName": "PeggySweets",
+  "event": "SAVE_SETTINGS_SUCCESS"
+},
+{
+  "timestamp": "2025-07-22T20:03:24.670Z",
+  "level": "info",
+  "gameName": "PeggySweets",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 0.2
+},
+{
+  "timestamp": "2025-07-22T20:03:25.905Z",
+  "level": "info",
+  "gameName": "PeggySweets",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 0.2
+},
+{
+  "timestamp": "2025-07-22T20:03:27.133Z",
+  "level": "info",
+  "gameName": "PeggySweets",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 0.4
+},
+{
+  "timestamp": "2025-07-22T20:03:28.365Z",
+  "level": "info",
+  "gameName": "PeggySweets",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 0.4
+},
+{
+  "timestamp": "2025-07-22T20:03:29.613Z",
+  "level": "info",
+  "gameName": "PeggySweets",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 0.6
+},
+{
+  "timestamp": "2025-07-22T20:03:30.859Z",
+  "level": "info",
+  "gameName": "PeggySweets",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 0.6
+},
+{
+  "timestamp": "2025-07-22T20:03:32.098Z",
+  "level": "info",
+  "gameName": "PeggySweets",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 0.8
+},
+{
+  "timestamp": "2025-07-22T20:03:33.335Z",
+  "level": "info",
+  "gameName": "PeggySweets",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 0.8
+},
+{
+  "timestamp": "2025-07-22T20:03:34.567Z",
+  "level": "info",
+  "gameName": "PeggySweets",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 1
+},
+{
+  "timestamp": "2025-07-22T20:03:35.789Z",
+  "level": "info",
+  "gameName": "PeggySweets",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 1
+},
+{
+  "timestamp": "2025-07-22T20:03:37.024Z",
+  "level": "info",
+  "gameName": "PeggySweets",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 2
+},
+{
+  "timestamp": "2025-07-22T20:03:38.252Z",
+  "level": "info",
+  "gameName": "PeggySweets",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 2
+},
+{
+  "timestamp": "2025-07-22T20:03:39.478Z",
+  "level": "info",
+  "gameName": "PeggySweets",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 4
+},
+{
+  "timestamp": "2025-07-22T20:03:40.719Z",
+  "level": "info",
+  "gameName": "PeggySweets",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 4
+},
+{
+  "timestamp": "2025-07-22T20:03:41.971Z",
+  "level": "info",
+  "gameName": "PeggySweets",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 6
+},
+{
+  "timestamp": "2025-07-22T20:03:43.210Z",
+  "level": "info",
+  "gameName": "PeggySweets",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 6
+},
+{
+  "timestamp": "2025-07-22T20:03:44.449Z",
+  "level": "info",
+  "gameName": "PeggySweets",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 8
+},
+{
+  "timestamp": "2025-07-22T20:03:45.680Z",
+  "level": "info",
+  "gameName": "PeggySweets",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 8
+},
+{
+  "timestamp": "2025-07-22T20:03:46.968Z",
+  "level": "info",
+  "gameName": "PeggySweets",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 10
+},
+{
+  "timestamp": "2025-07-22T20:03:48.197Z",
+  "level": "info",
+  "gameName": "PeggySweets",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 10
+},
+{
+  "timestamp": "2025-07-22T20:03:49.397Z",
+  "level": "info",
+  "gameName": "AncientDisco",
+  "event": "GET_SETTINGS_SUCCESS"
+},
+{
+  "timestamp": "2025-07-22T20:03:49.402Z",
+  "level": "info",
+  "gameName": "AncientDisco",
+  "event": "SAVE_SETTINGS_SUCCESS"
+},
+{
+  "timestamp": "2025-07-22T20:03:49.634Z",
+  "level": "info",
+  "gameName": "AncientDisco",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 0.2
+},
+{
+  "timestamp": "2025-07-22T20:03:50.862Z",
+  "level": "info",
+  "gameName": "AncientDisco",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 0.2
+},
+{
+  "timestamp": "2025-07-22T20:03:52.104Z",
+  "level": "info",
+  "gameName": "AncientDisco",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 0.4
+},
+{
+  "timestamp": "2025-07-22T20:03:53.329Z",
+  "level": "info",
+  "gameName": "AncientDisco",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 0.4
+},
+{
+  "timestamp": "2025-07-22T20:03:54.559Z",
+  "level": "info",
+  "gameName": "AncientDisco",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 0.6
+},
+{
+  "timestamp": "2025-07-22T20:03:55.789Z",
+  "level": "info",
+  "gameName": "AncientDisco",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 0.6
+},
+{
+  "timestamp": "2025-07-22T20:03:57.019Z",
+  "level": "info",
+  "gameName": "AncientDisco",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 0.8
+},
+{
+  "timestamp": "2025-07-22T20:03:58.245Z",
+  "level": "info",
+  "gameName": "AncientDisco",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 0.8
+},
+{
+  "timestamp": "2025-07-22T20:03:59.470Z",
+  "level": "info",
+  "gameName": "AncientDisco",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 1
+},
+{
+  "timestamp": "2025-07-22T20:04:00.688Z",
+  "level": "info",
+  "gameName": "AncientDisco",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 1
+},
+{
+  "timestamp": "2025-07-22T20:04:01.922Z",
+  "level": "info",
+  "gameName": "AncientDisco",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 2
+},
+{
+  "timestamp": "2025-07-22T20:04:03.175Z",
+  "level": "info",
+  "gameName": "AncientDisco",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 2
+},
+{
+  "timestamp": "2025-07-22T20:04:04.398Z",
+  "level": "info",
+  "gameName": "AncientDisco",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 4
+},
+{
+  "timestamp": "2025-07-22T20:04:05.618Z",
+  "level": "info",
+  "gameName": "AncientDisco",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 4
+},
+{
+  "timestamp": "2025-07-22T20:04:06.820Z",
+  "level": "info",
+  "gameName": "WantedWildzExtreme",
+  "event": "GET_SETTINGS_SUCCESS"
+},
+{
+  "timestamp": "2025-07-22T20:04:06.826Z",
+  "level": "info",
+  "gameName": "WantedWildzExtreme",
+  "event": "SAVE_SETTINGS_SUCCESS"
+},
+{
+  "timestamp": "2025-07-22T20:04:07.094Z",
+  "level": "info",
+  "gameName": "WantedWildzExtreme",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 0.2
+},
+{
+  "timestamp": "2025-07-22T20:04:08.315Z",
+  "level": "info",
+  "gameName": "WantedWildzExtreme",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 0.2
+},
+{
+  "timestamp": "2025-07-22T20:04:09.530Z",
+  "level": "info",
+  "gameName": "WantedWildzExtreme",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 0.4
+},
+{
+  "timestamp": "2025-07-22T20:04:13.220Z",
+  "level": "info",
+  "gameName": "WantedWildzExtreme",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 0.4
+},
+{
+  "timestamp": "2025-07-22T20:04:14.444Z",
+  "level": "info",
+  "gameName": "WantedWildzExtreme",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 0.6
+},
+{
+  "timestamp": "2025-07-22T20:04:16.107Z",
+  "level": "info",
+  "gameName": "WantedWildzExtreme",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 0.6
+},
+{
+  "timestamp": "2025-07-22T20:04:18.132Z",
+  "level": "info",
+  "gameName": "WantedWildzExtreme",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 0.8
+},
+{
+  "timestamp": "2025-07-22T20:04:19.921Z",
+  "level": "info",
+  "gameName": "WantedWildzExtreme",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 0.8
+},
+{
+  "timestamp": "2025-07-22T20:04:21.144Z",
+  "level": "info",
+  "gameName": "WantedWildzExtreme",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 1
+},
+{
+  "timestamp": "2025-07-22T20:04:22.373Z",
+  "level": "info",
+  "gameName": "WantedWildzExtreme",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 1
+},
+{
+  "timestamp": "2025-07-22T20:04:23.592Z",
+  "level": "info",
+  "gameName": "WantedWildzExtreme",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 2
+},
+{
+  "timestamp": "2025-07-22T20:04:24.824Z",
+  "level": "info",
+  "gameName": "WantedWildzExtreme",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 2
+},
+{
+  "timestamp": "2025-07-22T20:04:26.048Z",
+  "level": "info",
+  "gameName": "WantedWildzExtreme",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 4
+},
+{
+  "timestamp": "2025-07-22T20:04:27.290Z",
+  "level": "info",
+  "gameName": "WantedWildzExtreme",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 4
+},
+{
+  "timestamp": "2025-07-22T20:04:28.492Z",
+  "level": "info",
+  "gameName": "GemsInfernoMegaWays",
+  "event": "GET_SETTINGS_SUCCESS"
+},
+{
+  "timestamp": "2025-07-22T20:04:28.497Z",
+  "level": "info",
+  "gameName": "GemsInfernoMegaWays",
+  "event": "SAVE_SETTINGS_SUCCESS"
+},
+{
+  "timestamp": "2025-07-22T20:04:28.720Z",
+  "level": "info",
+  "gameName": "GemsInfernoMegaWays",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 0.2
+},
+{
+  "timestamp": "2025-07-22T20:04:29.946Z",
+  "level": "info",
+  "gameName": "GemsInfernoMegaWays",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 0.2
+},
+{
+  "timestamp": "2025-07-22T20:04:31.181Z",
+  "level": "info",
+  "gameName": "GemsInfernoMegaWays",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 0.4
+},
+{
+  "timestamp": "2025-07-22T20:04:32.436Z",
+  "level": "info",
+  "gameName": "GemsInfernoMegaWays",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 0.4
+},
+{
+  "timestamp": "2025-07-22T20:04:33.694Z",
+  "level": "info",
+  "gameName": "GemsInfernoMegaWays",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 0.6
+},
+{
+  "timestamp": "2025-07-22T20:04:34.913Z",
+  "level": "info",
+  "gameName": "GemsInfernoMegaWays",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 0.6
+},
+{
+  "timestamp": "2025-07-22T20:04:36.171Z",
+  "level": "info",
+  "gameName": "GemsInfernoMegaWays",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 0.8
+},
+{
+  "timestamp": "2025-07-22T20:04:37.407Z",
+  "level": "info",
+  "gameName": "GemsInfernoMegaWays",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 0.8
+},
+{
+  "timestamp": "2025-07-22T20:04:38.631Z",
+  "level": "info",
+  "gameName": "GemsInfernoMegaWays",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 1
+},
+{
+  "timestamp": "2025-07-22T20:04:39.853Z",
+  "level": "info",
+  "gameName": "GemsInfernoMegaWays",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 1
+},
+{
+  "timestamp": "2025-07-22T20:04:41.111Z",
+  "level": "info",
+  "gameName": "GemsInfernoMegaWays",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 2
+},
+{
+  "timestamp": "2025-07-22T20:04:42.330Z",
+  "level": "info",
+  "gameName": "GemsInfernoMegaWays",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 2
+},
+{
+  "timestamp": "2025-07-22T20:04:43.580Z",
+  "level": "info",
+  "gameName": "GemsInfernoMegaWays",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 4
+},
+{
+  "timestamp": "2025-07-22T20:04:44.801Z",
+  "level": "info",
+  "gameName": "GemsInfernoMegaWays",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 4
+},
+{
+  "timestamp": "2025-07-22T20:04:46.027Z",
+  "level": "info",
+  "gameName": "GemsInfernoMegaWays",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 6
+},
+{
+  "timestamp": "2025-07-22T20:04:47.255Z",
+  "level": "info",
+  "gameName": "GemsInfernoMegaWays",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 6
+},
+{
+  "timestamp": "2025-07-22T20:04:48.477Z",
+  "level": "info",
+  "gameName": "GemsInfernoMegaWays",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 8
+},
+{
+  "timestamp": "2025-07-22T20:04:49.707Z",
+  "level": "info",
+  "gameName": "GemsInfernoMegaWays",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 8
+},
+{
+  "timestamp": "2025-07-22T20:04:50.926Z",
+  "level": "info",
+  "gameName": "GemsInfernoMegaWays",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 10
+},
+{
+  "timestamp": "2025-07-22T20:04:52.177Z",
+  "level": "info",
+  "gameName": "GemsInfernoMegaWays",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 10
+},
+{
+  "timestamp": "2025-07-22T20:04:53.408Z",
+  "level": "info",
+  "gameName": "GemsInfernoMegaWays",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 20
+},
+{
+  "timestamp": "2025-07-22T20:04:54.652Z",
+  "level": "info",
+  "gameName": "GemsInfernoMegaWays",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 20
+},
+{
+  "timestamp": "2025-07-22T20:04:55.858Z",
+  "level": "info",
+  "gameName": "CashOrNothing",
+  "event": "GET_SETTINGS_SUCCESS"
+},
+{
+  "timestamp": "2025-07-22T20:04:55.864Z",
+  "level": "info",
+  "gameName": "CashOrNothing",
+  "event": "SAVE_SETTINGS_SUCCESS"
+},
+{
+  "timestamp": "2025-07-22T20:04:56.085Z",
+  "level": "info",
+  "gameName": "CashOrNothing",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 0.2
+},
+{
+  "timestamp": "2025-07-22T20:04:57.371Z",
+  "level": "info",
+  "gameName": "CashOrNothing",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 0.2
+},
+{
+  "timestamp": "2025-07-22T20:04:58.587Z",
+  "level": "info",
+  "gameName": "CashOrNothing",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 0.4
+},
+{
+  "timestamp": "2025-07-22T20:04:59.811Z",
+  "level": "info",
+  "gameName": "CashOrNothing",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 0.4
+},
+{
+  "timestamp": "2025-07-22T20:05:01.069Z",
+  "level": "info",
+  "gameName": "CashOrNothing",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 0.6
+},
+{
+  "timestamp": "2025-07-22T20:05:02.317Z",
+  "level": "info",
+  "gameName": "CashOrNothing",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 0.6
+},
+{
+  "timestamp": "2025-07-22T20:05:03.551Z",
+  "level": "info",
+  "gameName": "CashOrNothing",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 0.8
+},
+{
+  "timestamp": "2025-07-22T20:05:04.783Z",
+  "level": "info",
+  "gameName": "CashOrNothing",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 0.8
+},
+{
+  "timestamp": "2025-07-22T20:05:06.020Z",
+  "level": "info",
+  "gameName": "CashOrNothing",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 1
+},
+{
+  "timestamp": "2025-07-22T20:05:07.260Z",
+  "level": "info",
+  "gameName": "CashOrNothing",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 1
+},
+{
+  "timestamp": "2025-07-22T20:05:12.018Z",
+  "level": "info",
+  "gameName": "CashOrNothing",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 2
+},
+{
+  "timestamp": "2025-07-22T20:05:13.240Z",
+  "level": "info",
+  "gameName": "CashOrNothing",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 2
+},
+{
+  "timestamp": "2025-07-22T20:05:14.458Z",
+  "level": "info",
+  "gameName": "CashOrNothing",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 4
+},
+{
+  "timestamp": "2025-07-22T20:05:15.705Z",
+  "level": "info",
+  "gameName": "CashOrNothing",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 4
+},
+{
+  "timestamp": "2025-07-22T20:05:16.938Z",
+  "level": "info",
+  "gameName": "CashOrNothing",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 6
+},
+{
+  "timestamp": "2025-07-22T20:05:18.245Z",
+  "level": "info",
+  "gameName": "CashOrNothing",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 6
+},
+{
+  "timestamp": "2025-07-22T20:05:19.465Z",
+  "level": "info",
+  "gameName": "CashOrNothing",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 8
+},
+{
+  "timestamp": "2025-07-22T20:05:20.677Z",
+  "level": "info",
+  "gameName": "CashOrNothing",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 8
+},
+{
+  "timestamp": "2025-07-22T20:05:21.916Z",
+  "level": "info",
+  "gameName": "CashOrNothing",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 10
+},
+{
+  "timestamp": "2025-07-22T20:05:23.170Z",
+  "level": "info",
+  "gameName": "CashOrNothing",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 10
+},
+{
+  "timestamp": "2025-07-22T20:05:24.400Z",
+  "level": "info",
+  "gameName": "CashOrNothing",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 20
+},
+{
+  "timestamp": "2025-07-22T20:05:25.637Z",
+  "level": "info",
+  "gameName": "CashOrNothing",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 20
+},
+{
+  "timestamp": "2025-07-22T20:05:26.840Z",
+  "level": "info",
+  "gameName": "LondonTube",
+  "event": "GET_SETTINGS_SUCCESS"
+},
+{
+  "timestamp": "2025-07-22T20:05:26.845Z",
+  "level": "info",
+  "gameName": "LondonTube",
+  "event": "SAVE_SETTINGS_SUCCESS"
+},
+{
+  "timestamp": "2025-07-22T20:05:27.062Z",
+  "level": "info",
+  "gameName": "LondonTube",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 0.2
+},
+{
+  "timestamp": "2025-07-22T20:05:28.326Z",
+  "level": "info",
+  "gameName": "LondonTube",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 0.2
+},
+{
+  "timestamp": "2025-07-22T20:05:29.912Z",
+  "level": "info",
+  "gameName": "LondonTube",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 0.4
+},
+{
+  "timestamp": "2025-07-22T20:05:31.184Z",
+  "level": "info",
+  "gameName": "LondonTube",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 0.4
+},
+{
+  "timestamp": "2025-07-22T20:05:32.458Z",
+  "level": "info",
+  "gameName": "LondonTube",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 0.6
+},
+{
+  "timestamp": "2025-07-22T20:05:33.702Z",
+  "level": "info",
+  "gameName": "LondonTube",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 0.6
+},
+{
+  "timestamp": "2025-07-22T20:05:34.932Z",
+  "level": "info",
+  "gameName": "LondonTube",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 0.8
+},
+{
+  "timestamp": "2025-07-22T20:05:36.161Z",
+  "level": "info",
+  "gameName": "LondonTube",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 0.8
+},
+{
+  "timestamp": "2025-07-22T20:05:37.378Z",
+  "level": "info",
+  "gameName": "LondonTube",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 1
+},
+{
+  "timestamp": "2025-07-22T20:05:39.569Z",
+  "level": "info",
+  "gameName": "LondonTube",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 1
+},
+{
+  "timestamp": "2025-07-22T20:05:40.829Z",
+  "level": "info",
+  "gameName": "LondonTube",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 2
+},
+{
+  "timestamp": "2025-07-22T20:05:42.156Z",
+  "level": "info",
+  "gameName": "LondonTube",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 2
+},
+{
+  "timestamp": "2025-07-22T20:05:43.379Z",
+  "level": "info",
+  "gameName": "LondonTube",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 4
+},
+{
+  "timestamp": "2025-07-22T20:05:44.605Z",
+  "level": "info",
+  "gameName": "LondonTube",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 4
+},
+{
+  "timestamp": "2025-07-22T20:05:45.831Z",
+  "level": "info",
+  "gameName": "LondonTube",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 6
+},
+{
+  "timestamp": "2025-07-22T20:05:47.063Z",
+  "level": "info",
+  "gameName": "LondonTube",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 6
+},
+{
+  "timestamp": "2025-07-22T20:05:48.300Z",
+  "level": "info",
+  "gameName": "LondonTube",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 8
+},
+{
+  "timestamp": "2025-07-22T20:05:49.552Z",
+  "level": "info",
+  "gameName": "LondonTube",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 8
+},
+{
+  "timestamp": "2025-07-22T20:05:50.804Z",
+  "level": "info",
+  "gameName": "LondonTube",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 10
+},
+{
+  "timestamp": "2025-07-22T20:05:52.032Z",
+  "level": "info",
+  "gameName": "LondonTube",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 10
+},
+{
+  "timestamp": "2025-07-22T20:05:53.251Z",
+  "level": "info",
+  "gameName": "LuckyEaster",
+  "event": "GET_SETTINGS_SUCCESS"
+},
+{
+  "timestamp": "2025-07-22T20:05:53.256Z",
+  "level": "info",
+  "gameName": "LuckyEaster",
+  "event": "SAVE_SETTINGS_SUCCESS"
+},
+{
+  "timestamp": "2025-07-22T20:05:53.501Z",
+  "level": "info",
+  "gameName": "LuckyEaster",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 0.2
+},
+{
+  "timestamp": "2025-07-22T20:05:54.777Z",
+  "level": "info",
+  "gameName": "LuckyEaster",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 0.2
+},
+{
+  "timestamp": "2025-07-22T20:05:56.008Z",
+  "level": "info",
+  "gameName": "LuckyEaster",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 0.4
+},
+{
+  "timestamp": "2025-07-22T20:05:57.284Z",
+  "level": "info",
+  "gameName": "LuckyEaster",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 0.4
+},
+{
+  "timestamp": "2025-07-22T20:05:58.503Z",
+  "level": "info",
+  "gameName": "LuckyEaster",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 0.6
+},
+{
+  "timestamp": "2025-07-22T20:05:59.736Z",
+  "level": "info",
+  "gameName": "LuckyEaster",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 0.6
+},
+{
+  "timestamp": "2025-07-22T20:06:00.981Z",
+  "level": "info",
+  "gameName": "LuckyEaster",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 0.8
+},
+{
+  "timestamp": "2025-07-22T20:06:02.214Z",
+  "level": "info",
+  "gameName": "LuckyEaster",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 0.8
+},
+{
+  "timestamp": "2025-07-22T20:06:03.449Z",
+  "level": "info",
+  "gameName": "LuckyEaster",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 1
+},
+{
+  "timestamp": "2025-07-22T20:06:04.683Z",
+  "level": "info",
+  "gameName": "LuckyEaster",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 1
+},
+{
+  "timestamp": "2025-07-22T20:06:05.902Z",
+  "level": "info",
+  "gameName": "LuckyEaster",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 2
+},
+{
+  "timestamp": "2025-07-22T20:06:07.139Z",
+  "level": "info",
+  "gameName": "LuckyEaster",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 2
+},
+{
+  "timestamp": "2025-07-22T20:06:08.402Z",
+  "level": "info",
+  "gameName": "LuckyEaster",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 4
+},
+{
+  "timestamp": "2025-07-22T20:06:09.629Z",
+  "level": "info",
+  "gameName": "LuckyEaster",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 4
+},
+{
+  "timestamp": "2025-07-22T20:06:10.872Z",
+  "level": "info",
+  "gameName": "LuckyEaster",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 6
+},
+{
+  "timestamp": "2025-07-22T20:06:12.105Z",
+  "level": "info",
+  "gameName": "LuckyEaster",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 6
+},
+{
+  "timestamp": "2025-07-22T20:06:13.351Z",
+  "level": "info",
+  "gameName": "LuckyEaster",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 8
+},
+{
+  "timestamp": "2025-07-22T20:06:14.582Z",
+  "level": "info",
+  "gameName": "LuckyEaster",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 8
+},
+{
+  "timestamp": "2025-07-22T20:06:15.802Z",
+  "level": "info",
+  "gameName": "LuckyEaster",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 10
+},
+{
+  "timestamp": "2025-07-22T20:06:17.027Z",
+  "level": "info",
+  "gameName": "LuckyEaster",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 10
+},
+{
+  "timestamp": "2025-07-22T20:06:18.260Z",
+  "level": "info",
+  "gameName": "LuckyEaster",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 20
+},
+{
+  "timestamp": "2025-07-22T20:06:19.470Z",
+  "level": "error",
+  "gameName": "LuckyEaster",
+  "event": "GAME_FAILED",
+  "error": "Right side of assignment cannot be destructured"
+},
+{
+  "timestamp": "2025-07-22T20:06:19.674Z",
+  "level": "info",
+  "gameName": "ViralSpiral",
+  "event": "GET_SETTINGS_SUCCESS"
+},
+{
+  "timestamp": "2025-07-22T20:06:19.679Z",
+  "level": "info",
+  "gameName": "ViralSpiral",
+  "event": "SAVE_SETTINGS_SUCCESS"
+},
+{
+  "timestamp": "2025-07-22T20:06:19.895Z",
+  "level": "info",
+  "gameName": "ViralSpiral",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 0.2
+},
+{
+  "timestamp": "2025-07-22T20:06:21.178Z",
+  "level": "info",
+  "gameName": "ViralSpiral",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 0.2
+},
+{
+  "timestamp": "2025-07-22T20:06:22.439Z",
+  "level": "info",
+  "gameName": "ViralSpiral",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 0.4
+},
+{
+  "timestamp": "2025-07-22T20:06:23.682Z",
+  "level": "info",
+  "gameName": "ViralSpiral",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 0.4
+},
+{
+  "timestamp": "2025-07-22T20:06:24.913Z",
+  "level": "info",
+  "gameName": "ViralSpiral",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 0.6
+},
+{
+  "timestamp": "2025-07-22T20:06:26.172Z",
+  "level": "info",
+  "gameName": "ViralSpiral",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 0.6
+},
+{
+  "timestamp": "2025-07-22T20:06:27.404Z",
+  "level": "info",
+  "gameName": "ViralSpiral",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 0.8
+},
+{
+  "timestamp": "2025-07-22T20:06:28.626Z",
+  "level": "info",
+  "gameName": "ViralSpiral",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 0.8
+},
+{
+  "timestamp": "2025-07-22T20:06:29.884Z",
+  "level": "info",
+  "gameName": "ViralSpiral",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 1
+},
+{
+  "timestamp": "2025-07-22T20:06:31.120Z",
+  "level": "info",
+  "gameName": "ViralSpiral",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 1
+},
+{
+  "timestamp": "2025-07-22T20:06:32.356Z",
+  "level": "info",
+  "gameName": "ViralSpiral",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 2
+},
+{
+  "timestamp": "2025-07-22T20:06:33.601Z",
+  "level": "info",
+  "gameName": "ViralSpiral",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 2
+},
+{
+  "timestamp": "2025-07-22T20:06:34.842Z",
+  "level": "info",
+  "gameName": "ViralSpiral",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 4
+},
+{
+  "timestamp": "2025-07-22T20:06:36.079Z",
+  "level": "info",
+  "gameName": "ViralSpiral",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 4
+},
+{
+  "timestamp": "2025-07-22T20:06:37.336Z",
+  "level": "info",
+  "gameName": "ViralSpiral",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 6
+},
+{
+  "timestamp": "2025-07-22T20:06:38.593Z",
+  "level": "info",
+  "gameName": "ViralSpiral",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 6
+},
+{
+  "timestamp": "2025-07-22T20:06:39.763Z",
+  "level": "error",
+  "gameName": "ViralSpiral",
+  "event": "GAME_FAILED",
+  "error": "Right side of assignment cannot be destructured"
+},
+{
+  "timestamp": "2025-07-22T20:06:39.958Z",
+  "level": "info",
+  "gameName": "Flodder",
+  "event": "GET_SETTINGS_SUCCESS"
+},
+{
+  "timestamp": "2025-07-22T20:06:39.962Z",
+  "level": "info",
+  "gameName": "Flodder",
+  "event": "SAVE_SETTINGS_SUCCESS"
+},
+{
+  "timestamp": "2025-07-22T20:06:40.193Z",
+  "level": "info",
+  "gameName": "Flodder",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 0.2
+},
+{
+  "timestamp": "2025-07-22T20:06:41.426Z",
+  "level": "info",
+  "gameName": "Flodder",
+  "event": "SPIN_COMPLETE",
+  "spin": 2,
+  "stake": 0.2
+},
+{
+  "timestamp": "2025-07-22T20:06:42.647Z",
+  "level": "info",
+  "gameName": "Flodder",
+  "event": "SPIN_COMPLETE",
+  "spin": 1,
+  "stake": 0.4
+},

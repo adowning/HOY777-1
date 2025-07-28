@@ -3,7 +3,6 @@ import { ref, computed, watch, onMounted } from "vue";
 import { useI18n } from 'vue-i18n';
 import { type GetGameOriginalData } from "@/interface/navBar";
 import { setLang } from "@/locale/index";
-import { useDisplay } from 'vuetify'
 import { appBarStore } from "@/store/appBar";
 import { loginBonusStore } from "@/store/loginBonus";
 import { refferalStore } from "@/store/refferal";
@@ -258,16 +257,29 @@ const eSportGames = ref<Array<any>>([
 ])
 
 // mobile version name
-const { name, width } = useDisplay()
+const mobileWidth = ref(window.innerWidth);
+const name = computed(() => {
+  if (mobileWidth.value < 600) {
+    return 'sm';
+  } else if (mobileWidth.value < 960) {
+    return 'md';
+  } else if (mobileWidth.value < 1264) {
+    return 'lg';
+  } else {
+    return 'xl';
+  }
+});
+const width = computed(() => mobileWidth.value);
+
+window.addEventListener('resize', () => {
+  mobileWidth.value = window.innerWidth;
+});
+
 const { setLanguage } = gameStore();
 
 const mobileVersion = computed(() => {
   return name.value
 });
-
-const mobileWidth = computed(() => {
-  return width.value
-})
 
 const refferalAppBarShow = computed(() => {
   const { getRefferalAppBarShow } = storeToRefs(refferalStore());
@@ -860,17 +872,12 @@ onMounted(async () => {
 </script>
 
 <template>
-  <v-navigation-drawer
-    temporary
-    expand-on-hover
-    :scrim-opacity="0.6"
-    :touchless="true"
+  <div
     class="nav-background pb-16"
-    :width="192"
-    v-model="drawer"
+    v-if="drawer"
   >
     <template v-slot:prepend>
-      <v-list-item
+      <div
         class="m-casino-toggle"
         :class="refferalAppBarShow ? 'mt-8' : ''"
         style="height: 56px; visibility: hidden"
@@ -886,7 +893,7 @@ onMounted(async () => {
             <p>{{ t("navBar.sport") }}</p>
           </div>
         </label>
-      </v-list-item>
+      </div>
     </template>
     <div class="m-nav-drawer-content" @scroll="navDrawerScroll">
       <!-- <div class="m-space-between">
@@ -924,75 +931,10 @@ onMounted(async () => {
           {{ t("navBar.refer_earn_text") }}
         </p>
       </div>
-      <!-- <v-list density="compact" nav class="mt-1 px-0">
-        <v-card color="#15161C" theme="dark" style="border-radius: 0px">
-          <v-row class="ma-2 align-center">
-            <span class="m-card-title">{{ t("navBar.my_vip_perks") }}</span>
-            <span class="ml-15 m-more-font">{{ t("navBar.more") }}</span>
-            <v-btn class="m-right-btn" icon="true" height="24" width="24">
-              <img src="@/assets/public/svg/icon_public_11.svg" width="16" />
-            </v-btn>
-          </v-row>
-          <v-row class="ma-1">
-            <v-col cols="6" class="pa-1 relative">
-              <v-list-item class="ma-0 pa-0" height="48px" @click="openLoginBonusDialog">
-                <img src="@/assets/public/svg/bg_public_16.svg" class="m-img-width" />
-                <img
-                  src="@/assets/public/image/img_public_01.png"
-                  class="m-navbar-task-img-position"
-                  width="34"
-                />
-                <p class="text-700-10 white m-navbar-task-text-position">
-                  {{ t("navBar.task_text") }}
-                </p>
-                <p class="text-400-8 white m-navbar-unlock-text-left-position">
-                  {{ t("navBar.unlock_text") }}
-                </p>
-              </v-list-item>
-            </v-col>
-            <v-col cols="6" class="pa-1">
-              <v-list-item
-                class="ma-0 pa-0"
-                height="48px"
-                @click="openRouletteBonusDialog"
-              >
-                <img
-                  src="@/assets/public/svg/bg_public_17.svg"
-                  class="m-spin-img-width"
-                />
-                <img
-                  src="@/assets/public/image/img_public_02.png"
-                  class="m-navbar-spin-img-position"
-                  width="28"
-                />
-                <p class="text-700-10 white m-navbar-spin-text-position">
-                  {{ t("navBar.spin_text") }}
-                </p>
-                <p class="text-400-8 white m-navbar-unlock-text-right-position">
-                  {{ t("navBar.unlock_text") }}
-                </p>
-              </v-list-item>
-            </v-col>
-          </v-row>
-        </v-card>
-      </v-list>
-      <v-list density="compact" nav class="px-0">
-        <v-list-item class="ma-0 pa-0" @click="openRefferalDialogShow">
-          <img src="@/assets/public/image/img_public_18.png" class="m-earn-free-img" />
-          <img
-            src="@/assets/public/image/img_public_17.png"
-            class="m-navbar-free-money-img-position"
-            width="23"
-          />
-          <p class="text-700-12 color-29263C m-navbar-free-money-text-position">
-            {{ t("navBar.earn_free_text") }}
-          </p>
-        </v-list-item>
-      </v-list> -->
-      <v-list v-model:opened="casinoOpen">
-        <v-list-group value="Casino">
+      <div v-model:opened="casinoOpen">
+        <div value="Casino">
           <template v-slot:activator="{ props }">
-            <v-list-item
+            <div
               class="m-user-item1 m-nav-menu white"
               v-bind="props"
               link
@@ -1011,17 +953,17 @@ onMounted(async () => {
                   :transform-source="casinoIconTransform"
                 ></inline-svg>
               </template>
-              <v-list-item-title
+              <div
                 class="ml-2"
                 :class="casinoOpen.length == 1 ? 'gray' : 'white'"
               >
                 {{ t("navBar.casino") }}
-              </v-list-item-title>
-            </v-list-item>
+              </div>
+            </div>
           </template>
-          <v-card color="#15161C" theme="dark" class="mt-6" style="border-radius: 0px">
-            <v-list>
-              <v-list-item
+          <div color="#15161C" theme="dark" class="mt-6" style="border-radius: 0px">
+            <div>
+              <div
                 v-for="(item, index) in casinoMenuList"
                 class="m-casino-sub-img m-nav-sub-menu"
                 :value="item.slug"
@@ -1031,204 +973,21 @@ onMounted(async () => {
                 <template v-slot:prepend>
                   <inline-svg :src="item.image" width="16"></inline-svg>
                 </template>
-                <v-list-item-title
+                <div
                   class="ml-2"
                   :class="activeItem == item.name ? 'white' : 'gray'"
                 >
                   {{ item.name }}
-                </v-list-item-title>
-              </v-list-item>
-              <!-- <v-list-item
-                class="m-casino-sub-img m-nav-sub-menu"
-                value="favorites"
-                style="margin-bottom: -4px !important; margin-top: -4px !important"
-                @click="handleGameFilter(t('navBar.casino_sub_menu.favorites'))"
-              >
-                <template v-slot:prepend>
-                  <inline-svg
-                    :src="icon_public_36"
-                    width="16"
-                    :transform-source="favoriteIconTransform"
-                  ></inline-svg>
-                </template>
-                <v-list-item-title
-                  class="ml-2"
-                  :class="
-                    activeItem == t('navBar.casino_sub_menu.favorites') ? 'white' : 'gray'
-                  "
-                >
-                  {{ t("navBar.casino_sub_menu.favorites") }}
-                </v-list-item-title>
-              </v-list-item>
-              <v-list-item
-                class="m-casino-sub-img m-nav-sub-menu"
-                value="recently played"
-                v-model="activeItem"
-                style="margin-bottom: -4px !important; margin-top: -4px !important"
-                @click="handleGameFilter(t('navBar.casino_sub_menu.recently_played'))"
-              >
-                <template v-slot:prepend>
-                  <inline-svg
-                    :src="icon_public_35"
-                    width="16"
-                    :transform-source="recentlyIconTransform"
-                  ></inline-svg>
-                </template>
-                <v-list-item-title
-                  class="ml-2"
-                  :class="
-                    activeItem == t('navBar.casino_sub_menu.recently_played')
-                      ? 'white'
-                      : 'gray'
-                  "
-                >
-                  {{ t("navBar.casino_sub_menu.recently_played") }}
-                </v-list-item-title>
-              </v-list-item>
-              <v-list-item
-                class="m-casino-sub-img m-nav-sub-menu"
-                value="hot"
-                style="margin-bottom: -4px !important; margin-top: -4px !important"
-                @click="handleGameFilter(t('navBar.casino_sub_menu.hot_text'))"
-              >
-                <template v-slot:prepend>
-                  <inline-svg
-                    :src="icon_public_95"
-                    width="16"
-                    :transform-source="hotIconTransform"
-                  ></inline-svg>
-                </template>
-                <v-list-item-title
-                  class="ml-2"
-                  :class="
-                    activeItem == t('navBar.casino_sub_menu.hot_text') ? 'white' : 'gray'
-                  "
-                >
-                  {{ t("navBar.casino_sub_menu.hot_text") }}
-                </v-list-item-title>
-              </v-list-item>
-              <v-menu
-                location="center"
-                offset="10"
-                content-class="m-original-dropdown"
-                v-model:model-value="originalMenu"
-                transition="slide-x-transition"
-              >
-                <template v-slot:activator="{ props }">
-                  <v-list-item
-                    v-bind="props"
-                    class="m-casino-sub-img m-nav-sub-menu"
-                    :append-icon="originalMenu ? 'mdi-chevron-left' : 'mdi-chevron-right'"
-                    value="game originals"
-                    style="margin-bottom: -4px !important; margin-top: -4px !important"
-                  >
-                    <template v-slot:prepend>
-                      <inline-svg
-                        :src="icon_public_37"
-                        width="16"
-                        :transform-source="originalIconTransform"
-                      ></inline-svg>
-                    </template>
-                    <v-list-item-title
-                      class="ml-2"
-                      :class="originalMenu ? 'white' : 'gray'"
-                    >
-                      {{ t("navBar.casino_sub_menu.game_originals") }}
-                    </v-list-item-title>
-                  </v-list-item>
-                </template>
-                <v-list theme="dark" bg-color="#15161C" width="166" class="ml-6">
-                  <v-list-item
-                    v-for="(item, i) in originalGames"
-                    :key="i"
-                    :value="item.name"
-                    class="m-avatar-img m-nav-sub-menu"
-                    prepend-avatar="@/assets/public/svg/icon_public_21.svg"
-                    :title="item.name"
-                    style="font-size: 11px !important; font-weight: 500 !important"
-                    @click="handleEnterGame(item.id, item.name)"
-                  >
-                  </v-list-item>
-                </v-list>
-              </v-menu>
-              <v-list-item
-                class="m-casino-sub-img m-nav-sub-menu"
-                value="slots"
-                style="margin-bottom: -4px !important; margin-top: -4px !important"
-                @click="handleGameFilter(t('navBar.casino_sub_menu.slots'))"
-              >
-                <template v-slot:prepend>
-                  <inline-svg
-                    :src="icon_public_38"
-                    width="16"
-                    :transform-source="slotIconTransform"
-                  ></inline-svg>
-                </template>
-                <v-list-item-title
-                  class="ml-2"
-                  :class="
-                    activeItem == t('navBar.casino_sub_menu.slots') ? 'white' : 'gray'
-                  "
-                >
-                  {{ t("navBar.casino_sub_menu.slots") }}
-                </v-list-item-title>
-              </v-list-item>
-              <v-list-item
-                class="m-casino-sub-img m-nav-sub-menu"
-                value="live casino"
-                style="margin-bottom: -4px !important; margin-top: -4px !important"
-                @click="handleGameFilter(t('navBar.casino_sub_menu.live_casino'))"
-              >
-                <template v-slot:prepend>
-                  <inline-svg
-                    :src="icon_public_39"
-                    width="16"
-                    :transform-source="liveIconTransform"
-                  ></inline-svg>
-                </template>
-                <v-list-item-title
-                  class="ml-2"
-                  :class="
-                    activeItem == t('navBar.casino_sub_menu.live_casino')
-                      ? 'white'
-                      : 'gray'
-                  "
-                >
-                  {{ t("navBar.casino_sub_menu.live_casino") }}
-                </v-list-item-title>
-              </v-list-item>
-              <v-list-item
-                class="m-casino-sub-img m-nav-sub-menu"
-                value="provider"
-                style="margin-bottom: -4px !important; margin-top: -4px !important"
-                @click="handleGameFilter(t('navBar.casino_sub_menu.provider_text'))"
-              >
-                <template v-slot:prepend>
-                  <inline-svg
-                    :src="icon_public_96"
-                    width="16"
-                    :transform-source="providerIconTransform"
-                  ></inline-svg>
-                </template>
-                <v-list-item-title
-                  class="ml-2"
-                  :class="
-                    activeItem == t('navBar.casino_sub_menu.provider_text')
-                      ? 'white'
-                      : 'gray'
-                  "
-                >
-                  {{ t("navBar.casino_sub_menu.provider_text") }}
-                </v-list-item-title>
-              </v-list-item> -->
-            </v-list>
-          </v-card>
-        </v-list-group>
-      </v-list>
-      <v-list v-model:opened="sportOpen" class="mb-2">
-        <v-list-group value="Sport">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div v-model:opened="sportOpen" class="mb-2">
+        <div value="Sport">
           <template v-slot:activator="{ props }">
-            <v-list-item
+            <div
               class="m-user-item1 m-nav-menu white"
               v-bind="props"
               link
@@ -1247,17 +1006,17 @@ onMounted(async () => {
                   :transform-source="sportIconTransform"
                 ></inline-svg>
               </template>
-              <v-list-item-title
+              <div
                 class="ml-2"
                 :class="sportOpen.length == 1 ? 'gray' : 'white'"
               >
                 {{ t("navBar.sport") }}
-              </v-list-item-title>
-            </v-list-item>
+              </div>
+            </div>
           </template>
-          <v-card color="#15161C" theme="dark" class="mt-6" style="border-radius: 0px">
-            <v-list>
-              <v-list-item
+          <div color="#15161C" theme="dark" class="mt-6" style="border-radius: 0px">
+            <div>
+              <div
                 class="m-casino-sub-img m-nav-sub-menu"
                 value="my_bet"
                 style="margin-bottom: -4px !important; margin-top: -4px !important"
@@ -1265,16 +1024,16 @@ onMounted(async () => {
                 <template v-slot:prepend>
                   <inline-svg :src="icon_public_114" width="16"></inline-svg>
                 </template>
-                <v-list-item-title
+                <div
                   class="ml-2"
                   :class="
                     activeItem == t('navBar.sport_sub_menu.text_1') ? 'white' : 'gray'
                   "
                 >
                   {{ t("navBar.sport_sub_menu.text_1") }}
-                </v-list-item-title>
-              </v-list-item>
-              <v-list-item
+                </div>
+              </div>
+              <div
                 class="m-casino-sub-img m-nav-sub-menu"
                 value="popular"
                 style="margin-bottom: -4px !important; margin-top: -4px !important"
@@ -1282,12 +1041,12 @@ onMounted(async () => {
                 <template v-slot:prepend>
                   <inline-svg :src="icon_public_95" width="16"></inline-svg>
                 </template>
-                <v-list-item-title class="ml-2 white">
+                <div class="ml-2 white">
                   {{ t("navBar.sport_sub_menu.text_2") }}
-                </v-list-item-title>
-              </v-list-item>
+                </div>
+              </div>
 
-              <v-list-item
+              <div
                 class="m-casino-sub-img m-nav-sub-menu ml-2"
                 value="sport_1"
                 style="margin-bottom: -4px !important; margin-top: -4px !important"
@@ -1298,11 +1057,11 @@ onMounted(async () => {
                 <template v-slot:prepend>
                   <inline-svg :src="icon_public_116" width="16"></inline-svg>
                 </template>
-                <v-list-item-title class="ml-1 gray">
+                <div class="ml-1 gray">
                   {{ t("navBar.sport_sub_menu.text_3") }}
-                </v-list-item-title>
-              </v-list-item>
-              <v-list-item
+                </div>
+              </div>
+              <div
                 class="m-casino-sub-img m-nav-sub-menu ml-2"
                 value="sport_1"
                 style="margin-bottom: -4px !important; margin-top: -4px !important"
@@ -1311,11 +1070,11 @@ onMounted(async () => {
                 <template v-slot:prepend>
                   <inline-svg :src="icon_public_117" width="16"></inline-svg>
                 </template>
-                <v-list-item-title class="ml-1 gray">
+                <div class="ml-1 gray">
                   {{ t("navBar.sport_sub_menu.text_4") }}
-                </v-list-item-title>
-              </v-list-item>
-              <v-list-item
+                </div>
+              </div>
+              <div
                 class="m-casino-sub-img m-nav-sub-menu ml-2"
                 value="sport_1"
                 style="margin-bottom: -4px !important; margin-top: -4px !important"
@@ -1326,12 +1085,12 @@ onMounted(async () => {
                 <template v-slot:prepend>
                   <inline-svg :src="icon_public_118" width="16"></inline-svg>
                 </template>
-                <v-list-item-title class="ml-1 gray">
+                <div class="ml-1 gray">
                   {{ t("navBar.sport_sub_menu.text_5") }}
-                </v-list-item-title>
-              </v-list-item>
+                </div>
+              </div>
 
-              <v-list-item
+              <div
                 class="m-casino-sub-img m-nav-sub-menu ml-2"
                 value="sport_1"
                 style="margin-bottom: -4px !important; margin-top: -4px !important"
@@ -1344,11 +1103,11 @@ onMounted(async () => {
                 <template v-slot:prepend>
                   <inline-svg :src="icon_public_119" width="16"></inline-svg>
                 </template>
-                <v-list-item-title class="ml-1 gray">
+                <div class="ml-1 gray">
                   {{ t("navBar.sport_sub_menu.text_6") }}
-                </v-list-item-title>
-              </v-list-item>
-              <v-list-item
+                </div>
+              </div>
+              <div
                 class="m-casino-sub-img m-nav-sub-menu ml-2"
                 value="sport_1"
                 style="margin-bottom: -4px !important; margin-top: -4px !important"
@@ -1357,11 +1116,11 @@ onMounted(async () => {
                 <template v-slot:prepend>
                   <inline-svg :src="icon_public_119" width="16"></inline-svg>
                 </template>
-                <v-list-item-title class="ml-1 gray">
+                <div class="ml-1 gray">
                   {{ t("navBar.sport_sub_menu.text_7") }}
-                </v-list-item-title>
-              </v-list-item>
-              <v-list-item
+                </div>
+              </div>
+              <div
                 class="m-casino-sub-img m-nav-sub-menu ml-2"
                 value="sport_1"
                 style="margin-bottom: -4px !important; margin-top: -4px !important"
@@ -1370,11 +1129,11 @@ onMounted(async () => {
                 <template v-slot:prepend>
                   <inline-svg :src="icon_public_119" width="16"></inline-svg>
                 </template>
-                <v-list-item-title class="ml-1 gray">
+                <div class="ml-1 gray">
                   {{ t("navBar.sport_sub_menu.text_8") }}
-                </v-list-item-title>
-              </v-list-item>
-              <v-list-item
+                </div>
+              </div>
+              <div
                 class="m-casino-sub-img m-nav-sub-menu ml-2"
                 value="sport_1"
                 style="margin-bottom: -4px !important; margin-top: -4px !important"
@@ -1383,11 +1142,11 @@ onMounted(async () => {
                 <template v-slot:prepend>
                   <inline-svg :src="icon_public_119" width="16"></inline-svg>
                 </template>
-                <v-list-item-title class="ml-1 gray">
+                <div class="ml-1 gray">
                   {{ t("navBar.sport_sub_menu.text_9") }}
-                </v-list-item-title>
-              </v-list-item>
-              <v-list-item
+                </div>
+              </div>
+              <div
                 class="m-casino-sub-img m-nav-sub-menu ml-2"
                 value="sport_1"
                 style="margin-bottom: -4px !important; margin-top: -4px !important"
@@ -1396,11 +1155,11 @@ onMounted(async () => {
                 <template v-slot:prepend>
                   <inline-svg :src="icon_public_119" width="16"></inline-svg>
                 </template>
-                <v-list-item-title class="ml-1 gray">
+                <div class="ml-1 gray">
                   {{ t("navBar.sport_sub_menu.text_10") }}
-                </v-list-item-title>
-              </v-list-item>
-              <v-list-item
+                </div>
+              </div>
+              <div
                 class="m-casino-sub-img m-nav-sub-menu ml-2"
                 value="sport_1"
                 style="margin-bottom: -4px !important; margin-top: -4px !important"
@@ -1409,20 +1168,20 @@ onMounted(async () => {
                 <template v-slot:prepend>
                   <inline-svg :src="icon_public_120" width="16"></inline-svg>
                 </template>
-                <v-list-item-title class="ml-1 gray">
+                <div class="ml-1 gray">
                   {{ t("navBar.sport_sub_menu.text_11") }}
-                </v-list-item-title>
-              </v-list-item>
+                </div>
+              </div>
 
-              <v-menu
+              <div
                 location="center"
                 offset="10"
-                content-class="m-original-dropdown"
+                class="m-original-dropdown"
                 v-model:model-value="sportMenu"
                 transition="slide-x-transition"
               >
                 <template v-slot:activator="{ props }">
-                  <v-list-item
+                  <div
                     v-bind="props"
                     class="m-casino-sub-img m-nav-sub-menu"
                     :append-icon="sportMenu ? 'mdi-chevron-left' : 'mdi-chevron-right'"
@@ -1436,19 +1195,19 @@ onMounted(async () => {
                         :transform-source="sportMenuIconTransform"
                       ></inline-svg>
                     </template>
-                    <v-list-item-title class="ml-2" :class="sportMenu ? 'white' : 'gray'">
+                    <div class="ml-2" :class="sportMenu ? 'white' : 'gray'">
                       {{ t("navBar.sport_sub_menu.text_12") }}
-                    </v-list-item-title>
-                  </v-list-item>
+                    </div>
+                  </div>
                 </template>
-                <v-list
+                <div
                   theme="dark"
                   bg-color="#15161C"
                   width="166"
                   class="ml-6"
                   style="border-radius: 8px; height: 400px; overflow-y: auto"
                 >
-                  <v-list-item
+                  <div
                     v-for="(item, i) in sportGames"
                     :key="i"
                     :value="item.name"
@@ -1458,18 +1217,18 @@ onMounted(async () => {
                     style="font-size: 11px !important; font-weight: 500 !important"
                     @click="handleSportGame(item.query)"
                   >
-                  </v-list-item>
-                </v-list>
-              </v-menu>
-              <v-menu
+                  </div>
+                </div>
+              </div>
+              <div
                 location="center"
                 offset="10"
-                content-class="m-original-dropdown"
+                class="m-original-dropdown"
                 v-model:model-value="eSportMenu"
                 transition="slide-x-transition"
               >
                 <template v-slot:activator="{ props }">
-                  <v-list-item
+                  <div
                     v-bind="props"
                     class="m-casino-sub-img m-nav-sub-menu"
                     :append-icon="eSportMenu ? 'mdi-chevron-left' : 'mdi-chevron-right'"
@@ -1483,16 +1242,16 @@ onMounted(async () => {
                         :transform-source="eSportMenuIconTransform"
                       ></inline-svg>
                     </template>
-                    <v-list-item-title
+                    <div
                       class="ml-2"
                       :class="eSportMenu ? 'white' : 'gray'"
                     >
                       {{ t("navBar.sport_sub_menu.text_13") }}
-                    </v-list-item-title>
-                  </v-list-item>
+                    </div>
+                  </div>
                 </template>
-                <v-list theme="dark" bg-color="#15161C" width="166" class="ml-6">
-                  <v-list-item
+                <div theme="dark" bg-color="#15161C" width="166" class="ml-6">
+                  <div
                     v-for="(item, i) in eSportGames"
                     :key="i"
                     :value="item.name"
@@ -1502,16 +1261,16 @@ onMounted(async () => {
                     style="font-size: 11px !important; font-weight: 500 !important"
                     @click="handleSportGame(item.query)"
                   >
-                  </v-list-item>
-                </v-list>
-              </v-menu>
-            </v-list>
-          </v-card>
-        </v-list-group>
-      </v-list>
-      <v-divider class="divider"></v-divider>
-      <v-list>
-        <v-list-item
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="divider" />
+      <div>
+        <div
           class="m-avatar-img m-user-item1 m-nav-menu"
           style="
             margin-bottom: -4px !important;
@@ -1529,14 +1288,14 @@ onMounted(async () => {
               :transform-source="promotionIconTransform"
             ></inline-svg>
           </template>
-          <v-list-item-title
+          <div
             class="ml-2"
             :class="navItem == t('navBar.menu_item_1.promotions') ? 'white' : 'gray'"
           >
             {{ t("navBar.menu_item_1.promotions") }}
-          </v-list-item-title>
-        </v-list-item>
-        <v-list-item
+          </div>
+        </div>
+        <div
           class="m-vip-club m-nav-menu"
           style="
             margin-bottom: -4px !important;
@@ -1554,11 +1313,11 @@ onMounted(async () => {
               :transform-source="vipIconTransform"
             ></inline-svg>
           </template>
-          <v-list-item-title class="ml-2">
+          <div class="ml-2">
             {{ t("navBar.menu_item_1.vip_club") }}
-          </v-list-item-title>
-        </v-list-item>
-        <v-list-item
+          </div>
+        </div>
+        <div
           class="m-avatar-img m-user-item1 m-nav-menu"
           style="
             margin-bottom: -4px !important;
@@ -1574,14 +1333,14 @@ onMounted(async () => {
               :transform-source="affiliateIconTransform"
             ></inline-svg>
           </template>
-          <v-list-item-title
+          <div
             class="ml-2"
             :class="navItem == t('navBar.menu_item_1.affiliate') ? 'white' : 'gray'"
           >
             {{ t("navBar.menu_item_1.affiliate") }}
-          </v-list-item-title>
-        </v-list-item>
-        <v-list-item
+          </div>
+        </div>
+        <div
           class="m-avatar-img m-user-item1 m-nav-menu"
           style="
             margin-bottom: -8px !important;
@@ -1597,17 +1356,17 @@ onMounted(async () => {
               :transform-source="blogIconTransform"
             ></inline-svg>
           </template>
-          <v-list-item-title
+          <div
             class="ml-2"
             :class="navItem == t('navBar.menu_item_1.blog') ? 'white' : 'gray'"
           >
             {{ t("navBar.menu_item_1.blog") }}
-          </v-list-item-title>
-        </v-list-item>
-      </v-list>
-      <v-divider class="divider"></v-divider>
-      <v-list>
-        <v-list-item
+          </div>
+        </div>
+      </div>
+      <hr class="divider" />
+      <div>
+        <div
           class="m-avatar-img m-user-item1 m-nav-menu"
           style="
             margin-bottom: -8px !important;
@@ -1623,25 +1382,25 @@ onMounted(async () => {
               :transform-source="supportIconTransform"
             ></inline-svg>
           </template>
-          <v-list-item-title
+          <div
             class="ml-2"
             :class="navItem == t('navBar.live_support') ? 'white' : 'gray'"
           >
             {{ t("navBar.live_support") }}
-          </v-list-item-title>
-        </v-list-item>
-      </v-list>
-      <v-list>
-        <v-menu
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
           location="center"
           offset="16"
-          content-class="m-language-dropdown m-user-item1"
+          class="m-language-dropdown m-user-item1"
           v-model:model-value="languageMenu"
           transition="slide-x-transition"
         >
           <template v-slot:activator="{ props }">
-            <v-card color="#15161C" theme="dark" class="mx-2 m-language-item" height="40">
-              <v-list-item
+            <div color="#15161C" theme="dark" class="mx-2 m-language-item" height="40">
+              <div
                 v-bind="props"
                 class="m-casino-sub-img m-nav-menu"
                 :append-icon="languageMenu ? 'mdi-chevron-left' : 'mdi-chevron-right'"
@@ -1653,22 +1412,22 @@ onMounted(async () => {
                     :transform-source="languageIconTransform"
                   ></inline-svg>
                 </template>
-                <v-list-item-title class="ml-2" :class="languageMenu ? 'white' : 'gray'">
+                <div class="ml-2" :class="languageMenu ? 'white' : 'gray'">
                   {{ language }}
-                </v-list-item-title>
-              </v-list-item>
-            </v-card>
+                </div>
+              </div>
+            </div>
           </template>
-          <v-list theme="dark" bg-color="#15161C" width="166" class="text-center pt-0">
-            <v-list-item
+          <div theme="dark" bg-color="#15161C" width="166" class="text-center pt-0">
+            <div
               :title="t('navBar.language.title')"
               class="m-avatar-img m-nav-sub-menu"
-            ></v-list-item>
-            <v-divider
+            ></div>
+            <hr
               style="margin: auto; width: 134px; border: 1px solid black !important"
               class="mb-2"
-            ></v-divider>
-            <v-list-item
+            />
+            <div
               v-for="(item, i) in langItems"
               :key="i"
               :value="item"
@@ -1676,12 +1435,12 @@ onMounted(async () => {
               @click="handleLanguageDropdown(item)"
               :class="language == item.value ? 'nav-lang-selected-item' : ''"
             >
-              <v-list-item-title>{{ item.value }}</v-list-item-title>
-            </v-list-item>
-          </v-list>
-        </v-menu>
-      </v-list>
-      <v-list-item class="m-theme-toggle">
+              <div>{{ item.value }}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="m-theme-toggle">
         <input type="checkbox" id="m-theme-toggle" v-model="soundCheckBox" />
         <label for="m-theme-toggle">
           <div class="dark">
@@ -1701,16 +1460,12 @@ onMounted(async () => {
             <p class="text-700-10 ml-1">{{ t("navBar.sound_mode.off") }}</p>
           </div>
         </label>
-      </v-list-item>
+      </div>
     </div>
-  </v-navigation-drawer>
+  </div>
 </template>
 
 <style lang="scss" scoped>
-::deep(.v-list-item__overlay) {
-  opacity: 1 !important;
-}
-
 .m-space-between {
   display: flex;
   justify-content: space-between;
@@ -1800,21 +1555,6 @@ onMounted(async () => {
   border: 1px solid #00b25c;
   margin: 5px;
   border-radius: 14px;
-}
-
-::deep(.v-navigation-drawer__content) {
-  height: 100vh !important;
-  overflow-y: auto !important;
-  overflow-x: hidden !important;
-
-  &::-webkit-scrollbar {
-    width: 0px;
-  }
-
-  &::-webkit-scrollbar-thumb {
-    background: transparent;
-    border-radius: 20px;
-  }
 }
 
 .m-nav-background {
@@ -1951,79 +1691,14 @@ onMounted(async () => {
 
 .m-avatar-img {
   min-height: 40px !important;
-
-  :deep(.v-avatar--density-default) {
-    height: 24px;
-    width: 20px;
-    border-radius: 0px;
-  }
-
-  :deep(.v-list-item-title) {
-    font-weight: 700;
-    font-size: 12px !important;
-    color: #7782aa;
-  }
-
-  :deep(img) {
-    width: 16px;
-    height: 18px;
-    margin-top: 2px;
-  }
 }
 
 .m-vip-club {
   min-height: 40px !important;
-
-  :deep(.v-avatar--density-default) {
-    height: 24px;
-    width: 20px;
-    border-radius: 0px;
-  }
-
-  :deep(.v-list-item-title) {
-    font-weight: 700;
-    font-size: 12px;
-    color: #f9bc01;
-  }
-
-  :deep(img) {
-    width: 16px;
-    height: 16px;
-    margin-top: 4px;
-  }
 }
 
 .m-casino-sub-img {
   min-height: 40px !important;
-
-  :deep(.v-avatar--density-default) {
-    height: 22px;
-    width: 22px;
-    border-radius: 0px;
-  }
-
-  :deep(.v-list-item-title) {
-    font-weight: 500;
-    font-size: 12px;
-    color: #7782aa;
-  }
-
-  :deep(img) {
-    width: 16px;
-    height: 16px;
-    margin-top: 4px;
-  }
-
-  :deep(.v-list-item__content) {
-    align-self: center;
-    grid-area: content;
-    overflow: hidden;
-    width: 100px;
-  }
-
-  :deep(.v-list-item__append > .v-icon) {
-    margin-inline-start: 6px;
-  }
 }
 
 .divider {
@@ -2034,37 +1709,25 @@ onMounted(async () => {
 .m-language-item {
   border-radius: 8px;
   background: var(--text-box-1211-f-31, #15161c);
+
   /* Text Box */
   box-shadow: 2px 0px 4px 1px rgba(0, 0, 0, 0.12) inset;
-
-  :deep(.v-list-item__content) {
-    align-self: center;
-    grid-area: content;
-    overflow: hidden;
-    width: 76px;
-  }
-
-  :deep(.v-list-item__append > .v-icon) {
-    margin-inline-start: 18px;
-  }
 }
 
 // dark and light toggle switch
 .m-theme-toggle {
-  height: 30px;
+  height: 50px;
 
   label {
-    top: 10px;
-    left: 50%;
-    transform: translateX(-50%);
     width: 164px;
-    height: 30px;
-    position: absolute;
+    height: 32px;
+    position: relative;
     display: block;
     background: #15161c;
-    border-radius: 20px !important;
+    border-radius: 18px !important;
     cursor: pointer;
     transition: 0.3s;
+    margin: auto;
 
     div {
       position: absolute;
@@ -2078,37 +1741,35 @@ onMounted(async () => {
     }
 
     .dark {
-      left: 16px;
+      left: 20px;
       transition: 0.3s;
       color: white;
 
       img {
-        width: 20px;
-        height: 24px;
-        margin-right: 4px;
+        width: 16px;
+        height: 16px;
       }
     }
 
     .light {
-      left: 108px;
+      left: 98px;
       transition: 0.3s;
       color: #7782aa;
 
       img {
-        width: 20px;
-        margin-right: 4px;
+        width: 16px;
       }
     }
   }
 
   label:after {
     content: "";
-    width: 74px;
+    width: 80px;
     height: 28px;
     position: absolute;
-    top: 1px;
-    left: 1px;
-    background: #1d2027;
+    top: 2px;
+    left: 2px;
+    background: #23262f;
     border-radius: 18px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
     transition: 0.3s;
@@ -2121,12 +1782,12 @@ onMounted(async () => {
   }
 
   input:checked + label:after {
-    left: 88px;
-    // transform: translateX(-100%);
+    left: 162px;
+    transform: translateX(-100%);
   }
 
   label:active:after {
-    width: 74px;
+    width: 80px;
   }
 
   input:checked + label .dark {
@@ -2138,127 +1799,57 @@ onMounted(async () => {
   }
 }
 
-:deep(.m-original-dropdown) {
-  // top: 270px !important;
-  left: 184px !important;
-}
-
-:deep(.m-original-dropdown:after) {
-  content: "";
-  position: absolute;
-  align-self: center;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 0px;
-  border: 13px solid #15161c;
-  border-left-color: transparent;
-  border-top-color: transparent;
-  border-bottom-color: transparent;
-  border-top-width: 6px;
-  border-bottom-width: 6px;
-}
-
-:deep(.m-language-dropdown) {
-  left: 208px !important;
-  --v-overlay-anchor-origin: none !important;
-  transform-origin: unset !important;
-}
-
-:deep(.m-language-dropdown:after) {
-  content: "";
-  position: absolute;
-  align-self: center;
-  top: 50%;
-  transform: translateY(-50%);
-  left: -24px;
-  border: 13px solid #15161c;
-  border-left-color: transparent;
-  border-top-color: transparent;
-  border-bottom-color: transparent;
-  border-top-width: 6px;
-  border-bottom-width: 6px;
+.m-original-dropdown {
 }
 
 .m-navbar-free-money-img-position {
   position: absolute;
-  left: 28px;
+  left: 14px;
   top: 0px;
 }
 
 .m-navbar-free-money-text-position {
   position: absolute;
-  left: 62px;
-  top: 5px;
+  left: 50px;
+  top: 10px;
 }
 
 .m-navbar-task-img-position {
   position: absolute;
-  left: 4px;
-  top: 0px;
+  left: 6px;
+  top: -6px;
 }
 
 .m-navbar-task-text-position {
   position: absolute;
-  left: 40px;
-  top: 8px;
+  left: 48px;
+  top: 2px;
 }
 
 .m-navbar-unlock-text-left-position {
   position: absolute;
-  left: 37px;
-  top: 21px;
+  left: 48px;
+  top: 20px;
+  font-size: 12px;
 }
 
 .m-navbar-spin-img-position {
   position: absolute;
   left: 4px;
-  top: 8px;
+  top: 2px;
 }
 
 .m-navbar-spin-text-position {
   position: absolute;
-  left: 40px;
-  top: 8px;
+  left: 48px;
+  top: 2px;
 }
 
 .m-navbar-unlock-text-right-position {
   position: absolute;
-  left: 37px;
-  top: 21px;
-}
-
-.m-nav-menu {
-  :deep(.v-list-item-title) {
-    font-size: 12px !important;
-    font-weight: 700 !important;
-  }
-
-  :deep(.v-avatar) {
-    margin-right: 10px !important;
-  }
-}
-
-.m-nav-sub-menu {
-  :deep(.v-list-item-title) {
-    font-size: 11px !important;
-    font-weight: 500 !important;
-  }
-
-  :deep(.v-avatar) {
-    margin-right: 6px !important;
-  }
-
-  :deep(.mdi-chevron-right::before) {
-    font-size: 18px;
-  }
-
-  :deep(.mdi-chevron-left::before) {
-    font-size: 18px;
-  }
-}
-
-.m-user-item1 {
-  padding-top: 0px !important;
-  padding-bottom: 0px !important;
+  left: 48px;
+  top: 20px;
+  font-size: 12px;
 }
 </style>
+

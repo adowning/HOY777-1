@@ -4,7 +4,6 @@ import { relations } from 'drizzle-orm'
 import {
   boolean,
   integer,
-  jsonb,
   pgEnum,
   pgTable,
   text,
@@ -12,6 +11,7 @@ import {
   varchar,
 } from 'drizzle-orm/pg-core'
 import { createInsertSchema, createSelectSchema } from 'drizzle-zod'
+import { z } from 'zod'
 import { nanoid } from '../../utils/nanoid'
 import { messages } from './misc'
 import {
@@ -30,7 +30,6 @@ import {
 } from './transactions'
 import { vipInfo } from './vipInfo'
 import { wallets } from './wallets'
-import { z} from 'zod'
 export const roleEnum = pgEnum('role', ['admin', 'user'])
 
 export const users = pgTable('users', {
@@ -59,12 +58,12 @@ export const users = pgTable('users', {
   address: text('address'),
   postalCode: text('postal_code'),
   language: text('language'),
-  currentGameSession: text('current_game_sesssion').default(null),
+  currentGameSession: text('current_game_sesssion').default(''),
   locale: text('locale'),
   initialProfileComplete: boolean('initial_profile_complete').default(false),
   isSuspended: integer('is_suspended'),
   sysCommunications: boolean('sys_communications').default(false),
-  lockedPersonalInfoFields: jsonb('locked_personal_info_fields'),
+  // lockedPersonalInfoFields: jsonb('locked_personal_info_fields'),
   lastSeenAt: timestamp('last_seen_at'),
   lastStartedAt: timestamp('last_started_at'),
   lastSignInAt: timestamp('last_sign_in_at'),
@@ -97,16 +96,6 @@ export const usersRelations = relations(users, ({ one, many }) => ({
     references: [vipInfo.userId],
   }),
 }))
-
-export const selectUsersSchema = transformSchemaForOpenAPI(
-  createSelectSchema(users)
-)
-export const insertUsersSchema = transformSchemaForOpenAPI(
-  createInsertSchema(users).omit({ id: true, createdAt: true, updatedAt: true })
-)
-export const patchUsersSchema = transformSchemaForOpenAPI(
-  insertUsersSchema.partial()
-)
 export const userDocumentationSchema = z.object({
     id: z.string(),
     uid: z.string().nullable(),
@@ -114,3 +103,20 @@ export const userDocumentationSchema = z.object({
     email: z.string().email().nullable(),
     vipLevel: z.number().nullable(),
 }).describe('A simplified User object for documentation.');
+
+export const userSelectSchema = createSelectSchema(users);
+
+
+export const selectUsersSchema = transformSchemaForOpenAPI(
+  createSelectSchema(users).omit({ passwordHash: true })
+)
+
+export const insertUsersSchema = transformSchemaForOpenAPI(
+  createInsertSchema(users).omit({ id: true, createdAt: true, updatedAt: true })
+)
+
+export const patchUsersSchema = transformSchemaForOpenAPI(
+  insertUsersSchema.partial()
+)
+
+export type User = z.infer<typeof userSelectSchema>;

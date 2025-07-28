@@ -41,10 +41,10 @@ export const wallets = pgTable(
   },
   (table) => {
     return {
-      userIdIdx: index('wallet_user_id_idx').on(table.userId),
-      operatorIdIdx: index('wallet_operator_id_idx').on(table.operatorId),
-      isActiveIdx: index('wallet_is_active_idx').on(table.isActive),
-      cashtagIdx: index('wallet_cashtag_idx').on(table.cashtag),
+      // userIdIdx: index('wallet_user_id_idx').on(table.userId),
+      // operatorIdIdx: index('wallet_operator_id_idx').on(table.operatorId),
+      // isActiveIdx: index('wallet_is_active_idx').on(table.isActive),
+      // cashtagIdx: index('wallet_cashtag_idx').on(table.cashtag),
     }
   }
 )

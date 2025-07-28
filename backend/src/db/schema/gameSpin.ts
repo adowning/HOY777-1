@@ -11,7 +11,7 @@ import {
 import { createInsertSchema, createSelectSchema } from 'drizzle-zod'
 import { nanoid } from '../../utils/nanoid'
 import { users } from './users'
-import { gameSessions } from './games'
+import { gameSessions } from './session'
 import { transformSchemaForOpenAPI } from '#/lib/schema-transformer'
 import { relations } from 'drizzle-orm'
 import { z}from 'zod'
@@ -66,4 +66,4 @@ export const GameSpinSchema = z.object({
   timeStamp: z.coerce.date()
 });
 
-export type GameSpinType = z.infer<typeof GameSpinSchema>;
+export type GameSpin = z.infer<typeof GameSpinSchema>;

@@ -1,0 +1,54 @@
+DROP TABLE "users" CASCADE;--> statement-breakpoint
+DROP TABLE "vip_level_awards" CASCADE;--> statement-breakpoint
+DROP TABLE "vip_level_reward_history" CASCADE;--> statement-breakpoint
+DROP TABLE "vip_levels" CASCADE;--> statement-breakpoint
+DROP TABLE "vip_rebate_history" CASCADE;--> statement-breakpoint
+DROP TABLE "vip_signin_awards" CASCADE;--> statement-breakpoint
+DROP TABLE "vip_tasks" CASCADE;--> statement-breakpoint
+DROP TABLE "vip_times_history" CASCADE;--> statement-breakpoint
+DROP TABLE "vips" CASCADE;--> statement-breakpoint
+DROP TABLE "favorite_games" CASCADE;--> statement-breakpoint
+DROP TABLE "game_big_wins" CASCADE;--> statement-breakpoint
+DROP TABLE "game_categories" CASCADE;--> statement-breakpoint
+DROP TABLE "game_history" CASCADE;--> statement-breakpoint
+DROP TABLE "games" CASCADE;--> statement-breakpoint
+DROP TABLE "balances" CASCADE;--> statement-breakpoint
+DROP TABLE "bonuses" CASCADE;--> statement-breakpoint
+DROP TABLE "deposits" CASCADE;--> statement-breakpoint
+DROP TABLE "transactions" CASCADE;--> statement-breakpoint
+DROP TABLE "withdrawals" CASCADE;--> statement-breakpoint
+DROP TABLE "achievements" CASCADE;--> statement-breakpoint
+DROP TABLE "invite_commission_history" CASCADE;--> statement-breakpoint
+DROP TABLE "invite_stats" CASCADE;--> statement-breakpoint
+DROP TABLE "invites" CASCADE;--> statement-breakpoint
+DROP TABLE "rewards" CASCADE;--> statement-breakpoint
+DROP TABLE "user_achievements" CASCADE;--> statement-breakpoint
+DROP TABLE "user_rewards" CASCADE;--> statement-breakpoint
+DROP TABLE "operators" CASCADE;--> statement-breakpoint
+DROP TABLE "products" CASCADE;--> statement-breakpoint
+DROP TABLE "wallets" CASCADE;--> statement-breakpoint
+DROP TABLE "promo_groups" CASCADE;--> statement-breakpoint
+DROP TABLE "promos" CASCADE;--> statement-breakpoint
+DROP TABLE "achievement_items" CASCADE;--> statement-breakpoint
+DROP TABLE "announcements" CASCADE;--> statement-breakpoint
+DROP TABLE "banners" CASCADE;--> statement-breakpoint
+DROP TABLE "chat_messages" CASCADE;--> statement-breakpoint
+DROP TABLE "countries" CASCADE;--> statement-breakpoint
+DROP TABLE "currencies" CASCADE;--> statement-breakpoint
+DROP TABLE "explain_items" CASCADE;--> statement-breakpoint
+DROP TABLE "invite_history" CASCADE;--> statement-breakpoint
+DROP TABLE "languages" CASCADE;--> statement-breakpoint
+DROP TABLE "live_wins" CASCADE;--> statement-breakpoint
+DROP TABLE "messages" CASCADE;--> statement-breakpoint
+DROP TABLE "statistics" CASCADE;--> statement-breakpoint
+DROP TABLE "auth_sessions" CASCADE;--> statement-breakpoint
+DROP TABLE "game_sessions" CASCADE;--> statement-breakpoint
+DROP TABLE "game_spins" CASCADE;--> statement-breakpoint
+DROP TABLE "vip_info" CASCADE;--> statement-breakpoint
+DROP TABLE "jackpot_contributions" CASCADE;--> statement-breakpoint
+DROP TABLE "jackpot_wins" CASCADE;--> statement-breakpoint
+DROP TABLE "jackpots" CASCADE;--> statement-breakpoint
+DROP TYPE "public"."jackpot_type_enum";--> statement-breakpoint
+DROP TYPE "public"."role";--> statement-breakpoint
+DROP TYPE "public"."payment_method";--> statement-breakpoint
+DROP TYPE "public"."session_status";

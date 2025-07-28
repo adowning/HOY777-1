@@ -1,6 +1,6 @@
 
 import type { Schema } from 'hono'
-import { pinoLogger } from '../middlewares/pino-logger'
+// import { pinoLogger } from '../middlewares/pino-logger'
 import type { AppBindings, AppOpenAPI } from './types'
 
 
@@ -20,7 +20,7 @@ export function createRouter() {
 
 export default function createApp() {
   const app = createRouter()
-  app.use(requestId()).use(serveEmojiFavicon('📝')).use(pinoLogger())
+  app.use(requestId()).use(serveEmojiFavicon('📝'))//.use(pinoLogger())
 
   app.notFound(notFound)
   app.onError(onError)
