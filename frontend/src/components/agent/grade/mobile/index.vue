@@ -74,34 +74,32 @@ onMounted(async () => {
 
 <template>
   <div class="pb-4">
-    <v-row class="mt-1 justify-center mx-16 mb-0">
-      <div class="text-800-14 white text-center">
+    <div class="mt-1 flex justify-center mx-16 mb-0">
+      <div class="text-800-14 white text-center relative">
         {{ t("affiliate.invite.commission_title_text") }}
-        <v-menu v-model="commissionMenuShow">
-          <template v-slot:activator="{ props }">
-            <img
-              src="@/assets/public/svg/icon_public_22.svg"
-              v-bind="props"
-              style="cursor: pointer; position: absolute; top: 2px; right: -21px"
-              width="16"
-            />
-          </template>
-          <v-list
-            theme="dark"
-            bg-color="#1D2027"
-            class="px-2"
-            :width="mobileWidth > 600 ? 471 : mobileWidth - 30"
-            style="margin: 0px 8px 0px 3px"
-          >
-            <v-list-item class="pt-4">
-              <div class="text-center text-400-12 gray">
-                {{ t("affiliate.invite.help_text_2") }}
-              </div>
-            </v-list-item>
-          </v-list>
-        </v-menu>
+        <img
+          src="@/assets/public/svg/icon_public_22.svg"
+          @click="commissionMenuShow = !commissionMenuShow"
+          style="cursor: pointer; position: absolute; top: 2px; right: -21px"
+          width="16"
+        />
+        <div
+          v-if="commissionMenuShow"
+          class="px-2 absolute"
+          :style="{
+            backgroundColor: '#1D2027',
+            width: mobileWidth > 600 ? '471px' : mobileWidth - 30 + 'px',
+            margin: '0px 8px 0px 3px',
+          }"
+        >
+          <div class="pt-4">
+            <div class="text-center text-400-12 gray">
+              {{ t("affiliate.invite.help_text_2") }}
+            </div>
+          </div>
+        </div>
       </div>
-    </v-row>
+    </div>
     <div class="text-400-12 gray text-center mx-8 mt-4">
       {{ t("affiliate.invite.commission_content_text") }}
     </div>

@@ -209,11 +209,7 @@ onMounted(async () => {
 });
 </script>
 <template>
-  <div class="flex mx-2 mt-0">
-    <div
-      class="relative w-full"
-      @click="datePickerShow = true"
-    >
+
       <el-date-picker
         v-model="selectedDate"
         popper-class="m-agent-report-date-picker-background"
@@ -242,24 +238,7 @@ onMounted(async () => {
       />
     </div>
   </div>
-  <div class="flex mt-6 mx-3">
-    <div class="relative w-44">
-      <div
-        class="flex items-center justify-between px-2 h-10 rounded-lg cursor-pointer"
-        style="background-color: var(--agent-card-notmet-bg)"
-        @click="bonusMenuShow = !bonusMenuShow"
-      >
-        <span class="text-white text-xs font-bold">{{ selectedBonusItem }}</span>
-        <img
-          src="@/assets/public/svg/icon_public_50.svg"
-          :class="['w-4 h-4 transition-all duration-300', bonusMenuShow ? 'rotate-180' : '']"
-        />
-      </div>
-      <div
-        v-if="bonusMenuShow"
-        class="absolute w-full mt-2 rounded-lg"
-        style="background-color: var(--agent-card-notmet-bg)"
-      >
+
         <div
           v-for="(item, i) in inviteHistoryConfig.list"
           :key="i"
@@ -267,27 +246,7 @@ onMounted(async () => {
           :class="{ 'border border-solid border-green-500 rounded-lg': selectedBonusItem == item.name }"
           @click="handleHistoryConfigDropdown(item); bonusMenuShow = false"
         >
-          {{ item.name }}
-        </div>
-      </div>
-    </div>
-    <div class="relative w-24 ml-auto">
-      <div
-        class="flex items-center justify-between px-2 h-10 rounded-lg cursor-pointer"
-        style="background-color: var(--agent-card-notmet-bg)"
-        @click="cashMenuShow = !cashMenuShow"
-      >
-        <span class="text-white text-xs font-bold">{{ selectedPageSize }}</span>
-        <img
-          src="@/assets/public/svg/icon_public_50.svg"
-          :class="['w-4 h-4 transition-all duration-300', cashMenuShow ? 'rotate-180' : '']"
-        />
-      </div>
-      <div
-        v-if="cashMenuShow"
-        class="absolute w-full mt-2 rounded-lg"
-        style="background-color: var(--agent-card-notmet-bg)"
-      >
+
         <div
           v-for="(item, i) in cashItems"
           :key="i"
@@ -295,50 +254,19 @@ onMounted(async () => {
           :class="{ 'border border-solid border-green-500 rounded-lg': selectedPageSize == item }"
           @click="handlePageDropdown(item); cashMenuShow = false"
         >
-          {{ item }}
+
         </div>
       </div>
     </div>
   </div>
-  <div class="mx-2 mt-6">
-    <div
-      class="p-2 rounded-lg"
-      style="background-color: var(--agent-card-notmet-bg); box-shadow: inset 2px 0px 4px 1px rgba(0, 0, 0, 0.12);"
+
     >
       <table class="w-full">
         <thead
           class="text-xs font-bold text-center text-gray-400"
           style="background-color: var(--agent-card-bg)"
         >
-          <tr>
-            <th class="py-2 rounded-l-lg">{{ t("affiliate.forms.table.time") }}</th>
-            <th class="py-2 border-x-2" style="border-color: var(--agent-card-notmet-bg)">
-              {{ t("affiliate.forms.table.user") }}
-            </th>
-            <th class="py-2 border-r-2" style="border-color: var(--agent-card-notmet-bg)">
-              {{ t("affiliate.forms.table.event") }}
-            </th>
-            <th class="py-2 rounded-r-lg">{{ t("affiliate.forms.table.bonus") }}</th>
-          </tr>
-        </thead>
-        <tbody class="text-xs font-medium text-center text-white">
-          <tr v-if="inviteHistoryItem.list.length > 0" v-for="(item, index) in inviteHistoryItem.list" :key="index">
-            <td class="py-2">{{ moment(Number(item.time) * 1000).format("MM/DD HH:mm:ss") }}</td>
-            <td class="py-2">{{ item.user }}</td>
-            <td class="py-2">{{ selectedHistoryConfig.name }}</td>
-            <td class="py-2">{{ item.bonus }}</td>
-          </tr>
-          <tr v-else v-for="(item, formIndex) in formsList" :key="formIndex">
-            <td class="py-2"></td>
-            <td class="py-2"></td>
-            <td class="py-2"></td>
-            <td class="py-2"></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-  <div class="flex justify-center mt-4 mx-4 pb-2">
+
     <Pagination
       :length="inviteHistoryItem.total_pages"
       @handlePrev="handlePrev"

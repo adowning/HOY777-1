@@ -66,9 +66,9 @@ onMounted(() => {
       />
       <MSignIn v-else />
     </div>
-    <v-btn class="m-close-btn" icon="true" width="30" height="30" @click="closeDialog">
+    <button class="m-close-btn w-[30px] h-[30px]" @click="closeDialog">
       <img src="@/assets/public/svg/icon_public_10.svg" />
-    </v-btn>
+    </button>
   </div>
 </template>
 <style lang="scss">

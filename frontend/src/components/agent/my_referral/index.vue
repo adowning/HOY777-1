@@ -163,42 +163,13 @@ onMounted(async () => {
           <span class="text-xs text-white ml-1">{{ t("agent.text_6") }}</span>
         </div>
       </div>
-      <div
-        class="absolute w-32 h-8 bottom-1/6 right-1 z-[2]"
-        @click="goReportTab"
-      ></div>
-      <div class="flex w-11/12 items-center absolute top-8 -mt-4 mx-4">
-        <div class="w-1/2">
-          <div class="text-xs text-white">{{ t("agent.text_7") }}</div>
-        </div>
-        <div class="w-1/2 text-right">
-          <button
-            class="w-28 h-8 rounded-lg text-black text-center text-xs font-bold"
-            :loading="loading"
-            @click="inviteAward"
-            style="background: var(--agent-card-title-color); box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.3);"
+
           >
             {{ t("agent.text_8") }}
           </button>
         </div>
       </div>
-      <div class="absolute top-20 mx-7 text-lg font-bold text-white">
-        R$ {{ inviteItem.available_bonus }}
-      </div>
-    </div>
-    <div
-      class="h-60 mx-2 rounded-lg shadow-md"
-      style="background: var(--agent-card-notmet-bg);"
-    >
-      <div class="text-sm font-bold text-white text-center mt-3">
-        {{ t("agent.text_9") }}
-      </div>
-      <div class="m-4 flex">
-        <div
-          class="w-19 h-26 rounded-t-lg"
-          style="background: var(--agent-card-price-color);"
-        >
-          <div class="w-19 h-19 bg-white rounded-lg">
+<<
             <QrcodeVue
               :value="inviteItem.web_invite_url"
               :size="size"
@@ -212,21 +183,7 @@ onMounted(async () => {
             {{ t("agent.text_10") }}
           </div>
         </div>
-        <div
-          class="w-full h-26 ml-2 rounded-lg relative"
-          style="background: var(--agent-card-bg); box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.35) inset;"
-        >
-          <div class="m-2 text-gray-400 text-xs">{{ t("agent.text_11") }}</div>
-          <div class="m-2 text-xs text-white">{{ inviteItem.invite_code }}</div>
-          <button
-            @click="inviteUrlCopy(inviteItem.invite_code)"
-            class="absolute w-6 h-6 rounded-md bottom-2 right-2"
-            style="background: var(--agent-card-notmet-bg);"
-          >
-            <img
-              src="@/assets/public/svg/icon_public_71.svg"
-              class="w-4"
-            />
+
           </button>
         </div>
       </div>

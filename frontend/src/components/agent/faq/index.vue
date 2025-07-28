@@ -8,17 +8,8 @@ const { t } = useI18n();
 </script>
 
 <template>
-  <div
-    class="mx-2 p-4 rounded-lg"
-    style="background: var(--agent-card-notmet-bg)"
-  >
-    <div class="mt-4 text-center text-sm font-bold text-gray-400">
-      {{ t("agent.text_20") }}
-    </div>
-    <div
-      class="rounded-lg mt-4 mx-2"
-      style="background: var(--agent-card-bg)"
-    >
+
+
       <div class="mx-2">
         <img
           src="@/assets/agent/image/img_agent_13.png"
@@ -30,12 +21,7 @@ const { t } = useI18n();
         <div class="text-xs text-gray-400">{{ t("agent.text_22") }}</div>
       </div>
     </div>
-    <div
-      class="rounded-lg mx-2 mt-2 h-44"
-      style="background: var(--agent-card-bg)"
-    >
-      <div class="flex items-center">
-        <div class="w-1/3 text-center">
+
           <div class="relative">
             <img
               src="@/assets/public/image/ua_public_06.png"
@@ -57,11 +43,7 @@ const { t } = useI18n();
               </div>
             </div>
           </div>
-          <div class="text-xs text-gray-400">{{ t("agent.text_17") }}</div>
-          <div class="text-base font-bold text-white">2555</div>
-        </div>
-        <div class="w-2/3 my-4">
-          <div class="text-xs text-gray-400">
+
             {{ t("agent.text_18") }}B1{{ t("agent.text_19") }}
             <span class="text-xs font-bold text-white">360</span>
           </div>
