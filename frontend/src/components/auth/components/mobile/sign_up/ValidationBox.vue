@@ -43,9 +43,9 @@ export default ValidationBox;
     class="pa-2 animate glow delay-1 fade-in"
     :class="mobileWidth > 600 ? 'validation-box-container' : 'm-validation-box-container'"
   >
-    <v-row
+    <div
       v-if="title.length"
-      class="d-flex justify-center"
+      class="flex justify-center"
       :class="mobileWidth > 600 ? 'ma-2' : 'ma-1'"
     >
       <img
@@ -57,21 +57,24 @@ export default ValidationBox;
       <span class="label-text-sm ml-2 mt-1 slate-gray">
         {{ title }}
       </span>
-    </v-row>
-    <v-row class="validation-list ma-0 pa-0">
-      <v-row
+    </div>
+    <div class="validation-list ma-0 pa-0">
+      <div
         v-for="n in descriptionList.length"
         :key="n"
-        :class="`validation-list-item full-width ${
+        :class="`validation-list-item w-full ${
           validationList[n - 1] ? 'active' : 'inactive'
         }`"
       >
-        <v-icon class="mr-2 validation-item-icon">
-          {{ validationList[n - 1] ? "mdi-check-circle" : "mdi-close-circle" }}
-        </v-icon>
+        <i
+          class="mr-2 validation-item-icon"
+          :class="
+            validationList[n - 1] ? 'mdi-check-circle' : 'mdi-close-circle'
+          "
+        ></i>
         <p class="m-validation-description-text">{{ descriptionList[n - 1] }}</p>
-      </v-row>
-    </v-row>
+      </div>
+    </div>
   </div>
 </template>
 

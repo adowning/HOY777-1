@@ -409,7 +409,7 @@ export default MSignup;
 
 <template>
   <div class="m-signup-container px-6">
-    <div class="my-15 d-flex justify-center align-center">
+    <div class="my-15 flex justify-center items-center">
       <img src="@/assets/public/image/logo_public_01.png" width="86" />
       <div class="ml-2">
         <div class="text-800-16 white">
@@ -420,17 +420,15 @@ export default MSignup;
         </div>
       </div>
     </div>
-    <v-form v-if="currentPage === PAGE_TYPE.SIGNUP_FORM" class="full-width">
+    <form v-if="currentPage === PAGE_TYPE.SIGNUP_FORM" class="w-full">
       <div class="relative mt-10 pa-0">
-        <v-text-field
-          :label="t('signup.formPage.emailAddress')"
+        <input
+          :placeholder="t('signup.formPage.emailAddress')"
           class="form-textfield dark-textfield ma-0 m-text-field m-signup-email"
-          variant="solo"
-          density="comfortable"
           v-model="formData.emailAddress"
-          :onblur="handleOnEmailInputBlur"
+          @blur="handleOnEmailInputBlur"
           @input="handleEmailChange"
-          :onfocus="handleEmailFocus"
+          @focus="handleEmailFocus"
         />
         <ValidationBox
           v-if="isShowEmailValidaton"
@@ -444,51 +442,44 @@ export default MSignup;
           :withCautionIcon="true"
         />
         <div class="m-register-mail-card" :style="{ height: mailCardHeight + 'px' }">
-          <v-list theme="dark" bg-color="#1D2027">
-            <v-list-item
+          <div class="bg-[#1D2027]">
+            <div
               class="text-600-12 white"
-              value="gmail"
               @click="mergeEmail('@gmail.com')"
             >
               {{ emailPartName }}@gmail.com
-            </v-list-item>
-            <v-list-item
+            </div>
+            <div
               class="text-600-12 white"
-              value="hotmail"
               @click="mergeEmail('@hotmail.com')"
-              >{{ emailPartName }}@hotmail.com</v-list-item
+              >{{ emailPartName }}@hotmail.com</div
             >
-            <v-list-item
+            <div
               class="text-600-12 white"
-              value="yahoo"
               @click="mergeEmail('@yahoo.com')"
-              >{{ emailPartName }}@yahoo.com</v-list-item
+              >{{ emailPartName }}@yahoo.com</div
             >
-            <v-list-item
+            <div
               class="text-600-12 white"
-              value="icloud"
               @click="mergeEmail('@icloud.com')"
-              >{{ emailPartName }}@icloud.com</v-list-item
+              >{{ emailPartName }}@icloud.com</div
             >
-            <v-list-item
+            <div
               class="text-600-12 white"
-              value="outlook"
               @click="mergeEmail('@outlook.com')"
-              >{{ emailPartName }}@outlook.com</v-list-item
+              >{{ emailPartName }}@outlook.com</div
             >
-          </v-list>
+          </div>
         </div>
       </div>
       <div class="mt-6 relative pa-0">
-        <v-text-field
-          :label="t('signup.formPage.password')"
+        <input
+          :placeholder="t('signup.formPage.password')"
           class="form-textfield dark-textfield ma-0 m-signup-password"
-          variant="solo"
-          density="comfortable"
           :type="isShowPassword ? 'text' : 'password'"
           v-model="formData.password"
-          :onfocus="handleOnPasswordInputFocus"
-          :onblur="handleOnPasswordInputBlur"
+          @focus="handleOnPasswordInputFocus"
+          @blur="handleOnPasswordInputBlur"
         />
         <img
           v-if="isShowPassword"
@@ -510,20 +501,17 @@ export default MSignup;
           :validationList="passwordValidationList"
         />
       </div>
-      <v-row class="mt-2">
-        <v-text-field
-          :label="t('signup.formPage.promoCode')"
+      <div class="mt-2">
+        <input
+          :placeholder="t('signup.formPage.promoCode')"
           class="form-textfield normal-textfield m-signup-promo"
-          variant="solo"
-          density="comfortable"
           v-model="formData.promoCode"
         />
-      </v-row>
+      </div>
       <div class="mt-2" style="display: flex; align-items: center; height: 46px">
-        <v-checkbox
+        <input
+          type="checkbox"
           v-model="formData.isAgreed"
-          hide-details
-          icon
           class="m-agreement-checkbox"
           style="margin-bottom: 20px"
         />
@@ -535,111 +523,94 @@ export default MSignup;
           {{ t("signup.formPage.agree.suffix") }}
         </p>
       </div>
-      <v-row>
-        <v-btn
+      <div>
+        <button
           class="mt-8 mx-3"
           :class="isFormDataReady ? 'm-signup-btn' : 'm-signup-disabled-btn'"
-          width="94%"
-          height="48px"
-          :loading="loading"
-          :onclick="handleSignupFormSubmit"
+          :disabled="loading"
+          @click="handleSignupFormSubmit"
         >
           {{ t("signup.formPage.button") }}
-        </v-btn>
-      </v-row>
-      <v-row class="mt-6">
+        </button>
+      </div>
+      <div class="mt-6">
         <p class="m-divide-text">
           {{ t("signup.formPage.divider") }}
         </p>
-        <v-divider class="mx-10" style="border: 1px solid #414968 !important" />
-      </v-row>
-      <v-row class="mt-6">
-        <v-col cols="8" offset="2">
-          <div class="d-flex justify-space-around bg-surface-variant social-icon-wrapper">
-            <v-sheet
+        <div class="mx-10 border-t border-[#414968]"></div>
+      </div>
+      <div class="mt-6">
+        <div class="w-8/12 offset-2">
+          <div class="flex justify-around bg-surface-variant social-icon-wrapper">
+            <div
               v-for="(item, index) in socialIconList"
               :key="index"
-              color="#131828"
-              class="rounded"
+              class="rounded bg-[#131828]"
             >
-              <v-btn
-                color="grey-darken-4"
-                class="m-social-icon-button"
-                icon=""
-                height="36px"
-                width="36px"
+              <button
+                class="m-social-icon-button h-[36px] w-[36px]"
               >
                 <img :src="item" width="36" />
-              </v-btn>
-            </v-sheet>
+              </button>
+            </div>
           </div>
-        </v-col>
-      </v-row>
-    </v-form>
+        </div>
+      </div>
+    </form>
 
     <!-- Confirm cancel. -->
-    <div v-if="currentPage == PAGE_TYPE.CONFIRM_CANCEL" class="full-width">
-      <v-row style="margin-top: 100px" class="mx-4">
+    <div v-if="currentPage == PAGE_TYPE.CONFIRM_CANCEL" class="w-full">
+      <div style="margin-top: 100px" class="mx-4">
         <p class="text-700-20 white center full-width">
           {{ t("signup.confirmCancelPage.title") }}
         </p>
-      </v-row>
-      <v-row class="mt-7">
+      </div>
+      <div class="mt-7">
         <p class="text-400-14 slate-gray center full-width">
           {{ t("signup.confirmCancelPage.description") }}
         </p>
-      </v-row>
-      <v-row style="margin-top: 100px">
-        <v-btn
-          class="ma-3 button-bright m-signup-continue-btn"
-          width="94%"
-          height="48px"
+      </div>
+      <div style="margin-top: 100px">
+        <button
+          class="ma-3 button-bright m-signup-continue-btn w-[94%] h-[48px]"
           @click="handleClickContinueButton"
         >
           {{ t("signup.confirmCancelPage.continue") }}
-        </v-btn>
-      </v-row>
-      <v-row class="mt-4">
-        <v-btn
-          class="ma-3 button-dark m-signup-cancel-btn"
-          width="94%"
-          height="48px"
+        </button>
+      </div>
+      <div class="mt-4">
+        <button
+          class="ma-3 button-dark m-signup-cancel-btn w-[94%] h-[48px]"
           @click="cancelConfirm"
         >
           {{ t("signup.confirmCancelPage.cancel") }}
-        </v-btn>
-      </v-row>
+        </button>
+      </div>
     </div>
 
     <!-- Already registered notification -->
-    <div v-if="currentPage == PAGE_TYPE.ALREADY_REGISTERED" class="full-width">
-      <v-row>
+    <div v-if="currentPage == PAGE_TYPE.ALREADY_REGISTERED" class="w-full">
+      <div>
         <p class="m-label-text-md slate-gray center full-width px-8">
           {{ t("signup.alreadyRegisterPage.title") }}
         </p>
-      </v-row>
-      <v-row style="margin-top: 126px">
-        <v-btn
-          class="ma-3 button-bright m-signup-confirm-btn"
-          width="-webkit-fill-available"
-          height="48px"
-          autocapitalize="off"
+      </div>
+      <div style="margin-top: 126px">
+        <button
+          class="ma-3 button-bright m-signup-confirm-btn w-full h-[48px]"
           @click="goSignInPage"
         >
           {{ t("signup.alreadyRegisterPage.confirm") }}
-        </v-btn>
-      </v-row>
-      <v-row class="mt-4">
-        <v-btn
-          class="ma-3 button-dark m-signup-cancel-btn"
-          width="-webkit-fill-available"
-          height="48px"
-          autocapitalize="off"
+        </button>
+      </div>
+      <div class="mt-4">
+        <button
+          class="ma-3 button-dark m-signup-cancel-btn w-full h-[48px]"
           @click="goRegisterPage"
         >
           {{ t("signup.alreadyRegisterPage.cancel") }}
-        </v-btn>
-      </v-row>
+        </button>
+      </div>
     </div>
   </div>
 </template>

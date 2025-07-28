@@ -193,14 +193,12 @@ onMounted(() => {
       </p>
     </div>
     <div class="mx-5 mt-16 relative m-display-name-input">
-      <v-text-field
-        :label="t('signup.displayNamePage.username')"
+      <input
+        :placeholder="t('signup.displayNamePage.username')"
         class="form-textfield dark-textfield ma-0 m-signup-displayname"
-        variant="solo"
-        density="comfortable"
         v-model="userName"
-        :onfocus="handleOnUserNameInputFocus"
-        :onblur="handleOnUserNameInputBlur"
+        @focus="handleOnUserNameInputFocus"
+        @blur="handleOnUserNameInputBlur"
       />
       <ValidationBox
         v-if="isShowUsernameValidation"
@@ -209,26 +207,22 @@ onMounted(() => {
         :validationList="userNameValidationList"
       />
     </div>
-    <v-row class="mx-5 mt-5">
-      <v-btn
+    <div class="mx-5 mt-5">
+      <button
         :class="isFormDataReady ? 'm-signup-btn' : 'm-signup-disabled-btn'"
-        width="-webkit-fill-available"
-        height="48px"
-        :loading="loading"
+        class="w-full h-[48px]"
+        :disabled="loading"
         @click="submitNickName"
       >
         {{ t("signup.displayNamePage.submit") }}
-      </v-btn>
-    </v-row>
-    <v-btn
-      class="m-nickname-close-button"
-      icon="true"
+      </button>
+    </div>
+    <button
+      class="m-nickname-close-button w-[24px] h-[24px]"
       @click="closeDialog"
-      width="24"
-      height="24"
     >
       <img src="@/assets/public/svg/icon_public_52.svg" width="18" />
-    </v-btn>
+    </button>
   </div>
 </template>
 
