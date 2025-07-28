@@ -176,52 +176,61 @@ onMounted(() => {
 
 <template>
   <div
-    class="m-menu-semicircle-toggle"
+    class="w-44 h-22 fixed left-1/2 z-14 rounded-t-full transition-all duration-100"
+    style="background: rgba(0, 0, 0, 0.7); backdrop-filter: blur(8px)"
     :style="{ transform: `translateX(-50%)`, bottom: `${bottom}px` }"
     v-if="route.name !== 'Sports'"
   >
     <div
-      class="m-semicircle-item m-semicircle-promo"
+      class="absolute flex flex-col items-center top-8 left-4"
       @click="handleSelectItem(t('mobile_menu.promo'))"
     >
-      <div class="relative" style="height: 22px">
+      <div class="relative h-5">
         <inline-svg
           :src="icon_public_97"
           width="22"
           height="22"
           :transform-source="promoSvgTransform"
         ></inline-svg>
-        <p class="chat-box-text">{{ mailCount }}</p>
+        <p
+          class="absolute -top-px -right-1 text-xs font-extrabold text-black bg-green-400 rounded-full px-1"
+        >
+          {{ mailCount }}
+        </p>
       </div>
       <div
-        class="text-600-12"
-        :class="selectedItem == t('mobile_menu.promo') ? 'white' : 'gray'"
+        class="text-xs font-semibold"
+        :class="selectedItem == t('mobile_menu.promo') ? 'text-white' : 'text-gray-400'"
       >
         {{ t("mobile_menu.promo") }}
       </div>
     </div>
     <div
-      class="m-semicircle-item m-semicircle-mail"
+      class="absolute flex flex-col items-center top-8 right-6"
       @click="handleSelectItem(t('mobile_menu.mail'))"
     >
-      <div class="relative" style="height: 22px">
+      <div class="relative h-5">
         <inline-svg
           :src="icon_public_55"
           width="22"
           height="22"
           :transform-source="mailSvgTransform"
         ></inline-svg>
-        <p class="chat-box-text">{{ mailCount }}</p>
+        <p
+          class="absolute -top-px -right-1 text-xs font-extrabold text-black bg-green-400 rounded-full px-1"
+        >
+          {{ mailCount }}
+        </p>
       </div>
       <div
-        class="text-600-12"
-        :class="selectedItem == t('mobile_menu.mail') ? 'white' : 'gray'"
+        class="text-xs font-semibold"
+        :class="selectedItem == t('mobile_menu.mail') ? 'text-white' : 'text-gray-400'"
       >
         {{ t("mobile_menu.mail") }}
       </div>
     </div>
     <div
-      class="m-semicircle-item m-semicircle-search"
+      class="absolute flex flex-col items-center top-2 left-1/2 -translate-x-1/2"
       @click="handleSelectItem(t('mobile_menu.search'))"
     >
       <inline-svg
@@ -231,73 +240,11 @@ onMounted(() => {
         :transform-source="searchSvgTransform"
       ></inline-svg>
       <div
-        class="text-600-12"
-        :class="selectedItem == t('mobile_menu.search') ? 'white' : 'gray'"
+        class="text-xs font-semibold"
+        :class="selectedItem == t('mobile_menu.search') ? 'text-white' : 'text-gray-400'"
       >
         {{ t("mobile_menu.search") }}
       </div>
     </div>
   </div>
 </template>
-
-<style lang="scss">
-.m-menu-semicircle-toggle {
-  width: 175px;
-  height: 87.5px;
-  background: rgba(0, 0, 0, 0.7);
-  backdrop-filter: blur(8px);
-  position: fixed;
-  left: 50%;
-  // transform-origin: center;
-  z-index: 14;
-  transition: bottom 0.1s;
-  border-radius: 100px 100px 0 0;
-
-  .m-semicircle-item {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-  }
-
-  .m-semicircle-promo {
-    left: 17px;
-    top: 32px;
-
-    .chat-box-text {
-      top: -1px;
-      right: -3px;
-      position: absolute;
-      font-weight: 800;
-      font-size: 8px;
-      color: #000000;
-      background: #12ff76;
-      border-radius: 15px;
-      padding: 0px 2px;
-    }
-  }
-
-  .m-semicircle-search {
-    top: 8px;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-
-  .m-semicircle-mail {
-    right: 23px;
-    top: 32px;
-
-    .chat-box-text {
-      top: -1px;
-      right: -3px;
-      position: absolute;
-      font-weight: 800;
-      font-size: 8px;
-      color: #000000;
-      background: #12ff76;
-      border-radius: 15px;
-      padding: 0px 2px;
-    }
-  }
-}
-</style>

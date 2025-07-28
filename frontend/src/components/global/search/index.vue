@@ -273,99 +273,142 @@ onMounted(async () => {
 </script>
 
 <template>
-  <div class="m-home-search-body">
-    <div class="m-search-header">
-      <span class="m-search-header-icon" @click="emit('searchCancel')"></span>
+  <div
+    class="w-full h-full rounded-b-lg overflow-y-auto"
+    style="background-color: var(--text-box-1-211f31)"
+  >
+    <div
+      class="relative h-12 leading-12 text-center text-white"
+      style="background-color: var(--bg-5-1c1929)"
+    >
+      <span
+        class="absolute left-5 top-1/2 -translate-y-1/2 w-5 h-5"
+        @click="emit('searchCancel')"
+      >
+        <span
+          class="absolute w-2.5 h-2.5 border-b-2 border-l-2 border-white transform rotate-45"
+        ></span>
+      </span>
       <span>{{ t("home.search") }}</span>
     </div>
-    <!-- <div
-    class="m-home-search-body"
-    :style="{
-      height: searchContainerHeight >= 590 ? '43vh' : searchContainerHeight - 80 + 'px',
-      maxHeight: '643px',
-    }"
-  > -->
     <div class="pt-3">
-      <v-text-field
-        ref="searchRef"
-        :placeholder="t('home.search')"
-        class="form-textfield dark-textfield"
-        variant="solo"
-        hide-details
-        filled
-        clearable
-        density="compact"
-        prepend-inner-icon="mdi-magnify"
-        color="#7782AA"
-        :class="mobileWidth < 600 ? 'home-search-text-height' : ''"
-        @input="handleSearchInput"
-        v-model="searchText"
-      />
-    </div>
-    <div class="m-search-loading-container relative pt-8" v-if="searchLoading">
-      <div class="loading-body">
-        <div class="dot-0"></div>
-        <div class="dot-1"></div>
-        <div class="dot-0"></div>
+      <div
+        class="relative"
+        :class="[
+          mobileWidth < 600 ? 'h-10' : '',
+          'rounded-lg bg-gray-800 shadow-inner',
+        ]"
+      >
+        <input
+          ref="searchRef"
+          :placeholder="t('home.search')"
+          class="w-full h-full bg-transparent text-white px-10 text-xs"
+          @input="handleSearchInput"
+          v-model="searchText"
+        />
+        <img
+          src="@/assets/public/svg/icon_public_81.svg"
+          class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4"
+        />
+        <button
+          v-if="searchText"
+          @click="searchText = ''"
+          class="absolute right-3 top-1/2 -translate-y-1/2"
+        >
+          <img src="@/assets/public/svg/icon_public_52.svg" class="w-4 h-4" />
+        </button>
       </div>
     </div>
-    <div class="m-home-search-result pt-8 text-center" v-else>
+    <div class="relative pt-8" v-if="searchLoading">
+      <div class="flex items-center justify-center">
+        <div
+          class="w-2.5 h-2.5 bg-green-400 rounded-full mx-1 animate-expand"
+        ></div>
+        <div
+          class="w-4 h-4 bg-green-400 rounded-full mx-1 animate-expand-reverse"
+        ></div>
+        <div
+          class="w-2.5 h-2.5 bg-green-400 rounded-full mx-1 animate-expand"
+        ></div>
+      </div>
+    </div>
+    <div class="pt-8 text-center" v-else>
       <div v-if="searchedGameList.length == 0">
         <img
           src="@/assets/public/image/img_se_1.png"
           v-if="searchText.length >= 3 && searchText != ''"
         />
-        <p class="text-400-12 gray" v-if="searchText.length >= 3 && searchText != ''">
+        <p
+          class="text-xs text-gray-400"
+          v-if="searchText.length >= 3 && searchText != ''"
+        >
           {{ t("home.search_dialog.text_2") }}
         </p>
-        <p class="text-400-12 gray" v-else>{{ t("home.search_dialog.text_3") }}</p>
+        <p class="text-xs text-gray-400" v-else>
+          {{ t("home.search_dialog.text_3") }}
+        </p>
         <div
-          class="mx-3 mt-4"
-          style="display: flex; justify-content: space-between"
+          class="flex justify-between mx-3 mt-4"
           v-if="searchHistoryKeywords.length > 0"
         >
-          <p class="text-700-14 white">{{ t("home.search_dialog.search_history") }}</p>
-          <div class="m-home-search-history-remove" @click="removeAllSearchKeyword">
-            <img src="@/assets/public/svg/icon_public_82.svg" style="margin-top: 6px" />
+          <p class="text-sm font-bold text-white">
+            {{ t("home.search_dialog.search_history") }}
+          </p>
+          <div
+            class="w-7 h-7 rounded-sm shadow-md"
+            style="background-color: var(--secondary-button-353652)"
+            @click="removeAllSearchKeyword"
+          >
+            <img
+              src="@/assets/public/svg/icon_public_82.svg"
+              class="mt-1.5"
+            />
           </div>
         </div>
         <div
-          class="d-flex mx-3 mt-4"
-          style="gap: 6px; flex-wrap: wrap"
+          class="flex flex-wrap gap-1.5 mx-3 mt-4"
           v-if="searchHistoryKeywords.length > 0"
         >
           <div
-            class="m-home-search-history-text"
+            class="relative px-3 py-1.5 rounded-md shadow-md"
+            style="background-color: var(--secondary-button-353652)"
             v-for="(keyword, index) in searchHistoryKeywords"
             :key="index"
           >
-            <font @click="handleSearchGame(keyword)"> {{ keyword }}</font>
+            <font
+              class="text-xs text-center text-gray-400"
+              @click="handleSearchGame(keyword)"
+            >
+              {{ keyword }}</font
+            >
             <span
-              class="m-home-search-history-word-remove"
+              class="absolute top-0 -right-2.5 w-4 h-7 rounded-r-md shadow-md"
+              style="background-color: var(--text-dark-black-000000)"
               v-if="index + 1 == searchHistoryKeywords.length"
               @click="handleRemoveSearchKeyword(index)"
             >
               <img
                 src="@/assets/public/svg/icon_public_52.svg"
-                width="9"
-                class="m-home-search-history-word-remove-icon-position"
+                class="w-2.5 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
               />
             </span>
           </div>
         </div>
       </div>
       <div v-else>
-        <div class="d-flex justify-between align-center mx-3">
-          <p class="text-700-14 white">{{ t("home.search_dialog.text_4") }}</p>
-          <p class="text-600-10 gray">
+        <div class="flex justify-between items-center mx-3">
+          <p class="text-sm font-bold text-white">
+            {{ t("home.search_dialog.text_4") }}
+          </p>
+          <p class="text-xs font-semibold text-gray-400">
             {{ t("home.search_dialog.text_5") }}
-            <font class="text-600-10 color-32CFEC">{{ searchedGameCount }}</font>
+            <font class="text-cyan-400">{{ searchedGameCount }}</font>
             {{ t("home.search_dialog.text_6") }}
           </p>
         </div>
-        <v-row class="mx-2 my-4">
+        <div class="flex flex-wrap mx-2 my-4">
           <template v-for="(item, index) in searchedGameList" :key="index">
-            <v-col cols="4" class="py-0 px-1" v-if="index < 3 * page_no">
+            <div class="w-1/3 p-1" v-if="index < 3 * page_no">
               <ProgressiveImage
                 :src="item.image"
                 lazy-placeholder
@@ -373,43 +416,65 @@ onMounted(async () => {
                 blur="30"
                 @click="handleEnterGame(item.id, item.name)"
               />
-            </v-col>
+            </div>
           </template>
-        </v-row>
-        <v-row
-          class="justify-center"
+        </div>
+        <div
+          class="flex justify-center"
           :class="mobileWidth < 600 ? 'mt-6 mx-3' : 'mt-8 ml-4'"
         >
-          <v-btn
-            class="text-none more-btn-color"
-            variant="outlined"
-            width="100%"
-            height="41"
+          <button
+            class="w-full h-10 text-white border border-gray-700 rounded-md"
             v-if="searchedGameCount > 3 && searchedGameCount > 3 * page_no"
             @click="handleMoreGame()"
           >
             <div v-if="!moreLoading">{{ t("home.more") }}</div>
-            <div class="loading-body" v-else>
-              <div class="dot-0"></div>
-              <div class="dot-1"></div>
-              <div class="dot-0"></div>
+            <div class="flex items-center justify-center" v-else>
+              <div
+                class="w-2.5 h-2.5 bg-green-400 rounded-full mx-1 animate-expand"
+              ></div>
+              <div
+                class="w-4 h-4 bg-green-400 rounded-full mx-1 animate-expand-reverse"
+              ></div>
+              <div
+                class="w-2.5 h-2.5 bg-green-400 rounded-full mx-1 animate-expand"
+              ></div>
             </div>
-          </v-btn>
-        </v-row>
+          </button>
+        </div>
       </div>
     </div>
-    <div class="m-home-search-swiper-title mt-8">
-      <p class="ml-3 text-700-14 white">{{ t("home.search_dialog.text_1") }}</p>
-      <div class="swiper-button-next" slot="button-next" @click="goToNext"></div>
-      <div class="swiper-button-prev" slot="button-prev" @click="goToPrev"></div>
+    <div class="relative h-6 mt-8">
+      <p class="ml-3 text-sm font-bold text-white">
+        {{ t("home.search_dialog.text_1") }}
+      </p>
+      <div
+        class="absolute w-6 h-6 rounded-full right-3 top-0 shadow-md"
+        style="background-color: #1d2027"
+        @click="goToNext"
+      >
+        <img
+          src="@/assets/public/svg/icon_public_50.svg"
+          class="w-2.5 h-2.5 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+        />
+      </div>
+      <div
+        class="absolute w-6 h-6 rounded-full right-11 top-0 shadow-md"
+        style="background-color: #1d2027"
+        @click="goToPrev"
+      >
+        <img
+          src="@/assets/public/svg/icon_public_51.svg"
+          class="w-2.5 h-2.5 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+        />
+      </div>
     </div>
-    <div class="relative m-home-search-swiper pt-5">
+    <div class="relative pt-5 pb-4">
       <Swiper
         :modules="modules"
         :slidesPerView="3"
         :spaceBetween="8"
-        class="mx-3"
-        style="height: auto"
+        class="mx-3 h-auto"
         @swiper="getSwiperRef"
       >
         <SwiperSlide
@@ -419,7 +484,7 @@ onMounted(async () => {
         >
           <img
             :src="gameItem.image"
-            class="m-home-search-swiper-img"
+            class="w-full"
             @click="handleEnterGame(gameItem.id, gameItem.name)"
           />
         </SwiperSlide>
@@ -427,294 +492,3 @@ onMounted(async () => {
     </div>
   </div>
 </template>
-
-<style lang="scss">
-@keyframes opacityAnimation {
-  0% {
-    opacity: 0.4;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-.m-home-search-body::-webkit-scrollbar {
-  width: 0px;
-}
-
-.v-progressive-image-loading:before {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 48px;
-  height: 46px;
-  background-image: url("@/assets/public/image/img_public_42.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  animation: opacityAnimation 0.6s ease-in infinite;
-}
-
-// .v-progressive-image-placeholder {
-//   animation: opacityAnimation 0.8s ease-in infinite;
-// }
-
-.m-home-search-history-word-remove {
-  position: absolute;
-  top: 0px;
-  right: -10px;
-  width: 15px;
-  height: 28px;
-  border-radius: 0px 6px 6px 0px;
-  background: var(--Text-Dark-Black-000000, #000);
-
-  /* Button Primary */
-  box-shadow: 0px 3px 2px 1px rgba(0, 0, 0, 0.11);
-
-  .m-home-search-history-word-remove-icon-position {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-}
-
-.m-home-search-history-text {
-  position: relative;
-  padding: 6px 12px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  border-radius: 6px;
-  background: var(--Secondary-Button-353652, #23262f);
-
-  /* Button Shadow */
-  box-shadow: 0px 3px 4px 1px rgba(0, 0, 0, 0.21);
-  color: var(--Sec-Text-7782AA, #7782aa);
-  text-align: center;
-  font-family: Inter,-apple-system,Framedcn,Helvetica Neue,Condensed,DisplayRegular,Helvetica,Arial,PingFang SC,Hiragino Sans GB,WenQuanYi Micro Hei,Microsoft Yahei,sans-serif;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.m-home-search-history-text:active {
-  transform: scale(0.9);
-  filter: brightness(80%);
-  transition-duration: 0.28s;
-}
-
-.m-home-search-history-remove {
-  width: 28px;
-  height: 28px;
-  border-radius: 3px;
-  background: var(--Secondary-Button-353652, #23262f);
-  /* Button Shadow */
-  box-shadow: 0px 3px 4px 1px rgba(0, 0, 0, 0.21);
-}
-
-.m-home-search-history-remove:active {
-  transform: scale(0.9);
-  filter: brightness(80%);
-  transition-duration: 0.28s;
-}
-
-.m-search-header {
-  position: relative;
-  height: 50px;
-  line-height: 50px;
-  background: var(--BG-5-1C1929, #15161c);
-  color: #fff;
-  text-align: center;
-
-  .m-search-header-icon {
-    width: 20px;
-    height: 20px;
-  }
-
-  .m-search-header-icon::before {
-    content: "";
-    position: absolute;
-    left: 20px;
-    top: 50%;
-    transform: translate(0, -50%) rotate(45deg);
-    border-bottom: 2px solid #fff;
-    border-left: 2px solid #fff;
-    width: 10px;
-    height: 10px;
-  }
-}
-
-.m-home-search-body {
-  width: 100%;
-  height: 100%;
-  border-radius: 0px 0px 8px 8px;
-  background: var(--Text-Box-1-211F31, #1d2027);
-  overflow-y: auto;
-
-  .m-home-search-game:active {
-    transform: scale(0.9);
-    filter: brightness(80%);
-    transition-duration: 0.28s;
-  }
-
-  .m-home-search-swiper-img:active {
-    transform: scale(0.9);
-    filter: brightness(80%);
-    transition-duration: 0.28s;
-  }
-
-  .form-textfield div.v-field.v-field--appended {
-    border-radius: 10px;
-    background: var(--BG-5-1C1929, #15161c);
-    height: 40px;
-
-    /* Text Box */
-    box-shadow: 2px 0px 4px 1px rgba(0, 0, 0, 0.12) inset;
-  }
-
-  .form-textfield div.v-field__field {
-    color: white;
-    background: var(--BG-5-1C1929, #15161c);
-    padding-left: 0px;
-  }
-
-  .mdi:before {
-    font-size: 16px !important;
-  }
-
-  .v-field__input {
-    padding-top: 6px !important;
-  }
-
-  .v-field__input::placeholder {
-    color: var(--Sec-Text-7782AA, #7782aa);
-    font-family: Inter,-apple-system,Framedcn,Helvetica Neue,Condensed,DisplayRegular,Helvetica,Arial,PingFang SC,Hiragino Sans GB,WenQuanYi Micro Hei,Microsoft Yahei,sans-serif;
-    font-size: 10px !important;
-    font-style: normal;
-    font-weight: 400 !important;
-    line-height: normal;
-  }
-
-  .more-btn-color {
-    .loading-body {
-      display: flex;
-      align-items: center;
-      position: absolute;
-      top: 11px;
-      left: 50%;
-      transform: translateX(-50%);
-
-      .dot-0 {
-        width: 10px;
-        height: 10px;
-        background: #12ff76;
-        border-radius: 10px;
-        margin: 0px 4px;
-        animation: expandAnimation 0.6s 0.1s ease-in infinite;
-      }
-
-      .dot-1 {
-        width: 16px;
-        height: 16px;
-        background: #12ff76;
-        border-radius: 16px;
-        margin: 0px 4px;
-        animation: expandReverseAnimation 0.6s 0.1s ease-in infinite;
-      }
-    }
-  }
-
-  .m-search-loading-container {
-    .loading-body {
-      display: flex;
-      align-items: center;
-      position: absolute;
-      top: 48%;
-      left: 50%;
-      transform: translateX(-50%);
-
-      .dot-0 {
-        width: 10px;
-        height: 10px;
-        background: #12ff76;
-        border-radius: 10px;
-        margin: 0px 4px;
-        animation: expandAnimation 0.6s 0.1s ease-in infinite;
-      }
-
-      .dot-1 {
-        width: 16px;
-        height: 16px;
-        background: #12ff76;
-        border-radius: 16px;
-        margin: 0px 4px;
-        animation: expandReverseAnimation 0.6s 0.1s ease-in infinite;
-      }
-    }
-  }
-}
-
-.m-home-search-swiper-title {
-  height: 24px;
-  position: relative;
-
-  .swiper-button-next {
-    width: 24px;
-    height: 24px;
-    border-radius: 46px;
-    background: #1d2027;
-    right: 12px;
-    top: 20px;
-    /* Button Shadow */
-    box-shadow: 0px 3px 4px 1px rgba(0, 0, 0, 0.21);
-    z-index: 2;
-  }
-
-  .swiper-button-next:active {
-    transform: scale(0.9);
-    filter: brightness(80%);
-    transition-duration: 0.28s;
-  }
-
-  .swiper-button-prev:active {
-    transform: scale(0.9);
-    filter: brightness(80%);
-    transition-duration: 0.28s;
-  }
-
-  .swiper-button-prev {
-    width: 24px;
-    height: 24px;
-    border-radius: 46px;
-    background: #1d2027;
-    right: 46px;
-    top: 20px;
-    left: unset;
-    /* Button Shadow */
-    box-shadow: 0px 3px 4px 1px rgba(0, 0, 0, 0.21);
-    z-index: 2;
-  }
-
-  .swiper-button-prev:after,
-  .swiper-button-next:after {
-    font-family: swiper-icons;
-    text-transform: none !important;
-    letter-spacing: 0;
-    font-variant: initial;
-    font-size: 10px;
-    font-weight: 900;
-    color: white;
-  }
-}
-
-.m-home-search-swiper {
-  padding-bottom: 16px;
-
-  .m-home-search-swiper-img {
-    width: 100%;
-  }
-}
-</style>
