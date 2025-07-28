@@ -22,11 +22,17 @@ const mobileWidth = computed(() => {
 });
 
 const handlePrev = () => {
-  emit("handlePrev", pageNo.value);
+  if (pageNo.value > 1) {
+    pageNo.value--;
+    emit("handlePrev", pageNo.value);
+  }
 };
 
 const handleNext = () => {
-  emit("handleNext", pageNo.value);
+  if (pageNo.value < length.value) {
+    pageNo.value++;
+    emit("handleNext", pageNo.value);
+  }
 };
 
 onMounted(() => {
@@ -38,96 +44,34 @@ onMounted(() => {
 });
 </script>
 <template>
-  <v-pagination v-model="pageNo" :length="length" @next="handleNext" @prev="handlePrev" :total-visible="totalVisible"
-    rounded="circle"></v-pagination>
+  <div class="flex items-center">
+    <button
+      @click="handlePrev"
+      class="w-8 h-8 mx-1.5 rounded-md text-white shadow-md"
+      style="background-color: var(--agent-color-3)"
+    >
+      <img src="@/assets/public/svg/icon_public_51.svg" class="w-4 h-4 mx-auto" />
+    </button>
+    <div v-for="i in Math.min(totalVisible, length)" :key="i" class="flex items-center">
+      <button
+        v-if="pageNo + i - 2 > 0 && pageNo + i - 2 <= length"
+        @click="pageNo = pageNo + i - 2"
+        class="w-8 h-8 mx-1.5 rounded-md text-white text-base font-semibold shadow-md"
+        :class="{
+          'bg-gray-700': pageNo !== pageNo + i - 2,
+          'bg-blue-500': pageNo === pageNo + i - 2,
+        }"
+        style="background-color: var(--agent-card-bar-bg)"
+      >
+        {{ pageNo + i - 2 }}
+      </button>
+    </div>
+    <button
+      @click="handleNext"
+      class="w-8 h-8 mx-1.5 rounded-md text-white shadow-md"
+      style="background-color: var(--agent-color-3)"
+    >
+      <img src="@/assets/public/svg/icon_public_50.svg" class="w-4 h-4 mx-auto" />
+    </button>
+  </div>
 </template>
-<style lang="scss">
-.v-pagination__prev,
-.v-pagination__next {
-  margin: 6px !important;
-
-  .v-btn {
-    width: 32px !important;
-    height: 32px !important;
-    background: $agent_color_3 !important;
-    box-shadow: 0px 3px 4px 1px rgba(0, 0, 0, 0.21) !important;
-    border-radius: 6px !important;
-    color: #ffffff;
-  }
-}
-
-.v-pagination__item {
-  .v-btn {
-    width: 32px !important;
-    height: 32px !important;
-    background: $agent_color_3 !important;
-    box-shadow: 0px 3px 4px 1px rgba(0, 0, 0, 0.21) !important;
-    border-radius: 6px !important;
-    font-weight: 600;
-    font-size: 16px;
-    .v-btn__content {      
-      color: #FFF;
-    }
-  }
-}
-
-.v-pagination__item--is-active {
-  .v-btn {
-    width: 32px !important;
-    height: 32px !important;
-    background: $agent_card_bar_bg !important;
-    box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.30) !important;
-    border-radius: 6px !important;
-    font-weight: 600;
-    font-size: 16px;
-
-    .v-btn__content {
-      color: #FFF;
-    }
-  }
-}
-
-@media (max-width: 600px) {
-
-  .v-pagination__prev,
-  .v-pagination__next {
-    .v-btn {
-      width: 28px !important;
-      height: 28px !important;
-
-      .v-btn__content {
-        font-weight: 800 !important;
-        font-size: 12px !important;
-      }
-    }
-  }
-
-  .v-pagination__item {
-    .v-btn {
-      width: 28px !important;
-      height: 28px !important;
-
-      .v-btn__content {
-        color: #FFF;
-        font-weight: 800 !important;
-        font-size: 12px !important;
-      }
-    }
-  }
-
-  .v-pagination__item--is-active {
-    display: none;
-
-    .v-btn {
-      width: 28px !important;
-      height: 28px !important;
-
-      .v-btn__content {
-        color: #FFF;
-        font-weight: 800 !important;
-        font-size: 12px !important;
-      }
-    }
-  }
-}
-</style>

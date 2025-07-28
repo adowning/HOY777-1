@@ -8,68 +8,45 @@ const { t } = useI18n();
 </script>
 
 <template>
-  <div class="m-confirm-dialog-container">
-    <img src="@/assets/public/image/img_ep_3.png" width="137" />
-    <div class="m-confirm-dialog-header">
-      <p class="text-800-16">{{ t("confirm.text_1") }}</p>
+  <div
+    class="relative w-70 h-45 rounded-2xl"
+    style="background-color: #29263c"
+  >
+    <img
+      src="@/assets/public/image/img_ep_3.png"
+      class="w-34 absolute -top-14 left-1/2 -translate-x-1/2 z-[-1]"
+    />
+    <div
+      class="flex items-center justify-center w-full h-10 rounded-lg"
+      style="background: linear-gradient(0deg, #4522c1 0%, #6c43f7 100%)"
+    >
+      <p
+        class="text-base font-extrabold"
+        style="
+          background: linear-gradient(
+            90deg,
+            #ffc000 0%,
+            rgba(249, 130, 1, 0.72) 51.04%,
+            #ffc000 100%
+          );
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        "
+      >
+        {{ t("confirm.text_1") }}
+      </p>
     </div>
-    <p class="text-900-24 white text-center mt-5">R$ 2</p>
+    <p class="text-2xl font-black text-white text-center mt-5">R$ 2</p>
     <div class="mt-5 mx-4">
-      <v-btn
-        class="button-bright m-confirm-btn"
-        width="-webkit-fill-available"
-        height="48"
+      <button
+        class="w-full h-12 text-sm font-bold text-black text-center rounded-lg"
+        style="
+          background: var(--button-bright-bg);
+        "
       >
         {{ t("confirm.text_2") }}
-      </v-btn>
+      </button>
     </div>
   </div>
 </template>
-
-<style lang="scss">
-.m-confirm-dialog-container {
-  width: 280px;
-  height: 180px;
-  border-radius: 16px;
-  background: #29263c;
-  img {
-    position: absolute;
-    top: -56px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: -1;
-  }
-  .m-confirm-dialog-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 280px;
-    height: 40px;
-    border-radius: 8px;
-    background: linear-gradient(0deg, #4522c1 0%, #6c43f7 100%);
-
-    p {
-      background: linear-gradient(
-        90deg,
-        #ffc000 0%,
-        rgba(249, 130, 1, 0.72) 51.04%,
-        #ffc000 100%
-      );
-      background-clip: text;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-  }
-  .m-confirm-btn {
-    .v-btn__content {
-      color: var(--Text-Dark-Black-000000, #000);
-      text-align: center;
-      font-family: Inter,-apple-system,Framedcn,Helvetica Neue,Condensed,DisplayRegular,Helvetica,Arial,PingFang SC,Hiragino Sans GB,WenQuanYi Micro Hei,Microsoft Yahei,sans-serif;
-      font-size: 14px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: normal;
-    }
-  }
-}
-</style>

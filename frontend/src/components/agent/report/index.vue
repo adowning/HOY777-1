@@ -209,8 +209,11 @@ onMounted(async () => {
 });
 </script>
 <template>
-  <v-row class="mx-2 mt-0">
-    <div class="m-agent-report-date-picker relative" @click="datePickerShow = true">
+  <div class="flex mx-2 mt-0">
+    <div
+      class="relative w-full"
+      @click="datePickerShow = true"
+    >
       <el-date-picker
         v-model="selectedDate"
         popper-class="m-agent-report-date-picker-background"
@@ -230,150 +233,118 @@ onMounted(async () => {
         size="small"
       >
         <template #range-separator>
-          <img src="@/assets/public/svg/icon_public_83.svg" width="18" />
+          <img src="@/assets/public/svg/icon_public_83.svg" class="w-4" />
         </template>
       </el-date-picker>
       <img
         src="@/assets/public/svg/icon_public_23.svg"
-        class="date-icon-position"
-        width="20"
+        class="absolute w-5 top-1/2 -translate-y-1/2 right-3"
       />
     </div>
-  </v-row>
-  <v-row class="mt-6 mx-3">
-    <v-menu
-      offset="10"
-      content-class="m-agent-report-bonus-menu"
-      v-model="bonusMenuShow"
-      style="z-index: 1000000000000000"
-    >
-      <template v-slot:activator="{ props }">
-        <v-card theme="dark" class="m-agent-report-bonus-menu-card" style="width: 180px">
-          <v-list-item
-            class="bonus-item"
-            v-bind="props"
-            :title="selectedBonusItem"
-            append-icon="mdi-chevron-down"
-            value=""
-          >
-          </v-list-item>
-        </v-card>
-      </template>
-      <v-list theme="dark" class="m-agent-report-bonus-menu-list">
-        <v-list-item
+  </div>
+  <div class="flex mt-6 mx-3">
+    <div class="relative w-44">
+      <div
+        class="flex items-center justify-between px-2 h-10 rounded-lg cursor-pointer"
+        style="background-color: var(--agent-card-notmet-bg)"
+        @click="bonusMenuShow = !bonusMenuShow"
+      >
+        <span class="text-white text-xs font-bold">{{ selectedBonusItem }}</span>
+        <img
+          src="@/assets/public/svg/icon_public_50.svg"
+          :class="['w-4 h-4 transition-all duration-300', bonusMenuShow ? 'rotate-180' : '']"
+        />
+      </div>
+      <div
+        v-if="bonusMenuShow"
+        class="absolute w-full mt-2 rounded-lg"
+        style="background-color: var(--agent-card-notmet-bg)"
+      >
+        <div
           v-for="(item, i) in inviteHistoryConfig.list"
           :key="i"
-          :value="item.name"
-          class="bonus-item mx-2"
-          @click="handleHistoryConfigDropdown(item)"
-          :class="
-            selectedBonusItem == item.name
-              ? 'm-agent-report-bonus-menu-selected-item'
-              : ''
-          "
+          class="px-4 py-2 text-sm text-gray-400 cursor-pointer hover:bg-gray-700"
+          :class="{ 'border border-solid border-green-500 rounded-lg': selectedBonusItem == item.name }"
+          @click="handleHistoryConfigDropdown(item); bonusMenuShow = false"
         >
-          <v-list-item-title>{{ item.name }}</v-list-item-title>
-        </v-list-item>
-      </v-list>
-    </v-menu>
-    <v-menu
-      offset="10"
-      content-class="m-agent-report-bonus-menu"
-      v-model="cashMenuShow"
-      style="z-index: 1000000000000000"
-    >
-      <template v-slot:activator="{ props }">
-        <v-card
-          theme="dark"
-          class="ml-auto m-agent-report-bonus-menu-card"
-          style="width: 100px"
-        >
-          <v-list-item
-            class="bonus-item"
-            v-bind="props"
-            :title="selectedPageSize"
-            append-icon="mdi-chevron-down"
-            value=""
-          >
-          </v-list-item>
-        </v-card>
-      </template>
-      <v-list theme="dark" class="m-agent-report-bonus-menu-list">
-        <v-list-item
+          {{ item.name }}
+        </div>
+      </div>
+    </div>
+    <div class="relative w-24 ml-auto">
+      <div
+        class="flex items-center justify-between px-2 h-10 rounded-lg cursor-pointer"
+        style="background-color: var(--agent-card-notmet-bg)"
+        @click="cashMenuShow = !cashMenuShow"
+      >
+        <span class="text-white text-xs font-bold">{{ selectedPageSize }}</span>
+        <img
+          src="@/assets/public/svg/icon_public_50.svg"
+          :class="['w-4 h-4 transition-all duration-300', cashMenuShow ? 'rotate-180' : '']"
+        />
+      </div>
+      <div
+        v-if="cashMenuShow"
+        class="absolute w-full mt-2 rounded-lg"
+        style="background-color: var(--agent-card-notmet-bg)"
+      >
+        <div
           v-for="(item, i) in cashItems"
           :key="i"
-          :value="item"
-          class="bonus-item mx-1"
-          :class="
-            selectedPageSize == item ? 'm-agent-report-bonus-menu-selected-item' : ''
-          "
-          @click="handlePageDropdown(item)"
+          class="px-4 py-2 text-sm text-gray-400 cursor-pointer hover:bg-gray-700"
+          :class="{ 'border border-solid border-green-500 rounded-lg': selectedPageSize == item }"
+          @click="handlePageDropdown(item); cashMenuShow = false"
         >
-          <v-list-item-title>{{ item }}</v-list-item-title>
-        </v-list-item>
-      </v-list>
-    </v-menu>
-  </v-row>
-  <v-row class="mx-2 mt-6 m-agent-forms-bonus-table">
-    <v-table
-      class="m-agent-forms-bonus-table-bg"
-      :class="fixPositionShow ? 'table-position-overflow' : ''"
-      theme="dark"
-      fixed-header
+          {{ item }}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mx-2 mt-6">
+    <div
+      class="p-2 rounded-lg"
+      style="background-color: var(--agent-card-notmet-bg); box-shadow: inset 2px 0px 4px 1px rgba(0, 0, 0, 0.12);"
     >
-      <thead class="forms-table-header">
-        <tr>
-          <th
-            class="m-forms-table-header-text px-0"
-            style="border-radius: 8px 0px 0px 8px"
-          >
-            {{ t("affiliate.forms.table.time") }}
-          </th>
-          <th class="m-forms-table-header-text px-0">
-            <div class="forms-table-border">{{ t("affiliate.forms.table.user") }}</div>
-          </th>
-          <th class="m-forms-table-header-text px-0">
-            <div class="forms-table-border-1">
-              {{ t("affiliate.forms.table.event") }}
-            </div>
-          </th>
-          <th
-            class="m-forms-table-header-text px-0"
-            style="border-radius: 0px 8px 8px 0px"
-          >
-            {{ t("affiliate.forms.table.bonus") }}
-          </th>
-        </tr>
-      </thead>
-      <tbody class="m-forms-table-body">
-        <tr
-          v-for="(item, index) in inviteHistoryItem.list"
-          :key="index"
-          v-if="inviteHistoryItem.list.length > 0"
+      <table class="w-full">
+        <thead
+          class="text-xs font-bold text-center text-gray-400"
+          style="background-color: var(--agent-card-bg)"
         >
-          <td class="text-500-12">
-            {{ moment(Number(item.time) * 1000).format("MM/DD HH:mm:ss") }}
-          </td>
-          <td class="text-500-12">{{ item.user }}</td>
-          <td class="text-500-12">{{ selectedHistoryConfig.name }}</td>
-          <td class="text-500-12">{{ item.bonus }}</td>
-        </tr>
-        <tr v-for="(item, formIndex) in formsList" :key="formIndex" v-else>
-          <td class="text-500-12"></td>
-          <td class="text-500-12"></td>
-          <td class="text-500-12"></td>
-          <td class="text-500-12"></td>
-        </tr>
-      </tbody>
-    </v-table>
-  </v-row>
-  <v-row class="mt-4 justify-center mx-4 pb-2">
+          <tr>
+            <th class="py-2 rounded-l-lg">{{ t("affiliate.forms.table.time") }}</th>
+            <th class="py-2 border-x-2" style="border-color: var(--agent-card-notmet-bg)">
+              {{ t("affiliate.forms.table.user") }}
+            </th>
+            <th class="py-2 border-r-2" style="border-color: var(--agent-card-notmet-bg)">
+              {{ t("affiliate.forms.table.event") }}
+            </th>
+            <th class="py-2 rounded-r-lg">{{ t("affiliate.forms.table.bonus") }}</th>
+          </tr>
+        </thead>
+        <tbody class="text-xs font-medium text-center text-white">
+          <tr v-if="inviteHistoryItem.list.length > 0" v-for="(item, index) in inviteHistoryItem.list" :key="index">
+            <td class="py-2">{{ moment(Number(item.time) * 1000).format("MM/DD HH:mm:ss") }}</td>
+            <td class="py-2">{{ item.user }}</td>
+            <td class="py-2">{{ selectedHistoryConfig.name }}</td>
+            <td class="py-2">{{ item.bonus }}</td>
+          </tr>
+          <tr v-else v-for="(item, formIndex) in formsList" :key="formIndex">
+            <td class="py-2"></td>
+            <td class="py-2"></td>
+            <td class="py-2"></td>
+            <td class="py-2"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="flex justify-center mt-4 mx-4 pb-2">
     <Pagination
       :length="inviteHistoryItem.total_pages"
       @handlePrev="handlePrev"
       @handleNext="handleNext"
     />
-  </v-row>
+  </div>
 </template>
 <style lang="scss">
 .m-agent-report-bonus-menu {

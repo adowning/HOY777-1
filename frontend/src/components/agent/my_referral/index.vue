@@ -147,9 +147,12 @@ onMounted(async () => {
 <template>
   <div>
     <div class="relative">
-      <img src="@/assets/public/svg/img_public_26.svg" style="width: 100%" />
-      <div class="m-my-referral-report-card">
-        <div class="report-card-text">
+      <img src="@/assets/public/svg/img_public_26.svg" class="w-full" />
+      <div
+        class="absolute w-75 h-11 rounded-lg bottom-1/6 right-1 z-[-1]"
+        style="background: var(--agent-referral-report-card-bg)"
+      >
+        <div class="flex items-center absolute top-4 right-11">
           <inline-svg
             :src="icon_public_83"
             width="20"
@@ -157,171 +160,108 @@ onMounted(async () => {
             :transform-source="svgTransform"
           >
           </inline-svg>
-          <span class="text-400-10 text-white ml-1">{{ t("agent.text_6") }}</span>
+          <span class="text-xs text-white ml-1">{{ t("agent.text_6") }}</span>
         </div>
       </div>
-      <div class="m-my-referral-report-btn" @click="goReportTab"></div>
-      <v-row class="m-referral-reward-card mx-4" style="margin-top: -18px">
-        <v-col cols="6">
-          <div class="text-400-12 text-white">{{ t("agent.text_7") }}</div>
-        </v-col>
-        <v-col cols="6" class="text-right">
-          <v-btn width="112" height="32" :loading="loading" @click="inviteAward">
+      <div
+        class="absolute w-32 h-8 bottom-1/6 right-1 z-[2]"
+        @click="goReportTab"
+      ></div>
+      <div class="flex w-11/12 items-center absolute top-8 -mt-4 mx-4">
+        <div class="w-1/2">
+          <div class="text-xs text-white">{{ t("agent.text_7") }}</div>
+        </div>
+        <div class="w-1/2 text-right">
+          <button
+            class="w-28 h-8 rounded-lg text-black text-center text-xs font-bold"
+            :loading="loading"
+            @click="inviteAward"
+            style="background: var(--agent-card-title-color); box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.3);"
+          >
             {{ t("agent.text_8") }}
-          </v-btn>
-        </v-col>
-      </v-row>
-      <div class="m-referral-reward-card-1 mx-7 text-700-18 text-white">
+          </button>
+        </div>
+      </div>
+      <div class="absolute top-20 mx-7 text-lg font-bold text-white">
         R$ {{ inviteItem.available_bonus }}
       </div>
     </div>
-    <v-card class="mx-2 m-agent-referral-partner-card">
-      <div class="text-700-14 text-white text-center mt-3">{{ t("agent.text_9") }}</div>
-      <div class="ma-4 d-flex">
-        <div class="m-agent-referral-qr-code">
-          <div class="m-agent-referral-qrcode">
+    <div
+      class="h-60 mx-2 rounded-lg shadow-md"
+      style="background: var(--agent-card-notmet-bg);"
+    >
+      <div class="text-sm font-bold text-white text-center mt-3">
+        {{ t("agent.text_9") }}
+      </div>
+      <div class="m-4 flex">
+        <div
+          class="w-19 h-26 rounded-t-lg"
+          style="background: var(--agent-card-price-color);"
+        >
+          <div class="w-19 h-19 bg-white rounded-lg">
             <QrcodeVue
               :value="inviteItem.web_invite_url"
               :size="size"
-              style="margin: 6px"
+              class="m-1.5"
             />
           </div>
           <div
-            class="text-700-10 text-black text-center mt-2"
+            class="text-xs font-bold text-black text-center mt-2"
             @click="inviteUrlCopy(inviteItem.web_invite_url)"
           >
             {{ t("agent.text_10") }}
           </div>
         </div>
-        <v-card class="m-agent-referral-invitation-code ml-2">
-          <div class="ma-2 text-gray text-400-10">{{ t("agent.text_11") }}</div>
-          <div class="ma-2 text-400-12 text-white">{{ inviteItem.invite_code }}</div>
-          <v-btn
-            icon=""
+        <div
+          class="w-full h-26 ml-2 rounded-lg relative"
+          style="background: var(--agent-card-bg); box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.35) inset;"
+        >
+          <div class="m-2 text-gray-400 text-xs">{{ t("agent.text_11") }}</div>
+          <div class="m-2 text-xs text-white">{{ inviteItem.invite_code }}</div>
+          <button
             @click="inviteUrlCopy(inviteItem.invite_code)"
-            class="m-invite-url-copy-btn"
-            width="24"
-            height="24"
+            class="absolute w-6 h-6 rounded-md bottom-2 right-2"
+            style="background: var(--agent-card-notmet-bg);"
           >
-            <img src="@/assets/public/svg/icon_public_71.svg" width="16" />
-          </v-btn>
-        </v-card>
+            <img
+              src="@/assets/public/svg/icon_public_71.svg"
+              class="w-4"
+            />
+          </button>
+        </div>
       </div>
-      <div class="mt-4 mx-4 d-flex justify-between">
+      <div class="mt-4 mx-4 flex justify-between">
         <div class="text-center" @click="sendFacebookAppInvite">
           <img src="@/assets/agent/svg/img_agent_9.svg" />
-          <div class="text-700-10 text-white">{{ t("agent.text_12") }}</div>
+          <div class="text-xs font-bold text-white">{{ t("agent.text_12") }}</div>
         </div>
         <div class="text-center" @click="sendTelegramAppInvite">
           <img src="@/assets/agent/svg/img_vip_15.svg" />
-          <div class="text-700-10 text-white">{{ t("agent.text_13") }}</div>
+          <div class="text-xs font-bold text-white">{{ t("agent.text_13") }}</div>
         </div>
         <div class="text-center">
           <img src="@/assets/agent/svg/img_agent_10.svg" @click="sendWhatsAppInvite" />
-          <div class="text-700-10 text-white">{{ t("agent.text_14") }}</div>
+          <div class="text-xs font-bold text-white">{{ t("agent.text_14") }}</div>
         </div>
         <div class="text-center">
-          <img src="@/assets/agent/svg/img_agent_11.svg" @click="sendTwitterAppInvite" />
-          <div class="text-700-10 text-white">{{ t("agent.text_15") }}</div>
+          <img
+            src="@/assets/agent/svg/img_agent_11.svg"
+            @click="sendTwitterAppInvite"
+          />
+          <div class="text-xs font-bold text-white">{{ t("agent.text_15") }}</div>
         </div>
         <div class="text-center">
           <img src="@/assets/agent/svg/img_agent_12.svg" @click="sendEmailAppInvite" />
-          <div class="text-700-10 text-white">{{ t("agent.text_16") }}</div>
+          <div class="text-xs font-bold text-white">{{ t("agent.text_16") }}</div>
         </div>
       </div>
-    </v-card>
+    </div>
     <MStatistics :inviteItem="inviteItem" />
     <MInviteFooter />
   </div>
 </template>
 
 <style lang="scss">
-.m-my-referral-report-card {
-  position: absolute;
-  width: 300px;
-  height: 44px;
-  background: $agent_referral_report_card_bg;
-  border-radius: 8px;
-  bottom: 16.7%;
-  right: 3.1%;
-  z-index: -1;
-
-  .report-card-text {
-    display: flex;
-    align-items: center;
-    position: absolute;
-    top: 17px;
-    right: 44px;
-  }
-}
-
-.m-my-referral-report-btn {
-  position: absolute;
-  width: 130px;
-  height: 30px;
-  bottom: 16.7%;
-  right: 3.1%;
-  z-index: 2;
-}
-
-.m-referral-reward-card {
-  width: 94%;
-  align-items: center;
-  position: absolute;
-  top: 30px;
-
-  .v-btn {
-    border-radius: 8px;
-    background: $agent_card_title_color;
-    box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.3);
-
-    .v-btn__content {
-      color: #000;
-      text-align: center;
-      font-family: Inter,-apple-system,Framedcn,Helvetica Neue,Condensed,DisplayRegular,Helvetica,Arial,PingFang SC,Hiragino Sans GB,WenQuanYi Micro Hei,Microsoft Yahei,sans-serif;
-      font-size: 12px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: normal;
-    }
-  }
-}
-
-.m-referral-reward-card-1 {
-  position: absolute;
-  top: 76px;
-}
-
-.m-agent-referral-partner-card {
-  height: 239px;
-  border-radius: 8px;
-  background: $agent_card_notmet_bg;
-  box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.3);
-}
-
-.m-agent-referral-qr-code {
-  width: 76px;
-  height: 106px;
-  background: $agent_card_price_color;
-  border-radius: 8px 8px 0px 0px;
-}
-
-.m-agent-referral-invitation-code {
-  width: 100%;
-  height: 106px;
-  background: $agent_card_bg;
-  border-radius: 8px;
-  box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.35) inset;
-
-  .m-invite-url-copy-btn {
-    border-radius: 4px;
-    background: $agent_card_notmet_bg;
-    position: absolute;
-    bottom: 8px;
-    right: 8px;
-  }
-}
-
 .Vue-Toastification__container {
   right: 0 !important;
   left: unset !important;
@@ -329,12 +269,5 @@ onMounted(async () => {
   margin-right: 37px;
   height: 60px !important;
   z-index: 10000000000000000;
-}
-
-.m-agent-referral-qrcode {
-  width: 76px;
-  height: 76px;
-  background: #ffffff;
-  border-radius: 8px;
 }
 </style>

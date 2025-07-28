@@ -50,27 +50,34 @@ onMounted(async () => {
 
 <template>
   <!-------------------- game providers -------------->
-  <v-row
-    class="mb-4 white"
-    :class="[mobileWidth < 600 ? 'mx-2 mt-8 text-800-16' : 'mx-4 mt-6 text-700-22']"
+  <div
+    class="mb-4 text-white"
+    :class="[
+      mobileWidth < 600
+        ? 'mx-2 mt-8 text-base font-extrabold'
+        : 'mx-4 mt-6 text-2xl font-bold',
+    ]"
   >
     {{ t("home.game_providers") }}
-  </v-row>
-  <v-row class="ml-4 mr-2 mt-2" v-if="mobileWidth > 600">
+  </div>
+  <div class="ml-4 mr-2 mt-2 flex" v-if="mobileWidth > 600">
     <div
-      style="flex: 0 0 14.2857%; max-width: 14.2857%; padding-right: 8px"
-      v-ripple.center
+      class="flex-[0_0_14.2857%] max-w-[14.2857%] pr-2"
       v-for="(item, index) in gameProviders"
       :key="index"
     >
-      <img :src="item.pictures" class="game-provider-img-width" />
+      <img
+        :src="item.pictures"
+        class="max-w-[160px] w-full cursor-pointer"
+      />
     </div>
-  </v-row>
-  <v-row class="ma-2" v-else>
-    <v-slide-group>
-      <v-slide-group-item
+  </div>
+  <div class="ma-2" v-else>
+    <div class="overflow-x-auto whitespace-nowrap">
+      <div
         v-for="(gameProviderItem, gameProviderIndex) in gameProviders"
         :key="gameProviderIndex"
+        class="inline-block"
       >
         <img
           :src="gameProviderItem.pictures"
@@ -79,23 +86,7 @@ onMounted(async () => {
           class="mr-5"
           @click="handleGameProviderPage(gameProviderItem.slug)"
         />
-      </v-slide-group-item>
-    </v-slide-group>
-  </v-row>
+      </div>
+    </div>
+  </div>
 </template>
-
-<style lang="scss">
-.game-provider-img-width {
-  max-width: 160px !important;
-  width: 100%;
-  cursor: pointer;
-}
-@media (max-width: 600px) {
-  .v-slide-group__prev {
-    display: none !important;
-  }
-  .v-slide-group__next {
-    display: none !important;
-  }
-}
-</style>

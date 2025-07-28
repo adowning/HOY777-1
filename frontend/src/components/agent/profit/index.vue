@@ -15,213 +15,253 @@ const { dispatchInviteAward } = inviteStore();
 const summaryTabText = ref<string>("today");
 
 const selectedItem = ref<StatisticsItem>({
-    register_user: [],
-    deposit_user: [],
-    deposit_bonus: 0,
-    deposit_amount: [],
-    bet_amount: [],
-    bet_bonus: [],
-    achievement_award: 0,
-})
+  register_user: [],
+  deposit_user: [],
+  deposit_bonus: 0,
+  deposit_amount: [],
+  bet_amount: [],
+  bet_bonus: [],
+  achievement_award: 0,
+});
 
 const mobileWidth = computed(() => {
-    return width.value;
+  return width.value;
 });
 
 const handleSummaryTab = (tabText: string) => {
-    summaryTabText.value = tabText;
-    switch (tabText) {
-        case "today":
-            selectedItem.value = statisticsItem.value.today_profit
-            break;
-        case "week":
-            selectedItem.value = statisticsItem.value.week_profit
-            break;
-        case "month":
-            selectedItem.value = statisticsItem.value.month_profit
-            break;
-    }
+  summaryTabText.value = tabText;
+  switch (tabText) {
+    case "today":
+      selectedItem.value = statisticsItem.value.today_profit;
+      break;
+    case "week":
+      selectedItem.value = statisticsItem.value.week_profit;
+      break;
+    case "month":
+      selectedItem.value = statisticsItem.value.month_profit;
+      break;
+  }
 };
 
 const statisticsItem = computed(() => {
-    const { getStatisticsItem } = storeToRefs(inviteStore());
-    return getStatisticsItem.value;
+  const { getStatisticsItem } = storeToRefs(inviteStore());
+  return getStatisticsItem.value;
 });
 
 onMounted(async () => {
-    await dispatchStatisticsList();
-    selectedItem.value = statisticsItem.value.today_profit
-    console.log(selectedItem.value);
+  await dispatchStatisticsList();
+  selectedItem.value = statisticsItem.value.today_profit;
+  console.log(selectedItem.value);
 });
 </script>
 <template>
-  <div class="m-agent-profit-summary-card mx-2">
-    <div class="ma-4 text-800-14 white">{{ t("affiliate.statistics.summary_text") }}</div>
-    <v-row class="mx-1 my-0 px-6 m-agent-profit-summary-level">
-      <v-col cols="3" class="pa-0 text-400-12 gray">
+  <div
+    class="mx-2 rounded-lg shadow-md overflow-x-auto"
+    style="background: var(--agent-card-notmet-bg)"
+  >
+    <div class="m-4 text-sm font-extrabold text-white">
+      {{ t("affiliate.statistics.summary_text") }}
+    </div>
+    <div
+      class="flex items-center w-[600px] h-8 mx-1 my-0 px-6 rounded-lg"
+      style="background: var(--agent-card-bg)"
+    >
+      <div class="w-1/4 p-0 text-xs text-gray-400">
         {{ t("affiliate.statistics.level_text") }}
-      </v-col>
-      <v-col cols="3" class="pa-0 text-400-12 gray">
+      </div>
+      <div class="w-1/4 p-0 text-xs text-gray-400">
         {{ t("affiliate.statistics.grade_text_1") }}
-      </v-col>
-      <v-col cols="3" class="pa-0 text-400-12 gray">
+      </div>
+      <div class="w-1/4 p-0 text-xs text-gray-400">
         {{ t("affiliate.statistics.grade_text_2") }}
-      </v-col>
-      <v-col cols="3" class="pa-0 text-400-12 gray">
+      </div>
+      <div class="w-1/4 p-0 text-xs text-gray-400">
         {{ t("affiliate.statistics.grade_text_3") }}
-      </v-col>
-    </v-row>
-    <v-row class="mx-1 my-1 px-6 m-agent-profit-user-card">
-      <v-col cols="3" class="pa-0 text-400-12 gray">
+      </div>
+    </div>
+    <div
+      class="flex items-center w-[600px] h-12 mx-1 my-1 px-6 rounded-lg"
+      style="background: var(--agent-card-bg)"
+    >
+      <div class="w-1/4 p-0 text-xs text-gray-400">
         {{ t("affiliate.statistics.text_4") }}
         <br />
         {{ t("affiliate.statistics.text_5") }}
-      </v-col>
-      <v-col cols="3" class="pa-0 text-700-12 gray">
+      </div>
+      <div class="w-1/4 p-0 text-xs font-bold text-gray-400">
         {{ selectedItem.register_user[0] }}
-      </v-col>
-      <v-col cols="3" class="pa-0 text-700-12 gray">
+      </div>
+      <div class="w-1/4 p-0 text-xs font-bold text-gray-400">
         {{ selectedItem.register_user[1] }}
-      </v-col>
-      <v-col cols="3" class="pa-0 text-700-12 gray">
+      </div>
+      <div class="w-1/4 p-0 text-xs font-bold text-gray-400">
         {{ selectedItem.register_user[2] }}
-      </v-col>
-    </v-row>
-    <v-row class="mx-1 my-1 px-6 m-agent-profit-user-card">
-      <v-col cols="3" class="pa-0 text-400-12 gray">
+      </div>
+    </div>
+    <div
+      class="flex items-center w-[600px] h-12 mx-1 my-1 px-6 rounded-lg"
+      style="background: var(--agent-card-bg)"
+    >
+      <div class="w-1/4 p-0 text-xs text-gray-400">
         {{ t("affiliate.statistics.text_6") }}
         <br />
         {{ t("affiliate.statistics.text_5") }}
-      </v-col>
-      <v-col cols="3" class="pa-0 text-700-12 gray">
+      </div>
+      <div class="w-1/4 p-0 text-xs font-bold text-gray-400">
         {{ selectedItem.deposit_user[0] }}
-      </v-col>
-      <v-col cols="3" class="pa-0 text-700-12 gray">
+      </div>
+      <div class="w-1/4 p-0 text-xs font-bold text-gray-400">
         {{ selectedItem.deposit_user[1] }}
-      </v-col>
-      <v-col cols="3" class="pa-0 text-700-12 gray">
+      </div>
+      <div class="w-1/4 p-0 text-xs font-bold text-gray-400">
         {{ selectedItem.deposit_user[2] }}
-      </v-col>
-    </v-row>
-    <v-row class="mx-1 my-1 px-6 m-agent-profit-commission-card">
-      <v-col cols="3" class="pa-0 text-400-12 gray">
+      </div>
+    </div>
+    <div
+      class="flex items-center w-[600px] h-12 mx-1 my-1 px-6 rounded-lg"
+      style="background: var(--agent-color-3)"
+    >
+      <div class="w-1/4 p-0 text-xs text-gray-400">
         {{ t("affiliate.statistics.text_8") }}
         <br />
         {{ t("affiliate.statistics.text_7") }}
-      </v-col>
-      <v-col cols="3" class="pa-0 text-700-12 yellow">
+      </div>
+      <div class="w-1/4 p-0 text-xs font-bold text-yellow-400">
         R$ {{ Number(selectedItem.deposit_bonus).toFixed(2) }}
-      </v-col>
-      <v-col cols="3" class="pa-0 text-700-12 gray"> -- </v-col>
-      <v-col cols="3" class="pa-0 text-700-12 gray"> -- </v-col>
-    </v-row>
-    <v-row class="mx-1 my-1 px-6 m-agent-profit-user-card">
-      <v-col cols="3" class="pa-0 text-400-12 gray">
+      </div>
+      <div class="w-1/4 p-0 text-xs font-bold text-gray-400">--</div>
+      <div class="w-1/4 p-0 text-xs font-bold text-gray-400">--</div>
+    </div>
+    <div
+      class="flex items-center w-[600px] h-12 mx-1 my-1 px-6 rounded-lg"
+      style="background: var(--agent-card-bg)"
+    >
+      <div class="w-1/4 p-0 text-xs text-gray-400">
         {{ t("affiliate.statistics.text_6") }}
         <br />
         {{ t("affiliate.statistics.text_7") }}
-      </v-col>
-      <v-col cols="3" class="pa-0 text-700-12 gray">
+      </div>
+      <div class="w-1/4 p-0 text-xs font-bold text-gray-400">
         R$ {{ selectedItem.deposit_amount[0] }}
-      </v-col>
-      <v-col cols="3" class="pa-0 text-700-12 gray">
+      </div>
+      <div class="w-1/4 p-0 text-xs font-bold text-gray-400">
         R$ {{ selectedItem.deposit_amount[1] }}
-      </v-col>
-      <v-col cols="3" class="pa-0 text-700-12 gray">
+      </div>
+      <div class="w-1/4 p-0 text-xs font-bold text-gray-400">
         R$ {{ selectedItem.deposit_amount[2] }}
-      </v-col>
-    </v-row>
-    <v-row class="mx-1 my-1 px-6 m-agent-profit-user-card">
-      <v-col cols="3" class="pa-0 text-400-12 gray">
+      </div>
+    </div>
+    <div
+      class="flex items-center w-[600px] h-12 mx-1 my-1 px-6 rounded-lg"
+      style="background: var(--agent-card-bg)"
+    >
+      <div class="w-1/4 p-0 text-xs text-gray-400">
         {{ t("affiliate.statistics.text_9") }}
         <br />
         {{ t("affiliate.statistics.text_7") }}
-      </v-col>
-      <v-col cols="3" class="pa-0 text-700-12 gray">
+      </div>
+      <div class="w-1/4 p-0 text-xs font-bold text-gray-400">
         R$ {{ selectedItem.bet_amount[0] }}
-      </v-col>
-      <v-col cols="3" class="pa-0 text-700-12 gray">
+      </div>
+      <div class="w-1/4 p-0 text-xs font-bold text-gray-400">
         R$ {{ selectedItem.bet_amount[1] }}
-      </v-col>
-      <v-col cols="3" class="pa-0 text-700-12 gray">
+      </div>
+      <div class="w-1/4 p-0 text-xs font-bold text-gray-400">
         R$ {{ selectedItem.bet_amount[2] }}
-      </v-col>
-    </v-row>
-    <v-row class="mx-1 my-1 px-6 m-agent-profit-commission-card">
-      <v-col cols="3" class="pa-0 text-400-12 gray">
+      </div>
+    </div>
+    <div
+      class="flex items-center w-[600px] h-12 mx-1 my-1 px-6 rounded-lg"
+      style="background: var(--agent-color-3)"
+    >
+      <div class="w-1/4 p-0 text-xs text-gray-400">
         {{ t("affiliate.statistics.text_8") }}
         <br />
         {{ t("affiliate.statistics.text_7") }}
-      </v-col>
-      <v-col cols="3" class="pa-0 text-700-12 yellow">
+      </div>
+      <div class="w-1/4 p-0 text-xs font-bold text-yellow-400">
         R$ {{ selectedItem.bet_bonus[0] }}
-      </v-col>
-      <v-col cols="3" class="pa-0 text-700-12 yellow">
+      </div>
+      <div class="w-1/4 p-0 text-xs font-bold text-yellow-400">
         R$ {{ selectedItem.bet_bonus[1] }}
-      </v-col>
-      <v-col cols="3" class="pa-0 text-700-12 yellow">
+      </div>
+      <div class="w-1/4 p-0 text-xs font-bold text-yellow-400">
         R$ {{ selectedItem.bet_bonus[2] }}
-      </v-col>
-    </v-row>
-    <v-row class="mx-1 my-1 px-6 m-agent-profit-user-card">
-      <v-col cols="3" class="pa-0 text-400-12 gray">
+      </div>
+    </div>
+    <div
+      class="flex items-center w-[600px] h-12 mx-1 my-1 px-6 rounded-lg"
+      style="background: var(--agent-card-bg)"
+    >
+      <div class="w-1/4 p-0 text-xs text-gray-400">
         {{ t("affiliate.statistics.text_10") }}
         <br />
         {{ t("affiliate.statistics.text_11") }}
-      </v-col>
-      <v-col cols="3" class="pa-0 text-700-12 gray">
+      </div>
+      <div class="w-1/4 p-0 text-xs font-bold text-gray-400">
         R$ {{ selectedItem.achievement_award }}
-      </v-col>
-      <v-col cols="3" class="pa-0 text-700-12 gray"> -- </v-col>
-      <v-col cols="3" class="pa-0 text-700-12 gray"> -- </v-col>
-    </v-row>
+      </div>
+      <div class="w-1/4 p-0 text-xs font-bold text-gray-400">--</div>
+      <div class="w-1/4 p-0 text-xs font-bold text-gray-400">--</div>
+    </div>
   </div>
-  <v-row class="mx-6 m-agent-profit-summary-tab my-0">
-    <v-col
-      cols="4"
-      class="text-center text-500-13"
-      style="height: 100%"
+  <div
+    class="flex items-center justify-center h-16 mx-6 my-0 rounded-b-lg"
+    style="background: var(--agent-card-notmet-bg)"
+  >
+    <div
+      class="w-1/3 text-center text-sm font-medium h-full"
       :class="
-        summaryTabText == 'today' ? 'm-agent-profit-summary-tab-active white' : 'gray'
+        summaryTabText == 'today'
+          ? 'rounded-b-lg text-white shadow-md'
+          : 'text-gray-400'
       "
       @click="handleSummaryTab('today')"
+      :style="
+        summaryTabText == 'today'
+          ? 'background: var(--agent-card-bar-bg)'
+          : ''
+      "
     >
       {{ t("affiliate.statistics.tab.text_1") }}
-    </v-col>
-    <v-col
-      cols="4"
-      class="text-center text-500-13"
-      style="height: 100%"
+    </div>
+    <div
+      class="w-1/3 text-center text-sm font-medium h-full"
       :class="
-        summaryTabText == 'week' ? 'm-agent-profit-summary-tab-active white' : 'gray'
+        summaryTabText == 'week'
+          ? 'rounded-b-lg text-white shadow-md'
+          : 'text-gray-400'
       "
       @click="handleSummaryTab('week')"
+      :style="
+        summaryTabText == 'week'
+          ? 'background: var(--agent-card-bar-bg)'
+          : ''
+      "
     >
       {{ t("affiliate.statistics.tab.text_2") }}
-    </v-col>
-    <v-col
-      cols="4"
-      class="text-center text-500-13"
-      style="height: 100%"
+    </div>
+    <div
+      class="w-1/3 text-center text-sm font-medium h-full"
       :class="
-        summaryTabText == 'month' ? 'm-agent-profit-summary-tab-active white' : 'gray'
+        summaryTabText == 'month'
+          ? 'rounded-b-lg text-white shadow-md'
+          : 'text-gray-400'
       "
       @click="handleSummaryTab('month')"
+      :style="
+        summaryTabText == 'month'
+          ? 'background: var(--agent-card-bar-bg)'
+          : ''
+      "
     >
       {{ t("affiliate.statistics.tab.text_3") }}
-    </v-col>
-  </v-row>
+    </div>
+  </div>
 </template>
 <style lang="scss">
-.m-agent-profit-summary-card {
-  border-radius: 8px;
-  background: $agent_card_notmet_bg;
-  box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.3);
-  overflow-x: auto;
-}
-
 .m-agent-profit-summary-card::-webkit-scrollbar-thumb {
-  background: $agent_card_bg;
+  background: var(--agent-card-bg);
   border-radius: 20px;
 }
 
@@ -229,43 +269,5 @@ onMounted(async () => {
   width: 3px;
   height: 6px;
   scroll-padding: 20px;
-}
-
-.m-agent-profit-summary-level {
-  align-items: center;
-  width: 600px;
-  height: 32px;
-  border-radius: 8px;
-  background: $agent_card_bg;
-}
-
-.m-agent-profit-user-card {
-  align-items: center;
-  width: 600px;
-  height: 48px;
-  border-radius: 8px;
-  background: $agent_card_bg;
-}
-
-.m-agent-profit-commission-card {
-  align-items: center;
-  width: 600px;
-  height: 48px;
-  border-radius: 8px;
-  background: $agent_color_3;
-}
-
-.m-agent-profit-summary-tab {
-  height: 64px;
-  border-radius: 0px 0px 8px 8px;
-  background: $agent_card_notmet_bg;
-  align-items: center;
-  justify-content: center;
-}
-
-.m-agent-profit-summary-tab-active {
-  border-radius: 0px 0px 8px 8px;
-  background: $agent_card_bar_bg;
-  box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.3);
 }
 </style>
