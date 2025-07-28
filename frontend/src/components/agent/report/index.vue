@@ -209,7 +209,7 @@ onMounted(async () => {
 });
 </script>
 <template>
-  <v-row class="mx-2 mt-0">
+  <div class="mx-2 mt-0">
     <div class="m-agent-report-date-picker relative" @click="datePickerShow = true">
       <el-date-picker
         v-model="selectedDate"
@@ -239,28 +239,21 @@ onMounted(async () => {
         width="20"
       />
     </div>
-  </v-row>
-  <v-row class="mt-6 mx-3">
-    <v-menu
-      offset="10"
-      content-class="m-agent-report-bonus-menu"
-      v-model="bonusMenuShow"
+  </div>
+  <div class="mt-6 mx-3 flex">
+    <div
+      class="relative"
       style="z-index: 1000000000000000"
+      @click="bonusMenuShow = !bonusMenuShow"
     >
-      <template v-slot:activator="{ props }">
-        <v-card theme="dark" class="m-agent-report-bonus-menu-card" style="width: 180px">
-          <v-list-item
-            class="bonus-item"
-            v-bind="props"
-            :title="selectedBonusItem"
-            append-icon="mdi-chevron-down"
-            value=""
-          >
-          </v-list-item>
-        </v-card>
-      </template>
-      <v-list theme="dark" class="m-agent-report-bonus-menu-list">
-        <v-list-item
+      <div class="m-agent-report-bonus-menu-card" style="width: 180px">
+        <div class="bonus-item flex items-center">
+          <div class="w-full text-center">{{ selectedBonusItem }}</div>
+          <v-icon>mdi-chevron-down</v-icon>
+        </div>
+      </div>
+      <div v-if="bonusMenuShow" class="m-agent-report-bonus-menu-list absolute">
+        <div
           v-for="(item, i) in inviteHistoryConfig.list"
           :key="i"
           :value="item.name"
@@ -272,34 +265,23 @@ onMounted(async () => {
               : ''
           "
         >
-          <v-list-item-title>{{ item.name }}</v-list-item-title>
-        </v-list-item>
-      </v-list>
-    </v-menu>
-    <v-menu
-      offset="10"
-      content-class="m-agent-report-bonus-menu"
-      v-model="cashMenuShow"
+          <div>{{ item.name }}</div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="relative ml-auto"
       style="z-index: 1000000000000000"
+      @click="cashMenuShow = !cashMenuShow"
     >
-      <template v-slot:activator="{ props }">
-        <v-card
-          theme="dark"
-          class="ml-auto m-agent-report-bonus-menu-card"
-          style="width: 100px"
-        >
-          <v-list-item
-            class="bonus-item"
-            v-bind="props"
-            :title="selectedPageSize"
-            append-icon="mdi-chevron-down"
-            value=""
-          >
-          </v-list-item>
-        </v-card>
-      </template>
-      <v-list theme="dark" class="m-agent-report-bonus-menu-list">
-        <v-list-item
+      <div class="m-agent-report-bonus-menu-card" style="width: 100px">
+        <div class="bonus-item flex items-center">
+          <div class="w-full text-center">{{ selectedPageSize }}</div>
+          <v-icon>mdi-chevron-down</v-icon>
+        </div>
+      </div>
+      <div v-if="cashMenuShow" class="m-agent-report-bonus-menu-list absolute">
+        <div
           v-for="(item, i) in cashItems"
           :key="i"
           :value="item"
@@ -309,17 +291,15 @@ onMounted(async () => {
           "
           @click="handlePageDropdown(item)"
         >
-          <v-list-item-title>{{ item }}</v-list-item-title>
-        </v-list-item>
-      </v-list>
-    </v-menu>
-  </v-row>
-  <v-row class="mx-2 mt-6 m-agent-forms-bonus-table">
-    <v-table
-      class="m-agent-forms-bonus-table-bg"
+          <div>{{ item }}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mx-2 mt-6 m-agent-forms-bonus-table">
+    <table
+      class="m-agent-forms-bonus-table-bg w-full"
       :class="fixPositionShow ? 'table-position-overflow' : ''"
-      theme="dark"
-      fixed-header
     >
       <thead class="forms-table-header">
         <tr>
@@ -365,15 +345,15 @@ onMounted(async () => {
           <td class="text-500-12"></td>
         </tr>
       </tbody>
-    </v-table>
-  </v-row>
-  <v-row class="mt-4 justify-center mx-4 pb-2">
+    </table>
+  </div>
+  <div class="mt-4 flex justify-center mx-4 pb-2">
     <Pagination
       :length="inviteHistoryItem.total_pages"
       @handlePrev="handlePrev"
       @handleNext="handleNext"
     />
-  </v-row>
+  </div>
 </template>
 <style lang="scss">
 .m-agent-report-bonus-menu {
