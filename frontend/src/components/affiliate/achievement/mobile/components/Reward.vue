@@ -1,14 +1,12 @@
 <script setup lang="ts">
-import { ref, watch, computed, onMounted, toRefs } from "vue";
+import { ref, toRefs } from "vue";
 import { useI18n } from "vue-i18n";
-import { useDisplay } from "vuetify";
 import img_agent_6 from "@/assets/affiliate/invite/image/img_agent_6.png";
 import { type GetAchievementItem } from "@/interface/achievement";
 import { type ExplainItem } from "@/interface/achievement";
 import { achievementStore } from "@/store/achievement";
 
 const { t } = useI18n();
-const { width } = useDisplay();
 const { dispatchStageAward } = achievementStore();
 
 const props = defineProps<{achievementItem: GetAchievementItem}>()
@@ -37,12 +35,6 @@ const rewardGrades = ref<Array<any>>([
     grade: 12,
   },
 ]);
-
-const rate = ref(99); // 100 is 99
-
-const mobileWidth = computed(() => {
-  return width.value;
-});
 
 const achievementAward = async (award_item: ExplainItem, award_progress: number) => {
   if (award_item.num <= award_progress && award_item.status == 1) {

@@ -6,7 +6,9 @@
     "dev": "vite --host",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint . --fix --ignore-path .gitignore"
+    "lint": "eslint . --fix --ignore-path .gitignore",
+        "refactor": "bun run scripts/refactor.ts"
+
   },
   "dependencies": {
     "@mdi/font": "7.0.96",

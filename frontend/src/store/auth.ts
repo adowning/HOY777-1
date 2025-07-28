@@ -1,10 +1,9 @@
-import { defineStore } from 'pinia';
-import { ref, computed } from 'vue';
+import { useApiConfig } from '@/composables/useApiConfig';
 import type * as SignIn from "@/interface/signin";
 import type * as SignUp from "@/interface/signup";
 import type * as User from "@/interface/user";
-import { useApi } from '@/composables/useApi';
-import { useApiConfig } from '@/composables/useApiConfig';
+import { defineStore } from 'pinia';
+import { computed, ref } from 'vue';
 
 export const authStore = defineStore('auth', () => {
   const success = ref(false);
@@ -14,12 +13,12 @@ export const authStore = defineStore('auth', () => {
   const authDialogVisible = ref(false);
   const signUpForm = ref(false);
   const nickNameDialogVisible = ref(false);
-  const { token, setToken, clearToken } = useApiConfig();
+  const { token, setToken, clearToken, sdk } = useApiConfig();
   const userInfo = ref<User.GetUserInfo | null>(null);
   const userAmount = ref<User.GetUserAmount | null>(null);
   const isLoading = ref(false);
 
-  const { get, post, apiRoutes } = useApi();
+  // const { get, post, apiRoutes } = useApi();
 
   const getSuccess = computed(() => success.value);
   const getErrMessage = computed(() => errMessage.value);

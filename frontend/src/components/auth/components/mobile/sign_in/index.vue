@@ -1,27 +1,20 @@
 <script lang="ts">
-import { defineComponent, reactive, toRefs, computed, watch } from "vue";
-import { useI18n } from "vue-i18n";
-import { authStore } from "@/store/auth";
-import { userStore } from "@/store/user";
-import { socketStore } from "@/store/socket";
-import { inviteStore } from "@/store/invite";
-import { vipStore } from "@/store/vip";
-import { refferalStore } from "@/store/refferal";
 import { appBarStore } from "@/store/appBar";
-import { storeToRefs } from "pinia";
-import { onMounted } from "vue";
-import { useDisplay } from "vuetify";
-import SuccessIcon from "@/components/global/notification/SuccessIcon.vue";
-import WarningIcon from "@/components/global/notification/WarningIcon.vue";
-import { useToast } from "vue-toastification";
+import { authStore } from "@/store/auth";
 import { bannerStore } from "@/store/banner";
 import { currencyStore } from "@/store/currency";
+import { inviteStore } from "@/store/invite";
+import { refferalStore } from "@/store/refferal";
+import { socketStore } from "@/store/socket";
+import { userStore } from "@/store/user";
+import { vipStore } from "@/store/vip";
+import { storeToRefs } from "pinia";
+import { computed, defineComponent, onMounted, reactive, toRefs, watch } from "vue";
+import { useI18n } from "vue-i18n";
+import { useToast } from "vue-toastification";
 
 const Login = defineComponent({
-  components: {
-    SuccessIcon,
-    WarningIcon,
-  },
+  components: {},
   emits: ["close", "switch"],
   setup(props, { emit }) {
     // translation
@@ -39,10 +32,10 @@ const Login = defineComponent({
     const { dispatchVipInfo } = vipStore();
     const { dispatchVipLevels } = vipStore();
     const { dispatchVipLevelAward } = vipStore();
-    const { width } = useDisplay();
     const {dispatchCurrencyList} = currencyStore();
     // initiate component state
     const state = reactive({
+      windowWidth: window.innerWidth,
       currentPage: 0, // default login form
       PAGE_TYPE: {
         LOGIN_FORM: 0,
@@ -71,8 +64,12 @@ const Login = defineComponent({
     });
 
     const mobileWidth = computed(() => {
-      return width.value;
+      return state.windowWidth;
     });
+
+    const handleResize = () => {
+      state.windowWidth = window.innerWidth;
+    };
 
     // computed variables
     const isFormDataReady = computed(
@@ -106,8 +103,7 @@ const Login = defineComponent({
         showCloseButtonOnHover: false,
         hideProgressBar: true,
         closeButton: "button",
-        icon: SuccessIcon,
-        rtl: false,
+        rtl: false
       });
       state.currentPage = state.PAGE_TYPE.LOGIN_FORM;
     };

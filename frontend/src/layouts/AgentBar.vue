@@ -60,22 +60,16 @@ onMounted(() => {
 </script>
 
 <template>
-  <v-navigation-drawer
-    temporary
-    location="right"
-    v-model="drawer"
-    :touchless="true"
+  <div
+    v-if="drawer"
     class="m-agent-drawer"
   >
-    <v-btn
+    <button
       class="m-agent-drawer-close-button"
-      icon="true"
-      width="20"
-      height="20"
       @click="closeAgentNavBarToggle"
     >
       <img :src="icon_public_10" width="18" />
-    </v-btn>
+    </button>
     <div class="m-agent-header" :class="scrollTop == 0 ? '' : 'm-agent-header-active-bg'">
       <div class="d-flex mx-5 justify-between mt-10">
         <span
@@ -117,7 +111,7 @@ onMounted(() => {
       <MReport v-if="activeIndex == 3" />
       <MGrade v-if="activeIndex == 4" />
     </div>
-  </v-navigation-drawer>
+  </div>
 </template>
 
 <style lang="scss">

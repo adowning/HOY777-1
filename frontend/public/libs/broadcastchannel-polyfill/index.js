@@ -1,4 +1,4 @@
-;(function (global) {
+(function (global) {
     var channels = []
     function BroadcastChannel(channel) {
         var $this = this
@@ -34,7 +34,7 @@
             }
             var value = JSON.stringify(message)
             // Broadcast to other contexts via storage events
-            var key = this._id + String(Data.now()) + '$' + String(Math.random())
+            var key = this._id + String(Date.now()) + '$' + String(Math.random())
             global.localStorage.setItem(key, value)
             setTimeout(function () {
                 global.localStorage.removeItem(key)
@@ -61,13 +61,13 @@
             this._mc.port1.onmessage = value
         },
         addEventListener: function (/**type, listener, useCapture */) {
-            return this._mc.port1.addEventListener.apple(this._mc.port1, arguments)
+            return this._mc.port1.addEventListener.apply(this._mc.port1, arguments)
         },
         removeEventListener: function (/**type, listener, useCapture */) {
-            return this._mc.port1.removeEventListener.apple(this._mc.port1, arguments)
+            return this._mc.port1.removeEventListener.apply(this._mc.port1, arguments)
         },
-        displatchEvent: function (/**event */) {
-            return this._mc.port1.displatchEvent.apple(this._mc.port1, arguments)
+        dispatchEvent: function (/**event */) {
+            return this._mc.port1.dispatchEvent.apply(this._mc.port1, arguments)
         }
     }
     global.BroadcastChannel = global.BroadcastChannel || BroadcastChannel

@@ -1,6 +1,5 @@
 <script lang="ts" setup>
 import { useI18n } from "vue-i18n";
-import { useDisplay } from "vuetify";
 import { ref, computed, watch, onMounted } from "vue";
 import { storeToRefs } from "pinia";
 import { useRouter } from "vue-router";
@@ -26,7 +25,13 @@ import WarningIcon from "@/components/global/notification/WarningIcon.vue";
 import { useToast } from "vue-toastification";
 
 const { t } = useI18n();
-const { width } = useDisplay();
+const mobileWidth = ref(window.innerWidth);
+const width = computed(() => mobileWidth.value);
+
+window.addEventListener('resize', () => {
+  mobileWidth.value = window.innerWidth;
+});
+
 const router = useRouter();
 const { setRewardNavShow } = menuStore();
 const { setMailMenuShow } = mailStore();
@@ -257,10 +262,7 @@ onMounted(async () => {
 
 <template>
   <div
-    v-model="rewardNavShow"
-    location="bottom"
-    temporary
-    :touchless="true"
+    v-if="rewardNavShow"
     class="m-reward-navigation-drawer"
   >
     <div :class="scrollTop == 0 ? 'm-reward-menu' : 'm-reward-menu-active-bg'" v-if="token">
@@ -567,16 +569,6 @@ onMounted(async () => {
       position: absolute;
       right: 16px;
       bottom: 30px;
-
-      .v-btn__content {
-        color: #fff;
-        font-family: Inter,-apple-system,Framedcn,Helvetica Neue,Condensed,DisplayRegular,Helvetica,Arial,PingFang SC,Hiragino Sans GB,WenQuanYi Micro Hei,Microsoft Yahei,sans-serif;
-        font-size: 12px;
-        font-style: normal;
-        font-weight: 900;
-        line-height: normal;
-        text-transform: uppercase;
-      }
     }
   }
 
@@ -592,33 +584,12 @@ onMounted(async () => {
     border-radius: 8px !important;
     background: $agent_card_title_color;
     box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.3);
-
-    .v-btn__content {
-      color: #000;
-      text-align: center;
-      font-family: Inter,-apple-system,Framedcn,Helvetica Neue,Condensed,DisplayRegular,Helvetica,Arial,PingFang SC,Hiragino Sans GB,WenQuanYi Micro Hei,Microsoft Yahei,sans-serif;
-      font-size: 14px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: normal;
-      text-transform: uppercase;
-    }
   }
 
   .m-reward-bonus-btn {
     border-radius: 8px;
     background: $agent_color_3;
     box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.3);
-
-    .v-btn__content {
-      color: var(--light-color, #7782aa);
-      text-align: center;
-      font-family: Inter,-apple-system,Framedcn,Helvetica Neue,Condensed,DisplayRegular,Helvetica,Arial,PingFang SC,Hiragino Sans GB,WenQuanYi Micro Hei,Microsoft Yahei,sans-serif;
-      font-size: 14px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: normal;
-    }
   }
 
   .m-reward-achievement-img {
@@ -629,61 +600,10 @@ onMounted(async () => {
   .m-reward-bonus-active-btn {
     border-radius: 8px;
     box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.3);
-
-    .v-btn__content {
-      color: #000;
-      text-align: center;
-      font-family: Inter,-apple-system,Framedcn,Helvetica Neue,Condensed,DisplayRegular,Helvetica,Arial,PingFang SC,Hiragino Sans GB,WenQuanYi Micro Hei,Microsoft Yahei,sans-serif;
-      font-size: 14px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: normal;
-    }
   }
 
   .m-claim-text {
     height: 40px !important;
-
-    .v-field {
-      background: $agent_card_notmet_bg !important;
-      border-radius: 8px !important;
-    }
-
-    .v-field__field {
-      background: $agent_card_notmet_bg !important;
-      border-radius: 8px !important;
-    }
-
-    .v-field__input {
-      height: 40px !important;
-      min-height: 40px !important;
-      background: $agent_card_notmet_bg !important;
-      padding: 0px !important;
-    }
-
-    .v-field__input::placeholder {
-      color: #7782aa;
-      text-align: center;
-      font-family: Inter,-apple-system,Framedcn,Helvetica Neue,Condensed,DisplayRegular,Helvetica,Arial,PingFang SC,Hiragino Sans GB,WenQuanYi Micro Hei,Microsoft Yahei,sans-serif;
-      font-size: 10px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      padding: 0px;
-    }
-
-    .v-field__clearable {
-      padding-top: 8px !important;
-    }
-
-    .v-input__control {
-      height: 40px !important;
-
-      .mdi:before {
-        font-size: 19px !important;
-        color: #7782aa !important;
-      }
-    }
   }
 }
 </style>

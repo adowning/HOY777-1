@@ -370,7 +370,7 @@ onMounted(() => {
   height: 100% !important;
 }
 
-.v-navigation-drawer__content {
+.navigation-drawer__content {
   height: 100vh;
   overflow-y: auto;
   overflow-x: hidden !important;
@@ -398,30 +398,10 @@ onMounted(() => {
 
 .sport-item {
   padding: 4px 8px !important;
-
-  .v-list-item-title {
-    font-weight: 700;
-    font-size: 14px;
-    color: #7782aa;
-  }
 }
 
 .sport-menu {
   margin-left: auto !important;
-
-  .v-overlay__content::after {
-    content: "";
-    position: absolute;
-    align-self: center;
-    float: right;
-    top: -16px;
-    border: 9px solid #1D2027;
-    border-right-color: transparent;
-    border-left-color: transparent;
-    border-top-color: transparent;
-    border-right-width: 7px;
-    border-left-width: 7px;
-  }
 }
 
 // chat menu receiver class

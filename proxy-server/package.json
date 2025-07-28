@@ -1,0 +1,13 @@
+{
+  "name": "websocket-proxy-server",
+  "version": "1.0.0",
+  "description": "A WebSocket proxy for intercepting and analyzing game traffic.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "bun run index.js"
+  },
+  "dependencies": {
+    "ws": "^8.17.0"
+  }
+}

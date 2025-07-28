@@ -63,7 +63,7 @@ const inviteUrlCopy = (content: string) => {
 };
 
 watch(inviteItem, (new_value) => {
-  if (inviteItem != undefined) {
+  if (inviteItem.value != undefined) {
     inviteList.value[0].content = new_value.web_invite_url;
     inviteList.value[1].content = new_value.invite_code;
   }

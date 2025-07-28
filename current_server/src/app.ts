@@ -1,0 +1,68 @@
+import configureOpenAPI from '#/lib/configure-open-api'
+import createApp from '#/lib/create-app'
+import auth from '#/routes/auth/auth.router'
+import games from '#/routes/games/games.router'
+import gamespins from '#/routes/gamespins/gamespins.router'
+import index from '#/routes/index.route'
+import operator from '#/routes/operator/operator.router'
+import redtiger from '#/routes/redtiger/redtiger.router'
+import users from '#/routes/user/user.router'
+import players from '#/routes/players/players.router'
+import updates from '#/routes/updates/updates.router'
+import vip from '#/routes/vip/vip.router'
+import wallet from '#/routes/wallet/wallet.router'
+import websocket from '#/routes/websocket/websocket.router'
+import recordings from '#/routes/recordings/recordings.router'
+import gameProxy from '#/routes/websocket/proxy.router' // Import the new game proxy router
+import { cors } from 'hono/cors'
+
+const app = createApp()
+app.use(
+    '*',
+    cors({
+        origin: [
+            'http://localhost',
+            'http://localhost:5173',
+            'http://localhost:9999',
+            'http://localhost:3001',
+            'http://localhost:3000',
+            'https://slots.cashflowcasino.com', // Add the game's origin
+        ],
+        allowHeaders: [
+            'X-Custom-Header',
+            'Authorization',
+            'Content-Type',
+            'Upgrade-Insecure-Requests',
+        ],
+        allowMethods: ['POST', 'GET', 'OPTIONS'],
+        exposeHeaders: ['Content-Length', 'X-Kuma-Revision'],
+        maxAge: 600,
+        credentials: true,
+    })
+)
+configureOpenAPI(app)
+
+const routes = [
+    auth,
+    index,
+    updates,
+    users,
+    players,
+    redtiger,
+    websocket,
+    wallet,
+    vip,
+    operator,
+    games,
+    gamespins,
+    recordings,
+    gameProxy, // Add the new game proxy router to the list
+] as const
+
+routes.forEach((route) => {
+    app.route('/', route)
+})
+
+export type AppType = (typeof routes)[number]
+
+export default app

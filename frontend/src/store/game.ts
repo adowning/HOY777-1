@@ -69,7 +69,7 @@ export const gameStore = defineStore('game', () => {
     searchGameDialogShow.value = show;
   };
   const setSearchTextList = (text: string) => {
-    let sameSearchText = searchTextList.value.filter(item => item == text);
+    const sameSearchText = searchTextList.value.filter(item => item == text);
     if (sameSearchText.length == 0) {
       searchTextList.value.push(text);
     }

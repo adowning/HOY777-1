@@ -2,7 +2,7 @@
 import { ref } from 'vue';
 import { useI18n } from 'vue-i18n';
 
-const emit = defineEmits<{ (e: 'closeLoginBonusDialog'): void }>()
+const emit = defineEmits<{ (): void }>()
 const { t } = useI18n();
 
 const vipGrade = ref("VIP1");

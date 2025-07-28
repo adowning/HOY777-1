@@ -1,28 +1,23 @@
 <script lang="ts" setup>
-import { ref, computed, onMounted } from "vue";
-import { useI18n } from "vue-i18n";
-import { vipStore } from "@/store/vip";
-import { userStore } from "@/store/user";
-import { authStore } from "@/store/auth";
-import { storeToRefs } from "pinia";
-import { loginBonusStore } from "@/store/loginBonus";
+import MConfirm from "@/components/global/confirm/mobile/index.vue";
 import { appBarStore } from "@/store/appBar";
-import { Swiper, SwiperSlide } from "swiper/vue";
-// Import Swiper styles
+import { authStore } from "@/store/auth";
+import { loginBonusStore } from "@/store/loginBonus";
+import { userStore } from "@/store/user";
+import { vipStore } from "@/store/vip";
+import { storeToRefs } from "pinia";
 import "swiper/css";
 import "swiper/css/pagination";
-// import Swiper core and required modules
-import { Pagination } from "swiper/modules";
-import MConfirm from "@/components/global/confirm/mobile/index.vue";
+import { computed, onMounted, ref } from "vue";
+import { useI18n } from "vue-i18n";
 
-const emit = defineEmits<{ (e: "closeLoginBonusDialog"): void }>();
+const emit = defineEmits<{ (): void }>();
 const { t } = useI18n();
 const { setAuthModalType } = authStore();
 const { setAuthDialogVisible } = authStore();
 const { setOverlayScrimShow } = appBarStore();
 const { setGetBonusDialogVisible } = loginBonusStore();
 const { setLoginBonusDialogVisible } = loginBonusStore();
-const { setNavBarToggle } = appBarStore();
 const { setMainBlurEffectShow } = appBarStore();
 const { setHeaderBlurEffectShow } = appBarStore();
 const { setMenuBlurEffectShow } = appBarStore();
@@ -30,7 +25,6 @@ const { dispatchVipSignInReward } = vipStore();
 const { dispatchVipSignIn } = vipStore();
 const { dispatchVipSigninawardReceive } = vipStore();
 
-const vipGrade = ref("VIP1");
 const loginBonusItem = ref({
   award: [8, 10, 12, 14, 16, 18, 20, 22], // reward list
   signin_day: 0, // The number of days that have been signed in
@@ -41,18 +35,7 @@ const confirmDialog = ref<boolean>(false);
 const selectedDay = ref<number>(0);
 const selectedAward = ref<number>(0);
 
-const modules = [Pagination];
 
-const vipLevels = computed(() => {
-  const { getVipLevels } = storeToRefs(vipStore());
-  console.log(getVipLevels.value[1]);
-  return getVipLevels.value;
-});
-
-const getBonusDialogVisible = computed(() => {
-  const { getDepositAndBonusDialogVisible } = storeToRefs(loginBonusStore());
-  return getDepositAndBonusDialogVisible.value;
-});
 
 const userBalance = computed(() => {
   const { getUserBalance } = storeToRefs(userStore());
@@ -75,17 +58,6 @@ const success = computed(() => {
   return getSuccess.value;
 });
 
-const goToPrev = () => {
-  swiper.value.slidePrev();
-};
-
-const goToNext = () => {
-  swiper.value.slideNext();
-};
-
-const getSwiperRef = (swiperInstance: any) => {
-  swiper.value = swiperInstance;
-};
 
 const handleLoginBonus = async (day: number) => {
   if (token.value == undefined) {

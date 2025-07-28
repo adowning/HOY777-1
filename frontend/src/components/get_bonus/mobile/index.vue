@@ -1,9 +1,6 @@
 <script lang="ts" setup>
-import { ref, computed } from "vue";
-import { useI18n } from "vue-i18n";
-import { vipStore } from "@/store/vip";
-import { storeToRefs } from "pinia";
 import { appBarStore } from "@/store/appBar";
+import { useI18n } from "vue-i18n";
 
 const { t } = useI18n();
 const emit = defineEmits<{ (e: "closeGetBonusDialog"): void }>();

@@ -1,569 +1,191 @@
-<script lang="ts">
-import { defineComponent, reactive, toRefs, computed, watch } from "vue";
-import { useI18n } from "vue-i18n";
-import LoginHeader from "./Header.vue";
-import { authStore } from "@/store/auth";
-import { userStore } from "@/store/user";
-import { socketStore } from "@/store/socket";
-import { inviteStore } from "@/store/invite";
-import { vipStore } from "@/store/vip";
-import { refferalStore } from "@/store/refferal";
-import { appBarStore } from "@/store/appBar";
-import Notification from "@/components/global/notification/index.vue";
-import { storeToRefs } from "pinia";
-import { onMounted } from "vue";
-import { useDisplay } from "vuetify";
-import { ElNotification } from "element-plus";
-import SuccessIcon from "@/components/global/notification/SuccessIcon.vue";
-import WarningIcon from "@/components/global/notification/WarningIcon.vue";
-import { useToast } from "vue-toastification";
-import { bannerStore } from "@/store/banner";
-import { currencyStore } from "@/store/currency";
-
-const Login = defineComponent({
-  components: {
-    LoginHeader,
-    Notification,
-    ElNotification,
-    SuccessIcon,
-    WarningIcon,
-  },
-  emits: ["close", "switch"],
-  setup(props, { emit }) {
-    // translation
-    const { t } = useI18n();
-    const { dispatchSignIn } = authStore();
-    const { dispatchUserProfile } = authStore();
-    const { setAuthModalType } = authStore();
-    const { dispatchUserBalance } = userStore();
-    const { setOverlayScrimShow } = appBarStore();
-    const { setRefferalDialogShow } = refferalStore();
-    const { setToken } = authStore();
-    const { dispatchSocketConnect } = socketStore();
-    const { dispatchUserInvite } = inviteStore();
-    const { dispatchVipInfo } = vipStore();
-    const { dispatchVipLevels } = vipStore();
-    const { dispatchVipLevelAward } = vipStore();
-    const { width } = useDisplay();
-    const { dispatchCurrencyList } = currencyStore();
-
-    // initiate component state
-    const state = reactive({
-      currentPage: 0, // default login form
-      PAGE_TYPE: {
-        LOGIN_FORM: 0,
-        FORGOT_PASSWORD: 1,
-      },
-      formData: {
-        emailAddress: "",
-        password: "",
-      },
-      socialIconList: [
-        new URL("@/assets/public/svg/icon_public_28.svg", import.meta.url).href,
-        new URL("@/assets/public/svg/icon_public_29.svg", import.meta.url).href,
-        new URL("@/assets/public/svg/icon_public_30.svg", import.meta.url).href,
-        new URL("@/assets/public/svg/icon_public_31.svg", import.meta.url).href,
-      ],
-      isShowPassword: false,
-      notificationShow: false,
-      checkIcon: new URL("@/assets/public/svg/icon_public_18.svg", import.meta.url).href,
-      notificationText: t("login.forgotPasswordPage.notification"),
-      loading: false,
-      mailCardHeight: 0,
-      emailPartName: "",
-      closeBtnHeight: 0,
-      closeBtnShow: false,
-      containerHeight: 0 as number | undefined,
-      bodyHeight: 0,
-    });
-
-    const mobileWidth = computed(() => {
-      return width.value;
-    });
-
-    // computed variables
-    const isFormDataReady = computed(
-      (): boolean =>
-        state.formData.emailAddress.length > 0 && state.formData.password.length > 0
-    );
-
-    // flag when login successed
-    const success = computed(() => {
-      const { getSuccess } = storeToRefs(authStore());
-      return getSuccess.value;
-    });
-
-    // error message when login failed
-
-    const errMessage = computed(() => {
-      const { getErrMessage } = storeToRefs(authStore());
-      return getErrMessage.value;
-    });
-
-    const dialogCheckbox = computed(() => {
-      const { getDialogCheckbox } = storeToRefs(authStore());
-      return getDialogCheckbox.value;
-    });
-
-    watch(
-      dialogCheckbox,
-      (newValue) => {
-        state.closeBtnShow = false;
-      },
-      { deep: true }
-    );
-
-    // forgot password function when password fogot
-
-    const handleForgotPassword = () => {
-      const toast = useToast();
-      toast.success(t("login.forgotPasswordPage.notification"), {
-        timeout: 3000,
-        closeOnClick: false,
-        pauseOnFocusLoss: false,
-        pauseOnHover: false,
-        draggable: false,
-        showCloseButtonOnHover: false,
-        hideProgressBar: true,
-        closeButton: "button",
-        icon: SuccessIcon,
-        rtl: false,
-      });
-      state.currentPage = state.PAGE_TYPE.LOGIN_FORM;
-      // state.notificationShow = !state.notificationShow;
-      // state.checkIcon = new URL(
-      //   "@/assets/public/svg/icon_public_18.svg",
-      //   import.meta.url
-      // ).href;
-      // state.notificationText = t("login.forgotPasswordPage.notification");
-    };
-
-    // methods
-    const handleLoginFormSubmit = async () => {
-      state.loading = true;
-
-      // setToken("token");
-      // state.notificationShow = !state.notificationShow;
-      // state.checkIcon = new URL("@/assets/public/svg/icon_public_18.svg", import.meta.url).href
-      // state.notificationText = t('login.submit_result.success_text')
-      // setTimeout(() => {
-      //     setAuthModalType("");
-      //     emit('close');
-      // }, 1000)
-
-      // return;
-
-      await dispatchSignIn({
-        uid: state.formData.emailAddress,
-        password: state.formData.password,
-      });
-
-      if (success.value) {
-        await dispatchUserProfile();
-        await dispatchUserBalance();
-        await dispatchCurrencyList();
-        // await dispatchUserInvite();
-        await dispatchVipInfo();
-        await dispatchVipLevels();
-        await dispatchVipLevelAward();
-        // await dispatchSocketConnect();
-        setOverlayScrimShow(false);
-        setRefferalDialogShow(true);
-        const toast = useToast();
-        toast.success(t("login.submit_result.success_text"), {
-          timeout: 3000,
-          closeOnClick: false,
-          pauseOnFocusLoss: false,
-          pauseOnHover: false,
-          draggable: false,
-          showCloseButtonOnHover: false,
-          hideProgressBar: true,
-          closeButton: "button",
-          icon: SuccessIcon,
-          rtl: false,
-        });
-        // state.notificationShow = !state.notificationShow;
-        // state.checkIcon = new URL(
-        //   "@/assets/public/svg/icon_public_18.svg",
-        //   import.meta.url
-        // ).href;
-        // state.notificationText = t("login.submit_result.success_text");
-        setTimeout(() => {
-          setAuthModalType("");
-          emit("close");
-        }, 100);
-        await dispatchSocketConnect();
-      } else {
-        const toast = useToast();
-        toast.success(t("login.submit_result.err_text"), {
-          timeout: 3000,
-          closeOnClick: false,
-          pauseOnFocusLoss: false,
-          pauseOnHover: false,
-          draggable: false,
-          showCloseButtonOnHover: false,
-          hideProgressBar: true,
-          closeButton: "button",
-          icon: WarningIcon,
-          rtl: false,
-        });
-        // state.notificationShow = !state.notificationShow;
-        // state.checkIcon = new URL(
-        //   "@/assets/public/svg/icon_public_17.svg",
-        //   import.meta.url
-        // ).href;
-        // state.notificationText = t("login.submit_result.err_text");
-      }
-
-      state.loading = false;
-    };
-
-    const showPassword = () => {
-      state.isShowPassword = !state.isShowPassword;
-    };
-
-    const handleEmailBlur = () => {
-      // console.log("onblur")
-      setTimeout(() => {
-        state.mailCardHeight = 0;
-      }, 100);
-    };
-
-    const handleEmailChange = () => {
-      // console.log("onchange")
-      if (state.formData.emailAddress.includes("@")) {
-        state.emailPartName = state.formData.emailAddress.split("@")[0];
-        state.mailCardHeight = 220;
-      } else {
-        setTimeout(() => {
-          state.mailCardHeight = 0;
-        }, 100);
-      }
-    };
-
-    const handleEmailFocus = () => {
-      // console.log("onFocus")
-      if (state.formData.emailAddress.includes("@")) {
-        state.emailPartName = state.formData.emailAddress.split("@")[0];
-        state.mailCardHeight = 220;
-      }
-    };
-
-    const mergeEmail = (mail: string) => {
-      state.formData.emailAddress = state.formData.emailAddress.split("@")[0] + mail;
-      setTimeout(() => {
-        state.mailCardHeight = 0;
-      }, 100);
-    };
-
-    watch(
-      mobileWidth,
-      (newValue) => {
-        state.containerHeight = window.innerHeight - 54;
-        state.bodyHeight = window.innerHeight - 194;
-      },
-      { deep: true }
-    );
-
-    const handleResize = () => {
-      if (window.visualViewport?.height != undefined) {
-        state.containerHeight = window.visualViewport?.height - 54;
-        state.bodyHeight = window.innerHeight - 194;
-      }
-    };
-
-    onMounted(() => {
-      if (window.visualViewport?.height != undefined) {
-        state.containerHeight = window.visualViewport?.height - 54;
-        state.bodyHeight = window.innerHeight - 194;
-      }
-      window.addEventListener("resize", handleResize);
-      // setTimeout(() => {
-      //   state.closeBtnShow = true;
-      // }, 300);
-    });
-
-    return {
-      t,
-      ...toRefs(state),
-      isFormDataReady,
-      handleLoginFormSubmit,
-      handleForgotPassword,
-      showPassword,
-      handleEmailBlur,
-      handleEmailChange,
-      handleEmailFocus,
-      mergeEmail,
-    };
-  },
-});
-
-export default Login;
+<script lang="ts" setup>
 </script>
 
 <template>
   <div class="m-login-container">
     <!-- <LoginHeader v-if="currentPage === PAGE_TYPE.LOGIN_FORM" /> -->
     <div class="m-login-body px-6">
-      <div class="my-15 d-flex justify-center align-center">
-        <img src="@/assets/public/image/logo_public_01.png" width="86" />
+      <div class="my-15 flex justify-center items-center">
+        <img src="@/assets/public/image/logo_public_01.png" class="w-21" />
         <div class="ml-2">
-          <div class="text-800-16 white">
-            {{ t("signup.formPage.header.titleLine1") }}
+          <div class="text-800-16 text-white">
+            Sign Up Bonus
           </div>
-          <div class="text-900-20 white">
-            {{ t("signup.formPage.header.titleLine2") }}
+          <div class="text-900-20 text-white">
+            Up to R$500
           </div>
         </div>
       </div>
-      <v-form
-        v-if="currentPage === PAGE_TYPE.LOGIN_FORM"
-        ref="form"
+      <form
         class="full-width relative"
-        @keyup.enter="handleLoginFormSubmit"
       >
         <div class="relative mt-8">
-          <v-text-field
-            :label="t('signup.formPage.emailAddress')"
+          <input
+            label="Email Address"
             class="form-textfield dark-textfield m-login-email mx-0"
             variant="solo"
             density="comfortable"
-            v-model="formData.emailAddress"
-            :onblur="handleEmailBlur"
-            @input="handleEmailChange"
-            :onfocus="handleEmailFocus"
           />
-          <div class="m-login-mail-card" :style="{ height: mailCardHeight + 'px' }">
-            <v-list theme="dark" bg-color="#15161C">
-              <v-list-item
-                class="text-600-12 white"
-                value="gmail"
-                @click="mergeEmail('@gmail.com')"
+          <div class="m-login-mail-card">
+            <ul class="dark-list">
+              <li
+                class="text-600-12 text-white"
               >
-                {{ emailPartName }}@gmail.com
-              </v-list-item>
-              <v-list-item
-                class="text-600-12 white"
-                value="hotmail"
-                @click="mergeEmail('@hotmail.com')"
-                >{{ emailPartName }}@hotmail.com</v-list-item
-              >
-              <v-list-item
-                class="text-600-12 white"
-                value="yahoo"
-                @click="mergeEmail('@yahoo.com')"
-                >{{ emailPartName }}@yahoo.com</v-list-item
-              >
-              <v-list-item
-                class="text-600-12 white"
-                value="icloud"
-                @click="mergeEmail('@icloud.com')"
-                >{{ emailPartName }}@icloud.com</v-list-item
-              >
-              <v-list-item
-                class="text-600-12 white"
-                value="outlook"
-                @click="mergeEmail('@outlook.com')"
-                >{{ emailPartName }}@outlook.com</v-list-item
-              >
-            </v-list>
+                email@gmail.com
+              </li>
+              <li
+                class="text-600-12 text-white"
+                >email@hotmail.com</li>
+              <li
+                class="text-600-12 text-white"
+                >email@yahoo.com</li>
+              <li
+                class="text-600-12 text-white"
+                >email@icloud.com</li>
+              <li
+                class="text-600-12 text-white"
+                >email@outlook.com</li>
+            </ul>
           </div>
         </div>
         <div class="mt-6 relative pa-0">
-          <v-text-field
-            :label="t('signup.formPage.password')"
+          <input
+            label="Password"
             class="form-textfield dark-textfield ma-0 m-login-password"
             variant="solo"
             density="comfortable"
-            :type="isShowPassword ? 'text' : 'password'"
-            v-model="formData.password"
+            type="password"
           />
-          <div v-if="isShowPassword" @click="showPassword" class="m-password-icon">
+          <div class="m-password-icon">
             <img
               src="@/assets/public/svg/icon_public_07.svg"
-              class="m-disable-password"
-              width="16"
+              class="m-disable-password w-4"
             />
           </div>
-          <div v-else @click="showPassword" class="m-password-icon">
+          <div class="m-password-icon">
             <img
               src="@/assets/public/svg/icon_public_06.svg"
-              class="m-disable-password"
-              width="16"
+              class="m-disable-password w-4"
             />
           </div>
         </div>
-        <v-row class="mt-2">
+        <div class="mt-2">
           <p
             class="ml-9 login-forget-passwrod-text text-400-12"
-            @click="currentPage = PAGE_TYPE.FORGOT_PASSWORD"
           >
-            {{ t("login.formPage.forgetPassword") }}
+            Forgot Password?
           </p>
-        </v-row>
-        <v-row style="margin-top: 100px">
-          <v-btn
-            class="ma-3 button-bright m-signin-btn-text"
-            width="94%"
-            height="48px"
-            :loading="loading"
-            :disabled="!isFormDataReady"
-            :onclick="handleLoginFormSubmit"
+        </div>
+        <div class="mt-25">
+          <button
+            class="ma-3 button-bright m-signin-btn-text w-[94%] h-12"
           >
-            {{ t("login.formPage.button") }}
-          </v-btn>
-        </v-row>
-        <v-row class="mt-4">
+            Sign In
+          </button>
+        </div>
+        <div class="mt-4">
           <p class="m-divide-text">
-            {{ t("signup.formPage.divider") }}
+            or
           </p>
-          <v-divider class="mx-10" style="border: 1px solid #414968 !important" />
-        </v-row>
-        <v-row class="mt-6">
-          <v-col cols="8" offset="2">
+          <hr class="mx-10 border-gray-600" />
+        </div>
+        <div class="mt-6">
+          <div class="w-8/12 offset-2">
             <div
-              class="d-flex justify-space-around bg-surface-variant social-icon-wrapper"
+              class="flex justify-around bg-surface-variant social-icon-wrapper"
             >
-              <v-sheet
-                v-for="(item, index) in socialIconList"
-                :key="index"
-                color="#131828"
+              <div
                 class="rounded"
               >
-                <v-btn
-                  color="grey-darken-4"
-                  class="m-social-icon-button"
-                  icon=""
-                  width="36px"
-                  height="36px"
+                <button
+                  class="m-social-icon-button w-9 h-9"
                 >
-                  <img :src="item" width="36" />
-                </v-btn>
-              </v-sheet>
+                  <img src="" class="w-9" />
+                </button>
+              </div>
             </div>
-          </v-col>
-        </v-row>
-      </v-form>
+          </div>
+        </div>
+      </form>
       <!-- Forgot password -->
-      <div v-if="currentPage == PAGE_TYPE.FORGOT_PASSWORD" class="full-width">
-        <v-row class="relative mt-8">
-          <v-text-field
-            :label="t('signup.formPage.emailAddress')"
+      <div class="full-width">
+        <div class="relative mt-8">
+          <input
+            label="Email Address"
             class="form-textfield dark-textfield m-login-forgot"
             variant="solo"
             density="comfortable"
-            v-model="formData.emailAddress"
-            :onblur="handleEmailBlur"
-            @input="handleEmailChange"
-            :onfocus="handleEmailFocus"
           />
-          <div class="m-forgot-mail-card" :style="{ height: mailCardHeight + 'px' }">
-            <v-list theme="dark" bg-color="#1D2027">
-              <v-list-item
-                class="text-600-12 white"
-                value="gmail"
-                @click="mergeEmail('@gmail.com')"
+          <div class="m-forgot-mail-card">
+            <ul class="dark-list">
+              <li
+                class="text-600-12 text-white"
               >
-                {{ emailPartName }}@gmail.com
-              </v-list-item>
-              <v-list-item
-                class="text-600-12 white"
-                value="hotmail"
-                @click="mergeEmail('@hotmail.com')"
-                >{{ emailPartName }}@hotmail.com</v-list-item
-              >
-              <v-list-item
-                class="text-600-12 white"
-                value="yahoo"
-                @click="mergeEmail('@yahoo.com')"
-                >{{ emailPartName }}@yahoo.com</v-list-item
-              >
-              <v-list-item
-                class="text-600-12 white"
-                value="icloud"
-                @click="mergeEmail('@icloud.com')"
-                >{{ emailPartName }}@icloud.com</v-list-item
-              >
-              <v-list-item
-                class="text-600-12 white"
-                value="outlook"
-                @click="mergeEmail('@outlook.com')"
-                >{{ emailPartName }}@outlook.com</v-list-item
-              >
-            </v-list>
+                email@gmail.com
+              </li>
+              <li
+                class="text-600-12 text-white"
+                >email@hotmail.com</li>
+              <li
+                class="text-600-12 text-white"
+                >email@yahoo.com</li>
+              <li
+                class="text-600-12 text-white"
+                >email@icloud.com</li>
+              <li
+                class="text-600-12 text-white"
+                >email@outlook.com</li>
+            </ul>
           </div>
-        </v-row>
-        <v-row style="margin-top: 100px">
-          <v-btn
-            class="ma-3 button-bright m-signin-btn-text"
-            width="94%"
-            height="48"
-            autocapitalize="off"
-            @click="handleForgotPassword"
+        </div>
+        <div class="mt-25">
+          <button
+            class="ma-3 button-bright m-signin-btn-text w-[94%] h-12"
           >
-            {{ t("login.forgotPasswordPage.submit") }}
-          </v-btn>
-        </v-row>
-        <v-row>
-          <v-btn
-            class="ma-3 m-forgot-back-btn"
-            width="94%"
-            height="48"
-            autocapitalize="off"
-            @click="currentPage = PAGE_TYPE.LOGIN_FORM"
+            Submit
+          </button>
+        </div>
+        <div>
+          <button
+            class="ma-3 m-forgot-back-btn w-[94%] h-12"
           >
-            {{ t("login.forgotPasswordPage.back_text") }}
-          </v-btn>
-        </v-row>
-        <v-row class="mt-4">
+            Back
+          </button>
+        </div>
+        <div class="mt-4">
           <p class="m-divide-text">
-            {{ t("signup.formPage.divider") }}
+            or
           </p>
-          <v-divider class="mx-10" style="border: 1px solid #414968 !important" />
-        </v-row>
-        <v-row class="mt-6">
-          <v-col cols="8" offset="2">
+          <hr class="mx-10 border-gray-600" />
+        </div>
+        <div class="mt-6">
+          <div class="w-8/12 offset-2">
             <div
-              class="d-flex justify-space-around bg-surface-variant social-icon-wrapper"
+              class="flex justify-around bg-surface-variant social-icon-wrapper"
             >
-              <v-sheet
-                v-for="(item, index) in socialIconList"
-                :key="index"
-                color="#131828"
+              <div
                 class="rounded"
               >
-                <v-btn
-                  color="grey-darken-4"
-                  class="m-social-icon-button"
-                  icon=""
-                  width="36px"
-                  height="36px"
+                <button
+                  class="m-social-icon-button w-9 h-9"
                 >
-                  <img :src="item" width="36" />
-                </v-btn>
-              </v-sheet>
+                  <img src="" class="w-9" />
+                </button>
+              </div>
             </div>
-          </v-col>
-        </v-row>
+          </div>
+        </div>
       </div>
     </div>
-    <v-btn
-      class="m-close-button"
-      icon="true"
-      @click="$emit('close')"
-      width="30"
-      height="30"
-      v-if="closeBtnShow"
+    <button
+      class="m-close-button w-7 h-7"
     >
       <img src="@/assets/public/svg/icon_public_10.svg" />
       <!-- <v-icon :color="currentPage !== PAGE_TYPE.LOGIN_FORM ? '#7782AA' : '#FFFFFF'">
                 mdi-close
             </v-icon> -->
-    </v-btn>
-    <Notification
-      :notificationShow="notificationShow"
-      :notificationText="notificationText"
-      :checkIcon="checkIcon"
+    </button>
+    <div
     />
   </div>
 </template>

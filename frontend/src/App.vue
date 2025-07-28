@@ -1,19 +1,9 @@
 <script lang="ts" setup>
-import { ref, onMounted, Suspense } from "vue";
 import { RouterView } from "vue-router";
-
-onMounted(() => {});
 </script>
 
 <template>
-  <Suspense>
-    <template #default>
-      <router-view />
-    </template>
-    <template #fallback>
-      <div>Loading...</div>
-    </template>
-  </Suspense>
+  <router-view />
 </template>
 
 <style lang="scss">

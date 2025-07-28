@@ -1,11 +1,7 @@
 <script setup lang="ts">
-import { ref, watch, computed, onMounted, toRefs } from "vue";
+import { ref, toRefs } from "vue";
 import { useI18n } from "vue-i18n";
-import { useDisplay } from "vuetify";
 import img_agentemblem_1 from "@/assets/affiliate/achievement/img_agentemblem_1.png";
-import img_agentemblem_2 from "@/assets/affiliate/achievement/img_agentemblem_2.png";
-import img_agentemblem_3 from "@/assets/affiliate/achievement/img_agentemblem_3.png";
-import img_agentemblem_4 from "@/assets/affiliate/achievement/img_agentemblem_4.png";
 import img_agentemblem_5 from "@/assets/affiliate/achievement/img_agentemblem_5.png";
 import img_agentemblem_6 from "@/assets/affiliate/achievement/img_agentemblem_6.png";
 import img_agentemblem_7 from "@/assets/affiliate/achievement/img_agentemblem_7.png";
@@ -13,23 +9,16 @@ import img_agentemblem_8 from "@/assets/affiliate/achievement/img_agentemblem_8.
 import img_agentemblem_9 from "@/assets/affiliate/achievement/img_agentemblem_9.png";
 import img_agentemblem_10 from "@/assets/affiliate/achievement/img_agentemblem_10.png";
 import img_agentemblem_11 from "@/assets/affiliate/achievement/img_agentemblem_11.png";
-import img_agentemblem_12 from "@/assets/affiliate/achievement/img_agentemblem_12.png";
-import img_agentemblem_13 from "@/assets/affiliate/achievement/img_agentemblem_13.png";
-import img_agentemblem_14 from "@/assets/affiliate/achievement/img_agentemblem_14.png";
-import img_agentemblem_15 from "@/assets/affiliate/achievement/img_agentemblem_15.png";
 import { type GetAchievementItem } from "@/interface/achievement";
 import { type ExplainItem } from "@/interface/achievement";
 import { achievementStore } from "@/store/achievement";
 
 const { t } = useI18n();
-const { width } = useDisplay();
 const { dispatchAchievementAward } = achievementStore();
 
 const props = defineProps<{ achievementItem: GetAchievementItem }>();
 
 const { achievementItem } = toRefs(props);
-
-const rate = ref(97.8); // 100 is 97.8
 
 const realizationItem = ref<Array<any>>([
   {
@@ -105,10 +94,6 @@ const realizationItem = ref<Array<any>>([
     rate: 0,
   },
 ]);
-
-const mobileWidth = computed(() => {
-  return width.value;
-});
 
 const achievementAward = async (achievement_item: ExplainItem, achievement_progress: number) => {
   console.log(achievement_item);

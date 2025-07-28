@@ -1,0 +1,17 @@
+# The hostname of your tunnel
+hostname: your-tunnel-hostname.com
+# The service your tunnel points to by default
+service: http://localhost:9999
+
+# Ingress rules define how traffic is routed.
+# The first rule that matches is the one that is used.
+ingress:
+  # Rule 1: Route WebSocket traffic for the game proxy
+  # This rule specifically targets the /ws/proxy path.
+  - hostname: your-tunnel-hostname.com
+    path: /ws/proxy
+    service: ws://localhost:9999
+
+  # Rule 2: Catch-all for all other traffic (like the index.html and injector.js)
+  # This is your default rule. It must be LAST.
+  - service: http://localhost:9999

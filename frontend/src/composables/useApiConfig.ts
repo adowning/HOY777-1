@@ -1,7 +1,7 @@
-import { ref, readonly } from 'vue';
-import Cookies from 'js-cookie';
 import CacheKey from '@/constants/cacheKey';
-import { NETWORK_ROUTES } from '@/net/apiRoutes';
+import * as sdk from '@/net/gen/sdk.gen';
+import Cookies from 'js-cookie';
+import { readonly, ref } from 'vue';
 
 export function useApiConfig() {
   const token = ref<string | undefined>(Cookies.get(CacheKey.TOKEN));
@@ -24,6 +24,6 @@ export function useApiConfig() {
     websocketUrl,
     setToken,
     clearToken,
-    apiRoutes: NETWORK_ROUTES
+    sdk
   };
 }
