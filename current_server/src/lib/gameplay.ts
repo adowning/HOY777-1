@@ -24,7 +24,7 @@ export async function handleGameSpin(
     c: Context,
     spinInput: NewGameSpin,
     spinParams: SpinParams
-): Promise<Partial<GameSpinType>> {
+): Promise<GameSpinType> {
     const user = c.get('user') as UserWithRelations
     const gameSession = c.get('gameSession') as GameSessionType
 
@@ -41,35 +41,43 @@ export async function handleGameSpin(
 
     const { totalSpinWinnings, wagerAmount } = spinParams
 
-    const isWin = totalSpinWinnings > 0
     if (user.vipInfo) {
         const xpGained = calculateXpForWagerAndWins(
             wagerAmount / 100, // Convert cents to dollars
-            isWin,
+            totalSpinWinnings / 100,
             user.vipInfo
         )
 
-        if (xpGained > 0) {
-            await addXpToUser(user.id, xpGained)
-            console.log(chalk.yellow(`User ${user.id} earned ${xpGained} XP.`))
+        if (xpGained.totalXp > 0) {
+            await addXpToUser(user.id, xpGained.totalXp)
+            console.log(
+                chalk.yellow(`User ${user.id} earned ${xpGained.totalXp} XP.`)
+            )
         }
     }
 
     gameSession.totalWagered = (gameSession.totalWagered || 0) + wagerAmount
     gameSession.totalWon = (gameSession.totalWon || 0) + totalSpinWinnings
 
-    await saveGameSessionToCache(gameSession, c)
+    await saveGameSessionToCache(gameSession)
 
-    const newSpin: Partial<NewGameSpin> = {
-        spinData: spinInput.spinData as unknown,
+    const newSpin: GameSpinType = {
         id: new Date().getTime().toString(),
         wagerAmount,
         grossWinAmount: totalSpinWinnings,
         sessionId: gameSession.id,
         userId: user.id,
         playerName: user.username,
-        gameName: spinInput.gameName,
         createdAt: new Date(),
+        updatedAt: new Date(),
+        occurredAt: new Date(),
+        spinNumber: 0, // This should be properly calculated based on session spin count
+        playerAvatar: user.avatar,
+        currencyId: 'USD',
+        sessionDataId: gameSession.id,
+        gameId: spinInput.gameId ?? null,
+        gameName: spinInput.gameName ?? null,
+        spinData: spinInput.spinData,
     }
 
     await addSpinToCache(gameSession.id, newSpin)
@@ -94,7 +102,7 @@ export async function updateGameSessionStats(
     gameSession.totalWagered = (gameSession.totalWagered || 0) + wagerAmount
     gameSession.totalWon = (gameSession.totalWon || 0) + totalSpinWinnings
 
-    await saveGameSessionToCache(gameSession, c)
+    await saveGameSessionToCache(gameSession)
 
     console.log(
         chalk.gray(

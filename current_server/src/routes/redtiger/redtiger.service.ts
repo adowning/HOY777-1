@@ -106,7 +106,7 @@ export async function createRedtigerSpin(
 ): Promise<RTGSpinResponseDto> {
     console.log(chalk.magenta('--- createRedtigerSpin ---'))
     const user = c.get('user') as UserWithRelations
-    const gameName = `${data.gameId}RTG`
+    const gameName = `${data.gamesId}RTG`
     const gameSession = c.get('gameSession') as GameSessionType
     console.log('user', user.id)
     console.log('gs', gameSession.id)
@@ -134,7 +134,7 @@ export async function createRedtigerSpin(
 
         let gameResultFromDeveloper: RTGSpinResponseDto
         if (testing) {
-            gameResultFromDeveloper = atlantis_spin as RTGSpinResponseDto
+            gameResultFromDeveloper = atlantis_spin as unknown as RTGSpinResponseDto
         } else {
             const init = {
                 body: JSON.stringify(data),
@@ -158,7 +158,7 @@ export async function createRedtigerSpin(
         }
 
         const grossWinAmountCoins = dollarsToCoins(
-            Number.parseFloat(gameResultFromDeveloper.result!.game.win.total)
+            Number.parseFloat(gameResultFromDeveloper.result!.games.win.total)
         )
 
         if (grossWinAmountCoins > 0) {
@@ -183,8 +183,8 @@ export async function createRedtigerSpin(
                 c.set('gameSession', gameSession)
             }
 
-            if (gameResultFromDeveloper.result?.game) {
-                ;(gameResultFromDeveloper.result.game as any).xpBreakdown =
+            if (gameResultFromDeveloper.result?.games) {
+                ;(gameResultFromDeveloper.result.games as any).xpBreakdown =
                     xpResult
             }
         } else {
@@ -214,13 +214,13 @@ export async function createRedtigerSpin(
 
         if (winAmountInDollars > (wagerAmountInDollars * 100)) {
             sendNotificationToUser(user.id, {
-                type: 'recording:upload',
-                payload: {
+                title: 'recording:upload',
+                message: JSON.stringify({
                     sessionId: gameSession.id,
                     reason: 'big_win',
                     winAmount: winAmountInDollars,
                     wagerAmount: wagerAmountInDollars,
-                }
+                })
             })
         }
 
@@ -307,13 +307,13 @@ async function enhanceRTGResponseWithJackpots(
             enhancedResponse.user.balance.cash.atEnd = newBalance.toFixed(2)
         }
 
-        if (enhancedResponse.game?.win?.total) {
+        if (enhancedResponse.games?.win?.total) {
             const currentWin = Number.parseFloat(
-                enhancedResponse.game.win.total
+                enhancedResponse.games.win.total
             )
             const newWin =
                 currentWin + coinsToDollars(jackpotWin.winAmountCoins)
-            enhancedResponse.game.win.total = newWin.toFixed(2)
+            enhancedResponse.games.win.total = newWin.toFixed(2)
         }
     }
 

@@ -1,4 +1,4 @@
-import { Buffer } from 'node:buffer'
+import type { Buffer } from 'node:buffer'
 import chalk from 'chalk'
 
 // LZW decompression function
@@ -48,13 +48,7 @@ export const proxyHandler = {
                 chalk.cyan(`[PROXY-WS] Connecting to upstream: ${upstreamUrl}`)
             )
 
-            const upstreamSocket = new WebSocket(upstreamUrl, {
-                headers: {
-                    'User-Agent':
-                        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
-                    'Origin': 'https://demo.nolimitcity.com',
-                },
-            })
+            const upstreamSocket = new WebSocket(upstreamUrl)
 
             ws.data.upstreamSocket = upstreamSocket
 

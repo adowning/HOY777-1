@@ -1,22 +1,23 @@
 import { createInsertSchema, createSelectSchema } from 'drizzle-zod'
 import z from 'zod'
-import { AuthSession, Game, GameSession, GameSpin, Operator, Product, tasks, User, VipInfo, VipLevel, VipRank, Wallet } from './core'
-import { BlackjackGame, BlackjackBet, BlackjackMessage } from './blackjack'
-import { UpdateType } from './enums'
+import { authSessions, blackjackBets, blackjackGames, blackjackMessage, games, gameSessions, gameSpins, operators, products, tasks, updateType, users, vipInfo, vipLevel, vipRank, wallets } from './schema'
 
-export const UpdateTypeSchema = z.enum(UpdateType.enumValues)
+export const updateTypeSchema = z.enum(updateType.enumValues)
 
-export const insertUserSchema = createInsertSchema(User)
-export const selectUserSchema = createSelectSchema(User)
-export const selectWalletSchema = createSelectSchema(Wallet)
-export const selectAuthSessionSchema = createSelectSchema(AuthSession)
-export const selectGameSession = createSelectSchema(GameSession)
-export const newGameSession = createInsertSchema(GameSession)
-export const selectVipInfoSchema = createSelectSchema(VipInfo)
-export const selectOperatorSchema = createSelectSchema(Operator)
-export const selectGameSchema = createSelectSchema(Game)
-export const selectGameSpinSchema = createSelectSchema(GameSpin)
+export const insertUserSchema = createInsertSchema(users)
+export const selectUserSchema = createSelectSchema(users)
+export const selectWalletSchema = createSelectSchema(wallets)
+export const selectAuthSessionSchema = createSelectSchema(authSessions)
+export const selectGameSession = createSelectSchema(gameSessions)
+export const newgameSessions = createInsertSchema(gameSessions)
+export const selectVipInfoSchema = createSelectSchema(vipInfo)
+export const selectOperatorSchema = createSelectSchema(operators)
+export const selectGameSchema = createSelectSchema(games)
+export const selectGameSpinSchema = createSelectSchema(gameSpins)
 export const selectTasksSchema = createSelectSchema(tasks)
+export const selectVipLevelSchema = createSelectSchema(vipLevel)
+export const selectVipRankSchema = createSelectSchema(vipRank)
+
 export const insertTasksSchema = createInsertSchema(tasks, {
     name: (schema) => schema.name.min(1).max(500),
 })
@@ -28,27 +29,24 @@ export const insertTasksSchema = createInsertSchema(tasks, {
         createdAt: true,
         updatedAt: true,
     })
-export const patchTasksSchema = insertTasksSchema.partial()
-export const selectVipRankSchema = createSelectSchema(VipRank)
-export const selectVipLevelSchema = createSelectSchema(VipLevel)
-export const ProductResponseSchema = createSelectSchema(Product)
 
-export const UserResponseSchema = selectUserSchema.omit({
+export const patchTasksSchema = insertTasksSchema.partial()
+
+export const productResponseSchema = createSelectSchema(products)
+export const userResponseSchema = selectUserSchema.omit({
     passwordHash: true,
     refreshToken: true,
     accessToken: true,
     accessTokenExpiresAt: true,
     refreshTokenExpiresAt: true,
 })
-
-export const OperatorResponseSchema = selectOperatorSchema.omit({
+export const operatorsResponseSchema = selectOperatorSchema.omit({
     operatorSecret: true,
     operatorAccess: true,
 })
-
-export const WalletResponseSchema = selectWalletSchema
-export const VipInfoResponseSchema = selectVipInfoSchema
-export const GameResponseSchema = z.object({
+export const walletResponseSchema = selectWalletSchema
+export const vipInfoResponseSchema = selectVipInfoSchema
+export const gameResponseSchema = z.object({
     id: z.string(),
     name: z.string(),
     title: z.string(),
@@ -60,7 +58,7 @@ export const GameResponseSchema = z.object({
     bannerUrl: z.string().optional(),
     isActive: z.boolean().default(true),
 })
-export const GameCategorySchema = z.enum([
+export const gameCategorySchema = z.enum([
     'slots',
     'fish',
     'table',
@@ -71,15 +69,15 @@ export const GameCategorySchema = z.enum([
     'other',
 ])
 
-export const UserWithRelationsResponseSchema = UserResponseSchema.extend({
-    activeWallet: WalletResponseSchema.optional(),
-    vipInfo: VipInfoResponseSchema.optional(),
+export const userWithRelationsResponseSchema = userResponseSchema.extend({
+    activewallet: walletResponseSchema.optional(),
+    vipInfo: vipInfoResponseSchema.optional(),
 })
 
-export const GameSpinResponseSchema = z.object({
+export const gameSpinResponseSchema = z.object({
     id: z.string(),
     playerName: z.string().optional(),
-    gameName: z.string().optional(),
+    gamesName: z.string().optional(),
     spinData: z.record(z.any()).optional(),
     grossWinAmount: z.number(),
     wagerAmount: z.number(),
@@ -94,12 +92,12 @@ export const GameSpinResponseSchema = z.object({
     sessionDataId: z.string().optional(),
 })
 
-export const insertAuthSessionSchema = createInsertSchema(AuthSession)
-export const insertGameSession = createInsertSchema(GameSession)
+export const insertauthSessionsSchema = createInsertSchema(authSessions)
+export const insertgameSessions = createInsertSchema(gameSessions)
 export const AppVersionSchema = z.object({
     version: z.string(),
     platform: z.string(),
-    updateType: UpdateTypeSchema,
+    updateType: updateTypeSchema,
     downloadUrl: z.string().url(),
     changelog: z.array(z.string()),
     mandatory: z.boolean(),
@@ -118,13 +116,13 @@ export const CheckUpdateRequestSchema = z.object({
     currentVersion: z.string(),
     platform: z.string(),
     appId: z.string(),
-    updateType: UpdateTypeSchema,
+    updateType: updateTypeSchema,
 })
 export const CheckUpdateResponseSchema = z.object({
     hasUpdate: z.boolean(),
     version: z.string().optional(),
     platform: z.string().optional(),
-    updateType: UpdateTypeSchema.optional(),
+    updateType: updateTypeSchema.optional(),
     downloadUrl: z.string().url().optional(),
     changelog: z.array(z.string()).optional(),
     mandatory: z.boolean().optional(),
@@ -167,9 +165,9 @@ export const providerSettingsResponseDataSchema = z.object({
         limits: z.any().optional(),
         serverTime: z.string().datetime({ message: 'Invalid ISO date string' }),
     }),
-    game: z.object({
+    games: z.object({
         version: z.string().optional(),
-        gameType: z.string().optional(),
+        gamesType: z.string().optional(),
     }).optional(),
     launcher: z.object({
         version: z.string().optional(),
@@ -216,7 +214,7 @@ export const providerSpinResponseDataSchema = z.object({
         serverTime: z.string().datetime({ message: 'Invalid ISO date string' }),
         canGamble: z.boolean().optional(),
     }),
-    game: z.object({
+    games: z.object({
         win: z.object({
             instantWin: z.string().optional(),
             lines: z.string().optional(),
@@ -247,9 +245,9 @@ export const rtgSpinResponseDtoSchema = z.object({
 }).refine(data => data.success ? data.result !== undefined : data.error !== undefined, {
     message: 'If success is true, result must be provided. If false, error must be provided.',
 })
-export const launchGameResponseDtoSchema = z.object({
+export const launchgamesResponseDtoSchema = z.object({
     launch_url: z.string().url(),
-    game_session_id: z.string().optional(),
+    games_session_id: z.string().optional(),
     launch_strategy: z.enum(['IFRAME', 'REDIRECT', 'POPUP']).optional(),
     provider_parameters: z.union([z.record(z.any(), z.any()), z.array(z.string()), z.string()]).optional(),
 })
@@ -267,7 +265,7 @@ const userDataObjectSchema = z.object({
     fingerprint: z.union([z.string(), z.number()]).optional(),
 }).optional()
 export const rtgSettingsRequestDtoSchema = z.object({
-    gameId: z.string(),
+    gamesId: z.string(),
     token: z.string().optional().nullable(),
     userId: z.string(),
     currency: z.string(),
@@ -279,7 +277,7 @@ export const rtgSettingsRequestDtoSchema = z.object({
 export const rtgSpinRequestDtoSchema = z.object({
     token: z.string().optional(),
     userId: z.string().optional(),
-    gameId: z.string().optional(),
+    gamesId: z.string().optional(),
     stake: z.union([z.number(), z.string()]).optional(),
     currency: z.string().optional(),
     sessionId: z.string().optional(),
@@ -299,10 +297,10 @@ export const rtgSpinRequestDtoSchema = z.object({
     transactionId: z.union([z.string(), z.number()]).optional(),
 })
 
-export const selectBlackjackGameSchema = createSelectSchema(BlackjackGame)
-export const insertBlackjackGameSchema = createInsertSchema(BlackjackGame)
+export const selectblackjackGamesSchema = createSelectSchema(blackjackGames)
+export const insertblackjackGamesSchema = createInsertSchema(blackjackGames)
 
-export const selectBlackjackBetSchema = createSelectSchema(BlackjackBet)
-export const insertBlackjackBetSchema = createInsertSchema(BlackjackBet)
+export const selectblackjackBetsSchema = createSelectSchema(blackjackBets)
+export const insertblackjackBetsSchema = createInsertSchema(blackjackBets)
 
-export const blackjackMessageSchema = createSelectSchema(BlackjackMessage)
+export const blackjackMessageSchema = createSelectSchema(blackjackMessage)

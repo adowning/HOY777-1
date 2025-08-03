@@ -3,7 +3,7 @@ import { createRoute, z } from '@hono/zod-openapi'
 import {
     selectVipLevelSchema,
     selectVipRankSchema,
-    VipInfoResponseSchema,
+    vipInfoResponseSchema,
 } from '#/db'
 import { createRouter } from '#/lib/create-app'
 import { authMiddleware } from '#/middlewares/auth.middleware'
@@ -27,7 +27,7 @@ const getMyVipDetails = createRoute({
                 'application/json': {
                     schema: z
                         .object({
-                            vipInfo: VipInfoResponseSchema.openapi('VipInfo'),
+                            vipInfo: vipInfoResponseSchema.openapi('VipInfo'),
                             vipRank: selectVipRankSchema.openapi('VipRank'),
                             xpForNextLevel: z.number(),
                         })

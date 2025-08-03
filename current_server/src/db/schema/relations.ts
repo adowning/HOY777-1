@@ -1,201 +1,240 @@
-import { relations } from 'drizzle-orm'
-import { AuthSession, Game, GameSession, GameSpin, Jackpot, JackpotContribution, JackpotWin, Operator, Product, Transaction, User, VipInfo, VipLevelUpHistory, VipRank, Wallet } from './core'
+import { relations } from 'drizzle-orm/relations'
+import { authSessions, blackjackBets, blackjackGames, favoriteGames, gameHistory, games, gameSessions, gameSpins, jackpotContributions, jackpots, jackpotWins, operators, products, rtgSettingsRequestCustomData, rtgSettingsRequests, rtgSettingsRequestUserData, rtgSettingsResponses, rtgSpinRequestCustomData, rtgSpinRequests, rtgSpinRequestUserData, rtgSpinResults, tournamentParticipants, transactions, users, vipInfo, vipLevelUpHistory, vipRank, wallets } from './schema'
 
-export const UserRelations = relations(User, ({ one, many }) => ({
-    activeWallet: one(Wallet, {
-        relationName: 'ActiveWallet',
-        fields: [User.activeWalletId],
-        references: [Wallet.id],
+export const gameSessionsRelations = relations(gameSessions, ({ one }) => ({
+    authSession: one(authSessions, {
+        fields: [gameSessions.authSessionId],
+        references: [authSessions.id]
     }),
-    vipInfo: one(VipInfo, {
-        relationName: 'UserVipInfo',
-        fields: [User.vipInfoId],
-        references: [VipInfo.id],
-    }),
-    //   tournamentParticipations: many(TournamentParticipant, {
-    //     relationName: "TournamentParticipantToUser",
-    //   }),
-    //   sessions: many(SessionData, {
-    //     relationName: "SessionDataToUser",
-    //   }),
-    jackpotWins: many(JackpotWin, {
-        relationName: 'JackpotWinToUser',
-    }),
-    lastJackpotWon: many(Jackpot, {
-        relationName: 'JackpotLastWinner',
-    }),
-    //   BlackjackBet: many(BlackjackBet, {
-    //     relationName: "BlackjackBetToUser",
-    //   }),
-}))
-
-export const GameRelations = relations(Game, ({ one }) => ({
-    operator: one(Operator, {
-        relationName: 'GameToOperator',
-        fields: [Game.operatorId],
-        references: [Operator.id],
-    }),
-    //   sessions: many(SessionData, {
-    //     relationName: "GameToSessionData",
-    //   }),
-    //   Tournament: many(GameToTournament, {
-    //     relationName: "GameToGameToTournament",
-    //   }),
-}))
-
-export const GameSpinRelations = relations(GameSpin, ({ one, many }) => ({
-    user: one(User, {
-        fields: [GameSpin.userId],
-        references: [User.id],
-        relationName: 'GameSpinToUser',
-    }),
-    game: one(Game, {
-        fields: [GameSpin.gameId],
-        references: [Game.id],
-        relationName: 'GameSpinToGame',
-    }),
-    jackpotContributions: many(JackpotContribution, {
-        relationName: 'GameSpinToJackpotContribution',
-    }),
-    jackpotWins: many(JackpotWin, {
-        relationName: 'GameSpinToJackpotWin',
+    user: one(users, {
+        fields: [gameSessions.userId],
+        references: [users.id]
     }),
 }))
 
-export const OperatorRelations = relations(Operator, ({ many }) => ({
-    games: many(Game, {
-        relationName: 'GameToOperator',
-    }),
-    products: many(Product, {
-        relationName: 'OperatorToProduct',
-    }),
-    wallets: many(Wallet, {
-        relationName: 'OperatorToWallet',
+export const authSessionsRelations = relations(authSessions, ({ one, many }) => ({
+    gameSessions: many(gameSessions),
+    user: one(users, {
+        fields: [authSessions.userId],
+        references: [users.id]
     }),
 }))
 
-export const WalletRelations = relations(Wallet, ({ one, many }) => ({
-    operator: one(Operator, {
-        relationName: 'OperatorToWallet',
-        fields: [Wallet.operatorId],
-        references: [Operator.id],
+export const usersRelations = relations(users, ({ many, one }) => ({
+    gameSessions: many(gameSessions),
+    blackjackBets: many(blackjackBets),
+    favoriteGames: many(favoriteGames),
+    gameHistories: many(gameHistory),
+    jackpots: many(jackpots),
+    jackpotWins: many(jackpotWins),
+    tournamentParticipants: many(tournamentParticipants),
+    wallets: many(wallets),
+    activeWallet: one(wallets, {
+        fields: [users.activeWalletId],
+        references: [wallets.id]
     }),
-    transactions: many(Transaction, {
-        relationName: 'TransactionToWallet',
+    authSessions: many(authSessions),
+    vipInfos: many(vipInfo),
+}))
+
+export const blackjackBetsRelations = relations(blackjackBets, ({ one }) => ({
+    user: one(users, {
+        fields: [blackjackBets.userId],
+        references: [users.id]
     }),
-    user: many(User, {
-        relationName: 'ActiveWallet',
+    blackjackGame: one(blackjackGames, {
+        fields: [blackjackBets.gameId],
+        references: [blackjackGames.id]
     }),
 }))
 
-export const VipRankRelations = relations(VipRank, ({ many }) => ({
-    VipInfo: many(VipInfo, {
-        relationName: 'VipInfoToVipRank',
+export const blackjackGamesRelations = relations(blackjackGames, ({ many }) => ({
+    blackjackBets: many(blackjackBets),
+}))
+
+export const favoriteGamesRelations = relations(favoriteGames, ({ one }) => ({
+    user: one(users, {
+        fields: [favoriteGames.userId],
+        references: [users.id]
+    }),
+    game: one(games, {
+        fields: [favoriteGames.gameId],
+        references: [games.id]
     }),
 }))
 
-export const VipInfoRelations = relations(VipInfo, ({ one, many }) => ({
-    user: one(User, {
-        relationName: 'UserVipInfo',
-        fields: [VipInfo.userId],
-        references: [User.id],
+export const gamesRelations = relations(games, ({ one, many }) => ({
+    favoriteGames: many(favoriteGames),
+    gameHistories: many(gameHistory),
+    rtgSettingsResponses: many(rtgSettingsResponses),
+    operator: one(operators, {
+        fields: [games.operatorId],
+        references: [operators.id]
     }),
-    history: many(VipLevelUpHistory, {
-        relationName: 'VipInfoToVipLevelUpHistory',
+    rtgSpinResults: many(rtgSpinResults),
+}))
+
+export const gameHistoryRelations = relations(gameHistory, ({ one }) => ({
+    user: one(users, {
+        fields: [gameHistory.userId],
+        references: [users.id]
     }),
-    currentRank: one(VipRank, {
-        relationName: 'VipInfoToVipRank',
-        fields: [VipInfo.currentRankid],
-        references: [VipRank.id],
+    game: one(games, {
+        fields: [gameHistory.gameId],
+        references: [games.id]
     }),
 }))
 
-export const VipLevelUpHistoryRelations = relations(
-    VipLevelUpHistory,
-    ({ one }) => ({
-        vipInfo: one(VipInfo, {
-            relationName: 'VipInfoToVipLevelUpHistory',
-            fields: [VipLevelUpHistory.vipInfoId],
-            references: [VipInfo.id],
-        }),
-    })
-)
+export const jackpotsRelations = relations(jackpots, ({ one, many }) => ({
+    user: one(users, {
+        fields: [jackpots.lastWonBy],
+        references: [users.id]
+    }),
+    jackpotWins: many(jackpotWins),
+    jackpotContributions: many(jackpotContributions),
+}))
 
-export const JackpotRelations = relations(Jackpot, ({ many, one }) => ({
-    contributions: many(JackpotContribution, {
-        relationName: 'JackpotToJackpotContribution',
+export const productsRelations = relations(products, ({ one, many }) => ({
+    operator: one(operators, {
+        fields: [products.operatorId],
+        references: [operators.id]
     }),
-    wins: many(JackpotWin, {
-        relationName: 'JackpotToJackpotWin',
+    transactions: many(transactions),
+}))
+
+export const operatorsRelations = relations(operators, ({ many }) => ({
+    products: many(products),
+    games: many(games),
+}))
+
+export const jackpotWinsRelations = relations(jackpotWins, ({ one }) => ({
+    gameSpin: one(gameSpins, {
+        fields: [jackpotWins.gameSpinId],
+        references: [gameSpins.id]
     }),
-    lastWinner: one(User, {
-        relationName: 'JackpotLastWinner',
-        fields: [Jackpot.lastWonBy],
-        references: [User.id],
+    jackpot: one(jackpots, {
+        fields: [jackpotWins.jackpotId],
+        references: [jackpots.id]
+    }),
+    user: one(users, {
+        fields: [jackpotWins.winnerId],
+        references: [users.id]
     }),
 }))
 
-export const JackpotContributionRelations = relations(
-    JackpotContribution,
-    ({ one }) => ({
-        gameSpin: one(GameSpin, {
-            relationName: 'GameSpinToJackpotContribution',
-            fields: [JackpotContribution.gameSpinId],
-            references: [GameSpin.id],
-        }),
-        jackpot: one(Jackpot, {
-            relationName: 'JackpotToJackpotContribution',
-            fields: [JackpotContribution.jackpotId],
-            references: [Jackpot.id],
-        }),
-    })
-)
+export const gameSpinsRelations = relations(gameSpins, ({ many }) => ({
+    jackpotWins: many(jackpotWins),
+    jackpotContributions: many(jackpotContributions),
+}))
 
-export const JackpotWinRelations = relations(JackpotWin, ({ one }) => ({
-    gameSpin: one(GameSpin, {
-        relationName: 'GameSpinToJackpotWin',
-        fields: [JackpotWin.gameSpinId],
-        references: [GameSpin.id],
-    }),
-    jackpot: one(Jackpot, {
-        relationName: 'JackpotToJackpotWin',
-        fields: [JackpotWin.jackpotId],
-        references: [Jackpot.id],
-    }),
-    transaction: one(Transaction, {
-        relationName: 'JackpotWinToTransaction',
-        fields: [JackpotWin.transactionId],
-        references: [Transaction.id],
-    }),
-    winner: one(User, {
-        relationName: 'JackpotWinToUser',
-        fields: [JackpotWin.winnerId],
-        references: [User.id],
+export const tournamentParticipantsRelations = relations(tournamentParticipants, ({ one }) => ({
+    user: one(users, {
+        fields: [tournamentParticipants.userId],
+        references: [users.id]
     }),
 }))
 
-export const authSessionsRelations = relations(
-    AuthSession,
-    ({ one, many }) => ({
-        user: one(User, {
-            fields: [AuthSession.userId],
-            references: [User.id],
-        }),
-        gameSessions: many(GameSession),
-    })
-)
+export const walletsRelations = relations(wallets, ({ one, many }) => ({
+    user: one(users, {
+        fields: [wallets.userId],
+        references: [users.id]
+    }),
+    transactions: many(transactions),
+}))
 
-export const gameSessionsRelations = relations(GameSession, ({ one }) => ({
-    authSession: one(AuthSession, {
-        fields: [GameSession.authSessionId],
-        references: [AuthSession.id],
+export const rtgSettingsRequestUserDataRelations = relations(rtgSettingsRequestUserData, ({ one }) => ({
+    rtgSettingsRequest: one(rtgSettingsRequests, {
+        fields: [rtgSettingsRequestUserData.requestId],
+        references: [rtgSettingsRequests.id]
     }),
-    user: one(User, {
-        fields: [GameSession.userId],
-        references: [User.id],
+}))
+
+export const rtgSettingsRequestsRelations = relations(rtgSettingsRequests, ({ many }) => ({
+    rtgSettingsRequestUserData: many(rtgSettingsRequestUserData),
+    rtgSettingsRequestCustomData: many(rtgSettingsRequestCustomData),
+}))
+
+export const rtgSettingsRequestCustomDataRelations = relations(rtgSettingsRequestCustomData, ({ one }) => ({
+    rtgSettingsRequest: one(rtgSettingsRequests, {
+        fields: [rtgSettingsRequestCustomData.requestId],
+        references: [rtgSettingsRequests.id]
     }),
-    game: one(Game, {
-        fields: [GameSession.gameId],
-        references: [Game.id],
+}))
+
+export const rtgSettingsResponsesRelations = relations(rtgSettingsResponses, ({ one }) => ({
+    game: one(games, {
+        fields: [rtgSettingsResponses.gameId],
+        references: [games.id]
+    }),
+}))
+
+export const rtgSpinRequestUserDataRelations = relations(rtgSpinRequestUserData, ({ one }) => ({
+    rtgSpinRequest: one(rtgSpinRequests, {
+        fields: [rtgSpinRequestUserData.requestId],
+        references: [rtgSpinRequests.id]
+    }),
+}))
+
+export const rtgSpinRequestsRelations = relations(rtgSpinRequests, ({ many }) => ({
+    rtgSpinRequestUserData: many(rtgSpinRequestUserData),
+    rtgSpinRequestCustomData: many(rtgSpinRequestCustomData),
+}))
+
+export const rtgSpinRequestCustomDataRelations = relations(rtgSpinRequestCustomData, ({ one }) => ({
+    rtgSpinRequest: one(rtgSpinRequests, {
+        fields: [rtgSpinRequestCustomData.requestId],
+        references: [rtgSpinRequests.id]
+    }),
+}))
+
+export const vipInfoRelations = relations(vipInfo, ({ one, many }) => ({
+    user: one(users, {
+        fields: [vipInfo.userId],
+        references: [users.id]
+    }),
+    vipRank: one(vipRank, {
+        fields: [vipInfo.currentRankid],
+        references: [vipRank.id]
+    }),
+    vipLevelUpHistories: many(vipLevelUpHistory),
+}))
+
+export const vipRankRelations = relations(vipRank, ({ many }) => ({
+    vipInfos: many(vipInfo),
+}))
+
+export const transactionsRelations = relations(transactions, ({ one }) => ({
+    product: one(products, {
+        fields: [transactions.productId],
+        references: [products.id]
+    }),
+    wallet: one(wallets, {
+        fields: [transactions.walletId],
+        references: [wallets.id]
+    }),
+}))
+
+export const vipLevelUpHistoryRelations = relations(vipLevelUpHistory, ({ one }) => ({
+    vipInfo: one(vipInfo, {
+        fields: [vipLevelUpHistory.vipInfoId],
+        references: [vipInfo.id]
+    }),
+}))
+
+export const rtgSpinResultsRelations = relations(rtgSpinResults, ({ one }) => ({
+    game: one(games, {
+        fields: [rtgSpinResults.gameId],
+        references: [games.id]
+    }),
+}))
+
+export const jackpotContributionsRelations = relations(jackpotContributions, ({ one }) => ({
+    gameSpin: one(gameSpins, {
+        fields: [jackpotContributions.gameSpinId],
+        references: [gameSpins.id]
+    }),
+    jackpot: one(jackpots, {
+        fields: [jackpotContributions.jackpotId],
+        references: [jackpots.id]
     }),
 }))

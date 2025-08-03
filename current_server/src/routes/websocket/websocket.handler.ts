@@ -39,7 +39,7 @@ export const websocketHandler = {
     message(ws: ServerWebSocket<WebSocketData>, message: string | Buffer) {
         const { topic } = ws.data
         if (topicHandlers[topic]) {
-            topicHandlers[topic].message(ws, message)
+            topicHandlers[topic].message(ws, message as any)
         }
     },
 

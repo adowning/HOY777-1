@@ -1,73 +1,73 @@
 import type { InferInsertModel, InferSelectModel } from 'drizzle-orm'
 import type {
-    appVersions,
-    AuthSession,
-    Game,
-    GameSession,
-    GameSpin,
-    InActiveWallet,
-    Jackpot,
-    JackpotContribution,
-    JackpotWin,
-    Operator,
-    Product,
-    Transaction,
-    User,
-    VipInfo,
-    VipLevel,
-    VipLevelUpHistory,
-    VipRank,
-    Wallet,
-} from './core'
-import type {
+    rtgSettingsRequestCustomData,
     rtgSettingsRequests,
     rtgSettingsRequestUserData,
-    rtgSettingsRequestCustomData,
-    rtgSpinRequests,
-    rtgSpinRequestUserData,
-    rtgSpinRequestCustomData,
+    rtgSettingsResultGame,
     rtgSettingsResults,
     rtgSettingsResultUser,
     rtgSettingsResultUserBalance,
-    rtgSettingsResultGame,
+    rtgSpinRequestCustomData,
+    rtgSpinRequests,
+    rtgSpinRequestUserData,
+    rtgSpinResultGame,
+    rtgSpinResultGameWin,
     rtgSpinResults,
     rtgSpinResultUser,
     rtgSpinResultUserBalance,
-    rtgSpinResultGame,
-    rtgSpinResultGameWin,
 } from './rtg'
+import type {
+    appVersions,
+    authSessions,
+    games,
+    gameSessions,
+    gameSpins,
+    inActiveWallets,
+    jackpotContributions,
+    jackpots,
+    jackpotWins,
+    operators,
+    products,
+    transactions,
+    users,
+    vipInfo,
+    vipLevel,
+    vipLevelUpHistory,
+    vipRank,
+    wallets,
+} from './schema'
 
 // SELECT Types - Used for querying data from the database
-export type OperatorType = InferSelectModel<typeof Operator>
-export type WalletType = InferSelectModel<typeof Wallet>
-export type UserType = InferSelectModel<typeof User>
-export type GameType = InferSelectModel<typeof Game>
-export type GameSpinType = InferSelectModel<typeof GameSpin>
-export type InActiveWalletType = InferSelectModel<typeof InActiveWallet>
-export type ProductType = InferSelectModel<typeof Product>
-export type TransactionType = InferSelectModel<typeof Transaction>
-export type VipRankType = InferSelectModel<typeof VipRank>
-export type VipLevelType = InferSelectModel<typeof VipLevel>
-export type VipInfoType = InferSelectModel<typeof VipInfo>
-export type VipLevelUpHistoryType = InferSelectModel<typeof VipLevelUpHistory>
-export type JackpotType = InferSelectModel<typeof Jackpot>
+export type OperatorType = InferSelectModel<typeof operators>
+export type WalletType = InferSelectModel<typeof wallets>
+export type UserType = InferSelectModel<typeof users>
+export type GameType = InferSelectModel<typeof games>
+export type GameSpinType = InferSelectModel<typeof gameSpins>
+export type InActiveWalletType = InferSelectModel<typeof inActiveWallets>
+export type ProductType = InferSelectModel<typeof products>
+export type TransactionType = InferSelectModel<typeof transactions>
+export type VipRankType = InferSelectModel<typeof vipRank>
+export type VipLevelType = InferSelectModel<typeof vipLevel>
+export type VipInfoType = InferSelectModel<typeof vipInfo>
+export type VipLevelUpHistoryType = InferSelectModel<typeof vipLevelUpHistory>
+export type JackpotType = InferSelectModel<typeof jackpots>
 export type JackpotContributionType = InferSelectModel<
-    typeof JackpotContribution
+    typeof jackpotContributions
 >
-export type JackpotWinType = InferSelectModel<typeof JackpotWin>
-export type AuthSessionType = InferSelectModel<typeof AuthSession>
-export type GameSessionType = InferSelectModel<typeof GameSession>
+export type JackpotWinType = InferSelectModel<typeof jackpotWins>
+export type AuthSessionType = InferSelectModel<typeof authSessions>
+export type GameSessionType = InferSelectModel<typeof gameSessions>
 export type SelectRtgSettingsRequest = InferSelectModel<
     typeof rtgSettingsRequests
 >
-export type SelectRtgSettingsRequestUserData = InferSelectModel<
+export type SelectRtgSettingsRequestusersData = InferSelectModel<
     typeof rtgSettingsRequestUserData
 >
 export type SelectRtgSettingsRequestCustomData = InferSelectModel<
     typeof rtgSettingsRequestCustomData
 >
 export type SelectRtgSpinRequest = InferSelectModel<typeof rtgSpinRequests>
-export type SelectRtgSpinRequestUserData = InferSelectModel<
+export type SelectRtgSpinRequestusersData = InferSelectModel<
     typeof rtgSpinRequestUserData
 >
 export type SelectRtgSpinRequestCustomData = InferSelectModel<
@@ -76,46 +76,46 @@ export type SelectRtgSpinRequestCustomData = InferSelectModel<
 export type SelectRtgSettingsResult = InferSelectModel<
     typeof rtgSettingsResults
 >
-export type SelectRtgSettingsResultUser = InferSelectModel<
+export type SelectRtgSettingsResultusers = InferSelectModel<
     typeof rtgSettingsResultUser
 >
-export type SelectRtgSettingsResultUserBalance = InferSelectModel<
+export type SelectRtgSettingsResultusersBalance = InferSelectModel<
     typeof rtgSettingsResultUserBalance
 >
-export type SelectRtgSettingsResultGame = InferSelectModel<
+export type SelectRtgSettingsResultgames = InferSelectModel<
     typeof rtgSettingsResultGame
 >
 export type SelectRtgSpinResult = InferSelectModel<typeof rtgSpinResults>
-export type SelectRtgSpinResultUser = InferSelectModel<typeof rtgSpinResultUser>
-export type SelectRtgSpinResultUserBalance = InferSelectModel<
+export type SelectRtgSpinResultusers = InferSelectModel<typeof rtgSpinResultUser>
+export type SelectRtgSpinResultusersBalance = InferSelectModel<
     typeof rtgSpinResultUserBalance
 >
-export type SelectRtgSpinResultGame = InferSelectModel<typeof rtgSpinResultGame>
-export type SelectRtgSpinResultGameWin = InferSelectModel<
+export type SelectRtgSpinResultgames = InferSelectModel<typeof rtgSpinResultGame>
+export type SelectRtgSpinResultgamesWin = InferSelectModel<
     typeof rtgSpinResultGameWin
 >
 export type AppVersion = InferSelectModel<typeof appVersions>
 
 // INSERT Types - Used for inserting new data into the database
-export type NewOperator = InferInsertModel<typeof Operator>
-export type NewWallet = InferInsertModel<typeof Wallet>
-export type NewUser = InferInsertModel<typeof User>
-export type NewGame = InferInsertModel<typeof Game>
-export type NewGameSpin = InferInsertModel<typeof GameSpin>
-export type NewInActiveWallet = InferInsertModel<typeof InActiveWallet>
-export type NewProduct = InferInsertModel<typeof Product>
-export type NewTransaction = InferInsertModel<typeof Transaction>
-export type NewVipRank = InferInsertModel<typeof VipRank>
-export type NewVipLevel = InferInsertModel<typeof VipLevel>
-export type NewVipInfo = InferInsertModel<typeof VipInfo>
-export type NewVipLevelUpHistory = InferInsertModel<typeof VipLevelUpHistory>
-export type NewJackpot = InferInsertModel<typeof Jackpot>
-export type NewJackpotContribution = InferInsertModel<
-    typeof JackpotContribution
+export type Newoperators = InferInsertModel<typeof operators>
+export type Newwallets = InferInsertModel<typeof wallets>
+export type Newusers = InferInsertModel<typeof users>
+export type Newgames = InferInsertModel<typeof games>
+export type NewgameSpins = InferInsertModel<typeof gameSpins>
+export type NewinActiveWallets = InferInsertModel<typeof inActiveWallets>
+export type Newproducts = InferInsertModel<typeof products>
+export type Newtransactions = InferInsertModel<typeof transactions>
+export type NewvipRank = InferInsertModel<typeof vipRank>
+export type NewvipLevel = InferInsertModel<typeof vipLevel>
+export type NewvipInfo = InferInsertModel<typeof vipInfo>
+export type NewvipLevelUpHistory = InferInsertModel<typeof vipLevelUpHistory>
+export type Newjackpots = InferInsertModel<typeof jackpots>
+export type NewjackpotContributions = InferInsertModel<
+    typeof jackpotContributions
 >
-export type NewJackpotWin = InferInsertModel<typeof JackpotWin>
-export type NewAuthSession = InferInsertModel<typeof AuthSession>
-export type NewGameSession = InferInsertModel<typeof GameSession>
+export type NewjackpotWins = InferInsertModel<typeof jackpotWins>
+export type NewauthSessions = InferInsertModel<typeof authSessions>
+export type NewgamesSession = InferInsertModel<typeof gameSessions>
 export type InsertRtgSettingsRequest = InferInsertModel<
     typeof rtgSettingsRequests
 >
@@ -123,76 +123,76 @@ export type InsertRtgSpinRequest = InferInsertModel<typeof rtgSpinRequests>
 export type InsertRtgSettingsResult = InferInsertModel<
     typeof rtgSettingsResults
 >
-export type InsertRtgSettingsResultGame = InferInsertModel<
+export type InsertRtgSettingsResultgames = InferInsertModel<
     typeof rtgSettingsResultGame
 >
 export type InsertRtgSpinResult = InferInsertModel<typeof rtgSpinResults>
 
 export type UserWithRelations = UserType & {
-    activeWallet?: WalletType | null
+    activewallets?: WalletType | null
     vipInfo: VipInfoType | null
     jackpotWins: JackpotWinType[]
-    lastJackpotWon: JackpotType[]
+    lastjackpotsWon: JackpotType[]
 }
 
-export type GameWithRelations = GameType & {
+export type gamesWithRelations = GameType & {
     operator?: OperatorType | null
 }
 
-export type GameSpinWithRelations = GameSpinType & {
+export type gameSpinsWithRelations = GameSpinType & {
     jackpotContributions: JackpotContributionType[]
     jackpotWins: JackpotWinType[]
 }
 
-export type OperatorWithRelations = OperatorType & {
+export type operatorsWithRelations = OperatorType & {
     games: GameType[]
     products: ProductType[]
     wallets: WalletType[]
 }
 
-export type WalletWithRelations = WalletType & {
+export type walletsWithRelations = WalletType & {
     operator: OperatorType
     transactions: TransactionType[]
     user: UserType[]
 }
 
-export type TransactionWithRelations = TransactionType & {
+export type transactionsWithRelations = TransactionType & {
     jackpotWins: JackpotWinType[]
     product?: ProductType | null
     wallet?: WalletType | null
 }
 
-export type ProductWithRelations = ProductType & {
+export type productsWithRelations = ProductType & {
     operator?: OperatorType | null
     transactions: TransactionType[]
 }
 
-export type VipRankWithRelations = VipRankType & {
-    VipInfo: VipInfoType[]
+export type vipRankWithRelations = VipRankType & {
+    vipInfo: VipInfoType[]
 }
 
-export type VipInfoWithRelations = VipInfoType & {
+export type vipInfoWithRelations = VipInfoType & {
     user: UserType
     history: VipLevelUpHistoryType[]
     currentRank?: VipRankType | null
 }
 
-export type VipLevelUpHistoryWithRelations = VipLevelUpHistoryType & {
+export type vipLevelUpHistoryWithRelations = VipLevelUpHistoryType & {
     vipInfo: VipInfoType
 }
 
-export type JackpotWithRelations = JackpotType & {
+export type jackpotsWithRelations = JackpotType & {
     contributions: JackpotContributionType[]
     wins: JackpotWinType[]
     lastWinner?: UserType | null
 }
 
-export type JackpotContributionWithRelations = JackpotContributionType & {
+export type jackpotContributionsWithRelations = JackpotContributionType & {
     gameSpin: GameSpinType
     jackpot: JackpotType
 }
 
-export type JackpotWinWithRelations = JackpotWinType & {
+export type jackpotWinsWithRelations = JackpotWinType & {
     gameSpin: GameSpinType
     jackpot: JackpotType
     transaction?: TransactionType | null
@@ -200,23 +200,23 @@ export type JackpotWinWithRelations = JackpotWinType & {
 }
 
 export type RtgSettingsRequestWithRelations = SelectRtgSettingsRequest & {
-    userData?: SelectRtgSettingsRequestUserData
+    userData?: SelectRtgSettingsRequestusersData
     customData?: SelectRtgSettingsRequestCustomData
 }
 
 export type RtgSpinRequestWithRelations = SelectRtgSpinRequest & {
-    userData?: SelectRtgSpinRequestUserData
+    userData?: SelectRtgSpinRequestusersData
     customData?: SelectRtgSpinRequestCustomData
 }
 
-export type RtgSettingsResultUserWithRelations = SelectRtgSettingsResultUser & {
-    balance?: SelectRtgSettingsResultUserBalance
+export type RtgSettingsResultusersWithRelations = SelectRtgSettingsResultusers & {
+    balance?: SelectRtgSettingsResultusersBalance
 }
 
-export type RtgSpinResultUserWithRelations = SelectRtgSpinResultUser & {
-    balance?: SelectRtgSpinResultUserBalance
+export type RtgSpinResultusersWithRelations = SelectRtgSpinResultusers & {
+    balance?: SelectRtgSpinResultusersBalance
 }
 
-export type RtgSpinResultGameWithRelations = SelectRtgSpinResultGame & {
-    win?: SelectRtgSpinResultGameWin
+export type RtgSpinResultgamesWithRelations = SelectRtgSpinResultgames & {
+    win?: SelectRtgSpinResultgamesWin
 }

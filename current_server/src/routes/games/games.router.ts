@@ -1,4 +1,4 @@
-import { GameResponseSchema } from '#/db/schema'
+import { gameResponseSchema } from '#/db/schema'
 import { notFoundSchema } from '#/lib/constants'
 import { createRouter } from '#/lib/create-app'
 import { authMiddleware } from '#/middlewares/auth.middleware'
@@ -34,7 +34,7 @@ const getAllGames = createRoute({
             description: 'A list of all games',
             content: {
                 'application/json': {
-                    schema: z.array(GameResponseSchema.openapi('Game')),
+                    schema: z.array(gameResponseSchema.openapi('Game')),
                 },
             },
         },
@@ -58,7 +58,7 @@ const searchGames = createRoute({
             content: {
                 'application/json': {
                     schema: z.object({
-                        games: z.array(GameResponseSchema),
+                        games: z.array(gameResponseSchema),
                         total: z.number(),
                     }),
                 },
@@ -85,7 +85,7 @@ const getUserGames = createRoute({
             content: {
                 'application/json': {
                     schema: z.object({
-                        games: z.array(GameResponseSchema), // This might need to be adjusted for history
+                        games: z.array(gameResponseSchema), // This might need to be adjusted for history
                         total: z.number(),
                     }),
                 },

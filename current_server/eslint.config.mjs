@@ -13,6 +13,7 @@ export default antfu(
         },
         ignores: [
             '**/migrations/*',
+            '**/node_modules/*',
             '*.md',
             'src/routes/redtiger/data.ts',
             '**/scripts/*',
@@ -21,6 +22,7 @@ export default antfu(
     },
     {
         rules: {
+            'style/no-multiple-empty-lines': ['off'],
             'no-console': ['off'],
             'style/eol-last': ['off'],
             'antfu/if-newline': ['off'],

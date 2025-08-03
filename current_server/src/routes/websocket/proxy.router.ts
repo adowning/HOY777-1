@@ -7,10 +7,10 @@ const router = new Hono()
 router.post('/EjsFrontWeb/fs', async (c) => {
     // The game sends the body as form data, so we parse it.
     const body = await c.req.parseBody()
-    
+
     // We forward the request to the real server.
     const response = await GameProxyService.forwardRequest(body)
-    
+
     // We return the real server's response back to the client.
     return c.json(response)
 })

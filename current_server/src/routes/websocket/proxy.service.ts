@@ -13,9 +13,9 @@ export const GameProxyService = {
 
         try {
             // We use a plain urlencoded form for this request
-            const formData = new URLSearchParams();
+            const formData = new URLSearchParams()
             for (const key in body) {
-                formData.append(key, body[key]);
+                formData.append(key, body[key])
             }
 
             const response = await fetch(UPSTREAM_URL, {

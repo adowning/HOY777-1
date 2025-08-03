@@ -4,12 +4,13 @@ import type { PgTransaction } from 'drizzle-orm/pg-core'
 
 import { eq } from 'drizzle-orm'
 
-import type { VipInfoType, VipRankType, } from '#/db'
+import type { vipInfoType, vipRankType, } from '#/db'
+import db, { users, vipInfo, vipLevel, vipRank } from '#/db'
 import type * as schema from '#/db/schema'
-import db, { User, VipInfo, VipLevel, VipRank } from '#/db'
-import { triggerUserUpdate } from '#/lib/websocket.service'
+import { triggerusersUpdate } from '#/lib/websocket.service'
 
-import { getAllVipLevelConfigurations, getVipLevelByTotalXp, getVipLevelConfiguration } from './vip.config' // Ensure the function is imported
+import { nanoid } from 'nanoid'
+import { getAllvipLevelConfigurations, getvipLevelByTotalXp, getvipLevelConfiguration } from './vip.config'; // Ensure the function is imported
 
 type Transaction = PgTransaction<BunSQLQueryResultHKT, typeof schema, ExtractTablesWithRelations<typeof schema>>
 
@@ -23,49 +24,51 @@ export interface XpCalculationResult {
 }
 
 interface VipDetails {
-    info: VipInfoType;
-    rank: VipRankType;
+    info: vipInfoType;
+    rank: vipRankType;
     xpForNextLevel: number;
 }
 
 // Export the function so the controller can use it
-export { getAllVipLevelConfigurations }
+export { getAllvipLevelConfigurations }
 
-export async function getAllVipLevels() {
-    return db.query.VipLevel.findMany()
+export async function getAllvipLevels() {
+    return db.query.vipLevel.findMany()
 }
 
-export async function getAllVipRanks() {
-    return db.query.VipRank.findMany()
+export async function getAllvipRanks() {
+    return db.query.vipRank.findMany()
 }
 
 /**
  * Retrieves a comprehensive overview of a user's VIP status.
  */
-export async function getVipDetailsForUser(userId: string): Promise<VipDetails | null> {
-    let vipInfo = await db.query.VipInfo.findFirst({ where: eq(VipInfo.userId, userId) })
-    if (!vipInfo) {
-        vipInfo = await db.transaction(async tx => createDefaultVipInfo(userId, tx))
+export async function getVipDetailsForusers(userId: string): Promise<VipDetails | null> {
+    let _vipInfo = await db.query.vipInfo.findFirst({ where: eq(vipInfo.userId, userId) })
+    if (!_vipInfo) {
+        _vipInfo = await db.transaction(async tx => createDefaultvipInfo(userId, tx))
     }
-
-    const currentRank = await db.query.VipRank.findFirst({
-        where: eq(VipRank.id, vipInfo.currentRankid!),
+    if (!_vipInfo) {
+        return null
+    }
+    const currentRank = await db.query.vipRank.findFirst({
+        where: eq(vipRank.id, vipInfo.currentRankid!),
     })
 
     if (!currentRank) {
         throw new Error(`No matching VIP Rank found for user ${userId}.`)
     }
 
-    const nextLevelData = await db.query.VipLevel.findFirst({
-        where: eq(VipLevel.level, vipInfo.level),
+    const nextLevelData = await db.query.vipLevel.findFirst({
+        where: eq(vipInfo.level, _vipInfo.level),
     })
 
     if (!nextLevelData) {
-        throw new Error(`XP requirement for level ${vipInfo.level} not found.`)
+        throw new Error(`XP requirement for level ${_vipInfo.level} not found.`)
     }
 
     return {
-        info: vipInfo,
+        info: _vipInfo,
         rank: currentRank,
         xpForNextLevel: nextLevelData.xpForNext,
     }
@@ -74,18 +77,18 @@ export async function getVipDetailsForUser(userId: string): Promise<VipDetails |
 export function calculateXpForWagerAndWins(
     wagerAmount: number,
     winAmount: number,
-    vipInfo: VipInfoType
+    vipInfo: vipInfoType
 ): { baseXp: number; bonusXp: number; totalXp: number } {
     if (wagerAmount <= 0) {
         return { baseXp: 0, bonusXp: 0, totalXp: 0 }
     }
 
-    const levelConfig = getVipLevelConfiguration(vipInfo.level)
+    const levelConfig = getvipLevelConfiguration(vipInfo.level)
     const multiplier = levelConfig?.dailyBonusMultiplier || 1.0
-    
+
     // Base XP is from the wager amount
     const baseXp = Math.floor(wagerAmount * multiplier)
-    
+
     // Bonus XP is based on the win multiplier
     let bonusXp = 0
     const winMultiplier = winAmount / wagerAmount
@@ -104,30 +107,32 @@ export function calculateXpForWagerAndWins(
     return { baseXp, bonusXp, totalXp }
 }
 
-export async function addXpToUser(userId: string, xpAmount: number): Promise<XpCalculationResult> {
+export async function addXpTousers(userId: string, xpAmount: number): Promise<XpCalculationResult | null> {
     if (xpAmount <= 0) {
         throw new Error('XP amount must be positive')
     }
 
     return await db.transaction(async (tx) => {
-        let vipInfo = await tx.query.VipInfo.findFirst({ where: eq(VipInfo.userId, userId) })
-        if (!vipInfo) {
-            vipInfo = await createDefaultVipInfo(userId, tx)
+        let _vipInfo = await tx.query.vipInfo.findFirst({ where: eq(vipInfo.userId, userId) })
+        if (!_vipInfo) {
+            _vipInfo = await createDefaultvipInfo(userId, tx)
         }
-
-        const oldLevel = vipInfo.level
-        const oldTotalXp = vipInfo.totalXp
+        if (!_vipInfo) {
+            return null
+        }
+        const oldLevel = _vipInfo.level
+        const oldTotalXp = _vipInfo.totalXp
         const newTotalXp = oldTotalXp + xpAmount
 
-        const newLevelConfig = getVipLevelByTotalXp(newTotalXp)
+        const newLevelConfig = getvipLevelByTotalXp(newTotalXp)
         const newLevel = newLevelConfig.level
         const newCurrentLevelXp = newTotalXp - newLevelConfig.cumulativeXpToReach
 
-        await tx.update(VipInfo).set({
+        await tx.update(vipInfo).set({
             totalXp: newTotalXp,
             level: newLevel,
             xp: newCurrentLevelXp,
-        }).where(eq(VipInfo.userId, userId))
+        }).where(eq(vipInfo.userId, userId))
 
         const result = {
             xpGained: xpAmount,
@@ -144,32 +149,33 @@ export async function addXpToUser(userId: string, xpAmount: number): Promise<XpC
 
         return result
     }).then((result) => {
-        triggerUserUpdate(userId)
+        triggerusersUpdate(userId)
         return result
     })
 }
 
-async function createDefaultVipInfo(userId: string, tx: Transaction): Promise<VipInfoType> {
-    const users = await tx.select().from(User).where(eq(User.id, userId)).limit(1)
-    if (!users[0]) {
-        throw new Error(`User with ID ${userId} not found.`)
+async function createDefaultvipInfo(userId: string, tx: Transaction): Promise<vipInfoType> {
+    const _users = await tx.select().from(users).where(eq(users.id, userId)).limit(1)
+    if (!_users[0]) {
+        throw new Error(`users with ID ${userId} not found.`)
     }
-
-    const [newVipInfo] = await tx.insert(VipInfo).values({
+    const id = nanoid()
+    const [newvipInfo] = await tx.insert(vipInfo).values({
+        id,
         userId,
         level: 1,
         xp: 0,
         totalXp: 0,
     }).returning()
 
-    return newVipInfo
+    return newvipInfo
 }
 
 async function applyLevelUpBenefits(userId: string, newLevel: number, _tx: Transaction): Promise<void> {
-    const levelConfig = getVipLevelConfiguration(newLevel)
+    const levelConfig = getvipLevelConfiguration(newLevel)
     if (!levelConfig)
         return
 
     // The tx parameter is currently unused, prefixing with _ to satisfy ESLint
-    console.log(`User ${userId} has reached level ${newLevel}! Applying benefits.`)
+    console.log(`users ${userId} has reached level ${newLevel}! Applying benefits.`)
 }

@@ -1,41 +1,41 @@
 /* SPDX-FileCopyrightText: 2025-present Kriasoft */
 /* SPDX-License-Identifier: MIT */
 
+import db from '#/db'
+import type { UserWithRelations } from '#/db/schema'
+import { users } from '#/db/schema'
+import type { ServerWebSocket } from 'bun'
+import { eq } from 'drizzle-orm'
+import type { WebSocketData } from '../websocket/websocket.handler'
 import {
-    socketCheckUserData,
-    socketAddConnectionLimit,
-    socketRemoveConnectionLimit,
-    socketCheckAntiSpam,
-    socketRemoveAntiSpam,
-} from './utils/socket'
-import { settingCheck } from './utils/setting'
-import {
-    blackjackGetData,
-    blackjackSendJoinSocket,
-    blackjackSendBetSocket,
-    blackjackSendClearSocket,
-    blackjackSendInsuranceSocket,
-    blackjackSendHitSocket,
-    blackjackSendStandSocket,
-    blackjackSendSplitSocket,
-    blackjackSendDoubleSocket,
-} from './blackjack.service'
-import {
-    JoinMessage,
     BetMessage,
     ClearMessage,
-    InsuranceMessage,
-    HitMessage,
-    StandMessage,
-    SplitMessage,
     DoubleMessage,
+    HitMessage,
+    InsuranceMessage,
+    JoinMessage,
+    SplitMessage,
+    StandMessage,
 } from './blackjack.schema'
-import type { ServerWebSocket } from 'bun'
-import type { WebSocketData } from '../websocket/websocket.handler'
-import db from '#/db'
-import { User } from '#/db/schema'
-import { eq } from 'drizzle-orm'
-import type { UserWithRelations } from '#/db/schema'
+import {
+    blackjackGetData,
+    blackjackSendBetSocket,
+    blackjackSendClearSocket,
+    blackjackSendDoubleSocket,
+    blackjackSendHitSocket,
+    blackjackSendInsuranceSocket,
+    blackjackSendJoinSocket,
+    blackjackSendSplitSocket,
+    blackjackSendStandSocket,
+} from './blackjack.service'
+import { settingCheck } from './utils/setting'
+import {
+    socketAddConnectionLimit,
+    socketCheckAntiSpam,
+    socketCheckUserData,
+    socketRemoveAntiSpam,
+    socketRemoveConnectionLimit,
+} from './utils/socket'
 
 async function handleMessage(
     ws: ServerWebSocket<WebSocketData>,
@@ -57,8 +57,8 @@ async function handleMessage(
 
         const [user] = await db
             .select()
-            .from(User)
-            .where(eq(User.id, ws.data.user.id))
+            .from(users)
+            .where(eq(users.id, ws.data.user.id))
         socketCheckUserData(user as UserWithRelations, true)
         settingCheck()
 

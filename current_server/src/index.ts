@@ -1,5 +1,5 @@
 import type { Server } from 'bun'
-
+import chalk from 'chalk'
 import { and, eq } from 'drizzle-orm'
 import * as jose from 'jose'
 

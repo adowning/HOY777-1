@@ -8,7 +8,7 @@ import {
 } from 'drizzle-orm/pg-core'
 
 import { nanoid } from '../../utils/nanoid'
-import { User } from './core'
+import { users } from './schema'
 
 export const BlackjackGame = pgTable('blackjack_games', {
     id: varchar('id').primaryKey().$defaultFn(nanoid),
@@ -26,7 +26,7 @@ export const BlackjackBet = pgTable('blackjack_bets', {
     id: varchar('id').primaryKey().$defaultFn(nanoid),
     userId: varchar('user_id')
         .notNull()
-        .references(() => User.id),
+        .references(() => users.id),
     gameId: varchar('game_id')
         .notNull()
         .references(() => BlackjackGame.id),

@@ -1,25 +1,25 @@
-import type { JoinPayload, BlackjackTable, BetPayload } from './types'
+import db from '#/db'
+import type { UserWithRelations } from '#/db/schema'
+import { BlackjackBet, users } from '#/db/schema'
+import type { ServerWebSocket } from 'bun'
+import { eq } from 'drizzle-orm'
+import { TableUpdateMessage, UserUpdateMessage } from './blackjack.schema'
+import type { BetPayload, BlackjackTable, JoinPayload } from './types'
 import {
+    blackjackCheckSendBetBets,
+    blackjackCheckSendBetData,
+    blackjackCheckSendBetSeat,
+    blackjackCheckSendBetTable,
+    blackjackCheckSendBetUser,
     blackjackCheckSendJoinData,
     blackjackCheckSendJoinTable,
     blackjackCheckSendJoinUser,
-    blackjackCheckSendBetData,
-    blackjackCheckSendBetTable,
-    blackjackCheckSendBetBets,
-    blackjackCheckSendBetSeat,
-    blackjackCheckSendBetUser,
+    blackjackGetBetAmount,
     blackjackTableListSanitize,
     blackjackTableSanitize,
-    blackjackGetBetAmount,
 } from './utils/blackjack.utils'
 import { socketRemoveAntiSpam } from './utils/socket'
 import { generalUserGetRakeback } from './utils/user'
-import { TableUpdateMessage, UserUpdateMessage } from './blackjack.schema'
-import type { ServerWebSocket } from 'bun'
-import db from '#/db'
-import { BlackjackBet, User } from '#/db/schema'
-import { eq } from 'drizzle-orm'
-import type { UserWithRelations } from '#/db/schema'
 
 const blackjackTables: BlackjackTable[] = []
 const blackjackBetPendingCounts: { [key: string]: number } = {}
@@ -65,7 +65,7 @@ export async function blackjackSendJoinSocket(
     blackjackTable.players.sort((a, b) => a.seat - b.seat)
 
     if (blackjackTable.game.state === 'created') {
-        blackjackGameCountdown(blackjackTable)
+        blackjackGameCountdown()
     }
 
     return {
@@ -110,11 +110,11 @@ export async function blackjackSendBetSocket(
 
         const result = await db.transaction(async (tx) => {
             const [updatedUser] = await tx
-                .update(User)
+                .update(users)
                 .set({
                     activeWalletId: user.activeWallet!.id,
                 })
-                .where(eq(User.id, user.id))
+                .where(eq(users.id, user.id))
                 .returning()
 
             const betPromises = bets.map(async (betData) => {

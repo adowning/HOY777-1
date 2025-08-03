@@ -1,6 +1,6 @@
 import { createRoute, z } from '@hono/zod-openapi'
 
-import { OperatorResponseSchema, ProductResponseSchema } from '#/db'
+import { selectOperatorSchema, productResponseSchema } from '#/db'
 import { createRouter } from '#/lib/create-app'
 import { authMiddleware } from '#/middlewares/auth.middleware'
 
@@ -18,7 +18,7 @@ const getOperatorsRoute = createRoute({
             description: 'Returns a list of operators.',
             content: {
                 'application/json': {
-                    schema: z.array(OperatorResponseSchema),
+                    schema: z.array(selectOperatorSchema),
                 },
             },
         },
@@ -36,7 +36,7 @@ const getOperatorProductsRoute = createRoute({
             description: 'Returns a list of products.',
             content: {
                 'application/json': {
-                    schema: z.array(ProductResponseSchema),
+                    schema: z.array(productResponseSchema),
                 },
             },
         },

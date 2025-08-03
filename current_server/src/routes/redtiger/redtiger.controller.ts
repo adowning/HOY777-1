@@ -10,7 +10,6 @@ import {
 import { SessionManager } from '#/lib/session.manager'
 
 import { createRedtigerSettings, createRedtigerSpin } from './redtiger.service'
-import { triggerUserUpdate } from '#/lib/websocket.service'
 
 export const redtigerController = {
     settings: async (c: Context) => {
@@ -19,22 +18,12 @@ export const redtigerController = {
         const data = rtgSettingsRequestDtoSchema.parse(body)
         const user = c.get('user') as UserWithRelations
         const authSession = c.get('authSession')
-        if (!data.gameId || !authSession) {
+        if (!data.gamesId || !authSession) {
             return c.json({ message: 'not authenticated' }, 401)
         }
 
-        const gameName = `${data.gameId}RTG`
-        // Use the new SessionManager to start the game session
-        // console.log(
-        //     chalk.magenta(
-        //         'gameName',
-        //         gameName,
-        //         'user',
-        //         user.id,
-        //         'authSession',
-        //         authSession.id
-        //     )
-        // )
+        const gameName = `${data.gamesId}RTG`
+
         const gameSession = await SessionManager.startGameSession(c, gameName)
 
         if (!gameSession) {
@@ -66,7 +55,7 @@ export const redtigerController = {
             return c.json({ message: 'no gameSession RT46' }, 404)
         }
 
-        const gameName = `${data.gameId}RTG`
+        const gameName = `${data.gamesId}RTG`
         if (!gameName) {
             return c.json({ message: 'no gameName' }, 404)
         }

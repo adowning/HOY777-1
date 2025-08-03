@@ -1,78 +1,62 @@
-import { UserWithRelations } from '#/db/schema'
+import type { UserWithRelations } from '#/db/schema'
 
 interface SocketActiveConnections {
-    [key: string]: string[]
+  [key: string]: string[]
 }
 
 const socketActiveConnections: SocketActiveConnections = {
-    general: [],
-    crash: [],
-    roll: [],
-    blackjack: [],
-    duels: [],
-    combat_legend: [],
-    mines: [],
-    towers: [],
-    unbox: [],
-    slots: [],
-    battles: [],
-    upgrader: [],
-    cashier: [],
-    admin: [],
+  general: [],
+  crash: [],
+  roll: [],
+  blackjack: [],
+  duels: [],
+  combat_legend: [],
+  mines: [],
+  towers: [],
+  unbox: [],
+  slots: [],
+  battles: [],
+  upgrader: [],
+  cashier: [],
+  admin: [],
 }
 
 const socketActiveRequests: string[] = []
 
 export function socketCheckUserData(
-    user: UserWithRelations | null,
-    checkAuth: boolean
+  user: UserWithRelations | null,
+  checkAuth: boolean
 ): void {
-    if (checkAuth && !user) {
-        throw new Error('You need to sign in to perform this action.')
-    }
-    // if (checkAuth && user!.banExpire && new Date(user!.banExpire).getTime() > Date.now()) {
-    //     throw new Error(`You are banned for the following reason: ${user!.banReason}.`);
-    // }
+  if (checkAuth && !user) {
+    throw new Error('You need to sign in to perform this action.')
+  }
 }
-
-// export function socketCheckUserRank(
-//     user: UserWithRelations | undefined,
-//     ranks: string[] | undefined
-// ): void {
-//     // if (user === undefined || ranks === undefined) {
-//     //     throw new Error('Something went wrong. Please try again in a few seconds.');
-//     // } else if (user.vipInfo.rank === undefined || !ranks.includes(user.vipInfo.rank)) {
-//     //     throw new Error('You are not authorized to perform the requested action.');
-//     // }
-// }
 
 export function socketAddConnectionLimit(
-    room: string,
-    identifier: string
+  room: string,
+  identifier: string
 ): void {
-    if (socketActiveConnections[room]) {
-        socketActiveConnections[room].push(identifier.toString())
-    }
+  if (socketActiveConnections[room]) {
+    socketActiveConnections[room].push(identifier.toString())
+  }
 }
-
 
 export function socketRemoveConnectionLimit(
-    room: string,
-    identifier: string
+  _room: string,
+  _identifier: string
 ): void {
-    // const index = socketActiveConnections[room].findIndex((element) => element === identifier.toString());
-    // if (index !== -1) { socketActiveConnections[room].splice(index, 1); }
+  // This function is a placeholder and does not have any functionality.
 }
 
-export function socketCheckAntiSpam(identifier: string): Promise<void> {
-    return new Promise(async (resolve) => {
-        resolve()
-    })
+export function socketCheckAntiSpam(_identifier: string): Promise<void> {
+  return new Promise(async (resolve) => {
+    resolve()
+  })
 }
 
 export function socketRemoveAntiSpam(identifier: string): void {
-    const index = socketActiveRequests.indexOf(identifier.toString())
-    if (index !== -1) {
-        socketActiveRequests.splice(index, 1)
-    }
+  const index = socketActiveRequests.indexOf(identifier.toString())
+  if (index !== -1) {
+    socketActiveRequests.splice(index, 1)
+  }
 }

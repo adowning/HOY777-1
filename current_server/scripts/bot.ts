@@ -89,8 +89,8 @@ async function createNewGameSession(): Promise<GameSession> {
                     'Content-Type': 'application/json',
                 },
                 body: JSON.stringify({
-                    username: process.env.TEST_USERNAME || 'testuser',
-                    password: process.env.TEST_PASSWORD || 'testpassword',
+                    username:'asdf', //process.env.TEST_USERNAME || 'asdf',
+                    password: 'asdfasdf'//process.env.TEST_PASSWORD || 'asdfasdf',
                 }),
             },
             5000
@@ -111,7 +111,7 @@ async function createNewGameSession(): Promise<GameSession> {
             throw new Error('Invalid user data in login response')
         }
 
-        const sessionFingerprint = randomUUID()
+
         const sessionFingerprint = randomUUID()
         const payload = {
             token: null,
